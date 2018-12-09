@@ -30,8 +30,16 @@
 # Diplomacy
 	# Factions
 	# Puppets
-		set_cosmetic_tag = CAN_ENG
 	# Tech Sharing
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		add_ideas = CAN_great_depression_1
+		add_ideas = CAN_conscription_crisi
+		add_to_tech_sharing_group = commonwealth_research
+	}
+	set_cosmetic_tag = CAN_ENG
 # Set Politics
 	set_politics = {
 
@@ -251,14 +259,5 @@
 			ship_torpedo_upgrade = 1
 		}
 	}
-# Miscellaneous
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		add_ideas = CAN_great_depression_1
-		add_ideas = CAN_conscription_crisi
-		add_to_tech_sharing_group = commonwealth_research
-	}
-	set_convoys = 100
+set_convoys = 100
 	
