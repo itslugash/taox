@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 48
+	capital = 48 # Sofia - Bulgaria
 # Order of Battle
 	oob = "BUL_1936"
 # Research Slots
