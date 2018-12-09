@@ -18,7 +18,7 @@
 	priority = 2
 }
 division_template = {
-	name = "Militia"				# Militia units (lowest experience, oldest equipment)
+	name = "Militia"					# Militia units (lowest experience, oldest equipment)
 
 	division_names_group = AFG_GAR_01
 
@@ -131,10 +131,16 @@ units = {
 		start_equipment_factor = 0.3
 
 	}	
-
 }
 
-### Starting Equipment ###
+air_wings = {
+	### Royal Afghan Air Force
+	267 = {
+		CAS_equipment_1 =  { owner = "AFG" 	amount = 28 }		# Air Group -- Hawker Harts, Hinds
+
+	}
+}
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
@@ -142,7 +148,7 @@ instant_effect = {
 			creator = "AFG"
 		}
 		requested_factories = 1
-		progress = 0.28
+		progress = 0.75
 		efficiency = 100
 	}
 }
