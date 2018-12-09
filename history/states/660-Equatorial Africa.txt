@@ -1,0 +1,25 @@
+
+state = {
+	id = 660
+	name = "STATE_660"
+	manpower = 2996097
+	
+	state_category = wasteland
+
+	resources = {
+		rubber = 3 # was: 4
+	}
+	
+	history = {
+		owner = EAF
+		add_core_of = EAF
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1473 1883 1974 1993 2081 3123 3165 3181 4902 4897 4978 5084 5136 7919 7963 8078 9152 10893 11108 11194 12719 12830 13138
+	}
+}
