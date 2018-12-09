@@ -1,0 +1,23 @@
+
+state = {
+	id = 515
+	name = "STATE_515"
+	manpower = 1059103
+	
+	state_category = wasteland
+	impassable = yes
+
+	history = {
+		owner = WAF
+		add_core_of = WAF
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1956 2068 4913 7939 8028 8128 10758 10780 10805 10917
+	}
+	
+}
