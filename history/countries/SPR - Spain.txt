@@ -1,0 +1,207 @@
+﻿capital = 41 # Madrid - Spain
+
+oob = "SPR_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 3.14
+		}
+
+		socialism = {
+			popularity = 21.74
+		}
+			
+		social_democracy = {
+			popularity = 14.36
+		}
+			
+		liberalism = { 
+			popularity = 7.55
+		}
+
+		centrism = { 
+			popularity = 4.83
+		}
+
+		conservatism = {
+			popularity = 43.2
+		}
+			
+		nationalism = {
+			popularity = 0
+		}
+			
+		reactionary = { 
+			popularity = 5.11
+		}
+
+		fascism = { 
+			popularity = 0.07
+		}
+	}
+		
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manuel Azaña"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_SPR_Manuel_Azana.dds"
+	expire = "1940.11.3"
+	ideology = marxism-leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Azaña"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_SPR_Manuel_Azana.dds"
+	expire = "1940.11.3"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Azaña"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_SPR_Manuel_Azana.dds"
+	expire = "1940.11.3"
+	ideology = social_democracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Azaña"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_SPR_Manuel_Azana.dds"
+	expire = "1940.11.3"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Portela"
+	desc = "POLITICS_MANUEL_PORTELA_DESC"
+	picture = "Portrait_SPR_Manuel_Portela.dds"
+	expire = "1952.4.29"
+	ideology = independent
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José María Gil-Robles y Quiñones"
+	desc = "POLITICS_JOSE_MARIA_DESC"
+	picture = "Portrait_SPR_Jose_Maria.dds"
+	expire = "1980.9.13"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José María Gil-Robles y Quiñones"
+	desc = "POLITICS_JOSE_MARIA_DESC"
+	picture = "Portrait_SPR_Jose_Maria.dds"
+	expire = "1980.9.13"
+	ideology = nationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José María Gil-Robles y Quiñones"
+	desc = "POLITICS_JOSE_MARIA_DESC"
+	picture = "Portrait_SPR_Jose_Maria.dds"
+	expire = "1980.9.13"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Antonio Primo de Rivera"
+	desc = "POLITICS_JOSE_ANTONIO_DESC"
+	picture = "Portrait_SPR_Jose_Antonio.dds"
+	expire = "1936.11.20"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "José Asensio Torrado"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+# Variants
+create_equipment_variant = {
+	name = "C Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+create_equipment_variant = {
+	name = "Príncipe Alfonso Class"
+	type = light_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+
+# Miscellaneous
+set_convoys = 150

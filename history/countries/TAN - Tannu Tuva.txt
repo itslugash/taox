@@ -1,0 +1,68 @@
+﻿capital = 329 # Kyzyl - Tannu Tuva
+
+oob = "TAN_1936"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 100
+		}
+
+		socialism = {
+			popularity = 0
+		}
+		
+		social_democracy = {
+			popularity = 0
+		}
+		
+		liberalism = { 
+			popularity = 0
+		}
+
+		centrism = { 
+			popularity = 0
+		}
+
+		conservatism = {
+			popularity = 0
+		}
+		
+		nationalism = {
+			popularity = 0
+		}
+		
+		reactionary = { 
+			popularity = 0
+		}
+
+		fascism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Salchak Toka"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "Portrait_TAN_Salchak_Toka.dds"
+	expire = "1973.5.11"
+	ideology = communism_subtype
+	traits = {
+		#
+	}
+}
