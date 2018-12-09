@@ -1,15 +1,16 @@
 ﻿# Capital City
-	capital = 267 # Kabul - Afghanistan
+	capital = 324
 # Order of Battle
-	oob = "AFG_1936"
+	oob = "BHU_1936"
 # Research Slots
 # Stability
+	set_stability = 0.8
 # War Support
+	set_war_support = 0.1
 # Technology
 	set_technology = {
 		infantry_weapons = 1
-		gwtank = 1
-		basic_light_tank = 1
+		tech_mountaineers = 1
 	}
 # Diplomacy
 	# Factions
@@ -71,10 +72,10 @@
 	# Nationalism
 	# Reactionary
 		create_country_leader = {
-			name = "Mohammed Zahir Shah"
-			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_AFG_Mohammed_Zahir_Shah_1934.dds"
-			expire = "2007.7.23"
+			name = "Jigme Wangchuck"
+			desc = "BHU_Jigme_Wangchuck_desc"
+			picture = "Portrait_BHU_Jigme_Wangchuck_1926.dds"
+			expire = "1952.3.30"
 			ideology = monarchism
 			traits = {
 				#
@@ -83,18 +84,6 @@
 	# Fascism
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
-			name = "Sardar Shah Wali Khan"
-			portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-			traits = {
-				desert_fox
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
 	# General(s)
 	# Admiral(s)
 # Variants

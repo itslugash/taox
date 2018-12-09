@@ -1,0 +1,151 @@
+﻿# Capital City
+	capital = 500 # Rio de Janeiro - Brazil
+# Order of Battle
+	oob = "BRA_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		tech_support = 1		
+		tech_engineers = 1
+		gw_artillery = 1
+		gwtank = 1
+		early_fighter = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+	set_country_flag = monroe_doctrine
+# Set Politics
+	set_politics = {
+
+		parties = {
+			communism = { 
+				popularity = 0
+			}
+
+			socialism = {
+				popularity = 0
+			}
+			
+			social_democracy = {
+				popularity = 0
+			}
+			
+			liberalism = { 
+				popularity = 0
+			}
+
+			centrism = { 
+				popularity = 30.02
+			}
+
+			conservatism = {
+				popularity = 0
+			}
+			
+			nationalism = {
+				popularity = 70.58
+			}
+			
+			reactionary = { 
+				popularity = 0
+			}
+
+			fascism = { 
+				popularity = 0.4
+			}
+		}
+		
+		ruling_party = nationalism
+		last_election = "1934.7.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Communism
+		create_country_leader = {
+			name = "Luís Carlos Prestes"
+			desc = "BRA_Luis_Carlos_Prestes_desc"
+			picture = "Portrait_BRA_Luis_Carlos_Prestes.dds"
+			expire = "1990.3.7"
+			ideology = marxism-leninism
+			traits = {
+				#
+			}
+		}
+	# Socialism
+	# Social Democracy
+	# Liberalism
+	# Centrism
+	# Conservatism
+	# Nationalism
+		create_country_leader = {
+			name = "Getúlio Vargas"
+			desc = "BRA_Getulio_vargas_desc"
+			picture = "Portrait_BRA_Getulio_Vargas_1930.dds"
+			expire = "1954.8.24"
+			ideology = nationalism_subtype
+			traits = {
+				#
+			}
+		}
+	# Reactionary
+	# Fascism
+		create_country_leader = {
+			name = "Plínio Salgado"
+			desc = "BRA_Plinio_Salgado_desc"
+			picture = "Portrait_BRA_Plinio_Salgado.dds"
+			expire = "1975.12.8"
+			ideology = clerical_fascism
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+		create_field_marshal = {
+			name = "João Baptista Mascarenhas de Morais"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			traits = {
+				jungle_rat
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		create_field_marshal = {
+			name = "Eurico Gaspar Dutra"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			traits = {
+				ranger
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	# General(s)
+	# Admiral(s)
+		create_navy_leader = {
+			name = "Augusto Hamann Rademaker Grünewald"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			traits = {
+				#
+			}
+			skill = 3
+		}
+# Variants
+set_convoys = 40

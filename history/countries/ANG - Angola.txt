@@ -1,20 +1,29 @@
 ﻿# Capital City
-	capital = 267 # Kabul - Afghanistan
+	capital = 540 # Luanda - Angola
 # Order of Battle
-	oob = "AFG_1936"
-# Research Slots
+	oob = "ANG_1936"
 # Stability
 # War Support
 # Technology
 	set_technology = {
 		infantry_weapons = 1
-		gwtank = 1
-		basic_light_tank = 1
+		infantry_weapons1 = 1
+		gw_artillery = 1
+		tech_support = 1		
+		tech_engineers = 1
+		early_fighter = 1
+		early_bomber = 1
+		CAS1 = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		transport = 1
 	}
 # Diplomacy
 	# Factions
 	# Puppets
 	# Tech Sharing
+	set_cosmetic_tag = POR_ANG
 # Set Politics
 	set_politics = {
 
@@ -36,7 +45,7 @@
 			}
 
 			centrism = { 
-				popularity = 0
+				popularity = 100
 			}
 
 			conservatism = {
@@ -48,7 +57,7 @@
 			}
 			
 			reactionary = { 
-				popularity = 100
+				popularity = 0
 			}
 
 			fascism = { 
@@ -56,7 +65,7 @@
 			}
 		}
 		
-		ruling_party = reactionary
+		ruling_party = centrism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -67,34 +76,24 @@
 	# Social Democracy
 	# Liberalism
 	# Centrism
-	# Conservatism
-	# Nationalism
-	# Reactionary
 		create_country_leader = {
-			name = "Mohammed Zahir Shah"
-			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_AFG_Mohammed_Zahir_Shah_1934.dds"
-			expire = "2007.7.23"
-			ideology = monarchism
+			name = "António Lopes Mateus"
+			desc = "POR_Antonio_Lopes_Mateus_desc"
+			picture = "gfx/leaders/POR/Portrait_POR_Antonio_Lopes_Mateus_1936-1940.dds"
+			expire = "1955.7.2"
+			ideology = independent
 			traits = {
 				#
 			}
 		}
+	# Conservatism
+	# Nationalism
+	# Reactionary
 	# Fascism
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
-			name = "Sardar Shah Wali Khan"
-			portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-			traits = {
-				desert_fox
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
 	# General(s)
 	# Admiral(s)
 # Variants
+# Miscellaneous
+	set_convoys = 5

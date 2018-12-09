@@ -1,15 +1,15 @@
 ﻿# Capital City
-	capital = 267 # Kabul - Afghanistan
+	capital = 44 # Tirana - Albania
 # Order of Battle
-	oob = "AFG_1936"
+	oob = "ALB_1936"
 # Research Slots
 # Stability
 # War Support
 # Technology
 	set_technology = {
 		infantry_weapons = 1
-		gwtank = 1
-		basic_light_tank = 1
+		tech_support = 1
+		tech_recon = 1
 	}
 # Diplomacy
 	# Factions
@@ -20,7 +20,7 @@
 
 		parties = {
 			communism = { 
-				popularity = 0
+				popularity = 1.3
 			}
 
 			socialism = {
@@ -32,11 +32,11 @@
 			}
 			
 			liberalism = { 
-				popularity = 0
+				popularity = 46.75
 			}
 
 			centrism = { 
-				popularity = 0
+				popularity = 18.18
 			}
 
 			conservatism = {
@@ -48,7 +48,7 @@
 			}
 			
 			reactionary = { 
-				popularity = 100
+				popularity = 33.77
 			}
 
 			fascism = { 
@@ -57,7 +57,7 @@
 		}
 		
 		ruling_party = reactionary
-		last_election = "1936.1.1"
+		last_election = "1932.7.2"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -71,10 +71,10 @@
 	# Nationalism
 	# Reactionary
 		create_country_leader = {
-			name = "Mohammed Zahir Shah"
-			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_AFG_Mohammed_Zahir_Shah_1934.dds"
-			expire = "2007.7.23"
+			name = "Zog I"
+			desc = "ALB_Zog_I_desc"
+			picture = "Portrait_ALB_Zog_I_1930-1939.dds"
+			expire = "1961.4.9"
 			ideology = monarchism
 			traits = {
 				#
@@ -83,18 +83,19 @@
 	# Fascism
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
-			name = "Sardar Shah Wali Khan"
-			portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	# Generals(s)
+		create_corps_commander = {
+			name = "Xhemal Aranitasi"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 			traits = {
-				desert_fox
+				#
 			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill = 2
+			attack_skill = 1
+		    defense_skill = 3
+		    planning_skill = 2
+		    logistics_skill = 1
 		}
-	# General(s)
 	# Admiral(s)
 # Variants
+set_convoys = 5

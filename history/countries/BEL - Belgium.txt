@@ -1,0 +1,130 @@
+﻿# Capital City
+	capital = 6 # Brussels - Belgium
+# Order of Battle
+	oob = "BEL_1936"
+# Research Slots
+	set_research_slots = 3
+# Stability
+	set_stability = 0.8
+# War Support
+	set_war_support = 0.3
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
+		motorised_infantry = 1
+		early_fighter = 1
+		trench_warfare = 1
+	}
+# Diplomacy
+	# Factions
+	# Puppets
+		if = {
+			limit = {
+				has_dlc = "Together for Victory"
+			}
+			set_autonomy = {
+				target = COG
+				autonomous_state = autonomy_colony
+			}
+			else = {
+				puppet = COG
+			}
+		}
+	# Tech Sharing
+# Set Politics
+	set_politics = {
+
+		parties = {
+			communism = { 
+				popularity = 6.1
+			}
+
+			socialism = {
+				popularity = 32.1
+			}
+			
+			social_democracy = {
+				popularity = 0
+			}
+			
+			liberalism = { 
+				popularity = 12.4
+			}
+
+			centrism = { 
+				popularity = 3.1
+			}
+
+			conservatism = {
+				popularity = 27.7
+			}
+			
+			nationalism = {
+				popularity = 0
+			}
+			
+			reactionary = { 
+				popularity = 0
+			}
+
+			fascism = { 
+				popularity = 18.6
+			}
+		}
+		
+		ruling_party = conservatism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Communism
+	# Socialism
+	# Social Democracy
+	# Liberalism
+	# Centrism
+	# Conservatism
+		create_country_leader = {
+			name = "Paul van Zeeland"
+			desc = "BEL_Paul_van_Zeeland_desc"
+			picture = "Portrait_BEL_Paul_van_Zeeland_1935-1937.dds"
+			expire = "1973.9.22"
+			ideology = conservatism_subtype
+			traits = {
+				#
+			}
+		}
+	# Nationalism
+	# Reactionary
+	# Fascism
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+		create_corps_commander = {
+			name = "M.C.L. Keyaerts"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			traits = {
+				hill_fighter
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	# Admiral(s)
+		create_navy_leader = {
+			name = "Georges Timmermans"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			traits = {
+				seawolf
+			}
+			skill = 4
+		}
+# Variants
+set_convoys = 80

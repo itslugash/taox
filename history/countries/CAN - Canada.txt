@@ -1,0 +1,264 @@
+﻿# Capital City
+	capital = 276 # Ottawa - Canada
+# Order of Battle
+	oob = "CAN_1936"
+# Research Slots
+	set_research_slots = 3
+# Stability
+	set_stability = 0.8
+# War Support
+	set_war_support = 0.1
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		gw_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		early_fighter = 1
+		naval_bomber1 = 1
+		early_bomber = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+	}
+# Diplomacy
+	# Factions
+	# Puppets
+		set_cosmetic_tag = CAN_ENG
+	# Tech Sharing
+# Set Politics
+	set_politics = {
+
+		parties = {
+			communism = { 
+				popularity = 0.46
+			}
+
+			socialism = {
+				popularity = 9.32
+			}
+			
+			social_democracy = {
+				popularity = 0.52
+			}
+			
+			liberalism = { 
+				popularity = 46.58
+			}
+
+			centrism = { 
+				popularity = 4.77
+			}
+
+			conservatism = {
+				popularity = 29.6
+			}
+			
+			nationalism = {
+				popularity = 8.75
+			}
+			
+			reactionary = { 
+				popularity = 0
+			}
+
+			fascism = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = liberalism
+		last_election = "1935.10.14"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Communism
+		create_country_leader = { # Tim Buck
+			name = "Tim Buck"
+			desc = "POLITICS_TIM_BUCK_DESC"
+			picture = "Portrait_CAN_Tim_Buck.dds"
+			expire = "1973.3.11"
+			ideology = marxism_leninism
+			traits = {
+				#
+			}
+		}
+	# Socialism
+		create_country_leader = { # J. S. Woodsworth
+			name = "J. S. Woodsworth"
+			desc = "POLITICS_J_S_WOODSWORTH_DESC"
+			picture = "Portrait_CAN_J_S_Woodsworth.dds"
+			expire = "1942.3.21"
+			ideology = democratic_socialism
+			traits = {
+				#
+			}
+		}
+	# Social Democracy
+		create_country_leader = { # J. S. Woodsworth
+			name = "J. S. Woodsworth"
+			desc = "POLITICS_J_S_WOODSWORTH_DESC"
+			picture = "Portrait_CAN_J_S_Woodsworth.dds"
+			expire = "1942.3.21"
+			ideology = social_democracy_subtype
+			traits = {
+				#
+			}
+		}
+	# Liberalism
+		create_country_leader = { # William Lyon Mackenzie King
+			name = "William Lyon Mackenzie King"
+			desc = "POLITICS_WILLIAM_LYON_MACKENZIE_KING_DESC"
+			picture = "Portrait_CAN_William_Lyon_Mackenzie_King.dds"
+			expire = "1950.7.22"
+			ideology = social_liberalism
+			traits = {
+				#
+			}
+		}
+	# Centrism
+		create_country_leader = { # John Horne Blackmore
+			name = "John Horne Blackmore"
+			desc = "POLITICS_JOHN_HORNE_BLACKMORE_DESC"
+			picture = "Portrait_CAN_John_Horne_Blackmore.dds"
+			expire = "1971.5.2"
+			ideology = populism
+			traits = {
+				#
+			}
+		}
+	# Conservatism
+		create_country_leader = { # R. B. Bennett
+			name = "R. B. Bennett"
+			desc = "POLITICS_R_B_BENNETT_DESC"
+			picture = "Portrait_CAN_R_B_Bennett.dds"
+			expire = "1947.6.26"
+			ideology = conservatism_subtype
+			traits = {
+				#
+			}
+		}
+	# Nationalism
+		create_country_leader = { # Henry Herbert Stevens
+			name = "Henry Herbert Stevens"
+			desc = "POLITICS_HENRY_HERBERT_STEVENS_DESC"
+			picture = "Portrait_CAN_Henry_Herbert_Stevens.dds"
+			expire = "1973.6.14"
+			ideology = national_conservatism
+			traits = {
+				#
+			}
+		}
+	# Reactionary
+	# Fascism
+		create_country_leader = { # Adrien Arcand
+			name = "Adrien Arcand"
+			desc = "POLITICS_ADRIEN_ARCAND_DESC"
+			picture = "Portrait_CAN_Adrien_Arcand.dds"
+			expire = "1967.8.1"
+			ideology = nazism
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+		create_corps_commander = { # Charles Foulkes
+			name = "Charles Foulkes"
+			gfx = "GFX_CAN_charles_foulkes"
+			traits = {
+				#
+			}
+			skill = 4
+		    attack_skill = 4
+		    defense_skill = 2
+		    planning_skill = 4
+		    logistics_skill = 3
+		}
+		create_corps_commander = { # Thomas Victor Anderson
+			name = "Thomas Victor Anderson"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			traits = {
+				#
+			}
+			skill = 4
+		    attack_skill = 2
+		    defense_skill = 3
+		    planning_skill = 3
+		    logistics_skill = 5
+		}
+		create_corps_commander = { # Bert Hoffmeister
+			name = "Bert Hoffmeister"
+			gfx = "GFX_CAN_bert_hoffmeister"
+			traits = {
+				hill_fighter
+			}
+			skill = 4
+		    attack_skill = 4
+		    defense_skill = 3
+		    planning_skill = 3
+		    logistics_skill = 3
+		}
+	# Admiral(s)
+		create_navy_leader = { # Leonard W. Murray
+			name = "Leonard W. Murray"
+			gfx = "GFX_CAN_leonard_warren_murray"
+			traits = {
+				#
+			}
+			skill = 4
+		}
+		create_navy_leader = { # William Adolf Baillie Grohman
+			name = "H.T. Baillie-Grohman"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			traits = {
+				spotter
+			}
+			skill = 4
+		}
+		create_navy_leader = { # James D. Prentice
+			name = "James D. Prentice"
+			gfx = "GFX_CAN_james_prentice"
+			traits = {
+				spotter
+			}
+			skill = 3
+		}
+		create_navy_leader = { # Harry DeWolf
+			name = "Harry DeWolf"
+			gfx = "GFX_CAN_harry_dewolf"
+			traits = {
+				superior_tactician
+			}
+			skill = 4
+		}
+# Variants
+	create_equipment_variant = {
+		name = "Sanguenay Class"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+# Miscellaneous
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		add_ideas = CAN_great_depression_1
+		add_ideas = CAN_conscription_crisi
+		add_to_tech_sharing_group = commonwealth_research
+	}
+	set_convoys = 100
+	

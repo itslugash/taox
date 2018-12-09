@@ -1,0 +1,182 @@
+﻿# Capital City
+	capital = 278 # Buenos Aires - Argentina
+# Order of Battle
+	oob = "ARG_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+		gw_artillery = 1
+		early_fighter = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+	set_country_flag = monroe_doctrine
+# Set Politics
+	set_politics = {
+
+		parties = {
+			communism = { 
+				popularity = 0
+			}
+
+			socialism = {
+				popularity = 0.7
+			}
+			
+			social_democracy = {
+				popularity = 9.2
+			}
+			
+			liberalism = { 
+				popularity = 63.1
+			}
+
+			centrism = { 
+				popularity = 2.4
+			}
+
+			conservatism = {
+				popularity = 24.6
+			}
+			
+			nationalism = {
+				popularity = 0
+			}
+			
+			reactionary = { 
+				popularity = 0
+			}
+
+			fascism = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = conservatism
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+# Country Leaders
+	# Communism
+		create_country_leader = {
+			name = "Fanny Edelman"
+			desc = "POLITICS_FANNY_EDELMAN_DESC"
+			picture = "Portrait_ARG_Fanny_Edelman.dds"
+			expire = "2011.11.1"
+			ideology = marxism-leninism
+			traits = {
+				#
+			}
+		}
+	# Socialism
+	# Social Democracy
+	# Liberalism
+		create_country_leader = {
+			name = "Marcelo Torcuato de Alvear"
+			desc = "POLITICS_MARCELO_TORCUATO_DE_ALVEAR_DESC"
+			picture = "Portrait_ARG_Marcelo_Torcuato_de_Alvear.dds"
+			expire = "1942.4.23"
+			ideology = social_liberalism
+			traits = {
+				#
+			}
+		}
+	# Centrism
+	# Conservatism
+		create_country_leader = {
+			name = "Agustín Pedro Justo"
+			desc = "ARG_Agustin_Pedro_Justo_desc"
+			picture = "Portrait_ARG_Agustin_Pedro_Justo_1932-1938.dds"
+			expire = "1943.1.11"
+			ideology = conservatism_subtype
+			traits = {
+				#
+			}
+		}
+	# Nationalism
+	# Reactionary
+	# Fascism
+		create_country_leader = {
+			name = "Nimio de Anquín"
+			desc = "POLITICS_NIMIO_DE_ANQUIN_DESC"
+			picture = "Portrait_ARG_Nimio_de_Anquin.dds"
+			expire = "1979.7.2"
+			ideology = clerical_fascism
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+		create_corps_commander = { # Arturo Rawson
+			name = "Arturo Rawson"
+			portrait_path = "Portrait_ARG_Arturo_Rawson.dds"
+			traits = {
+				#
+			}
+			skill = 3
+		    attack_skill = 4
+		    defense_skill = 3
+		    planning_skill = 1
+		    logistics_skill = 2
+		}
+		create_corps_commander = { # Juan Pistarini
+			name = "Juan Pistarini"
+			portrait_path = "Portrait_ARG_Juan_Pistarini.dds"
+			traits = {
+				fortress_buster
+				urban_assault_specialist
+			}
+			skill = 3
+		    attack_skill = 1
+		    defense_skill = 2
+		    planning_skill = 4
+		    logistics_skill = 3
+		}
+	# Admiral(s)
+		create_navy_leader = { # Alberto Teisaire
+			name = "Alberto Teisaire"
+			portrait_path = "Portrait_ARG_Alberto_Teisaire.dds"
+			traits = {
+				blockade_runner
+			}
+			skill = 3
+		}
+# Variants
+	create_equipment_variant = {
+		name = "Cervantes Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Veinticinco de Mayo Class"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 1
+		}
+	}
+set_convoys = 120
+	

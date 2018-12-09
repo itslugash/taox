@@ -1,0 +1,204 @@
+﻿capital = 46 # Bucharest - Romania
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+
+set_stability = 0.6
+set_war_support = 0.6
+
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+}
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialism = {
+			popularity = 0
+		}
+		
+		social_democracy = {
+			popularity = 1
+		}
+		
+		liberalism = { 
+			popularity = 0
+		}
+
+		centrism = { 
+			popularity = 8.8
+		}
+
+		conservatism = {
+			popularity = 23.8
+		}
+		
+		nationalism = {
+			popularity = 41.3
+		}
+		
+		reactionary = { 
+			popularity = 0
+		}
+
+		fascism = { 
+			popularity = 25.1
+		}
+	}
+	
+	ruling_party = nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alexander Danieliuk-Stefanski"
+	desc = "POLITICS_ALEXANDER_DANIELIUK-STEFANSKI_DESC"
+	picture = "Portrait_ROM_Alexander_Danieliuk-Stefanski.dds"
+	expire = "1965.1.1"
+	ideology = marxism-leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Iuliu Maniu"
+	desc = "POLITICS_IULIU_MANIU_DESC"
+	picture = "Portrait_ROM_IULIU_MANIU.dds"
+	expire = "1953.2.5"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gheorghe Tătărescu"
+	desc = "POLITICS_GEORGHE_TATARESCU_DESC"
+	picture = "Portrait_ROM_Gheorghe_Tatarescu.dds"
+	expire = "1957.3.28"
+	ideology = nationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Corneliu Zelea Codreanu"
+	desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
+	picture = "Portrait_ROM_Corneliu_Zelea_Codreanu.dds"
+	expire = "1953.2.5"
+	ideology = clerical_fascism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Petre Dumitrescu"
+	gfx = GFX_Portrait_romania_petre_dumitrescu
+	traits = { offensive_doctrine logistics_wizard }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Ion Antonescu"
+	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	traits = { offensive_doctrine }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ioan Mihail Racovita"
+	gfx = GFX_Portrait_romania_ioan_mihail_racovita
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gheorghe Avramescu"
+	gfx = GFX_Portrait_romania_gheorghe_avramescu
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Horia Macellariu"
+	gfx = "GFX_Portrait_romania_horia_macellariu"
+	traits = { spotter }
+	skill = 2
+}
+
+
+# Variants
+create_equipment_variant = {
+	name = "Regele Ferdinand Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+
+# Miscellaneous
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		ROM_king_carol_ii_hedonist
+	}
+	give_guarantee = CZE
+	give_guarantee = GRE
+	give_guarantee = TUR
+}
+
+add_ideas = neutrality_idea
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	ROM = {
+		random_list = {
+			100 = { country_event = { id = DOD_romania.81 days = 2 random = 20 } }
+		}
+	}
+}
+set_convoys = 10

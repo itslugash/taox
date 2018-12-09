@@ -1,0 +1,133 @@
+﻿capital = 439 # Delhi - India
+
+oob = "RAJ_1936"
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	add_ideas = {
+		RAJ_princely_states
+		RAJ_marginalized_muslim_community
+		RAJ_agrarian_society
+		RAJ_risk_of_famine
+	}
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+set_convoys = 20
+set_cosmetic_tag = RAJ_ENG # British India
+set_stability = 0.6
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+}
+
+set_war_support = 0.1
+
+##### Diplomacy #####
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialism = {
+			popularity = 0
+		}
+		
+		social_democracy = {
+			popularity = 28.57
+		}
+		
+		liberalism = { 
+			popularity = 0
+		}
+
+		centrism = { 
+			popularity = 63.27
+		}
+
+		conservatism = {
+			popularity = 0
+		}
+		
+		nationalism = {
+			popularity = 8.16
+		}
+		
+		reactionary = { 
+			popularity = 0
+		}
+
+		fascism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = centrism
+	last_election = "1932.2.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "The Marquess of Linlithgow"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "Portrait_RAJ_Linlithgow.dds"
+	expire = "1952.1.5"
+	ideology = centrism_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Noel Beresford-Peirse"
+	gfx = "GFX_RAJ_noel_beresford_peirse"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Frank Messervy"
+	gfx = "GFX_RAJ_frank_messervy"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Douglas Gracey"
+	gfx = "GFX_RAJ_douglas_gracey"
+	traits = { desert_fox }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Herbert Fitzherbert"
+	gfx = "GFX_RAJ_herbert_fitzherbert"
+	traits = { }
+	skill = 3
+}

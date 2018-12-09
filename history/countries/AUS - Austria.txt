@@ -1,15 +1,20 @@
 ﻿# Capital City
-	capital = 267 # Kabul - Afghanistan
+	capital = 4 # Vienna - Austria
 # Order of Battle
-	oob = "AFG_1936"
+	oob = "AUS_1936"
 # Research Slots
+	set_research_slots = 3
 # Stability
 # War Support
 # Technology
 	set_technology = {
 		infantry_weapons = 1
-		gwtank = 1
-		basic_light_tank = 1
+		infantry_weapons1 = 1
+		tech_recon = 1
+		tech_engineers = 1
+		tech_support = 1		
+		tech_mountaineers = 1
+		early_fighter = 1
 	}
 # Diplomacy
 	# Factions
@@ -20,7 +25,7 @@
 
 		parties = {
 			communism = { 
-				popularity = 0
+				popularity = 0.6
 			}
 
 			socialism = {
@@ -28,15 +33,15 @@
 			}
 			
 			social_democracy = {
-				popularity = 0
+				popularity = 41.1
 			}
 			
 			liberalism = { 
-				popularity = 0
+				popularity = 1.2
 			}
 
 			centrism = { 
-				popularity = 0
+				popularity = 0.6
 			}
 
 			conservatism = {
@@ -44,20 +49,20 @@
 			}
 			
 			nationalism = {
-				popularity = 0
+				popularity = 11.6
 			}
 			
 			reactionary = { 
-				popularity = 100
+				popularity = 0
 			}
 
 			fascism = { 
-				popularity = 0
+				popularity = 44.9
 			}
 		}
 		
-		ruling_party = reactionary
-		last_election = "1936.1.1"
+		ruling_party = fascism
+		last_election = "1930.11.9"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -70,31 +75,31 @@
 	# Conservatism
 	# Nationalism
 	# Reactionary
+	# Fascism
 		create_country_leader = {
-			name = "Mohammed Zahir Shah"
-			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_AFG_Mohammed_Zahir_Shah_1934.dds"
-			expire = "2007.7.23"
-			ideology = monarchism
+			name = "Kurt Schuschnigg"
+			desc = "Politics_Kurt_Schuschnigg_desc"
+			picture = "Portrait_AUST_Kurt_Schuschnigg_1934.dds"
+			expire = "1977.11.18"
+			ideology = fascism_subtype
 			traits = {
 				#
 			}
 		}
-	# Fascism
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
-			name = "Sardar Shah Wali Khan"
-			portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-			traits = {
-				desert_fox
-			}
-			skill = 4
-			attack_skill = 5
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
 	# General(s)
+		create_corps_commander = {
+			name = "Karl Eglseer"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			traits = {
+				trait_mountaineer trickster
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
 	# Admiral(s)
 # Variants

@@ -1,0 +1,119 @@
+﻿capital = 12 # Riga, Latvia
+
+oob = "LAT_1936"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	early_submarine = 1
+}
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 6.3
+		}
+
+		socialism = {
+			popularity = 0.7
+		}
+		
+		social_democracy = {
+			popularity = 19.9
+		}
+		
+		liberalism = { 
+			popularity = 3.2
+		}
+
+		centrism = { 
+			popularity = 59.3
+		}
+
+		conservatism = {
+			popularity = 10.6
+		}
+		
+		nationalism = {
+			popularity = 0
+		}
+		
+		reactionary = { 
+			popularity = 0
+		}
+
+		fascism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Vilis Lācis"
+	desc = "POLITICS_VILIS_LACIS_DESC"
+	picture = "Portrait_LAT_Vilis_Lacis.dds"
+	expire = "1966.2.6"
+	ideology = communism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fricis Menders"
+	desc = "POLITICS_FRICIS_MENDERS_DESC"
+	picture = "Portrait_LAT_Fricis_Menders.dds"
+	expire = "1971.4.1"
+	ideology = social_democracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kārlis Ulmanis"
+	desc = "POLITICS_KARLIS_ULMANIS_DESC"
+	picture = "Portrait_LAT_Karlis_Ulmanis.dds"
+	expire = "1942.9.20"
+	ideology = centrism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = "POLITICS_GUSTAVS_CELMINS_DESC"
+	picture = "Portrait_LAT_Gustavs_Celmins.dds"
+	expire = "1968.4.10"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Berkis Krisjanis"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { ranger }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
