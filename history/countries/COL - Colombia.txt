@@ -74,7 +74,7 @@
 		create_country_leader = {
 			name = "Alfonso López Pumarejo"
 			desc = "COL_Alfonso_Lopez_Pumarejo_desc"
-			picture = "Portrait_COL_Alfonso_Lopez_Pumarejo.dds"
+			picture = "Portrait_COL_Alfonso_Lopez_Pumarejo_1920.dds"
 			expire = "1959.11.20"
 			ideology = social_liberalism
 			traits = {
