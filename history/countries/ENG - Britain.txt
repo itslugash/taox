@@ -112,11 +112,11 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 0.8
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 99.2
 			}
 
 			right-wing = {
@@ -128,19 +128,19 @@
 			}
 		}
 		
-		ruling_party = syncretic
-		last_election = "1936.1.1"
+		ruling_party = centre
+		last_election = "1935.11.14"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
 	# Left-Wing
 		create_country_leader = {
-			name = "Rajani Palme Dutt"
-			desc = "ENG_Rajani_Palme_Dutt_desc"
-			picture = "Portrait_ENG_Rajani_Palme_Dutt.dds"
+			name = "James Maxton"
+			desc = "ENG_James_Maxton_desc"
+			picture = "Portrait_ENG_James_Maxton.dds"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = socialism
 			traits = {
 				#
 			}
