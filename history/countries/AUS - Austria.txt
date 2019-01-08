@@ -1,10 +1,11 @@
 ﻿# Capital City
-	capital = 4 # Vienna - Austria
+	capital = 4
 # Order of Battle
 	oob = "AUS_1936"
 # Research Slots
 	set_research_slots = 3
 # Stability
+	set_stability = 0.5
 # War Support
 # Technology
 	set_technology = {
@@ -24,64 +25,69 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0.6
 			}
 
-			socialism = {
-				popularity = 0
-			}
-			
-			social_democracy = {
-				popularity = 41.1
-			}
-			
-			liberalism = { 
-				popularity = 1.2
+			centre = { 
+				popularity = 41.7
 			}
 
-			centrism = { 
-				popularity = 0.6
+			right-wing = {
+				popularity = 57.7
 			}
 
-			conservatism = {
+			syncretic = { 
 				popularity = 0
-			}
-			
-			nationalism = {
-				popularity = 11.6
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
-				popularity = 44.9
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = right-wing
 		last_election = "1930.11.9"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism
-	# Conservatism
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Left-Wing
+		create_country_leader = {
+			name = "Alfred Klahr"
+			desc = "AUS_Alfred_Klahr_desc"
+			picture = "Portrait_AUS_Alfred_Klahr.dds"
+			expire = "1965.1.1"
+			ideology = communism
+			traits = {
+				#
+			}
+		}
+	# Centre
+		create_country_leader = {
+			name = "Karl Renner"
+			desc = "AUS_Karl_Renner_desc"
+			picture = "Portrait_AUS_Karl_Renner.dds"
+			expire = "1965.1.1"
+			ideology = social_democracy
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
 		create_country_leader = {
 			name = "Kurt Schuschnigg"
-			desc = "Politics_Kurt_Schuschnigg_desc"
-			picture = "Portrait_AUST_Kurt_Schuschnigg_1934.dds"
-			expire = "1977.11.18"
-			ideology = fascism_subtype
+			desc = "AUS_Kurt_Schuschnigg_desc"
+			picture = "Portrait_AUS_Kurt_Schuschnigg.dds"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				#
+			}
+		}
+	# Syncretic
+		create_country_leader = {
+			name = "Charles I"
+			desc = "AUS_Charles_I_desc"
+			picture = "Portrait_AUS_Charles_I.dds"
+			expire = "1965.1.1"
+			ideology = monarchism
 			traits = {
 				#
 			}
@@ -93,7 +99,8 @@
 			name = "Karl Eglseer"
 			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 			traits = {
-				trait_mountaineer trickster
+				trait_mountaineer
+				trickster
 			}
 			skill = 3
 			attack_skill = 2

@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 278 # Buenos Aires - Argentina
+	capital = 278
 # Order of Battle
 	oob = "ARG_1936"
 # Research Slots
@@ -28,106 +28,71 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 0
-			}
-
-			socialism = {
-				popularity = 0.7
-			}
-			
-			social_democracy = {
+			left-wing = {
 				popularity = 9.2
 			}
-			
-			liberalism = { 
-				popularity = 63.1
+
+			centre = { 
+				popularity = 90.7
 			}
 
-			centrism = { 
-				popularity = 2.4
+			right-wing = {
+				popularity = 0.1
 			}
 
-			conservatism = {
-				popularity = 24.6
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = conservatism
+		ruling_party = centre
 		last_election = "1931.11.8"
-		election_frequency = 72
-		elections_allowed = yes
+		election_frequency = 48
+		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
+	# Left-Wing
 		create_country_leader = {
 			name = "Fanny Edelman"
-			desc = "POLITICS_FANNY_EDELMAN_DESC"
-			picture = "Portrait_ARG_Fanny_Edelman.dds"
-			expire = "2011.11.1"
-			ideology = marxism-leninism
+			desc = "ARG_Fanny_Edelman_desc"
+			picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+			expire = "1965.1.1"
+			ideology = communism
 			traits = {
 				#
 			}
 		}
-	# Socialism
-	# Social Democracy
-	# Liberalism
-		create_country_leader = {
-			name = "Marcelo Torcuato de Alvear"
-			desc = "POLITICS_MARCELO_TORCUATO_DE_ALVEAR_DESC"
-			picture = "Portrait_ARG_Marcelo_Torcuato_de_Alvear.dds"
-			expire = "1942.4.23"
-			ideology = social_liberalism
-			traits = {
-				#
-			}
-		}
-	# Centrism
-	# Conservatism
+	# Centre
 		create_country_leader = {
 			name = "Agustín Pedro Justo"
 			desc = "ARG_Agustin_Pedro_Justo_desc"
-			picture = "Portrait_ARG_Agustin_Pedro_Justo_1932-1938.dds"
-			expire = "1943.1.11"
-			ideology = conservatism_subtype
+			picture = "Portrait_ARG_Agustin_Pedro_Justo.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
 			traits = {
 				#
 			}
 		}
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Right-Wing
 		create_country_leader = {
 			name = "Nimio de Anquín"
-			desc = "POLITICS_NIMIO_DE_ANQUIN_DESC"
+			desc = "ARG_Nimio_de_Anquin_desc"
 			picture = "Portrait_ARG_Nimio_de_Anquin.dds"
-			expire = "1979.7.2"
-			ideology = clerical_fascism
+			expire = "1965.1.1"
+			ideology = fascism
 			traits = {
 				#
 			}
 		}
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
-		create_corps_commander = { # Arturo Rawson
+		create_corps_commander = {
 			name = "Arturo Rawson"
-			portrait_path = "Portrait_ARG_Arturo_Rawson.dds"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 			traits = {
-				#
+				defensive_doctrine
 			}
 			skill = 3
 		    attack_skill = 4
@@ -135,9 +100,9 @@
 		    planning_skill = 1
 		    logistics_skill = 2
 		}
-		create_corps_commander = { # Juan Pistarini
+		create_corps_commander = {
 			name = "Juan Pistarini"
-			portrait_path = "Portrait_ARG_Juan_Pistarini.dds"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 			traits = {
 				fortress_buster
 				urban_assault_specialist
@@ -149,9 +114,9 @@
 		    logistics_skill = 3
 		}
 	# Admiral(s)
-		create_navy_leader = { # Alberto Teisaire
+		create_navy_leader = {
 			name = "Alberto Teisaire"
-			portrait_path = "Portrait_ARG_Alberto_Teisaire.dds"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 			traits = {
 				blockade_runner
 			}
@@ -179,4 +144,3 @@
 		}
 	}
 set_convoys = 120
-	

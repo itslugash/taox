@@ -1,129 +1,85 @@
-﻿capital = 315
-
-oob = "CUB_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	early_fighter = 1
-}
-set_country_flag = monroe_doctrine
-set_war_support = 0.1
-set_convoys = 20
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "CUB_1939"
+﻿# Capital City
+	capital = 315
+# Order of Battle
+	oob = "CUB_1936"
+# Research Slots
+# Stability
+# War Support
+	set_war_support = 0.1
+# Technology
 	set_technology = {
-		gw_artillery = 1
-		infantry_weapons1 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		infantry_weapons = 1
+		early_fighter = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1936.1.10"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "GFX_portrait_cuba_jose_barnet"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+	set_country_flag = monroe_doctrine
+# Set Politics
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 98
-			}
-
-			fascism = {
+			left-wing = {
 				popularity = 0
 			}
-			
-			communism = {
-				popularity = 2
-				#banned = no #default is no
+
+			centre = { 
+				popularity = 100
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
 			}
 		}
 		
-		ruling_party = democratic
-		last_election = "1936.1.10"
-		election_frequency = 48  
-		elections_allowed = yes
+		ruling_party = centre
+		last_election = "1928.11.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
+# Country Leaders
+	# Left-Wing
+		create_country_leader = {
+			name = "Blas Roca Calderio"
+			desc = "CUB_Blas_Roca_Calderio_desc"
+			picture = "Portrait_CUB_Blas_Roca_Calderio.dds"
+			expire = "1965.1.1"
+			ideology = communism
+			traits = {
+				#
+			}
 		}
-	}
-}
+	# Centre
+		create_country_leader = {
+			name = "José Agripino Barnet"
+			desc = "CUB_Jose_Agripino_Barnet_desc"
+			picture = "Portrait_CUB_Jose_Agripino_Barnet.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
+	# Syncretic
+		create_country_leader = {
+			name = "Ramón Grau"
+			desc = "CUB_Ramon_Grau_desc"
+			picture = "Portrait_CUB_Ramon_Grau.dds"
+			expire = "1965.1.1"
+			ideology = third_position
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
+set_convoys = 20

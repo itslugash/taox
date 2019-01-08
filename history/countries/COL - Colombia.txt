@@ -1,5 +1,5 @@
-﻿# Capital city
-	capital = 306 # Bogotá - Colombia
+﻿# Capital City
+	capital = 306
 # Order of Battle
 	oob = "COL_1936"
 # Research Slots
@@ -24,68 +24,43 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0
 			}
 
-			socialism = {
-				popularity = 0
-			}
-			
-			social_democracy = {
-				popularity = 0
-			}
-			
-			liberalism = { 
+			centre = { 
 				popularity = 100
 			}
 
-			centrism = { 
+			right-wing = {
 				popularity = 0
 			}
 
-			conservatism = {
-				popularity = 0
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = liberalism
-		last_election = "1934.2.11"
+		ruling_party = centre
+		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
+	# Left-Wing
+	# Centre
 		create_country_leader = {
 			name = "Alfonso López Pumarejo"
 			desc = "COL_Alfonso_Lopez_Pumarejo_desc"
-			picture = "Portrait_COL_Alfonso_Lopez_Pumarejo_1920.dds"
-			expire = "1959.11.20"
-			ideology = social_liberalism
+			picture = "Portrait_COL_Alfonso_Lopez_Pumarejo.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
 			traits = {
 				#
 			}
 		}
-	# Centrism 
-	# Conservatism
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Right-Wing
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
@@ -105,4 +80,3 @@
 	# Admiral(s)
 # Variants
 set_convoys = 10
-

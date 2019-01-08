@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 500 # Rio de Janeiro - Brazil
+	capital = 500
 # Order of Battle
 	oob = "BRA_1936"
 # Research Slots
@@ -29,102 +29,75 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0
 			}
 
-			socialism = {
-				popularity = 0
-			}
-			
-			social_democracy = {
-				popularity = 0
-			}
-			
-			liberalism = { 
-				popularity = 0
-			}
-
-			centrism = { 
+			centre = { 
 				popularity = 30.02
 			}
 
-			conservatism = {
-				popularity = 0
-			}
-			
-			nationalism = {
-				popularity = 70.58
-			}
-			
-			reactionary = { 
-				popularity = 0
+			right-wing = {
+				popularity = 0.4
 			}
 
-			fascism = { 
-				popularity = 0.4
+			syncretic = { 
+				popularity = 70.58
 			}
 		}
 		
-		ruling_party = nationalism
+		ruling_party = syncretic
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
+	# Left-Wing
 		create_country_leader = {
 			name = "Luís Carlos Prestes"
 			desc = "BRA_Luis_Carlos_Prestes_desc"
 			picture = "Portrait_BRA_Luis_Carlos_Prestes.dds"
-			expire = "1990.3.7"
-			ideology = marxism-leninism
+			expire = "1965.1.1"
+			ideology = communism
 			traits = {
 				#
 			}
 		}
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism
-	# Conservatism
-	# Nationalism
+	# Centre
 		create_country_leader = {
-			name = "Getúlio Vargas"
-			desc = "BRA_Getulio_vargas_desc"
-			picture = "Portrait_BRA_Getulio_Vargas_1930.dds"
-			expire = "1954.8.24"
-			ideology = nationalism_subtype
+			name = "Borges de Medeiros"
+			desc = "BRA_Borges_de_Medeiros_desc"
+			picture = "Portrait_BRA_Borges_de_Medeiros.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
 			traits = {
 				#
 			}
 		}
-	# Reactionary
-	# Fascism
+	# Right-Wing
 		create_country_leader = {
 			name = "Plínio Salgado"
 			desc = "BRA_Plinio_Salgado_desc"
 			picture = "Portrait_BRA_Plinio_Salgado.dds"
-			expire = "1975.12.8"
-			ideology = clerical_fascism
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				#
+			}
+		}
+	# Syncretic
+		create_country_leader = {
+			name = "Getúlio Vargas"
+			desc = "BRA_Getulio_Vargas_desc"
+			picture = "Portrait_BRA_Getulio_Vargas.dds"
+			expire = "1965.1.1"
+			ideology = independent
 			traits = {
 				#
 			}
 		}
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
-			name = "João Baptista Mascarenhas de Morais"
-			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-			traits = {
-				jungle_rat
-			}
-			skill = 4
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 4
-		}
 		create_field_marshal = {
 			name = "Eurico Gaspar Dutra"
 			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
@@ -138,6 +111,18 @@
 			logistics_skill = 3
 		}
 	# General(s)
+		create_corps_commander = {
+			name = "Mascarenhas de Morais"
+			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			traits = { 
+				jungle_rat
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
 	# Admiral(s)
 		create_navy_leader = {
 			name = "Augusto Hamann Rademaker Grünewald"
@@ -149,3 +134,6 @@
 		}
 # Variants
 set_convoys = 40
+
+
+

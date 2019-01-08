@@ -9,7 +9,6 @@ set_technology = {
 }
 
 set_convoys = 5
-set_cosmetic_tag = COG_BEL # Belgian Congo
 
 1939.1.1 = {
 	#generic focuses
@@ -47,59 +46,93 @@ set_cosmetic_tag = COG_BEL # Belgian Congo
 		dispersed_industry2 = 1
 	}
 }
-
 set_politics = {
 
 	parties = {
-		communism = { 
+		democratic = { 
 			popularity = 0
 		}
 
-		socialism = {
+		fascism = {
 			popularity = 0
 		}
 		
-		social_democracy = {
+		communism = {
 			popularity = 0
+			#banned = no #default is no
 		}
 		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
+		neutrality = { 
 			popularity = 100
-		}
-
-		conservatism = {
-			popularity = 0
-		}
-		
-		nationalism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
 		}
 	}
 	
-	ruling_party = centrism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Pierre Ryckmans"
-	picture = "Portrait_COG_Pierre_Ryckmans.dds"
+	
+	name = "François Tolenga"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism_subtype
+	ideology = despotism
 	traits = {
-		#
+		compassionate_gentleman
 	}
 }
+create_country_leader = {
+	
+	name = "Lumumba Lomendja"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		silent_workhorse
+	}
+}
+
+create_country_leader = {
+	
+	name = "David Manera"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+
+#Now a colony of Italy  However, if independent it would have
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+		
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+

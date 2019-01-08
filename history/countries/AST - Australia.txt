@@ -1,7 +1,8 @@
 ﻿# Capital City
-	capital = 285 # Canberra - Australia
+	capital = 285
 # Order of Battle
 	oob = "AST_1936"
+# Research Slots
 # Stability
 	set_stability = 0.8
 # War Support
@@ -38,114 +39,75 @@
 			limit = {
 				has_dlc = "Together for Victory"
 			}
+			add_ideas = AST_great_depression_1
+
 			add_to_tech_sharing_group = commonwealth_research
 		}
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		add_ideas = AST_great_depression_1
-	}
-	set_cosmetic_tag = ENG_AST
 # Set Politics
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0.48
 			}
 
-			socialism = {
-				popularity = 0
+			centre = { 
+				popularity = 97.32
 			}
-			
-			social_democracy = {
-				popularity = 43.17
-			}
-			
-			liberalism = { 
+
+			right-wing = {
 				popularity = 0
 			}
 
-			centrism = { 
-				popularity = 7.09
-			}
-
-			conservatism = {
-				popularity = 49.26
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
-				popularity = 0
+			syncretic = { 
+				popularity = 2.2
 			}
 		}
 		
-		ruling_party = conservatism
+		ruling_party = centre
 		last_election = "1934.9.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
+	# Left-Wing
 		create_country_leader = {
-			name = "Jack Miles"
-			desc = "POLITICS_JACK_MILES_DESC"
-			picture = "Portrait_AST_Jack_Miles.dds"
-			expire = "1969.5.17"
-			ideology = communism_subtype
+			name = "Richard Dixon"
+			desc = "AST_Richard_Dixon_desc"
+			picture = "Portrait_AST_Richard_Dixon.dds"
+			expire = "1965.1.1"
+			ideology = communism
 			traits = {
 				#
 			}
 		}
-	# Socialism
-	# Social Democracy
-		create_country_leader = {
-			name = "John Curtin"
-			desc = "POLITICS_JOHN_CURTIN_DESC"
-			picture = "Portrait_AST_John_Curtin.dds"
-			expire = "1945.7.5"
-			ideology = social_democracy_subtype
-			traits = {
-				#
-			}
-		}
-	# Liberalism
-	# Centrism
-	# Conservatism
+	# Centre
 		create_country_leader = {
 			name = "Joseph Lyons"
 			desc = "AST_Joseph_Lyons_desc"
-			picture = "Portrait_AST_Joseph_Lyons_1932-1939.dds"
-			expire = "1939.4.7"
-			ideology = conservatism_subtype
+			picture = "Portrait_AST_Joseph_Lyons.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
 			traits = {
 				#
 			}
 		}
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Right-Wing
 		create_country_leader = {
 			name = "Eric Campbell"
-			desc = "POLITICS_ERIC_CAMPBELL_DESC"
+			desc = "AST_Eric_Campbell_desc"
 			picture = "Portrait_AST_Eric_Campbell.dds"
-			expire = "1970.9.2"
-			ideology = fascism_subtype
+			expire = "1965.1.1"
+			ideology = fascism
 			traits = {
 				#
 			}
 		}
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
+	# General(s)
+		create_corps_commander = {
 			name = "Leslie Morshead"
 			gfx = "GFX_AST_leslie_morshead"
 			traits = {
@@ -157,7 +119,6 @@
 		    planning_skill = 5
 		    logistics_skill = 2
 		}
-	# General(s)
 		create_corps_commander = {
 			name = "Thomas Blamey"
 			gfx = "GFX_AST_thomas_blamey"
@@ -257,3 +218,5 @@
 		}
 	}
 set_convoys = 100
+
+

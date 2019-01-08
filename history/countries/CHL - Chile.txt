@@ -1,5 +1,5 @@
-﻿# Capital city
-	capital = 279 # Santiago - Chile
+﻿# Capital City
+	capital = 279
 # Order of Battle
 	oob = "CHL_1936"
 # Research Slots
@@ -28,71 +28,67 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 5.1
+			left-wing = {
+				popularity = 9.2
 			}
 
-			socialism = {
-				popularity = 4.1
-			}
-			
-			social_democracy = {
-				popularity = 4.7
-			}
-			
-			liberalism = { 
-				popularity = 52.5
+			centre = { 
+				popularity = 88.2
 			}
 
-			centrism = { 
-				popularity = 3.2
-			}
-
-			conservatism = {
-				popularity = 27.8
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
+			right-wing = {
 				popularity = 2.6
+			}
+
+			syncretic = { 
+				popularity = 0
 			}
 		}
 		
-		ruling_party = liberalism
+		ruling_party = centre
 		last_election = "1932.10.30"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
+	# Left-Wing
 		create_country_leader = {
-			name = "Arturo Alessandri"
-			desc = "CHL_Arturo_Alessandri_desc"
-			picture = "Portrait_CHL_Arturo_Alessandri_1935.dds"
-			expire = "1950.8.24"
-			ideology = social_liberalism
+			name = "Carlos Contreras Labarca"
+			desc = "CHL_Carlos_Contreras_Labarca_desc"
+			picture = "Portrait_CHL_Carlos_Contreras_Labarca.dds"
+			expire = "1965.1.1"
+			ideology = communism
 			traits = {
 				#
 			}
 		}
-	# Centrism 
-	# Conservatism
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Centre
+		create_country_leader = {
+			name = "Arturo Alessandri"
+			desc = "CHL_Arturo_Alessandri_desc"
+			picture = "Portrait_CHL_Arturo_Alessandri.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
+		create_country_leader = {
+			name = "Jorge González von Marées"
+			desc = "CHL_Jorge_Gonzalez_von_Marees_desc"
+			picture = "Portrait_CHL_Jorge_Gonzalez_von_Marees.dds"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				#
+			}
+		}
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = {
+	# General(s)
+		create_corps_commander = {
 			name = "Óscar Escudero"
 			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 			traits = {
@@ -104,7 +100,6 @@
 			planning_skill = 4
 			logistics_skill = 3
 		}
-	# General(s)
 	# Admiral(s)
 # Variants
 	create_equipment_variant = {

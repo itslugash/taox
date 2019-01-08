@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 6 # Brussels - Belgium
+	capital = 6
 # Order of Battle
 	oob = "BEL_1936"
 # Research Slots
@@ -22,85 +22,78 @@
 # Diplomacy
 	# Factions
 	# Puppets
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			set_autonomy = {
-				target = COG
-				autonomous_state = autonomy_colony
-			}
-			else = {
-				puppet = COG
-			}
-		}
 	# Tech Sharing
 # Set Politics
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 6.1
+			left-wing = {
+				popularity = 38.17
 			}
 
-			socialism = {
-				popularity = 32.1
+			centre = { 
+				popularity = 43.28
 			}
-			
-			social_democracy = {
+
+			right-wing = {
+				popularity = 18.55
+			}
+
+			syncretic = { 
 				popularity = 0
-			}
-			
-			liberalism = { 
-				popularity = 12.4
-			}
-
-			centrism = { 
-				popularity = 3.1
-			}
-
-			conservatism = {
-				popularity = 27.7
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
-				popularity = 18.6
 			}
 		}
 		
-		ruling_party = conservatism
-		last_election = "1933.3.5"
+		ruling_party = centre
+		last_election = "1932.11.27"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism
-	# Conservatism
+	# Left-Wing
 		create_country_leader = {
-			name = "Paul van Zeeland"
-			desc = "BEL_Paul_van_Zeeland_desc"
-			picture = "Portrait_BEL_Paul_van_Zeeland_1935-1937.dds"
-			expire = "1973.9.22"
-			ideology = conservatism_subtype
+			name = "Emile Vandervelde"
+			desc = "BEL_Emile_Vandervelde_desc"
+			picture = "Portrait_BEL_Emile_Vandervelde.dds"
+			expire = "1965.1.1"
+			ideology = socialism
 			traits = {
 				#
 			}
 		}
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Centre
+		create_country_leader = {
+			name = "Paul van Zeeland"
+			desc = "BEL_Paul_van_Zeeland_desc"
+			picture = "Portrait_BEL_Paul_van_Zeeland.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
+		create_country_leader = {
+			name = "Léon Degrelle"
+			desc = "BEL_Leon_Degrelle_desc"
+			picture = "Portrait_BEL_Leon_Degrelle.dds"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				#
+			}
+		}
+	# Syncretic
+		create_country_leader = {
+			name = "Leopold III"
+			desc = "BEL_Leopold_III_desc"
+			picture = "Portrait_BEL_Leopold_III.dds"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				#
+			}
+		}
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
@@ -128,3 +121,10 @@
 		}
 # Variants
 set_convoys = 80
+
+
+
+
+
+
+
