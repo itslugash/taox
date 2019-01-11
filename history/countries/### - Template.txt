@@ -1,0 +1,46 @@
+# Capital City
+# Order of Battle
+# Research Slots
+# Stability
+# War Support
+# Technology
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
+
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
