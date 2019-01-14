@@ -1,178 +1,96 @@
-﻿capital = 113
-
-oob = "IRE_1936"
-
-set_research_slots = 3
-
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-}
-
-set_convoys = 10
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "IRE_1939"
+﻿# Capital City
+	capital = 113
+# Order of Battle
+	oob = "IRE_1936"
+# Research Slots
+	set_research_slots = 3
+# Stability
+# War Support
+# Technology
 	set_technology = {
-		gw_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		infantry_weapons = 1
+		infantry_weapons1 = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialism = {
-			popularity = 0
-		}
-		
-		social_democracy = {
-			popularity = 9.4
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 5.8
-		}
-
-		conservatism = {
-			popularity = 84.8
-		}
-		
-		nationalism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = conservatism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-1939.1.1 = {
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0
 			}
 
-			socialism = {
-				popularity = 0
+			centre = { 
+				popularity = 100
 			}
-			
-			social_democracy = {
-				popularity = 9.4
-			}
-			
-			liberalism = { 
+
+			right-wing = {
 				popularity = 0
 			}
 
-			centrism = { 
-				popularity = 5.8
-			}
-
-			conservatism = {
-				popularity = 84.8
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
-				popularity = 0
-			}
-
-			fascism = { 
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = conservatism
-		last_election = "1936.1.1"
+		ruling_party = centre
+		last_election = "1933.1.24"
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
-
-create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_IRE_Eamon_de_Valera.dds"
-	expire = "1965.1.1"
-	ideology = conservatism_subtype
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Michael Costello"
-	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
+# Country Leaders
+	# Left-Wing
+		create_country_leader = {
+			name = "James Larkin"
+			desc = "IRE_James_Larkin_desc"
+			picture = "Portrait_IRE_James_Larkin.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
+	# Centre
+		create_country_leader = {
+			name = "Éamon de Valera"
+			desc = "IRE_Eamon_de_Valera_desc"
+			picture = "Portrait_IRE_Eamon_de_Valera.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
+		create_country_leader = {
+			name = "Eoin O'Duffy"
+			desc = "IRE_Eoin_O_Duffy_desc"
+			picture = "Portrait_IRE_Eoin_O_Duffy.dds"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				#
+			}
+		}
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+		create_corps_commander = {
+			name = "Michael Joe Costello"
+			portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	# Admiral(s)
+# Variants
+set_convoys = 10

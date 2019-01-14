@@ -1,10 +1,11 @@
-﻿# Capital city
-	capital = 41 # Madrid - Spain
+﻿# Capital City
+	capital = 41
 # Order of Battle
 	oob = "SPR_1936"
 # Research Slots
 	set_research_slots = 3
 # Stability
+	set_stability = 0.5
 # War Support
 # Technology
 	set_technology = {
@@ -35,68 +36,73 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 3.14
-			}
-
-			socialism = {
-				popularity = 21.74
-			}
-				
-			social_democracy = {
-				popularity = 14.36
-			}
-				
-			liberalism = { 
-				popularity = 7.55
-			}
-
-			centrism = { 
-				popularity = 4.83
-			}
-
-			conservatism = {
-				popularity = 43.2
-			}
-				
-			nationalism = {
+			left-wing = {
 				popularity = 0
 			}
-				
-			reactionary = { 
-				popularity = 5.11
+
+			centre = { 
+				popularity = 0
 			}
 
-			fascism = { 
-				popularity = 0.07
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
 			}
 		}
-			
-		ruling_party = centrism
-		last_election = "1936.1.1"
+		
+		ruling_party = syncretic
+		last_election = "1933.11.19"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism
+	# Left-Wing
+		create_country_leader = {
+			name = "Manuel Azaña"
+			desc = "SPR_Manuel_Azana_desc"
+			picture = "Portrait_SPR_Manuel_Azana.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
+	# Centre
+		create_country_leader = {
+			name = "Alejandro Lerroux"
+			desc = "SPR_Alejandro_Lerroux_desc"
+			picture = "Portrait_SPR_Alejandro_Lerroux.dds"
+			expire = "1965.1.1"
+			ideology = centrism
+			traits = {
+				#
+			}
+		}
+	# Right-Wing
+		create_country_leader = {
+			name = "José María Gil-Robles y Quiñones"
+			desc = "SPR_Jose_Maria_Gil-Robles_y_Quinones_desc"
+			picture = "Portrait_SPR_Jose_Maria_Gil-Robles_y_Quinones.dds"
+			expire = "1965.1.1"
+			ideology = reactionary
+			traits = {
+				#
+			}
+		}
+	# Syncretic
 		create_country_leader = {
 			name = "Manuel Portela Valladares"
 			desc = "SPR_Manuel_Portela_Valladares_desc"
-			picture = "Portrait_SPR_Manuel_Portela_Valladares_1935-1936.dds"
-			expire = "1952.4.29"
+			picture = "Portrait_SPR_Manuel_Portela_Valladares.dds"
+			expire = "1965.1.1"
 			ideology = independent
 			traits = {
 				#
 			}
 		}
-	# Conservatism
-	# Nationalism
-	# Reactionary
-	# Fascism
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
