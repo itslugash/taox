@@ -1,12 +1,13 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
-
-oob = "LAO_1936"
-
-set_research_slots = 3
-
-# Starting tech
-# clone of France
-set_technology = {
+﻿# Capital City
+	capital = 670 
+# Order of Battle
+	oob = "LAO_1936"
+# Research Slots
+	set_research_slots = 3
+# Stability
+# War Support
+# Technology
+	set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -39,26 +40,56 @@ set_technology = {
 	trench_warfare = 1
 	fleet_in_being = 1
 }
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
 
-set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
 
-	parties = {
-		democratic = { 
-			popularity = 25
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
+			}
 		}
-
-#		fascism = {
-#		
-#		}
 		
-		communism = {
-			popularity = 35
-		}
-		neutrality = {
-			popularity = 40
-		}
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
+
+
+
+
+
+
+
+
+
+
 
 create_country_leader = {
 	name = "Souphanouvong"
@@ -93,4 +124,4 @@ create_country_leader = {
 	}
 }
 
-#couldnt find historical fascists
+

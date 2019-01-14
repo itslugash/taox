@@ -1,68 +1,101 @@
-﻿capital = 525 # South Korea - Seoul
-
-oob = "KOR_1936"
-
-set_convoys = 5
-set_cosmetic_tag = KOR_JAP # Japanese Korea
-
-# Starting tech
-set_technology = {
+﻿# Capital City
+	capital = 525 
+# Order of Battle
+	oob = "KOR_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
 
-set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
 
-	parties = {
-		communism = { 
-			popularity = 0
-		}
+			centre = { 
+				popularity = 0
+			}
 
-		socialism = {
-			popularity = 0
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
+			}
 		}
 		
-		social_democracy = {
-			popularity = 5.1
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 3
-		}
-
-		conservatism = {
-			popularity = 0
-		}
-		
-		nationalism = {
-			popularity = 91.9
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
-		}
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	
-	ruling_party = centrism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
+set_convoys = 5
+
+
+
+
+
+
+create_country_leader = {
+	name = "Syngman Rhee"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Ugaki Kazushige"
-	desc = "POLITICS_UGAKI_KAZUSHIGE_DESC"
-	picture = "Portrait_KOR_Ugaki_Kazushige.dds"
-	expire = "1956.4.30"
-	ideology = centrism_subtype
+	name = "Yi Kang"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kim Il-sung"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
