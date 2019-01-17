@@ -83,7 +83,7 @@
 			desc = "LAT_Karlis_Ulmanis_desc"
 			picture = "Portrait_LAT_Karlis_Ulmanis.dds"
 			expire = "1965.1.1"
-			ideology = independent
+			ideology = syncretic_independent
 			traits = {
 				#
 			}

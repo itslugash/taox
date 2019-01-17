@@ -6,9 +6,9 @@
 # War Support
 # Technology
 	set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-}
+		infantry_weapons = 1
+		gwtank = 1
+	}
 # Diplomacy
 	# Factions
 	# Puppets
@@ -18,15 +18,15 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 46.4
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 37.3
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 16.3	
 			}
 
 			syncretic = { 
@@ -34,8 +34,8 @@
 			}
 		}
 		
-		ruling_party = syncretic
-		last_election = "1936.1.1"
+		ruling_party = left-wing
+		last_election = "1931.1.5"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -50,55 +50,3 @@
 	# Admiral(s)
 # Variants
 set_convoys = 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "David Ben-Gurion"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shmuel Mikunis"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
-}

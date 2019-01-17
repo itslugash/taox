@@ -18,15 +18,15 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 15
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 50
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 35
 			}
 
 			syncretic = { 
@@ -34,7 +34,7 @@
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = centre
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -50,55 +50,3 @@
 	# Admiral(s)
 # Variants
 set_convoys = 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pierre Gemayel"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_fascism1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Melick Yarad"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rami Sarraff"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
-}

@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 525 
+	capital = 525
 # Order of Battle
 	oob = "KOR_1936"
 # Research Slots
@@ -7,9 +7,9 @@
 # War Support
 # Technology
 	set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-}
+		infantry_weapons = 1
+		mass_assault = 1
+	}
 # Diplomacy
 	# Factions
 	# Puppets
@@ -51,52 +51,3 @@
 	# Admiral(s)
 # Variants
 set_convoys = 5
-
-
-
-
-
-
-create_country_leader = {
-	name = "Syngman Rhee"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yi Kang"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kim Il-sung"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yi Un"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}

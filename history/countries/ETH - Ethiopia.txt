@@ -1,4 +1,4 @@
-# Capital City
+﻿# Capital City
 	capital = 271
 # Order of Battle
 	oob = "ETH_1936"

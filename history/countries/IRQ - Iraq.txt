@@ -23,7 +23,7 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 21.82
 			}
 
 			centre = { 
@@ -31,16 +31,16 @@
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 23.63
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 54.55
 			}
 		}
 		
-		ruling_party = syncretic
-		last_election = "1936.1.1"
+		ruling_party = right-wing
+		last_election = "1935.8.4"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -48,6 +48,16 @@
 	# Left-Wing
 	# Centre
 	# Right-Wing
+		create_country_leader = {
+			name = "Yasin al-Hashimi"
+			desc = "IRQ_Yasin_al-Hashimi_desc"
+			picture = "Portrait_IRQ_Yasin_al-Hashimi.dds"
+			expire = "1965.1.1"
+			ideology = nationalism
+			traits = {
+				#
+			}
+		}
 	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
@@ -55,47 +65,3 @@
 	# Admiral(s)
 # Variants
 set_convoys = 5
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yusuf Salman Yusuf"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-

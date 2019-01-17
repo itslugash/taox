@@ -6,13 +6,14 @@
 # War Support
 # Technology
 	set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
+		infantry_weapons = 1
+		gwtank = 1
 	}
 # Diplomacy
 	# Factions
 	# Puppets
 	# Tech Sharing
+	set_cosmetic_tag = ENG_JOR
 # Set Politics
 	set_politics = {
 
@@ -30,12 +31,12 @@
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 100
 			}
 		}
 		
 		ruling_party = syncretic
-		last_election = "1936.1.1"
+		last_election = "1934.10.16"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -44,60 +45,18 @@
 	# Centre
 	# Right-Wing
 	# Syncretic
+		create_country_leader = {
+			name = "Abdullah I"
+			desc = "JOR_Abdullah_I_desc"
+			picture = "Portrait_JOR_Abdullah_I.dds"
+			ideology = monarchism
+			traits = {
+				#
+			}
+		}
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
 	# Admiral(s)
 # Variants
 set_convoys = 5
-
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "Hashim Kheir"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeed Ahmadi"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Abdullah bin al-Hussein"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fu'ad Nassar"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
-}

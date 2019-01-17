@@ -70,6 +70,16 @@
 			}
 		}
 	# Right-Wing
+		create_country_leader = {
+			name = "Pierre Prüm"
+			desc = "LUX_Pierre_Prum_desc"
+			picture = "Portrait_LUX_Pierre_Prum.dds"
+			expire = "1965.1.1"
+			ideology = nationalism
+			traits = {
+				#
+			}
+		}
 	# Syncretic
 		create_country_leader = {
 			name = "Charlotte"
