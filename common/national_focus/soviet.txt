@@ -941,7 +941,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_government = fascism
+				has_government = right-wing
 				factor = 0
 			}
 
@@ -966,24 +966,24 @@ focus_tree = {
 		completion_reward = {
 			USA = { 
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			ENG = { 
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			FRA = { 
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			every_other_country = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_fascists }
 			}
 		}
@@ -1551,7 +1551,7 @@ focus_tree = {
 			}	
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
+				GER = { has_government = centre }
 			}
 		}
 
@@ -1801,7 +1801,7 @@ focus_tree = {
 			}	
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
+				GER = { has_government = centre }
 			}		
 		}
 		bypass = {
@@ -1915,8 +1915,8 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
-				FRA = { has_government = fascism }
+				GER = { has_government = centre }
+				FRA = { has_government = right-wing }
 				GER = { has_war_with = FRA }
 			}
 		}	
@@ -1940,7 +1940,7 @@ focus_tree = {
 			factor = 0.5
 
 			modifier = {
-				has_government = democratic
+				has_government = centre
 				factor = 0
 			}
 
@@ -1964,24 +1964,24 @@ focus_tree = {
 
 		completion_reward = {
 			every_other_country = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_focus }
 			}
 			USA = { 
 				if = {
-					limit = { NOT = { has_government = communism } }
+					limit = { NOT = { has_government = left-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } 
 				}
 			}
 			ENG = {
 				if = { 
-					limit = { NOT = { has_government = communism } }
+					limit = { NOT = { has_government = left-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } 
 				}
 			}
 			FRA = { 
 				if = {
-					limit = { NOT = { has_government = communism } }
+					limit = { NOT = { has_government = left-wing } }
 					add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } 
 				}
 			}
@@ -2409,7 +2409,7 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		available = {
 			NOT = { has_country_flag = counter_purge }
-			has_government = communism
+			has_government = left-wing
 		}
 		x = 22
 		y = 0
@@ -2551,7 +2551,7 @@ focus_tree = {
 				tooltip = SOV_permanent_revolution_tt
 				has_country_flag = counter_purge
 			}
-			has_government = communism
+			has_government = left-wing
 			has_civil_war = no
 		}
 		x = 19

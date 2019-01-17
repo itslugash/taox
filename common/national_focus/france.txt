@@ -1,3 +1,7 @@
+################################
+# France - National Focus Tree #
+################################
+
 focus_tree = {
 	id = french_focus
 	
@@ -1332,7 +1336,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = right-wing
 				}
 				add_opinion_modifier = {				
 					target = ROOT
@@ -1343,7 +1347,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = communism
+						has_government = left-wing
 					}
 					add_ai_strategy = {
 						type = befriend
@@ -1421,7 +1425,7 @@ focus_tree = {
 			add_ideas = maurice_thorez
 			every_other_country = {
 				limit = { 
-					has_government = communism
+					has_government = left-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1431,7 +1435,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = democratic
+					has_government = centre
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1441,7 +1445,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = right-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1457,8 +1461,8 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 	 	available = {
 	 		OR = {
-	 			has_government = communism
-	 			communism > 0.4
+	 			has_government = left-wing
+	 			left-wing > 0.4
 	 		}
 		}
 	 	prerequisite = { focus = FRA_leftist_rhetoric }
@@ -1487,13 +1491,13 @@ focus_tree = {
 	 		is_puppet = no
 	 		is_in_faction = no
 	 		OR = {
-	 			has_government = communism
-	 			communism > 0.4
+	 			has_government = left-wing
+	 			left-wing > 0.4
 	 		}
 	 		has_war = no
  			SOV = {
  				exists = yes
- 				has_government = communism
+ 				has_government = left-wing
  				is_faction_leader = yes
  			}
 		}
@@ -1657,10 +1661,10 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		available = {
 			is_puppet = no
-			has_government = democratic
+			has_government = centre
 			ENG = {
 				exists = yes
-				has_government = democratic
+				has_government = centre
 			}
 			NOT = { has_war_with = ENG }
 		}
@@ -1910,7 +1914,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = right-wing
 				}
 				add_opinion_modifier = {				
 					target = ROOT
@@ -1931,7 +1935,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = fascism
+						has_government = right-wing
 					}
 					add_ai_strategy = {
 						type = befriend
@@ -2003,7 +2007,7 @@ focus_tree = {
 			add_ideas = marcel_bucard
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = right-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -2013,7 +2017,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = democratic
+					has_government = centre
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -2023,7 +2027,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = communism
+					has_government = left-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -2039,8 +2043,8 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 	 	available = {
 	 		OR = {
-	 			has_government = fascism
-	 			fascism > 0.4
+	 			has_government = right-wing
+	 			right-wing > 0.4
 	 		}
 		}
 	 	prerequisite = { focus = FRA_right_wing_rhetoric }
@@ -2097,7 +2101,7 @@ focus_tree = {
 	 	available = {
 	 		is_puppet = no
 	 		NOT = { has_war_with = ITA }
-	 		has_government = fascism
+	 		has_government = right-wing
 	 		OR = {
 	 			is_faction_leader = yes
 	 			is_in_faction = no
@@ -2105,7 +2109,7 @@ focus_tree = {
 	 		ITA = {
 	 			exists = yes
 	 			is_in_faction = no
-	 			has_government = fascism
+	 			has_government = right-wing
 	 			is_puppet = no
 	 		}
 		}
@@ -2127,7 +2131,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						AUS = { has_government = fascism }
+						AUS = { has_government = right-wing }
 					}
 					AUS = {
 						add_ai_strategy = {
@@ -2166,7 +2170,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						HUN = { has_government = fascism }
+						HUN = { has_government = right-wing }
 					}
 					HUN = {
 						add_ai_strategy = {
@@ -2205,7 +2209,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						ROM = { has_government = fascism }
+						ROM = { has_government = right-wing }
 					}
 					ROM = {
 						add_ai_strategy = {
@@ -2244,7 +2248,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						YUG = { has_government = fascism }
+						YUG = { has_government = right-wing }
 					}
 					YUG = {
 						add_ai_strategy = {
@@ -2283,7 +2287,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						BUL = { has_government = fascism }
+						BUL = { has_government = right-wing }
 					}
 					BUL = {
 						add_ai_strategy = {
@@ -2327,7 +2331,7 @@ focus_tree = {
 	 				random_other_country = {
 	 					limit = {
 	 						original_tag = SPR
-	 						has_government = fascism
+	 						has_government = right-wing
 	 					}
 	 					remove_ideas = SPA_recovering_from_civil_war
 	 				}
@@ -2341,7 +2345,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 	 	available = {
 	 		is_puppet = no
-	 		GER = { has_government = democratic }
+	 		GER = { has_government = centre }
 		}
 	 	prerequisite = { focus = FRA_woo_italy }
 	 	will_lead_to_war_with = GER
@@ -2381,13 +2385,13 @@ focus_tree = {
 			is_in_faction = no
 	 		NOT = { has_war_with = GER }
 	 		OR = {
-	 			has_government = fascism
-	 			fascism > 0.4
+	 			has_government = right-wing
+	 			right-wing > 0.4
 	 		}
 	 		
 	 		GER = {
 	 			exists = yes
-	 			has_government = fascism
+	 			has_government = right-wing
  				is_faction_leader = yes
 	 		}
 		}

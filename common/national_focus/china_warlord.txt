@@ -97,7 +97,7 @@ focus_tree = {
 						desc = "POLITICS_YAN XISHAN_DESC"
 						picture = "GFX_portrait_shanxi_portrait_yan_xishan"
 						expire = "1965.1.1"
-						ideology = anti_revisionism
+						ideology = communism
 						traits = {
 							#
 						}
@@ -107,7 +107,7 @@ focus_tree = {
 						desc = "POLITICS_YAN XISHAN_DESC"
 						picture = "GFX_portrait_shanxi_portrait_yan_xishan"
 						expire = "1965.1.1"
-						ideology = socialism
+						ideology = conservatism
 						traits = {
 							#
 						}
@@ -117,7 +117,7 @@ focus_tree = {
 						desc = "POLITICS_YAN XISHAN_DESC"
 						picture = "GFX_portrait_shanxi_portrait_yan_xishan"
 						expire = "1965.1.1"
-						ideology = rexism
+						ideology = nationalism
 						traits = {
 							#
 						}
@@ -132,7 +132,7 @@ focus_tree = {
 						desc = "POLITICS_LI_ZONGREN_DESC"
 						picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 						expire = "1965.1.1"
-						ideology = anti_revisionism
+						ideology = communism
 						traits = {
 							#
 						}
@@ -142,7 +142,7 @@ focus_tree = {
 						desc = "POLITICS_LI_ZONGREN_DESC"
 						picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 						expire = "1965.1.1"
-						ideology = socialism
+						ideology = conservatism
 						traits = {
 							#
 						}
@@ -152,7 +152,7 @@ focus_tree = {
 						desc = "POLITICS_LI_ZONGREN_DESC"
 						picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 						expire = "1965.1.1"
-						ideology = rexism
+						ideology = nationalism
 						traits = {
 							#
 						}
@@ -167,7 +167,7 @@ focus_tree = {
 						desc = "POLITICS_LONG_YUN_DESC"
 						picture = "GFX_portrait_yun_long_yun"
 						expire = "1965.1.1"
-						ideology = anti_revisionism
+						ideology = communism
 						traits = {
 							#
 						}
@@ -177,7 +177,7 @@ focus_tree = {
 						desc = "POLITICS_LONG_YUN_DESC"
 						picture = "GFX_portrait_yun_long_yun"
 						expire = "1965.1.1"
-						ideology = socialism
+						ideology = conservatism
 						traits = {
 							#
 						}
@@ -187,7 +187,7 @@ focus_tree = {
 						desc = "POLITICS_LONG_YUN_DESC"
 						picture = "GFX_portrait_yun_long_yun"
 						expire = "1965.1.1"
-						ideology = rexism
+						ideology = nationalism
 						traits = {
 							#
 						}
@@ -202,7 +202,7 @@ focus_tree = {
 						desc = ""
 						picture = "GFX_portrait_xsm_ma_bufang"
 						expire = "1965.1.1"
-						ideology = anti_revisionism
+						ideology = communism
 						traits = {
 							#
 						}
@@ -212,7 +212,7 @@ focus_tree = {
 						desc = ""
 						picture = "GFX_portrait_xsm_ma_bufang"
 						expire = "1965.1.1"
-						ideology = socialism
+						ideology = conservatism
 						traits = {
 							#
 						}
@@ -222,7 +222,7 @@ focus_tree = {
 						desc = ""
 						picture = "GFX_portrait_xsm_ma_bufang"
 						expire = "1965.1.1"
-						ideology = rexism
+						ideology = nationalism
 						traits = {
 							#
 						}
@@ -237,7 +237,7 @@ focus_tree = {
 						desc = "POLITICS_SHENG_SHICAI_DESC"
 						picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 						expire = "1965.1.1"
-						ideology = despotism
+						ideology = centre_independent
 						traits = {
 							#
 						}
@@ -247,7 +247,7 @@ focus_tree = {
 						desc = "POLITICS_SHENG_SHICAI_DESC"
 						picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 						expire = "1965.1.1"
-						ideology = socialism
+						ideology = conservatism
 						traits = {
 							#
 						}
@@ -257,7 +257,7 @@ focus_tree = {
 						desc = "POLITICS_SHENG_SHICAI_DESC"
 						picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 						expire = "1965.1.1"
-						ideology = rexism
+						ideology = nationalism
 						traits = {
 							#
 						}
@@ -853,7 +853,7 @@ focus_tree = {
 			is_subject = no
 			if = {
 				limit = { is_subject = yes }
-				OVERLORD = { has_government = communism }
+				OVERLORD = { has_government = left-wing }
 			}
 		}
 
@@ -1004,7 +1004,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.4
+			left-wing > 0.4
 			if = {
 				limit = { NOT = { tag = SIK } }
 				any_neighbor_country = {
@@ -1013,7 +1013,7 @@ focus_tree = {
 			}			
 			NOT = { has_war_with = PRC }
 			NOT = { has_war_with = SOV }
-			SOV = { has_government = communism }			
+			SOV = { has_government = left-wing }			
 			is_subject = no
 		}
 
@@ -1030,7 +1030,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_politics = { ruling_party = communism elections_allowed = no }
+			set_politics = { ruling_party = left-wing elections_allowed = no }
 			add_opinion_modifier = { target = SOV modifier = CHI_join_the_chinese_soviet }
 			SOV = { add_opinion_modifier = { target = ROOT modifier = CHI_join_the_chinese_soviet } }
 
@@ -1078,7 +1078,7 @@ focus_tree = {
 			is_subject = no
 			NOT = { has_war_with = PRC }
 			NOT = { has_war_with = SOV }
-			SOV = { has_government = communism }
+			SOV = { has_government = left-wing }
 		}
 
 		bypass = {
@@ -1646,8 +1646,8 @@ focus_tree = {
 		available = {
 			is_subject = no
 			OR = {
-				neutrality > 0.5
-				communism > 0.5
+				syncretic > 0.5
+				left-wing > 0.5
 			}
 		}
 
@@ -1674,10 +1674,10 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_government = communism
-						communism > 0.5
+						has_government = left-wing
+						left-wing > 0.5
 					}
-					NOT = { neutrality > 0.5 }
+					NOT = { syncretic > 0.5 }
 				}
 				load_focus_tree = china_communist_focus
 			}

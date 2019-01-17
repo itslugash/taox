@@ -78,7 +78,7 @@ focus_tree = {
 		available = {
 			OR = {
 				threat > 0.2
-				NOT = { has_government = democratic }
+				NOT = { has_government = centre }
 			}
 		}
 		
@@ -664,15 +664,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				NOT = { ENG = { has_government = democratic } }
+				NOT = { ENG = { has_government = centre } }
 				factor = 10
 			}
 			modifier = {
-				NOT = { has_government = democratic }
+				NOT = { has_government = centre }
 				factor = 100
 			}
 			modifier = {	#makes it significantly more likely if player boosts non-democratic
-				democratic < 0.5
+				centre < 0.5
 				factor = 20
 			}
 		}
@@ -712,11 +712,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				fascism > 0.25
+				right-wing > 0.25
 				factor = 10
 			}
 			modifier = {
-				fascism > 0.45
+				right-wing > 0.45
 				factor = 10
 			}
 		}
@@ -763,14 +763,14 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascism } 
+					limit = { has_government = right-wing } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65
@@ -890,13 +890,13 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.20
+			right-wing > 0.20
 			if = {
-				limit = { not = { has_government = fascism } }
+				limit = { not = { has_government = right-wing } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = fascism  }
+				limit = { has_government = right-wing  }
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 			controls_state = 541
@@ -989,14 +989,14 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.75
 					}
 				}
 				if = {
-					limit = { has_government = fascism } 
+					limit = { has_government = right-wing } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.75
@@ -1050,19 +1050,19 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.25
+			right-wing > 0.25
 			controls_state = 541
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.80
 					}
 				}
 				if = {
-					limit = { has_government = fascism } 
+					limit = { has_government = right-wing } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.80
@@ -1072,7 +1072,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_government = fascism
+			has_government = right-wing
 		}
 
 		cancel_if_invalid = yes
@@ -1082,8 +1082,8 @@ focus_tree = {
 		complete_tooltip = {
 			set_capital = 541
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = democratic
+				ruling_party = right-wing
+				ideology = centre
 				size = 0.75
 				capital = 681
 				states = { 681 275 719 }
@@ -1096,8 +1096,8 @@ focus_tree = {
 			hidden_effect = {
 				set_capital = 541
 				start_civil_war = {
-					ruling_party = fascism
-					ideology = democratic
+					ruling_party = right-wing
+					ideology = centre
 					size = 0.45
 					capital = 681
 					states = { 681 275 719 }
@@ -1105,12 +1105,12 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SAF
-						has_government = democratic
+						has_government = centre
 					}
 					load_oob = "SAF_D_civil_war"
 					set_equipment_fraction = 0.7
 					add_popularity = {
-						ideology = democratic
+						ideology = centre
 						popularity = 0.35
 					}
 				}
@@ -1120,13 +1120,13 @@ focus_tree = {
 				set_equipment_fraction = 0.8
 				
 				add_popularity = {
-					ideology = fascism
+					ideology = right-wing
 					popularity = 1
 				}
 				random_country = {
 					limit = {
 						original_tag = GER
-						has_government = fascism
+						has_government = right-wing
 					}
 					set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
 				}
@@ -1221,7 +1221,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = SAF_support_the_afrikaner_broederbond
 		available = {
-			GER = { has_government = fascism }
+			GER = { has_government = right-wing }
 		}
 
 		cost = 10
@@ -1371,11 +1371,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {	#will make country more likely to go down this path if player boosts communism support
-				communism > 0.1
+				left-wing > 0.1
 				factor = 10
 			}
 			modifier = {
-				communism > 0.2
+				left-wing > 0.2
 				factor = 10
 			}
 		}
@@ -1427,20 +1427,20 @@ focus_tree = {
 				}
 			}
 			OR = {
-				has_government = communism
-				communism > 0.1
+				has_government = left-wing
+				left-wing > 0.1
 			}
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascism } }
+					limit = { NOT = { has_government = right-wing } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascism } 
+					limit = { has_government = right-wing } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65
@@ -1482,7 +1482,7 @@ focus_tree = {
 		}
 
 		available = {
-		communism > 0.1
+		left-wing > 0.1
 		}
 		
 		bypass = {
@@ -1557,7 +1557,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.35
+			left-wing > 0.35
 			OR = {
 				compare_autonomy_progress_ratio > 0.7
 				is_subject = no
@@ -1579,7 +1579,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			add_popularity = {	
-						ideology = communism
+						ideology = left-wing
 						popularity = 0.5
 					}
 			hidden_effect = {
@@ -2006,7 +2006,7 @@ focus_tree = {
 			FRA = {
 				has_capitulated = yes
 				exists = yes #otherwise Franco-British union might screw things up
-				NOT = { has_government = communism }
+				NOT = { has_government = left-wing }
 			}
 		}
 		

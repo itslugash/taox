@@ -1,14 +1,45 @@
-#############################################
-# TAOX - Shared Chinese National Focus Tree #
-#############################################
+#	shared_focus = {
+#		id = CHI_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
 
-shared_focus = { # Invite Foreign Investors
+
+shared_focus = {
 	id = CHI_invite_foreign_investors 
 	icon = GFX_focus_generic_concessions
-
 	x = 40
 	y = 0
-
 	offset = {
 		x = -6
 		y = 0
@@ -26,15 +57,42 @@ shared_focus = { # Invite Foreign Investors
 
 	cost = 10
 
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			tag = CHI
+		}
+	}
+
+	available = {
+
+	}
+
+	bypass = {
+		
+	}
+
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-	completion_reward = {
-		add_offsite_building = {
-			type = industrial_complex level = 2
-		}
+	complete_tooltip = {
+
 	}
+
+	completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+shared_focus = {
+	id = CHI_mission_to_germany
+	icon = GFX_focus_chi_mission_to_germany
+	prerequisite = { focus = CHI_invite_foreign_investors }
+	x = -10
+	y = 1
+	relative_position_id = CHI_invite_foreign_investors
+	cost = 10
 
 	ai_will_do = {
 		factor = 1
@@ -43,46 +101,30 @@ shared_focus = { # Invite Foreign Investors
 			tag = CHI
 		}
 	}
-}
 
-shared_focus = { # Mission to Germany
-	id = CHI_mission_to_germany
-	icon = GFX_focus_chi_mission_to_germany
-
-	x = -10
-	y = 1
-
-	relative_position_id = CHI_invite_foreign_investors
-
-	cost = 10
-
-	prerequisite = {
-		focus = CHI_invite_foreign_investors
+	available = {
+		OR = {
+			has_government = syncretic
+			GER = { has_government = ROOT }
+			GER_will_support = yes
+		}
+		NOT = {
+			has_war_with = GER
+		}
+		NOT = { has_global_flag = falkenhausen_recalled }
 	}
 
 	bypass = {
 		is_in_faction_with = GER
 	}
 
-	available = {
-		OR = {
-			has_government = neutrality
-			GER = {
-				has_government = ROOT
-			}
-			GER_will_support = yes
-		}
-		NOT = {
-			has_war_with = GER
-		}
-		NOT = {
-			has_global_flag = falkenhausen_recalled
-		}
-	}
-	
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		GER = {
@@ -112,29 +154,25 @@ shared_focus = { # Mission to Germany
 			}
 		}
 	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 4
-			tag = CHI
-		}
-	}
 }
 
-shared_focus = { # Given Falkenhausen Citizenship
+shared_focus = {
 	id = CHI_give_falkenhausen_citizenship
 	icon = GFX_focus_generic_diplomatic_treaty
-
+	prerequisite = { focus = CHI_mission_to_germany }
 	x = -1
 	y = 1
-
 	relative_position_id = CHI_mission_to_germany
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_mission_to_germany
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+		NOT = { has_global_flag = falkenhausen_recalled }
+		GER_will_support = yes
 	}
 
 	bypass = {
@@ -148,16 +186,13 @@ shared_focus = { # Given Falkenhausen Citizenship
 		}
 	}
 
-	available = {
-		NOT = {
-			has_global_flag = falkenhausen_recalled
-		}
-		GER_will_support = yes
-	}
-
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		custom_effect_tooltip = available_chief_of_army
@@ -171,47 +206,34 @@ shared_focus = { # Given Falkenhausen Citizenship
 			planning_skill = 3
 			logistics_skill = 3
 			id = 603
-			traits = {
-				infantry_officer
-			}
+			traits = { infantry_officer }
 		}
-	}
-
-	ai_will_do = {
-		factor = 1
 	}
 }
 
-shared_focus = { # Chinese General Staff
+shared_focus = {
 	id = CHI_chinese_general_staff
 	icon = GFX_goal_generic_axis_build_infantry
-
+	prerequisite = { focus = CHI_give_falkenhausen_citizenship }
+	prerequisite = { focus = CHI_closer_ties_with_germany }
 	x = 0
 	y = 1
-
 	relative_position_id = CHI_give_falkenhausen_citizenship
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_closer_ties_with_germany
-	}
-	prerequisite = {
-		focus = CHI_give_falkenhausen_citizenship
+	ai_will_do = {
+		factor = 1
 	}
 
 	available = {
-		NOT = {
-			has_idea = CHI_incompetent_officers
-		}
-		NOT = {
-			has_global_flag = falkenhausen_recalled
-		}
+		NOT = { has_idea = CHI_incompetent_officers }
+		NOT = { has_global_flag = falkenhausen_recalled }
 		if = {
 			limit = {
 				NOT = {
 					OR = {
-						has_government = neutrality
+						has_government = syncretic
 						GER = {
 							has_government = ROOT
 						}
@@ -222,9 +244,17 @@ shared_focus = { # Chinese General Staff
 		}
 	}
 
+	bypass = {
+
+	}
+
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		every_army_leader = {
@@ -232,37 +262,38 @@ shared_focus = { # Chinese General Staff
 		}
 		add_ideas = CHI_chinese_general_staff
 	}
-
-	ai_will_do = {
-		factor = 1
-	}
 }
 
-shared_focus = { # Wargaming Division
+shared_focus = {
 	id = CHI_wargaming_division
 	icon = GFX_goal_generic_position_armies
-
+	prerequisite = { focus = CHI_chinese_general_staff }
 	x = -1
 	y = 1
-
 	relative_position_id = CHI_chinese_general_staff
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_chinese_general_staff
+	ai_will_do = {
+		factor = 1
 	}
 
 	available = {
-		NOT = {
-			has_global_flag = falkenhausen_recalled
-		}
+		NOT = { has_global_flag = falkenhausen_recalled }
 		GER_will_support = yes
+	}
+
+	bypass = {
+
 	}
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		add_ideas = CHI_wargaming_division
@@ -273,50 +304,18 @@ shared_focus = { # Wargaming Division
 			category = land_doctrine
 		}
 	}
-
-	ai_will_do = {
-		factor = 1
-	}
 }
 
-shared_focus = { # Closer Ties with Germany
+shared_focus = {
 	id = CHI_closer_ties_with_germany
 	icon = GFX_goal_generic_improve_relations
-
+	prerequisite = { focus = CHI_mission_to_germany }
+	mutually_exclusive = { focus = CHI_rapprochement_with_soviet_union }
 	x = 1
 	y = 1
-
 	relative_position_id = CHI_mission_to_germany
 
 	cost = 10
-
-	prerequisite = {
-		focus = CHI_mission_to_germany
-	}
-	
-	mutually_exclusive = {
-		focus = CHI_rapprochement_with_soviet_union
-	}
-
-	available = {
-		NOT = {
-			has_war_with = GER
-		}
-		NOT = {
-			has_global_flag = falkenhausen_recalled
-		}
-		GER_will_support = yes
-	}
-
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-
-	completion_reward = {
-		add_offsite_building = {
-			type = industrial_complex level = 1
-		}
-	}
 
 	ai_will_do = {
 		factor = 1
@@ -329,22 +328,50 @@ shared_focus = { # Closer Ties with Germany
 			tag = CHI
 		}
 	}
+
+	available = {
+		NOT = { has_war_with = GER }
+		NOT = { has_global_flag = falkenhausen_recalled }
+		GER_will_support = yes
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 1 }
+	}
 }
 
-shared_focus = { # Purchase Tanks
+shared_focus = {
 	id = CHI_purchase_tanks
 	icon = GFX_goal_generic_army_tanks
-
+	prerequisite = { focus = CHI_closer_ties_with_germany focus = CHI_rapprochement_with_soviet_union }
 	x = 1
 	y = 1
-
 	relative_position_id = CHI_closer_ties_with_germany
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_closer_ties_with_germany
-		focus = CHI_rapprochement_with_soviet_union
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			tag = PRC
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+		}
 	}
 
 	available = {
@@ -354,9 +381,17 @@ shared_focus = { # Purchase Tanks
 		}
 	}
 
+	bypass = {
+
+	}
+
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		custom_effect_tooltip = CHI_purchase_tanks_tt
@@ -367,67 +402,54 @@ shared_focus = { # Purchase Tanks
 						has_tech = gwtank
 					}
 				}
-				set_technology = {
-					gwtank = 1
-				}
+				set_technology = { gwtank = 1 }
 			}
 			if = {
 				limit = {
 					has_completed_focus = CHI_closer_ties_with_germany
 				}
-				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1 amount = 100 producer = GER
-				}
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = GER }
 			}
 			if = {
 				limit = {
 					has_completed_focus = CHI_rapprochement_with_soviet_union
 				}
-				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1 amount = 100 producer = SOV
-				}
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = SOV }
 			}
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 4
-			tag = PRC
-		}
-		modifier = {
-			factor = 4
-			tag = CHI
 		}
 	}
 }
 
-shared_focus = { # Chinese Panzers
+shared_focus = {
 	id = CHI_chinese_panzers
 	icon = GFX_goal_generic_production2
-
+	prerequisite = { focus = CHI_purchase_tanks }
+	prerequisite = { focus = CHI_closer_ties_with_germany }
 	x = -2
 	y = 1
-
 	relative_position_id = CHI_purchase_tanks
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_closer_ties_with_germany
-	}
-	prerequisite = {
-		focus = CHI_purchase_tanks
+	ai_will_do = {
+		factor = 1
 	}
 
 	available = {
 		GER_will_support = yes
 	}
 
+	bypass = {
+
+	}
+
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		add_tech_bonus = {
@@ -439,29 +461,28 @@ shared_focus = { # Chinese Panzers
 		custom_effect_tooltip = available_designer
 		show_ideas_tooltip = german_chinese_tank_designer
 	}
-
-	ai_will_do = {
-		factor = 1
-	}
 }
 
-shared_focus = { # Tank Plant
+shared_focus = {
 	id = CHI_tank_plant
 	icon = GFX_goal_generic_construct_mil_factory
-
+	prerequisite = { focus = CHI_chinese_panzers }
 	x = -2
 	y = 3
-
 	relative_position_id = CHI_purchase_tanks
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_chinese_panzers
+	ai_will_do = {
+		factor = 1
 	}
 
 	available = {
 		GER_will_support = yes
+	}
+
+	bypass = {
+
 	}
 
 	cancel_if_invalid = yes
@@ -501,31 +522,32 @@ shared_focus = { # Tank Plant
 			set_state_flag = CHI_tank_plant_AF
 		}
 	}
-
-	ai_will_do = {
-		factor = 1
-	}
 }
 
-shared_focus = { # Experimental Mechanized Unit
+shared_focus = {
 	id = CHI_experimental_mechanised_unit
 	icon = GFX_goal_generic_cavalry
-
+	prerequisite = { focus = CHI_purchase_tanks }
 	x = 0
 	y = 2
-
 	relative_position_id = CHI_purchase_tanks
 
 	cost = 10
 
-	prerequisite = {
-		focus = CHI_purchase_tanks
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			tag = PRC
+		}
+		modifier = {
+			factor = 4
+			tag = CHI
+		}
 	}
 
 	available = {
-		capital_scope = {
-			is_fully_controlled_by = ROOT
-		}
+		capital_scope = { is_fully_controlled_by = ROOT }
 		has_tech = motorised_infantry
 		OR = {
 			GER_will_support = yes
@@ -533,9 +555,17 @@ shared_focus = { # Experimental Mechanized Unit
 		}
 	}
 
+	bypass = {
+
+	}
+
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
 
 	completion_reward = {
 		custom_effect_tooltip = CHI_experimental_mechanised_unit_effect
@@ -549,25 +579,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = CHI_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = 
-							 x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -580,25 +601,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = PRC_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -611,25 +623,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = YUN_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -642,25 +645,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = GXC_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -673,25 +667,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = SHX_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -704,25 +689,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = XSM_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -735,25 +711,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = SIK_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -766,25 +733,16 @@ shared_focus = { # Experimental Mechanized Unit
 					division_names_group = MAN_MEC_01
 					priority = 2
 					regiments = {
-						light_armor = {
-							x = 0 y = 0
-						}
-						light_armor = {
-							x = 0 y = 1
-						}
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
 			
-						motorized = {
-							x = 1 y = 0
-						}
-						motorized = {
-							x = 1 y = 1
-						}
-						motorized = {
-							x = 1 y = 2
-						}
-						motorized = {
-							x = 1 y = 3
-						}
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+					support = {
+						
 					}
 				}
 			}
@@ -794,18 +752,6 @@ shared_focus = { # Experimental Mechanized Unit
 					owner = ROOT
 				}
 			}			
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 4
-			tag = PRC
-		}
-		modifier = {
-			factor = 4
-			tag = CHI
 		}
 	}
 }
@@ -968,7 +914,7 @@ shared_focus = {
 
 	available = {
 		OR = {
-			has_government = neutrality
+			has_government = syncretic
 			SOV = { has_government = ROOT }
 			SOV_will_support = yes
 		}
@@ -1179,7 +1125,7 @@ shared_focus = {
 
 	available = {
 		OR = {
-			has_government = neutrality
+			has_government = syncretic
 			FRA = { has_government = ROOT }
 			FRA_will_support = yes
 		}
@@ -2078,7 +2024,7 @@ shared_focus = {
 
 	available = {
 		is_subject = no
-		NOT = { has_government = fascism }
+		NOT = { has_government = right-wing }
 	}
 
 	bypass = {
@@ -2579,7 +2525,7 @@ shared_focus = {
 
 	available = {
 		OR = {
-			has_government = neutrality
+			has_government = syncretic
 			ENG = { has_government = ROOT }
 			ENG_will_support = yes
 		}
@@ -3204,7 +3150,7 @@ shared_focus = {
 	available = {
 		OR = {
 			USA_will_support = yes
-			has_government = neutrality
+			has_government = syncretic
 			USA = { has_government = ROOT }
 		}
 		not = {

@@ -1,6 +1,6 @@
-#############################################
-# TAOX - United Kingdom National Focus Tree #
-#############################################
+########################################
+# United Kingdom - National Focus Tree #
+########################################
 
 focus_tree = {
 	id = british_focus
@@ -65,17 +65,17 @@ focus_tree = {
 	focus = {
 		id = tizard_mission_focus
 		available = {				
-			has_government = democratic
+			has_government = centre
 			any_other_country = {
 				has_war_with = ROOT
-				NOT = { has_government = democratic }
+				NOT = { has_government = centre }
 				num_of_factories > 30
 			}
 			NOt = {
 				has_war_with = USA
 			}
 			USA = { 
-				has_government = democratic
+				has_government = centre
 				NOT = {
 					OR = {
 						has_idea = undisturbed_isolation
@@ -1363,7 +1363,7 @@ focus_tree = {
 	#	}	
 	#	completion_reward = {
 	#		every_other_country = {
-	#			limit = { NOT = { has_government = democratic } }
+	#			limit = { NOT = { has_government = centre } }
 	#			add_opinion_modifier = { target = ENG modifier = minor_sanctions }
 	#			add_opinion_modifier = { target = ENG modifier = minor_sanctions_relations } 
 	#		}
@@ -1549,22 +1549,22 @@ focus_tree = {
 				SWE = { 
 					exists = yes
 					OR = { 
-						communism > 0.1
-				 		fascism > 0.1
+						left-wing > 0.1
+				 		right-wing > 0.1
 				 	} 
 				}
 				NOR = { 
 					exists = yes
 					OR = { 
-						communism > 0.1
-				 		fascism > 0.1
+						left-wing > 0.1
+				 		right-wing > 0.1
 				 	} 
 				}
 				DEN = {
 					exists = yes
 					OR = { 
-						communism > 0.1
-				 		fascism > 0.1
+						left-wing > 0.1
+				 		right-wing > 0.1
 				 	} 
 				}				
 			}			
@@ -1621,8 +1621,8 @@ focus_tree = {
 			SWE = {
 				exists = yes
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 			}		
 		}
@@ -1653,8 +1653,8 @@ focus_tree = {
 			NOR = {
 				exists = yes
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 			}
 		}	
@@ -1685,8 +1685,8 @@ focus_tree = {
 			DEN = {
 				exists = yes
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 			}
 		}		
@@ -1723,15 +1723,15 @@ focus_tree = {
 				BEL = {
 					exists = yes
 					OR = { 
-						communism > 0.15
-				 		fascism > 0.15
+						left-wing > 0.15
+				 		right-wing > 0.15
 				 	} 
 				}
 				HOL = { 
 					exists = yes
 					OR = { 
-						communism > 0.15
-				 		fascism > 0.15
+						left-wing > 0.15
+				 		right-wing > 0.15
 				 	} 
 				}								
 			}			
@@ -1768,8 +1768,8 @@ focus_tree = {
 			BEL = {
 				exists = yes
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 			}
 		}		
@@ -1799,8 +1799,8 @@ focus_tree = {
 			HOL = {
 				exists = yes
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 			}
 		}		
@@ -1960,7 +1960,7 @@ focus_tree = {
 				country_event = { id = generic.1 }
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = democratic }
+						NOT = { has_government = centre }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = PREV modifier = democratic_leanings_bad }
@@ -2168,7 +2168,7 @@ focus_tree = {
 		completion_reward = {
 			# + relations with TUR - they become more democratic and like fascist/commies less
 			if = {
-				limit = { has_government = democratic }
+				limit = { has_government = centre }
 				TUR = {
 					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
 					add_ideas = democratic_influence
@@ -2176,14 +2176,14 @@ focus_tree = {
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = democratic }
+						NOT = { has_government = centre }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = TUR modifier = democratic_leanings_bad }
 				}
 			}
 			if = {
-				limit = { has_government = communism }
+				limit = { has_government = left-wing }
 				TUR = {
 					add_opinion_modifier = { target = ENG modifier = communism_leanings_good }
 					add_ideas = communist_influence
@@ -2191,14 +2191,14 @@ focus_tree = {
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = communism }
+						NOT = { has_government = left-wing }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = TUR modifier = communism_leanings_bad }
 				}
 			}
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				TUR = {
 					add_opinion_modifier = { target = ENG modifier = fascism_leanings_good }
 					add_ideas = fascist_influence
@@ -2206,7 +2206,7 @@ focus_tree = {
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = fascism }
+						NOT = { has_government = right-wing }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = TUR modifier = fascism_leanings_bad }
@@ -2241,7 +2241,7 @@ focus_tree = {
 					}
 			every_other_country = {
 						limit = { 
-							NOT = { has_government = democratic }
+							NOT = { has_government = centre }
 							num_of_factories > 30
 						}
 						add_opinion_modifier = { target = GRE modifier = democratic_leanings_bad }
@@ -2301,8 +2301,8 @@ focus_tree = {
 		available = {
 			IRQ = {
 				OR = { 
-					communism > 0.2
-			 		fascism > 0.2
+					left-wing > 0.2
+			 		right-wing > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iraq is fascist/commie
@@ -2335,8 +2335,8 @@ focus_tree = {
 			PER = {
 				exists = yes
 				OR = { 
-					communism > 0.2
-			 		fascism > 0.2
+					left-wing > 0.2
+			 		right-wing > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iran is fascist/commie
@@ -3045,7 +3045,7 @@ focus_tree = {
 					}
 			every_other_country = {
 						limit = { 
-							NOT = { has_government = democratic }
+							NOT = { has_government = centre }
 							num_of_factories > 30
 						}
 						add_opinion_modifier = { target = CHI modifier = democratic_leanings_bad }
@@ -3229,7 +3229,7 @@ focus_tree = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
+						NOT = { has_government = centre }
 						RAJ = {
 							is_subject_of = ENG
 							has_war = no

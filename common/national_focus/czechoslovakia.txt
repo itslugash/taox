@@ -1395,7 +1395,7 @@ focus_tree = {
 			# relations changes
 			every_other_country = {
 				limit = { 
-					has_government = communism
+					has_government = left-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1405,7 +1405,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = democratic
+					has_government = centre
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1415,7 +1415,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = right-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1516,7 +1516,7 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.2
+			left-wing > 0.2
 		}
 
 		bypass = {
@@ -1551,9 +1551,9 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.3
+			left-wing > 0.3
 			SOV = {
-				has_government = communism 
+				has_government = left-wing 
 			}
 			is_in_faction = no
 			NOT = {
@@ -1707,7 +1707,7 @@ focus_tree = {
 		}
 
 		available = {
-			democratic > 0.7
+			centre > 0.7
 		}
 
 		bypass = {
@@ -1847,7 +1847,7 @@ focus_tree = {
 			#allow nazi leader
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = right-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1857,7 +1857,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = democratic
+					has_government = centre
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1867,7 +1867,7 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = communism
+					has_government = left-wing
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1893,7 +1893,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.35
+			right-wing > 0.35
 		}
 
 		bypass = {
@@ -1928,7 +1928,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.5
+			right-wing > 0.5
 		}
 
 		bypass = {
@@ -2003,7 +2003,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.6
+			right-wing > 0.6
 		}
 
 		bypass = {
@@ -2055,7 +2055,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism > 0.6
+			right-wing > 0.6
 			NOT = {
 				has_idea = CZE_divided_nation
 			}
@@ -2099,7 +2099,7 @@ focus_tree = {
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = fascism }
+			GER = { has_government = right-wing }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 249999 } 
@@ -2144,7 +2144,7 @@ focus_tree = {
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = fascism }
+			GER = { has_government = right-wing }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 299999 } 

@@ -1959,7 +1959,7 @@ focus_tree = {
 		prerequisite = { focus = POL_go_right }
 		available = {
 			country_exists = GER
-			GER = { has_government = fascism }
+			GER = { has_government = right-wing }
 		}
 		
 		x = 0

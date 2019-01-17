@@ -1459,7 +1459,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = right-wing
 				}
 				HUN = {
 					add_ideas = GER_align_hungary
@@ -1467,7 +1467,7 @@ focus_tree = {
 			}	
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = syncretic
 				}
 				HUN = {
 					add_ideas = GER_align_hungary_unaligned
@@ -1475,7 +1475,7 @@ focus_tree = {
 			}	
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = centre
 				}
 				HUN = {
 					add_ideas = GER_align_hungary_democratic
@@ -1518,7 +1518,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = right-wing
 				}
 				ROM = {
 					add_ideas = GER_align_romania
@@ -1526,7 +1526,7 @@ focus_tree = {
 			}	
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = syncretic
 				}
 				ROM = {
 					add_ideas = GER_align_romania_unaligned
@@ -1534,7 +1534,7 @@ focus_tree = {
 			}	
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = centre
 				}
 				ROM = {
 					add_ideas = GER_align_romania_democratic
@@ -1897,7 +1897,7 @@ focus_tree = {
 		icon = GFX_focus_ger_reichskommisariats
 		prerequisite = { focus = GER_german_war_economy focus = GER_integrate_war_economies }
 		available = {
-			has_government = fascism
+			has_government = right-wing
 		}
 		x = 1
 		y = 1
@@ -2374,7 +2374,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_anti_soviet_pact }
 		available = {
 			is_puppet = no
-			has_government = fascism
+			has_government = right-wing
 			has_army_manpower = { size > 849999 } #ca 90 div
 			SOV = {
 				NOT = { has_war_with = GER }
@@ -2418,7 +2418,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_ussr_war_goal }
 		available = {
 			is_puppet = no
-			has_government = fascism
+			has_government = right-wing
 			has_war = no
 			SOV = {
 				has_war = no
@@ -2471,7 +2471,7 @@ focus_tree = {
 		prerequisite = { focus = GER_soviet_ally }
 		available = {
 			is_puppet = no
-			has_government = fascism
+			has_government = right-wing
 			OR = {
 				GRE = {
 					is_in_faction_with = GER
@@ -2621,7 +2621,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			is_puppet = no
-			NOT = { has_government = communism }
+			NOT = { has_government = left-wing }
 			NOT = { is_in_faction_with = SOV }
 		}
 		ai_will_do = {
@@ -2646,10 +2646,10 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					OR = {
-						has_government = fascism 
+						has_government = right-wing 
 						AND = {
 							is_neighbor_of = SOV
-							NOT = { has_government = communism }
+							NOT = { has_government = left-wing }
 						}
 					}
 				}
@@ -2824,7 +2824,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -2832,7 +2832,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -2840,7 +2840,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -2936,13 +2936,13 @@ focus_tree = {
 					limit = {
 						original_tag = AUS
 						OR = {
-							has_government = fascism
+							has_government = right-wing
 							AND = {
-								has_government = neutrality
+								has_government = syncretic
 								NOT = {
 									any_other_country = {
 										original_tag = AUS
-										has_government = fascism
+										has_government = right-wing
 									}
 								}
 							}
@@ -2950,8 +2950,8 @@ focus_tree = {
 								any_other_country = {
 									original_tag = AUS
 									OR = {
-										has_government = fascism
-										has_government = neutrality
+										has_government = right-wing
+										has_government = syncretic
 									}
 								}
 							}							
@@ -3470,7 +3470,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -3478,7 +3478,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -3486,7 +3486,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -3785,7 +3785,7 @@ focus_tree = {
 				AND = {
 					OR = {
 						HUN = {
-							NOT = { has_government = fascism }
+							NOT = { has_government = right-wing }
 							is_friend_or_potential_friend_of_GER = no
 						}
 						ROM = {
@@ -3878,7 +3878,7 @@ focus_tree = {
 			SPR = { has_civil_war = no }
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = right-wing
 				NOT = { has_war_with = GER }
 				NOT = { is_in_faction_with = GER }
 			}
@@ -3886,7 +3886,7 @@ focus_tree = {
 				OR = {
 					exists = no
 					has_capitulated = yes
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 		}
@@ -3894,7 +3894,7 @@ focus_tree = {
 		#bypass = {
 		#	any_other_country = {
 		#		original_tag = SPR
-		#		has_government = fascism
+		#		has_government = right-wing
 		#		is_in_faction_with = GER
 		#	}
 		#}
@@ -3909,7 +3909,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = { 
-						SPR = { NOT = { has_government = fascism } }
+						SPR = { NOT = { has_government = right-wing } }
 						NOT = { country_exists = SPR }
 					}
 				}
@@ -3918,7 +3918,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = right-wing
 				}
 				remove_ideas = SPA_recovering_from_civil_war
 				add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
@@ -3993,7 +3993,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -4001,7 +4001,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -4009,7 +4009,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -4583,7 +4583,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_weserubung }
 
 		available = {
-			has_government = fascism
+			has_government = right-wing
 			country_exists = DEN
 			NOT = {
 				has_war_with = DEN
@@ -4613,7 +4613,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -4621,7 +4621,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -4629,7 +4629,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -4647,7 +4647,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = GER_denmark_friend }
 		available = {
-			has_government = fascism
+			has_government = right-wing
 			NOT = { has_war_with = NOR }
 			NOR = {
 				custom_trigger_tooltip = {
@@ -4675,7 +4675,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -4683,7 +4683,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -4691,7 +4691,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -4715,7 +4715,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = GER_denmark_friend }
 		available = {
-			has_government = fascism
+			has_government = right-wing
 			NOT = { has_war_with = HOL }
 			HOL = {
 				custom_trigger_tooltip = {
@@ -4743,7 +4743,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -4751,7 +4751,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -4759,7 +4759,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -4777,7 +4777,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = GER_norway_friend }
 		available = {
-			has_government = fascism
+			has_government = right-wing
 			NOT = { has_war_with = SWE }
 			SWE = {
 				custom_trigger_tooltip = {
@@ -4805,7 +4805,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					add_ideas = fascist_influence
@@ -4813,7 +4813,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					add_ideas = communist_influence
@@ -4821,7 +4821,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 					add_ideas = democratic_influence
@@ -5395,7 +5395,7 @@ focus_tree = {
 
 		available = {
 			is_puppet = no
-			has_government = fascism
+			has_government = right-wing
 		}
 		x = 47
 		y = 0
@@ -5427,7 +5427,7 @@ focus_tree = {
 			NOT = {
 				any_country = {
 					original_tag = GER
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 		}
@@ -5453,7 +5453,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_reestablish_free_elections }
 		bypass = {
 			has_country_flag = GER_mackensen_dead
-			NOT = { has_government = democratic }
+			NOT = { has_government = centre }
 		}
 		available = {
 			is_puppet = no
@@ -5470,7 +5470,7 @@ focus_tree = {
 			add_ideas = GER_revive_the_kaiserreich
 			custom_effect_tooltip = GER_revive_the_kaiserreich_tt
 			hidden_effect = { set_cosmetic_tag = GER_german_empire }
-			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
+			set_party_name = { ideology = syncretic long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
 			set_rule = { can_send_volunteers = yes }
 			add_named_threat = { threat = 5 name = GER_revive_the_kaiserreich }
 		}
@@ -5627,12 +5627,12 @@ focus_tree = {
 		prerequisite = { focus = GER_revive_the_kaiserreich }
 		available = {
 			is_puppet = no
-			neutrality > 0.4
+			syncretic > 0.4
 			has_country_leader = { ruling_only = yes name = "August von Mackensen" }
 		}
 		bypass = {
 			has_country_flag = GER_mackensen_dead
-			NOT = { has_government = democratic }
+			NOT = { has_government = centre }
 		}
 		x = -2
 		y = 1
@@ -6152,7 +6152,7 @@ focus_tree = {
 						is_ai = yes
 						is_puppet = no
 						is_in_faction = no
-						has_government = neutrality
+						has_government = syncretic
 						NOT = { has_war_with = GER }
 					}					
 				}
@@ -6171,7 +6171,7 @@ focus_tree = {
 						is_ai = yes
 						is_puppet = no
 						is_in_faction = no
-						has_government = neutrality
+						has_government = syncretic
 						NOT = { has_war_with = GER }
 					}					
 					NOT = { country_exists = AUS }
@@ -6192,7 +6192,7 @@ focus_tree = {
 						is_ai = yes
 						is_puppet = no
 						is_in_faction = no
-						has_government = neutrality
+						has_government = syncretic
 						NOT = { has_war_with = GER }
 					}		
 					NOT = { country_exists = HUN }			
@@ -6263,8 +6263,8 @@ focus_tree = {
 			}
 			effect_tooltip = {
 				ITA = {
-					set_politics = { ruling_party = neutrality elections_allowed = no }
-					add_popularity = { ideology = neutrality popularity = 0.1 }
+					set_politics = { ruling_party = syncretic elections_allowed = no }
+					add_popularity = { ideology = syncretic popularity = 0.1 }
 					swap_ideas = {
 						remove_idea = GER_preparing_ITA_coup
 						add_idea = GER_preparing_ITA_coup2
@@ -6275,7 +6275,7 @@ focus_tree = {
 						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 						picture = "GFX_portrait_italy_victor_emmanuel_iii"
 						expire = "1965.1.1"
-						ideology = despotism
+						ideology = monarchism
 						traits = {
 			
 						}
@@ -6375,7 +6375,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = communism
+							has_government = left-wing
 						}
 						country_event = { id = wtt_germany.2 days = 1 }
 					}
@@ -6454,7 +6454,7 @@ focus_tree = {
 		will_lead_to_war_with = FRA
 		available = {
 			is_puppet = no
-			FRA = { has_government = communism }
+			FRA = { has_government = left-wing }
 			NOT = { is_in_faction_with = FRA }
 		}
 		cancel_if_invalid = yes
@@ -6859,7 +6859,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			is_puppet = no
-			NOT = { has_government = communism }
+			NOT = { has_government = left-wing }
 			NOT = { is_in_faction_with = SOV }
 		}
 		ai_will_do = {
@@ -6887,10 +6887,10 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					OR = {
-						has_government = neutrality 
+						has_government = syncretic 
 						AND = {
 							is_neighbor_of = SOV
-							NOT = { has_government = communism }
+							NOT = { has_government = left-wing }
 						}
 					}
 				}
@@ -6946,7 +6946,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			SOV = {
-				has_government = communism
+				has_government = left-wing
 				has_war = yes
 			}
 			NOT = { is_in_faction_with = SOV }
@@ -6986,7 +6986,7 @@ focus_tree = {
 			is_puppet = no
 			any_country = {
 				original_tag = SPR
-				has_government = communism
+				has_government = left-wing
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -7004,7 +7004,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = communism
+						has_government = left-wing
 					}
 					GER = {
 						create_wargoal = {
@@ -7036,7 +7036,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = { GER_reestablish_free_elections }
-			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
+			set_party_name = { ideology = syncretic long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
 		}
 	}
 
@@ -7046,7 +7046,7 @@ focus_tree = {
 		prerequisite = { focus = GER_reestablish_free_elections }
 		available = {
 			is_puppet = no
-			democratic > 0.4
+			centre > 0.4
 		}
 		cancel_if_invalid = yes
 		x = 2
@@ -7058,8 +7058,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.1 }
-			set_politics = { ruling_party = democratic elections_allowed = yes }
+			add_popularity = { ideology = centre popularity = 0.1 }
+			set_politics = { ruling_party = centre elections_allowed = yes }
 			add_ideas = { GER_wilhelm_iii }
 			add_stability = 0.05
 			hidden_effect = {
@@ -7075,7 +7075,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			has_war = no
-			SOV = { has_government = communism }
+			SOV = { has_government = left-wing }
 			has_added_tension_amount < 15
 		}
 		cancel_if_invalid = yes
@@ -7105,8 +7105,8 @@ focus_tree = {
 						original_tag = SPR
 						tag = POR
 						tag = GRE
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 				country_event = { id = wtt_germany.24 }
@@ -7171,12 +7171,12 @@ focus_tree = {
 				news_event = { id = wtt_news.22 hours = 6 }
 				if = {
 					limit = {
-						FRA = { has_government = communism }
+						FRA = { has_government = left-wing }
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = communism
+							has_government = left-wing
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -7192,12 +7192,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SOV = { has_government = communism }
+						SOV = { has_government = left-wing }
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = communism
+							has_government = left-wing
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -7213,12 +7213,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						FRA = { has_government = fascism }
+						FRA = { has_government = right-wing }
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = fascism
+							has_government = right-wing
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -7234,12 +7234,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SOV = { has_government = fascism } #futureproofing
+						SOV = { has_government = right-wing } #futureproofing
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = fascism
+							has_government = right-wing
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -7300,8 +7300,8 @@ focus_tree = {
 				limit = {
 					AUS = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 					exists = yes
@@ -7314,8 +7314,8 @@ focus_tree = {
 				limit = {
 					CZE = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 					exists = yes
@@ -7328,8 +7328,8 @@ focus_tree = {
 				limit = {
 					HUN = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 					exists = yes
@@ -7377,8 +7377,8 @@ focus_tree = {
 				limit = {
 					YUG = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 						exists = yes
 					}
@@ -7391,8 +7391,8 @@ focus_tree = {
 				limit = {
 					ROM = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 					exists = yes
@@ -7413,19 +7413,19 @@ focus_tree = {
 			OR = {
 				any_country = { 
 					original_tag = HUN
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = ROM
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = YUG
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = BUL
-					has_government = communism 
+					has_government = left-wing 
 				}
 			}
 		}
@@ -7443,7 +7443,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = HUN
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_balkan_communism_HUN_tt
@@ -7451,7 +7451,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = HUN
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7466,7 +7466,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = ROM
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_balkan_communism_ROM_tt
@@ -7474,7 +7474,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = ROM
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7489,7 +7489,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = YUG
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_balkan_communism_YUG_tt
@@ -7497,7 +7497,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = YUG
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7512,7 +7512,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = BUL
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_balkan_communism_BUL_tt
@@ -7520,7 +7520,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = BUL
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7573,8 +7573,8 @@ focus_tree = {
 				limit = {
 					HOL = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7586,8 +7586,8 @@ focus_tree = {
 				limit = {
 					BEL = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7599,8 +7599,8 @@ focus_tree = {
 				limit = {
 					LUX = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7620,19 +7620,19 @@ focus_tree = {
 			OR = {
 				any_country = { 
 					original_tag = FRA
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = HOL
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = BEL
-					has_government = communism 
+					has_government = left-wing 
 				}
 				any_country = { 
 					original_tag = LUX
-					has_government = communism 
+					has_government = left-wing 
 				}
 			}
 		}
@@ -7650,7 +7650,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = FRA
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_reds_in_western_europe_FRA_tt
@@ -7658,7 +7658,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = FRA
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7673,7 +7673,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = HOL
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_reds_in_western_europe_HOL_tt
@@ -7681,7 +7681,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = HOL
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7696,7 +7696,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = BEL
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_reds_in_western_europe_BEL_tt
@@ -7704,7 +7704,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = BEL
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7719,7 +7719,7 @@ focus_tree = {
 				limit = {
 					any_country = { 
 						original_tag = LUX
-						has_government = communism 
+						has_government = left-wing 
 					}
 				}
 				custom_effect_tooltip = GER_no_reds_in_western_europe_LUX_tt
@@ -7727,7 +7727,7 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							original_tag = LUX
-							has_government = communism
+							has_government = left-wing
 						}
 						GER = {
 							create_wargoal = {
@@ -7780,8 +7780,8 @@ focus_tree = {
 				limit = {
 					NOR = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7793,8 +7793,8 @@ focus_tree = {
 				limit = {
 					SWE = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7806,8 +7806,8 @@ focus_tree = {
 				limit = {
 					DEN = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7877,8 +7877,8 @@ focus_tree = {
 				limit = {
 					EST = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7895,8 +7895,8 @@ focus_tree = {
 				limit = {
 					LAT = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7913,8 +7913,8 @@ focus_tree = {
 				limit = {
 					LIT = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -7982,8 +7982,8 @@ focus_tree = {
 				limit = {
 					POL = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -8065,8 +8065,8 @@ focus_tree = {
 				limit = {
 					FIN = {
 						NOT = {
-							has_government = communism
-							has_government = fascism
+							has_government = left-wing
+							has_government = right-wing
 						}
 					}
 				}
@@ -8120,7 +8120,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			SOV = {
-				has_government = communism
+				has_government = left-wing
 			}
 			NOT = { is_in_faction_with = SOV }
 		}
@@ -8146,7 +8146,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					FRA = { has_government = communism }
+					FRA = { has_government = left-wing }
 				}
 				add_ai_strategy = {
 					type = antagonize

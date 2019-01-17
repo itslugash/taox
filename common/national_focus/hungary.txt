@@ -122,7 +122,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_hungarian_monarchy
-			set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+			set_party_name = { ideology = syncretic long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 		}
 	}
 
@@ -141,7 +141,7 @@ focus_tree = {
 		}
 
 		available = {
-			neutrality > 0.3
+			syncretic > 0.3
 		}
 
 		bypass = {
@@ -186,7 +186,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = neutrality
+			has_government = syncretic
 		}
 
 		bypass = {
@@ -214,7 +214,7 @@ focus_tree = {
 				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 				picture = GFX_Portrait_hungary_otto_von_hapsburg
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = monarchism
 				traits = {
 					
 				}
@@ -777,7 +777,7 @@ focus_tree = {
 		}
 
 		available = {
-			democratic > 0.4
+			centre > 0.4
 		}
 
 		bypass = {
@@ -1024,7 +1024,7 @@ focus_tree = {
 			is_in_faction_with = ENG
 			ENG = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = centre
 			}
 		}
 
@@ -1069,8 +1069,8 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality				
+				has_government = right-wing
+				has_government = syncretic				
 			}
 		}
 
@@ -1094,15 +1094,15 @@ focus_tree = {
 			set_cosmetic_tag = HUN_MONARCHY
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = syncretic
 				}
-				add_popularity = { ideology = fascism popularity = 0.05 }
+				add_popularity = { ideology = right-wing popularity = 0.05 }
 				create_country_leader = {
 					name = "Friedrich Franz of Mecklenburg-Schwerin"
 					desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 					picture = GFX_Portrait_hungary_friedrich_franz
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = monarchism
 					traits = {
 						fascist_sympathies
 					}
@@ -1114,7 +1114,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = reactionary
 						traits = {
 						}
 						id = 502 #Nazi Franz
@@ -1126,7 +1126,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = reactionary
 						traits = {
 						}
 						id = 502 #Nazi Franz
@@ -1216,15 +1216,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_strengthen_fascists
-			add_popularity = { ideology = fascism popularity = 0.05 }
-			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
+			add_popularity = { ideology = right-wing popularity = 0.05 }
+			set_party_name = { ideology = right-wing long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 			hidden_effect = {
 				create_country_leader = {
 					name = "Miklós Horthy"
 					desc = "POLITICS_MIKLOS_HORTHY_DESC"
 					picture = "Portrait_Hungary_Miklos_Horthy.dds"
 					expire = "1965.1.1"
-					ideology = fascism_ideology
+					ideology = fascism
 					traits = {
 						anti_communist
 					}
@@ -1250,8 +1250,8 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = fascism
-				fascism > 0.4
+				has_government = right-wing
+				right-wing > 0.4
 			}
 			is_subject = no
 		}
@@ -1338,10 +1338,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = right-wing }
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = right-wing
 					elections_allowed = no
 				}
 			}
@@ -1373,14 +1373,14 @@ focus_tree = {
 			ITA = {
 				NOT = { has_war_with = AUS }
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = syncretic
+					has_government = right-wing
 				}
 			}
 			AUS = {
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = syncretic
+					has_government = right-wing
 				}
 			}
 		}
@@ -1393,7 +1393,7 @@ focus_tree = {
 				OR = {
 					exists = no
 					NOT = {
-						has_government = fascism #historical AI should only pick this if Germany doesn't exist or isn't fascist
+						has_government = right-wing #historical AI should only pick this if Germany doesn't exist or isn't fascist
 					}
 				}
 			}
@@ -1570,7 +1570,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_renounce_the_treaty_of_trianon
 		available = {
-			NOT = { GER = { has_government = communism } }
+			NOT = { GER = { has_government = left-wing } }
 		}
 
 		cost = 10
@@ -1679,7 +1679,7 @@ focus_tree = {
 			}
 			GER = {
 				is_faction_leader = yes
-				has_government = fascism
+				has_government = right-wing
 				is_subject = no
 			}
 		}
@@ -1689,7 +1689,7 @@ focus_tree = {
 				is_in_faction_with = GER
 				GER = {
 					is_faction_leader = yes
-					has_government = fascism
+					has_government = right-wing
 				}
 			} 
 		}
@@ -2262,12 +2262,12 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.3
+			left-wing > 0.3
 
 		}
 
 		bypass = {
-			has_government = communism
+			has_government = left-wing
 		}
 
 		cancel_if_invalid = yes
@@ -2284,7 +2284,7 @@ focus_tree = {
 				kill_country_leader = yes
 			}
 			set_politics = {
-				ruling_party = communism
+				ruling_party = left-wing
 				elections_allowed = no
 			}
 			news_event = { id = news.314 }
@@ -2393,7 +2393,7 @@ focus_tree = {
 			}
 			is_subject = no
 			SOV = { is_faction_leader = yes }
-			communism > 0.5
+			left-wing > 0.5
 		}
 
 		bypass = {
@@ -2426,7 +2426,7 @@ focus_tree = {
 							desc = "POLITICS_BELA_KUN_DESC"
 							picture = GFX_Portrait_hungary_bela_kun
 							expire = "1965.1.1"
-							ideology = marxism
+							ideology = communism
 							traits = {
 							}
 						}

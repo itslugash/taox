@@ -444,7 +444,7 @@ focus_tree = {
 			every_country = {
 				limit = {
 					is_major = yes
-					has_government = democratic
+					has_government = centre
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -810,7 +810,7 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				JAP = {
-					has_government = democratic
+					has_government = centre
 				}
 				factor = 0
 			}
@@ -877,7 +877,7 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_government = communism }
+			NOT = { has_government = left-wing }
 			any_country = {
 				OR = {
 					tag = YUN
@@ -888,7 +888,7 @@ focus_tree = {
 					tag = TIB
 					tag = PRC
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 
@@ -906,7 +906,7 @@ focus_tree = {
 							tag = TIB
 							tag = PRC
 						}
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 			}
@@ -924,7 +924,7 @@ focus_tree = {
 			if = {		
 				limit = {
 					SIK = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				create_wargoal = {
@@ -935,7 +935,7 @@ focus_tree = {
 			if = {		
 				limit = {
 					TIB = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				create_wargoal = {
@@ -946,7 +946,7 @@ focus_tree = {
 			if = {
 				limit = {
 					PRC = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				ROOT = {
@@ -959,7 +959,7 @@ focus_tree = {
 			if = {
 				limit = {
 					YUN = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				ROOT = {
@@ -972,7 +972,7 @@ focus_tree = {
 			if = {
 				limit = {
 					SHX = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				ROOT = {
@@ -985,7 +985,7 @@ focus_tree = {
 			if = {
 				limit = {
 					GXC = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				ROOT = {
@@ -998,7 +998,7 @@ focus_tree = {
 			if = {
 				limit = {
 					XSM = {
-						has_government = communism
+						has_government = left-wing
 					}
 				}
 				ROOT = {

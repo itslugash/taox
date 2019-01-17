@@ -119,8 +119,8 @@ focus_tree = {
 			factor = 15
 			modifier = {
 				OR = {
-					communism > 0.2
-					fascism > 0.2
+					left-wing > 0.2
+					right-wing > 0.2
 				}
 				factor = 3
 			}
@@ -298,8 +298,8 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				AND = {
-					communism > 0.25
-					fascism < 0.25
+					left-wing > 0.25
+					right-wing < 0.25
 				}
 				factor = 3
 			}
@@ -308,13 +308,13 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = right-wing }
 				}
 				compare_autonomy_state < autonomy_dominion
 			}
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = right-wing
 				}
 				compare_autonomy_state < autonomy_satellite
 			}
@@ -374,7 +374,7 @@ focus_tree = {
 
 		available = {
 			has_civil_war = no
-			#communism > 0.15
+			#left-wing > 0.15
 		}
 
 		bypass = {
@@ -416,7 +416,7 @@ focus_tree = {
 					SOV = {
 						add_to_faction = RAJ
 						add_popularity = {
-							ideology = communism
+							ideology = left-wing
 							popularity = 0.35
 						}
 					}
@@ -425,7 +425,7 @@ focus_tree = {
 						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
 						picture = GFX_RAJ_subhas_chandra_bose
 						expire = "1965.1.1"
-						ideology = stalinism
+						ideology = communism
 						traits = {
 							indomitable_perseverance
 						}
@@ -435,10 +435,10 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = neutrality
+						has_government = syncretic
 					}
 					add_popularity = {
-						ideology = neutrality
+						ideology = syncretic
 						popularity = 0.15
 					}
 					ENG = { add_to_faction = PREV }
@@ -753,8 +753,8 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				AND = {
-					communism < 0.25
-					fascism > 0.25
+					left-wing < 0.25
+					right-wing > 0.25
 				}
 				factor = 3
 			}
@@ -762,12 +762,12 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascism } }
+				limit = { NOT = { has_government = right-wing } }
 				compare_autonomy_state < autonomy_dominion
 			}
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = right-wing
 				}
 				compare_autonomy_state < autonomy_satellite
 			}
@@ -775,7 +775,7 @@ focus_tree = {
 			NOT = { has_global_flag = RAJ_seek_help_from_soviet_promised }
 			GER = {				
 				exists = yes
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 
@@ -871,7 +871,7 @@ focus_tree = {
 					GER = {
 						add_to_faction = RAJ
 						add_popularity = {
-							ideology = fascism
+							ideology = right-wing
 							popularity = 0.35
 						}
 					}
@@ -880,7 +880,7 @@ focus_tree = {
 						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
 						picture = GFX_RAJ_subhas_chandra_bose
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = fascism
 						traits = {
 							indomitable_perseverance
 						}
@@ -889,10 +889,10 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = RAJ
-						has_government = neutrality
+						has_government = syncretic
 					}
 					add_popularity = {
-						ideology = neutrality
+						ideology = syncretic
 						popularity = 0.15
 					}
 					ENG = { add_to_faction = PREV }
@@ -919,7 +919,7 @@ focus_tree = {
 			ITA = {
 				has_capitulated = no
 				is_in_faction_with = GER
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 
@@ -1851,11 +1851,11 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascism } }
+				limit = { NOT = { has_government = right-wing } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 		}
@@ -2488,11 +2488,11 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascism } }
+				limit = { NOT = { has_government = right-wing } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 		}
@@ -3561,11 +3561,11 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascism } }
+				limit = { NOT = { has_government = right-wing } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = right-wing }
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 		}
