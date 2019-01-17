@@ -9,9 +9,9 @@
 	set_war_support = 0.1
 # Technology
 	set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
+		infantry_weapons = 1
+		tech_mountaineers = 1
+	}
 # Diplomacy
 	# Factions
 	# Puppets
@@ -33,7 +33,7 @@
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 100
 			}
 		}
 		
@@ -47,23 +47,18 @@
 	# Centre
 	# Right-Wing
 	# Syncretic
+		create_country_leader = {
+			name = "Juddha Shumsher Jang Bahadur Rana"
+			desc = "NEP_Juddha_Shmusher_Jang_Bahadur_Rana_desc"
+			picture = "NEP_Juddha_Shmusher_Jang_Bahadur_Rana.dds"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				#
+			}
+		}
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
 	# Admiral(s)
 # Variants
-
-
-
-
-
-create_country_leader = {
-	name = "Juddha Rana"
-	desc = "POLITICS_JUDDHA_RANA_DESC"
-	picture = "GFX_portrait_nepal_portrait_juddah_rana"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}

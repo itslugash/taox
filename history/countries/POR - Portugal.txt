@@ -65,11 +65,21 @@
 			}
 		}
 	# Centre
+		create_country_leader = {
+			name = "José Norton de Matos"
+			desc = "POR_Jose_Norton_de_Matos_desc"
+			picture = "Portrait_POR_Jose_Norton_de_Matos.dds"
+			expire = "1965.1.1"
+			ideology = centre_independent
+			traits = {
+				#
+			}
+		}
 	# Right-Wing
 		create_country_leader = {
 			name = "António de Oliveira Salazar"
-			desc = "POR_Antonio_de_Oiliveira_Salazar_desc"
-			picture = "Portrait_POR_Antonio_de_Oiliveira_Salazar.dds"
+			desc = "POR_Antonio_de_Oliveira_Salazar_desc"
+			picture = "Portrait_POR_Antonio_de_Oliveira_Salazar.dds"
 			expire = "1965.1.1"
 			ideology = fascism
 			traits = {

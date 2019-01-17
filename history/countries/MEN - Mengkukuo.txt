@@ -7,9 +7,8 @@
 # War Support
 # Technology
 	set_technology = {
-	infantry_weapons = 1
-	
-}
+		infantry_weapons = 1
+	}
 # Diplomacy
 	# Factions
 	# Puppets
@@ -31,7 +30,7 @@
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 100
 			}
 		}
 		
@@ -45,31 +44,18 @@
 	# Centre
 	# Right-Wing
 	# Syncretic
+		create_country_leader = {
+			name = "Prince Demchugdongrub"
+			desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+			picture = "GFX_portrait_men_demchugdongrub"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				spirit_of_genghis
+			}
+		}
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
 	# Admiral(s)
 # Variants
-
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "Prince Demchugdongrub"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "GFX_portrait_men_demchugdongrub"
-	expire = "1965.1.1"
-	ideology = rexism
-	traits = {
-		spirit_of_genghis
-	}
-}
-

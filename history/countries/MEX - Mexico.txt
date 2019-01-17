@@ -3,7 +3,7 @@
 # Order of Battle
 	oob = "MEX_1936"
 # Research Slots
-	research_slots = 2
+	set_research_slots = 2
 # Stability
 	set_stability = 0.75
 # War Support
@@ -24,44 +24,24 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 1.1
+			left-wing = {
+				popularity = 1.8
 			}
 
-			socialism = {
-				popularity = 0.7
-			}
-			
-			social_democracy = {
-				popularity = 0
-			}
-			
-			liberalism = { 
-				popularity = 0
-			}
-
-			centrism = { 
+			centre = { 
 				popularity = 98.2
 			}
 
-			conservatism = {
-				popularity = 0
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
+			right-wing = {
 				popularity = 0
 			}
 
-			fascism = { 
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = centrism
+		ruling_party = centre
 		last_election = "1934.7.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -72,12 +52,12 @@
 	# Social Democracy
 	# Liberalism
 	# Centrism
-		create_country_leader = { # Lázaro Cárdenas
+		create_country_leader = {
 			name = "Lázaro Cárdenas"
-			desc = "POLITICS_LAZARO_CARDENAS_DESC"
+			desc = "MEX_Lazaro_Cardenas_desc"
 			picture = "Portrait_MEX_Lazaro_Cardenas.dds"
-			expire = "1970.10.19"
-			ideology = populism
+			expire = "1965.1.1"
+			ideology = centrism
 			traits = {
 				#
 			}
@@ -89,7 +69,7 @@
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
-		create_corps_commander = { # Luis Farell
+		create_corps_commander = {
 			name = "Luis Farell"
 			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 			traits = {
@@ -101,7 +81,7 @@
 		    planning_skill = 2
 		    logistics_skill = 3
 		}
-		create_corps_commander = { # Gildardo Magaña
+		create_corps_commander = {
 			name = "Gildardo Magaña"
 			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 			traits = {
@@ -114,7 +94,7 @@
 		    logistics_skill = 3
 		}
 	# Admiral(s)
-		create_navy_leader = { # Paul Suarez
+		create_navy_leader = {
 			name = "Paul Suarez"
 			portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 			traits = {

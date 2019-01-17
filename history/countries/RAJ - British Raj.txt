@@ -1,96 +1,87 @@
-﻿capital = 439 # Delhi - India
-
-oob = "RAJ_1936"
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
+﻿# Capital City
+	capital = 439
+# Order of Battle
+	oob = "RAJ_1936"
+# Research Slots
+# Stability
+	set_stability = 0.6
+# War Support
+	set_war_support = 0.1
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		transport = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		CAS1 = 1
 	}
-	add_ideas = {
-		RAJ_princely_states
-		RAJ_marginalized_muslim_community
-		RAJ_agrarian_society
-		RAJ_risk_of_famine
-	}
-	add_to_tech_sharing_group = commonwealth_research
-}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+		if = {
+			limit = {
+				has_dlc = "Together for Victory"
+			}
+			add_ideas = {
+				RAJ_princely_states
+				RAJ_marginalized_muslim_community
+				RAJ_agrarian_society
+				RAJ_risk_of_famine
+			}
+			add_to_tech_sharing_group = commonwealth_research
+		}
+# Set Politics
+	set_politics = {
 
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+		create_country_leader = {
+			name = "Freeman Freeman-Thomas, 1st Marquess of Willingdon"
+			desc = "RAJ_Freeman_Freeman-Thomas_desc"
+			picture = "Portrait_RAJ_Freeman_Freeman-Thomas.dds"
+			expire = "1952.1.5"
+			ideology = syncretic_independent
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
 set_convoys = 20
-set_cosmetic_tag = RAJ_ENG # British India
-set_stability = 0.6
-
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	CAS1 = 1
-}
-
-set_war_support = 0.1
-
-##### Diplomacy #####
-
-set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialism = {
-			popularity = 0
-		}
-		
-		social_democracy = {
-			popularity = 28.57
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 63.27
-		}
-
-		conservatism = {
-			popularity = 0
-		}
-		
-		nationalism = {
-			popularity = 8.16
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = centrism
-	last_election = "1932.2.20"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "The Marquess of Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "Portrait_RAJ_Linlithgow.dds"
-	expire = "1952.1.5"
-	ideology = centrism_subtype
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"

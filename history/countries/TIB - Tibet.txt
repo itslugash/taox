@@ -1,64 +1,61 @@
-﻿capital = 757 # Lhasa - Tibet
-
-oob = "TIB_1936"
-
-set_technology = {
-	infantry_weapons = 1
-}
-
-set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialism = {
-			popularity = 0
-		}
-		
-		social_democracy = {
-			popularity = 0
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 0
-		}
-
-		conservatism = {
-			popularity = 0
-		}
-		
-		nationalism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 100
-		}
-
-		fascism = { 
-			popularity = 0
-		}
+﻿# Capital City
+	capital = 757
+# Order of Battle
+	oob = "TIB_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
+		infantry_weapons = 1
 	}
-	
-	ruling_party = reactionary
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
 
-create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
-	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-	picture = "Portrait_TIB_Jamphel_Yeshe_Gyaltsen.dds"
-	expire = "1965.1.1"
-	ideology = reactionary_subtype
-	traits = {
-		#
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 100
+			}
+		}
+		
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+		create_country_leader = {
+			name = "Jamphel Yeshe Gyaltsen"
+			desc = "TIB_Jamphel_Yeshe_Gyaltsen_desc"
+			picture = "Portrait_TIB_Jamphel_Yeshe_Gyaltsen.dds"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				#
+			}
+		}
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants

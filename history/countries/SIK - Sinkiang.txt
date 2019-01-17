@@ -1,7 +1,64 @@
-﻿capital = 617 # Tihwa - Xinjiang
+﻿# Capital City
+	capital = 617
+# Order of Battle
+	oob = "SIK_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+	}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
 
-oob = "SIK_1936"
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
 
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+# Country Leaders
+	# Left-Wing
+		create_country_leader = {
+			name = "Sheng Shicai"
+			desc = "SIK_Sheng_Shicai_desc"
+			picture = "Portrait_SIK_Sheng_Shicai.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
+	# Centre
+	# Right-Wing
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
@@ -9,67 +66,6 @@ if = {
 	add_ideas = {
 		PRC_government_corruption
 		CHI_ineffective_bureaucracy_warlord
-	}
-}
-
-set_technology = {
-	infantry_weapons = 1
-}
-
-set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 100
-		}
-
-		socialism = {
-			popularity = 0
-		}
-		
-		social_democracy = {
-			popularity = 0
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 0
-		}
-
-		conservatism = {
-			popularity = 0
-		}
-		
-		nationalism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Sheng Shicai"
-	desc = "POLITICS_SHENG_SHICAI_DESC"
-	picture = "Portrait_SIK_Sheng_Shicai.dds"
-	expire = "19870.7.13"
-	ideology = communism_subtype
-	traits = {
-		#
 	}
 }
 

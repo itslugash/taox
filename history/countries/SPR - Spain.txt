@@ -37,15 +37,15 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 47.03
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 6.49
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 46.48
 			}
 
 			syncretic = { 
@@ -53,7 +53,7 @@
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = centre
 		last_election = "1933.11.19"
 		election_frequency = 48
 		elections_allowed = no
@@ -72,11 +72,11 @@
 		}
 	# Centre
 		create_country_leader = {
-			name = "Alejandro Lerroux"
-			desc = "SPR_Alejandro_Lerroux_desc"
-			picture = "Portrait_SPR_Alejandro_Lerroux.dds"
+			name = "Manuel Portela Valladares"
+			desc = "SPR_Manuel_Portela_Valladares_desc"
+			picture = "Portrait_SPR_Manuel_Portela_Valladares.dds"
 			expire = "1965.1.1"
-			ideology = centrism
+			ideology = centre_independent
 			traits = {
 				#
 			}
@@ -94,11 +94,11 @@
 		}
 	# Syncretic
 		create_country_leader = {
-			name = "Manuel Portela Valladares"
-			desc = "SPR_Manuel_Portela_Valladares_desc"
-			picture = "Portrait_SPR_Manuel_Portela_Valladares.dds"
+			name = "José Calvo Sotelo"
+			desc = "SPR_Jose_Calvo_Sotelo_desc"
+			picture = "Portrait_SPR_Jose_Calvo_Sotelo.dds"
 			expire = "1965.1.1"
-			ideology = independent
+			ideology = monarchism
 			traits = {
 				#
 			}

@@ -26,68 +26,43 @@
 	set_politics = {
 
 		parties = {
-			communism = { 
+			left-wing = {
 				popularity = 0
 			}
 
-			socialism = {
-				popularity = 0
-			}
-			
-			social_democracy = {
-				popularity = 0
-			}
-			
-			liberalism = { 
-				popularity = 0
-			}
-
-			centrism = { 
-				popularity = 0
-			}
-
-			conservatism = {
-				popularity = 0
-			}
-			
-			nationalism = {
+			centre = { 
 				popularity = 100
 			}
-			
-			reactionary = { 
+
+			right-wing = {
 				popularity = 0
 			}
 
-			fascism = { 
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = nationalism
+		ruling_party = centre
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism 
-	# Conservatism
-	# Nationalism
+	# Left-Wing
+	# Centre
 		create_country_leader = {
 			name = "Long Yun"
 			desc = "YUN_Long_Yun_desc"
-			picture = "Portrait_YUN_Long_Yun_1927.dds"
-			expire = "1962.6.27"
-			ideology = nationalism_subtype
+			picture = "Portrait_YUN_Long_Yun.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
 			traits = {
 				#
 			}
 		}
-	# Reactionary
-	# Fascism
+	# Right-Wing
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)

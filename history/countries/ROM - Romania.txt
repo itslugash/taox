@@ -132,7 +132,7 @@
 			name = "Ioan Mihail Racoviță"
 			gfx = GFX_Portrait_romania_ioan_mihail_racovita
 			traits = { 
-				ill_fighter
+				#
 			}
 			skill = 3
 			attack_skill = 2

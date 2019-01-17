@@ -1,69 +1,53 @@
-﻿capital = 545 # Salisbury - Rhodesia
-
-oob = "ZIM_1936"
-
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
-
-set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialism = {
-			popularity = 11.2
-		}
-		
-		social_democracy = {
-			popularity = 26.9
-		}
-		
-		liberalism = { 
-			popularity = 0
-		}
-
-		centrism = { 
-			popularity = 0
-		}
-
-		conservatism = {
-			popularity = 61.9
-		}
-		
-		nationalism = {
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-
-		fascism = { 
-			popularity = 0
-		}
+﻿# Capital City
+	capital = 545
+# Order of Battle
+	oob = "ZIM_1936"
+# Research Slots
+# Stability
+# War Support
+# Technology
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
 	}
-	
-	ruling_party = conservatism
-	last_election = "1934.11.7"
-	election_frequency = 48
-	elections_allowed = no
-}
+# Diplomacy
+	# Factions
+	# Puppets
+	# Tech Sharing
+# Set Politics
+	set_politics = {
 
-create_country_leader = {
-	name = " Godfrey Huggins"
-	picture = "Portrait_ZIM_Godfrey_Huggins.dds"
-	expire = "1971.5.8"
-	ideology = conservatism_subtype
-	traits = {
-		#
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
+				popularity = 100
+			}
+		}
+		
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-}
-
-# Miscellaneous
+# Country Leaders
+	# Left-Wing
+	# Centre
+	# Right-Wing
+	# Syncretic
+# Military Leaders
+	# Field Marshal(s)
+	# General(s)
+	# Admiral(s)
+# Variants
 set_convoys = 5
-
-set_cosmetic_tag = ZIM_ENG # British Rhodesia
