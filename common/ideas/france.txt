@@ -1,12 +1,8 @@
-#######################
-# TAOX - France Ideas #
-#######################
-
 ideas = {
 
 	country = {
 
-		FRA_victors_of_wwi = { # Victors of the Great War
+		FRA_victors_of_wwi = {
 			
 			allowed = {
 				original_tag = FRA
@@ -24,14 +20,13 @@ ideas = {
 			research_bonus = {
 				land_doctrine = -0.75
 			}
-
 			modifier = {
 				conscription = -0.003
 				war_support_factor = -0.05
 			}
 		}
 
-		FRA_disjointed_government = { # Disjointed Government
+		FRA_disjointed_government = {
 			
 			allowed = {
 				original_tag = FRA
@@ -39,14 +34,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				OR = {
-					has_government = socialism
-					has_government = social_democracy
-					has_government = liberalism
-					has_government = centrism
-					has_government = conservatism
-					has_government = nationalism
-				}
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -70,21 +58,21 @@ ideas = {
 				NOT = {
 					OR = {
 						AND = {
-							has_government = democratic
+							has_government = centre
 							GER = {
-								has_government = democratic
+								has_government = centre
 							}
 						}
 						AND = {
-							has_government = communism
+							has_government = left-wing
 							GER = {
-								has_government = communism
+								has_government = left-wing
 							}
 						}
 						AND = {	
-							has_government = fascism
+							has_government = right-wing
 							GER = {
-								has_government = fascism
+								has_government = right-wing
 							}
 						}
 					}
@@ -170,12 +158,12 @@ ideas = {
 				allowed_civil_war = {
 					NOT = {
 						OR = {
-							has_government = fascism
+							has_government = right-wing
 							AND = {
-								NOT = { has_government = communism }
+								NOT = { has_government = left-wing }
 								any_other_country = {
 									original_tag = FRA
-									has_government = communism
+									has_government = left-wing
 								}
 							}
 						}
@@ -183,7 +171,7 @@ ideas = {
 				}
 
 				modifier = {
-					communism_drift = 0.2
+					left-wing_drift = 0.2
 				}
 		}
 
@@ -195,7 +183,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 
@@ -211,7 +199,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			modifier = {
@@ -226,11 +214,11 @@ ideas = {
 				}
 
 				allowed_civil_war = {
-					has_government = democratic
+					has_government = centre
 				}
 
 				modifier = {
-					democratic_drift = 0.2
+					centre_drift = 0.2
 				}
 		}		
 
@@ -241,7 +229,7 @@ ideas = {
 				}
 
 				allowed_civil_war = {
-					has_government = democratic
+					has_government = centre
 				}
 
 				modifier = {
@@ -256,19 +244,19 @@ ideas = {
 				allowed_civil_war = {
 					NOT = {
 						OR = {
-							has_government = communism
+							has_government = left-wing
 							AND = {
-								NOT = { has_government = fascism }
+								NOT = { has_government = right-wing }
 								any_other_country = {
 									original_tag = FRA
-									has_government = fascism
+									has_government = right-wing
 								}
 							}
 						}
 					}
 				}
 				modifier = {
-					fascism_drift = 0.2
+					right-wing_drift = 0.2
 				}
 		}
 
@@ -280,7 +268,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
@@ -296,7 +284,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			modifier = {
@@ -313,7 +301,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
@@ -333,7 +321,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 
@@ -351,12 +339,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				left-wing_drift = -0.05
 			}
 		}
 		
@@ -378,7 +366,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
@@ -400,7 +388,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 
@@ -423,7 +411,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 

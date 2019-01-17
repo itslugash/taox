@@ -1,12 +1,7 @@
-############################
-# TAOX - British Raj Ideas #
-############################
-
 ideas = {
 
 	hidden_ideas = {
-
-		RAJ_lions_of_the_great_war = { # Lions of the Great War
+		RAJ_lions_of_the_great_war = {
 
 			allowed = {
 				original_tag = RAJ
@@ -23,7 +18,7 @@ ideas = {
 			}
 		}
 
-		RAJ_indian_gurkhas = { # Indian Gurkhas
+		RAJ_indian_gurkhas = {
 
 			allowed = {
 				original_tag = RAJ
@@ -43,7 +38,7 @@ ideas = {
 
 	country = {
 	
-		RAJ_azad_hind = { # Azad Hind
+		RAJ_azad_hind = {
 			picture = generic_morale_bonus
 
 			allowed = {
@@ -57,11 +52,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = 0.05
+				right-wing_drift = 0.05
 			}
 		}
 
-		RAJ_marginalized_muslim_community = { # Marginalized Muslim Community 
+		RAJ_marginalized_muslim_community = {
 		
 			picture = raj_marginalized_muslim_community
 
@@ -81,7 +76,7 @@ ideas = {
 			}
 		}
 
-		RAJ_marginalized_muslim_community_angry = { # Marginalized Muslim Community [Angry]
+		RAJ_marginalized_muslim_community_angry = {
 		
 			picture = raj_marginalized_muslim_community_angry
 
@@ -103,7 +98,7 @@ ideas = {
 			}
 		}
 
-		RAJ_marginalized_muslim_community_happy = { # Marginalized Muslim Community [Happy]
+		RAJ_marginalized_muslim_community_happy = {
 		
 			picture = raj_marginalized_muslim_community_happy
 
@@ -124,7 +119,7 @@ ideas = {
 			}
 		}
 
-		RAJ_risk_of_famine = { # Risk of Famine
+		RAJ_risk_of_famine = {
 
 			picture = raj_risk_of_famine
 
@@ -135,16 +130,20 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
 
 			removal_cost = -1
+
+			modifier = {
+
+			}
 		}
 
-		RAJ_famine = { # Famine
+		RAJ_famine = {
 
 			picture = ENG_the_war_to_end_all_wars
 
@@ -168,7 +167,7 @@ ideas = {
 			}
 		}
 
-		RAJ_princely_states = { # Princely States
+		RAJ_princely_states = {
 
 			picture = generic_morale_bonus
 
@@ -179,8 +178,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -192,7 +191,7 @@ ideas = {
 			}
 		}
 
-		RAJ_princely_states_election = { # Princely States [Election]
+		RAJ_princely_states_election = {
 
 			picture = generic_morale_bonus
 
@@ -203,8 +202,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -216,7 +215,7 @@ ideas = {
 			}
 		}
 
-		RAJ_princely_states_donations = { # Princely States [Donations]
+		RAJ_princely_states_donations = {
 
 			picture = generic_production_bonus
 
@@ -227,8 +226,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -241,7 +240,7 @@ ideas = {
 			}
 		}
 
-		RAJ_princely_states_donations_troops = { # Princely States Donations [Troops]
+		RAJ_princely_states_donations_troops = {
 
 			picture = generic_manpower_bonus
 
@@ -252,8 +251,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -267,7 +266,7 @@ ideas = {
 			}
 		}
 
-		RAJ_indian_gentlemen_officers = { # Indian Gentlemen Officers
+		RAJ_indian_gentlemen_officers = {
 
 			picture = raj_indian_gentlemen_officers
 
@@ -278,8 +277,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -292,7 +291,7 @@ ideas = {
 			}
 		}
 
-		RAJ_all_india_forward_bloc = { # All India Forward Bloc
+		RAJ_all_india_forward_bloc = {
 
 			picture = raj_all_india_forward_bloc
 
@@ -302,21 +301,20 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = left-wing
+					has_government = right-wing
 				}
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				social_democracy_drift = -0.02
-				centrism_drift = -0.02
-				nationalism_drift = -0.02
+				centre_drift = -0.02
+				syncretic_drift = -0.02
 			}
 		}
 
-		RAJ_all_india_forward_bloc_fascism = { # All India Forward Bloc [Fascism]
+		RAJ_all_india_forward_bloc_fascism = {
 
 			picture = raj_all_india_forward_bloc_fascism
 
@@ -325,21 +323,20 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				social_democracy_drift = -0.02
-				centrism_drift = -0.02
-				nationalism_drift = -0.02
-				fascism_drift = 0.03
+				centre_drift = -0.02
+				syncretic_drift = -0.02
+				right-wing_drift = 0.03
 				autonomy_gain = 0.5
 			}
 		}
 
-		RAJ_all_india_forward_bloc_communism = { # All India Forward Bloc [Communism]
+		RAJ_all_india_forward_bloc_communism = {
 
 			picture = raj_all_india_forward_bloc_communism
 
@@ -348,21 +345,20 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				social_democracy_drift = -0.02
-				centrism_drift = -0.02
-				nationalism_drift = -0.02
-				communism_drift = 0.03
+				centre_drift = -0.02
+				syncretic_drift = -0.02
+				left-wing_drift = 0.03
 				autonomy_gain = 0.5
 			}
 		}
 
-		RAJ_agrarian_society = { # Agrarian Society
+		RAJ_agrarian_society = {
 
 			picture = generic_agrarian_society
 
@@ -381,7 +377,7 @@ ideas = {
 			}
 		}
 
-		RAJ_quit_india_movement = { # Quit India Movement
+		RAJ_quit_india_movement = {
 		
 			picture = raj_quit_india_movement
 			
@@ -392,8 +388,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = left-wing
+						has_government = right-wing
 					}
 				}
 			}
@@ -406,9 +402,98 @@ ideas = {
 		}
 	}
 
+
 	political_advisor = {
 
-		RAJ_john_edward_golightly = { # John Edward Golightly [Revisit: No Information Found]
+		RAJ_bhimrao_ramji_ambedkar = {
+			
+			allowed = {
+				original_tag = RAJ
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					has_completed_focus = RAJ_indian_national_congress				
+				}
+			}
+			
+			picture = generic_political_advisor_india_1
+			
+			traits = { democratic_reformer }
+		
+			do_effect = {
+				NOT = {
+					has_government = centre
+				}
+			}
+		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+		RAJ_karam_singh_mann = {
+
+			allowed = {
+				original_tag = RAJ
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }	
+					has_completed_focus = RAJ_all_india_forward_bloc
+				}
+			}
+
+			picture = generic_political_advisor_india_2
+			
+			traits = { communist_revolutionary }			
+			
+			do_effect = {
+				NOT = {
+					has_government = left-wing
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+
+		}
+
+		RAJ_subhas_chanda_bose = {
+			
+			allowed = {
+				original_tag = RAJ				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }	
+					has_completed_focus = RAJ_all_india_forward_bloc
+				}
+			}
+
+			picture = generic_political_advisor_india_1
+			
+			traits = { fascist_demagogue }
+				
+			do_effect = {
+				NOT = {
+					has_government = right-wing
+				}
+			}
+		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+
+		RAJ_john_edward_golightly = {
 
 			picture = generic_political_advisor_europe_5
 			
@@ -416,12 +501,10 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				silent_workhorse
-			}
+			traits = { silent_workhorse }
 		}
 
-		RAJ_chakravarti_rajagopalachari = { # C. Rajagopalachari
+		RAJ_chakravarti_rajagopalachari = {
 
 			picture = generic_political_advisor_arab_3
 				
@@ -429,12 +512,10 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				popular_figurehead
-			}
+			traits = { popular_figurehead }
 		}
 
-		RAJ_mahatma_mohandas_gandhi = { # Mahatma Gandhi
+		RAJ_mahatma_mohandas_gandhi = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -442,12 +523,10 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				compassionate_gentleman
-			}
+			traits = { compassionate_gentleman }
 		}
 
-		RAJ_john_mathai = { # John Mathai
+		RAJ_john_mathai = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -455,12 +534,10 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				captain_of_industry
-			}
+			traits = { captain_of_industry }
 		}
 
-		RAJ_sir_mohammed_iqbal = { # Muhammad Iqbal
+		RAJ_sir_mohammed_iqbal = {
 
 			picture = generic_political_advisor_arab_3
 			
@@ -468,16 +545,14 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				backroom_backstabber
-			}
+			traits = { backroom_backstabber }
 
 			ai_will_do = {
 				factor = 0
 			}
 		}
 
-		RAJ_agha_khan_iii = { # Aga Khan III
+		RAJ_agha_khan_iii = {
 
 			picture = generic_political_advisor_arab_2
 			
@@ -485,15 +560,13 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				ideological_crusader
-			}
+			traits = { ideological_crusader }
 		}
 	}
 
 	theorist = {
 
-		RAJ_rajendra_prasad = { # Rajendra Prasad
+		RAJ_rajendra_prasad = {
 					
 			picture = generic_army_arab_1
 
@@ -505,12 +578,10 @@ ideas = {
 				land_doctrine = 0.07
 			}
 			
-			traits = {
-				military_theorist
-			}
+			traits = { military_theorist }
 		}
 
-		RAJ_anyang_bhula = { # Anyang Bhula [Revisit: No Information Found]
+		RAJ_anyang_bhula = {
 					
 			picture = generic_air_arab_1
 				
@@ -525,7 +596,8 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 
-		RAJ_bahadur_jayla_of_khoch_bahur = { # Bahadur Jayla of Khoch Bahur [Revisit: No Information Found]
+		RAJ_bahadur_jayla_of_khoch_bahur = {
+					
 					
 			allowed = {
 				original_tag = RAJ
@@ -537,12 +609,10 @@ ideas = {
 				naval_doctrine = 0.07
 			}
 			
-			traits = {
-				naval_theorist
-			}
+			traits = { naval_theorist }
 		}
 
-		RAJ_homi_j_bhabha = { # Homi J. Bhabha 
+		RAJ_homi_j_bhabha = {
 					
 			available = {
 				has_completed_focus = RAJ_institute_of_fundamental_research
@@ -559,15 +629,13 @@ ideas = {
 				nuclear = 0.07
 			}
 			
-			traits = {
-				nuclear_scientist
-			}
+			traits = { nuclear_scientist }
 		}
 	}
 
 	high_command = {
 
-		RAJ_ram_singh_thakur = { # Ram Singh Thakuri
+		RAJ_ram_singh_thakur = {
 
 			picture = generic_army_arab_1
 			
@@ -575,16 +643,14 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				army_infantry_2
-			}
+			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_arjan_singh_vibhusan = { # Arjan Singh
+		RAJ_arjan_singh_vibhusan = {
 
 			picture = generic_air_arab_3
 			
@@ -592,16 +658,14 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				air_air_combat_training_3
-			}
+			traits = { air_air_combat_training_3 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_aspy_merwan_engineer = { # Aspy Engineer
+		RAJ_aspy_merwan_engineer = {
 
 			picture = generic_air_arab_2
 			
@@ -609,16 +673,14 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				air_naval_strike_2
-			}
+			traits = { air_naval_strike_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_mehar_singh = { # Mehar Singh
+		RAJ_mehar_singh = {
 
 			picture = generic_air_arab_1
 			
@@ -626,16 +688,14 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				air_close_air_support_3
-			}
+			traits = { air_close_air_support_3 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_w_h_gould_bradford = { # W. H. Gould-Bradford [Revisit: No Information Found]
+		RAJ_w_h_gould_bradford = {
 
 			picture = generic_navy_europe_1
 			
@@ -643,36 +703,34 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				navy_anti_submarine_2
-			}
+			traits = { navy_anti_submarine_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
-
+	# MILITARY
 	army_chief = {
 
-		RAJ_arthur_a_barrett = { # Arthur Barrett
+		RAJ_arthur_a_barrett = {
 			
 			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = RAJ
 			}
-						
-			traits = {
-				army_chief_defensive_2
-			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		
-		RAJ_archibald_wavell = { # Archibald Wavell
+		RAJ_archibald_wavell = {
 			
 			picture = generic_army_europe_5
 			
@@ -680,16 +738,16 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				army_chief_reform_2
-			}
+
+			
+			traits = { army_chief_reform_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_reginald_savory = { # Reginald Savory
+		RAJ_reginald_savory = {
 			
 			picture = generic_army_europe_1
 			
@@ -697,43 +755,43 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				army_chief_drill_2
-			}
+
+			
+			traits = { army_chief_drill_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_kodandera_cariappa = { # Kodandera M. Cariappa
+		RAJ_kodandera_cariappa = {
 			
 			picture = generic_army_arab_3
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = {
-				army_chief_morale_2
-			}
+			
+			traits = { army_chief_morale_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_mohan_singh = { # Mohan Singh
+		RAJ_mohan_singh = {
 			
 			picture = generic_army_arab_2
 			
 			allowed = {
 				original_tag = RAJ
 			}
-						
-			traits = {
-				army_chief_offensive_2
-			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -743,24 +801,24 @@ ideas = {
 
 	air_chief = {
 
-		RAJ_bruce_w_mcpherson = { # Bruce W. McPherson [Revisit: No Information Found]
+		RAJ_bruce_w_mcpherson = {
 			
 			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = {
-				air_chief_safety_2
-			}
+			
+			traits = { air_chief_safety_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_subroto_mukherjee = { # Subroto Mukerjee
+		RAJ_subroto_mukherjee = {
 			
 			picture = generic_air_arab_3
 			
@@ -768,26 +826,26 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-			traits = {
-				air_chief_ground_support_2
-			}
+
+			
+			traits = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_ravindra_darshan_singh = { # Ravinder Hari Darshan Singh [Revisit: No Wikipedia Page]
+		RAJ_ravindra_darshan_singh = {
 			
 			picture = generic_air_arab_2
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = {
-				air_chief_night_operations_2
-			}
+			
+			traits = { air_chief_night_operations_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -797,68 +855,68 @@ ideas = {
 
 	navy_chief = {
 
-		RAJ_louis_mountbatten = { # Louis Mountbatten
+		RAJ_louis_mountbatten = {
 			
 			picture = generic_navy_europe_2
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = {
-				navy_chief_maneuver_2
-			}
+			
+			traits = { navy_chief_maneuver_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_william_e_parry = { # Edward Parry 
+		RAJ_william_e_parry = {
 			
 			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = {
-				navy_chief_commerce_raiding_2
-			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_bhaskar_soman = { # Bhaskar Sadashiv Soman
+		RAJ_bhaskar_soman = {
 			
 			picture = generic_navy_arab_3
 			
 			allowed = {
 				original_tag = RAJ
 			}
+			
 
-			traits = { 
-				navy_chief_decisive_battle_2
-			}
+			
+			traits = { navy_chief_decisive_battle_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		RAJ_ram_dass_katari = { # Ram Dass Katari
+		RAJ_ram_dass_katari = {
 			
 			picture = generic_navy_arab_3
 			
 			allowed = {
 				original_tag = RAJ
 			}
-	
-			traits = {
-				navy_chief_reform_2
-			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -870,7 +928,7 @@ ideas = {
 		
 		designer = yes
 		
-		mazagon_dock_limited = { # Mazagon Dock Shipbuilders Limited
+		mazagon_dock_limited = {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -883,12 +941,11 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = {
-				convoy_escort_naval_manufacturer
-			}
+			traits = { convoy_escort_naval_manufacturer }
+
 		}
 		
-		garden_reach_shipbuilders = { # Garden Reach Shipbuilders & Engineers
+		garden_reach_shipbuilders = {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -901,12 +958,10 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = {
-				pacific_fleet_naval_manufacturer
-			}
+			traits = { pacific_fleet_naval_manufacturer }
 		}
 		
-		scindia_shipyard = { # Scindia Shipyard
+		scindia_shipyard = {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -919,17 +974,17 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = {
-				atlantic_fleet_naval_manufacturer
-			}
+			traits = { atlantic_fleet_naval_manufacturer }
+			
 		}
+		
 	}
 
 	aircraft_manufacturer = {
 			
 		designer = yes
 		
-		hindustan_aircraft= { # Hindustan Aircraft Limited
+		hindustan_aircraft= {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -942,17 +997,18 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				light_aircraft_manufacturer
+			traits = { light_aircraft_manufacturer }
+			
+			modifier = {
 			}
-		}		
+		}
+					
 	}
-
 	materiel_manufacturer = {
 			
 		designer = yes
 		
-		ishapore_rifle_factory = { # Rifle Factory Ishapore
+		ishapore_rifle_factory = {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -965,12 +1021,13 @@ ideas = {
 				infantry_weapons = 0.10
 			}
 			
-			traits = {
-				infantry_equipment_manufacturer
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
 			}
 		}
 		
-		ordnance_factories_board = { # Ordnance Factories Board
+		ordnance_factories_board = {
 			
 			allowed = {
 				has_dlc = "Together for Victory"
@@ -983,8 +1040,9 @@ ideas = {
 				artillery = 0.10
 			}
 			
-			traits = {
-				artillery_manufacturer
+			traits = { artillery_manufacturer }
+			
+			modifier = {
 			}
 		}
 	}

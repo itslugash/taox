@@ -1,12 +1,7 @@
-#######################
-# TAOX - Canada Ideas #
-#######################
-
 ideas = {
 
 	country = {
-
-		CAN_great_depression_1 = { # Great Depression [Stage 1]
+		CAN_great_depression_1 = {
 
 			allowed = {
 				always = no
@@ -27,7 +22,7 @@ ideas = {
 			}
 		}
 
-		CAN_great_depression_2 = { # Great Depression [Stage 2]
+		CAN_great_depression_2 = {
 
 			allowed = {
 				always = no
@@ -48,36 +43,28 @@ ideas = {
 			}
 		}
 
-		CAN_patriation = { # Patriation
+		CAN_patriation = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				NOT = {
-					OR = {
-						has_government = socialism
-						has_government = liberalism
-						has_government = conservatism
-					}
-				}
+				NOT = { has_government = centre }
 			}
 
 			removal_cost = -1
 
 			picture = can_patriation
 			
-			rule = {
-				can_decline_call_to_war = yes
-			}
+			rule = { can_decline_call_to_war = yes }
 
 			modifier = {
 				autonomy_gain = 1
 			}
 		}
 
-		CAN_conscription_crisis = { # Conscription Crisis
+		CAN_conscription_crisis = {
 
 			allowed = {
 				always = no
@@ -96,7 +83,7 @@ ideas = {
 			}
 		}
 		
-		CAN_conscription_crisis_mended = { # Constription Crisis Mended
+		CAN_conscription_crisis_mended = {
 			
 			allowed = {
 				always = no
@@ -115,18 +102,14 @@ ideas = {
 			}
 		}
 
-		CAN_defence_of_canada_regulations_democratic = { # Defence of Canada Regulations [Democratic]
+		CAN_defence_of_canada_regulations_democratic = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				OR = {
-					has_government = socialism
-					has_government = liberalism
-					has_government = conservatism
-				}
+				 has_government = centre 
 			}
 
 			removal_cost = -1
@@ -134,20 +117,20 @@ ideas = {
 			picture = can_defence_of_canada_regulations_democratic
 			
 			modifier = {
-				communism_drift = -0.01
-				fascism_drift = -0.01
+				left-wing_drift = -0.01
+				right-wing_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_defence_of_canada_regulations_fascism = { # Defence of Canada Regulations [Fascism]
+		CAN_defence_of_canada_regulations_fascism = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -155,22 +138,20 @@ ideas = {
 			picture = can_defence_of_canada_regulations_fascism
 			
 			modifier = {
-				socialism_drift = -0.01
-				liberalism_drift = -0.01
-				conservatism_drift = -0.01
-				communism_drift = -0.01
+				centre_drift = -0.01
+				left-wing_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_defence_of_canada_regulations_communism = { # Defence of Canada Regulations [Communism]
+		CAN_defence_of_canada_regulations_communism = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -178,15 +159,13 @@ ideas = {
 			picture = can_defence_of_canada_regulations_communism
 			
 			modifier = {
-				socialism_drift = -0.01
-				liberalism_drift = -0.01
-				conservatism_drift = -0.01
-				fascism_drift = -0.01
+				centre_drift = -0.01
+				right-wing_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_war_bonds_1 = { # War Bonds [Stage 1]
+		CAN_war_bonds_1 = {
 
 			allowed = {
 				always = no
@@ -205,7 +184,7 @@ ideas = {
 			}
 		}
 
-		CAN_war_bonds_2 = { # War Bonds [Stage 2]
+		CAN_war_bonds_2 = {
 
 			allowed = {
 				always = no
@@ -224,7 +203,7 @@ ideas = {
 			}
 		}
 
-		CAN_national_resources_mobilization_act = { # National Resources Mobilization Act
+		CAN_national_resources_mobilization_act = {
 
 			allowed = {
 				always = no
@@ -246,7 +225,7 @@ ideas = {
 			}
 		}
 
-		CAN_wartime_prices_and_trade_board = { # Wartime Prices and Trade Board
+		CAN_wartime_prices_and_trade_board = {
 
 			allowed = {
 				always = no
@@ -266,7 +245,7 @@ ideas = {
 			}
 		}
 		
-		CAN_bits_and_pieces_program = { # Bits and Pieces Program
+		CAN_bits_and_pieces_program = {
 
 			allowed = {
 				always = no
@@ -288,7 +267,7 @@ ideas = {
 			}
 		}
 
-		CAN_commit_to_the_war = { # Commit to the War
+		CAN_commit_to_the_war = {
 
 			allowed = {
 				always = no
@@ -305,9 +284,10 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.05
 			}
+
 		}
 
-		CAN_send_in_the_zombies = { # Send in the Zombies
+		CAN_send_in_the_zombies = {
 			
 			allowed = {
 				always = no
@@ -327,7 +307,7 @@ ideas = {
 			}
 		}
 		
-		CAN_the_plan = { # The Plan
+		CAN_the_plan = {
 			
 			allowed = {
 				always = no
@@ -399,13 +379,13 @@ ideas = {
 			}
 		}
 		
-		CAN_swastika_clubs = { # Swastika Clubs
+		CAN_swastika_clubs = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = fascism
+				 has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -413,20 +393,18 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 
 			modifier = {
-				socialism_drift = -0.1
-				liberalism_drift = -0.1
-				conservatism_drift = -0.1
-				fascism_drift = 0.2
+				centre_drift = -0.1
+				right-wing_drift = 0.2
 			}
 		}
 
-		CAN_swastika_clubs_2 = { # Swastika Clubs [Stage 2]
+		CAN_swastika_clubs_2 = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = fascism
+				 has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -434,22 +412,20 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 
 			modifier = {
-				socialism_drift = -0.1
-				liberalism_drift = -0.1
-				conservatism_drift = -0.1
-				fascism_drift = 0.2
+				centre_drift = -0.1
+				right-wing_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 			}
 		}
 
-		CAN_swastika_clubs_skewer = { # Swastika Clubs [Skewer]
+		CAN_swastika_clubs_skewer = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = fascism
+				 has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -457,10 +433,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 
 			modifier = {
-				socialism_drift = -0.1
-				liberalism_drift = -0.l
-				conservatism_drift = -0.1
-				fascism_drift = 0.2
+				centre_drift = -0.1
+				right-wing_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 				send_volunteer_divisions_required = -1
@@ -468,13 +442,13 @@ ideas = {
 			}
 		}
 
-		CAN_communist_ideals = { # Communist Ideals
+		CAN_communist_ideals = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = communism
+				 has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -482,20 +456,18 @@ ideas = {
 			picture = generic_communism_drift_bonus
 
 			modifier = {
-				socialism_drift = -0.1
-				liberalism_drift = -0.1
-				conservatism_drift = -0.1
-				communism_drift = 0.2
+				centre_drift = -0.1
+				left-wing_drift = 0.2
 			}
 		}
 
-		CAN_communist_ideals_2 = { # Communist Ideals [Stage 2]
+		CAN_communist_ideals_2 = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = communism
+				 has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -503,22 +475,20 @@ ideas = {
 			picture = generic_communism_drift_bonus
 
 			modifier = {
-				communism_drift = 0.2
-				socialism_drift = -0.1
-				liberalism_drift = -0.1
-				conservatism_drift = -0.1
+				centre_drift = -0.1
+				left-wing_drift = 0.2
 				industrial_capacity_factory = 0.02
 				industrial_capacity_dockyard = 0.02
 			}
 		}
 
-		CAN_communist_ideals_3 = { # Communist Ideals [Stage 3]
+		CAN_communist_ideals_3 = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = communism
+				 has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -528,17 +498,15 @@ ideas = {
 			rule = { can_send_volunteers = yes }
 
 			modifier = {
-				communism_drift = 0.2
-				socialism_drift = -0.1
-				liberalism_drift = -0.1
-				conservatism_drift = -0.1
+				centre_drift = -0.1
+				left-wing_drift = 0.2
 				industrial_capacity_factory = 0.04
 				industrial_capacity_dockyard = 0.04
 				subversive_activites_upkeep = -0.5
 			}
 		}
 
-		CAN_degauss_ship_hulls = { # Degauss Ship Hulls
+		CAN_degauss_ship_hulls = {
 			allowed = {
 				always = no
 			}
@@ -564,7 +532,7 @@ ideas = {
 			}
 		}
 
-		CAN_trade_fleet = { # Trade Fleet
+		CAN_trade_fleet = {
 			
 			allowed = {
 				always = no
@@ -588,7 +556,98 @@ ideas = {
 
 	political_advisor = {
 
-		CAN_ian_a_mackenzie = { # Ian Alistair Mackenzie
+		CAN_chuck_crate = {
+
+			allowed = {
+				original_tag = CAN
+				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					has_completed_focus = CAN_swastika_clubs
+				}
+			}
+
+			picture = generic_fascist_demagogue_commonwealth_2d
+			
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = right-wing
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CAN_robert_manion = {
+
+			allowed = {
+				original_tag = CAN
+				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					OR = {
+						has_completed_focus = CAN_strengthen_the_commonwealth_ties
+						has_completed_focus = CAN_permanent_joint_defense_board
+					}
+				}
+			}
+			
+			picture = generic_democratic_reformer_commonwealth_2d
+			
+			traits = { democratic_reformer }
+			
+			do_effect = {
+				NOT = {
+					has_government = centre
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CAN_william_kashtan = {
+
+			allowed = {
+				original_tag = CAN
+				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					has_completed_focus = CAN_burn_the_royal_portraits
+				}
+			}
+
+			picture = generic_communist_revolutionary_commonwealth_2d
+			
+			traits = { communist_revolutionary }
+			
+			do_effect = {
+				NOT = {
+					has_government = left-wing
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+		CAN_ian_a_mackenzie = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -596,12 +655,10 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				quartermaster_general
-			}
+			traits = { quartermaster_general }
 		}
 
-		CAN_r_b_bennett = { # R. B. Bennett
+		CAN_r_b_bennett = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -609,12 +666,10 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				silent_workhorse
-			}
+			traits = { silent_workhorse }
 		}
 
-		CAN_newton_wesley_rowell = { # Newton Rowell
+		CAN_newton_wesley_rowell = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -622,12 +677,10 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				ideological_crusader
-			}
+			traits = { ideological_crusader }
 		}
 
-		CAN_leo_richer_lafleche = { # Léo Richer Laflèche
+		CAN_leo_richer_lafleche = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -636,12 +689,10 @@ ideas = {
 				has_dlc = "Together for Victory"
 			}
 			
-			traits = {
-				popular_figurehead
-			}
+			traits = { popular_figurehead }
 		}
 
-		CAN_james_ilsley = { # James Lorimer Ilsley 
+		CAN_james_ilsley = {
 
 			picture = generic_political_advisor_europe_2
 			
@@ -650,12 +701,10 @@ ideas = {
 				has_dlc = "Together for Victory"
 			}
 			
-			traits = {
-				war_industrialist
-			}
+			traits = { war_industrialist }
 		}
 
-		CAN_louis_st_laurent = { # Louis St. Laurent
+		CAN_louis_st_laurent = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -668,12 +717,10 @@ ideas = {
 				has_completed_focus = CAN_forced_quebec_conscription
 			}
 			
-			traits = {
-				compassionate_gentleman
-			}
+			traits = { compassionate_gentleman }
 		}
 
-		CAN_c_d_howe = { # C. D. Howe
+		CAN_c_d_howe = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -688,15 +735,13 @@ ideas = {
 				has_completed_focus = CAN_crown_corporations
 			}
 			
-			traits = {
-				captain_of_industry
-			}
+			traits = { captain_of_industry }
 		}
 	}
 
 	theorist = {
 
-		CAN_kenneth_stuart = { # Kenneth Stuart
+		CAN_kenneth_stuart = {
 					
 			picture = generic_army_europe_1
 
@@ -708,12 +753,9 @@ ideas = {
 				land_doctrine = 0.07
 			}
 			
-			traits = {
-				military_theorist
-			}
+			traits = { military_theorist }
 		}
-
-		CAN_george_volkoff = { # George Volkoff
+		CAN_george_volkoff = {
 					
 			picture = generic_political_advisor_europe_2
 
@@ -726,12 +768,9 @@ ideas = {
 				nuclear = 0.07
 			}
 			
-			traits = {
-				nuclear_scientist
-			}
+			traits = { nuclear_scientist }
 		}
-
-		CAN_robert_leckie = { # Robert Leckie
+		CAN_robert_leckie = {
 					
 			picture = generic_air_europe_2
 					
@@ -743,59 +782,54 @@ ideas = {
 				air_doctrine = 0.07
 			}
 			
-			traits = {
-				air_warfare_theorist
-			}
+			traits = { air_warfare_theorist }
 		}
 	}
-
+	# MILITARY
 	army_chief = {
 		
-		CAN_harry_crerar = { # Harry Crerar
-
+		CAN_harry_crerar = {
 			picture = generic_army_europe_4
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				army_chief_old_guard
-			}
+			
+			traits = { army_chief_old_guard }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_andrew_mcnaughton = { # Andrew McNaughton
-
+		CAN_andrew_mcnaughton = {
 			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				army_chief_offensive_2
-			}
+			
+			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_george_pearkes = { # George Pearkes
-
+		CAN_george_pearkes = {
 			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				army_chief_defensive_2
-			}
+			
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -805,70 +839,65 @@ ideas = {
 
 	air_chief = {
 	
-		CAN_lloyd_samuel_breadner = { # Lloyd Samuel Breadner
-
+		CAN_lloyd_samuel_breadner = {
 			picture = generic_air_europe_2
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				air_air_superiority_2
-			}
+			
+			traits = { air_air_superiority_2}
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_george_croil = { # George Croil
-
+		CAN_george_croil = {
 			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				air_chief_safety_2
-			}
+			
+			traits = { air_chief_safety_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_harold_edwards = { # Harold Edwards
-
+		CAN_harold_edwards = {
 			picture = generic_air_europe_3
 			
 			allowed = {
 				original_tag = CAN
 				has_dlc = "Together for Victory"
 			}
+			
 
-			traits = {
-				air_chief_reform_2
-			}
+			
+			traits = { air_chief_reform_2}
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
-		CAN_raymond_collishaw = { # Raymond Collishaw
-
+		CAN_raymond_collishaw = {
 			picture = generic_air_europe_3
 			
 			allowed = {
 				original_tag = CAN
 				has_dlc = "Together for Victory"
 			}
+			
 
-			traits = {
-				air_air_combat_training_2
-			}
+			
+			traits = { air_air_combat_training_2}
 			
 			ai_will_do = {
 				factor = 1
@@ -878,42 +907,38 @@ ideas = {
 
 	navy_chief = {
 		
-		CAN_percy_nelles = { # Percy W. Nelles
-
+		CAN_percy_nelles = {
 			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = CAN
 			}
+			
 
-			traits = {
-				navy_chief_decisive_battle_2
-			}
+			
+			traits = { navy_chief_decisive_battle_2  }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_alasdair_murray = { # Alasdair Murray [Revisit: No Information Found]
+		
 
+		CAN_alasdair_murray = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				navy_chief_commerce_raiding_2
-			}
+			traits = { navy_chief_commerce_raiding_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
-		CAN_george_jones = { # George Jones
-
+		CAN_george_jones = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
@@ -921,9 +946,7 @@ ideas = {
 				has_dlc = "Together for Victory"
 			}
 			
-			traits = {
-				navy_anti_submarine_2
-			}
+			traits = { navy_anti_submarine_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -932,8 +955,9 @@ ideas = {
 	}
 	
 	high_command = {
-
-		CAN_guy_simonds = { # Guy Simonds
+	
+	
+		CAN_guy_simonds = {
 			
 			picture = generic_army_europe_1
 
@@ -941,16 +965,14 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				army_artillery_2
-			}
+			traits = { army_artillery_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_gino_verchiella = { # Gina Verchiella [Revisit: No Information Found]
+		CAN_gino_verchiella = {
 			
 			picture = generic_air_europe_2
 			
@@ -958,16 +980,14 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				air_air_superiority_2
-			}
+			traits = { air_air_superiority_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_john_murchie = { # John Carl Murchie
+		CAN_john_murchie = {
 			
 			picture = generic_army_europe_2
 
@@ -975,16 +995,14 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				army_armored_2
-			}
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_frederick_m_w_harvey = { # Frederick Maurice Watson Harvey
+		CAN_frederick_m_w_harvey = {
 			
 			picture = generic_army_europe_3
 
@@ -992,9 +1010,7 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			traits = {
-				army_commando_2
-			}
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -1002,14 +1018,16 @@ ideas = {
 		}
 	}
 	
+	# TECHNOLOGY
 	tank_manufacturer = {
 		
 		designer = yes
 		
-		vickers_armstrong_can = { # Vickers-Armstrongs
+		vickers_armstrong_can = {
 
 			picture = generic_tank_manufacturer_1
 
+			
 			allowed = {
 				original_tag = CAN
 			}
@@ -1018,15 +1036,17 @@ ideas = {
 				armor = 0.10
 			}
 			
-			traits = {
-				medium_tank_manufacturer
-			}
+			traits = { medium_tank_manufacturer }
+			
+			# quite the useless tanks the vickers 6-ton
 		}
 	}
 
 	industrial_concern = {
 
-		montreal_lab = { # Montreal Laboratory
+		
+
+		montreal_lab = {
 
 			picture = generic_industrial_concern_1
 			
@@ -1034,17 +1054,20 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
+			
 
+			
 			research_bonus = {
 				electronics = 0.10
 			}
 			
-			traits = {
-				electronics_concern
+			traits = { electronics_concern }
+			
+			modifier = {
 			}
 		}
 
-		polymer_corporation = { # Polymer Corporation
+		polymer_corporation = {
 					
 			picture = generic_industrial_concern_2
 				
@@ -1058,17 +1081,16 @@ ideas = {
 				industry = 0.05
 			}
 			
-			traits = {
-				refinery_concern
-			}
+			traits = { refinery_concern }
 		}
+
 	}
 
 	materiel_manufacturer = {
 			
 		designer = yes
 		
-		inglis_company = { # John Inglis Company
+		inglis_company = {
 			
 			picture = generic_infantry_equipment_manufacturer_2
 
@@ -1076,17 +1098,19 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
+			
 
+			
 			research_bonus = {
 				support_tech = 0.10
 			}
 			
-			traits = {
-				support_equipment_manufacturer
-			}
+			traits = { support_equipment_manufacturer }
+			
+			
 		}	
 
-		small_arms_limited = { # Small Arms Limited
+		small_arms_limited = {
 
 			picture = generic_infantry_equipment_manufacturer_1
 			
@@ -1094,25 +1118,27 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
+			
 
+			
 			research_bonus = {
 				infantry_weapons = 0.10
 			}
 			
-			traits = {
-				infantry_equipment_manufacturer
-			}
-		}
+			traits = { infantry_equipment_manufacturer }
+			
+					}
+		
 	}
 	
 	naval_manufacturer = { 
 		
 		designer = yes
 		
-		kingston_shipbuilding = { # Kingston Shipyards
-
+		kingston_shipbuilding = {
 			picture = generic_naval_manufacturer_2
 
+			
 			allowed = {
 				original_tag = CAN
 			}
@@ -1121,15 +1147,17 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = {
-				pacific_fleet_naval_manufacturer
+			equipment_bonus = {
+				
 			}
+			
+			traits = { pacific_fleet_naval_manufacturer }
 		}
 
-		halifax_shipyard_limited = { # Halifax Shipyard
-
+		halifax_shipyard_limited = {
 			picture = generic_naval_manufacturer_3
 
+			
 			allowed = {
 				original_tag = CAN
 			}
@@ -1142,17 +1170,15 @@ ideas = {
 				# destroyers
 			}
 			
-			traits = {
-				convoy_escort_naval_manufacturer
-			}
+			traits = { convoy_escort_naval_manufacturer }
 		}
 	}
 	
-	aircraft_manufacturer = {
+	aircraft_manufacturer = { 
 			
 		designer = yes
 		
-		havilland_canada = { # de Havilland Canada
+		havilland_canada = {
 			picture = generic_air_manufacturer_1
 
 			
@@ -1164,18 +1190,18 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				medium_aircraft_manufacturer
-			}
+			traits = { medium_aircraft_manufacturer }
+			
+			# heavy fighters like mosquito
 						
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		canadian_car_foundry = { # Canadian Car and Foundry
-
+		canadian_car_foundry = {
 			picture = generic_air_manufacturer_2
+
 			
 			allowed = {
 				original_tag = CAN
@@ -1185,17 +1211,16 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				light_aircraft_manufacturer
-			}
+			traits = { light_aircraft_manufacturer }
+			
+			# fighter/interceptors like Hurricane
 						
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_fairchild_aircraft_ltd = { # Fairchild Aircraft Ltd.
-
+		CAN_fairchild_aircraft_ltd = {
 			picture = generic_air_manufacturer_2
 
 			cost = 150
@@ -1213,17 +1238,16 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				naval_aircraft_manufacturer
-			}
-
+			traits = { naval_aircraft_manufacturer }
+			
+			# fighter/interceptors like Hurricane
+						
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAN_handley_page = { # Handley Page
-
+		CAN_handley_page = {
 			picture = generic_air_manufacturer_3
 
 			cost = 150
@@ -1241,9 +1265,9 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				heavy_aircraft_manufacturer
-			}
+			traits = { heavy_aircraft_manufacturer }
+			
+			# fighter/interceptors like Hurricane
 						
 			ai_will_do = {
 				factor = 1

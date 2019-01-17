@@ -105,7 +105,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
+				right-wing_drift = 0.1
 			}
 		}
 
@@ -125,7 +125,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -134,7 +134,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				left-wing_drift = 0.1
 			}
 		}
 
@@ -145,7 +145,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -153,8 +153,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 85
+				right-wing_drift = 0.1
+				right-wing_acceptance = 85
 			}
 		}
 		
@@ -166,7 +166,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -174,8 +174,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				left-wing_drift = 0.1
+				left-wing_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -186,7 +186,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -194,8 +194,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 85
+				centre_drift = 0.1
+				centre_acceptance = 85
 			}
 		}
 		
@@ -208,16 +208,16 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = fascism
+						has_government = right-wing
 						SOV = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					AND = {
 						tag = SOV
-						has_government = communism
+						has_government = left-wing
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 				}
@@ -226,8 +226,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				communism_acceptance = 100
-				fascism_acceptance = 100
+				left-wing_acceptance = 100
+				right-wing_acceptance = 100
 			}
 		}
 		
@@ -239,7 +239,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -247,7 +247,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				left-wing_drift = 0.1
 			}
 		}
 		
@@ -280,7 +280,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 		
 			removal_cost = -1
@@ -288,7 +288,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				centre_drift = -0.02
 			}
 		}
 	
@@ -300,7 +300,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 			
 			removal_cost = -1
@@ -320,7 +320,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 			
 			removal_cost = -1
@@ -342,8 +342,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = left-wing
+					has_government = right-wing
 				}
 			}
 			
@@ -365,8 +365,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = left-wing
+					has_government = right-wing
 				}
 			}
 			
@@ -388,8 +388,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = left-wing
+					has_government = right-wing
 				}
 			}
 			
@@ -436,7 +436,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			removal_cost = -1
@@ -456,7 +456,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = syncretic
 			}
 
 			cancel = {
@@ -580,12 +580,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				left-wing_drift = -0.05
 			}
 		}
 
@@ -599,12 +599,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				right-wing_drift = -0.05
 			}
 		}
 
@@ -911,7 +911,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 	
@@ -952,7 +952,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 	
@@ -990,7 +990,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 	

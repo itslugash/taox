@@ -1,19 +1,15 @@
-###############################
-# TAOX - Czechoslovakia Ideas #
-###############################
-
 ideas = {
 
 	country = {
 	
-		CZE_democratic_bastion = { # Democratic Bastion
+		CZE_democratic_bastion = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 			
 			picture = generic_democratic_drift_bonus
@@ -21,21 +17,20 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				liberalism_drift = 0.03
-				conservatism_drift = 0.02
+				centre_drift = 0.05
 				drift_defence_factor = 0.3
 				war_support_factor = 0.05
 			}
 		}
 
-		CZE_czech_fascism = { # Czech Fascism
+		CZE_czech_fascism = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 			
 			picture = generic_fascism_drift_bonus
@@ -43,18 +38,19 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.05
+				right-wing_drift = 0.05
+				
 			}
 		}
 		
-		CZE_beacon_of_liberty = { # Beacon of Liberty
+		CZE_beacon_of_liberty = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 			
 			picture = generic_democratic_drift_bonus
@@ -62,7 +58,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				liberalism_drift = 0.1
+				centre_drift = 0.1
 				drift_defence_factor = 0.3
 				war_support_factor = 0.1
 				army_core_defence_factor = 0.1
@@ -70,8 +66,7 @@ ideas = {
 			}
 		}
 	
-		CZE_czech_socialism = { # Czech Socialism
-
+		CZE_czech_socialism = {
 			allowed = {
 				always = no
 			}
@@ -89,7 +84,8 @@ ideas = {
 			}			
 		}
 		
-		CZE_communism_with_a_human_face = { # Communism with a Human Face
+		CZE_communism_with_a_human_face = {
+			
 			
 			allowed = {
 				always = no
@@ -97,8 +93,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = left-wing
+					has_government = right-wing
 				}
 			}
 			
@@ -111,7 +107,7 @@ ideas = {
 			}
 		}
 		
-		CZE_german_millitary_cooperation_focus = { # Military Cooperation Focus
+		CZE_german_millitary_cooperation_focus = {
 
 			picture = german_advisors
 
@@ -122,27 +118,21 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = fascism
+						has_government = right-wing
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					AND = {
-						has_government = communism
+						has_government = left-wing
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					AND = {
-						OR = {
-							has_government = liberalism
-							has_government = conservatism
-						}
+						has_government = centre
 						GER = {
-							OR = {
-								has_government = liberalism
-								has_government = conservatism
-							}
+							has_government = centre
 						}
 					}
 				}
@@ -158,7 +148,7 @@ ideas = {
 			}				
 		}
 		
-		CZE_war_college_idea = { # War College Idea
+		CZE_war_college_idea = {
 
 			picture = generic_disjointed_gov
 
@@ -181,7 +171,7 @@ ideas = {
 			}
 		}
 		
-		CZE_air_focus = { # Air Focus
+		CZE_air_focus = {
 		
 			allowed = {
 				original_tag = CZE
@@ -203,7 +193,7 @@ ideas = {
 			}
 		}
 		
-		CZE_naval_focus = { # Naval Focus
+		CZE_naval_focus = {
 		
 			allowed = {
 				original_tag = CZE
@@ -231,7 +221,7 @@ ideas = {
 			}
 		}
 		
-		CZE_export_focus1 = { # Export Focus [Stage 1]
+		CZE_export_focus1 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -250,8 +240,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
-
-		CZE_export_focus2 = { # Export Focus [Stage 2]
+		CZE_export_focus2 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -277,8 +266,7 @@ ideas = {
 				}
 			}
 		}
-
-		CZE_export_focus3 = { # Export Focus [Stage 3]
+		CZE_export_focus3 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -314,7 +302,7 @@ ideas = {
 			}
 		}
 		
-		CZE_fortification_focus = { # Fortification Focus [Stage 1]
+		CZE_fortification_focus = {
 		
 			allowed = {
 				original_tag = CZE
@@ -335,7 +323,7 @@ ideas = {
 			}
 		}
 
-		CZE_fortification_focus2 = { # Fortification Focus [Stage 2]
+		CZE_fortification_focus2 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -356,7 +344,7 @@ ideas = {
 			}
 		}
 
-		CZE_fortification_focus3 = { # Fortification Focus [Stage 3]
+		CZE_fortification_focus3 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -377,7 +365,7 @@ ideas = {
 			}
 		}
 
-		CZE_fortification_focus4 = { # Fortification Focus [Stage 4]
+		CZE_fortification_focus4 = {
 		
 			allowed = {
 				original_tag = CZE
@@ -398,7 +386,7 @@ ideas = {
 			}
 		}
 		
-		CZE_skoda_works = { # Skoda Works
+		CZE_skoda_works = {
 		
 			allowed = {
 				original_tag = CZE
@@ -416,7 +404,7 @@ ideas = {
 			}
 		}
 		
-		CZE_divided_nation = { # Divided Nation
+		CZE_divided_nation = {
 		
 			allowed = {
 				original_tag = CZE
@@ -435,7 +423,8 @@ ideas = {
 			}
 		}		
 		
-		CZE_czech_fascism_idea = { # Czech Fascism Idea
+		
+		CZE_czech_fascism_idea = {
 		
 			picture = generic_fascism_drift_bonus
 
@@ -456,7 +445,7 @@ ideas = {
 			}
 		}
 		
-		CZE_national_fascism_idea = { # National Fascism Idea
+		CZE_national_fascism_idea = {
 
 			picture = generic_fascism_drift_bonus
 		
@@ -477,7 +466,7 @@ ideas = {
 			}
 		}
 		
-		CZE_industrial_legacy_idea = { # Industrial Legacy Idea
+		CZE_industrial_legacy_idea = {
 		
 			allowed = {
 				original_tag = CZE
@@ -498,7 +487,7 @@ ideas = {
 			}
 		}
 		
-		CZE_planning_bonus = { # Planning Bonus
+		CZE_planning_bonus = {
 		
 			allowed = {
 				always = no
@@ -519,11 +508,12 @@ ideas = {
 				max_planning = 0.15
 			}
 		}
+		
 	}
 
 	political_advisor = {
 
-		CZE_vojtech_tuka = { # Vojtech Tuka
+		CZE_vojtech_tuka = {
 
 			picture = generic_political_advisor_europe_1
 
@@ -531,12 +521,10 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				prince_of_terror
-			}
+			traits = { prince_of_terror }
 		}
 
-		CZE_ferdinand_catlos = { # Ferdinand Čatloš
+		CZE_ferdinand_catlos = {
 
 			picture = generic_army_europe_2
 				
@@ -544,12 +532,10 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				quartermaster_general
-			}
+			traits = { quartermaster_general }
 		}
 
-		CZE_jozef_tiso = { # Jozef Tiso
+		CZE_jozef_tiso = {
 
 			picture = generic_political_advisor_europe_3
 			
@@ -557,9 +543,72 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				backroom_backstabber
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0
 			}
+		}
+
+		CZE_stefan_osusky = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+				if = { 
+					limit = { has_dlc = "Death or Dishonor" }
+					has_completed_focus = CZE_democratic_bastion
+				}
+			}
+			
+			traits = { democratic_reformer }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CZE_gustav_husak = {
+
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = CZE
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Death or Dishonor" }
+					has_completed_focus = CZE_go_left
+				}
+			}
+			
+			traits = { communist_revolutionary }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CZE_konrad_henlein = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = CZE
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Death or Dishonor" }
+					has_completed_focus = CZE_go_right
+				}
+			}
+			
+			traits = { fascist_demagogue }
 
 			ai_will_do = {
 				factor = 0
@@ -567,26 +616,29 @@ ideas = {
 		}
 	}
 
+
+	# MILITARY
 	army_chief = {
 	
-		CZE_rudolf_viest = { # Rudolf Viest
+
+		CZE_rudolf_viest = {
 			
 			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = CZE
 			}
+			
 
-			traits = {
-				army_chief_offensive_2
-			}
+			
+			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 0.5
 			}
 		}
 
-		CZE_ludvik_krejci = { # Ludvík Krejčí
+		CZE_ludvik_krejci = {
 			
 			picture = generic_army_europe_4
 			
@@ -594,16 +646,17 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				army_chief_defensive_2
-			}
+
+			
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CZE_ludvik_svoboda = { # Ludvík Svoboda
+		
+		CZE_ludvik_svoboda = {
 			
 			picture = generic_army_europe_5
 			
@@ -611,9 +664,9 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				army_chief_morale_3
-			}
+
+			
+			traits = { army_chief_morale_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -623,24 +676,25 @@ ideas = {
 
 	air_chief = {
 		
-		CZE_karel_janousek = { # Karel Janoušek
+		
+		CZE_karel_janousek = {
 			
 			picture = generic_air_europe_3
 			
 			allowed = {
 				original_tag = CZE
 			}
+			
 
-			traits = {
-				air_chief_safety_2
-			}
+			
+			traits = { air_chief_safety_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CZE_jaroslav_fajfr = { # Jaroslav Fajfr
+		CZE_jaroslav_fajfr = {
 			
 			picture = generic_air_europe_2
 			
@@ -648,9 +702,7 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				air_chief_ground_support_2
-			}
+			traits = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -658,26 +710,28 @@ ideas = {
 		}
 	}
 
+
 	navy_chief = {
 		
-		CZE_antonin_hasal = { # Antonín Hasal
+		
+		CZE_antonin_hasal = {
 			
 			picture = generic_navy_europe_3
 			
 			allowed = {
 				original_tag = CZE
 			}
+			
 
-			traits = {
-				navy_chief_maneuver_2
-			}
+			
+			traits = { navy_chief_maneuver_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CZE_klement_gottwald = { # Klement Gottwald
+		CZE_klement_gottwald = {
 			
 			picture = generic_navy_europe_2
 			
@@ -685,9 +739,7 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = {
-				navy_naval_air_defense_2
-			}
+			traits = { navy_naval_air_defense_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -695,9 +747,9 @@ ideas = {
 		}
 	}
 
-	high_command = {
 
-		CZE_jan_golian = { # Ján Golian
+	high_command = {
+		CZE_jan_golian = {
 			
 			picture = generic_army_europe_2
 			
@@ -705,33 +757,29 @@ ideas = {
 				original_tag = CZE
 			}
 						
-			traits = {
-				army_regrouping_2
-			}
+			traits = { army_regrouping_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	
-		CZE_josef_frantisek = { # Josef František
-	
+		CZE_josef_frantisek = {
+			
 			picture = generic_air_europe_1
 			
 			allowed = {
 				original_tag = CZE
 			}
 						
-			traits = {
-				air_air_superiority_2
-			}
+			traits = { air_air_superiority_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	
-		CZE_karel_kuttelwascher = { # Karel Kuttelwascher
+		CZE_karel_kuttelwascher = {
 			
 			picture = generic_air_europe_3
 			
@@ -739,16 +787,14 @@ ideas = {
 				original_tag = CZE
 			}
 						
-			traits = {
-				air_air_combat_training_2
-			}
+			traits = { air_air_combat_training_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CZE_frantisek_havel = { # František Havel
+		CZE_frantisek_havel = {
 						
 			picture = generic_army_europe_1
 
@@ -756,9 +802,7 @@ ideas = {
 				original_tag = CZE
 			}
 						
-			traits = {
-				army_logistics_2
-			}
+			traits = { army_logistics_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -767,8 +811,7 @@ ideas = {
 	}
 
 	theorist = {
-
-		CZE_karel_vaclav_petrik = { # Karel Václav Petřík	
+		CZE_karel_vaclav_petrik = {			
 
 			allowed = {
 				original_tag = CZE
@@ -778,12 +821,10 @@ ideas = {
 				land_doctrine = 0.07
 			}
 			
-			traits = {
-				military_theorist
-			}
+			traits = { military_theorist }
 		}
 		
-		CZE_alois_vicherek = { # Alois Vicherek
+		CZE_alois_vicherek = {
 		
 			allowed = {
 				original_tag = CZE
@@ -793,20 +834,22 @@ ideas = {
 				air_doctrine = 0.07
 			}
 			
-			traits = {
-				air_warfare_theorist
-			}
+			traits = { air_warfare_theorist }
 		}
+		
 	}
+
 	
+	# TECHNOLOGY
 	tank_manufacturer = { 
 
 		designer = yes
 
-		CZE_ckd = { # ČKD / !Českomoravská Kolben-Daněk
+		CZE_ckd = {
 			
 			picture = generic_tank_manufacturer_1
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -815,14 +858,17 @@ ideas = {
 				armor = 0.10
 			}
 			
-			traits = {
-				fast_tank_manufacturer
+			traits = { fast_tank_manufacturer }
+			
+			equipment_bonus = {
+				# made light/medium tanks panzerkampfwagen 38
 			}
 		}
 
-		CZE_tatra = { # Tatra / TATRA TRUCKS a.s.
+		CZE_tatra = {
 			
 			picture = generic_tank_manufacturer_2
+
 			
 			allowed = {
 				original_tag = CZE
@@ -832,15 +878,17 @@ ideas = {
 				armor = 0.10
 			}
 			
-			traits = {
-				medium_tank_manufacturer
-			}			
+			traits = { medium_tank_manufacturer }
+			
+			equipment_bonus = {
+			}
 		}
 
-		CZE_skoda_armor = { # Škoda Works
+		CZE_skoda_armor = {
 			
 			picture = generic_tank_manufacturer_3
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -849,9 +897,10 @@ ideas = {
 				armor = 0.10
 			}
 			
-			traits = {
-				heavy_tank_manufacturer
-			}			
+			traits = { heavy_tank_manufacturer }
+			
+			equipment_bonus = {
+			}
 		}
 	}
 
@@ -859,8 +908,9 @@ ideas = {
 		
 		designer = yes
 		
-		CZE_skoda_shipyards = { # Škoda Works
+		CZE_skoda_shipyards = {
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -869,9 +919,12 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = {
-				coastal_defence_naval_manufacturer
+			equipment_bonus = {
+				
 			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+			
 		}
 	}
 
@@ -879,10 +932,11 @@ ideas = {
 		
 		designer = yes
 
-		CZE_ckd_praga = { # ČKD-Praga
+		CZE_ckd_praga = {
 			
 			picture = generic_air_manufacturer_1
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -891,19 +945,20 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				naval_aircraft_manufacturer
-			}
-						
+			traits = { naval_aircraft_manufacturer }
+			
+			# fighter aircraft B-534, versitile and high performing in manuverability and speed
+			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		
-		CZE_avia = { # Avia
+		CZE_avia = {
 			
 			picture = generic_air_manufacturer_1
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -912,19 +967,21 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				light_aircraft_manufacturer
-			}
-						
+			traits = { light_aircraft_manufacturer }
+			
+			# fighter aircraft B-534, versitile and high performing in manuverability and speed
+			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		
-		CZE_aero = { # Aero Vodochody
+
+		CZE_aero = {
 			
 			picture = generic_air_manufacturer_2
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -933,9 +990,8 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = {
-				medium_aircraft_manufacturer
-			}
+			traits = { medium_aircraft_manufacturer }
+			
 			
 			ai_will_do = {
 				factor = 1
@@ -972,10 +1028,11 @@ ideas = {
 		
 		designer = yes
 		
-		CZE_zbrojovka_brno = { # Zbrojovka Brno
+		CZE_zbrojovka_brno = {
 			
 			picture = generic_infantry_equipment_manufacturer_2
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -984,19 +1041,18 @@ ideas = {
 				infantry_weapons = 0.10
 			}
 			
-			traits = {
-				infantry_equipment_manufacturer
-			}
+			traits = { infantry_equipment_manufacturer }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		
-		CZE_skoda_artillery = { # Škoda Works
+		CZE_skoda_artillery = {
 			
 			picture = generic_artillery_manufacturer_2
 
+			
 			allowed = {
 				original_tag = CZE
 			}
@@ -1005,12 +1061,14 @@ ideas = {
 				artillery = 0.10
 			}
 			
-			traits = {
-				artillery_manufacturer
-			}			
+			traits = { artillery_manufacturer }
+			
+			equipment_bonus = {
+
+			}
 		}
 		
-		CZE_praga = { # Praga
+		CZE_praga = {
 			
 			picture = generic_motorized_equipment_manufacturer_2
 			
@@ -1022,15 +1080,13 @@ ideas = {
 				motorized_equipment = 0.10
 			}
 			
-			traits = {
-				motorized_equipment_manufacturer
-			}
+			traits = { motorized_equipment_manufacturer }
 		}
 	}
 
 	industrial_concern = {
 		
-		CZE_elektra = { # Škoda Elektra
+		CZE_elektra = {
 			
 			allowed = {
 				original_tag = CZE
@@ -1040,16 +1096,14 @@ ideas = {
 				electronics = 0.10
 			}
 			
-			traits = {
-				electronics_concern
-			}
+			traits = { electronics_concern }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		
-		CZE_skoda_works_2 = { # Škoda Works
+		CZE_skoda_works_2 = {
 			
 			allowed = {
 				original_tag = CZE
@@ -1057,11 +1111,10 @@ ideas = {
 			
 			research_bonus = {
 				industry = 0.10
+				
 			}
 			
-			traits = {
-				industrial_concern
-			}
+			traits = { industrial_concern }
 		}	
 	}
 }

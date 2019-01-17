@@ -9,12 +9,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_government = left-wing
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = centre 
 						NOT = {
 							tag = ROOT
 						}
@@ -37,12 +37,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_government = left-wing
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = centre 
 						NOT = {
 							tag = ROOT
 						}
@@ -72,7 +72,7 @@ ideas = {
 			removal_cost = -1
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 
@@ -92,12 +92,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_government = left-wing
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = centre 
 						NOT = {
 							tag = ROOT
 						}
@@ -122,7 +122,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			
@@ -184,7 +184,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
@@ -226,7 +226,7 @@ ideas = {
 			
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 
@@ -272,7 +272,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			picture = generic_morale_bonus
@@ -319,7 +319,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 			
@@ -340,7 +340,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 			
@@ -361,7 +361,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			

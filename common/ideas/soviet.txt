@@ -10,7 +10,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 
@@ -30,7 +30,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			picture = generic_production_bonus
@@ -50,7 +50,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 
@@ -69,7 +69,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -85,7 +85,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -109,7 +109,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.05
+				left-wing_drift = 0.05
 			}
 		}
 
@@ -139,7 +139,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			picture = generic_manpower_bonus
@@ -159,7 +159,7 @@ ideas = {
 			picture = generic_production_bonus
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			modifier = {
@@ -194,7 +194,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -213,7 +213,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -229,7 +229,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -245,7 +245,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -272,7 +272,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -298,7 +298,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -324,7 +324,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -350,7 +350,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -376,7 +376,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -402,7 +402,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -428,7 +428,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -454,7 +454,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -480,7 +480,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -507,7 +507,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -532,7 +532,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -557,7 +557,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -582,7 +582,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -607,7 +607,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			research_bonus = {
@@ -632,7 +632,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 		}
@@ -647,7 +647,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 			
 			modifier = {
@@ -771,7 +771,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 			
@@ -793,7 +793,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 			
@@ -819,7 +819,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			

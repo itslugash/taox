@@ -11,7 +11,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				fascism_drift = 0.10
+				right-wing_drift = 0.10
 			}
 	
 			ai_will_do = {

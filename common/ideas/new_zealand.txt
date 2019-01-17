@@ -117,7 +117,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -220,7 +220,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -229,7 +229,7 @@ ideas = {
 			
 			modifier = {
 				autonomy_gain = 1
-				communism_drift = 0.02
+				left-wing_drift = 0.02
 			}
 		}
 
@@ -240,7 +240,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -249,7 +249,7 @@ ideas = {
 			
 			modifier = {
 				autonomy_gain = 1
-				communism_drift = 0.02
+				left-wing_drift = 0.02
 				production_speed_buildings_factor = 0.1
 			}
 		}
@@ -261,7 +261,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -270,7 +270,7 @@ ideas = {
 			
 			modifier = {
 				autonomy_gain = 1
-				fascism_drift = 0.01
+				right-wing_drift = 0.01
 				production_speed_buildings_factor = 0.1
 			}
 		}

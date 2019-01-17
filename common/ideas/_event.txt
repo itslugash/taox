@@ -1,11 +1,7 @@
-######################
-# TAOX Generic Ideas #
-######################
-
 ideas = {
 
 	country = {
-		fascist_assault_divisions = { # Fascist Assault Divisions
+		fascist_assault_divisions = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -16,7 +12,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				conscription = 0.002
-				fascism_drift = 0.05
+				right-wing_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -24,7 +20,7 @@ ideas = {
 			}
 		}
 	
-		communist_partisans_recruiting = { # Communist Partisans Recruiting
+		communist_partisans_recruiting = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -34,7 +30,7 @@ ideas = {
 			
 			modifier = {
 				conscription = -0.002
-				communism_drift = 0.05
+				left-wing_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -42,7 +38,7 @@ ideas = {
 			}
 		}
 	
-		democratic_opposition_voicing_protests = { # Democratic Opposition Voicing Protests
+		democratic_opposition_voicing_protests = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -52,8 +48,7 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.5
-				liberalism_drift = 0.025
-				conservatism_drift = 0.025
+				centre_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -61,7 +56,7 @@ ideas = {
 			}
 		}
 
-		fascist_revolutionaries = { # Fascist Revolutionaries
+		fascist_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -76,7 +71,7 @@ ideas = {
 			}
 		}
 
-		communist_revolutionaries = { # Communist Revolutionaries
+		communist_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -91,7 +86,7 @@ ideas = {
 			}
 		}
 
-		democratic_revolutionaries = { # Democratic Revolutionaries
+		democratic_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -106,7 +101,8 @@ ideas = {
 			}
 		}
 
-		fascism_defeated = { # Fascism Defeated
+
+		fascism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -120,7 +116,7 @@ ideas = {
 			}
 		}
 
-		communism_defeated = { # Communism Defeated
+		communism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -134,7 +130,7 @@ ideas = {
 			}
 		}
 		
-		reign_of_terror = { # Reign of Terror
+		reign_of_terror = {
 			removal_cost = -1
 			
 			allowed = {
@@ -149,9 +145,9 @@ ideas = {
 			}
 		}
 
-		anti_soviet_pact = { # Anti-Soviet Pact
+		anti_soviet_pact = {
 			
-			removal_cost = -1
+			removal_cost = -1 # Or make removable, with high cost?
 
 			available = {
 				is_subject = no
@@ -168,11 +164,11 @@ ideas = {
 			picture = anti_soviet_pact
 		}
 
-		anti_soviet_pact_refused_call = { # Anti-Soviet Pact Refused
+		anti_soviet_pact_refused_call = {
 
 			picture = generic_communism_drift_bonus
 			
-			removal_cost = -1
+			removal_cost = -1 # Or make removable, with high cost?
 			
 			allowed = {
 				always = no # Triggered via event
@@ -184,26 +180,25 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.1
-				communism_drift = 0.05
+				left-wing_drift = 0.05
 			}
 		}
 
-		anti_nazi_coup = { # Anti-Nazi Coup
+		anti_nazi_coup = {			
 			
 			allowed = {
 				always = no
 			}
-
 			removal_cost = -1
 
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				fascism_acceptance = -50
+				right-wing_acceptance = -50
 			}
 		}
 		
-		shattered_government = { # Shattered Government
+		shattered_government = {
 			
 			allowed = {
 				always = no

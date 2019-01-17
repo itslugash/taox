@@ -9,12 +9,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ITA
-						has_government = fascism
+						has_government = right-wing
 					}
 				}
 			}
@@ -34,8 +34,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = democratic
+						has_government = left-wing
+						has_government = centre
 					}
 				}
 			}
@@ -43,9 +43,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				communism_acceptance = -10
-				democratic_acceptance = -10
-				fascism_acceptance = 10
+				left-wing_acceptance = -10
+				centre_acceptance = -10
+				right-wing_acceptance = 10
 				ai_focus_aggressive_factor = 0.5
 				justify_war_goal_time = -0.05
 			}
@@ -62,21 +62,21 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = fascism
+						has_government = right-wing
 						GER = {
-							has_government = fascism
+							has_government = right-wing
 						}
 					}
 					AND = {
-						has_government = communism
+						has_government = left-wing
 						GER = {
-							has_government = communism
+							has_government = left-wing
 						}
 					}
 					AND = {
-						has_government = democratic
+						has_government = centre
 						GER = {
-							has_government = democratic
+							has_government = centre
 						}
 					}
 				}
@@ -107,7 +107,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 			
@@ -129,7 +129,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 			
@@ -151,7 +151,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			

@@ -9,7 +9,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -48,7 +48,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -67,7 +67,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -221,7 +221,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -242,7 +242,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 			removal_cost = -1
 
@@ -359,7 +359,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 			
 			removal_cost = -1
@@ -381,7 +381,7 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -394,20 +394,20 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				democratic_drift = 0.05
+				centre_drift = 0.05
 			}
 		} 
 		american_protection_defence_democratic = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
@@ -420,13 +420,13 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = centre
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				democratic_drift = 0.05
+				centre_drift = 0.05
 			}			
 		}
 			# idea for the protect Amercians focus - USA communist
@@ -434,7 +434,7 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -447,20 +447,20 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
 			picture = generic_communism_drift_bonus
 			modifier = {
-				communism_drift = 0.05
+				left-wing_drift = 0.05
 			}
 		} 
 		american_protection_defence_communism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
@@ -473,13 +473,13 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = left-wing
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				communism_drift = 0.05
+				left-wing_drift = 0.05
 			}			
 		}
 			# idea for the protect Amercians focus - USA fascist
@@ -487,7 +487,7 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -500,20 +500,20 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				fascism_drift = 0.05
+				right-wing_drift = 0.05
 			}
 		} 
 		american_protection_defence_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
@@ -526,13 +526,13 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = right-wing
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				fascism_drift = 0.05
+				right-wing_drift = 0.05
 			}			
 		}
 		USA_world_police = {
@@ -568,7 +568,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 			
@@ -590,7 +590,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = centre
 				}
 			}
 			
@@ -612,7 +612,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			
