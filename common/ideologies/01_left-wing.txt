@@ -1,0 +1,57 @@
+ideologies = {
+
+	left-wing = {
+		
+		types = {
+			communism = {
+			}
+
+			socialism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LEFT-WING_1"
+			"FACTION_NAME_LEFT-WING_2"
+			"FACTION_NAME_LEFT-WING_3"
+			"FACTION_NAME_LEFT-WING_4"
+			"FACTION_NAME_LEFT-WING_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.5
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension  = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = 0
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+		ai_neutral = yes
+	}
+}
