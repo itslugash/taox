@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 361 # Washington, D.C. - United States
+	capital = 361
 # Order of Battle
 	oob = "USA_1936"
 # Research Slots
@@ -39,150 +39,77 @@
 		base_strike = 1
 	}
 # Diplomacy
+	# Factions
 	# Puppets
 		set_autonomy = {
 			target = PHI
-			autonomous_state =  autonomy_puppet
+			autonomous_state = autonomy_puppet
 		}
+	# Tech Sharing
 # Set Politics
 	set_politics = {
 
 		parties = {
-			communism = { 
-				popularity = 0.2
-			}
-
-			socialism = {
-				popularity = 0.41
-			}
-			
-			social_democracy = {
-				popularity = 0
-			}
-			
-			liberalism = { 
-				popularity = 60.8
-			}
-
-			centrism = { 
-				popularity = 2.05
-			}
-
-			conservatism = {
-				popularity = 36.54
-			}
-			
-			nationalism = {
-				popularity = 0
-			}
-			
-			reactionary = { 
+			left-wing = {
 				popularity = 0
 			}
 
-			fascism = { 
+			centre = { 
+				popularity = 0
+			}
+
+			right-wing = {
+				popularity = 0
+			}
+
+			syncretic = { 
 				popularity = 0
 			}
 		}
 		
-		ruling_party = liberalism
-		last_election = "1932.11.8"
+		ruling_party = syncretic
+		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-		create_country_leader = { # Earl Browder
+	# Left-Wing
+		create_country_leader = {
 			name = "Earl Browder"
-			desc = "POLITICS_EARL_BROWDER_DESC"
+			desc = "USA_Earl_Browder_desc"
 			picture = "Portrait_USA_Earl_Browder.dds"
-			expire = "1973.6.27"
-			ideology = marxism-leninism
+			expire = "1965.1.1"
+			ideology = communism
 			traits = {
 				#
 			}
 		}
-	# Socialism
-		create_country_leader = { # Norman Thomas
-			name = "Norman Thomas"
-			desc = "POLITICS_NORMAN_THOMAS_DESC"
-			picture = "Portrait_USA_Norman_Thomas.dds"
-			expire = "1968.12.19"
-			ideology = democratic_socialism
-			traits = {
-				#
-			}
-		}
-	# Social Democracy
-		create_country_leader = { # Norman Thomas
-			name = "Norman Thomas"
-			desc = "POLITICS_NORMAN_THOMAS_DESC"
-			picture = "Portrait_USA_Norman_Thomas.dds"
-			expire = "1968.12.19"
-			ideology = social_democracy_subtype
-			traits = {
-				#
-			}
-		}
-	# Liberalism
-		create_country_leader = { # Franklin D. Roosevelt
+	# Centre
+		create_country_leader = {
 			name = "Franklin D. Roosevelt"
-			desc = "POLITICS_FRANKLIN_D_ROOSEVELT_DESC"
+			desc = "USA_Franklin_D_Roosevelt_desc"
 			picture = "Portrait_USA_Franklin_D_Roosevelt.dds"
-			expire = "1945.4.12"
-			ideology = social_liberalism
+			expire = "1965.1.1"
+			ideology = liberalism
 			traits = {
 				#
 			}
 		}
-	# Centrism
-		create_country_leader = { # William Lemke
-			name = "William Lemke"
-			desc = "POLITICS_WILLIAM_LEMKE_DESC"
-			picture = "Portrait_USA_William_Lemke.dds"
-			expire = "1950.4.30"
-			ideology = populism
-			traits = {
-				#
-			}
-		}
-	# Conservatism
-		create_country_leader = { # Alf Landon
-			name = "Alf Landon"
-			desc = "POLITICS_ALF_LANDON_DESC"
-			picture = "Portrait_USA_Alf_Landon.dds"
-			expire = "1987.10.12"
-			ideology = social_conservatism
-			traits = {
-				#
-			}
-		}
-	# Nationalism
-		create_country_leader = { # William Dudley Pelley
+	# Right-Wing
+		create_country_leader = {
 			name = "William Dudley Pelley"
-			desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+			desc = "USA_William_Dudley_Pelley_desc"
 			picture = "Portrait_USA_William_Dudley_Pelley.dds"
-			expire = "1965.6.30"
-			ideology = white_nationalism
+			expire = "1965.1.1"
+			ideology = nationalism
 			traits = {
 				#
 			}
 		}
-	# Reactionary
-	# Fascism
-		create_country_leader = { # William Dudley Pelley
-			name = "William Dudley Pelley"
-			desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-			picture = "Portrait_USA_William_Dudley_Pelley.dds"
-			expire = "1965.6.30"
-			ideology = clerical_fascism
-			traits = {
-				#
-			}
-		}
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
-		create_field_marshal = { # Dwight D. Eisenhower
+		create_field_marshal = {
 			name = "Dwight D. Eisenhower"
 			id = 602
 			picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
@@ -199,7 +126,7 @@
 			planning_skill = 5
 			logistics_skill = 5
 		}
-		create_field_marshal = { # Douglas MacArthur
+		create_field_marshal = {
 			name = "Douglas MacArthur"
 			id = 57
 			picture = "Portrait_USA_Douglas_MacArthur.dds"
@@ -217,7 +144,7 @@
 			logistics_skill = 2
 		}
 	# General(s)
-		create_corps_commander = { # Geoffrey Keyes
+		create_corps_commander = {
 			name = "Geoffrey Keyes"
 			picture = "Portrait_USA_Geoffrey_Keyes.dds"
 			traits = {
@@ -230,7 +157,7 @@
 			planning_skill = 2
 			logistics_skill = 1
 		}
-		create_corps_commander = { # Omar Bradley
+		create_corps_commander = {
 			name = "Omar Bradley"
 			picture = "Portrait_USA_Omar_Bradley.dds"
 			traits = {
@@ -245,7 +172,7 @@
 			planning_skill = 4
 			logistics_skill = 4
 		}
-		create_corps_commander = { # Lucian Truscott
+		create_corps_commander = { 
 			name = "Lucian Truscott"
 			picture = "Portrait_USA_Lucian_Truscott.dds"
 			traits = {
@@ -259,7 +186,7 @@
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Mark W. Clark
+		create_corps_commander = { 
 			name = "Mark W. Clark"
 			picture = "Portrait_USA_Mark_W_Clark.dds"
 			traits = {
@@ -272,7 +199,7 @@
 			planning_skill = 2
 			logistics_skill = 3
 		}
-		create_corps_commander = { # George S. Patton
+		create_corps_commander = { 
 			name = "George S. Patton"
 			picture = "Portrait_USA_George_S_Patton.dds"
 			traits = {
@@ -288,7 +215,7 @@
 			planning_skill = 2
 			logistics_skill = 4
 		}
-		create_corps_commander = { # Walter Krueger
+		create_corps_commander = { 
 			name = "Walter Krueger"
 			picture = "Portrait_USA_Walter_Krueger.dds"
 			traits = {
@@ -302,7 +229,7 @@
 			planning_skill = 1
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Lloyd Fredendall
+		create_corps_commander = { 
 			name = "Lloyd Fredendall"
 			picture = "Portrait_USA_Lloyd_Fredendall.dds"
 			traits = {
@@ -316,7 +243,7 @@
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		create_corps_commander = { # Lesley J. McNair
+		create_corps_commander = { 
 			name = "Lesley J. McNair"
 			picture = "Portrait_USA_Lesley_McNair.dds"
 			traits = {
@@ -330,7 +257,7 @@
 			planning_skill = 4
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Jonathan M. Wainwright
+		create_corps_commander = { 
 			name = "Jonathan M. Wainwright"
 			picture = "Portrait_USA_Jonathan_Wainwright.dds"
 			traits = {
@@ -342,7 +269,7 @@
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		create_corps_commander = { # Russell P. Hartle
+		create_corps_commander = { 
 			name = "Russell P. Hartle"
 			picture = "Portrait_USA_Russell_P_Hartle.dds"
 			traits = {
@@ -354,7 +281,7 @@
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		create_corps_commander = { # Leonard T. Gerow
+		create_corps_commander = { 
 			name = "Leonard T. Gerow"
 			picture = "Portrait_USA_Leonard_T_Gerow.dds"
 			traits = {
@@ -366,7 +293,7 @@
 			planning_skill = 2
 			logistics_skill = 3
 		}
-		create_corps_commander = { # Edward H. Brooks
+		create_corps_commander = { 
 			name = "Edward H. Brooks"
 			picture = "Portrait_USA_Edward_Brooks.dds"
 			traits = {
@@ -379,7 +306,7 @@
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Clarence R. Huebner
+		create_corps_commander = { 
 			name = "Clarence Huebner"
 			picture = "Portrait_USA_Clarence_Huebner.dds"
 			traits = {
@@ -391,7 +318,7 @@
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Alexander Patch
+		create_corps_commander = {
 			name = "Alexander Patch"
 			picture = "Portrait_USA_Alexander_Patch.dds"
 			traits = {
@@ -404,7 +331,7 @@
 			planning_skill = 2
 			logistics_skill = 3
 		}
-		create_corps_commander = { # William Hood Simpson
+		create_corps_commander = { 
 			name = "William Hood Simpson"
 			picture = "Portrait_USA_William_Hood_Simpson.dds"
 			traits = {
@@ -416,7 +343,7 @@
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # J. Lawton Collins
+		create_corps_commander = {
 			name = "J. Lawton Collins"
 			picture = "Portrait_USA_Lawton_Collins.dds"
 			traits = {
@@ -429,7 +356,7 @@
 			planning_skill = 3
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Courtney Hodges
+		create_corps_commander = {
 			name = "Courtney Hodges"
 			picture = "Portrait_USA_Cortney_Hodges.dds"
 			traits = {
@@ -443,7 +370,7 @@
 			planning_skill = 2
 			logistics_skill = 4
 		}
-		create_corps_commander = { # Joseph Stilwell
+		create_corps_commander = { 
 			name = "Joseph Stilwell"
 			id = 601
 			picture = "Portrait_USA_Joseph_Stilwell.dds"
@@ -459,7 +386,7 @@
 			planning_skill = 1
 			logistics_skill = 1
 		}
-		create_corps_commander = { # Oscar Griswold
+		create_corps_commander = { 
 			name = "Oscar Griswold"
 			picture = "Portrait_USA_Oscar_Griswold.dds"
 			traits = {
@@ -471,7 +398,7 @@
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # Maurice Rose
+		create_corps_commander = { 
 			name = "Maurice Rose"
 			picture = "Portrait_USA_Maurice_Rose.dds"
 			traits = {
@@ -486,7 +413,7 @@
 			logistics_skill = 3
 		}
 	# Admiral(s)
-		create_navy_leader = { # Ernest King
+		create_navy_leader = { 
 			name = "Ernest King"
 			picture = "Portrait_USA_Earnest_King.dds"
 			traits = {
@@ -495,7 +422,7 @@
 			}
 			skill = 5
 		}
-		create_navy_leader = { # Chester W. Nimitz
+		create_navy_leader = { 
 			name = "Chester W. Nimitz"
 			picture = "Portrait_USA_Chester_W_Nimitz.dds"
 			traits = {
@@ -504,7 +431,7 @@
 			}
 			skill = 5
 		}
-		create_navy_leader = { # William Halsey Jr.
+		create_navy_leader = { 
 			name = "William Halsey Jr."
 			picture = "Portrait_USA_William_Halsey_Jr.dds"
 			traits = {
@@ -513,7 +440,7 @@
 			}
 			skill = 4
 		}
-		create_navy_leader = { # Frank Jack Fletcher
+		create_navy_leader = { 
 			name = "Frank Jack Fletcher"
 			picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
 			traits = {
@@ -522,7 +449,7 @@
 			}
 			skill = 3
 		}
-		create_navy_leader = { # Raymond A. Spruance
+		create_navy_leader = { 
 			name = "Raymond A. Spruance"
 			picture = "Portrait_USA_Raymond_A_Spruance.dds"
 			traits = {
@@ -530,7 +457,7 @@
 			}
 			skill = 4
 		}
-		create_navy_leader = { # Harold Rainsford Stark
+		create_navy_leader = { 
 			name = "Harold Rainsford Stark"
 			picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
 			traits = {
@@ -539,7 +466,7 @@
 			}
 			skill = 2
 		}
-		create_navy_leader = { # Arleigh Burke
+		create_navy_leader = { 
 			name = "Arleigh Burke"
 			picture = "Portrait_USA_Arleigh_Burke.dds"
 			traits = {
@@ -548,7 +475,7 @@
 			}
 			skill = 4
 		}
-		create_navy_leader = { # Charles M. Cooke Jr.
+		create_navy_leader = { 
 			name = "Charles M. Cooke Jr."
 			picture = "Portrait_USA_Charles_M_Cooke.dds"
 			traits = {
@@ -557,7 +484,7 @@
 			skill = 2
 		}
 # Variants
-	create_equipment_variant = {
+		create_equipment_variant = {
 		name = "Barracuda Class"
 		type = submarine_1
 		upgrades = {
@@ -629,33 +556,33 @@
 			ship_reliability_upgrade = 1
 		}
 	}
-# Miscellaneous
-	add_ideas = {
-		disarmed_nation
-		free_trade
-		great_depression
-		home_of_the_free
-		undisturbed_isolation
-	}
-	give_guarantee = CAN
-	give_guarantee = MEX
-	give_guarantee = CUB
-	give_guarantee = HAI
-	give_guarantee = DOM
-	give_guarantee = GUA
-	give_guarantee = HON
-	give_guarantee = ELS
-	give_guarantee = NIC
-	give_guarantee = COS
-	give_guarantee = PAN
-	give_guarantee = VEN
-	give_guarantee = COL
-	give_guarantee = ECU
-	give_guarantee = PRU
-	give_guarantee = BRA
-	give_guarantee = BOL
-	give_guarantee = CHL
-	give_guarantee = PAR
-	give_guarantee = ARG
-	give_guarantee = URG
-	set_convoys = 400
+
+add_ideas = {
+	disarmed_nation
+	free_trade
+	great_depression
+	home_of_the_free
+	undisturbed_isolation
+}
+give_guarantee = CAN
+give_guarantee = MEX
+give_guarantee = CUB
+give_guarantee = HAI
+give_guarantee = DOM
+give_guarantee = GUA
+give_guarantee = HON
+give_guarantee = ELS
+give_guarantee = NIC
+give_guarantee = COS
+give_guarantee = PAN
+give_guarantee = VEN
+give_guarantee = COL
+give_guarantee = ECU
+give_guarantee = PRU
+give_guarantee = BRA
+give_guarantee = BOL
+give_guarantee = CHL
+give_guarantee = PAR
+give_guarantee = ARG
+give_guarantee = URG
+set_convoys = 400
