@@ -27,15 +27,15 @@
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 100
 			}
 
 			syncretic = { 
-				popularity = 100
+				popularity = 0
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -44,17 +44,17 @@
 	# Left-Wing
 	# Centre
 	# Right-Wing
-	# Syncretic
 		create_country_leader = {
-			name = "Datong"
-			desc = "MAN_Datong_desc"
-			picture = "Portrait_MAN_Datong.dds"
+			name = "Puyi"
+			desc = "MAN_Puyi_desc"
+			picture = "Portrait_MAN_Puyi.dds"
 			expire = "1967.11.17"
-			ideology = monarchism
+			ideology = nationalism
 			traits = {
 				warrior_code
 			}
 		}
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)

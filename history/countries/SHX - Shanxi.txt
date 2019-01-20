@@ -28,7 +28,7 @@
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 100
 			}
 
 			syncretic = { 
@@ -36,7 +36,7 @@
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -44,17 +44,17 @@
 # Country Leaders
 	# Left-Wing
 	# Centre
+	# Right-Wing
 		create_country_leader = {
 			name = "Yan Xishan"
 			desc = "SHX_Yan_Xishan_desc"
 			picture = "Portrait_SHX_Yan_Xishan.dds"
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = nationalism
 			traits = {
 				#
 			}
 		}
-	# Right-Wing
 	# Syncretic
 # Military Leaders
 	# Field Marshal(s)

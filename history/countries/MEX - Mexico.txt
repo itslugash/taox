@@ -47,11 +47,8 @@
 		elections_allowed = no
 	}
 # Country Leaders
-	# Communism
-	# Socialism
-	# Social Democracy
-	# Liberalism
-	# Centrism
+	# Left-Wing
+	# Centre
 		create_country_leader = {
 			name = "Lázaro Cárdenas"
 			desc = "MEX_Lazaro_Cardenas_desc"
@@ -62,10 +59,8 @@
 				#
 			}
 		}
-	# Conservatism
-	# Nationalism
-	# Reactionary
-	# Fascism
+	# Right-wing
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)

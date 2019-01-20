@@ -45,9 +45,9 @@
 	# Right-Wing
 	# Syncretic
 		create_country_leader = {
-			name = "Prince Demchugdongrub"
-			desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-			picture = "GFX_portrait_men_demchugdongrub"
+			name = "Yondonwangchug"
+			desc = "MEN_Yondonwangchug_desc"
+			picture = "Portrait_MEN_Yondonwangchug.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

@@ -40,7 +40,7 @@
 		}
 		
 		ruling_party = centre
-		last_election = "1936.1.1"
+		last_election = "1932.11.6"
 		election_frequency = 48
 		elections_allowed = no
 	}

@@ -44,7 +44,7 @@
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 100
 			}
 		}
 		

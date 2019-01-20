@@ -48,9 +48,9 @@
 	# Right-Wing
 	# Syncretic
 		create_country_leader = {
-			name = "Juddha Shumsher Jang Bahadur Rana"
-			desc = "NEP_Juddha_Shmusher_Jang_Bahadur_Rana_desc"
-			picture = "NEP_Juddha_Shmusher_Jang_Bahadur_Rana.dds"
+			name = "Tribhuvan"
+			desc = "NEP_Tribhuvan_desc"
+			picture = "Portrait_NEP_Tribhuvan.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

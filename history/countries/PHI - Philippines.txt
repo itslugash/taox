@@ -24,11 +24,11 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 32.01
 			}
 
 			centre = { 
-				popularity = 100
+				popularity = 67.99
 			}
 
 			right-wing = {
@@ -41,12 +41,22 @@
 		}
 		
 		ruling_party = centre
-		last_election = "1936.1.1"
+		last_election = "1935.9.16"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
 	# Left-Wing
+		create_country_leader = {
+			name = "Emilio Aguinaldo"
+			desc = "PHI_Emilio_Aguinaldo_desc"
+			picture = "Portrait_PHI_Emilio_Aguinaldo.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
 	# Centre
 		create_country_leader = {
 			name = "Manuel L. Quezon"

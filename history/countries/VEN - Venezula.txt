@@ -15,7 +15,7 @@
 	# Factions
 	# Puppets
 	# Tech Sharing
-	set_country_flag = monroe_doctrinet
+	set_country_flag = monroe_doctrine
 # Set Politics
 	set_politics = {
 
@@ -25,7 +25,7 @@
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 48.55
 			}
 
 			right-wing = {
@@ -33,12 +33,12 @@
 			}
 
 			syncretic = { 
-				popularity = 100
+				popularity = 51.45
 			}
 		}
 		
 		ruling_party = syncretic
-		last_election = "1936.1.1"
+		last_election = "1931.7.2"
 		election_frequency = 48
 		elections_allowed = no
 	}

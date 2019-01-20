@@ -36,19 +36,19 @@
 			}
 
 			centre = { 
-				popularity = 37.4
+				popularity = 44.9
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 55.1
 			}
 
 			syncretic = { 
-				popularity = 62.6
+				popularity = 0
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1935.5.5"
 		election_frequency = 48
 		elections_allowed = no
@@ -82,7 +82,7 @@
 			desc = "YUG_Milan_Stojadinovic_desc"
 			picture = "Portrait_YUG_Milan_Stojadinovic.dds"
 			expire = "1965.1.1"
-			ideology = nationalism
+			ideology = fascism
 			traits = {
 				#
 			}

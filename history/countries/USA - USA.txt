@@ -51,11 +51,11 @@
 
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 0.61
 			}
 
 			centre = { 
-				popularity = 0
+				popularity = 97.44
 			}
 
 			right-wing = {
@@ -63,23 +63,23 @@
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 1.95
 			}
 		}
 		
-		ruling_party = syncretic
-		last_election = "1936.1.1"
+		ruling_party = centre
+		last_election = "1932.11.8"
 		election_frequency = 48
 		elections_allowed = no
 	}
 # Country Leaders
 	# Left-Wing
 		create_country_leader = {
-			name = "Earl Browder"
-			desc = "USA_Earl_Browder_desc"
-			picture = "Portrait_USA_Earl_Browder.dds"
+			name = "Norman Thomas"
+			desc = "USA_Norman_Thomas_desc"
+			picture = "Portrait_USA_Norman_Thomas.dds"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = socialism
 			traits = {
 				#
 			}
@@ -107,6 +107,16 @@
 			}
 		}
 	# Syncretic
+		create_country_leader = {
+			name = "William Lemke"
+			desc = "USA_William_Lemke_desc"
+			picture = "Portrait_USA_William_Lemke.dds"
+			expire = "1965.1.1"
+			ideology = third_position
+			traits = {
+				#
+			}
+		}
 # Military Leaders
 	# Field Marshal(s)
 		create_field_marshal = {
