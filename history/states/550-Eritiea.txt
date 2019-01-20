@@ -1,19 +1,17 @@
-
-state = {
-	id = 550
-	name = "STATE_550"
+state=
+{
+	id=550
+	name="STATE_550"
 	manpower = 600600
 	
 	state_category = rural
 	
-	history = {
-		owner = ERI
-		add_core_of = ERI
-
+	history=
+	{
+		owner = ITA
 		victory_points = {
 			12766 1
 		}
-
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -22,8 +20,7 @@ state = {
 			}
 		}
 	}
-
-	provinces = {
+	provinces={
 		5017 5047 5091 8043 12723 12766
 	}
 }
