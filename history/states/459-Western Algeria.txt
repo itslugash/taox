@@ -1,18 +1,16 @@
 
-state = {
-	id = 459
-	name = "STATE_459" # Algiers
+state={
+	id=459
+	name="STATE_459" # Algiers
 	manpower = 3089944
-
 	state_category = town
 	
-	resources = {
-		steel = 26 # was: 36
+	resources={
+		steel=26 # was: 36
 	}
 
-	history = {
-		owner = ALG
-		add_core_of = A:G
+	history={
+		owner = FRA
 		
 		victory_points = {
 			1145 5 
@@ -20,7 +18,6 @@ state = {
 		victory_points = {
 			7132 5 
 		}
-		
 		buildings = {
 			infrastructure = 4
 			air_base = 5
@@ -33,7 +30,7 @@ state = {
 		}
 	}
 
-	provinces = {
+	provinces={
 		1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 
 	}
 }
