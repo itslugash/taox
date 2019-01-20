@@ -47,9 +47,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -58,9 +58,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 	}
@@ -69,9 +69,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -81,21 +81,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -118,9 +118,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 		ai_chance = {
@@ -139,9 +139,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 		ai_chance = {
@@ -160,9 +160,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 		ai_chance = {
@@ -182,21 +182,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -243,9 +243,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -254,9 +254,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 
@@ -267,9 +267,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -279,21 +279,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -315,9 +315,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -326,9 +326,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 	}
@@ -337,9 +337,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -349,21 +349,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -382,9 +382,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -393,9 +393,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 	}
@@ -404,9 +404,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -416,21 +416,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -454,9 +454,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 		ai_chance = {
@@ -479,7 +479,7 @@ country_event = {
 				limit = {
 					FROM = {
 						original_tag = GER
-						has_government = democratic
+						has_government = centre
 						has_completed_focus = GER_pool_technical_know_how
 					}
 					NOT = { has_idea = GER_pool_technical_know_how }
@@ -494,9 +494,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 		ai_chance = {
@@ -523,9 +523,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 		ai_chance = {
@@ -553,21 +553,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -593,7 +593,7 @@ country_event = {
 				limit = {
 					FROM = {
 						original_tag = GER
-						has_government = democratic
+						has_government = centre
 						has_completed_focus = GER_pool_technical_know_how
 					}
 					NOT = { has_idea = GER_pool_technical_know_how }
@@ -640,9 +640,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -651,9 +651,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 
@@ -664,9 +664,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -676,21 +676,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -712,9 +712,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_government = centre
 				}
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -723,9 +723,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = right-wing
 				}
-				has_government = fascism
+				has_government = right-wing
 			}
 		}
 	}
@@ -734,9 +734,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = left-wing
 				}
-				has_government = communism
+				has_government = left-wing
 			}
 		}
 	}
@@ -746,21 +746,21 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_government = centre
 					}
-					has_government = democratic
+					has_government = centre
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = right-wing
 					}
-					has_government = fascism
+					has_government = right-wing
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = left-wing
 					}
-					has_government = communism
+					has_government = left-wing
 				}
 			}
 		}
@@ -1075,10 +1075,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = fascism }
-				NOT = { has_government = fascism }
-				fascism > 0.1
-				NOT = { fascism > 0.2 }
+				FROM = { has_government = right-wing }
+				NOT = { has_government = right-wing }
+				right-wing > 0.1
+				NOT = { right-wing > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1086,10 +1086,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = fascism }
-				NOT = { has_government = fascism }
-				fascism > 0.2
-				NOT = { fascism > 0.3 }
+				FROM = { has_government = right-wing }
+				NOT = { has_government = right-wing }
+				right-wing > 0.2
+				NOT = { right-wing > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1097,10 +1097,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = fascism }
-				NOT = { has_government = fascism }
-				fascism > 0.3
-				NOT = { fascism > 0.4 }
+				FROM = { has_government = right-wing }
+				NOT = { has_government = right-wing }
+				right-wing > 0.3
+				NOT = { right-wing > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1108,9 +1108,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = fascism }
-				NOT = { has_government = fascism }
-				fascism > 0.4
+				FROM = { has_government = right-wing }
+				NOT = { has_government = right-wing }
+				right-wing > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1118,9 +1118,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				communism > 0.1
-				NOT = { communism > 0.2 }
+				FROM = { has_government = left-wing }
+				left-wing > 0.1
+				NOT = { left-wing > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -1128,10 +1128,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.2
-				NOT = { communism > 0.3 }
+				FROM = { has_government = left-wing }
+				NOT = { has_government = left-wing }
+				left-wing > 0.2
+				NOT = { left-wing > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -1139,10 +1139,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.3
-				NOT = { communism > 0.4 }
+				FROM = { has_government = left-wing }
+				NOT = { has_government = left-wing }
+				left-wing > 0.3
+				NOT = { left-wing > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -1150,9 +1150,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.4
+				FROM = { has_government = left-wing }
+				NOT = { has_government = left-wing }
+				left-wing > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -1160,10 +1160,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.1
-				NOT = { democratic > 0.2 }
+				FROM = { has_government = centre }
+				NOT = { has_government = centre }
+				centre > 0.1
+				NOT = { centre > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_democratic_tt
@@ -1171,10 +1171,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.2
-				NOT = { democratic > 0.3 }
+				FROM = { has_government = centre }
+				NOT = { has_government = centre }
+				centre > 0.2
+				NOT = { centre > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_democratic_tt
@@ -1182,10 +1182,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.3
-				NOT = { democratic > 0.4 }
+				FROM = { has_government = centre }
+				NOT = { has_government = centre }
+				centre > 0.3
+				NOT = { centre > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_democratic_tt
@@ -1193,9 +1193,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.4
+				FROM = { has_government = centre }
+				NOT = { has_government = centre }
+				centre > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_democratic_tt

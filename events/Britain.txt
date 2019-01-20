@@ -234,7 +234,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_war = yes
-		has_government = democratic
+		has_government = centre
 		NOT = {
 			has_completed_focus = uk_scandinavian_focus
 		}
@@ -284,7 +284,7 @@ country_event = {
 
 	trigger = {
 		tag = ENG
-		has_government = democratic
+		has_government = centre
 		date > 1940.9.11
 		NOT = { has_country_flag = chamberlain_resigned }
 	}	
@@ -344,7 +344,7 @@ country_event = {
 				limit = {
 					NOT = { has_war_with = ENG }
 					is_in_faction = no
-					has_government = democratic
+					has_government = centre
 					is_puppet = no
 					OR = {
 						capital_scope = {
@@ -605,7 +605,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_idea = ENG_george_vi
-		has_government = fascism
+		has_government = right-wing
 	}
 	
 	fire_only_once = yes
@@ -628,7 +628,7 @@ country_event = {
 			desc = "POLITICS_EDWARD_EDWARD_DESC"
 			picture = "Portrait_Britain_Edward_VIII.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = reactionary
 			traits = {
 				inexperienced_imperialist				
 			}
@@ -683,7 +683,7 @@ country_event = {
 		}
 		RAJ = {
 			is_puppet_of = ENG
-			fascism > 0.3
+			right-wing > 0.3
 			has_civil_war = no
 		}
 	}
@@ -706,7 +706,7 @@ country_event = {
 			limit = {
 				NOT = {
 					RAJ = {
-						has_government = fascism
+						has_government = right-wing
 					}
 				}
 			}
@@ -718,7 +718,7 @@ country_event = {
 		if = {
 			limit = {
 				RAJ = {
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 			end_puppet = RAJ
@@ -767,7 +767,7 @@ country_event = {
  
     trigger = {
         original_tag = ENG
-        has_government = democratic
+        has_government = centre
         date > 1937.5.27
         has_start_date < 1936.01.02
         NOT = { has_country_flag = baldwin_resigned }
@@ -807,13 +807,13 @@ country_event = {
 		ai_chance = {
 			factor = 100
 			modifier = {
-				has_government = fascism
+				has_government = right-wing
 				factor = 0
 			}
 		}
 		name = britain.23.a
 		start_civil_war = {
-				ideology = fascism
+				ideology = right-wing
 				size = 0.5
 		}
 	}
@@ -821,14 +821,14 @@ country_event = {
 	option = {
 		name = britain.23.b
 		start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = right-wing
+				ideology = syncretic
 				size = 0.5
 		}
 		random_other_country = {
 			limit = {
 				original_tag = RAJ
-				has_government = neutrality
+				has_government = syncretic
 				is_puppet_of = ENG
 			}
 			set_cosmetic_tag = RAJ_UK

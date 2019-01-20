@@ -39,7 +39,7 @@ country_event = {
 		days = 360 
 		modifier = {
 			factor = 2
-			NOT = { has_government = democratic }
+			NOT = { has_government = centre }
 		}
 		modifier = {
 			factor = 0.75
@@ -785,17 +785,17 @@ country_event = {
 	option = { 
 		name = stability.33.a
 		if = {
-			limit = { has_government = democratic }
-			start_civil_war = { ideology = communism size = 0.35 }
+			limit = { has_government = centre }
+			start_civil_war = { ideology = left-wing size = 0.35 }
 		}
 		if = {
 			limit = { 
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = centre
+					has_government = left-wing
 				} 
 			}
-			start_civil_war = { ideology = democratic size = 0.45 }
+			start_civil_war = { ideology = centre size = 0.45 }
 		}
 		clr_country_flag = crisis_in_progress
 		clr_country_flag = crisis_solution_in_progress

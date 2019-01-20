@@ -1228,7 +1228,7 @@ country_event = {
 
 	trigger = {
 		original_tag = CHI
-		has_government = communism
+		has_government = left-wing
 		Not = {
 			has_dlc = "Waking the Tiger"
 		}
@@ -1238,7 +1238,7 @@ country_event = {
 		}
 		PRC = {
 			exists = yes
-			has_government = communism
+			has_government = left-wing
 		}
 	}
 
@@ -1294,22 +1294,22 @@ country_event = {
 
 	trigger = {
 		original_tag = CHI
-		has_government = neutrality
+		has_government = syncretic
 		NOT = {
 			has_dlc = "Waking the Tiger"
 		}
 		PRC = {
 			exists = yes
-			has_government = communism
+			has_government = left-wing
 		}
-		communism > 0.3
+		left-wing > 0.3
 	}
 
 	mean_time_to_happen = {
 		days = 270
 		modifier = {
 			factor = 0.5
-			communism > 0.5
+			left-wing > 0.5
 		}
 	}
 
@@ -1333,7 +1333,7 @@ country_event = {
 			country_event = { id = china.203 days = 1 }
 		}
 		add_popularity = {
-			ideology = communism
+			ideology = left-wing
 			popularity = -0.15
 		}
 	}
@@ -1353,7 +1353,7 @@ country_event = {
 		effect_tooltip = {
 			CHI = {
 				add_popularity = {
-					ideology = communism
+					ideology = left-wing
 					popularity = -0.15
 				}		
 			}

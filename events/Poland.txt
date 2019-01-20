@@ -489,7 +489,7 @@ country_event = {
 	trigger = {
 		tag = POL
 		has_completed_focus = POL_artillery_modernisation
-		has_government = neutrality
+		has_government = syncretic
 		has_war_with = ITA
 		NOT = { is_in_faction_with = SOV }
 		417 = {

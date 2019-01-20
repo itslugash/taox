@@ -327,7 +327,7 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 
 	trigger = {
-		SOV = { has_government = communism }
+		SOV = { has_government = left-wing }
 		NOT = { has_country_flag = baltic.5_fired }
 		OR = {
 			tag = LIT
@@ -335,7 +335,7 @@ country_event = {
 			tag = EST
 			tag = LAT
 		} 
-		has_government = communism
+		has_government = left-wing
 	}
 
 	immediate = {

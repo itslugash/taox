@@ -14,7 +14,7 @@ country_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
-				has_government = fascism
+				has_government = right-wing
 				factor = 0
 			}
 		}
@@ -107,12 +107,12 @@ country_event = {
 			factor = 85
 		}
 		name = wtt_britain.27.a
-		add_popularity = { ideology = democratic popularity = -0.05 }
+		add_popularity = { ideology = centre popularity = -0.05 }
 		add_war_support = 0.05
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = fascism
+				has_government = right-wing
 			}
 			add_war_support = 0.05
 			add_opinion_modifier = {
@@ -122,15 +122,15 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = { has_government = fascism }
+				GER = { has_government = right-wing }
 			}
-			GER = { add_popularity = { ideology = fascism popularity = 0.05 } }
+			GER = { add_popularity = { ideology = right-wing popularity = 0.05 } }
 		}
 		if = {
 			limit = {
-				GER = { has_government = neutrality }
+				GER = { has_government = syncretic }
 			}
-			GER = { add_popularity = { ideology = neutrality popularity = 0.05 } }
+			GER = { add_popularity = { ideology = syncretic popularity = 0.05 } }
 		}
 		USA = { set_country_flag = mers_el_kebir_raid }
 		hidden_effect = {
@@ -141,7 +141,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = fascism
+						has_government = right-wing
 					}
 					destroy_ships = {
 						type = destroyer
@@ -157,7 +157,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = fascism
+						has_government = right-wing
 					}
 					destroy_ships = {
 						type = destroyer
@@ -173,7 +173,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = fascism
+						has_government = right-wing
 					}
 					destroy_ships = {
 						type = destroyer

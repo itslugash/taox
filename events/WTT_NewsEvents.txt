@@ -23,14 +23,14 @@ news_event = {
 		name = wtt_news.1.b
 		trigger = { 
 			NOT = { original_tag = GER }
-			has_government = fascism
+			has_government = right-wing
 		}
 	}
 	option = {
 		name = wtt_news.1.c
 		trigger = { 
 			NOT = { original_tag = GER }
-			NOT = { has_government = fascism }
+			NOT = { has_government = right-wing }
 		}
 	}
 }
@@ -941,7 +941,7 @@ news_event = {
 				original_tag = ENG
 				AND = {
 					original_tag = FRA
-					has_government = democratic
+					has_government = centre
 				}
 			}
 		}
@@ -955,7 +955,7 @@ news_event = {
 				original_tag = ENG
 				AND = {
 					original_tag = FRA
-					has_government = democratic
+					has_government = centre
 				}
 			}
 		}
@@ -1017,7 +1017,7 @@ news_event = {
 				original_tag = JAP
 				AND = {
 					original_tag = MAN
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 		}
@@ -1057,7 +1057,7 @@ news_event = {
 				original_tag = RAJ
 				AND = {
 					original_tag = MAN
-					has_government = fascism
+					has_government = right-wing
 				}
 			}
 		}

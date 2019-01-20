@@ -15,7 +15,7 @@ country_event = {
 	
 	trigger = {
 		tag = TUR
-		has_government = neutrality
+		has_government = syncretic
 		date > 1938.11.1
 		has_start_date < 1936.01.02
 	}	

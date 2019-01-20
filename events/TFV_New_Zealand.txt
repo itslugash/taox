@@ -18,7 +18,7 @@ country_event = {
 		ai_chance = {
 			base = 90
 			modifier = { 
-				NZL = { NOT = { has_government = communism } } 
+				NZL = { NOT = { has_government = left_wing } } 
 				factor = 0
 				}
 		}
@@ -32,7 +32,7 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = { 
-				NZL = { NOT = { has_government = communism } } 
+				NZL = { NOT = { has_government = left_wing } } 
 				add = 100
 				}
 		}

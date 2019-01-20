@@ -184,7 +184,7 @@ country_event = {
 		GER = {
 			OR = {
 				is_faction_leader = yes
-				has_government = neutrality
+				has_government = syncretic
 			}
 		}
 		has_civil_war = no
@@ -366,7 +366,7 @@ country_event = {
 			factor = 50
 		}
 		trigger = {
-			has_government = fascism
+			has_government = right-wing
 		}
 		#Set same cosmetic tag they would get on capitulation
 		FRA = {
@@ -586,7 +586,7 @@ country_event = {
 					}
 			}
 			start_civil_war = {
-				ideology = fascism
+				ideology = right-wing
 				size = 0.9
 				capital = 26
 				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 }
@@ -618,22 +618,22 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = fascism }
+			limit = { original_tag = FRA has_government = right-wing }
 			ROOT = { puppet = PREV }
 			set_capital = 26
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = right-wing
 				elections_allowed = no
 				parties = {
-					democratic = { 
+					centre = { 
 						popularity = 22
 					}
 
-					fascism = {
+					right-wing = {
 						popularity = 76
 					}
 					
-					communism = {
+					left-wing = {
 						popularity = 2
 					}
 				}
@@ -657,7 +657,7 @@ country_event = {
 			factor = 50
 		}
 		trigger = {
-			has_government = neutrality
+			has_government = syncretic
 		}
 		#Set same cosmetic tag they would get on capitulation
 		FRA = {
@@ -877,7 +877,7 @@ country_event = {
 					}
 			}
 			start_civil_war = {
-				ideology = neutrality
+				ideology = syncretic
 				size = 0.5
 				capital = 26
 				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 }
@@ -909,25 +909,25 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = neutrality }
+			limit = { original_tag = FRA has_government = syncretic }
 			ROOT = { puppet = PREV }
 			set_capital = 26
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = syncretic
 				elections_allowed = no
 				parties = {
-					democratic = { 
+					centre = { 
 						popularity = 22
 					}
 
-					neutrality = {
+					syncretic = {
 						popularity = 60
 					}
-					fascism = {
+					right-wing = {
 						popularity = 16
 					}
 					
-					communism = {
+					left-wing = {
 						popularity = 2
 					}
 				}
@@ -1089,7 +1089,7 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 	
 	trigger = {
-		NOT = { has_government = communism }
+		NOT = { has_government = left-wing }
 		tag = FRA
 		date > 1936.4.1
 		date < 1938.1.1
@@ -1120,7 +1120,7 @@ country_event = {
 			days = 365
 		}
 		add_popularity = {
-			ideology = communism
+			ideology = left-wing
 			popularity = 0.07
 		}		
 	}
@@ -1133,7 +1133,7 @@ country_event = {
 	picture = GFX_report_event_airplane_factory
 	
 	trigger = {
-		NOT = { has_government = communism }
+		NOT = { has_government = left-wing }
 		has_idea = FRA_matignon_agreements
 		date > 1936.7.1
 	}
@@ -1154,12 +1154,12 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				communism > 0.4
+				left-wing > 0.4
 			}
 		}
 		remove_ideas =  FRA_matignon_agreements
 		add_popularity = {
-			ideology = communism
+			ideology = left-wing
 			popularity = 0.05
 		}
 	}	
@@ -1196,9 +1196,9 @@ country_event = {
 #
 #	trigger = {
 #		tag = FRA
-#		SOV = { has_government = communism }
-#		has_government = democratic
-#		communism < 0.5
+#		SOV = { has_government = left-wing }
+#		has_government = centre
+#		left-wing < 0.5
 #		has_global_flag = sov_yes_pact
 #	}
 #
@@ -1211,7 +1211,7 @@ country_event = {
 #		add_political_power = -20
 #		name = france.24.a
 #		add_popularity = {
-#			ideology = communism
+#			ideology = left-wing
 #			popularity = -0.3
 #		}
 #		add_ideas = FRA_communism_banned
@@ -1223,7 +1223,7 @@ country_event = {
 #		
 #		every_other_country = {
 #			limit = { 
-#				has_government = communism
+#				has_government = left-wing
 #			}
 #			add_opinion_modifier = {
 #				target = FRA
@@ -1485,7 +1485,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = FRA
-					has_government = democratic
+					has_government = centre
 				}
 				if = {
 					limit = { ROOT = { owns_state = 554 } }
@@ -1560,7 +1560,7 @@ country_event = {
  
     trigger = {
         original_tag = FRA
-        has_government = democratic
+        has_government = centre
         has_global_flag = fall_of_france
         NOT = { has_country_flag = france_de_gaulle }
     } 
@@ -1598,7 +1598,7 @@ country_event = {
     	random_other_country = {
 			limit = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = right-wing
 			}
 			FRA = {
 				add_ai_strategy = {
@@ -1657,23 +1657,23 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = centre
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = democratic
+						ruling_party = centre
 						elections_allowed = yes
 						parties = {
-							democratic = { 
+							centre = { 
 								popularity = 60
 							}
-							neutrality = {
+							syncretic = {
 								popularity = 0
 							}
-							fascism = {
+							right-wing = {
 								popularity = 20
 							}
-							communism = {
+							left-wing = {
 								popularity = 20
 							}
 						}
@@ -1682,23 +1682,23 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = right-wing
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = fascism
+						ruling_party = right-wing
 						elections_allowed = no
 						parties = {
-							democratic = { 
+							centre = { 
 								popularity = 20
 							}
-							neutrality = {
+							syncretic = {
 								popularity = 0
 							}
-							fascism = {
+							right-wing = {
 								popularity = 60
 							}
-							communism = {
+							left-wing = {
 								popularity = 20
 							}
 						}
@@ -1707,23 +1707,23 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = communism
+					has_government = left-wing
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = communism
+						ruling_party = left-wing
 						elections_allowed = no
 						parties = {
-							democratic = { 
+							centre = { 
 								popularity = 20
 							}
-							neutrality = {
+							syncretic = {
 								popularity = 0
 							}
-							fascism = {
+							right-wing = {
 								popularity = 20
 							}
-							communism = {
+							left-wing = {
 								popularity = 60
 							}
 						}
@@ -1732,23 +1732,23 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = syncretic
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = neutrality
+						ruling_party = syncretic
 						elections_allowed = no
 						parties = {
-							democratic = { 
+							centre = { 
 								popularity = 15
 							}
-							neutrality = {
+							syncretic = {
 								popularity = 55
 							}
-							fascism = {
+							right-wing = {
 								popularity = 15
 							}
-							communism = {
+							left-wing = {
 								popularity = 15
 							}
 						}
@@ -1813,7 +1813,7 @@ country_event = {
 			
 			modifier = {
 				factor = 2
-				has_government = democratic
+				has_government = centre
 			}
 		}
 	}
@@ -1854,7 +1854,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = fascism
+				has_government = right-wing
 			}
 			modifier = {
 				factor = 0.5

@@ -804,7 +804,7 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
-				has_government = democratic
+				has_government = centre
 				factor = 2
 			}
 			modifier = {

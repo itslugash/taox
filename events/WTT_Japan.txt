@@ -659,15 +659,15 @@ country_event = {
 	
 	option = {
 		name = wtt_japan.108.a
-		set_politics = { ruling_party = neutrality elections_allowed = no }
-		add_popularity = { ideology = neutrality popularity = 0.9 }
+		set_politics = { ruling_party = syncretic elections_allowed = no }
+		add_popularity = { ideology = syncretic popularity = 0.9 }
 		add_timed_idea = { idea = JAP_military_purges days = 90 }
 		create_country_leader = {
 			name = "Hirohito"
 			desc = "POLITICS_Hirohito_DESC"
 			picture = "Portrait_Japan_Hirohito.dds"
 			expire = "1989.1.1"
-			ideology = despotism
+			ideology = monarchism
 			traits = {
 				warrior_code
 				emperor_showa
@@ -700,7 +700,7 @@ country_event = {
 			random_country = {
 				limit = {
 					original_tag = ITA
-					has_government = fascism
+					has_government = right-wing
 				}
 				save_event_target_as = ITA_fascism
 			}
@@ -881,10 +881,10 @@ country_event = {
 			}
 			MAN = { remove_ideas = MAN_kwantung_veto }
 		}
-		add_popularity = { ideology = democratic popularity = 0.1 }
+		add_popularity = { ideology = centre popularity = 0.1 }
 		start_civil_war = {
-			ruling_party = democratic
-			ideology = fascism
+			ruling_party = centre
+			ideology = right-wing
 			size = 0.5
 		}
 		if = {

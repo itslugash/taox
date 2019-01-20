@@ -173,7 +173,7 @@ country_event = {
 		tag = event_target:WTT_current_china_leader
 		any_country = {
 			has_completed_focus = PRC_infiltration
-			has_government = communism
+			has_government = left-wing
 		}
 	}
 	
@@ -487,7 +487,7 @@ country_event = {
 		}
 		any_country = {
 			has_completed_focus = PRC_anti_japanese_expedition
-			has_government = communism
+			has_government = left-wing
 		}		
 	}
 	
@@ -840,7 +840,7 @@ country_event = {
 			modifier = {
 				JAP = {
 					NOT = {
-						has_government = fascism #Japan doesn't seem interested in China
+						has_government = right-wing #Japan doesn't seem interested in China
 					}
 				}
 				factor = 2
@@ -997,7 +997,7 @@ country_event = {
 					desc = "POLITICS_WANG_JINGWEI_DESC"
 					picture = "GFX_portrait_chi_wang_jingwei"
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = syncretic_independent
 					traits = {
 						#
 					}
@@ -1104,7 +1104,7 @@ country_event = {
 					desc = "POLITICS_WANG_JINGWEI_DESC"
 					picture = "GFX_portrait_chi_wang_jingwei"
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = syncretic_independent
 					traits = {
 						#
 					}
@@ -1299,7 +1299,7 @@ country_event = {
 			modifier = {
 				JAP = {
 					NOT = {
-						has_government = fascism
+						has_government = right-wing
 					}
 				}
 				factor = 0.5
@@ -1350,8 +1350,8 @@ country_event = {
 country_event = {
 	id = wtt_china_shared.11
 	title = wtt_china_shared.11.t
-	desc = { text = wtt_china_shared.11.desc_a trigger = { FROM = { has_government = communism } } }
-	desc = { text = wtt_china_shared.11.desc_b trigger = { NOT = { FROM = { has_government = communism } } } }
+	desc = { text = wtt_china_shared.11.desc_a trigger = { FROM = { has_government = left-wing } } }
+	desc = { text = wtt_china_shared.11.desc_b trigger = { NOT = { FROM = { has_government = left-wing } } } }
 	picture = GFX_report_event_china_soviet_volunteers
 
 	is_triggered_only = yes
