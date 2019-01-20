@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
@@ -23,7 +23,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				home_of_the_free
 				great_depression
@@ -37,7 +37,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
@@ -51,7 +51,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = right-wing
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				sour_loser
@@ -66,7 +66,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = right-wing
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
 				sour_loser
@@ -81,7 +81,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = right-wing
 			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
@@ -94,7 +94,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = right-wing
 			ideas = {
 				state_shintoism
 				JAP_zaibatsus
@@ -108,7 +108,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = left-wing
 			ideas = {
 				trotskyite_plot
 				home_of_revolution
@@ -129,7 +129,7 @@ bookmarks = {
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = syncretic
 			ideas = {
 				
 			}
@@ -142,7 +142,7 @@ bookmarks = {
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				CAN_great_depression_1
 				CAN_conscription_crisis
@@ -156,7 +156,7 @@ bookmarks = {
 		"AST"={
 			minor = yes
 			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				AST_great_depression_1
 			}
@@ -169,7 +169,7 @@ bookmarks = {
 		"NZL"={
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				
 			}
@@ -182,7 +182,7 @@ bookmarks = {
 		"SAF"={
 			minor = yes
 			history = "SAF_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				SAF_ossewabrandwag
 				SAF_history_of_segregation
@@ -196,7 +196,7 @@ bookmarks = {
 		"RAJ"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = syncretic
 			ideas = {
 				RAJ_agrarian_society
 				RAJ_princely_states
@@ -210,7 +210,7 @@ bookmarks = {
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = centre
 			ideas = {
 				CZE_skoda_works
 				CZE_divided_nation
@@ -225,7 +225,7 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = right-wing
 			ideas = {
 				HUN_treaty_of_triannon
 			}
@@ -239,7 +239,7 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = syncretic
 			ideas = {
 				ROM_king_carol_ii_hedonist
 				neutrality_idea
@@ -254,7 +254,7 @@ bookmarks = {
 		"YUG"={
 			minor = yes
 			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = syncretic
 			ideas = {
 				anti_german_military
 				YUG_idea_croatian_opposition
@@ -269,7 +269,7 @@ bookmarks = {
 		"CHI"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = syncretic
 			ideas = {
 				CHI_army_corruption_1
 				CHI_hyper_inflation_1
@@ -284,7 +284,7 @@ bookmarks = {
 		"PRC"={
 			minor = yes
 			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = left-wing
 			ideas = {
 				PRC_the_long_march_1
 				PRC_low_popular_support_3
@@ -299,7 +299,7 @@ bookmarks = {
 		"MAN"={
 			minor = yes
 			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = right-wing
 			ideas = {
 				MAN_banditry
 				MAN_kwantung_veto
@@ -315,7 +315,7 @@ bookmarks = {
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = syncretic
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -329,7 +329,7 @@ bookmarks = {
 		"YUN"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = syncretic
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -343,7 +343,7 @@ bookmarks = {
 		"SHX"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = syncretic
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -357,7 +357,7 @@ bookmarks = {
 		"XSM"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = syncretic
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -371,7 +371,7 @@ bookmarks = {
 		"SIK"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = syncretic
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
