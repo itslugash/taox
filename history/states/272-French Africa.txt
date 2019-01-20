@@ -1,23 +1,19 @@
 
-state = {
-	id = 272
-	name = "STATE_272"
+state={
+	id=272
+	name="STATE_272"
 	manpower = 1638000
+	resources={
+		steel=3 # was: 4
+	}
 	
 	state_category = pastoral
 
-	resources = {
-		steel = 3 # was: 4
-	}
-
-	history = {
-		owner = WAF
-		add_core_of = WAF
-
+	history={
+		owner = FRA
 		victory_points = {
 			4948 5 
 		}
-
 		buildings = {
 			infrastructure = 3
 			air_base = 4
@@ -27,7 +23,7 @@ state = {
 		}
 	}
 
-	provinces = {
+	provinces={
 		2100 4948 7972 8015 12710 12834 
 	}
 }
