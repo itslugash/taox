@@ -78,7 +78,7 @@
 			desc = "HUN_Miklos_Horthy_desc"
 			picture = "Portrait_HUN_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = nationalism
+			ideology = fascism
 			traits = {
 				#
 			}

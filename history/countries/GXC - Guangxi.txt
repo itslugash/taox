@@ -29,7 +29,7 @@
 			}
 
 			right-wing = {
-				popularity = 0
+				popularity = 100
 			}
 
 			syncretic = { 
@@ -37,7 +37,7 @@
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -56,6 +56,16 @@
 			}
 		}
 	# Right-Wing
+		create_country_leader = {
+			name = "Li Zongren"
+			desc = "GXC_Li_Zongren_desc"
+			picture = "Portrait_GXC_Li_Zongren.dds"
+			expire = "1965.1.1"
+			ideology = nationalism
+			traits = {
+				#
+			}
+		}
 	# Syncretic
 # Military Leaders
 	# Field Marshal(s)

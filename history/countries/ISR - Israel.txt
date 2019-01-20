@@ -18,15 +18,15 @@
 
 		parties = {
 			left-wing = {
-				popularity = 46.4
+				popularity = 51.6
 			}
 
 			centre = { 
-				popularity = 37.3
+				popularity = 32.1
 			}
 
 			right-wing = {
-				popularity = 16.3	
+				popularity = 16.3
 			}
 
 			syncretic = { 
@@ -41,6 +41,16 @@
 	}
 # Country Leaders
 	# Left-Wing
+		create_country_leader = {
+			name = "David Ben-Gurion"
+			desc = "ISR_David_Ben-Gurion_desc"
+			picture = "Portrait_ISR_David_Ben-Gurion-Hashimi.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
 	# Centre
 	# Right-Wing
 	# Syncretic

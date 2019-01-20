@@ -47,19 +47,19 @@
 
 		parties = {
 			left-wing = {
-				popularity = 50
+				popularity = 0
 			}
 
 			centre = { 
-				popularity = 35
+				popularity = 0
 			}
 
 			right-wing = {
-				popularity = 15
+				popularity = 0
 			}
 
 			syncretic = { 
-				popularity = 0
+				popularity = 100
 			}
 		}
 		
