@@ -100,10 +100,10 @@
     ALB_centre_party:0 "Republicans"
     ALB_centre_party_desc:0 "Democratic State"
 
-    ALB_right-wing_party:0 "Ultranationalists"
+    ALB_right-wing_party:0 "Nationalists"
     ALB_right-wing_party_desc:0 "Authoritarian State"
 
-    ALB_syncretic_party:0 "Zogists"
+    ALB_syncretic_party:0 "House of Zogu"
     ALB_syncretic_party_desc:0 "Authoritarian State"
   # ARG - Argentina
     ARG_left-wing_party:0 "Partido Socialista"
