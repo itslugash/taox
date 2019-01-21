@@ -49,7 +49,7 @@
 		create_country_leader = {
 			name = "Mohammed Zahir Shah"
 			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_AFG_Mohammed_Zahir_Shah.dds"
+			picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {
