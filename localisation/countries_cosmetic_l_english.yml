@@ -1,168 +1,30 @@
 ﻿l_english:
+# A
+# B
+# C
+# D
 # E
-  # ENG - United Kingdom
-    ENG_AST_autonomy_dominion:0 "Dominion of Australia"
-    ENG_AST_autonomy_dominion_DEF:0 "Australia"
-    ENG_AST_autonomy_dominion_ADJ:0 "Australian"
-
-    ENG_BOT_autonomy_colony:0 "Bechuanaland Protectorate"
-    ENG_BOT_autonomy_colony_DEF:0 "Bechuanaland"
-    ENG_BOT_autonomy_colony_ADJ:0 "Batswana"
 # F
-  # FRA - France
-    FRA_ALG_autonomy_puppet:0 "Algérie"
-    FRA_ALG_autonomy_puppet_DEF:0 "Algérie"
-    FRA_ALG_autonomy_puppet_ADJ:0 "French Algerian"
+# G
+# H
+# I
+# J
+# K
+# L
+# M
+# N
+# O
 # P
-  # POR - Portugal
-    POR_ANG_autonomy_colony:0 "Portuguese West Africa"
-    POR_ANG_autonomy_colony_DEF:0 "Portuguese West Africa"
-    POR_ANG_autonomy_colony_ADJ:0 "Portuguese West African"
-
-BLZ_ENG_autonomy_colony:0 "British Honduras"
-BLZ_ENG_autonomy_colony_DEF:0 "British Honduras"
-BLZ_ENG_autonomy_colony_ADJ:0 "British Honduran"
-
-BOT_ENG_autonomy_colony:0 "Bechuanaland Protectorate"
-BOT_ENG_autonomy_colony_DEF:0 "British Bechuanaland"
-BOT_ENG_autonomy_colony_ADJ:0 "British Botswanan"
-
-CAN_ENG_autonomy_dominion:0 "Dominion of Canada"
-CAN_ENG_autonomy_dominion_DEF:0 "Canada"
-CAN_ENG_autonomy_dominion_ADJ:0 "Canadian"
-
-COG_BEL_autonomy_colony:0 "Belgian Congo"
-COG_BEL_autonomy_colony_DEF:0 "Belgian Congo"
-COG_BEL_autonomy_colony_ADJ:0 "Belgian Congolese"
-
-DJI_FRA_autonomy_colony:0 "French Coast of the Somalis"
-DJI_FRA_autonomy_colony_DEF:0 "French Somaliland"
-DJI_FRA_autonomy_colony_ADJ:0 "French Somali"
-
-EAF_FRA_autonomy_colony:0 "French Equatorial Africa"
-EAF_FRA_autonomy_colony_DEF:0 "French Equatorial Africa"
-EAF_FRA_autonomy_colony_ADJ:0 "French Equatorial African"
-
-EGY_ENG_autonomy_puppet:0 "Kingdom of Egypt"
-EGY_ENG_autonomy_puppet_DEF:0 "British Egypt"
-EGY_ENG_autonomy_puppet_ADJ:0 "British Egyptian"
-
-EHB_JAP_autonomy_puppet:0 "East Hebei Autonomous Council"
-EHB_JAP_autonomy_puppet_DEF:0 "East Hebei"
-EHB_JAP_autonomy_puppet_ADJ:0 "Japanese East Hebei"
-
-ERI_ITA_autonomy_colony:0 "Italian Eritrea"
-ERI_ITA_autonomy_colony_DEF:0 "Italian Eritrea"
-ERI_ITA_autonomy_colony_ADJ:0 "Italian Eritrean"
-
-GHA_ENG_autonomy_colony:0 "Colony of the Gold Coast"
-GHA_ENG_autonomy_colony_DEF:0 "British Ghana"
-GHA_ENG_autonomy_colony_ADJ:0 "British Ghanaian"
-
-GMB_ENG_autonomy_colony:0 "Gambia Colony and Protectorate"
-GMB_ENG_autonomy_colony_DEF:0 "the Gambia"
-GMB_ENG_autonomy_colony_ADJ:0 "British Gambian"
-
-GNB_POR_autonomy_colony:0 "Portuguese Guinea"
-GNB_POR_autonomy_colony_DEF:0 "Portuguese Guinea"
-GNB_POR_autonomy_colony_ADJ:0 "Portuguese Guinean"
-
-INC_FRA_autonomy_colony:0 "Indochinese Union"
-INC_FRA_autonomy_colony_DEF:0 "French Indochina"
-INC_FRA_autonomy_colony_ADJ:0 "French Indochinese"
-
-JOR_ENG_autonomy_dominion:0 "Emirate of Transjordan"
-JOR_ENG_autonomy_dominion_DEF:0 "Transjordan"
-JOR_ENG_autonomy_dominion_ADJ:0 "Transjordanian"
-
-KEN_ENG_autonomy_colony:0 "Colony and Protectorate of Kenya"
-KEN_ENG_autonomy_colony_DEF:0 "British Kenya"
-KEN_ENG_autonomy_colony_ADJ:0 "British Kenyan"
-
-KOR_JAP_autonomy_colony:0 "Japanese Korea"
-KOR_JAP_autonomy_colony_DEF:0 "Japanese Korea"
-KOR_JAP_autonomy_colony_ADJ:0 "Japanese Korean"
-
-LEB_FRA_autonomy_dominion:0 "Lebanese Republic"
-LEB_FRA_autonomy_dominion_DEF:0 "Lebanon"
-LEB_FRA_autonomy_dominion_ADJ:0 "Lebanese"
-
-LBA_ITA_autonomy_colony:0 "Italian Libya"
-LBA_ITA_autonomy_colony_DEF:0 "Italian Libya"
-LBA_ITA_autonomy_colony_ADJ:0 "Italian Libyan"
-
-MAD_FRA_autonomy_colony:0 "Colony of Madagascar and Dependencies"
-MAD_FRA_autonomy_colony_DEF:0 "French Madagascar"
-MAD_FRA_autonomy_colony_ADJ:0 "French Malagsy"
-
-MAN_JAP_autonomy_puppet:0 "Emppire of Great Manchuria"
-MAN_JAP_autonomy_puppet_DEF:0 "Japanese Manchuria"
-MAN_JAP_autonomy_puppet_ADJ:0 "Japanese Manchurian"
-
-MAR_FRA_autonomy_puppet:0 "French Protectorate in Morocco"
-MAR_FRA_autonomy_puppet_DEF:0 "French Morocco"
-MAR_FRA_autonomy_puppet_ADJ:0 "French Moroccan"
-
-MZB_POR_autonomy_colony:0 "Portuguese East Africa"
-MZB_POR_autonomy_colony_DEF:0 "Portuguese Mozambique"
-MZB_POR_autonomy_colony_ADJ:0 "Portuguese Mozambican"
-
-NGA_ENG_autonomy_colony:0 "Colony and Protectorate of Nigeria"
-NGA_ENG_autonomy_colony_DEF:0 "British Nigeria"
-NGA_ENG_autonomy_colony_ADJ:0 "British Nigerian"
-
-RAJ_ENG_autonomy_colony:0 "Indian Empire"
-RAJ_ENG_autonomy_colony_DEF:0 "the Indian Empire"
-RAJ_ENG_autonomy_colony_ADJ:0 "British Indian"
-
-SAF_ENG_autonomy_dominion:0 "Union of South Africa"
-SAF_ENG_autonomy_dominion_DEF:0 "South Africa"
-SAF_ENG_autonomy_dominion_ADJ:0 "South African"
-
-SLE_ENG_autonomy_colony:0 "Colony and Protectorate of Sierra Leone"
-SLE_ENG_autonomy_colony_DEF:0 "British Sierra Leone"
-SLE_ENG_autonomy_colony_ADJ:0 "British Sierra Leonean"
-
-SOM_ITA_autonomy_colony:0 "Italian Somaliland"
-SOM_ITA_autonomy_colony_DEF:0 "Italian Somaliland"
-SOM_ITA_autonomy_colony_ADJ:0 "Italian Somali"
-
-SML_ENG_autonomy_colony:0 "British Somaliland Protectorate"
-SML_ENG_autonomy_colony_DEF:0 "British Somaliland"
-SML_ENG_autonomy_colony_ADJ:0 "British Somali"
-
-SRI_ENG_autonomy_colony:0 "Ceylon"
-SRI_ENG_autonomy_colony_DEF:0 "British Ceylon"
-SRI_ENG_autonomy_colony_ADJ:0 "British Ceylonese"
-
-SYR_FRA_autonomy_dominion:0 "Mandatory Syrian Republic"
-SYR_FRA_autonomy_dominion_DEF:0 "Syria"
-SYR_FRA_autonomy_dominion_ADJ:0 "French Syrian"
-
-TNZ_ENG_autonomy_colony:0 "Tanganyika"
-TNZ_ENG_autonomy_colony_DEF:0 "British Tanganyika"
-TNZ_ENG_autonomy_colony_ADJ:0 "British Tanganyikan"
-
-TUN_FRA_autonomy_puppet:0 "French Protectorate of Tunisia"
-TUN_FRA_autonomy_puppet_DEF:0 "French Tunisia"
-TUN_FRA_autonomy_puppet_ADJ:0 "French Tunisian"
-
-TWN_JAP_autonomy_colony:0 "Japanese Taiwan"
-TWN_JAP_autonomy_colony_DEF:0 "Japanese Taiwan"
-TWN_JAP_autonomy_colony_ADJ:0 "Japanese Taiwanese"
-
-UGN_ENG_autonomy_colony:0 "Protectorate of Uganda"
-UGN_ENG_autonomy_colony_DEF:0 "British Uganda"
-UGN_ENG_autonomy_colony_ADJ:0 "British Ugandan"
-
-WAF_FRA_autonomy_colony:0 "French West Africa"
-WAF_FRA_autonomy_colony_DEF:0 "French West Africa"
-WAF_FRA_autonomy_colony_ADJ:0 "French West African"
-
-ZIM_ENG_autonomy_colony:0 "Colony of Rhodesia"
-ZIM_ENG_autonomy_colony_DEF:0 "Rhodesia"
-ZIM_ENG_autonomy_colony_ADJ:0 "British Rhodesian"
-
+# Q
+# R
+# S
+# T
+# U
+# V
+# W
+# X
+# Y
+# Z
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"
@@ -172,10 +34,23 @@ ZIM_ENG_autonomy_colony_ADJ:0 "British Rhodesian"
  LBA_subject:0 "$OVERLORDADJ$ North Africa"
  MAL_UK_democratic:0 "British Malaya"
  MAL_UK_democratic_DEF:0 "the British Malaya"
+ RAJ_UK_democratic:0 "British Raj"
+ RAJ_UK_democratic_DEF:0 "the British Raj"
+ RAJ_UK_neutrality:0 "British Raj"
+ RAJ_UK_neutrality_DEF:0 "the British Raj"
+ RAJ_UK_subject:0 "$OVERLORDADJ$ Raj"
  RAJ_UK_autonomy_dominion:0 "Dominion of India"
  RAJ_UK_autonomy_dominion_DEF:0 "the Dominion of India"
  SAF_COM_communist:0 "Cape Commune"
  SAF_COM_communist_DEF:0 "the Cape Commune"
+ CAN_UK_autonomy_dominion:0 "Dominion of Canada"
+ CAN_UK_autonomy_colony:0 "Canadian Confederation"
+ CAN_UK_autonomy_puppet:0 "Province of Canada"
+ CAN_UK_autonomy_integrated_puppet:0 "British North America"
+ CAN_UK_autonomy_dominion_DEF:0 "the Dominion of Canada"
+ CAN_UK_autonomy_colony_DEF:0 "the Canadian Confederation"
+ CAN_UK_autonomy_puppet_DEF:0 "the Province of Canada"
+ CAN_UK_autonomy_integrated_puppet_DEF:0 "British North America"
  USA_UK_autonomy_dominion:0 "Dominion of North America"
  USA_UK_autonomy_colony:0 "48 Colonies"
  USA_UK_autonomy_puppet:0 "British North American Territories"
@@ -322,6 +197,30 @@ ZIM_ENG_autonomy_colony_ADJ:0 "British Rhodesian"
  ETH_ITA_fascism_autonomy_satellite_DEF:0 "the Kingdom of Ethiopia"
  ETH_ITA_fascism_autonomy_reichsprotectorate_DEF:0 "the Governate of Ethiopia"
  ETH_ITA_fascism_autonomy_reichskommissariat_DEF:0 "Italian East Africa"
+ KEN_ENG_autonomy_dominion:0 "Dominion of Kenya"
+ KEN_ENG_autonomy_colony:0 "Colony of Kenya"
+ KEN_ENG_autonomy_puppet:0 "British Kenya"
+ KEN_ENG_autonomy_integrated_puppet:0 "British East Africa"
+ ZIM_ENG_autonomy_dominion:0 "Dominion of Rhodesia"
+ ZIM_ENG_autonomy_colony:0 "Colony of Rhodesia"
+ ZIM_ENG_autonomy_puppet:0 "British Rhodesia"
+ ZIM_ENG_autonomy_integrated_puppet:0 "British SAC Territory"
+ BOT_ENG_autonomy_dominion:0 "Dominion of Botswana"
+ BOT_ENG_autonomy_colony:0 "Colony of Bechuanaland"
+ BOT_ENG_autonomy_puppet:0 "Bechuanaland Protectorate"
+ BOT_ENG_autonomy_integrated_puppet:0 "British Bechuanaland"
+ KEN_ENG_autonomy_dominion_DEF:0 "the Dominion of Kenya"
+ KEN_ENG_autonomy_colony_DEF:0 "the Colony of Kenya"
+ KEN_ENG_autonomy_puppet_DEF:0 "British Kenya"
+ KEN_ENG_autonomy_integrated_puppet_DEF:0 "British East Africa"
+ ZIM_ENG_autonomy_dominion_DEF:0 "the Dominion of Rhodesia"
+ ZIM_ENG_autonomy_colony_DEF:0 "the Colony of Rhodesia"
+ ZIM_ENG_autonomy_puppet_DEF:0 "British Rhodesia"
+ ZIM_ENG_autonomy_integrated_puppet_DEF:0 "the British SAC Territory"
+ BOT_ENG_autonomy_dominion_DEF:0 "the Dominion of Botswana"
+ BOT_ENG_autonomy_colony_DEF:0 "the Colony of Bechuanaland"
+ BOT_ENG_autonomy_puppet_DEF:0 "the Bechuanaland Protectorate"
+ BOT_ENG_autonomy_integrated_puppet_DEF:0 "British Bechuanaland"
  HOL_GER_fascism_autonomy_reichskommissariat:0 "Reichskommissariat Niederlande"
  HOL_GER_fascism_autonomy_reichsprotectorate:0 "Reichsprotektorat Niederlande"
  HOL_GER_fascism_autonomy_satellite:0 "Dietsland"
