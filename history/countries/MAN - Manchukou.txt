@@ -22,7 +22,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -30,11 +30,11 @@
 				popularity = 100
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -47,7 +47,7 @@
 		create_country_leader = {
 			name = "Puyi"
 			desc = "MAN_Puyi_desc"
-			picture = "Portrait_MAN_Puyi.dds"
+			picture = "Portrait_Manchuria_Henry_Pu_Yi.dds"
 			expire = "1967.11.17"
 			ideology = nationalism
 			traits = {
@@ -90,7 +90,7 @@
 				#
 			}
 			skill = 2
-			
+
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
@@ -103,7 +103,7 @@
 				infantry_officer
 			}
 			skill = 2
-			
+
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
