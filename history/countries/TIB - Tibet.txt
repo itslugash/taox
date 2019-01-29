@@ -21,7 +21,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -29,11 +29,11 @@
 				popularity = 0
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 100
 			}
 		}
-		
+
 		ruling_party = syncretic
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -47,7 +47,7 @@
 		create_country_leader = {
 			name = "Jamphel Yeshe Gyaltsen"
 			desc = "TIB_Jamphel_Yeshe_Gyaltsen_desc"
-			picture = "Portrait_TIB_Jamphel_Yeshe_Gyaltsen.dds"
+			picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {
