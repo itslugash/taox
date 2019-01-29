@@ -28,7 +28,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -36,11 +36,11 @@
 				popularity = 100
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -53,7 +53,7 @@
 		create_country_leader = {
 			name = "Phraya Phahonphonphayuhasena"
 			desc = "SIA_Phraya_Phahonphonphayuhasena_desc"
-			picture = "Portrait_SIA_Phraya_Phahonphonphayuhasena.dds"
+			picture = "Portrait_Siam_Phraya_Phahon.dds"
 			expire = "1965.1.1"
 			ideology = nationalism
 			traits = {
