@@ -14,7 +14,7 @@
 		infantry_weapons1 = 1
 		gw_artillery = 1
 		tech_recon = 1
-		tech_support = 1		
+		tech_support = 1
 		tech_engineers = 1
 		gwtank = 1
 		basic_light_tank = 1
@@ -42,7 +42,7 @@
 				popularity = 7.7
 			}
 
-			centre = { 
+			centre = {
 				popularity = 90.7
 			}
 
@@ -50,11 +50,11 @@
 				popularity = 1.6
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = centre
 		last_election = "1932.9.17"
 		election_frequency = 48
@@ -74,11 +74,11 @@
 		}
 	# Centre
 		create_country_leader = {
-			name = "Axel Pehrsson-Bramstorp"
-			desc = "SWE_Axel_Pehrsson-Bramstorp_desc"
-			picture = "Portrait_SWE_Axel_Pehrsson-Bramstorp.dds"
+			name = "Per Albin Hansson"
+			desc = "SWE_Per_Albin_Hansson_desc"
+			picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = social_democracy
 			traits = {
 				#
 			}
@@ -159,10 +159,3 @@ add_ideas = {
 	neutrality_idea
 }
 set_convoys = 25
-
-
-
-
-
-
-
