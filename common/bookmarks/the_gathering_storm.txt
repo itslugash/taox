@@ -6,7 +6,7 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-		
+
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = centre
@@ -85,12 +85,12 @@ bookmarks = {
 			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
-			}	
+			}
 			focuses = {
 				ITA_pact_of_steel
 				ITA_spanish_italian_faction
 				ITA_italy_first
-			}		
+			}
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
@@ -99,12 +99,12 @@ bookmarks = {
 				state_shintoism
 				JAP_zaibatsus
 				JAP_militarism
-			}	
+			}
 			focuses = {
 				JAP_the_zero
 				JAP_warrior_spirit
 				JAP_strike_on_the_southern_resource_area
-			}			
+			}
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
@@ -117,7 +117,7 @@ bookmarks = {
 				SOV_great_purge
 				SOV_claims_on_baltic
 				SOV_war_with_uk
-			}	
+			}
 		}
 
 		"---"={
@@ -131,7 +131,7 @@ bookmarks = {
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = syncretic
 			ideas = {
-				
+
 			}
 			focuses = {
 				POL_the_baltic_alliance
@@ -171,7 +171,7 @@ bookmarks = {
 			history = "NZL_GATHERING_STORM_DESC"
 			ideology = centre
 			ideas = {
-				
+
 			}
 			focuses = {
 				NZL_bob_semple_tank
@@ -225,7 +225,7 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
-			ideology = right-wing
+			ideology = syncretic
 			ideas = {
 				HUN_treaty_of_triannon
 			}
@@ -250,7 +250,7 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}
-		
+
 		"YUG"={
 			minor = yes
 			history = "YUG_GATHERING_STORM_DESC"
@@ -311,67 +311,11 @@ bookmarks = {
 				MAN_claim_the_mandate_of_heaven
 			}
 		}
-		
+
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = syncretic
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = syncretic
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = syncretic
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = syncretic
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = syncretic
+			ideology = right-wing
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -382,7 +326,63 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
-		
+		"YUN"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = right-wing
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"SHX"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = right-wing
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"XSM"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = right-wing
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"SIK"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = right-wing
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
