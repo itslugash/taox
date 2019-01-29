@@ -1114,7 +1114,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = reactionary
+						ideology = fascism
 						traits = {
 						}
 						id = 502 #Nazi Franz
@@ -1126,7 +1126,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = reactionary
+						ideology = fascism
 						traits = {
 						}
 						id = 502 #Nazi Franz

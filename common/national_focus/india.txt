@@ -425,7 +425,7 @@ focus_tree = {
 						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
 						picture = GFX_RAJ_subhas_chandra_bose
 						expire = "1965.1.1"
-						ideology = communism
+						ideology = socialism
 						traits = {
 							indomitable_perseverance
 						}
@@ -880,7 +880,7 @@ focus_tree = {
 						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
 						picture = GFX_RAJ_subhas_chandra_bose
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = nationalism
 						traits = {
 							indomitable_perseverance
 						}
@@ -3603,7 +3603,7 @@ focus_tree = {
 
 		available = {
 			compare_autonomy_progress_ratio > 0.4
-			compare_autonomy_state > autonomy_puppet
+			compare_autonomy_state > autonomy_dependency
 			is_subject_of = ENG
 		}
 
@@ -3702,7 +3702,7 @@ focus_tree = {
 
 		available = {
 			compare_autonomy_progress_ratio > 0.4
-			compare_autonomy_state > autonomy_puppet
+			compare_autonomy_state > autonomy_dependency
 			is_subject_of = ENG
 		}
 
@@ -3801,7 +3801,7 @@ focus_tree = {
 
 		available = {
 			compare_autonomy_progress_ratio > 0.4
-			compare_autonomy_state > autonomy_puppet
+			compare_autonomy_state > autonomy_dependency
 			is_subject_of = ENG
 		}
 

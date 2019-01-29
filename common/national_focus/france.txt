@@ -1,7 +1,3 @@
-################################
-# France - National Focus Tree #
-################################
-
 focus_tree = {
 	id = french_focus
 	
