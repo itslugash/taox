@@ -80,7 +80,7 @@
 		create_country_leader = {
 			name = "Milan Stojadinović"
 			desc = "YUG_Milan_Stojadinovic_desc"
-			picture = "Portrait_YUG_Milan_Stojadinovic.dds"
+			picture = "Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 			expire = "1965.1.1"
 			ideology = fascism
 			traits = {

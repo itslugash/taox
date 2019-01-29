@@ -35,6 +35,7 @@
 			}
 			add_to_tech_sharing_group = commonwealth_research
 		}
+	set_cosmetic_tag = ENG_RAJ
 # Set Politics
 	set_politics = {
 

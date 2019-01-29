@@ -49,7 +49,7 @@
 		create_country_leader = {
 			name = "Zog I"
 			desc = "ALB_Zog_I_desc"
-			picture = "Portrait_ALB_Zog_I.dds"
+			picture = "Portrait_Albania_King_Zog.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

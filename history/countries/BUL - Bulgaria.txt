@@ -85,7 +85,7 @@
 		create_country_leader = {
 			name = "Boris III"
 			desc = "BUL_Boris_III_desc"
-			picture = "Portrait_BUL_Boris_III.dds"
+			picture = "Portrait_Bulgaria_Boris_III.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

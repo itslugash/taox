@@ -49,6 +49,29 @@
 # Diplomacy
 	# Factions
 	# Puppets
+		if = {
+			limit = {
+				has_dlc = "Together for Victory"
+			}
+			set_autonomy = {
+				target = MAN
+				autonomous_state = autonomy_dependency
+			}
+			set_autonomy = {
+				target = MEN
+				autonomous_state = autonomy_dependency
+			}
+			else = {
+				set_autonomy = {
+					target = MAN
+					autonomous_state = autonomy_dependency
+				}
+				set_autonomy = {
+					target = MEN
+					autonomous_state = autonomy_dependency
+				}
+			}
+		}
 	# Tech Sharing
 	create_import = {
 		resource = oil
@@ -94,9 +117,9 @@
 		}
 	# Centre
 		create_country_leader = {
-			name = "Keisuke Okada"
-			desc = "JAP_Keisuke_Okada_desc"
-			picture = "Portrait_JAP_Keisuke_Okada.dds"
+			name = "Okada Keisuke"
+			desc = "JAP_Okada_Keisuke_desc"
+			picture = "Portrait_JAP_Okada_Keisuke.dds"
 			expire = "1965.1.1"
 			ideology = centre_independent
 			traits = {
@@ -709,28 +732,5 @@ add_ideas = {
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = MEN
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = MAN
-			autonomous_state = autonomy_puppet
-		}
-	}
 }
 set_convoys = 400

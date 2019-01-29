@@ -92,7 +92,7 @@
 		create_country_leader = {
 			name = "William Lyon Mackenzie King"
 			desc = "CAN_William_Lyon_Mackenzie_King_desc"
-			picture = "Portrait_CAN_William_Lyon_Mackenzie_King.dds"
+			picture = "Portrait_Canada_Mackenzie_King.dds"
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {

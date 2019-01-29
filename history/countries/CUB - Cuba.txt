@@ -58,7 +58,7 @@
 		create_country_leader = {
 			name = "José Agripino Barnet"
 			desc = "CUB_Jose_Agripino_Barnet_desc"
-			picture = "Portrait_CUB_Jose_Agripino_Barnet.dds"
+			picture = "GFX_portrait_cuba_jose_barnet"
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {

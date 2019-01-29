@@ -50,7 +50,7 @@
 		create_country_leader = {
 			name = "Jigme Wangchuck"
 			desc = "BHU_Jigme_Wangchuck_desc"
-			picture = "Portrait_BHU_Jigme_Wangchuck.dds"
+			picture = "GFX_portrait_buthan_jigme_wangchuk"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

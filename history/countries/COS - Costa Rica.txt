@@ -57,7 +57,7 @@
 		create_country_leader = {
 			name = "Ricardo Jiménez Oreamuno"
 			desc = "COS_Ricardo_Jimenez_Oreamuno_desc"
-			picture = "Portrait_COS_Ricardo_Jimenez_Oreamuno.dds"
+			picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
 			expire = "1965.1.1"
 			ideology = centrism
 			traits = {

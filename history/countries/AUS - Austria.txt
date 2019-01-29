@@ -74,7 +74,7 @@
 		create_country_leader = {
 			name = "Kurt Schuschnigg"
 			desc = "AUS_Kurt_Schuschnigg_desc"
-			picture = "Portrait_AUS_Kurt_Schuschnigg.dds"
+			picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 			expire = "1965.1.1"
 			ideology = fascism
 			traits = {

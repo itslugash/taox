@@ -48,7 +48,7 @@
 			}
 		}
 		
-		ruling_party = right-wing
+		ruling_party = centre
 		last_election = "1933.12.20"
 		election_frequency = 48
 		elections_allowed = no
@@ -69,9 +69,9 @@
 		create_country_leader = {
 			name = "Gheorghe Tătărescu"
 			desc = "ROM_Gheorghe_Tatarescu_desc"
-			picture = "Portrait_ROM_Gheorghe_Tatarescu.dds"
+			picture = "Portrait_Romania_Gheorghe_Tatarescu.dds"
 			expire = "1965.1.1"
-			ideology = centrism
+			ideology = liberalism
 			traits = {
 				#
 			}

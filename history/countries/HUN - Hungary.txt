@@ -65,7 +65,7 @@
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "HUN_Miklos_Horthy_desc"
-			picture = "Portrait_HUN_Miklos_Horthy.dds"
+			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
 			ideology = social_democracy
 			traits = {
@@ -76,7 +76,7 @@
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "HUN_Miklos_Horthy_desc"
-			picture = "Portrait_HUN_Miklos_Horthy.dds"
+			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
 			ideology = fascism
 			traits = {
@@ -87,7 +87,7 @@
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "HUN_Miklos_Horthy_desc"
-			picture = "Portrait_HUN_Miklos_Horthy.dds"
+			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {

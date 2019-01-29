@@ -105,7 +105,7 @@
 		create_country_leader = {
 			name = "Chiang Kai-shek"
 			desc = "CHI_Chiang_Kai-shek_desc"
-			picture = "Portrait_CHI_Chiang_Kai-shek.dds"
+			picture = "Portrait_China_Chiang_Kai_Shek.dds"
 			expire = "1965.1.1"
 			ideology = nationalism
 			traits = {

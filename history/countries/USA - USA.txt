@@ -43,7 +43,7 @@
 	# Puppets
 		set_autonomy = {
 			target = PHI
-			autonomous_state = autonomy_puppet
+			autonomous_state = autonomy_dependency
 		}
 	# Tech Sharing
 # Set Politics

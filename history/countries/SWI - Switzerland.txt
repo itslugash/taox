@@ -64,7 +64,7 @@
 		create_country_leader = {
 			name = "Federal Council"
 			desc = "SWI_Federal_Council_desc"
-			picture = "Portrait_SWI_Federal_Council.dds"
+			picture = "Portrait_Switzerland_Federal_council.dds"
 			expire = "1965.1.1"
 			ideology = centrism
 			traits = {

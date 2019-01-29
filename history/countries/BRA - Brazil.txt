@@ -89,7 +89,7 @@
 		create_country_leader = {
 			name = "Getúlio Vargas"
 			desc = "BRA_Getulio_Vargas_desc"
-			picture = "Portrait_BRA_Getulio_Vargas.dds"
+			picture = "Portrait_Brazil_Getulio_Vargas.dds"
 			expire = "1965.1.1"
 			ideology = independent
 			traits = {

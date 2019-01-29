@@ -66,7 +66,7 @@
 		create_country_leader = {
 			name = "Arturo Alessandri"
 			desc = "CHL_Arturo_Alessandri_desc"
-			picture = "Portrait_CHL_Arturo_Alessandri.dds"
+			picture = "GFX_Portrait_chile_arturo_alessandri"
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {

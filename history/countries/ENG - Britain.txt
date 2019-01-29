@@ -62,35 +62,35 @@
 			}
 			set_autonomy = {
 				target = EGY
-				autonomous_state = autonomy_puppet
+				autonomous_state = autonomy_autonomous_dependency
 			}
 			set_autonomy = {
 				target = MAL
-				autonomous_state = autonomy_integrated_puppet
+				autonomous_state = autonomy_dependency
 			}
 			set_autonomy = {
 				target = RAJ
-				autonomous_state = autonomy_colony
+				autonomous_state = autonomy_dependency
 				freedom_level = 0.35
 			}
 			set_autonomy = {
 				target = CAN
-				autonomous_state = autonomy_dominion
+				autonomous_state = autonomy_autonomous_dependency
 				freedom_level = 0.4
 			}
 			set_autonomy = {
 				target = SAF
-				autonomous_state = autonomy_dominion
+				autonomous_state = autonomy_autonomous_dependency
 				freedom_level = 0.4
 			}
 			set_autonomy = {
 				target = AST
-				autonomous_state = autonomy_dominion
+				autonomous_state = autonomy_autonomous_dependency
 				freedom_level = 0.2
 			}
 			set_autonomy = {
 				target = NZL
-				autonomous_state = autonomy_dominion
+				autonomous_state = autonomy_autonomous_dependency
 				freedom_level = 0.2
 			}
 			else = {

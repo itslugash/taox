@@ -62,7 +62,7 @@
 		create_country_leader = {
 			name = "Joseph Bech"
 			desc = "LUX_Joseph_Bech_desc"
-			picture = "Portrait_LUX_Joseph_Bech.dds"
+			picture = "GFX_portrait_luxembourg_joseph_bech"
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {

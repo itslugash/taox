@@ -52,7 +52,7 @@
 		create_country_leader = {
 			name = "Lázaro Cárdenas"
 			desc = "MEX_Lazaro_Cardenas_desc"
-			picture = "Portrait_MEX_Lazaro_Cardenas.dds"
+			picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 			expire = "1965.1.1"
 			ideology = centrism
 			traits = {
