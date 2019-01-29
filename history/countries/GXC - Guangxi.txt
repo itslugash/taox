@@ -24,7 +24,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -32,11 +32,11 @@
 				popularity = 100
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -48,7 +48,7 @@
 		create_country_leader = {
 			name = "Li Zongren"
 			desc = "GXC_Li_Zongren_desc"
-			picture = "Portrait_GXC_Li_Zongren.dds"
+			picture = "Portrait_Guanxi_Clique_Li_Zongren.dds"
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {
@@ -59,7 +59,7 @@
 		create_country_leader = {
 			name = "Li Zongren"
 			desc = "GXC_Li_Zongren_desc"
-			picture = "Portrait_GXC_Li_Zongren.dds"
+			picture = "Portrait_Guanxi_Clique_Li_Zongren.dds"
 			expire = "1965.1.1"
 			ideology = nationalism
 			traits = {
