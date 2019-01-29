@@ -35,7 +35,7 @@
 			}
 
 			centre = {
-				popularity = 0
+				popularity = 100
 			}
 
 			right-wing = {
@@ -47,8 +47,8 @@
 			}
 		}
 
-		ruling_party = syncretic
-		last_election = "1936.1.1"
+		ruling_party = centre
+		last_election = "1935.2.8"
 		election_frequency = 48
 		elections_allowed = no
 	}
