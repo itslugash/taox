@@ -1,7 +1,3 @@
-########################
-# AI Peace - Left-Wing #
-########################
-
 # Logic for Communist AI on how to deal in peace conferences
 # Should favor annexing other nations and taking their states
 # Written by Henrik "Groogy" Hansson
@@ -78,30 +74,14 @@ communist_peace = {
 			OR = {
 				AND = {
 					#Is NOT a major
-					NOT = {
-						num_of_factories > 100
-					}
-					NOT = {
-						tag = GER
-					}
-					NOT = {
-						tag = ENG
-					}
-					NOT = {
-						tag = ITA
-					}
-					NOT = {
-						tag = FRA
-					}
-					NOT = {
-						tag = USA
-					}
-					NOT = {
-						tag = JAP
-					}
-					NOT = {
-						tag = SOV
-					}
+					NOT = { num_of_factories > 100 }
+					NOT = { tag = GER }
+					NOT = { tag = ENG }
+					NOT = { tag = ITA }
+					NOT = { tag = FRA }
+					NOT = { tag = USA }
+					NOT = { tag = JAP }
+					NOT = { tag = SOV }
 				}
 				is_puppet = yes
 			}
@@ -115,9 +95,7 @@ communist_peace = {
 		}
 		modifier = { 
 			factor = 0
-			FROM = {
-				tag = WGR
-			}
+			FROM = { tag = WGR }
 		}
 
 		modifier = { #Don't release fascist states in Europe
@@ -132,12 +110,8 @@ communist_peace = {
 		}
 		modifier = { #Don't release Chinese warlords except for PRC.
 			factor = 0
-			FROM = {
-				is_independent_china_or_warlord = yes
-			}
-			NOT = {
-				tag = PRC
-			}
+			FROM = { is_independent_china_or_warlord = yes }
+			NOT = { tag = PRC }
 		}
 	}
 
