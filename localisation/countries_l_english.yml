@@ -466,6 +466,20 @@
         EST_syncretic_DEF:0 "Estonia"
 
         EST_ADJ:0 "Estonian"
+    # ETH - Ethiopia
+        ETH_centre:0 "Ethiopian Empire"
+        ETH_centre_DEF:0 "Ethiopia"
+
+        ETH_right-wing:0 "Ethiopian Empire"
+        ETH_right-wing_DEF:0 "Ethiopia"
+
+        ETH_left-wing:0 "Transitional Government of Ethiopia"
+        ETH_left-wing_DEF:0 "Ethiopia"
+
+        ETH_syncretic:0 "Ethiopian Empire"
+        ETH_syncretic_DEF:0 "Ethiopia"
+
+        ETH_ADJ:0 "Ethiopian"
 # F
     # FIN - Finland
         FIN_centre:0 "Republic of Finland"
