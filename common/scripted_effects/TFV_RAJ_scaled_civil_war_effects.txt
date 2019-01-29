@@ -74,7 +74,7 @@ start_scaled_communist_civil_war_cap439 = {
 							}
 						}
 					}
-				}				
+				}
 			}
 		}
 		### NEW COMMUNISM LEVEL BLOCK ####
@@ -151,7 +151,7 @@ start_scaled_communist_civil_war_cap439 = {
 									}
 								}
 							}
-						}				
+						}
 					}
 				}
 
@@ -230,13 +230,13 @@ start_scaled_communist_civil_war_cap439 = {
 											}
 										}
 									}
-								}				
+								}
 							}
 						}
 
 						else = {
 							### FINAL COMMUNISM LEVEL BLOCK ####
-						
+
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
@@ -307,7 +307,7 @@ start_scaled_communist_civil_war_cap439 = {
 												}
 											}
 										}
-									}				
+									}
 								}
 							}
 						}
@@ -396,7 +396,7 @@ start_scaled_fascist_civil_war_cap439 = {
 							}
 						}
 					}
-				}				
+				}
 			}
 		}
 		### NEW FASCISM LEVEL BLOCK ####
@@ -473,7 +473,7 @@ start_scaled_fascist_civil_war_cap439 = {
 									}
 								}
 							}
-						}				
+						}
 					}
 				}
 
@@ -552,13 +552,13 @@ start_scaled_fascist_civil_war_cap439 = {
 											}
 										}
 									}
-								}				
+								}
 							}
 						}
 
 						else = {
 							### FINAL fascism LEVEL BLOCK ####
-						
+
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
@@ -629,7 +629,7 @@ start_scaled_fascist_civil_war_cap439 = {
 												}
 											}
 										}
-									}				
+									}
 								}
 							}
 						}
@@ -721,7 +721,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 							}
 						}
 					}
-				}				
+				}
 			}
 		}
 		### NEW COMMUNISM LEVEL BLOCK ####
@@ -798,7 +798,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 									}
 								}
 							}
-						}				
+						}
 					}
 				}
 
@@ -866,13 +866,13 @@ start_scaled_communist_civil_war_cap439_puppet = {
 											}
 										}
 									}
-								}				
+								}
 							}
 						}
 
 						else = {
 							### FINAL COMMUNISM LEVEL BLOCK ####
-						
+
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
@@ -921,7 +921,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 												}
 											}
 										}
-									}				
+									}
 								}
 							}
 						}
@@ -1010,7 +1010,7 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 							}
 						}
 					}
-				}				
+				}
 			}
 		}
 		### NEW FASCISM LEVEL BLOCK ####
@@ -1087,7 +1087,7 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 									}
 								}
 							}
-						}				
+						}
 					}
 				}
 
@@ -1155,13 +1155,13 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 											}
 										}
 									}
-								}				
+								}
 							}
 						}
 
 						else = {
 							### FINAL fascism LEVEL BLOCK ####
-						
+
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
@@ -1210,7 +1210,7 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 												}
 											}
 										}
-									}				
+									}
 								}
 							}
 						}
