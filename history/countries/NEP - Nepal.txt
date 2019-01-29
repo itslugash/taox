@@ -24,7 +24,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -32,11 +32,11 @@
 				popularity = 0
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 100
 			}
 		}
-		
+
 		ruling_party = syncretic
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -50,7 +50,7 @@
 		create_country_leader = {
 			name = "Tribhuvan"
 			desc = "NEP_Tribhuvan_desc"
-			picture = "Portrait_NEP_Tribhuvan.dds"
+			picture = "portrait_nep_juddah_rana.dds"
 			expire = "1965.1.1"
 			ideology = monarchism
 			traits = {
