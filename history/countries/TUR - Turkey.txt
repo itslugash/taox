@@ -34,7 +34,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -42,11 +42,11 @@
 				popularity = 0
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = syncretic
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -58,9 +58,9 @@
 		create_country_leader = {
 			name = "Mustafa Kemal Atatürk"
 			desc = "TUR_Mustafa_Kemal_Ataturk_desc"
-			picture = "Portrait_TUR_Mustafa_Kemal_Ataturk.dds"
+			picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 			expire = "1965.1.1"
-			ideology = social_democracy
+			ideology =  liberalism
 			traits = {
 				#
 			}
