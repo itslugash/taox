@@ -30,7 +30,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -38,11 +38,11 @@
 				popularity = 100
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -55,7 +55,7 @@
 		create_country_leader = {
 			name = "Long Yun"
 			desc = "YUN_Long_Yun_desc"
-			picture = "Portrait_YUN_Long_Yun.dds"
+			picture = "GFX_portrait_yun_long_yun"
 			expire = "1965.1.1"
 			ideology = nationalism
 			traits = {
