@@ -324,7 +324,6 @@ GER_case_anton_category = {
 	}
 }
 
-#Category only allowed for GER
 GER_reichskommissariats = {
 	GER_reichskommissariat_norwegen = {
 
@@ -341,11 +340,7 @@ GER_reichskommissariats = {
 
 		cost = 0
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 1
-				ENG = { has_capitulated = yes }
-			}
+			factor = 100
 		}
 
 		visible = {
@@ -367,7 +362,10 @@ GER_reichskommissariats = {
 					}
 				}
 				NOR = {
-					start_civil_war = { ideology = right-wing size = 1 }
+					start_civil_war = {
+						ideology = right-wing
+						size = 1
+					}
 				}
 				random_country = {
 					limit= {
@@ -380,16 +378,20 @@ GER_reichskommissariats = {
 					transfer_state = 144
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = {
+							target = PREV
+							autonomy_state = autonomy_dependency
+						}
 					}
-					set_cosmetic_tag = NOR_reichskommissariat
+					set_cosmetic_tag = GER_NOR
 					create_country_leader = {
 						name = "Josef Terboven"
-						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
-						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						desc = "NOR_Josef_Terboven_desc"
+						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 				}
@@ -400,18 +402,22 @@ GER_reichskommissariats = {
 					transfer_state = 142
 					transfer_state = 143
 					transfer_state = 144
-					set_cosmetic_tag = NOR_reichskommissariat
+					set_cosmetic_tag = GER_NOR
 					create_country_leader = {
 						name = "Josef Terboven"
-						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
-						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						desc = "NOR_Josef_Terboven_desc"
+						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 				}
-				set_autonomy = { target = NOR autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = {
+					target = NOR
+					autonomy_state = autonomy_dependency
+				}
 			}
 		}
 	}
@@ -434,7 +440,9 @@ GER_reichskommissariats = {
 			factor = 0
 			modifier = {
 				add = 1
-				ENG = { has_capitulated = yes }
+				ENG = {
+					has_capitulated = yes
+				}
 			}
 		}
 
@@ -456,7 +464,10 @@ GER_reichskommissariats = {
 					}
 				}
 				HOL = {
-					start_civil_war = { ideology = right-wing size = 1 }
+					start_civil_war = {
+						ideology = right-wing
+						size = 1
+					}
 				}
 				random_country = {
 					limit= {
@@ -468,17 +479,21 @@ GER_reichskommissariats = {
 					transfer_state = 36
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = {
+							target = PREV
+							autonomy_state = autonomy_dependency
+						}
 					}
 					
 					set_cosmetic_tag = HOL_reichskommissariat
 					create_country_leader = {
 						name = "Arthur Seyss-Inquart"
-						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						desc = "GER_Arthur_Seyss_Inquart_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Arthur_Seyss-Inquart.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 				}
@@ -491,15 +506,19 @@ GER_reichskommissariats = {
 					set_cosmetic_tag = HOL_reichskommissariat
 					create_country_leader = {
 						name = "Arthur Seyss-Inquart"
-						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+						desc = "GER_Arthur_Seyss_Inquart_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Arthur_Seyss-Inquart.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 				}
-				set_autonomy = { target = HOL autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = {
+					target = HOL
+					autonomy_state = autonomy_dependency
+				}
 			}
 		}
 	}
@@ -522,7 +541,9 @@ GER_reichskommissariats = {
 			factor = 0
 			modifier = {
 				add = 1
-				ENG = { has_capitulated = yes }
+				ENG = {
+					has_capitulated = yes
+				}
 			}
 		}
 
@@ -543,7 +564,10 @@ GER_reichskommissariats = {
 					}
 				}
 				BEL = {
-					start_civil_war = { ideology = right-wing size = 1 }
+					start_civil_war = {
+						ideology = right-wing
+						size = 1 
+					}
 				}
 				random_country = {
 					limit= {
@@ -555,20 +579,26 @@ GER_reichskommissariats = {
 					transfer_state = 34
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = {
+							target = PREV
+							autonomy_state = autonomy_dependency
+						}
 					}
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
-						name = "Josef Grohe"
-						desc = "POLITICS_JOSEF_GROHE_DESC"
-						picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+						name = "Josef Grohé"
+						desc = "GER_Josef_Grohe_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 					hidden_effect = {
-						29 = { add_core_of = PREV }
+						29 = {
+							add_core_of = PREV
+						}
 					}
 				}
 			}
@@ -579,16 +609,20 @@ GER_reichskommissariats = {
 					transfer_state = 34
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
-						name = "Josef Grohe"
-						desc = "POLITICS_JOSEF_GROHE_DESC"
-						picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+						name = "Josef Grohé"
+						desc = "GER_Josef_Grohe_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
+							#
 						}
 					}
 				}
-				set_autonomy = { target = BEL autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = {
+					target = BEL
+					autonomy_state = autonomy_dependency
+				}
 			}
 		}
 	}
@@ -623,7 +657,9 @@ GER_reichskommissariats = {
 			factor = 0
 			modifier = {
 				add = 1
-				SOV = { has_capitulated = yes }
+				SOV = {
+					has_capitulated = yes
+				}
 			}
 		}
 
@@ -652,7 +688,10 @@ GER_reichskommissariats = {
 				set_state_controller = 241
 				GER = {
 					puppet = PREV
-					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					set_autonomy = {
+						target = PREV
+						autonomy_state = autonomy_dependency
+					}
 				}
 				
 				set_cosmetic_tag = BLR_reichskommissariat
@@ -666,12 +705,24 @@ GER_reichskommissariats = {
 					}
 				}
 				hidden_effect = {
-					11 = { add_core_of = PREV }
-					189 = { add_core_of = PREV }
-					12 = { add_core_of = PREV }
-					190 = { add_core_of = PREV }
-					13 = { add_core_of = PREV }
-					191 = { add_core_of = PREV }
+					11 = {
+						add_core_of = PREV
+					}
+					189 = {
+						add_core_of = PREV
+					}
+					12 = {
+						add_core_of = PREV
+					}
+					190 = {
+						add_core_of = PREV
+					}
+					13 = {
+						add_core_of = PREV
+					}
+					191 = {
+						add_core_of = PREV
+					}
 				}
 			}
 		}
@@ -711,7 +762,9 @@ GER_reichskommissariats = {
 			factor = 0
 			modifier = {
 				add = 1
-				SOV = { has_capitulated = yes }
+				SOV = {
+					has_capitulated = yes
+				}
 			}
 		}
 
@@ -744,16 +797,20 @@ GER_reichskommissariats = {
 				set_state_controller = 227
 				GER = {
 					puppet = PREV
-					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					set_autonomy = {
+						target = PREV
+						autonomy_state = autonomy_dependency
+					}
 				}
 				set_cosmetic_tag = UKR_reichskommissariat
 				create_country_leader = {
 					name = "Erich Koch"
-					desc = "POLITICS_HINRICH_LOHSE_DESC"
-					picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
+					desc = "GER_Erich_Koch_desc"
+					picture = "gfx/leaders/GER/Portrait_GER_Erich_Koch.dds"
 					expire = "1965.1.1"
 					ideology = fascism
 					traits = {
+						#
 					}
 				}
 			}
