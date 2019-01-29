@@ -21,7 +21,7 @@
 				popularity = 100
 			}
 
-			centre = { 
+			centre = {
 				popularity = 0
 			}
 
@@ -29,11 +29,11 @@
 				popularity = 0
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = left-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
@@ -44,7 +44,7 @@
 		create_country_leader = {
 			name = "Salchak Toka"
 			desc = "TAN_Salchak_Toka_desc"
-			picture = "Portrait_TAN_Salchak_Toka.dds"
+			picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			expire = "1965.1.1"
 			ideology = communism
 			traits = {
