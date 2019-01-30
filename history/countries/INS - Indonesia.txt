@@ -25,7 +25,7 @@
 	# Factions
 	# Puppets
 	# Tech Sharing
-	set_cosmetic_tag = INS_HOL
+	set_cosmetic_tag = HOL_INS
 # Set Politics
 	set_politics = {
 
