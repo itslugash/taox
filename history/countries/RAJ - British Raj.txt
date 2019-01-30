@@ -67,8 +67,8 @@
 	# Centre
 		create_country_leader = {
 			name = "Freeman Freeman-Thomas"
-			desc = "RAJ_Freeman_Freeman-Thomas_desc"
-			picture = "Portrait_RAJ_Freeman_Freeman-Thomas.dds"
+			desc = "ENG_Freeman_Freeman-Thomas_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_Freeman_Freeman-Thomas.dds"
 			expire = "1952.1.5"
 			ideology = centre_independent
 			traits = {
