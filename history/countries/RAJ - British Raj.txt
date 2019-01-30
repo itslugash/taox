@@ -11,7 +11,7 @@
 	set_technology = {
 		infantry_weapons = 1
 		infantry_weapons1 = 1
-		tech_support = 1		
+		tech_support = 1
 		tech_engineers = 1
 		tech_recon = 1
 		transport = 1
@@ -44,7 +44,7 @@
 				popularity = 0
 			}
 
-			centre = { 
+			centre = {
 				popularity = 92.14
 			}
 
@@ -52,11 +52,11 @@
 				popularity = 7.86
 			}
 
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		
+
 		ruling_party = centre
 		last_election = "1934.8.6"
 		election_frequency = 48
@@ -65,18 +65,18 @@
 # Country Leaders
 	# Left-Wing
 	# Centre
-	# Right-Wing
-	# Syncretic
 		create_country_leader = {
 			name = "Freeman Freeman-Thomas, 1st Marquess of Willingdon"
 			desc = "RAJ_Freeman_Freeman-Thomas_desc"
 			picture = "Portrait_RAJ_Freeman_Freeman-Thomas.dds"
 			expire = "1952.1.5"
-			ideology = syncretic_independent
+			ideology = centre_independent
 			traits = {
 				#
 			}
 		}
+	# Right-Wing
+	# Syncretic
 # Military Leaders
 	# Field Marshal(s)
 	# General(s)
