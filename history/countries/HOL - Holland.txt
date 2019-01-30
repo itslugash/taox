@@ -36,10 +36,7 @@
 				autonomous_state = autonomy_dependency
 			}
 			else = {
-				set_autonomy = {
-					target = INS
-					autonomous_state = autonomy_dependency
-				}
+				puppet = INS
 			}
 		}
 	# Tech Sharing
