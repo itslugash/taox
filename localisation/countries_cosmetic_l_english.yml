@@ -20,6 +20,11 @@
   ENG_RAJ_autonomy_dependency_DEF:0 "India"
   ENG_RAJ_autonomy_autonomous_dependency:0 "Dominion of India"
   ENG_RAJ_autonomy_autonomous_dependency_DEF:0 "India"
+
+  ENG_SAF_autonomy_dependency:0 "Union of South Africa"
+  ENG_SAF_autonomy_dependency_DEF:0 "South African"
+  ENG_SAF_autonomy_autonomous_dependency:0 "Union of South Africa"
+  ENG_SAF_autonomy_autonomous_dependency_DEF:0 "South African"
 # F
 # G
 # H
@@ -43,8 +48,6 @@
 # X
 # Y
 # Z
- INS_HOL_democratic:0 "Dutch East Indies"
- INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"
  INS_subject_DEF:0 "the $OVERLORDADJ$ East Indies"
  COG_subject:0 "$OVERLORDADJ$ Congo"
