@@ -53,8 +53,6 @@
  COG_subject:0 "$OVERLORDADJ$ Congo"
  MAL_subject:0 "$OVERLORDADJ$ Malaya"
  LBA_subject:0 "$OVERLORDADJ$ North Africa"
- MAL_UK_democratic:0 "British Malaya"
- MAL_UK_democratic_DEF:0 "the British Malaya"
  SAF_COM_communist:0 "Cape Commune"
  SAF_COM_communist_DEF:0 "the Cape Commune"
  USA_SAF_EDW_autonomy_dominion:0 "Dominion of North America"
