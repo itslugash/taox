@@ -15,8 +15,8 @@ country_event = {
     trigger = {
         tag = FRA
         has_government = centre
-        date > 1936.1.25
-        date < 1936.2.4
+        date > 1936.4.25
+        date < 1936.5.4
     }
 
     mean_time_to_happen = {
