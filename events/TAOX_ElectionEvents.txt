@@ -1,11 +1,11 @@
-########################
+﻿########################
 # TAOX Election Events #
 ########################
 
 add_namespace = taox_election
 
 country_event = { # 1936 French Legislative Election
-  ide = france_election.1
+  id = france_election.1
   title = france_election.1.t # The 16th Legislative Elections
   desc = france_election.1.d
   picture = GFX_report_event_election_vote
@@ -29,28 +29,27 @@ country_event = { # 1936 French Legislative Election
     }
     set_politics = {
       ruling_party = left-wing
+    }
+    create_country_leader = {
+      name = "Léon Blum"
+      desc = "FRA_Leon_Blum_desc"
+      picture = "Portrait_FRA_Leon_Blum.dds"
+      expire = "1965.1.1"
+      ideology = socialism
+      traits = {
+        #
+      }
+    }
 
-      create_country_leader = {
-  			name = "Léon Blum"
-  			desc = "FRA_Leon_Blum_desc"
-  			picture = "Portrait_FRA_Leon_Blum.dds"
-  			expire = "1965.1.1"
-  			ideology = socialism
-  			traits = {
-  				#
-  			}
-  		}
-
-      create_country_leader = {
-  			name = "Édouard Daladier"
-  			desc = "FRA_Edouard_Daladier_desc"
-  			picture = "Portrait_France_Edouard_Daladier.dds"
-  			expire = "1965.1.1"
-  			ideology = liberalism
-  			traits = {
-  				#
-  			}
-  		}
+    create_country_leader = {
+      name = "Édouard Daladier"
+      desc = "FRA_Edouard_Daladier_desc"
+      picture = "Portrait_France_Edouard_Daladier.dds"
+      expire = "1965.1.1"
+      ideology = liberalism
+      traits = {
+        #
+      }
     }
   }
 
@@ -63,17 +62,16 @@ country_event = { # 1936 French Legislative Election
     }
     set_politics = {
       ruling_party = centre
-
-      create_country_leader = {
-  			name = "Pierre-Étienne Flandin"
-  			desc = "FRA_Pierre_Etienne_Flandin_desc"
-  			picture = "Portrait_FRA_Pierre_Etienne_Flandin.dds"
-  			expire = "1965.1.1"
-  			ideology = conservatism
-  			traits = {
-  				#
-  			}
-  		}
+    }
+    create_country_leader = {
+      name = "Pierre-Étienne Flandin"
+      desc = "FRA_Pierre_Etienne_Flandin_desc"
+      picture = "Portrait_FRA_Pierre_Etienne_Flandin.dds"
+      expire = "1965.1.1"
+      ideology = conservatism
+      traits = {
+        #
+      }
     }
   }
 
@@ -86,17 +84,16 @@ country_event = { # 1936 French Legislative Election
     }
     set_politics = {
       ruling_party = centre
-
-      create_country_leader = {
-  			name = "Louis Marin"
-  			desc = "FRA_Louis_Marin_desc"
-  			picture = "Portrait_FRA_Louis_Marin.dds"
-  			expire = "1965.1.1"
-  			ideology = conservatism
-  			traits = {
-  				#
-  			}
-  		}
+    }
+    create_country_leader = {
+      name = "Louis Marin"
+      desc = "FRA_Louis_Marin_desc"
+      picture = "Portrait_FRA_Louis_Marin.dds"
+      expire = "1965.1.1"
+      ideology = conservatism
+      traits = {
+        #
+      }
     }
   }
 }
