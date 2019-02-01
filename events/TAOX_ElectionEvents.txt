@@ -2,7 +2,7 @@
 # TAOX Election Events #
 ########################
 
-add_namespace = taox_election
+add_namespace = france_election
 
 country_event = { # 1936 French Legislative Election
   id = france_election.1
