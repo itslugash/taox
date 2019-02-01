@@ -2,98 +2,48 @@
 # TAOX Election Events #
 ########################
 
-add_namespace = france_election
+add_namespace = taox_france_election
 
-country_event = { # 1936 French Legislative Election
-  id = france_election.1
-  title = france_election.1.t # The 16th Legislative Elections
-  desc = france_election.1.d
-  picture = GFX_report_event_election_vote
+country_event = {
+    id = taox_france_election.1
+    title = taox_france_election.1.t
+    desc = taox_france_election.1.d
+    picture = GFX_report_event_election_vote
 
-  is_triggered_only = yes
+    fire_only_once = yes
 
-  trigger = {
-    AND = {
-      has_government = centre
-      tag = FRA
-      date <1936.4.25
-    }
-  }
-
-  option = {
-    name = france_election.1.a # Popular Front Wins
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = left-wing
-      popularity = 0.1
-    }
-    set_politics = {
-      ruling_party = left-wing
-    }
-    create_country_leader = {
-      name = "Léon Blum"
-      desc = "FRA_Leon_Blum_desc"
-      picture = "Portrait_FRA_Leon_Blum.dds"
-      expire = "1965.1.1"
-      ideology = socialism
-      traits = {
-        #
-      }
+    trigger = {
+        tag = FRA
+        has_government = centre
+        date > 1936.1.25
+        date < 1936.2.4
     }
 
-    create_country_leader = {
-      name = "Édouard Daladier"
-      desc = "FRA_Edouard_Daladier_desc"
-      picture = "Portrait_France_Edouard_Daladier.dds"
-      expire = "1965.1.1"
-      ideology = liberalism
-      traits = {
-        #
-      }
+    mean_time_to_happen = {
+        days = 1
     }
-  }
 
-  option = {
-    name = france_election.1.b # Democratic Alliance Wins
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = left-wing
-      popularity = 0.1
+    option = {
+        name = taox_france_election.1.a
+        retire_country_leader = yes
+        add_popularity = {
+          ideology = centre
+          popularity = 0.1
+        }
+        set_party_name = {
+          ideology = centre
+          long_name = FRA_centre_party_AD_long
+          name = FRA_centre_party_AD
+        }
+        create_country_leader = {
+        	name = "Pierre-Étienne Flandin"
+        	desc = "FRA_Pierre_Etienne_Flandin_desc"
+        	picture = "Portrait_FRA_Pierre_Etienne_Flandin.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+            #
+        	}
+        }
     }
-    set_politics = {
-      ruling_party = centre
-    }
-    create_country_leader = {
-      name = "Pierre-Étienne Flandin"
-      desc = "FRA_Pierre_Etienne_Flandin_desc"
-      picture = "Portrait_FRA_Pierre_Etienne_Flandin.dds"
-      expire = "1965.1.1"
-      ideology = conservatism
-      traits = {
-        #
-      }
-    }
-  }
-
-  option = {
-    name = france_election.1.b # Republican Federation Wins
-    retire_country_leader = yes
-    add_popularity = {
-      ideology = left-wing
-      popularity = 0.1
-    }
-    set_politics = {
-      ruling_party = centre
-    }
-    create_country_leader = {
-      name = "Louis Marin"
-      desc = "FRA_Louis_Marin_desc"
-      picture = "Portrait_FRA_Louis_Marin.dds"
-      expire = "1965.1.1"
-      ideology = conservatism
-      traits = {
-        #
-      }
-    }
-  }
 }
