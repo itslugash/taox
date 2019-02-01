@@ -1,0 +1,104 @@
+﻿######################
+# TAOX France Events #
+######################
+
+add_namespace = taox_fra
+
+country_event = { # 1936 Legislative Election
+    id = taox_fra.1
+    title = taox_fra.1.t
+    desc = taox_fra.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = FRA
+        has_government = centre
+        date > 1936.1.25
+        date < 1936.2.4
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # Popular Front Wins
+        name = taox_fra.1.a
+        ai_chance = {
+            factor = 57
+        }
+        retire_country_leader = yes
+        add_popularity = {
+          ideology = left-wing
+          popularity = 0.05
+        }
+        set_politics = {
+            ruling_party = left-wing
+        }
+        create_country_leader = {
+            name = "Léon Blum"
+            desc = "FRA_Leon_Blum_desc"
+            picture = "Portrait_FRA_Leon_Blum.dds"
+            expire = "1965.1.1"
+            ideology = socialism
+            traits = {
+            #
+            }
+        }
+    }
+
+    option = { # Democratic Alliance Wins
+        name = taox_fra.1.b
+        ai_chance = {
+            factor = 26
+        }
+        retire_country_leader = yes
+        add_popularity = {
+          ideology = centre
+          popularity = 0.05
+        }
+        set_party_name = {
+          ideology = centre
+          long_name = "Alliance Démocratique"
+          name = "Alliance Démocratique"
+        }
+        create_country_leader = {
+        	name = "Pierre-Étienne Flandin"
+        	desc = "FRA_Pierre_Etienne_Flandin_desc"
+        	picture = "Portrait_FRA_Pierre_Etienne_Flandin.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+            #
+        	}
+        }
+    }
+
+    option = { # Republican Federation Wins
+        name = taox_fra.1.c
+        ai_chance = {
+            factor = 17
+        }
+        retire_country_leader = yes
+        add_popularity = {
+          ideology = syncretic
+          popularity = 0.05
+        }
+        set_party_name = {
+          ideology = centre
+          long_name = "Fédération Républicaine"
+          name = "Fédération Républicaine"
+        }
+        create_country_leader = {
+            name = "Louis Marin"
+            desc = "FRA_Louis_Marin_desc"
+            picture = "Portrait_FRA_Louis_Marin.dds"
+            expire = "1965.1.1"
+            ideology = conservatism
+            traits = {
+            #
+            }
+        }
+    }
+}
