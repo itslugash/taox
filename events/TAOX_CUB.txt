@@ -1,0 +1,344 @@
+######################
+# TAOX Events - Cuba #
+######################
+
+add_namespace = taox_cub
+
+country_event = { # "General Election of 1936"
+    id = taox_cub.1
+    title = taox_cub.1.t
+    desc = taox_cub.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CUB = {
+    		exists = yes
+    	}
+    	tag = CUB
+
+    	has_government = centre
+
+        date > 1936.1.9
+        date < 1936.1.11
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Miguel Mariano Gómez"
+        name = taox_cub.1.a
+        ai_chance = {
+            base = 57
+        }
+
+        set_country_flag = taox_cub_1936_gomez
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Liberal de Cuba"
+        	name = "Partido Liberal"
+        }
+        create_country_leader = {
+        	name = "Miguel Mariano Gómez"
+        	desc = "CUB_Miguel_Mariano_Gomez_desc"
+        	picture = "Portrait_CUB_Miguel_Mariano_Gomez.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Mario García Menocal"
+        name = taox_cub.1.b
+        ai_chance = {
+            base = 43
+        }
+
+        set_country_flag = taox_cub_1936_menocal
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Conservador de Cuba"
+        	name = "Partido Conservador"
+        }
+        create_country_leader = {
+        	name = "Mario García Menocal"
+        	desc = "CUB_Mario_Garvia_Menocal_desc"
+        	picture = "Portrait_CUB_Mario_Garvia_Menocal.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1940"
+    id = taox_cub.2
+    title = taox_cub.2.t
+    desc = taox_cub.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CUB = {
+    		exists = yes
+    	}
+    	tag = CUB
+
+    	has_government = centre
+
+        date > 1940.7.13
+        date < 1940.7.15
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Fulgencio Batista"
+        name = taox_cub.2.a
+        ai_chance = {
+            base = 58
+        }
+
+        set_country_flag = taox_cub_1940_batista
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Independent"
+        	name = "Independent"
+        }
+        create_country_leader = {
+        	name = "Fulgencio Batista"
+        	desc = "CUB_Fulgencio_Batista_desc"
+        	picture = "Portrait_CUB_Fulgencio_Batista.dds"
+        	expire = "1965.1.1"
+        	ideology = centre_independent
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Ramón Grau"
+        name = taox_cub.2.b
+        ai_chance = {
+            base = 42
+        }
+
+        set_country_flag = taox_cub_1940_grau
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Auténtico"
+        	name = "Partido Auténtico"
+        }
+        create_country_leader = {
+        	name = "Ramón Grau"
+        	desc = "CUB_Ramon_Grau_desc"
+        	picture = "Portrait_CUB_Ramon_Grau.dds"
+        	expire = "1965.1.1"
+        	ideology = third_position
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1944"
+    id = taox_cub.3
+    title = taox_cub.3.t
+    desc = taox_cub.3.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CUB = {
+    		exists = yes
+    	}
+    	tag = CUB
+
+        date > 1944.5.31
+        date < 1944.6.2
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Ramón Grau"
+        name = taox_cub.3.a
+        ai_chance = {
+            base = 55
+        }
+
+        set_country_flag = taox_cub_1944_grau
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Auténtico"
+        	name = "Partido Auténtico"
+        }
+        create_country_leader = {
+        	name = "Ramón Grau"
+        	desc = "CUB_Ramon_Grau_desc"
+        	picture = "Portrait_CUB_Ramon_Grau.dds"
+        	expire = "1965.1.1"
+        	ideology = third_position
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Carlos Saladrigas Zayas"
+        name = taox_cub.3.b
+        ai_chance = {
+            base = 45
+        }
+
+        set_country_flag = taox_cub_1944_zayas
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Partido Socialista Popular"
+        	name = "PSP"
+        }
+        create_country_leader = {
+        	name = "Carlos Saladrigas Zayas"
+        	desc = "CUB_Carlos_Saladrigas_Zayas_desc"
+        	picture = "Portrait_CUB_Carlos_Saladrigas_Zayas.dds"
+        	expire = "1965.1.1"
+        	ideology = communism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1948"
+    id = taox_cub.4
+    title = taox_cub.4.t
+    desc = taox_cub.4.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CUB = {
+    		exists = yes
+    	}
+    	tag = CUB
+
+        date > 1948.5.31
+        date < 1948.6.2
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Carlos Prío Socarrás"
+        name = taox_cub.4.a
+        ai_chance = {
+            base = 48
+        }
+
+        set_country_flag = taox_cub_1948_socarras
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Auténtico"
+        	name = "Partido Auténtico"
+        }
+        create_country_leader = {
+        	name = "Carlos Prío Socarrás"
+        	desc = "CUB_Carlos_Prio_Socarras_desc"
+        	picture = "Portrait_CUB_Carlos_Prio_Socarras.dds"
+        	expire = "1965.1.1"
+        	ideology = third_position
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Emilio Núñez Portuondo"
+        name = taox_cub.4.b
+        ai_chance = {
+            base = 33
+        }
+
+        set_country_flag = taox_cub_1948_portuondo
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Liberal de Cuba"
+        	name = "Partido Liberal"
+        }
+        create_country_leader = {
+        	name = "Emilio Núñez Portuondo"
+        	desc = "CUB_Emilio_Nunez_Portuondo_desc"
+        	picture = "Portrait_CUB_Emilio_Nunez_Portuondo.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Eduardo Chibás"
+        name = taox_cub.4.c
+        ai_chance = {
+            base = 19
+        }
+
+        set_country_flag = taox_cub_1948_chibas
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Partido Ortodoxo"
+        	name = "Partido Ortodoxo"
+        }
+        create_country_leader = {
+        	name = "Eduardo Chibás"
+        	desc = "CUB_Eduardo_Chibas_desc"
+        	picture = "Portrait_CUB_Eduardo_Chibas.dds"
+        	expire = "1965.1.1"
+        	ideology = socialism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
