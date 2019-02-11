@@ -1,4 +1,4 @@
-﻿# Capital City
+﻿# Capital City [Testing]
 	capital = 267
 # Order of Battle
 	oob = "AFG_1936"
