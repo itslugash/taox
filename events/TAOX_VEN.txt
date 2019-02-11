@@ -4,7 +4,7 @@
 
 add_namespace = taox_ven
 
-country_event = { # "Presidential Election of 1941"
+country_event = { # "General Election of 1941"
     id = taox_ven.1
     title = taox_ven.1.t
     desc = taox_ven.1.d
@@ -79,7 +79,7 @@ country_event = { # "Presidential Election of 1941"
     }
 }
 
-country_event = { # "Presidential Election of 1947"
+country_event = { # "General Election of 1947"
     id = taox_ven.2
     title = taox_ven.2.t
     desc = taox_ven.2.d
