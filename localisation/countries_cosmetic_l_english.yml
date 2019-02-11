@@ -22,15 +22,35 @@
   ENG_RAJ_autonomy_autonomous_dependency_DEF:0 "India"
 
   ENG_SAF_autonomy_dependency:0 "Union of South Africa"
-  ENG_SAF_autonomy_dependency_DEF:0 "South African"
+  ENG_SAF_autonomy_dependency_DEF:0 "South Africa"
   ENG_SAF_autonomy_autonomous_dependency:0 "Union of South Africa"
-  ENG_SAF_autonomy_autonomous_dependency_DEF:0 "South African"
+  ENG_SAF_autonomy_autonomous_dependency_DEF:0 "South Africa"
 # F
 # G
+  GER_CZE_autonomy_reichskommisariat:0 "Reichskommisariat Böhmen und Mähren"
+  GER_CZE_autonomy_reichskommisariat_DEF:0 "Reichskommisariat Böhmen und Mähren"
+  GER_CZE_autonomy_reichsprotectorate:0 "Protectorate of Bohemia and Moravia"
+  GER_CZE_autonomy_reichsprotectorate_DEF:0 "the Protectorate of Bohemia and Moravia"
+
+  GER_DEN_autonomy_reichskommisariat:0 "Reichskommisariat Dänemark"
+  GER_DEN_autonomy_reichskommisariat_DEF:0 "Reichskommisariat Dänemark"
+  GER_DEN_autonomy_reichsprotectorate:0 "Kingdom of Denmark"
+  GER_DEN_autonomy_reichsprotectorate_DEF:0 "Denmark"
+  GER_DEN_autonomy_satellite:0 "Kingdom of Denmark"
+  GER_DEN_autonomy_satellite_DEF:0 "Denmark"
+
+  GER_SLO_reichskommisariat:0 "Reichskommisariat Slowakei"
+  GER_SLO_reichskommisariat_DEF:0 "Reichskommisariat Slowakei"
+  GER_SLO_reichsprotectorate:0 "Slovak State"
+  GER_SLO_reichsprotectorate_DEF:0 "Slovakia"
+  GER_SLO_autonomy_satellite:0 "Slovak State"
+  GER_SLO_autonomy_satellite_DEF:0 "Slovakia"
 # H
   HOL_INS_autonomy_dependency:0 "Dutch East Indies"
   HOL_INS_autonomy_dependency_DEF:0 "Indonesia"
 # I
+  ITA_ALB_autonomy_integrated_puppet:0 "Kingom of Albania"
+  ITA_ALB_autonomy_integrated_puppet_DEF:0 "Albanian"
 # J
 # K
 # L

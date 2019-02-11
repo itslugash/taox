@@ -47,11 +47,11 @@
 	# Right-Wing
 	# Syncretic
 		create_country_leader = {
-			name = "Mohammed Zahir Shah"
-			desc = "AFG_Mohammed_Zahir_Shah_desc"
-			picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+			name = "Mohammad Hashim Khan"
+			desc = "AFG_Mohammad_Hashim_Khan_desc"
+			picture = "Portrait_AFG_Mohammad_Hashim_Khan.dds"
 			expire = "1965.1.1"
-			ideology = monarchism
+			ideology = syncretic_independent
 			traits = {
 				#
 			}

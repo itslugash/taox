@@ -1,0 +1,158 @@
+###########################
+# TAOX Events - Argentina #
+###########################
+
+add_namespace = taox_arg
+
+country_event = { # "Presidential Election of 1937"
+    id = taox_arg.1
+    title = taox_arg.1.t
+    desc = taox_arg.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	ARG = {
+    		exists = yes
+    	}
+    	tag = ARG
+
+    	has_government = centre
+
+        date > 1937.9.4
+        date < 1937.9.6
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Marcelo Torcuato de Alvear"
+        name = taox_arg.1.a
+        ai_chance = {
+            base = 56
+        }
+
+        set_country_flag = taox_arg_1937_alvear
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Unión Cívica Radical"
+        	name = "Unión Cívica Radical"
+        }
+        create_country_leader = {
+        	name = "Roberto María Ortiz"
+        	desc = "ARG_Roberto_Maria_Ortize_desc"
+        	picture = "Portrait_ARG_Roberto_Maria_Ortiz.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Roberto María Ortiz"
+        name = taox_arg.1.b
+        ai_chance = {
+            base = 44
+        }
+
+        set_country_flag = taox_arg_1937_ortiz
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Demócrata Nacional"
+        	name = "PDN"
+        }
+        create_country_leader = {
+        	name = "Marcelo Torcuato de Alvear"
+        	desc = "ARG_Marcelo_Torcuato_de_Alvear_desc"
+        	picture = "Portrait_ARG_Marcelo_Torcuato_de_Alvear.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "Presidential Election of 1946"
+    id = taox_arg.2
+    title = taox_arg.2.t
+    desc = taox_arg.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	ARG = {
+    		exists = yes
+    	}
+    	tag = ARG
+
+    	has_government = centre
+
+        date > 1946.2.23
+        date < 1946.2.25
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "José Tamborini"
+        name = taox_arg.2.a
+        ai_chance = {
+            base = 55
+        }
+
+        set_country_flag = taox_arg_1946_tamborini
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Unión Cívica Radical"
+        	name = "Unión Cívica Radical"
+        }
+        create_country_leader = {
+        	name = "José Tamborini"
+        	desc = "ARG_Jose_Tamborini_desc"
+        	picture = "Portrait_ARG_Jose_Tamborini.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Juan Perón"
+        name = taox_arg.2.b
+        ai_chance = {
+            base = 45
+        }
+
+        set_country_flag = taox_arg_1946_peron
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Laborista"
+        	name = "Partido Laborista"
+        }
+        create_country_leader = {
+        	name = "Juan Perón"
+        	desc = "ARG_Juan_Peron_desc"
+        	picture = "Portrait_ARG_Juan_Peron.dds"
+        	expire = "1965.1.1"
+        	ideology = third_position
+        	traits = {
+        		#
+        	}
+        }
+    }
+}

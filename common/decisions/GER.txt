@@ -325,22 +325,29 @@ GER_case_anton_category = {
 }
 
 GER_reichskommissariats = {
-	GER_reichskommissariat_norwegen = {
+	
+	GER_reichskommissariat_belgien_nordfrankreich = {
 
 		icon = ger_reichskommissariats
 
 		available = {
 			has_completed_focus = GER_form_the_reichskommissariats
 			has_government = right-wing
-			controls_state = 110
-			controls_state = 142
-			controls_state = 143
-			controls_state = 144
+			controls_state = 6
+			controls_state = 29
+			controls_state = 34
 		}
 
 		cost = 0
+
 		ai_will_do = {
-			factor = 100
+			factor = 0
+			modifier = {
+				add = 1
+				ENG = {
+					has_capitulated = yes
+				}
+			}
 		}
 
 		visible = {
@@ -351,31 +358,28 @@ GER_reichskommissariats = {
 		complete_effect = {
 			if = {
 				limit = {
-					country_exists = NOR
+					country_exists = BEL
 				}
 				hidden_effect = {
-					NOR = {
-						set_state_controller = 110
-						set_state_controller = 142
-						set_state_controller = 143
-						set_state_controller = 144
+					BEL = {
+						set_state_controller = 6
+						set_state_controller = 34
 					}
 				}
-				NOR = {
+				BEL = {
 					start_civil_war = {
 						ideology = right-wing
-						size = 1
+						size = 1 
 					}
 				}
 				random_country = {
 					limit= {
-						original_tag = NOR
+						original_tag = BEL
 						has_government = right-wing
 					}
-					transfer_state = 110
-					transfer_state = 142
-					transfer_state = 143
-					transfer_state = 144
+					transfer_state = 6
+					transfer_state = 29
+					transfer_state = 34
 					GER = {
 						puppet = PREV
 						set_autonomy = {
@@ -383,30 +387,34 @@ GER_reichskommissariats = {
 							autonomy_state = autonomy_dependency
 						}
 					}
-					set_cosmetic_tag = GER_NOR
+					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
-						name = "Josef Terboven"
-						desc = "NOR_Josef_Terboven_desc"
-						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
+						name = "Josef Grohé"
+						desc = "GER_Josef_Grohe_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
 							#
 						}
 					}
+					hidden_effect = {
+						29 = {
+							add_core_of = PREV
+						}
+					}
 				}
 			}
 			else = {
-				NOR = {
-					transfer_state = 110
-					transfer_state = 142
-					transfer_state = 143
-					transfer_state = 144
-					set_cosmetic_tag = GER_NOR
+				BEL = {
+					transfer_state = 6
+					transfer_state = 29
+					transfer_state = 34
+					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
-						name = "Josef Terboven"
-						desc = "NOR_Josef_Terboven_desc"
-						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
+						name = "Josef Grohé"
+						desc = "GER_Josef_Grohe_desc"
+						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
@@ -415,7 +423,7 @@ GER_reichskommissariats = {
 					}
 				}
 				set_autonomy = {
-					target = NOR
+					target = BEL
 					autonomy_state = autonomy_dependency
 				}
 			}
@@ -523,28 +531,22 @@ GER_reichskommissariats = {
 		}
 	}
 
-	GER_reichskommissariat_belgien_nordfrankreich = {
+	GER_reichskommissariat_norwegen = {
 
 		icon = ger_reichskommissariats
 
 		available = {
 			has_completed_focus = GER_form_the_reichskommissariats
 			has_government = right-wing
-			controls_state = 6
-			controls_state = 29
-			controls_state = 34
+			controls_state = 110
+			controls_state = 142
+			controls_state = 143
+			controls_state = 144
 		}
 
 		cost = 0
-
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 1
-				ENG = {
-					has_capitulated = yes
-				}
-			}
+			factor = 100
 		}
 
 		visible = {
@@ -555,28 +557,31 @@ GER_reichskommissariats = {
 		complete_effect = {
 			if = {
 				limit = {
-					country_exists = BEL
+					country_exists = NOR
 				}
 				hidden_effect = {
-					BEL = {
-						set_state_controller = 6
-						set_state_controller = 34
+					NOR = {
+						set_state_controller = 110
+						set_state_controller = 142
+						set_state_controller = 143
+						set_state_controller = 144
 					}
 				}
-				BEL = {
+				NOR = {
 					start_civil_war = {
 						ideology = right-wing
-						size = 1 
+						size = 1
 					}
 				}
 				random_country = {
 					limit= {
-						original_tag = BEL
+						original_tag = NOR
 						has_government = right-wing
 					}
-					transfer_state = 6
-					transfer_state = 29
-					transfer_state = 34
+					transfer_state = 110
+					transfer_state = 142
+					transfer_state = 143
+					transfer_state = 144
 					GER = {
 						puppet = PREV
 						set_autonomy = {
@@ -584,34 +589,30 @@ GER_reichskommissariats = {
 							autonomy_state = autonomy_dependency
 						}
 					}
-					set_cosmetic_tag = BEL_reichskommissariat
+					set_cosmetic_tag = GER_NOR
 					create_country_leader = {
-						name = "Josef Grohé"
-						desc = "GER_Josef_Grohe_desc"
-						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
+						name = "Josef Terboven"
+						desc = "NOR_Josef_Terboven_desc"
+						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
 							#
 						}
 					}
-					hidden_effect = {
-						29 = {
-							add_core_of = PREV
-						}
-					}
 				}
 			}
 			else = {
-				BEL = {
-					transfer_state = 6
-					transfer_state = 29
-					transfer_state = 34
-					set_cosmetic_tag = BEL_reichskommissariat
+				NOR = {
+					transfer_state = 110
+					transfer_state = 142
+					transfer_state = 143
+					transfer_state = 144
+					set_cosmetic_tag = GER_NOR
 					create_country_leader = {
-						name = "Josef Grohé"
-						desc = "GER_Josef_Grohe_desc"
-						picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
+						name = "Josef Terboven"
+						desc = "NOR_Josef_Terboven_desc"
+						picture = "gfx/leaders/GER/Portrait_Josef_Terboven.dds"
 						expire = "1965.1.1"
 						ideology = fascism
 						traits = {
@@ -620,7 +621,7 @@ GER_reichskommissariats = {
 					}
 				}
 				set_autonomy = {
-					target = BEL
+					target = NOR
 					autonomy_state = autonomy_dependency
 				}
 			}

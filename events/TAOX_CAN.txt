@@ -1,0 +1,183 @@
+########################
+# TAOX Events - Canada #
+########################
+
+add_namespace = taox_can
+
+country_event = { # "Federal Election of 1940"
+    id = taox_can.1
+    title = taox_can.1.t
+    desc = taox_can.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CAN = {
+    		exists = yes
+    	}
+    	tag = CAN
+
+    	has_government = centre
+
+        date > 1940.3.25
+        date < 1940.3.27
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Robert James Manion"
+        name = taox_can.1.a
+        ai_chance = {
+            base = 39
+        }
+
+        set_country_flag = taox_can_1940_manion
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "National Government"
+        	name = "National Government"
+        }
+        create_country_leader = {
+        	name = "Robert James Manion"
+        	desc = "CAN_Robert_James_Manion_desc"
+        	picture = "Portrait_CAN_Robert_James_Manion.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "William Lyon Mackenzie King"
+        name = taox_can.1.b
+        ai_chance = {
+            base = 61
+        }
+
+        set_country_flag = taox_can_1940_king
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Liberal Party of Canada"
+        	name = "Liberal Party"
+        }
+        create_country_leader = {
+        	name = "William Lyon Mackenzie King"
+        	desc = "CAN_William_Lyon_Mackenzie_King_desc"
+        	picture = "Portrait_Canada_Mackenzie_King.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "Federal Election of 1945"
+    id = taox_can.2
+    title = taox_can.2.t
+    desc = taox_can.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	CAN = {
+    		exists = yes
+    	}
+    	tag = CAN
+
+    	has_government = centre
+
+        date > 1945.6.10
+        date < 1945.6.12
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "John Bracken"
+        name = taox_can.2.a
+        ai_chance = {
+            base = 33
+        }
+
+        set_country_flag = taox_can_1945_bracken
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Progressive Conservative Party of Canada"
+        	name = "PC"
+        }
+        create_country_leader = {
+        	name = "John Bracken"
+        	desc = "CAN_John_Bracken_desc"
+        	picture = "Portrait_CAN_John_Bracken.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Major James Coldwell"
+        name = taox_can.2.b
+        ai_chance = {
+            base = 22
+        }
+
+        set_country_flag = taox_can_1945_coldwell
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Co-operative Commonwealth Federation"
+        	name = "CCF"
+        }
+        create_country_leader = {
+        	name = "Major James Coldwell"
+        	desc = "CAN_Major_James_Coldwell_desc"
+        	picture = "Portrait_CAN_Major_James_Coldwell.dds"
+        	expire = "1965.1.1"
+        	ideology = socialism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "William Lyon Mackenzie King"
+        name = taox_can.2.c
+        ai_chance = {
+            base = 45
+        }
+
+        set_country_flag = taox_can_1945_king
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Liberal Party of Canada"
+        	name = "Liberal Party"
+        }
+        create_country_leader = {
+        	name = "William Lyon Mackenzie King"
+        	desc = "CAN_William_Lyon_Mackenzie_King_desc"
+        	picture = "Portrait_Canada_Mackenzie_King.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}

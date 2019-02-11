@@ -1,0 +1,162 @@
+#########################
+# TAOX Events - Bolivia #
+#########################
+
+add_namespace = taox_bol
+
+country_event = { # "General Election of 1940"
+    id = taox_bol.1
+    title = taox_bol.1.t
+    desc = taox_bol.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	BOL = {
+    		exists = yes
+    	}
+    	tag = BOL
+
+    	has_government = centre
+
+        date > 1940.9.4
+        date < 1940.9.6
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Enrique Peñaranda"
+        name = taox_bol.1.a
+        ai_chance = {
+            base = 87
+        }
+
+        set_country_flag = taox_bol_1940_penaranda
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Concordancia"
+        	name = "Concordancia"
+        }
+        create_country_leader = {
+        	name = "Enrique Peñaranda"
+        	desc = "BOL_Enrique_Penaranda_desc"
+        	picture = "Portrait_BOL_Enrique_Penaranda.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "José Antonio Arze"
+        name = taox_bol.1.b
+        ai_chance = {
+            base = 13
+        }
+
+        set_country_flag = taox_bol_1940_arze
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Partido de la Izquierda Revolucionaria"
+        	name = "PIR"
+        }
+        create_country_leader = {
+        	name = "José Antonio Arze"
+        	desc = "BOL_Jose_Antonio_Arze_desc"
+        	picture = "Portrait_BOL_Jose_Antonio_Arze.dds"
+        	expire = "1965.1.1"
+        	ideology = communism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1947"
+    id = taox_bol.2
+    title = taox_bol.2.t
+    desc = taox_bol.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	BOL = {
+    		exists = yes
+    	}
+    	tag = BOL
+
+        date > 1947.1.4
+        date < 1947.1.6
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Enrique Hertzog"
+        name = taox_bol.2.a
+        ai_chance = {
+            base = 50
+        }
+
+        set_country_flag = taox_bol_1947_Hertzog
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido de la Unión Republicana Socialista"
+        	name = "PURS"
+        }
+        create_country_leader = {
+        	name = "Enrique Hertzog"
+        	desc = "BOL_Enrique_Hertzog_desc"
+        	picture = "Portrait_BOL_Enrique_Hertzog.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Luis Fernando Guachalla"
+        name = taox_bol.2.b
+        ai_chance = {
+            base = 50
+        }
+
+        set_country_flag = taox_bol_1947_guachalla
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Liberal"
+        	name = "Partido Liberal"
+        }
+        create_country_leader = {
+        	name = "Luis Fernando Guachalla"
+        	desc = "BOL_Luis_Fernando_Guachalla_desc"
+        	picture = "Portrait_BOL_Luis_Fernando_Guachalla.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}

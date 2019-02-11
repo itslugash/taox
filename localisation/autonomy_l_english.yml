@@ -1,8 +1,23 @@
 ﻿l_english:
- autnomy_annex:0 "Annex"
- autonomy_dependency:0 "Dependency"
- autonomy_autonomous_dependency:0 "Autonomous Dependency"
- autonomy_free:0 "Free"
+  autonomy_annex:0 "Annexed"
+  autonomy_free:0 "Free"
+# Default (TAOX)
+  autonomy_integrated_dependency:0 "Integrated Dependency"
+  autonomy_dependency:0 "Dependency"
+  autonomy_autonomous_dependency:0 "Autonomous Dependency"
+# GER
+  autonomy_reichskommissariat:0 "Reichskommissariat"
+  autonomy_reichsprotectorate:0 "Reichsprotectorate"
+  autonomy_satellite:0 "Satellite"
+# JAP
+  autonomy_wtt_imperial_protectorate:0 "Imperial Protectorate"
+  autonomy_wtt_imperial_associate:0 "Imperial Associate"
+  autonomy_wtt_imperial_subject:0 "Imperial Subject"
+
+ autonomy_dominion:0 "Dominion"
+ autonomy_colony:0 "Colony"
+ autonomy_puppet:0 "Puppet"
+ autonomy_integrated_puppet:0 "Integrated Puppet"
  
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$ can become $NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$ can not become $NEXTLEVEL|H$ yet"

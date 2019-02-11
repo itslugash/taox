@@ -69,7 +69,7 @@
 		create_country_leader = {
 			name = "Thorvald Stauning"
 			desc = "DEN_Thorvald_Stauning_desc"
-			picture = "Portrait_DEN_Thorvald_Stauning.dds"
+			picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 			expire = "1965.1.1"
 			ideology = social_democracy
 			traits = {

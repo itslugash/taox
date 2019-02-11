@@ -1,0 +1,80 @@
+############################
+# TAOX Events - Costa Rica #
+############################
+
+add_namespace = taox_cos
+
+country_event = { # "General Election of 1936"
+    id = taox_cos.1
+    title = taox_cos.1.t
+    desc = taox_cos.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	COS = {
+    		exists = yes
+    	}
+    	tag = COS
+
+    	has_government = centre
+
+        date > 1936.2.8
+        date < 1936.2.10
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "León Cortés Castro"
+        name = taox_cos.1.a
+        ai_chance = {
+            base = 62
+        }
+
+        set_country_flag = taox_cos_1936_castro
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Republicano Nacional"
+        	name = "PRN"
+        }
+        create_country_leader = {
+        	name = "León Cortés Castro"
+        	desc = "COS_Leon_Cortes_Casto_desc"
+        	picture = "Portrait_COS_Leon_Cortes_Casto.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Octavio Béeche Argüello"
+        name = taox_cos.1.b
+        ai_chance = {
+            base = 38
+        }
+
+        set_country_flag = taox_cos_1936_arguello
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Nacional"
+        	name = "Partido Nacional"
+        }
+        create_country_leader = {
+        	name = "Octavio Béeche Argüello"
+        	desc = "COS_Octavio_Beeche_Arguello_desc"
+        	picture = "Portrait_COS_Octavio_Beeche_Arguello.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}

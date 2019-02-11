@@ -82,7 +82,7 @@
 		create_country_leader = {
 			name = "Hendrikus Colijn"
 			desc = "HOL_Hendrikus_Coljin_desc"
-			picture = "Portrait_HOL_Hendrikus_Coljin.dds"
+			picture = "portrait_hol_hendrikus_colijn.dds"
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {

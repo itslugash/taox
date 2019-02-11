@@ -1,0 +1,350 @@
+#########################
+# TAOX Events - Belgium #
+#########################
+
+add_namespace = taox_bel
+
+country_event = { # "General Election of 1936"
+    id = taox_bel.1
+    title = taox_bel.1.t
+    desc = taox_bel.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	BEL = {
+    		exists = yes
+    	}
+    	tag = BEL
+
+    	has_government = centre
+
+        date > 1936.5.23
+        date < 1936.5.25
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Emile Vandervelde"
+        name = taox_bel.1.a
+        ai_chance = {
+            base = 36
+        }
+
+        set_country_flag = taox_bel_1936_vandervelde
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Belgische Werkliedenpartij"
+        	name = "BWP"
+        }
+        create_country_leader = {
+        	name = "Emile Vandervelde"
+        	desc = "BEL_Emile_Vandervelde_desc"
+        	picture = "Portrait_BEL_Emile_Vandervelde.dds"
+        	expire = "1965.1.1"
+        	ideology = socialism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Léon Degrelle"
+        name = taox_bel.1.b
+        ai_chance = {
+            base = 16
+        }
+
+        set_country_flag = taox_bel_1936_degrelle
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = right-wing
+        }
+        set_party_name = {
+        	ideology = right-wing
+        	long_name = "Parti Rexiste"
+        	name = "Parti Rexiste"
+        }
+        create_country_leader = {
+        	name = "Léon Degrelle"
+        	desc = "BEL_Leon_Degrelle_desc"
+        	picture = "Portrait_BEL_Leon_Degrelle.dds"
+        	expire = "1965.1.1"
+        	ideology = nationalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Léon Dens"
+        name = taox_bel.1.c
+        ai_chance = {
+            base = 16
+        }
+
+        set_country_flag = taox_bel_1936_dens
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Liberale Partij"
+        	name = "Liberale Partij"
+        }
+        create_country_leader = {
+        	name = "Léon Dens"
+        	desc = "BEL_Leon_Dens_desc"
+        	picture = "Portrait_BEL_Leon_Dens.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Paul van Zeeland"
+        name = taox_bel.1.d
+        ai_chance = {
+            base = 32
+        }
+
+        set_country_flag = taox_bel_1936_zeeland
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Katholieke Partij"
+        	name = "Katholieke Partij"
+        }
+        create_country_leader = {
+        	name = "Paul van Zeeland"
+        	desc = "BEL_Paul_van_Zeeland_desc"
+        	picture = "Portrait_BEL_Paul_van_Zeeland.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1939"
+    id = taox_bel.2
+    title = taox_bel.2.t
+    desc = taox_bel.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	BEL = {
+    		exists = yes
+    	}
+    	tag = BEL
+
+        date > 1939.4.1
+        date < 1939.4.3
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Émile Coulonvaux"
+        name = taox_bel.2.a
+        ai_chance = {
+            base = 25
+        }
+
+        set_country_flag = taox_bel_1939_coulonvaux
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Liberale Partij"
+        	name = "Liberale Partij"
+        }
+        create_country_leader = {
+        	name = "Émile Coulonvaux"
+        	desc = "BEL_Emile_Coulonvaux_desc"
+        	picture = "Portrait_BEL_Emile_Coulonvaux.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Hubert Pierlot"
+        name = taox_bel.2.b
+        ai_chance = {
+            base = 38
+        }
+
+        set_country_flag = taox_bel_1939_pierlot
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Katholieke Partij"
+        	name = "Katholieke Partij"
+        }
+        create_country_leader = {
+        	name = "Hubert Pierlot"
+        	desc = "BEL_Hubert_Pierlot_desc"
+        	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Paul-Henri Spaak"
+        name = taox_bel.2.c
+        ai_chance = {
+            base = 37
+        }
+
+        set_country_flag = taox_bel_1939_spaak
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Belgische Werkliedenpartij"
+        	name = "BWP"
+        }
+        create_country_leader = {
+        	name = "Paul-Henri Spaak"
+        	desc = "BEL_Paul-Hebri_Spaak_desc"
+        	picture = "Portrait_BEL_Paul-Hebri_Spaak.dds"
+        	expire = "1965.1.1"
+        	ideology = socialism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1946"
+    id = taox_bel.3
+    title = taox_bel.3.t
+    desc = taox_bel.3.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	BEL = {
+    		exists = yes
+    	}
+    	tag = BEL
+
+        date > 1939.4.1
+        date < 1939.4.3
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Hubert Pierlot"
+        name = taox_bel.3.a
+        ai_chance = {
+            base = 47
+        }
+
+        set_country_flag = taox_bel_1946_pierlot
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = centre
+        }
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Katholieke Partij"
+        	name = "Katholieke Partij"
+        }
+        create_country_leader = {
+        	name = "Hubert Pierlot"
+        	desc = "BEL_Hubert_Pierlot_desc"
+        	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Julien Lahaut"
+        name = taox_bel.3.b
+        ai_chance = {
+            base = 17
+        }
+
+        set_country_flag = taox_bel_1946_lahaut
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Kommunistische Partij van België"
+        	name = "KPB"
+        }
+        create_country_leader = {
+        	name = "Julien Lahaut"
+        	desc = "BEL_Julien_Lahaut_desc"
+        	picture = "Portrait_BEL_Julien_Lahaut.dds"
+        	expire = "1965.1.1"
+        	ideology = communism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Paul-Henri Spaak"
+        name = taox_bel.3.c
+        ai_chance = {
+            base = 36
+        }
+
+        set_country_flag = taox_bel_1946_spaak
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = left-wing
+        }
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Belgische Socialistische Partij"
+        	name = "BSP"
+        }
+        create_country_leader = {
+        	name = "Paul-Henri Spaak"
+        	desc = "BEL_Paul-Hebri_Spaak_desc"
+        	picture = "Portrait_BEL_Paul-Hebri_Spaak.dds"
+        	expire = "1965.1.1"
+        	ideology = socialism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}

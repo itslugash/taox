@@ -12,7 +12,7 @@ ideas = {
 				has_government = centre
 			}
 			
-			picture = generic_democratic_drift_bonus
+			picture = generic_centre_drift_bonus
 
 			removal_cost = -1
 			
@@ -53,7 +53,7 @@ ideas = {
 				has_government = centre
 			}
 			
-			picture = generic_democratic_drift_bonus
+			picture = generic_centre_drift_bonus
 
 			removal_cost = -1
 			

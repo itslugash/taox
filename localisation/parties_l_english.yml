@@ -16,6 +16,14 @@
     centre:0 "Centre"
     centre_noun:0 "Centre Stance"
     centre_desc:0 "Democratic State"
+    # Social Democracy
+      social_democracy:0 "Social Democrat"
+      social_democracy_noun:0 "Social Democracy"
+      social_democracy_desc:0 "Social democracy is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a liberal democratic polity and capitalist economy. The protocols and norms used to accomplish this involve a commitment to representative and participatory democracy; measures for income redistribution and regulation of the economy in the general interest; and welfare state provisions. Social democracy thus aims to create the conditions for capitalism to lead to greater democratic, egalitarian and solidaristic outcomes."
+    # Liberalism
+      liberalism:0 "Liberal"
+      liberalism_noun:0 "Liberalism"
+      liberalism_desc:0 "Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender equality, racial equality, internationalism, freedom of speech, freedom of the press and freedom of religion."
     # Centrism
       centrism:0 "Centrist"
       centrism_noun:0 "Centrism"
@@ -28,30 +36,22 @@
       conservatism:0 "Conservative"
       conservatism_noun:0 "Conservatism"
       conservatism_desc:0 "Conservatism is a political and social philosophy promoting traditional social institutions in the context of culture and civilization. The central tenets of conservatism include tradition, human imperfection, organic solidarity, hierarchy, authority, and property rights. Conservatives seek to preserve a range of institutions such as monarchy, religion, parliamentary government, and property rights, with the aim of emphasizing social stability and continuity. The more extreme elements—reactionaries—oppose modernism and seek a return to "the way things were"."
-    # Liberalism
-      liberalism:0 "Liberal"
-      liberalism_noun:0 "Liberalism"
-      liberalism_desc:0 "Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender equality, racial equality, internationalism, freedom of speech, freedom of the press and freedom of religion."
-    # Social Democracy
-      social_democracy:0 "Social Democrat"
-      social_democracy_noun:0 "Social Democracy"
-      social_democracy_desc:0 "Social democracy is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a liberal democratic polity and capitalist economy. The protocols and norms used to accomplish this involve a commitment to representative and participatory democracy; measures for income redistribution and regulation of the economy in the general interest; and welfare state provisions. Social democracy thus aims to create the conditions for capitalism to lead to greater democratic, egalitarian and solidaristic outcomes."
   # Right-Wing
     right-wing:0 "Right-Wing"
     right-wing_noun:0 "Right-Wing Stance"
     right-wing_desc:0 "Authoritarian State"
-      # Nationalism
-        nationalism:0 "Nationalist"
-        nationalism_noun:0 "Nationalism"
-        nationalism_desc:0 "Nationalism is a political, social, and economic ideology and movement characterized by the promotion of the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty (self-governance) over its homeland. Nationalism holds that each nation should govern itself, free from outside interference (self-determination), that a nation is a natural and ideal basis for a polity, and that the nation is the only rightful source of political power (popular sovereignty). It further aims to build and maintain a single national identity—based on shared social characteristics such as culture, language, religion, politics, and belief in a shared singular history —and to promote national unity or solidarity. Nationalism, therefore, seeks to preserve and foster a nation's traditional culture, and cultural revivals have been associated with nationalist movements. It also encourages pride in national achievements, and is closely linked to patriotism."
-      # Reactionary
-        reactionary:0 "Reactionary"
-        reactionary_noun:0 "Reactionary"
-        reactionary_desc:0 "A reactionary is a person who holds political views that favor a return to the status quo ante, the previous political state of society, which he or she believes possessed characteristics (discipline, respect for authority, etc.) that are negatively absent from the contemporary status quo of a society."
-      # Fascism
-        fascism:0 "Fascist"
-        fascism_noun:0 "Fascism"
-        fascism_desc:0 "Fascism is a form of radical authoritarian ultranationalism, characterized by dictatorial power, forcible suppression of opposition and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe. Opposed to liberalism, Marxism and anarchism, fascism is placed on the far-right within the traditional left–right spectrum. Fascists believe that liberal democracy is obsolete and they regard the complete mobilization of society under a totalitarian one-party state as necessary to prepare a nation for armed conflict and to respond effectively to economic difficulties. Such a state is led by a strong leader—such as a dictator and a martial government composed of the members of the governing fascist party—to forge national unity and maintain a stable and orderly society. Fascism rejects assertions that violence is automatically negative in nature and views political violence, war and imperialism as means that can achieve national rejuvenation. Fascists advocate a mixed economy, with the principal goal of achieving autarky (national economic self-sufficiency) through protectionist and interventionist economic policies."
+    # Nationalism
+      nationalism:0 "Nationalist"
+      nationalism_noun:0 "Nationalism"
+      nationalism_desc:0 "Nationalism is a political, social, and economic ideology and movement characterized by the promotion of the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty (self-governance) over its homeland. Nationalism holds that each nation should govern itself, free from outside interference (self-determination), that a nation is a natural and ideal basis for a polity, and that the nation is the only rightful source of political power (popular sovereignty). It further aims to build and maintain a single national identity—based on shared social characteristics such as culture, language, religion, politics, and belief in a shared singular history —and to promote national unity or solidarity. Nationalism, therefore, seeks to preserve and foster a nation's traditional culture, and cultural revivals have been associated with nationalist movements. It also encourages pride in national achievements, and is closely linked to patriotism."
+    # Reactionary
+      reactionary:0 "Reactionary"
+      reactionary_noun:0 "Reactionary"
+      reactionary_desc:0 "A reactionary is a person who holds political views that favor a return to the status quo ante, the previous political state of society, which he or she believes possessed characteristics (discipline, respect for authority, etc.) that are negatively absent from the contemporary status quo of a society."
+    # Fascism
+      fascism:0 "Fascist"
+      fascism_noun:0 "Fascism"
+      fascism_desc:0 "Fascism is a form of radical authoritarian ultranationalism, characterized by dictatorial power, forcible suppression of opposition and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe. Opposed to liberalism, Marxism and anarchism, fascism is placed on the far-right within the traditional left–right spectrum. Fascists believe that liberal democracy is obsolete and they regard the complete mobilization of society under a totalitarian one-party state as necessary to prepare a nation for armed conflict and to respond effectively to economic difficulties. Such a state is led by a strong leader—such as a dictator and a martial government composed of the members of the governing fascist party—to forge national unity and maintain a stable and orderly society. Fascism rejects assertions that violence is automatically negative in nature and views political violence, war and imperialism as means that can achieve national rejuvenation. Fascists advocate a mixed economy, with the principal goal of achieving autarky (national economic self-sufficiency) through protectionist and interventionist economic policies."
   # Syncretic
     syncretic:0 "Syncretic"
     syncretic_noun:0 "Syncretic Stance"
@@ -91,7 +91,7 @@
     AFG_right-wing_party:0 "Nationalists"
     AFG_right-wing_party_desc:0 "Authoritarian State"
 
-    AFG_syncretic_party:0 "Barakzai Dynasty"
+    AFG_syncretic_party:0 "Independent"
     AFG_syncretic_party_desc:0 "Authoritarian State"
   # ALB - Albania
     ALB_left-wing_party:0 "Communists"

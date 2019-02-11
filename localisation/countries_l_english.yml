@@ -29,16 +29,16 @@
 
         ALB_ADJ:0 "Albanian"
     # ANG - Angola
-        ANG_centre:0 "Transitional Government of Angola"
+        ANG_centre:0 "Angola"
         ANG_centre_DEF:0 "Angola"
 
-        ANG_right-wing:0 "Transitional Government of Angola"
+        ANG_right-wing:0 "Angola"
         ANG_right-wing_DEF:0 "Angola"
 
-        ANG_left-wing:0 "Transitional Government of Angola"
+        ANG_left-wing:0 "Angola"
         ANG_left-wing_DEF:0 "Angola"
 
-        ANG_syncretic:0 "Transitional Government of Angola"
+        ANG_syncretic:0 "Angola"
         ANG_syncretic_DEF:0 "Angola"
 
         ANG_ADJ:0 "Angolan"
@@ -57,16 +57,16 @@
 
         ARG_ADJ:0 "Argentine"
     # ARM - Armenia
-        ARM_centre:0 "Transitional Government of Armenia"
+        ARM_centre:0 "Armenia"
         ARM_centre_DEF:0 "Armenia"
 
-        ARM_right-wing:0 "Transitional Government of Armenia"
+        ARM_right-wing:0 "Armenia"
         ARM_right-wing_DEF:0 "Armenia"
 
-        ARM_left-wing:0 "Transitional Government of Armenia"
+        ARM_left-wing:0 "Armenia"
         ARM_left-wing_DEF:0 "Armenia"
 
-        ARM_syncretic:0 "Transitional Government of Armenia"
+        ARM_syncretic:0 "Armenia"
         ARM_syncretic_DEF:0 "Armenia"
 
         ARM_ADJ:0 "Armenian"
@@ -99,16 +99,16 @@
 
         AUS_ADJ:0 "Austrian"
     # AZR - Azerbaijan
-        AZR_centre:0 "Transitional Government of Azerbaijan"
+        AZR_centre:0 "Azerbaijan"
         AZR_centre_DEF:0 "Azerbaijan"
 
-        AZR_right-wing:0 "Transitional Government of Azerbaijan"
+        AZR_right-wing:0 "Azerbaijan"
         AZR_right-wing_DEF:0 "Azerbaijan"
 
-        AZR_left-wing:0 "Transitional Government of Azerbaijan"
+        AZR_left-wing:0 "Azerbaijan"
         AZR_left-wing_DEF:0 "Azerbaijan"
 
-        AZR_syncretic:0 "Transitional Government of Azerbaijan"
+        AZR_syncretic:0 "Azerbaijan"
         AZR_syncretic_DEF:0 "Azerbaijan"
 
         AZR_ADJ:0 "Azerbaijani"
@@ -142,16 +142,16 @@
 
         BHU_ADJ:0 "Belgian"
     # BLR - Belarus
-        BHU_centre:0 "Transitional Government of Belarus"
+        BHU_centre:0 "Belarus"
         BHU_centre_DEF:0 "Belarus"
 
-        BHU_right-wing:0 "Transitional Government of Belarus"
+        BHU_right-wing:0 "Belarus"
         BHU_right-wing_DEF:0 "Belarus"
 
-        BHU_left-wing:0 "Transitional Government of Belarus"
+        BHU_left-wing:0 "Belarus"
         BHU_left-wing_DEF:0 "Belarus"
 
-        BHU_syncretic:0 "Transitional Government of Belarus"
+        BHU_syncretic:0 "Belarus"
         BHU_syncretic_DEF:0 "Belarus"
 
         BHU_ADJ:0 "Belarusian"
@@ -170,16 +170,16 @@
 
         BOL_ADJ:0 "Bolivian"
     # BOT - Botswana
-        BOT_centre:0 "Transitional Government of Botswana"
+        BOT_centre:0 "Botswana"
         BOT_centre_DEF:0 "Botswana"
 
-        BOT_right-wing:0 "Transitional Government of Botswana"
+        BOT_right-wing:0 "Botswana"
         BOT_right-wing_DEF:0 "Botswana"
 
-        BOT_left-wing:0 "Transitional Government of Botswana"
+        BOT_left-wing:0 "Botswana"
         BOT_left-wing_DEF:0 "Botswana"
 
-        BOT_syncretic:0 "Transitional Government of Botswana"
+        BOT_syncretic:0 "Botswana"
         BOT_syncretic_DEF:0 "Botswana"
 
         BOT_ADJ:0 "Batswana"
@@ -213,16 +213,16 @@
         BUL_ADJ:0 "Bulgarian"
 # C
     # CAM - Cambodia
-        CAM_centre:0 "Transitional Government of Cambodia"
+        CAM_centre:0 "Cambodia"
         CAM_centre_DEF:0 "Cambodia"
 
-        CAM_right-wing:0 "Transitional Government of Cambodia"
+        CAM_right-wing:0 "Cambodia"
         CAM_right-wing_DEF:0 "Cambodia"
 
-        CAM_left-wing:0 "Transitional Government of Cambodia"
+        CAM_left-wing:0 "Cambodia"
         CAM_left-wing_DEF:0 "Cambodia"
 
-        CAM_syncretic:0 "Transitional Government of Cambodia"
+        CAM_syncretic:0 "Cambodia"
         CAM_syncretic_DEF:0 "Cambodia"
 
         CAM_ADJ:0 "Cambodian"
@@ -269,16 +269,16 @@
 
         CHL_ADJ:0 "Chilean"
     # COG - Congo
-        COG_centre:0 "Transitional Government of the Congo"
+        COG_centre:0 "Congo"
         COG_centre_DEF:0 "the Congo"
 
-        COG_right-wing:0 "Transitional Government of the Congo"
+        COG_right-wing:0 "Congo"
         COG_right-wing_DEF:0 "the Congo"
 
-        COG_left-wing:0 "Transitional Government of the Congo"
+        COG_left-wing:0 "Congo"
         COG_left-wing_DEF:0 "the Congo"
 
-        COG_syncretic:0 "Transitional Government of the Congo"
+        COG_syncretic:0 "Congo"
         COG_syncretic_DEF:0 "the Congo"
 
         COG_ADJ:0 "Congolese"
@@ -311,16 +311,16 @@
 
         COS_ADJ:0 "Costa Rican"
     # CRO - Croatia
-        CRO_centre:0 "Transitional Government of Croatia"
+        CRO_centre:0 "Croatia"
         CRO_centre_DEF:0 "Croatia"
 
-        CRO_right-wing:0 "Transitional Government of Croatia"
+        CRO_right-wing:0 "Croatia"
         CRO_right-wing_DEF:0 "Croatia"
 
-        CRO_left-wing:0 "Transitional Government of Croatia"
+        CRO_left-wing:0 "Croatia"
         CRO_left-wing_DEF:0 "Croatia"
 
-        CRO_syncretic:0 "Transitional Government of Croatia"
+        CRO_syncretic:0 "Croatia"
         CRO_syncretic_DEF:0 "Croatia"
 
         CRO_ADJ:0 "Croatian"
@@ -473,7 +473,7 @@
         ETH_right-wing:0 "Ethiopian Empire"
         ETH_right-wing_DEF:0 "Ethiopia"
 
-        ETH_left-wing:0 "Transitional Government of Ethiopia"
+        ETH_left-wing:0 "Provisional Government of Ethiopia"
         ETH_left-wing_DEF:0 "Ethiopia"
 
         ETH_syncretic:0 "Ethiopian Empire"
@@ -511,16 +511,16 @@
         FRA_ADJ:0 "French"
 # G
     # GEO - Georgia
-        GEO_centre:0 "Transitional Government of Georgia"
+        GEO_centre:0 "Georgia"
         GEO_centre_DEF:0 "Georgia"
 
-        GEO_right-wing:0 "Transitional Government of Georgia"
+        GEO_right-wing:0 "Georgia"
         GEO_right-wing_DEF:0 "Georgia"
 
-        GEO_left-wing:0 "Transitional Government of Georgia"
+        GEO_left-wing:0 "Georgia"
         GEO_left-wing_DEF:0 "Georgia"
 
-        GEO_syncretic:0 "Transitional Government of Georgia"
+        GEO_syncretic:0 "Georgia"
         GEO_syncretic_DEF:0 "Georgia"
 
         GEO_ADJ:0 "Georgian"
@@ -653,16 +653,16 @@
 
         ICE_ADJ:0 "Icelandic"
     # INS - Indonesia
-        INS_centre:0 "Transitional Government of Indonesia"
+        INS_centre:0 "Indonesia"
         INS_centre_DEF:0 "Indonesia"
 
-        INS_right-wing:0 "Transitional Government of Indonesia"
+        INS_right-wing:0 "Indonesia"
         INS_right-wing_DEF:0 "Indonesia"
 
-        INS_left-wing:0 "Transitional Government of Indonesia"
+        INS_left-wing:0 "Indonesia"
         INS_left-wing_DEF:0 "Indonesia"
 
-        INS_syncretic:0 "Transitional Government of Indonesia"
+        INS_syncretic:0 "Indonesia"
         INS_syncretic_DEF:0 "Indonesia"
 
         INS_ADJ:0 "Indonesian"
@@ -695,16 +695,16 @@
 
         IRQ_ADJ:0 "Iraqi"
     # ISR - Israel
-        IRQ_centre:0 "Transitional Government of Israel"
+        IRQ_centre:0 "Israel"
         IRQ_centre_DEF:0 "Israel"
 
-        IRQ_right-wing:0 "Transitional Government of Israel"
+        IRQ_right-wing:0 "Israel"
         IRQ_right-wing_DEF:0 "Israel"
 
-        IRQ_left-wing:0 "Transitional Government of Israel"
+        IRQ_left-wing:0 "Israel"
         IRQ_left-wing_DEF:0 "Israel"
 
-        IRQ_syncretic:0 "Transitional Government of Israel"
+        IRQ_syncretic:0 "Israel"
         IRQ_syncretic_DEF:0 "Israel"
 
         IRQ_ADJ:0 "Israeli"
@@ -753,59 +753,59 @@
         JOR_ADJ:0 "Transjordanian"
 # K
     # KAZ - Kazakhstan
-        KAZ_centre:0 "Transitional Government of Kazakhstan"
+        KAZ_centre:0 "Kazakhstan"
         KAZ_centre_DEF:0 "Kazakhstan"
 
-        KAZ_right-wing:0 "Transitional Government of Kazakhstan"
+        KAZ_right-wing:0 "Kazakhstan"
         KAZ_right-wing_DEF:0 "Kazakhstan"
 
         KAZ_left-wing:0 "Provisional Government of Kazakhstan"
         KAZ_left-wing_DEF:0 "Kazakhstan"
 
-        KAZ_syncretic:0 "Transitional Government of Kazakhstan"
+        KAZ_syncretic:0 "Kazakhstan"
         KAZ_syncretic_DEF:0 "Kazakhstan"
 
         KAZ_ADJ:0 "Kazakhstani"
     # KEN - Kenya
-        KEN_centre:0 "Transitional Government of Kenya"
+        KEN_centre:0 "Kenya"
         KEN_centre_DEF:0 "Kenya"
 
-        KEN_right-wing:0 "Transitional Government of Kenya"
+        KEN_right-wing:0 "Kenya"
         KEN_right-wing_DEF:0 "Kenya"
 
         KEN_left-wing:0 "Provisional Government of Kenya"
         KEN_left-wing_DEF:0 "Kenya"
 
-        KEN_syncretic:0 "Transitional Government of Kenya"
+        KEN_syncretic:0 "Kenya"
         KEN_syncretic_DEF:0 "Kenya"
 
         KEN_ADJ:0 "Kenyan"
     # KOR - Korea
-        KEN_centre:0 "Transitional Government of Korea"
+        KEN_centre:0 "Korea"
         KEN_centre_DEF:0 "Korea"
 
-        KEN_right-wing:0 "Transitional Government of Korea"
+        KEN_right-wing:0 "Korea"
         KEN_right-wing_DEF:0 "Korea"
 
         KEN_left-wing:0 "Provisional Government of Korea"
         KEN_left-wing_DEF:0 "Korea"
 
-        KEN_syncretic:0 "Transitional Government of Korea"
+        KEN_syncretic:0 "Korea"
         KEN_syncretic_DEF:0 "Korea"
 
         KEN_ADJ:0 "Korean"
 # L
     # LAO - Laos
-        LAO_centre:0 "Transitional Government of Laos"
+        LAO_centre:0 "Laos"
         LAO_centre_DEF:0 "Laos"
 
-        LAO_right-wing:0 "Transitional Government of Laos"
+        LAO_right-wing:0 "Laos"
         LAO_right-wing_DEF:0 "Laos"
 
         LAO_left-wing:0 "Provisional Government of Laos"
         LAO_left-wing_DEF:0 "Laos"
 
-        LAO_syncretic:0 "Transitional Government of Laos"
+        LAO_syncretic:0 "Laos"
         LAO_syncretic_DEF:0 "Laos"
 
         LAO_ADJ:0 "Laotian"
@@ -824,30 +824,30 @@
 
         LAT_ADJ:0 "Latvian"
     # LBA - Libya
-        LBA_centre:0 "Transitional Government of Libya"
+        LBA_centre:0 "Libya"
         LBA_centre_DEF:0 "Libya"
 
-        LBA_right-wing:0 "Transitional Government of Libya"
+        LBA_right-wing:0 "Libya"
         LBA_right-wing_DEF:0 "Libya"
 
-        LBA_left-wing:0 "Transitional Government of Libya"
+        LBA_left-wing:0 "Libya"
         LBA_left-wing_DEF:0 "Libya"
 
-        LBA_syncretic:0 "Transitional Government of Libya"
+        LBA_syncretic:0 "Libya"
         LBA_syncretic_DEF:0 "Libya"
 
         LBA_ADJ:0 "Libyan"
     # LEB - Lebanon
-        LEB_centre:0 "Lebanese Republic"
+        LEB_centre:0 "Lebanon"
         LEB_centre_DEF:0 "Lebanon"
 
-        LEB_right-wing:0 "Lebanese Republic"
+        LEB_right-wing:0 "Lebanon"
         LEB_right-wing_DEF:0 "Lebanon"
 
-        LEB_left-wing:0 "Lebanese Republic"
+        LEB_left-wing:0 "Lebanon"
         LEB_left-wing_DEF:0 "Lebanon"
 
-        LEB_syncretic:0 "Lebanese Republic"
+        LEB_syncretic:0 "Lebanon"
         LEB_syncretic_DEF:0 "Lebanon"
 
         LEB_ADJ:0 "Lebanese"
@@ -895,16 +895,16 @@
         LUX_ADJ:0 "Luxembourgish"
 # M
     # MAL - Malaysia
-        MAL_centre:0 "Transitional Government of Malaysia"
+        MAL_centre:0 "Malaysia"
         MAL_centre_DEF:0 "Malaysia"
 
-        MAL_right-wing:0 "Transitional Government of Malaysia"
+        MAL_right-wing:0 "Malaysia"
         MAL_right-wing_DEF:0 "Malaysia"
 
-        MAL_left-wing:0 "Transitional Government of Malaysia"
+        MAL_left-wing:0 "Malaysia"
         MAL_left-wing_DEF:0 "Malaysia"
 
-        MAL_syncretic:0 "Transitional Government of Malaysia"
+        MAL_syncretic:0 "Malaysia"
         MAL_syncretic_DEF:0 "Malaysia"
 
         MAL_ADJ:0 "Malaysian"
@@ -951,16 +951,16 @@
 
         MEX_ADJ:0 "Mexican"
     # MNT - Montenegro
-        MNT_centre:0 "Transitional Government of Montenegro"
+        MNT_centre:0 "Montenegro"
         MNT_centre_DEF:0 "Montenegro"
 
-        MNT_right-wing:0 "Transitional Government of Montenegro"
+        MNT_right-wing:0 "Montenegro"
         MNT_right-wing_DEF:0 "Montenegro"
 
-        MNT_left-wing:0 "Transitional Government of Montenegro"
+        MNT_left-wing:0 "Montenegro"
         MNT_left-wing_DEF:0 "Montenegro"
 
-        MNT_syncretic:0 "Transitional Government of Montenegro"
+        MNT_syncretic:0 "Montenegro"
         MNT_syncretic_DEF:0 "Montenegro"
 
         MNT_ADJ:0 "Montenegrin"
@@ -979,16 +979,16 @@
 
         MON_ADJ:0 "Mongolian"
     # MZB - Mozambique
-        MZB_centre:0 "Transitional Government of Mozambique"
+        MZB_centre:0 "Mozambique"
         MZB_centre_DEF:0 "Mozambique"
 
-        MZB_right-wing:0 "Transitional Government of Mozambique"
+        MZB_right-wing:0 "Mozambique"
         MZB_right-wing_DEF:0 "Mozambique"
 
-        MZB_left-wing:0 "Transitional Government of Mozambique"
+        MZB_left-wing:0 "Mozambique"
         MZB_left-wing_DEF:0 "Mozambique"
 
-        MZB_syncretic:0 "Transitional Government of Mozambique"
+        MZB_syncretic:0 "Mozambique"
         MZB_syncretic_DEF:0 "Mozambique"
 
         MZB_ADJ:0 "Mozambican"
@@ -1066,30 +1066,30 @@
         OMA_ADJ:0 "Omani"
 # P
     # PAK - Pakistan
-        PAK_centre:0 "Transitional Government of Pakistan"
+        PAK_centre:0 "Pakistan"
         PAK_centre_DEF:0 "Pakistan"
 
-        PAK_right-wing:0 "Transitional Government of Pakistan"
+        PAK_right-wing:0 "Pakistan"
         PAK_right-wing_DEF:0 "Pakistan"
 
-        PAK_left-wing:0 "Transitional Government of Pakistan"
+        PAK_left-wing:0 "Pakistan"
         PAK_left-wing_DEF:0 "Pakistan"
 
-        PAK_syncretic:0 "Transitional Government of Pakistan"
+        PAK_syncretic:0 "Pakistan"
         PAK_syncretic_DEF:0 "Pakistan"
 
         PAK_ADJ:0 "Pakistani"
     # PAL - Palestine
-        PAL_centre:0 "Transitional Government of Palestine"
+        PAL_centre:0 "Palestine"
         PAL_centre_DEF:0 "Palestine"
 
-        PAL_right-wing:0 "Transitional Government of Palestine"
+        PAL_right-wing:0 "Palestine"
         PAL_right-wing_DEF:0 "Palestine"
 
-        PAL_left-wing:0 "Transitional Government of Palestine"
+        PAL_left-wing:0 "Palestine"
         PAL_left-wing_DEF:0 "Palestine"
 
-        PAL_syncretic:0 "Transitional Government of Palestine"
+        PAL_syncretic:0 "Palestine"
         PAL_syncretic_DEF:0 "Palestine"
 
         PAL_ADJ:0 "Palestinian"
@@ -1208,16 +1208,16 @@
 # Q
 # R
     # RAJ - British Raj
-        RAJ_centre:0 "Transitional Government of India"
+        RAJ_centre:0 "India"
         RAJ_centre_DEF:0 "India"
 
-        RAJ_right-wing:0 "Transitional Government of India"
+        RAJ_right-wing:0 "India"
         RAJ_right-wing_DEF:0 "India"
 
-        RAJ_left-wing:0 "Transitional Government of India"
+        RAJ_left-wing:0 "India"
         RAJ_left-wing_DEF:0 "India"
 
-        RAJ_syncretic:0 "Transitional Government of India"
+        RAJ_syncretic:0 "India"
         RAJ_syncretic_DEF:0 "India"
 
         RAJ_ADJ:0 "Indian"
@@ -1321,16 +1321,16 @@
 
         SIK_ADJ:0 "Xinjiang"
     # SLO - Slovakia
-        SLO_centre:0 "Transitional Government of Slovakia"
+        SLO_centre:0 "Slovakia"
         SLO_centre_DEF:0 "Slovakia"
 
-        SLO_right-wing:0 "Transitional Government of Slovakia"
+        SLO_right-wing:0 "Slovakia"
         SLO_right-wing_DEF:0 "Slovakia"
 
-        SLO_left-wing:0 "Transitional Government of Slovakia"
+        SLO_left-wing:0 "Slovakia"
         SLO_left-wing_DEF:0 "Slovakia"
 
-        SLO_syncretic:0 "Transitional Government of Slovakia"
+        SLO_syncretic:0 "Slovakia"
         SLO_syncretic_DEF:0 "Slovakia"
 
         SLO_ADJ:0 "Slovakian"
@@ -1392,31 +1392,31 @@
 
         SWI_ADJ:0 "Swiss"
     # SYR - Syria
-        SYR_centre:0 "Syrian Republic"
+        SYR_centre:0 "Syria"
         SYR_centre_DEF:0 "Syria"
 
-        SYR_right-wing:0 "Syrian Republic"
+        SYR_right-wing:0 "Syria"
         SYR_right-wing_DEF:0 "Syria"
 
-        SYR_left-wing:0 "Syrian Republic"
+        SYR_left-wing:0 "Syria"
         SYR_left-wing_DEF:0 "Syria"
 
-        SYR_syncretic:0 "Syrian Republic"
+        SYR_syncretic:0 "Syria"
         SYR_syncretic_DEF:0 "Syria"
 
         SYR_ADJ:0 "Syrian"
 # T
     # TAN - Tannu Tuva
-        TAN_centre:0 "Provisional Government of Tuva"
+        TAN_centre:0 "Tuva"
         TAN_centre_DEF:0 "Tuva"
 
-        TAN_right-wing:0 "Provisional Government of Tuva"
+        TAN_right-wing:0 "Tuva"
         TAN_right-wing_DEF:0 "Tuva"
 
         TAN_left-wing:0 "Tuvan People's Republic"
         TAN_left-wing_DEF:0 "Tuva"
 
-        TAN_syncretic:0 "Provisional Government of Tuva"
+        TAN_syncretic:0 "Tuva"
         TAN_syncretic_DEF:0 "Tuva"
 
         TAN_ADJ:0 "Tuvan"
@@ -1450,16 +1450,16 @@
         TUR_ADJ:0 "Turkish"
 # U
     # UKR - Ukraine
-        UKR_centre:0 "Transitional Government of Ukraine"
+        UKR_centre:0 "Ukraine"
         UKR_centre_DEF:0 "Ukraine"
 
-        UKR_right-wing:0 "Transitional Government of Ukraine"
+        UKR_right-wing:0 "Ukraine"
         UKR_right-wing_DEF:0 "Ukraine"
 
-        UKR_left-wing:0 "Transitional Government of Ukraine"
+        UKR_left-wing:0 "Ukraine"
         UKR_left-wing_DEF:0 "Ukraine"
 
-        UKR_syncretic:0 "Transitional Government of Ukraine"
+        UKR_syncretic:0 "Ukraine"
         UKR_syncretic_DEF:0 "Ukraine"
 
         UKR_ADJ:0 "Ukrainian"
@@ -1507,16 +1507,16 @@
 
         VEN_ADJ:0 "Venezuelan"
     # VIN - Vietnam
-        VIN_centre:0 "Transitional Government of Vietnam"
+        VIN_centre:0 "Vietnam"
         VIN_centre_DEF:0 "Vietnam"
 
-        VIN_right-wing:0 "Transitional Government of Vietnam"
+        VIN_right-wing:0 "Vietnam"
         VIN_right-wing_DEF:0 "Vietnam"
 
-        VIN_left-wing:0 "Transitional Government of Vietnam"
+        VIN_left-wing:0 "Vietnam"
         VIN_left-wing_DEF:0 "Vietnam"
 
-        VIN_syncretic:0 "Transitional Government of Vietnam"
+        VIN_syncretic:0 "Vietnam"
         VIN_syncretic_DEF:0 "Vietnam"
 
         VIN_ADJ:0 "Vietnamese"
@@ -1595,16 +1595,16 @@
         YUN_ADJ:0 "Yunnan"
 # Z
     # ZIM - Zimbabwe
-        ZIM_centre:0 "Transitional Government of Zimbabwe"
+        ZIM_centre:0 "Zimbabwe"
         ZIM_centre_DEF:0 "Zimbabwe"
 
-        ZIM_right-wing:0 "Transitional Government of Zimbabwe"
+        ZIM_right-wing:0 "Zimbabwe"
         ZIM_right-wing_DEF:0 "Zimbabwe"
 
-        ZIM_left-wing:0 "Transitional Government of Zimbabwe"
+        ZIM_left-wing:0 "Zimbabwe"
         ZIM_left-wing_DEF:0 "Zimbabwe"
 
-        ZIM_syncretic:0 "Transitional Government of Zimbabwe"
+        ZIM_syncretic:0 "Zimbabwe"
         ZIM_syncretic_DEF:0 "Zimbabwe"
 
         ZIM_ADJ:0 "Zimbabwean"

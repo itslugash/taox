@@ -1,11 +1,10 @@
-﻿###########################
-# Italian Events
-###########################
+﻿##################
+# Events - Italy #
+##################
 
 add_namespace = italy
 
-# Albania Yields
-country_event = {
+country_event = { # "Albania Yields"
 	id = italy.1
 	title = italy.1.t
 	desc = italy.1.d
@@ -15,16 +14,48 @@ country_event = {
 	
 	option = {
 		name = italy.1.a
-		annex_country = { target = ALB }
-		add_named_threat = { threat = 2 name = ITA_albania_war_goal }
+		set_autonomy = {
+			target = ALB
+			autonomous_state = autonomy_integrated_dependency
+		}
+		ALB = {
+			set_cosmetic_tag = ITA_ALB
+
+			set_politics = {					
+				ruling_party = right-wing
+				last_election = "1937.7.2"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_party_name = {
+				ideology = right-wing
+				long_name = "Partito Nazionale Fascista"
+				name = "PNF"
+			}
+			create_country_leader = {
+				name = "Francesco Jacomoni"
+				desc = "ITA_Francesco_Jacomoni_desc"
+				picture = "gfx/leaders/ITA/Portrait_ITA_Francesco_Jacomoni.dds"
+				expire = "1965.1.1"
+				ideology = fascism
+				traits = {
+					#
+				}
+			}
+		}
+		add_named_threat = {
+			threat = 2
+			name = ITA_albania_war_goal
+		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.22 }
+			country_event = {
+				days = 1 id = news.22
+			}
 		}
 	}
 }
 
-# Zog Rejects Ultimatum
-country_event = {
+country_event = { # "Zog Rejects the Ultimatum"
 	id = italy.2
 	title = italy.2.t
 	desc = italy.2.d
@@ -37,10 +68,15 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = ALB
-			generator = { 44 }
+			generator = {
+				44
+			}
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.23 }
+			country_event = {
+				days = 1
+				id = news.23
+			}
 		}
 	}
 }

@@ -1,3 +1,38 @@
+GER_CZE = { # Protectorate of Bohemia and Moravia
+	color = rgb {
+		115 115 115
+	}
+	color_ui = rgb {
+		122 145 93
+	}
+}
+
+GER_DEN = { # Kingdom of Denmark
+	color = rgb {
+		115 115 115
+	}
+	color_ui = rgb {
+		122 145 93
+	}
+}
+
+GER_DEN_kommisariat = { # Reichskommisariat Dänemark
+	color = rgb {
+		115 115 115
+	}
+	color_ui = rgb {
+		122 145 93
+	}
+}
+
+ITA_ALB = { # Kingom of Albania (Italy)
+    color = rgb {
+    	67 127 63
+    }
+    color_ui = rgb {
+    	67 127 63
+    }
+}
 
 MAL_UK = {
     color = rgb { 201 56 93 }
