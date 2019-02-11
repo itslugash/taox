@@ -1,0 +1,123 @@
+############################
+# TAOX Events - Yugoslavia #
+############################
+
+add_namespace = taox_yug
+
+country_event = { # "Parliamentary Election of 1938"
+    id = taox_yug.1
+    title = taox_yug.1.t
+    desc = taox_yug.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	YUG = {
+    		exists = yes
+    	}
+    	tag = YUG
+
+        date > 1938.11.30
+        date < 1938.12.2
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Milan Stojadinović"
+        name = taox_yug.1.a
+        ai_chance = {
+            base = 54
+        }
+
+        set_country_flag = taox_yug_1938_stojadinovic
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = right-wing
+        	long_name = "Jugoslovenska Radikalna Zajednica"
+        	name = "JRZ"
+        }
+        create_country_leader = {
+        	name = "Milan Stojadinović"
+        	desc = "YUG_Milan_Stojadinovic_desc"
+        	picture = "Portrait_YUG_Milan_Stojadinovic.dds"
+        	expire = "1965.1.1"
+        	ideology = fascism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Vladko Maček"
+        name = taox_yug.1.b
+        ai_chance = {
+            base = 46
+        }
+
+        set_country_flag = taox_yug_1938_macek
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Hrvatska Seljačka Stranka"
+        	name = "HSS"
+        }
+        create_country_leader = {
+        	name = "Vladko Maček"
+        	desc = "YUG_Vladko_Macek_desc"
+        	picture = "Portrait_YUG_Vladko_Macek.dds"
+        	expire = "1965.1.1"
+        	ideology = centrism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "Parliamentary Election of 1945"
+    id = taox_yug.2
+    title = taox_yug.2.t
+    desc = taox_yug.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	YUG = {
+    		exists = yes
+    	}
+    	tag = YUG
+
+        date > 1945.11.10
+        date < 1945.11.12
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Josip Broz Tito"
+        name = taox_yug.2.a
+
+        set_country_flag = taox_yug_1945_tito
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = left-wing
+        	long_name = "Savez Komunista Jugoslavije"
+        	name = "SKJ"
+        }
+        create_country_leader = {
+        	name = "Josip Broz Tito"
+        	desc = "YUG_Josip_Broz_Tito_desc"
+        	picture = "Portrait_YUG_Josip_Broz_Tito.dds"
+        	expire = "1965.1.1"
+        	ideology = communism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
