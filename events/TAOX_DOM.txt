@@ -1,0 +1,149 @@
+####################################
+# TAOX Events - Dominican Republic #
+####################################
+
+add_namespace = taox_dom
+
+country_event = { # "General Election of 1938"
+    id = taox_dom.1
+    title = taox_dom.1.t
+    desc = taox_dom.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	DOM = {
+    		exists = yes
+    	}
+    	tag = DOM
+
+        date > 1938.5.15
+        date < 1938.5.17
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Jacinto Peynado"
+        name = taox_dom.1.a
+
+        set_country_flag = taox_dom_1938_peynado
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Dominicano"
+        	name = "Partido Dominicano"
+        }
+        create_country_leader = {
+        	name = "Jacinto Peynado"
+        	desc = "DOM_Jacinto_Peynado_desc"
+        	picture = "Portrait_DOM_Jacinto_Peynado.dds"
+        	expire = "1965.1.1"
+        	ideology = authoritarianism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1942"
+    id = taox_dom.2
+    title = taox_dom.2.t
+    desc = taox_dom.2.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	DOM = {
+    		exists = yes
+    	}
+    	tag = DOM
+
+        date > 1942.5.15
+        date < 1942.5.17
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Jacinto Peynado"
+        name = taox_dom.2.a
+
+        set_country_flag = taox_dom_1942_peynado
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Dominicano"
+        	name = "Partido Dominicano"
+        }
+        create_country_leader = {
+        	name = "Rafael Trujillo"
+        	desc = "DOM_Rafael_Trujillo_desc"
+        	picture = "portrait_dom_rafael_trujillo.dds"
+        	expire = "1965.1.1"
+        	ideology = authoritarianism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
+
+country_event = { # "General Election of 1947"
+    id = taox_dom.3
+    title = taox_dom.3.t
+    desc = taox_dom.3.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	DOM = {
+    		exists = yes
+    	}
+    	tag = DOM
+
+        date > 1947.5.15
+        date < 1947.5.17
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Jacinto Peynado"
+        name = taox_dom.3.a
+
+        set_country_flag = taox_dom_1947_peynado
+        retire_country_leader = yes
+        set_politics = {
+        	ruling_party = syncretic
+        }
+        set_party_name = {
+        	ideology = syncretic
+        	long_name = "Partido Dominicano"
+        	name = "Partido Dominicano"
+        }
+        create_country_leader = {
+        	name = "Rafael Trujillo"
+        	desc = "DOM_Rafael_Trujillo_desc"
+        	picture = "portrait_dom_rafael_trujillo.dds"
+        	expire = "1965.1.1"
+        	ideology = authoritarianism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
