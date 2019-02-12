@@ -1,0 +1,80 @@
+#########################
+# TAOX Events - Ecuador #
+#########################
+
+add_namespace = taox_ecu
+
+country_event = { # "Presidential Election of 1937"
+    id = taox_ecu.1
+    title = taox_ecu.1.t
+    desc = taox_ecu.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+    trigger = {
+    	ECU = {
+    		exists = yes
+    	}
+    	tag = ECU
+
+    	has_government = centre
+
+        date > 1937.9.4
+        date < 1937.9.6
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = { # "Marcelo Torcuato de Alvear"
+        name = taox_ecu.1.a
+        ai_chance = {
+            base = 56
+        }
+
+        set_country_flag = taox_ecu_1937_alvear
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Unión Cívica Radical"
+        	name = "Unión Cívica Radical"
+        }
+        create_country_leader = {
+        	name = "Roberto María Ortiz"
+        	desc = "ECU_Roberto_Maria_Ortize_desc"
+        	picture = "Portrait_ECU_Roberto_Maria_Ortiz.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		#
+        	}
+        }
+    }
+
+    option = { # "Roberto María Ortiz"
+        name = taox_ecu.1.b
+        ai_chance = {
+            base = 44
+        }
+
+        set_country_flag = taox_ecu_1937_ortiz
+        retire_country_leader = yes
+        set_party_name = {
+        	ideology = centre
+        	long_name = "Partido Demócrata Nacional"
+        	name = "PDN"
+        }
+        create_country_leader = {
+        	name = "Marcelo Torcuato de Alvear"
+        	desc = "ECU_Marcelo_Torcuato_de_Alvear_desc"
+        	picture = "Portrait_ECU_Marcelo_Torcuato_de_Alvear.dds"
+        	expire = "1965.1.1"
+        	ideology = liberalism
+        	traits = {
+        		#
+        	}
+        }
+    }
+}
