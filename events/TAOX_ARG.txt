@@ -5,9 +5,9 @@
 add_namespace = taox_arg
 
 country_event = { # "Presidential Election of 1937"
-    id = taox_arg_1937_election
-    title = taox_arg_1937_election.t
-    desc = taox_arg_1937_election.d
+    id = taox_arg.1
+    title = taox_arg.1.t
+    desc = taox_arg.1.d
     picture = GFX_report_event_election_vote
 
     fire_only_once = yes
@@ -29,7 +29,7 @@ country_event = { # "Presidential Election of 1937"
     }
 
     option = { # "Roberto Marcelino Ortiz"
-        name = taox_arg_1937_election.a
+        name = taox_arg.1.a
         ai_chance = {
             base = 57
         }
@@ -60,7 +60,7 @@ country_event = { # "Presidential Election of 1937"
     }
 
     option = { # "Marcelo Torcuato de Alvear"
-        name = taox_arg_1937_election.b
+        name = taox_arg.1.b
         ai_chance = {
             base = 43
         }
