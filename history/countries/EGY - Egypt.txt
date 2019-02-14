@@ -35,7 +35,7 @@
 			}
 		}
 		
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1929.12.21"
 		election_frequency = 48
 		elections_allowed = no
@@ -63,9 +63,9 @@
 		}
 	# Right-Wing
 		create_country_leader = {
-			name = "Hassan al-Banna"
-			desc = "EGY_Hassan_al-Banna_desc"
-			picture = "Portrait_EGY_Hassan_al-Banna.dds"
+			name = "Mohamed Tawfik Naseem Pasha"
+			desc = "Mohamed_Tawfik_Naseem_Pasha_desc"
+			picture = "Portrait_Mohamed_Tawfik_Naseem_Pasha.dds"
 			ideology = reactionary
 			traits = {
 				#
