@@ -358,9 +358,9 @@ country_event = { # "Folketing Election of 1945"
 }
 
 country_event = { # "Folketing Election of 1947"
-    id = taox_den.3
-    title = taox_den.3.t
-    desc = taox_den.3.d
+    id = taox_den.4
+    title = taox_den.4.t
+    desc = taox_den.4.d
     picture = GFX_report_event_election_vote
 
     fire_only_once = yes
