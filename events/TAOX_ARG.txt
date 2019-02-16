@@ -13,15 +13,18 @@ country_event = { # "Presidential Election of 1937"
     fire_only_once = yes
 
     trigger = {
+        date > 1937.9.4
+        date < 1937.9.6
+
     	ARG = {
     		exists = yes
     	}
-    	tag = ARG
+    	original_tag = ARG
 
-    	has_government = centre
-
-        date > 1937.9.4
-        date < 1937.9.6
+    	has_country_leader = {
+            name = "Agustín Pedro Justo"
+            ruling_only = yes
+        }
     }
 
     mean_time_to_happen = {
