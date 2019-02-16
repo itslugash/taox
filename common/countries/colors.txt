@@ -533,7 +533,7 @@
 		color_ui = rgb { 252 182 112 }
 	}
 # TAOX
-	ENG = {
+	DAN = {
 		color = rgb { 189 191 232 }
 		color_ui = rgb { 189 191 232 }
 	}
