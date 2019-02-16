@@ -353,6 +353,20 @@
 
         CZE_ADJ:0 "Czechoslovak"
 # D
+    # DAN - Danzig
+        DAN_centre:0 "Free City of Danzig"
+        DAN_centre_DEF:0 "Danzig"
+
+        DAN_right-wing:0 "Free City of Danzig"
+        DAN_right-wing_DEF:0 "Danzig"
+
+        DAN_left-wing:0 "Free City of Danzig"
+        DAN_left-wing_DEF:0 "Danzig"
+
+        DAN_syncretic:0 "Free City of Danzig"
+        DAN_syncretic_DEF:0 "Danzig"
+
+        DAN_ADJ:0 "Danziger"
     # DDR - East Germany
         DDR_centre:0 "German Democratic Republic"
         DDR_centre_DEF:0 "East Germany"

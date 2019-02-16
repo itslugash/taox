@@ -1,0 +1,6 @@
+######################################
+# TAOX Capitulation Events - Germany #
+######################################
+
+add_namespace = taox_ger_cap
+

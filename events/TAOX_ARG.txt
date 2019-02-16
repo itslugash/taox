@@ -19,7 +19,7 @@ country_event = { # "Presidential Election of 1937"
     	ARG = {
     		exists = yes
     	}
-    	original_tag = ARG
+    	tag = ARG
 
     	has_country_leader = {
             name = "Agustín Pedro Justo"
