@@ -1,0 +1,28 @@
+﻿state = {
+    id = 763
+    name = "STATE_763"
+    manpower = 410000
+    state_category = city
+
+    provinces = {
+        362
+    }
+
+    history = {
+        owner = DAN
+        add_core_of = DAN
+
+        victory_points = {
+            362 10
+        }
+
+        buildings = {
+            infrastructure = 6
+            arms_factory = 1
+            industrial_complex = 1
+            362 = {
+                naval_base = 6
+            }
+        }
+    }
+}
