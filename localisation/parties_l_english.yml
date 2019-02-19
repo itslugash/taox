@@ -369,6 +369,18 @@
     CZE_syncretic_party:0 "Monarchists"
     CZE_syncretic_party_desc:0 "Authoritarian State"
 # D
+  # DAN - Danzig
+    DAN_left-wing_party:0 "KPD"
+    DAN_left-wing_party_long:0 "Kommunistische Partei Deutschlands"
+    DAN_left-wing_party_desc:0 "Democratic State"
+
+    DAN_centre_party:0 "SDPFSD"
+    DAN_centre_party_long:0 "Sozialdemokratische Partei der Freien Stadt Danzig"
+    DAN_centre_party_desc:0 "Democratic State"
+
+    DAN_right-wing_party:0 "NSDAP"
+    DAN_right-wing_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+    DAN_right-wing_party_desc:0 "Democratic State"
   # DEN - Denmark
     DEN_left-wing_party:0 "DKP"
     DEN_left-wing_party_long:0 "Danmarks Kommunistiske Parti"

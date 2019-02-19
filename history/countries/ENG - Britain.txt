@@ -58,7 +58,11 @@
 	# Puppets
 		if = {
 			limit = {
-				has_dlc = "Together for Victory"
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Death or Dishonor"
+					has_dlc = "Waking the Tiger"
+				}
 			}
 			set_autonomy = {
 				target = EGY
@@ -102,9 +106,12 @@
 	# Tech Sharing
 		if = {
 			limit = {
-				has_dlc = "Together for Victory"
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Death or Dishonor"
+					has_dlc = "Waking the Tiger"
+				}
 			}
-
 			add_to_tech_sharing_group = commonwealth_research
 		}
 # Set Politics

@@ -1,5 +1,5 @@
 ﻿# Capital City
-	capital = 999
+	capital = 763
 # Order of Battle
 	oob = "DAN_1936"
 # Research Slots
@@ -58,9 +58,9 @@
 	# Centre
 	# Right-Wing
 		create_country_leader = {
-			name = "Albert Forster"
-			desc = "DAN_Albert_Forster_desc"
-			picture = "Portrait_DAN_Albert_Forster.dds"
+			name = "Arthur Greiser"
+			desc = "DAN_Arthur_Greiser_desc"
+			picture = "Portrait_DAN_Arthur_Greiser.dds"
 			expire = "1965.1.1"
 			ideology = fascism
 			traits = {
