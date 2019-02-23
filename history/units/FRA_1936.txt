@@ -1182,7 +1182,7 @@ units = {
 ### Air Wings
 air_wings = {
 	# Z.d'Op. Aériennes Nord -- Lille
-	29 = { 
+	766 = { 
 		# Groupement de Chasse 21 
 		# Groupement de Chasse 23
 		fighter_equipment_0 = {

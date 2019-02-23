@@ -1,43 +1,57 @@
-GER_CZE = { # Protectorate of Bohemia and Moravia
-	color = rgb {
-		115 115 115
-	}
-	color_ui = rgb {
-		122 145 93
-	}
-}
-
-GER_DEN = { # Kingdom of Denmark
-	color = rgb {
-		115 115 115
-	}
-	color_ui = rgb {
-		122 145 93
-	}
-}
-
-GER_DEN_kommisariat = { # Reichskommisariat Dänemark
-	color = rgb {
-		115 115 115
-	}
-	color_ui = rgb {
-		122 145 93
-	}
-}
-
-ITA_ALB = { # Kingom of Albania (Italy)
-    color = rgb {
-    	67 127 63
-    }
-    color_ui = rgb {
-    	67 127 63
-    }
-}
-
-MAL_UK = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
-}
+# E
+	# ENG - England
+		ENG_MAL = { # British Malaya
+			color = rgb {
+				193 26 14
+			}
+			color_ui = rgb {
+				193 26 14
+			}
+		}
+		ENG_RAJ = { # British Raj
+			color = rgb {
+				193 26 14
+			}
+			color_ui = rgb {
+				193 26 14
+			}
+		}
+# G
+	# GER - Germany
+		GER_BEL = { # Reichskommissariat Belgien-Nordfrankreich/Kingdom of Belgium
+			color = rgb {
+				115 115 115
+			}
+			color_ui = rgb {
+				122 145 93
+			}
+		}
+		GER_CZE = { # Protectorate of Bohemia and Moravia
+			color = rgb {
+				115 115 115
+			}
+			color_ui = rgb {
+				122 145 93
+			}
+		}
+		GER_DEN = { # Kingdom of Denmark
+			color = rgb {
+				115 115 115
+			}
+			color_ui = rgb {
+				122 145 93
+			}
+		}
+# I
+	# ITA - Italy
+		ITA_ALB = { # Kingom of Albania (Italy)
+		    color = rgb {
+		    	67 127 63
+		    }
+		    color_ui = rgb {
+		    	67 127 63
+		    }
+		}
 
 HOL_INS = {
     color = rgb { 203 138 74 }

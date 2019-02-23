@@ -537,3 +537,11 @@
 		color = rgb { 189 191 232 }
 		color_ui = rgb { 189 191 232 }
 	}
+	SCO = {
+		color = rgb { 199 175 12 }
+		color_ui = rgb { 199 175 12 }
+	}
+	WAL = {
+		color = rgb { 117 127 174 }
+		color_ui = rgb { 117 127 174 }
+	}

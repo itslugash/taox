@@ -359,6 +359,7 @@
 			}
 		}
 	}
+}
 add_ideas = {
 	victor_emmanuel
 	vittoria_mutilata

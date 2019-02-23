@@ -4,53 +4,56 @@
 # C
 # D
 # E
-  ENG_AST_autonomy_autonomous_dependency:0 "Dominion of Australia"
-  ENG_AST_autonomy_autonomous_dependency_DEF:0 "Australia"
+  # ENG - England
+    ENG_AST_autonomy_autonomous_dependency:0 "Dominion of Australia"
+    ENG_AST_autonomy_autonomous_dependency_DEF:0 "Australia"
 
-  ENG_CAN_autonomy_autonomous_dependency:0 "Dominion of Canada"
-  ENG_CAN_autonomy_autonomous_dependency_DEF:0 "Canada"
+    ENG_CAN_autonomy_autonomous_dependency:0 "Dominion of Canada"
+    ENG_CAN_autonomy_autonomous_dependency_DEF:0 "Canada"
 
-  ENG_MAL_autonomy_dependency:0 "British Malaya"
-  ENG_MAL_autonomy_dependency_DEF:0 "Malaya"
+    ENG_MAL_autonomy_dependency:0 "British Malaya"
+    ENG_MAL_autonomy_dependency_DEF:0 "Malaya"
 
-  ENG_NZL_autonomy_autonomous_dependency:0 "Dominion of New Zealand"
-  ENG_NZL_autonomy_autonomous_dependency_DEF:0 "New Zealand"
+    ENG_NZL_autonomy_autonomous_dependency:0 "Dominion of New Zealand"
+    ENG_NZL_autonomy_autonomous_dependency_DEF:0 "New Zealand"
 
-  ENG_RAJ_autonomy_dependency:0 "British Raj"
-  ENG_RAJ_autonomy_dependency_DEF:0 "India"
-  ENG_RAJ_autonomy_autonomous_dependency:0 "Dominion of India"
-  ENG_RAJ_autonomy_autonomous_dependency_DEF:0 "India"
+    ENG_RAJ_autonomy_dependency:0 "British Raj"
+    ENG_RAJ_autonomy_dependency_DEF:0 "India"
+    ENG_RAJ_autonomy_autonomous_dependency:0 "Dominion of India"
+    ENG_RAJ_autonomy_autonomous_dependency_DEF:0 "India"
 
-  ENG_SAF_autonomy_dependency:0 "Union of South Africa"
-  ENG_SAF_autonomy_dependency_DEF:0 "South Africa"
-  ENG_SAF_autonomy_autonomous_dependency:0 "Union of South Africa"
-  ENG_SAF_autonomy_autonomous_dependency_DEF:0 "South Africa"
+    ENG_SAF_autonomy_dependency:0 "Union of South Africa"
+    ENG_SAF_autonomy_dependency_DEF:0 "South Africa"
+    ENG_SAF_autonomy_autonomous_dependency:0 "Union of South Africa"
+    ENG_SAF_autonomy_autonomous_dependency_DEF:0 "South Africa"
 # F
 # G
-  GER_CZE_autonomy_reichskommisariat:0 "Reichskommisariat Böhmen und Mähren"
-  GER_CZE_autonomy_reichskommisariat_DEF:0 "Reichskommisariat Böhmen und Mähren"
-  GER_CZE_autonomy_reichsprotectorate:0 "Protectorate of Bohemia and Moravia"
-  GER_CZE_autonomy_reichsprotectorate_DEF:0 "the Protectorate of Bohemia and Moravia"
+  # GER - Germany
+    GER_BEL_autonomy_integrated_dependency:0 "Reichskommissariat Belgien-Nordfrankreich"
+    GER_BEL_autonomy_integrated_dependency_DEF:0 "Belgian"
+    
+    GER_CZE_autonomy_integrated_dependency:0 "Protektorat Böhmen und Mähren"
+    GER_CZE_autonomy_integrated_dependency_DEF:0 "Bohemia"
 
-  GER_DEN_autonomy_reichskommisariat:0 "Reichskommisariat Dänemark"
-  GER_DEN_autonomy_reichskommisariat_DEF:0 "Reichskommisariat Dänemark"
-  GER_DEN_autonomy_reichsprotectorate:0 "Kingdom of Denmark"
-  GER_DEN_autonomy_reichsprotectorate_DEF:0 "Denmark"
-  GER_DEN_autonomy_satellite:0 "Kingdom of Denmark"
-  GER_DEN_autonomy_satellite_DEF:0 "Denmark"
+    GER_ENG_independent_left-wing:0 "England"
+    GER_ENG_independent_left-wing_DEF:0 "English"
+    GER_ENG_independent_centre:0 "England"
+    GER_ENG_independent_centre_DEF:0 "English"
+    GER_ENG_independent_right-wing:0 "England"
+    GER_ENG_independent_right-wing_DEF:0 "English"
+    GER_ENG_independent_syncretic:0 "England"
+    GER_ENG_independent_syncretic_DEF:0 "English"
 
-  GER_SLO_reichskommisariat:0 "Reichskommisariat Slowakei"
-  GER_SLO_reichskommisariat_DEF:0 "Reichskommisariat Slowakei"
-  GER_SLO_reichsprotectorate:0 "Slovak State"
-  GER_SLO_reichsprotectorate_DEF:0 "Slovakia"
-  GER_SLO_autonomy_satellite:0 "Slovak State"
-  GER_SLO_autonomy_satellite_DEF:0 "Slovakia"
+    GER_SLO_autonomy_dependency:0 "Slovak State"
+    GER_SLO_autonomy_dependency_DEF:0 "Slovakia"
 # H
-  HOL_INS_autonomy_dependency:0 "Dutch East Indies"
-  HOL_INS_autonomy_dependency_DEF:0 "Indonesia"
+    # HOL - Holland
+      HOL_INS_autonomy_dependency:0 "Dutch East Indies"
+      HOL_INS_autonomy_dependency_DEF:0 "Indonesia"
 # I
-  ITA_ALB_autonomy_integrated_puppet:0 "Kingom of Albania"
-  ITA_ALB_autonomy_integrated_puppet_DEF:0 "Albanian"
+    # ITA - Italy
+      ITA_ALB_autonomy_integrated_puppet:0 "Kingom of Albania"
+      ITA_ALB_autonomy_integrated_puppet_DEF:0 "Albanian"
 # J
 # K
 # L

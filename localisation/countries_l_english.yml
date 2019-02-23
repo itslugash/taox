@@ -1278,6 +1278,20 @@
         SAU_syncretic_DEF:0 "Saudi Arabia"
 
         TUR_ADJ:0 "Saudi Arabian"
+    # SCO - Scotland
+        SCO_centre:0 "Scotland"
+        SCO_centre_DEF:0 "Scotland"
+
+        SCO_right-wing:0 "Scotland"
+        SCO_right-wing_DEF:0 "Scotland"
+
+        SCO_left-wing:0 "Scotland"
+        SCO_left-wing_DEF:0 "Scotland"
+
+        SCO_syncretic:0 "Scotland"
+        SCO_syncretic_DEF:0 "Scotland"
+
+        SCO_ADJ:0 "Scottish"
     # SER - Serbia
         SER_centre:0 "Transitional Government of Serbia"
         SER_centre_DEF:0 "Serbia"
@@ -1535,6 +1549,20 @@
 
         VIN_ADJ:0 "Vietnamese"
 # W
+    # WAL - Wales
+        WAL_centre:0 "Wales"
+        WAL_centre_DEF:0 "Wales"
+
+        WAL_right-wing:0 "Wales"
+        WAL_right-wing_DEF:0 "Wales"
+
+        WAL_left-wing:0 "Wales"
+        WAL_left-wing_DEF:0 "Wales"
+
+        WAL_syncretic:0 "Wales"
+        WAL_syncretic_DEF:0 "Wales"
+
+        WAL_ADJ:0 "Welsh"
     # WGR - West Germany
         WGR_centre:0 "Federal Republic of Germany"
         WGR_centre_DEF:0 "West Germany"

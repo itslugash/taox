@@ -37,11 +37,11 @@
 
 		parties = {
 			left-wing = {
-				popularity = 47.03
+				popularity = 48.52
 			}
 
 			centre = { 
-				popularity = 6.49
+				popularity = 25
 			}
 
 			right-wing = {
@@ -72,9 +72,9 @@
 		}
 	# Centre
 		create_country_leader = {
-			name = "Manuel Portela Valladares"
-			desc = "SPR_Manuel_Portela_Valladares_desc"
-			picture = "Portrait_SPR_Manuel_Portela_Valladares.dds"
+			name = "Manuel Portela"
+			desc = "SPR_Manuel_Portela_desc"
+			picture = "Portrait_SPR_Manuel_Portela.dds"
 			expire = "1965.1.1"
 			ideology = centre_independent
 			traits = {

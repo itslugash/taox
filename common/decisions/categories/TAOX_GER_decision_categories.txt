@@ -1,0 +1,14 @@
+#############################
+# TAOX Categories - Germany #
+#############################
+
+military_occupation_category = {
+	icon = military_operation
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+	}
+}

@@ -114,3 +114,5 @@
 	PHI = "countries/Philippines.txt"
 # TAOX
 	DAN = "countries/Danzig.txt"
+	SCO = "countries/Scotland.txt"
+	WAL = "countries/Wales.txt"

@@ -1,0 +1,2136 @@
+﻿####################################
+# TAOX Occupation Events - Germany #
+####################################
+
+add_namespace = taox_ger_occupied
+
+country_event = { # "The Occupation of Belgium"
+	id = taox_ger_occupied.9
+	title = taox_ger_occupied.9.t
+	desc = taox_ger_occupied.9.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {# "Establish a German civil administration"
+		name = taox_ger_occupied.9.a
+
+		if = { # States Controlled
+			limit = {
+				country_exists = BEL
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 6
+					}
+				}
+				BEL = {
+					transfer_state = 6
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 34
+					}
+				}
+				BEL = {
+					transfer_state = 34
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 765
+					}
+				}
+				BEL = {
+					remove_state_core = 765
+				}
+				GER = {
+					add_state_core = 765
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 766
+					}
+				}
+				BEL = {
+					add_state_core = 766
+					transfer_state = 766
+				}
+			}
+			BEL = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+
+			random_country = {
+				limit = {
+					original_tag = BEL
+					has_government = right-wing
+				}
+				GER = {
+					set_autonomy = {
+						target = BEL
+						autonomy_state = autonomy_integrated_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_BEL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 34.21
+						}
+
+						centre = {
+							popularity = 53.14
+						}
+
+						right-wing = {
+							popularity = 12.65
+						}
+
+						syncretic = {
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				set_party_name = {
+					ideology = right-wing
+					long_name = "Nationalsozialistische Deutsche Arbeiterpartei"
+					name = "NSDAP"
+				}
+				create_country_leader = {
+					name = "Josef Grohé"
+					desc = "GER_Josef_Grohe_desc"
+					picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					GER = {
+						owns_state = 6
+					}
+				}
+				BEL = {
+					transfer_state = 6
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 34
+					}
+				}
+				BEL = {
+					transfer_state = 34
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 765
+					}
+				}
+				BEL = {
+					remove_state_core = 765
+				}
+				GER = {
+					add_state_core = 765
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 766
+					}
+				}
+				BEL = {
+					transfer_state = 766
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = BEL
+					autonomy_state = autonomy_integrated_dependency
+				}
+			}
+			BEL = {
+				set_cosmetic_tag = GER_BEL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 34.21
+						}
+
+						centre = {
+							popularity = 53.14
+						}
+
+						right-wing = {
+							popularity = 12.65
+						}
+
+						syncretic = {
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				set_party_name = {
+					ideology = right-wing
+					long_name = "Nationalsozialistische Deutsche Arbeiterpartei"
+					name = "NSDAP"
+				}
+				create_country_leader = {
+					name = "Josef Grohé"
+					desc = "GER_Josef_Grohe_desc"
+					picture = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+	}
+	option = {# "Permit local governance under our occupation"
+		name = taox_ger_occupied.9.b
+
+		if = { # States Controlled
+			limit = {
+				country_exists = BEL
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 6
+					}
+				}
+				BEL = {
+					transfer_state = 6
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 34
+					}
+				}
+				BEL = {
+					transfer_state = 34
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 765
+					}
+				}
+				BEL = {
+					remove_state_core = 765
+				}
+				GER = {
+					add_state_core = 76
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 766
+					}
+				}
+				BEL = {
+					add_state_core = 766
+					transfer_state = 766
+				}
+			}
+			BEL = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 766
+					}
+				}
+				BEL = {
+					add_state_core = 766
+					transfer_state = 766
+				}
+			}
+			random_country = {
+				limit = {
+					original_tag = BEL
+					has_government = right-wing
+				}
+				GER = {
+					set_autonomy = {
+						target = BEL
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_BEL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 34.21
+						}
+
+						centre = {
+							popularity = 53.14
+						}
+
+						right-wing = {
+							popularity = 12.65
+						}
+
+						syncretic = {
+							popularity = 0
+						}
+					}
+
+					ruling_party = right-wing
+				}
+				set_party_name = {
+					ideology = right-wing
+					long_name = "Parti Rexiste"
+					name = "Parti Rexiste"
+				}
+				create_country_leader = {
+					name = "Léon Degrelle"
+					desc = "BEL_Leon_Degrelle_desc"
+					picture = "Portrait_BEL_Leon_Degrelle.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					GER = {
+						owns_state = 6
+					}
+				}
+				BEL = {
+					transfer_state = 6
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 34
+					}
+				}
+				BEL = {
+					transfer_state = 34
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 765
+					}
+				}
+				BEL = {
+					remove_state_core = 765
+				}
+				GER = {
+					add_state_core = 76
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 766
+					}
+				}
+				BEL = {
+					add_state_core = 766
+					transfer_state = 766
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = GER
+					autonomy_state = autonomy_dependency
+				}
+			}
+			BEL = {
+				set_cosmetic_tag = GER_BEL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 34.21
+						}
+
+						centre = {
+							popularity = 53.14
+						}
+
+						right-wing = {
+							popularity = 12.65
+						}
+
+						syncretic = {
+							popularity = 0
+						}
+					}
+
+					ruling_party = right-wing
+				}
+				set_party_name = {
+					ideology = right-wing
+					long_name = "Parti Rexiste"
+					name = "Parti Rexiste"
+				}
+				create_country_leader = {
+					name = "Léon Degrelle"
+					desc = "BEL_Leon_Degrelle_desc"
+					picture = "Portrait_BEL_Leon_Degrelle.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # "The Re-Integration of Danzig"
+	id = taox_ger_occupied.25
+	title = taox_ger_occupied.25.t
+	desc = taox_ger_occupied.25.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	trigger = {
+		GER = {
+			has_war_with = POL
+		}
+	}
+
+	option = {# "Danzig is German"
+		name = taox_ger_occupied.25.a
+
+		if = {
+			limit = {
+				country_exists = DAN
+			}
+			DAN = {
+				remove_state_core = 763
+			}
+			GER = {
+				add_state_core = 763
+			}
+		}
+	}
+}
+country_event = { # "The Occupation of Denmark"
+	id = taox_ger_occupied.26
+	title = taox_ger_occupied.26.t
+	desc = taox_ger_occupied.26.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {# "Incorporate North Schleswig & establish a collaborationist government"
+		name = taox_ger_occupied.26.a
+
+		if = { # States Controlled
+			limit = {
+				country_exists = DEN
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 37
+					}
+				}
+				DEN = {
+					transfer_state = 37
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 99
+					}
+				}
+				DEN = {
+					transfer_state = 99
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 101
+					}
+				}
+				DEN = {
+					transfer_state = 101
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 337
+					}
+				}
+				DEN = {
+					transfer_state = 337
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 764
+					}
+				}
+				DEN = {
+					remove_state_core = 764
+				}
+				GER = {
+					add_state_core = 764
+				}
+			}
+			DEN = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+
+			random_country = {
+				limit = {
+					original_tag = DEN
+					has_government = right-wing
+				}
+				GER = {
+					set_autonomy = {
+						target = DEN
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_DEN
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0
+						}
+
+						centre = {
+							popularity = 96.3
+						}
+
+						right-wing = {
+							popularity = 2.1
+						}
+
+						syncretic = {
+							popularity = 1.6
+						}
+					}
+
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Frits Clausen"
+					desc = "DEN_Frits_Clausen_desc"
+					picture = "Portrait_DEN_Frits_Clausen.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					GER = {
+						owns_state = 37
+					}
+				}
+				DEN = {
+					transfer_state = 37
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 99
+					}
+				}
+				DEN = {
+					transfer_state = 99
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 101
+					}
+				}
+				DEN = {
+					transfer_state = 101
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 337
+					}
+				}
+				DEN = {
+					transfer_state = 337
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 764
+					}
+				}
+				DEN = {
+					remove_state_core = 764
+				}
+				GER = {
+					add_state_core = 764
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = DEN
+					autonomy_state = autonomy_dependency
+				}
+			}
+			DEN = {
+				set_cosmetic_tag = GER_DEN
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0
+						}
+
+						centre = {
+							popularity = 96.3
+						}
+
+						right-wing = {
+							popularity = 2.1
+						}
+
+						syncretic = {
+							popularity = 1.6
+						}
+					}
+
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Frits Clausen"
+					desc = "DEN_Frits_Clausen_desc"
+					picture = "Portrait_DEN_Frits_Clausen.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+	}
+	option = { # "Continue local governance under our occupation"
+		name = taox_ger_occupied.26.b
+
+		if = { # States Controlled
+			limit = {
+				country_exists = DEN
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 37
+					}
+				}
+				DEN = {
+					transfer_state = 37
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 99
+					}
+				}
+				DEN = {
+					transfer_state = 99
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 101
+					}
+				}
+				DEN = {
+					transfer_state = 101
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 337
+					}
+				}
+				DEN = {
+					transfer_state = 337
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 764
+					}
+				}
+				DEN = {
+					transfer_state = 764
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = DEN
+					autonomy_state = autonomy_dependency
+				} 
+			}
+			DEN = {
+				set_cosmetic_tag = GER_DEN
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0
+						}
+
+						centre = {
+							popularity = 96.3
+						}
+
+						right-wing = {
+							popularity = 2.1
+						}
+
+						syncretic = {
+							popularity = 1.6
+						}
+					}
+
+					ruling_party = centre
+				}
+				if = {
+					limit = {
+						date < 1942.5.4
+					}
+					create_country_leader = {
+						name = "Thorvald Stauning"
+						desc = "DEN_Thorvald_Stauning_desc"
+						picture = "Portrait_Denmark_Thorvald_Stauning.dds"
+						expire = "1965.1.1"
+						ideology = social_democracy
+						traits = {
+							#
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "Vilhelm Buhl"
+						desc = "DEN_Vilhelm_Buhl_desc"
+						picture = "Portrait_DEN_Vilhelm_Buhl.dds"
+						expire = "1965.1.1"
+						ideology = social_democracy
+						traits = {
+							#
+						}
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					GER = {
+						owns_state = 37
+					}
+				}
+				DEN = {
+					transfer_state = 37
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 99
+					}
+				}
+				DEN = {
+					transfer_state = 99
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 101
+					}
+				}
+				DEN = {
+					transfer_state = 101
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 337
+					}
+				}
+				DEN = {
+					transfer_state = 337
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						owns_state = 764
+					}
+				}
+				DEN = {
+					transfer_state = 764
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = DEN
+					autonomy_state = autonomy_dependency
+				}
+			}
+			DEN = {
+				set_cosmetic_tag = GER_DEN
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0
+						}
+
+						centre = {
+							popularity = 96.3
+						}
+
+						right-wing = {
+							popularity = 2.1
+						}
+
+						syncretic = {
+							popularity = 1.6
+						}
+					}
+
+					ruling_party = centre
+				}
+				if = {
+					limit = {
+						date < 1942.5.4
+					}
+					create_country_leader = {
+						name = "Thorvald Stauning"
+						desc = "DEN_Thorvald_Stauning_desc"
+						picture = "Portrait_Denmark_Thorvald_Stauning.dds"
+						expire = "1965.1.1"
+						ideology = social_democracy
+						traits = {
+							#
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "Vilhelm Buhl"
+						desc = "DEN_Vilhelm_Buhl_desc"
+						picture = "Portrait_DEN_Vilhelm_Buhl.dds"
+						expire = "1965.1.1"
+						ideology = social_democracy
+						traits = {
+							#
+						}
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # "The Security of Italy"
+	id = taox_ger_occupied.52
+	title = taox_ger_occupied.52.t
+	desc = taox_ger_occupied.52.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {# "The Italians can't be trusted to hold on their own; occupy them"
+		name = taox_ger_occupied.52.a
+
+		if = { # States Controlled
+			limit = {
+				country_exists = ITA
+			}
+			if = {
+				limit = {
+					OR = {
+						GER = {
+							controls_state = 39
+						}
+						ITA = {
+							controls_state = 39
+						}
+					}
+				}
+				GER = {
+					add_state_core = 39
+					transfer_state = 39
+				}
+				ITA = {
+					remove_state_core = 39
+				}
+			}
+			ITA = {
+				GER = {
+					set_autonomy = {
+						target = ITA
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_ITA
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 10.64
+						}
+
+						centre = { 
+							popularity = 24.17
+						}
+
+						right-wing = {
+							popularity = 65.19
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Benito Mussolini"
+					desc = "ITA_Benito_Mussolini_desc"
+					picture = "Portrait_ITA_Benito_Mussolini.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					OR = {
+						GER = {
+							owns_state = 39
+						}
+						ITA = {
+							owns_state = 39
+						}
+					}
+				}
+				GER = {
+					add_state_core = 39
+					transfer_state = 39
+				}
+				ITA = {
+					remove_state_core = 39
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = ITA
+					autonomy_state = autonomy_dependency
+				}
+			}
+			ITA = {
+				set_cosmetic_tag = GER_ITA
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 10.64
+						}
+
+						centre = { 
+							popularity = 24.17
+						}
+
+						right-wing = {
+							popularity = 65.19
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Benito Mussolini"
+					desc = "ITA_Benito_Mussolini_desc"
+					picture = "Portrait_ITA_Benito_Mussolini.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						
+					}
+				}
+			}
+		}
+	}
+	option = {# "The Italians can't be trusted to hold on their own; occupy them"
+		name = taox_ger_occupied.52.a
+
+		if = { # States Controlled
+			limit = {
+				country_exists = ITA
+			}
+			if = {
+				limit = {
+					OR = {
+						GER = {
+							controls_state = 39
+						}
+						ITA = {
+							controls_state = 39
+						}
+					}
+				}
+				GER = {
+					add_state_core = 39
+					transfer_state = 39
+				}
+				ITA = {
+					remove_state_core = 39
+				}
+			}
+			ITA = {
+				GER = {
+					set_autonomy = {
+						target = ITA
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_ITA
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 10.64
+						}
+
+						centre = { 
+							popularity = 24.17
+						}
+
+						right-wing = {
+							popularity = 65.19
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Benito Mussolini"
+					desc = "ITA_Benito_Mussolini_desc"
+					picture = "Portrait_ITA_Benito_Mussolini.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = {
+				limit = {
+					OR = {
+						GER = {
+							owns_state = 39
+						}
+						ITA = {
+							owns_state = 39
+						}
+					}
+				}
+				GER = {
+					add_state_core = 39
+					transfer_state = 39
+				}
+				ITA = {
+					remove_state_core = 39
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = ITA
+					autonomy_state = autonomy_dependency
+				}
+			}
+			DEN = {
+				set_cosmetic_tag = GER_ITA
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 10.64
+						}
+
+						centre = { 
+							popularity = 24.17
+						}
+
+						right-wing = {
+							popularity = 65.19
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Benito Mussolini"
+					desc = "ITA_Benito_Mussolini_desc"
+					picture = "Portrait_ITA_Benito_Mussolini.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # "The Occupation of the United Kingdom"
+	id = taox_ger_occupied.106
+	title = taox_ger_occupied.106.t
+	desc = taox_ger_occupied.106.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {# "Administer a united kingdom"
+		name = taox_ger_occupied.9.a
+
+		if = { # States Controlled
+			limit = {
+				country_exists = ENG
+			}
+			if = { # Scottish Highlands
+				limit = {
+					GER = {
+						controls_state = 120
+					}
+				}
+				ENG = {
+					transfer_state = 120
+				}
+			}
+			if = { # Lothian
+				limit = {
+					GER = {
+						controls_state = 121
+					}
+				}
+				ENG = {
+					transfer_state = 121
+				}
+			}
+			if = { # Wales
+				limit = {
+					GER = {
+						controls_state = 122
+					}
+				}
+				ENG = {
+					transfer_state = 122
+				}
+			}
+			if = { # Cornwall
+				limit = {
+					GER = {
+						controls_state = 123
+					}
+				}
+				ENG = {
+					transfer_state = 123
+				}
+			}
+			if = { # East Anglia
+				limit = {
+					GER = {
+						controls_state = 125
+					}
+				}
+				ENG = {
+					transfer_state = 125
+				}
+			}
+			if = { # Greater London Area
+				limit = {
+					GER = {
+						controls_state = 126
+					}
+				}
+				ENG = {
+					transfer_state = 126
+				}
+			}
+			if = { # Sussex
+				limit = {
+					GER = {
+						controls_state = 127
+					}
+				}
+				ENG = {
+					transfer_state = 127
+				}
+			}
+			if = { # West Midlands
+				limit = {
+					GER = {
+						controls_state = 128
+					}
+				}
+				ENG = {
+					transfer_state = 128
+				}
+			}
+			if = { # East Midlands
+				limit = {
+					GER = {
+						controls_state = 129
+					}
+				}
+				ENG = {
+					transfer_state = 129
+				}
+			}
+			if = { # Yorkshire
+				limit = {
+					GER = {
+						controls_state = 130
+					}
+				}
+				ENG = {
+					transfer_state = 130
+				}
+			}
+			if = { # Northern England
+				limit = {
+					GER = {
+						controls_state = 131
+					}
+				}
+				ENG = {
+					transfer_state = 131
+				}
+			}
+			if = { # Lancashire
+				limit = {
+					GER = {
+						controls_state = 132
+					}
+				}
+				ENG = {
+					transfer_state = 132
+				}
+			}
+			if = { # Lanark
+				limit = {
+					GER = {
+						controls_state = 133
+					}
+				}
+				ENG = {
+					transfer_state = 133
+				}
+			}
+			if = { # Aberdeenshire
+				limit = {
+					GER = {
+						controls_state = 136
+					}
+				}
+				ENG = {
+					transfer_state = 136
+				}
+			}
+			if = { # Glouchestershire
+				limit = {
+					GER = {
+						controls_state = 338
+					}
+				}
+				ENG = {
+					transfer_state = 338
+				}
+			}
+			ENG = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+			random_country = {
+				limit = {
+					original_tag = ENG
+					has_government = right-wing
+				}
+				GER = {
+					set_autonomy = {
+						target = ENG
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_ENG_independent
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Oswald Mosley"
+					desc = "ENG_Oswald_Mosley_desc"
+					picture = "Portrait_ENG_Oswald_Mosley.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+		else = { # States Owned
+			if = { # Scottish Highlands
+				limit = {
+					GER = {
+						controls_state = 120
+					}
+				}
+				ENG = {
+					transfer_state = 120
+				}
+			}
+			if = { # Lothian
+				limit = {
+					GER = {
+						controls_state = 121
+					}
+				}
+				ENG = {
+					transfer_state = 121
+				}
+			}
+			if = { # Wales
+				limit = {
+					GER = {
+						controls_state = 122
+					}
+				}
+				ENG = {
+					transfer_state = 122
+				}
+			}
+			if = { # Cornwall
+				limit = {
+					GER = {
+						controls_state = 123
+					}
+				}
+				ENG = {
+					transfer_state = 123
+				}
+			}
+			if = { # East Anglia
+				limit = {
+					GER = {
+						controls_state = 125
+					}
+				}
+				ENG = {
+					transfer_state = 125
+				}
+			}
+			if = { # Greater London Area
+				limit = {
+					GER = {
+						controls_state = 126
+					}
+				}
+				ENG = {
+					transfer_state = 126
+				}
+			}
+			if = { # Sussex
+				limit = {
+					GER = {
+						controls_state = 127
+					}
+				}
+				ENG = {
+					transfer_state = 127
+				}
+			}
+			if = { # West Midlands
+				limit = {
+					GER = {
+						controls_state = 128
+					}
+				}
+				ENG = {
+					transfer_state = 128
+				}
+			}
+			if = { # East Midlands
+				limit = {
+					GER = {
+						controls_state = 129
+					}
+				}
+				ENG = {
+					transfer_state = 129
+				}
+			}
+			if = { # Yorkshire
+				limit = {
+					GER = {
+						controls_state = 130
+					}
+				}
+				ENG = {
+					transfer_state = 130
+				}
+			}
+			if = { # Northern England
+				limit = {
+					GER = {
+						controls_state = 131
+					}
+				}
+				ENG = {
+					transfer_state = 131
+				}
+			}
+			if = { # Lancashire
+				limit = {
+					GER = {
+						controls_state = 132
+					}
+				}
+				ENG = {
+					transfer_state = 132
+				}
+			}
+			if = { # Lanark
+				limit = {
+					GER = {
+						controls_state = 133
+					}
+				}
+				ENG = {
+					transfer_state = 133
+				}
+			}
+			if = { # Aberdeenshire
+				limit = {
+					GER = {
+						controls_state = 136
+					}
+				}
+				ENG = {
+					transfer_state = 136
+				}
+			}
+			if = { # Glouchestershire
+				limit = {
+					GER = {
+						controls_state = 338
+					}
+				}
+				ENG = {
+					transfer_state = 338
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = ENG
+					autonomy_state = autonomy_dependency
+				}
+			}
+			ENG = {
+				set_cosmetic_tag = GER_ENG_independent
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Oswald Mosley"
+					desc = "ENG_Oswald_Mosley_desc"
+					picture = "Portrait_ENG_Oswald_Mosley.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+		}
+	}
+	option = {# "Separately administer England, Scotland, and Wales"
+		name = taox_ger_occupied.9.b
+
+		if = { # States Controlled
+			limit = {
+				country_exists = ENG
+			}
+			if = { # Scottish Highlands
+				limit = {
+					GER = {
+						controls_state = 120
+					}
+				}
+				ENG = {
+					remove_state_core = 120
+				}
+				SCO = {
+					transfer_state = 120
+				}
+			}
+			if = { # Lothian
+				limit = {
+					GER = {
+						controls_state = 121
+					}
+				}
+				ENG = {
+					remove_state_core = 121
+				}
+				SCO = {
+					transfer_state = 121
+				}
+			}
+			if = { # Wales
+				limit = {
+					GER = {
+						controls_state = 122
+					}
+				}
+				ENG = {
+					remove_state_core = 122
+				}
+				WAL = {
+					transfer_state = 122
+				}
+			}
+			if = { # Cornwall
+				limit = {
+					GER = {
+						controls_state = 123
+					}
+				}
+				ENG = {
+					transfer_state = 123
+				}
+			}
+			if = { # East Anglia
+				limit = {
+					GER = {
+						controls_state = 125
+					}
+				}
+				ENG = {
+					transfer_state = 125
+				}
+			}
+			if = { # Greater London Area
+				limit = {
+					GER = {
+						controls_state = 126
+					}
+				}
+				ENG = {
+					transfer_state = 126
+				}
+			}
+			if = { # Sussex
+				limit = {
+					GER = {
+						controls_state = 127
+					}
+				}
+				ENG = {
+					transfer_state = 127
+				}
+			}
+			if = { # West Midlands
+				limit = {
+					GER = {
+						controls_state = 128
+					}
+				}
+				ENG = {
+					transfer_state = 128
+				}
+			}
+			if = { # East Midlands
+				limit = {
+					GER = {
+						controls_state = 129
+					}
+				}
+				ENG = {
+					transfer_state = 129
+				}
+			}
+			if = { # Yorkshire
+				limit = {
+					GER = {
+						controls_state = 130
+					}
+				}
+				ENG = {
+					transfer_state = 130
+				}
+			}
+			if = { # Northern England
+				limit = {
+					GER = {
+						controls_state = 131
+					}
+				}
+				ENG = {
+					transfer_state = 131
+				}
+			}
+			if = { # Lancashire
+				limit = {
+					GER = {
+						controls_state = 132
+					}
+				}
+				ENG = {
+					transfer_state = 132
+				}
+			}
+			if = { # Lanark
+				limit = {
+					GER = {
+						controls_state = 133
+					}
+				}
+				ENG = {
+					remove_state_core = 133
+				}
+				SCO = {
+					transfer_state = 133
+				}
+			}
+			if = { # Aberdeenshire
+				limit = {
+					GER = {
+						controls_state = 136
+					}
+				}
+				ENG = {
+					remove_state_core = 136
+				}
+				SCO = {
+					transfer_state = 136
+				}
+			}
+			if = { # Glouchestershire
+				limit = {
+					GER = {
+						controls_state = 338
+					}
+				}
+				ENG = {
+					transfer_state = 338
+				}
+			}
+			ENG = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+			random_country = {
+				limit = {
+					original_tag = ENG
+					has_government = right-wing
+				}
+				GER = {
+					set_autonomy = {
+						target = ENG
+						autonomy_state = autonomy_dependency
+					} 
+				}
+				set_cosmetic_tag = GER_ENG_independent
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Oswald Mosley"
+					desc = "ENG_Oswald_Mosley_desc"
+					picture = "Portrait_ENG_Oswald_Mosley.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+			SCO = {
+				GER = {
+					set_autonomy = {
+						target = SCO
+						autonomy_state = autonomy_dependency
+					}
+				}
+				set_cosmetic_tag = GER_SCO
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+			}
+			WAL = {
+				GER = {
+					set_autonomy = {
+						target = WAL
+						autonomy_state = autonomy_dependency
+					}
+				}
+				set_cosmetic_tag = GER_WAL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+			}
+		}
+		else = { # States Owned
+			if = { # Scottish Highlands
+				limit = {
+					GER = {
+						controls_state = 120
+					}
+				}
+				ENG = {
+					remove_state_core = 120
+				}
+				SCO = {
+					transfer_state = 120
+				}
+			}
+			if = { # Lothian
+				limit = {
+					GER = {
+						controls_state = 121
+					}
+				}
+				ENG = {
+					remove_state_core = 121
+				}
+				SCO = {
+					transfer_state = 121
+				}
+			}
+			if = { # Wales
+				limit = {
+					GER = {
+						controls_state = 122
+					}
+				}
+				ENG = {
+					remove_state_core = 122
+				}
+				WAL = {
+					transfer_state = 122
+				}
+			}
+			if = { # Cornwall
+				limit = {
+					GER = {
+						controls_state = 123
+					}
+				}
+				ENG = {
+					transfer_state = 123
+				}
+			}
+			if = { # East Anglia
+				limit = {
+					GER = {
+						controls_state = 125
+					}
+				}
+				ENG = {
+					transfer_state = 125
+				}
+			}
+			if = { # Greater London Area
+				limit = {
+					GER = {
+						controls_state = 126
+					}
+				}
+				ENG = {
+					transfer_state = 126
+				}
+			}
+			if = { # Sussex
+				limit = {
+					GER = {
+						controls_state = 127
+					}
+				}
+				ENG = {
+					transfer_state = 127
+				}
+			}
+			if = { # West Midlands
+				limit = {
+					GER = {
+						controls_state = 128
+					}
+				}
+				ENG = {
+					transfer_state = 128
+				}
+			}
+			if = { # East Midlands
+				limit = {
+					GER = {
+						controls_state = 129
+					}
+				}
+				ENG = {
+					transfer_state = 129
+				}
+			}
+			if = { # Yorkshire
+				limit = {
+					GER = {
+						controls_state = 130
+					}
+				}
+				ENG = {
+					transfer_state = 130
+				}
+			}
+			if = { # Northern England
+				limit = {
+					GER = {
+						controls_state = 131
+					}
+				}
+				ENG = {
+					transfer_state = 131
+				}
+			}
+			if = { # Lancashire
+				limit = {
+					GER = {
+						controls_state = 132
+					}
+				}
+				ENG = {
+					transfer_state = 132
+				}
+			}
+			if = { # Lanark
+				limit = {
+					GER = {
+						controls_state = 133
+					}
+				}
+				ENG = {
+					remove_state_core = 133
+				}
+				SCO = {
+					transfer_state = 133
+				}
+			}
+			if = { # Aberdeenshire
+				limit = {
+					GER = {
+						controls_state = 136
+					}
+				}
+				ENG = {
+					remove_state_core = 136
+				}
+				SCO = {
+					transfer_state = 136
+				}
+			}
+			if = { # Glouchestershire
+				limit = {
+					GER = {
+						controls_state = 338
+					}
+				}
+				ENG = {
+					transfer_state = 338
+				}
+			}
+			ENG = {
+				start_civil_war = {
+					ideology = right-wing
+					size = 1
+				}
+			}
+			GER = {
+				set_autonomy = {
+					target = ENG
+					autonomy_state = autonomy_dependency
+				}
+			}
+			ENG = {
+				set_cosmetic_tag = GER_ENG_independent
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+				create_country_leader = {
+					name = "Oswald Mosley"
+					desc = "ENG_Oswald_Mosley_desc"
+					picture = "Portrait_ENG_Oswald_Mosley.dds"
+					expire = "1965.1.1"
+					ideology = fascism
+					traits = {
+						#
+					}
+				}
+			}
+			SCO = {
+				GER = {
+					set_autonomy = {
+						target = SCO
+						autonomy_state = autonomy_dependency
+					}
+				}
+				set_cosmetic_tag = GER_SCO
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+			}
+			WAL = {
+				GER = {
+					set_autonomy = {
+						target = WAL
+						autonomy_state = autonomy_dependency
+					}
+				}
+				set_cosmetic_tag = GER_WAL
+				set_politics = {
+
+					parties = {
+						left-wing = {
+							popularity = 0.8
+						}
+
+						centre = { 
+							popularity = 99.2
+						}
+
+						right-wing = {
+							popularity = 0
+						}
+
+						syncretic = { 
+							popularity = 0
+						}
+					}
+					ruling_party = right-wing
+				}
+			}
+		}
+	}
+}
