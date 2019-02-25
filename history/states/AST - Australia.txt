@@ -1,0 +1,356 @@
+###########################
+# TAOX States - Australia #
+###########################
+
+state = { # 285 - New South Wales
+	id = 285
+	name = "New South Wales"
+	manpower = 2183286
+	state_category = ten
+
+	provinces = {
+		1537 1611 1667 1861 2114 2146 2163 4453 4478 4500 4658 4673 4763 4836 4864 5134 5161 7450 7471 7496 7520 7533 7649 7664 7859 8234 8249 10388 10427 10455 10500 10682 10977 10991 11019 12377 12406 12435 12532 12560 12934 12968
+	}
+	
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			7520 1 
+		}
+		victory_points = {
+			7859 30 
+		}
+		
+		victory_points = {
+			12406 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
+			12406 = {
+				naval_base = 6
+				coastal_bunker = 2
+			}
+			7859 = {
+				bunker = 1
+			}
+			7520 = {
+				coastal_bunker = 1
+			}
+		}
+	}	
+}
+state = { # 517 - Victoria
+	id = 517
+	name = "Victoria"
+	manpower = 1733283
+	state_category = ten
+
+	provinces = {
+		1759 2130 2155 4776 4791 7755 7798 7811 10553 10581 10622 10637 12576 12932 
+	}
+	
+	resources = {
+		steel = 8 # was: 12
+		chromium = 4 # was: 6
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			7798 20
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 3
+			7798 = {
+				naval_base = 4
+				coastal_bunker = 1
+			}
+			
+		}
+	}
+}
+state = { # 518 - Tasmania
+	id = 518
+	name = "Tasmania"
+	manpower = 164346
+	state_category = seven
+
+	provinces = {
+		2183 2189 5181 5187 10665 12645
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			2189 1 
+		}
+		victory_points = {
+			12910 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			2189 = {
+				naval_base = 2
+			}
+		}	
+	}
+}
+state = { # 519 - South Australia
+	id = 519
+	name = "South Australia"
+	manpower = 502278
+	state_category = nine
+
+	provinces = {
+		1773 2205 2219 5138 5183 5197 5211 5225 7567 7623 8165 8186 8206 8220 10925 10927 12906 12910 12918 12924 13131 13169 13170 13171 13172
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		buildings = {
+			infrastructure = 2
+			12910 = {
+				naval_base = 2
+			}
+		}
+	}
+}
+state = { # 520 - Northern Territory
+	id = 520
+	name = "Northern Territory"
+	manpower = 82916
+	state_category = six
+	
+	provinces = {
+		1217 1410 1422 1431 1454 1478 2139 2223 4415 4441 4462 4487 7457 7481 7669 8237 10276 10288 10316 10518 10979 11013 12104 12246 12290 12311 12326 12339 12499 12915 12936 12992 13132 13133
+	}
+	
+	resources = {
+		steel = 22 # was: 28
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			7669 5 
+		}
+
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			7669 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 521 - Queensland
+	id = 521
+	name = "Queensland"
+	manpower = 1378916
+	state_category = ten
+
+	provinces = {
+		1472 1501 1514 1557 1570 1644 2116 2166 2187 2221 4481 4502 4505 4517 4520 4530 4546 4560 4632 4648 5198 5206 5227 7506 7522 7525 7535 7538 7564 7566 7592 7610 7651 7666 8230 10336 10338 10350 10365 10378 10430 10445 10458 10460 10475 10487 10936 10941 10955 11006 12308 12354 12367 12382 12411 12424 12451 12949 12957
+	}
+
+	resources = {
+		tungsten = 24 # was: 36
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			7564 5 
+		}
+		victory_points = {
+			7566 1 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+			7566 = {
+				naval_base = 1
+			}
+		}		
+	}
+}
+state = { # 522 - Western Australia
+	id = 522
+	name = "Western Australia"
+	manpower = 733347
+	state_category = nine
+
+	provinces = {
+		1498 1511 1526 1540 1652 2133 2157 2177 2186 2191 2201 4630 4645 5125 5170 5175 5207 7453 7579 7608 8130 8134 8152 8155 8200 8209 8228 8243 8247 10473 10937 10949 10950 10958 10969 10971 10983 10997 11011 11016 12323 12904 12912 12926 12948 12962 12976 12990 12993
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		victory_points = {
+			1652 3 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			1652 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+	}	
+}
+state = { # 523 - Papua New Guinea
+	id = 523
+	name = "Papua New Guinea"
+	manpower = 1687125
+	state_category = ten
+
+	provinces = {
+		1222 1242 1283 1310 1389 2129 4289 4317 4329 4346 4393 4418 4635 5135 7305 7333 7349 7362 7365 7378 7409 7614 10147 10231 10248 10251 10260 10423 10954 10974 11004 11018 12107 12123 12135 12154 12193 12237 12240 12400 12428 12484 12931 12995 
+	}
+
+	history = {
+		owner = AST
+
+		victory_points = {
+			4329 3 
+		}
+		victory_points = {
+			12237 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			4329 = {
+				naval_base = 3
+			}
+			12237 = {
+				naval_base = 2
+			}
+			12154 = {
+				naval_base = 1
+			}
+			12240 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 634 - Solomon Islands
+	id = 634
+	name = "Solomon Islands"
+	manpower = 178097
+	state_category = seven
+
+	provinces = {
+		1042 1085 1269 1358 1370 4226 4252 4292 4378 7437 10234 10291 10319 12265 
+	}
+
+	history = {
+		owner = AST
+
+		victory_points = {
+			1269 3 
+		}
+		victory_points = {
+			4226 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+			1269 = {
+				naval_base = 2
+			}
+			4226 = {
+				naval_base = 1
+			}
+			10234 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 674 - [FREE STATE]
+	id = 674
+	name = "Central Australia"
+	manpower = 0
+	state_category = wasteland
+
+	provinces = {
+		96
+	}
+
+	history = {
+		owner = AST
+		add_core_of = AST
+
+		buildings = {
+		}
+	}
+}
+state = { # 737 - Bismarck Archipelago
+	id = 737
+	name = "Bismarck Archipelago"
+	manpower = 204552
+	state_category = seven
+
+	provinces = {
+		1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222 
+	}
+
+	history = {
+		owner = AST
+
+		victory_points = {
+			7251 5 
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			7251 = {
+				naval_base = 5
+			}
+			4352 = {
+				naval_base = 1
+			}
+			7339 = {
+				naval_base = 1
+			}			
+		}
+	}
+}

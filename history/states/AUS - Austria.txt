@@ -1,0 +1,91 @@
+#########################
+# TAOX States - Austria #
+#########################
+
+state = { # 4 - Niederösterreich
+	id = 4
+	name = "Niederösterreich"
+	manpower = 2671696
+	state_category = ten
+
+	provinces = {
+		653 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11630 11666 
+	}
+
+	resources = {
+		oil = 1 # was: 2
+	}
+
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		
+		victory_points = {
+			9648 5 
+		}
+		victory_points = {
+			11666 30
+		}
+
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 6
+		}
+	}
+}
+state = { # 152 - Oberösterreich
+	id = 152
+	name = "Oberösterreich"
+	manpower = 2341739
+	state_category = ten
+
+	provinces = {
+		688 732 3673 3674 3684 3703 6552 6687 6691 6708 6723 9650 9665 11651 
+	}
+	
+	resources = {
+		steel = 5 # was: 8
+		aluminium = 1 # was: 1
+	}
+
+	history = {
+		owner = AUS
+		add_core_of = AUS
+
+		victory_points = {
+			688 10 
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+	}
+}
+state = { # 153 - Tirol
+	id = 153
+	name = "Tirol"
+	manpower = 1703618
+	state_category = ten
+
+	provinces = {
+		668 671 673 3675 6673 6678 6680 9633 9636 11618 11634 
+	}
+
+	history = {
+		owner = AUS
+		add_core_of = AUS
+
+		victory_points = {
+			673 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+		}
+	}
+}

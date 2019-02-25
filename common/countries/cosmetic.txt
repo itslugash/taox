@@ -34,14 +34,6 @@
 				122 145 93
 			}
 		}
-		GER_DEN = { # Kingdom of Denmark
-			color = rgb {
-				115 115 115
-			}
-			color_ui = rgb {
-				122 145 93
-			}
-		}
 # I
 	# ITA - Italy
 		ITA_ALB = { # Kingom of Albania (Italy)

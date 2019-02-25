@@ -1,0 +1,173 @@
+###########################
+# TAOX States - Argentina #
+###########################
+
+state = { # 278 - Pampas
+	id = 278
+	name = "Pampas"
+	manpower = 8732739
+	state_category = eleven
+
+	provinces = {
+		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12351 12364 12379 12394 12409 12998 
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+
+		victory_points = {
+			7621 1 
+		}
+		victory_points = {
+			12364 10 
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 4
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+			7621 = {
+				naval_base = 2
+			}
+			1639 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 508 - Noroeste Argentino
+	id = 508
+	name = "Noroeste Argentino"
+	manpower = 1219181
+	state_category = ten
+
+	provinces = {
+		2136 2224 8195 8216 8253 11001 12928 12978 
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+
+		victory_points = {
+			8216 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}
+state = { # 509 - Chaco Austral
+	id = 509
+	name = "Chaco Austral"
+	manpower = 1098919
+	state_category = ten
+
+	provinces = {
+		2106 2208 5143 5213 8169 8255 10944 10965 10986 12922 12943 
+	}
+	
+	resources = {
+		tungsten = 35 # was: 46
+		steel = 6 # was: 8
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}
+state = { # 510 - Mesopotamia
+	id = 510
+	name = "Mesopotamia"
+	manpower = 5457088
+	state_category = eleven
+
+	provinces = {
+		1449 2172 5163 7500 8187 8208 8238 10515 10943 10975 10985 11007 12453 12964 13000 
+	}
+
+	resources = {
+		oil = 8 # was: 12
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+
+		victory_points = {
+			7500 1 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			air_base = 1
+			arms_factory = 1
+		}
+	}
+}
+state = { # 511 - Cuyo
+	id = 511
+	name = "Cuyo"
+	manpower = 1701297
+	state_category = ten
+
+	provinces = {
+		2158 2179 2215 5152 5184 5219 7550 8215 10964 10992 11021 11022 12942 12970 
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+
+		victory_points = {
+			12942 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+}
+state = { # 512 - Patagonia
+	id = 512
+	name = "Patagonia"
+	manpower = 353653
+	state_category = eight
+
+	provinces = {
+		2149 2169 2199 5173 8161 8176 8192 10935 10953 10981 11005 11009 12306 12321 12349 12494 12946 12952 12982 
+	}
+	
+	resources = {
+		oil = 5 # was: 6
+	}
+
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 3
+			10953 = {
+				naval_base = 1
+			}
+		}
+	}
+}

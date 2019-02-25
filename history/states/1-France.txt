@@ -1,6 +1,6 @@
-state = {
+state = { # Corsica
     id = 1
-    name = STATE_1 # Corsica
+    name = STATE_1
     manpower = 322900
     state_category = town
    
@@ -20,7 +20,6 @@ state = {
             infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
-
             3838 = {
 				naval_base = 3
 			}

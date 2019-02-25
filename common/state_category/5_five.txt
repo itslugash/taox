@@ -1,0 +1,7 @@
+state_categories={
+	five = {
+		local_building_slots = 5
+
+		color = { 255 221 16 }
+	}
+}

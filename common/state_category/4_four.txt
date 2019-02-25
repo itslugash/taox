@@ -1,0 +1,7 @@
+state_categories={
+	four = {
+		local_building_slots = 4
+
+		color = { 255 165 0 }
+	}
+}

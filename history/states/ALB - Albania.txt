@@ -1,0 +1,38 @@
+#########################
+# TAOX States - Albania #
+#########################
+
+state = { # 44 - Shqipëri
+	id = 44
+	name = "Shqipëri"
+	manpower = 1014000
+	state_category = ten
+
+	provinces = {
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 
+	}
+
+	resources = {
+		aluminium = 2 # was: 3
+		chromium = 2 # was: 3
+	}
+	
+	history = {
+		owner = ALB
+		add_core_of = ALB
+
+		victory_points = {
+			9914 5 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 3
+			11767 = {
+				naval_base = 4
+			}
+		}
+	}	
+}

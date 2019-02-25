@@ -142,19 +142,19 @@
 
         BHU_ADJ:0 "Belgian"
     # BLR - Belarus
-        BHU_centre:0 "Belarus"
-        BHU_centre_DEF:0 "Belarus"
+        BLR_centre:0 "Belarus"
+        BLR_centre_DEF:0 "Belarus"
 
-        BHU_right-wing:0 "Belarus"
-        BHU_right-wing_DEF:0 "Belarus"
+        BLR_right-wing:0 "Belarus"
+        BLR_right-wing_DEF:0 "Belarus"
 
-        BHU_left-wing:0 "Belarus"
-        BHU_left-wing_DEF:0 "Belarus"
+        BLR_left-wing:0 "Belarus"
+        BLR_left-wing_DEF:0 "Belarus"
 
-        BHU_syncretic:0 "Belarus"
-        BHU_syncretic_DEF:0 "Belarus"
+        BLR_syncretic:0 "Belarus"
+        BLR_syncretic_DEF:0 "Belarus"
 
-        BHU_ADJ:0 "Belarusian"
+        BLR_ADJ:0 "Belarusian"
     # BOL - Bolivia
         BOL_centre:0 "Plurinational State of Bolivia"
         BOL_centre_DEF:0 "Bolivia"
