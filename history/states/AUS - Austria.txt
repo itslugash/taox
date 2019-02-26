@@ -5,7 +5,7 @@
 state = { # 4 - Niederösterreich
 	id = 4
 	name = "Niederösterreich"
-	manpower = 2671696
+	manpower = 2595983
 	state_category = ten
 
 	provinces = {
@@ -38,7 +38,7 @@ state = { # 4 - Niederösterreich
 state = { # 152 - Oberösterreich
 	id = 152
 	name = "Oberösterreich"
-	manpower = 2341739
+	manpower = 2275377
 	state_category = ten
 
 	provinces = {
@@ -67,7 +67,7 @@ state = { # 152 - Oberösterreich
 state = { # 153 - Tirol
 	id = 153
 	name = "Tirol"
-	manpower = 1703618
+	manpower = 1655340
 	state_category = ten
 
 	provinces = {

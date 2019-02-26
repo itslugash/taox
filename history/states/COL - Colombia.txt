@@ -1,0 +1,87 @@
+##########################
+# TAOX States - Colombia #
+##########################
+
+state = { # 306 - Andes
+	id = 306
+	name = "Andes"
+	manpower = 4953049
+	state_category = ten
+
+	provinces = {
+		2079 7936 7991 7993 10747 10790 10846 
+	}
+	
+	history = {
+		owner = COL
+		add_core_of = COL
+
+		victory_points = {
+			10747 10
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+		}
+	}
+}
+state = { # 486 - Amazonía
+	id = 486
+	name = "Amazonía"
+	manpower = 213160
+	state_category = six
+
+	provinces = {
+		1887 2007 5026 10792 12729 12770 12825 
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+state = { # 493 - Caribe
+	id = 493
+	name = "Caribe"
+	manpower = 2826781
+	state_category = ten
+
+	provinces = {
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
+	}
+
+	resources = {
+		oil = 15 # was: 20
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+
+		victory_points = {
+			2023 1 
+		}
+		victory_points = {
+			12790 5 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+			12790 = {
+				naval_base = 5
+			}
+			8056 = {
+				naval_base = 1
+			}
+		}
+	}
+}

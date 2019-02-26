@@ -5,7 +5,7 @@
 state = { # 44 - Shqipëri
 	id = 44
 	name = "Shqipëri"
-	manpower = 1014000
+	manpower = 1003000
 	state_category = ten
 
 	provinces = {

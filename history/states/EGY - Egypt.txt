@@ -1,0 +1,213 @@
+#######################
+# TAOX States - Egypt #
+#######################
+
+state = { # 446 - al-Qāhirah
+	id = 446
+	name = "al-Qahirah"
+	manpower = 6586596
+	state_category = eleven
+
+	provinces = {
+		1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049 992 7117
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		victory_points = {
+			7011 5
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+		}
+	}
+}
+state = { # 447 - Eskendereyya
+	id = 447
+	name = "Eskendereyya"
+	manpower = 3859239
+	state_category = ten
+
+	provinces = {
+		1071 4076 4145 7091 7164 10073 11964 
+	}
+
+	resources = {
+		oil = 1 # was: 2
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		victory_points = {
+			1071 1 
+		}
+		victory_points = {
+			4076 10 
+		}
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+			4076 = {
+				naval_base = 8
+			}
+		}
+	}
+}
+state = { # 452 - Marsa Matruh
+	id = 452
+	name = "Marsa Matruh"
+	manpower = 52556
+	state_category = five
+
+	provinces = {
+		7079 9989 10061 11910 11967 5078 12033 12091 7148 
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}
+state = { # 453 - Sinai
+	id = 453
+	name = "Sinai"
+	manpower = 15359
+	state_category = three
+	
+	provinces = {
+		1112 1155 4161 9947 10002 10099 11922 11979 12073 
+	}
+	
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 2
+			1155 = {
+				naval_base = 2
+			}
+		}
+	}
+}
+state = { # 456 - Aswan
+	id = 456
+	name = "Aswan"
+	manpower = 4224516
+	state_category = ten
+
+	provinces = {
+		1028 1064 1151 1206 7030 7073 7144 10028 10097 10844 11974 11999 12044 12071 12771 
+	}
+	
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}
+state = { # 457 - Eastern Desert
+	id = 457
+	name = "Eastern Desert"
+	manpower = 2194
+	state_category = one
+
+	provinces = {
+		1080 4068 4910 5069 7156 9957 10126 12002 12889 
+	}
+	
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+state = { # 549 - Sudan
+	id = 549
+	name = "Sudan"
+	manpower = 3694293
+	state_category = ten
+
+	provinces = {
+		1914 1953 1960 2016 2096 4033 4918 5060 7996 8052 8084 10739 10764 10795 10827 10851 10857 10859 10877 10908 12744 12800 12887 
+	}
+	
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}
+state = { # 551 - Al-Khartum
+	id = 551
+	name = "Al-Khartum"
+	manpower = 1993507
+	state_category = nine
+
+	provinces = {
+		1977 2003 2046 2088 4963 7925 7989 8105 10743 10745 10784 10902 12725 12796 12806 12826 12862 12881 4138 12836 4961
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		victory_points = {
+			12725 1
+		}
+		victory_points = {
+			12806 3
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			12725 = {
+				naval_base = 3
+			}
+		}
+	}	
+}
+state = { # 552 - Western Desert
+	id = 552
+	name = "Western Desert"
+	manpower = 26539
+	state_category = four
+	impassable = yes
+
+	provinces = {
+		1143 2064 7216 7987 8103 10127 10869 10900 10907 12099 12733 12764 12816 
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

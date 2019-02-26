@@ -5,8 +5,8 @@
 state = { # 324 - Druk Yul
 	id = 324
 	name = "Druk Yul"
-	manpower = 128640
-	state_category = seven
+	manpower = 450000
+	state_category = eight
 
 	provinces = {
 		8010 12860 

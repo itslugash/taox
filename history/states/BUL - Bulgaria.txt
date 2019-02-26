@@ -1,0 +1,89 @@
+##########################
+# TAOX States - Bulgaria #
+##########################
+
+state = { # 48 - Sofia
+	id = 48
+	name = "Sofia"
+	manpower = 1891500
+	state_category = ten
+
+	provinces = {
+		793 935 949 965 3908 3971 6857 9771 9818 11754 
+	}
+
+	resources = {
+		aluminium = 1 # was: 2
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+
+		victory_points = {
+			949 15 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			air_base = 3
+		}	
+	}
+}
+state = { # 211 - Burgas
+	id = 211
+	name = "Burgas"
+	manpower = 1575499
+	state_category = ten
+
+	provinces = {
+		649 6967 9612 9769 9783 9888 9902 9919 
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+
+		victory_points = {
+			9783 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			9783 = {
+				naval_base = 3
+			}
+			9902 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 212 - Plovdiv
+	id = 212
+	name = "Plovdiv"
+	manpower = 2611100
+	state_category = ten
+
+	provinces = {
+		878 893 3796 3819 3937 3952 6814 6842 6923 6952 6982 9610 9862 11813 
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+
+		victory_points = {
+			6923 5
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 2
+		}	
+	}
+}

@@ -1,4 +1,4 @@
-state_categories={
+state_categories = { # > 1
 	zero = {
 		local_building_slots = 0
 

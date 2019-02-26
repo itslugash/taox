@@ -1,0 +1,309 @@
+########################
+# TAOX States - Brazil #
+########################
+
+state = { # 280 - Mato Grosso
+	id = 280
+	name = "Mato Grosso"
+	manpower = 120000
+	state_category = seven
+
+	provinces = {
+		2142 2147 2204 8175 11010 12939 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+state = { # 495 - Amazonas
+	id = 495
+	name = "Amazonas"
+	manpower = 979900
+	state_category = nine
+
+	provinces = {
+		1979 2035 2198 4980 5008 5083 5214 5216 5232 8172 8185 8254 10934 10956 10960 12919 12965 13083 
+	}
+	
+	resources = {
+		aluminium = 4 # was: 4
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}
+state = { # 496 - Minas Gerais
+	id = 496
+	name = "Minas Gerais"
+	manpower = 4603600
+	state_category = ten
+
+	provinces = {
+		2153 4570 5223 7589 8196 8233 10419 10931 10999 11002 12422 12903 12909 12938 
+	}
+	
+	resources = {
+		steel = 3 # was: 4
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11002 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 497 - Maranhão
+	id = 497
+	name = "Maranhão"
+	manpower = 2950100
+	state_category = ten
+
+	provinces = {
+		2150 2214 2228 5153 5204 5218 5220 10874 10984 12853 12913 12933 12947 12999 
+	}
+	
+	resources = {
+		rubber = 23 # was: 30
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			12853 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			12853 = {
+				naval_base = 2
+			}
+		}
+	}
+}
+state = { # 298 - Rio Grande do Norte
+	id = 498
+	name = "Rio Grande do Norte"
+	manpower = 7746000
+	state_category = eleven
+
+	provinces = {
+		1446 1524 2132 2164 2175 2178 2227 5107 5168 5182 7561 8179 8227 10345 10933 10939 10967 10989 10998 12961 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			5107 3 
+		}
+		victory_points = {
+			5168 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			air_base = 2
+			5107 = {
+				naval_base = 3
+			}
+			5168 = {
+				naval_base = 1
+			}
+		}
+	}	
+}
+state = { # 499 - Bahia
+	id = 499
+	name = "Bahia"
+	manpower = 4233900
+	state_category = ten
+
+	provinces = {
+		4617 5194 8143 8177 8184 8197 8242 10392 10926 10946 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			10946 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			10946 = {
+				naval_base = 1
+			}
+		}
+	}
+}
+state = { # 500 - Rio de Janeiro
+	id = 500
+	name = "Rio de Janeiro"
+	manpower = 6665500
+	state_category = eleven
+
+	provinces = {
+		5112 5167 5172 7553 8190 8226 10432 10980 12334 12996 
+	}
+	
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			10980 16 
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 7
+			10980 = {
+				naval_base = 7
+			}
+			5112 = {
+				naval_base = 4
+			}
+		}
+	}
+}
+state = { # 501 - São Paulo
+	id = 501
+	name = "São Paulo"
+	manpower = 6199200
+	state_category = eleven
+
+	provinces = {
+		1583 2167 2185 5186 7476 7636 8148 8210 10360 10513 10945 10947 10994 11003 11008 12438 12479 12937 12972 12977 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			10513 14 
+		}
+
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 5
+		}		
+	}
+}
+state = { # 502 - Rio Grande do Sul
+	id = 502
+	name = "Rio Grande do Sul"
+	manpower = 2959600
+	state_category = ten
+
+	provinces = {
+		1542 1585 1598 4436 4575 4589 4604 5110 7581 7594 7638 10447 12396 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		victory_points = {
+			10447 3 
+		}
+
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			10447 = {
+				naval_base = 3
+			}
+		}
+	}
+}
+state = { # 503 - Santa Catarina
+	id = 503
+	name = "Santa Catarina"
+	manpower = 1922700
+	state_category = ten
+
+	provinces = {
+		1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+		}	
+	}
+}
+state = { # 504 - Mato Grosso do Sul
+	id = 504
+	name = "Mato Grosso do Sul"
+	manpower = 229900
+	state_category = seven
+
+	provinces = {
+		2111 2181 5200 8189 8224 10959 12951 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}
+state = { # 505 - Goiás
+	id = 505
+	name = "Goiás"
+	manpower = 1662200
+	state_category = ten
+
+	provinces = {
+		2168 2190 2218 5115 5148 5151 5174 5208 8129 8140 12923 12959 12987 
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

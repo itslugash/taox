@@ -5,7 +5,7 @@
 state = { # 267 - Kabul
 	id = 267
 	name = "Kabul"
-	manpower = 3708361
+	manpower = 4637140
 	state_category = ten
 
 	provinces = {
@@ -34,7 +34,7 @@ state = { # 267 - Kabul
 state = { # 415 - Herat
 	id = 415
 	name = "Herat"
-	manpower = 1305812
+	manpower = 1632860
 	state_category = ten
 
 	provinces = {

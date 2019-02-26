@@ -1,8 +1,12 @@
-state = {
-	id = 763
-	name = "STATE_763"
+########################
+# TAOX States - Danzig #
+########################
+
+state = { # 682 - Danzig
+	id = 682
+	name = "Danzig"
 	manpower = 410000
-	state_category = city
+	state_category = seven
 
 	provinces = {
 		362 

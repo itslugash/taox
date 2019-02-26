@@ -1,0 +1,603 @@
+#######################
+# TAOX States - China #
+#######################
+
+state = { # 595 - Fujian
+	id = 595
+	name = "Fujian"
+	manpower = 11755600
+	state_category = twelve
+
+	provinces = {
+		1006 1094 1138 1166 1193 4053 4070 4113 4169 4196 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = { 
+			4196 3 
+		}
+		victory_points = { 
+			7071 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}	
+	}
+}
+state = { # 596 - Zhejiang
+	id = 596
+	name = "Zhejiang"
+	manpower = 21230700
+	state_category = twelve
+
+	provinces = {
+		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = { 
+			7191 1 
+		}
+		victory_points = { 
+			9974 1 
+		}
+		
+		buildings = {
+			infrastructure = 4
+
+			1055 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+			7191 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			9974 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+}
+state = { # 597 - Shandong
+	id = 597
+	name = "Shandong"
+	manpower = 38373200
+	state_category = thirteen
+
+	provinces = {
+		1069 1084 1104 1124 1154 1184 1200 4037 4071 4089 4157 4181 4186 4205 7055 7089 7105 7160 7189 9971 9987 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			1069 3 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+}
+state = { # 598 - Jiangsu
+	id = 598
+	name = "Jiangsu"
+	manpower = 23669300
+	state_category = twelve
+
+	provinces = {
+		1001 1029 1076 1121 1161 4001 4005 4031 4082 4123 4148 7025 7142 7181 7200 9953 9956 10095 11973 12055 12067 13144 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}
+state = { # 600 - Jiangxi
+	id = 600
+	name = "Jiangxi"
+	manpower = 15820400
+	state_category = twelve
+
+	provinces = {
+		1053 1066 1110 1628 3992 4038 4081 4083 4156 4183 4185 7004 7054 7172 7199 7653 9942 9984 10057 10112 10114 10501 11945 11961 11988 12030 12495 13141 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			3992 3 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+}
+state = { # 601 - Xikang
+	id = 601
+	name = "Xikang"
+	manpower = 368200
+	state_category = seven
+
+	provinces = {
+		4407 5018 5080 5102 8041 8059 10741 10856 
+	}
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+state = { # 602 - Hunan
+	id = 602
+	name = "Hunan"
+	manpower = 20293700
+	state_category = twelve
+
+	provinces = {
+		1448 1640 4125 4480 7097 7159 7502 7665 9982 9999 10335 10377 10517 11918 12017 12053 12310 12350 12378 12483 13140 13143 
+	}
+
+	resources = {
+		tungsten = 6
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			7097 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+		}
+	}
+}
+state = { # 603 - Guizhou
+	id = 603
+	name = "Guizhou"
+	manpower = 7543200
+	state_category = eleven
+
+	provinces = {
+		1474 1884 4192 4504 4532 5072 7521 7549 7577 8095 10616 10819 12841 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			4504 3 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+}
+state = { # 605 - Sichuan
+	id = 605
+	name = "Sichuan"
+	manpower = 52963300
+	state_category = fourteen
+
+	provinces = {
+		1367 1395 1893 2030 2091 4925 5048 6999 7240 7256 8026 10132 10144 11865 12274 12705 12767 
+	}
+
+	resources = {
+		steel = 14
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			4925 5 
+		}
+		victory_points = {
+			6999 20 
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+	}
+}
+state = { # 606 - Anhui
+	id = 606
+	name = "Anhui"
+	manpower = 18265400
+	state_category = twelve
+
+	provinces = {
+		1083 1146 4079 4158 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
+	}
+
+	resources = {
+		steel = 11
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			7222 1 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+}
+state = { # 607 - Henan
+	id = 607
+	name = "Henan"
+	manpower = 34289800
+	state_category = thirteen
+
+	provinces = {
+		1004 1139 1603 4010 4066 4114 4144 4519 4547 4606 6932 7074 7085 7126 7129 7459 7508 7540 7568 7656 9958 9995 10098 10364 10434 10446 11931 12012 12426 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			9958 1 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+	}
+}
+state = { # 608 - Beijing
+	id = 608
+	name = "Beijing"
+	manpower = 9648400
+	state_category = eight
+
+	provinces = {
+		1134 4137 4140 6828 9843 9969 10068 11761 12026 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			9843 20
+		}
+		victory_points = {
+			10068 1 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 3
+			10068 = {
+				naval_base = 2
+			}
+		}
+	}
+}
+state = { # 613 - Shanghai
+	id = 613
+	name = "Shanghai"
+	manpower = 17305100
+	state_category = twelve
+
+	provinces = {
+		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			7014 10
+		}
+		victory_points = {
+			11913 20 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+}
+state = { # 614 - Hebei
+	id = 614
+	name = "Hebei"
+	manpower = 18434900
+	state_category = twelve
+
+	provinces = {
+		1169 1188 4032 4058 4093 4190 4208 7000 7092 7109 10003 10022 10053 10119 11944 11980 11996 12062 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}
+state = { # 620 - Hubei
+	id = 620
+	name = "Hubei"
+	manpower = 25541600
+	state_category = thirteen
+
+	provinces = {
+		1036 1612 4009 4130 4619 4631 7019 7167 7580 7596 7609 7625 7637 7948 8072 9934 9959 10462 10474 12408 12467 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			4619 5 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
+	}
+}
+state = { # 743 - Qingdao
+	id = 743
+	name = "Qingdao"
+	manpower = 385000
+	state_category = seven
+
+	provinces = {
+		10000
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			10000 5 
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}	
+}
+state = { # 744 - Xi'an
+	id = 744
+	name = "Xi'an"
+	manpower = 9000000
+	state_category = eleven
+
+	provinces = {
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+
+		victory_points = {
+			7418 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}
+state = { # 748 - Zunyi
+	id = 748
+	name = "Zunyi"
+	manpower = 1500000
+	state_category = nine
+
+	provinces = {
+		1010 4141 4325 4431 9939 10763 11972 
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}
+state = { # 749 - Huangshan
+	id = 749
+	name = "Huangshan"
+	manpower = 5000000
+	state_category = eleven
+
+	provinces = {
+		1099 1125 1153 1171 4105 4173 7007 7104 10044 11937 12019 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}
+state = { # 750 - Changde
+	id = 750
+	name = "Changde"
+	manpower = 8000000
+	state_category = eleven
+
+	provinces = {
+		4041 4896 5030 7101 7201 7279 7434 10006 10304 10757 10822 12086 12414 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			7101 10 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+}
+state = { # 751 - Liangshan
+	id = 751
+	name = "Liangshan"
+	manpower = 300000
+	state_category = seven
+
+	provinces = {
+		1999 2067 4999 7294 10726 10841 12141 12819 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
+state = { # 752 - Chamdo
+	id = 752
+	name = "Chamdo"
+	manpower = 300000
+	state_category = seven
+
+	provinces = {
+		1918 7988 8104 12724 12837 
+	}
+	
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

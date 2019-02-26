@@ -1,0 +1,62 @@
+#########################
+# TAOX States - Ecuador #
+#########################
+
+state = { # 305 - Ecuador
+	id = 305
+	name = "Ecuador"
+	manpower = 2000000
+	state_category = nine
+
+	provinces = {
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+
+	resources = {
+		oil = 2 # was: 2
+	}
+
+	history = {
+		owner = ECU
+		add_core_of = ECU
+
+		victory_points = {
+			8252 1
+		}
+		victory_points = {
+			12798 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+			8252 = {
+				naval_base = 4
+			}
+		}
+	}
+}
+state = { # 649 - Archipiélago de Colón
+	id = 649
+	name = "Archipiélago de Colón"
+	manpower = 11532
+	state_category = three
+
+	provinces = {
+		5023
+	}
+	
+	history = {
+		owner = ECU
+		add_core_of = ECU
+
+		buildings = {
+			infrastructure = 2
+			5023 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -5,7 +5,7 @@
 state = { # 278 - Pampas
 	id = 278
 	name = "Pampas"
-	manpower = 8732739
+	manpower = 5596366
 	state_category = eleven
 
 	provinces = {
@@ -46,8 +46,8 @@ state = { # 278 - Pampas
 state = { # 508 - Noroeste Argentino
 	id = 508
 	name = "Noroeste Argentino"
-	manpower = 1219181
-	state_category = ten
+	manpower = 781311
+	state_category = nine
 
 	provinces = {
 		2136 2224 8195 8216 8253 11001 12928 12978 
@@ -70,8 +70,8 @@ state = { # 508 - Noroeste Argentino
 state = { # 509 - Chaco Austral
 	id = 509
 	name = "Chaco Austral"
-	manpower = 1098919
-	state_category = ten
+	manpower = 704241
+	state_category = nine
 
 	provinces = {
 		2106 2208 5143 5213 8169 8255 10944 10965 10986 12922 12943 
@@ -94,8 +94,8 @@ state = { # 509 - Chaco Austral
 state = { # 510 - Mesopotamia
 	id = 510
 	name = "Mesopotamia"
-	manpower = 5457088
-	state_category = eleven
+	manpower = 3497169
+	state_category = ten
 
 	provinces = {
 		1449 2172 5163 7500 8187 8208 8238 10515 10943 10975 10985 11007 12453 12964 13000 
@@ -124,7 +124,7 @@ state = { # 510 - Mesopotamia
 state = { # 511 - Cuyo
 	id = 511
 	name = "Cuyo"
-	manpower = 1701297
+	manpower = 1090274
 	state_category = ten
 
 	provinces = {
@@ -149,8 +149,8 @@ state = { # 511 - Cuyo
 state = { # 512 - Patagonia
 	id = 512
 	name = "Patagonia"
-	manpower = 353653
-	state_category = eight
+	manpower = 226638
+	state_category = seven
 
 	provinces = {
 		2149 2169 2199 5173 8161 8176 8192 10935 10953 10981 11005 11009 12306 12321 12349 12494 12946 12952 12982 

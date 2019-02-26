@@ -304,24 +304,6 @@ state = { # 634 - Solomon Islands
 		}
 	}
 }
-state = { # 674 - [FREE STATE]
-	id = 674
-	name = "Central Australia"
-	manpower = 0
-	state_category = wasteland
-
-	provinces = {
-		96
-	}
-
-	history = {
-		owner = AST
-		add_core_of = AST
-
-		buildings = {
-		}
-	}
-}
 state = { # 737 - Bismarck Archipelago
 	id = 737
 	name = "Bismarck Archipelago"
