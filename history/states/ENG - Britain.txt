@@ -581,6 +581,33 @@
 			}
 		}
 	}
+# Cyprus
+	state = { # 183 - Cyprus
+		id = 183
+		name = "Cyprus"
+		manpower = 347959
+		state_category = seven
+
+		provinces = {
+			7193 11984
+		}
+
+		resources = {
+			chromium = 3 # was: 4
+		}
+
+		history = {
+			owner = ENG
+
+			buildings = {
+				infrastructure = 4
+				air_base = 1
+				11984 = {
+					naval_base = 2
+				}
+			}
+		}
+	}
 # Falkland Islands
 	state = { # 299 - Falkland Islands
 		id = 299
@@ -729,6 +756,63 @@
 			}
 		}
 	}
+# Jordan
+	state = { # 455 - Transjordan
+		id = 455
+		name = "Transjordan"
+		manpower = 932000
+		state_category = eight
+
+		provinces = {
+			1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+		}
+
+		history = {
+			owner = ENG
+			add_core_of = JOR
+
+			victory_points = {
+				7151 1 
+			}
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+			}
+		}
+	}
+# Nigeria
+	state = { # 558 - Nigeria
+		id = 558
+		name = "Nigeria"
+		manpower = 19757000
+		state_category = twelve
+
+		provinces = {
+			1891 1932 1969 1992 2025 2050 4889 4938 4952 4972 4997 5028 7978 8021 8034 8109 10820 10831 12731 12817 12900 
+		}
+
+		resources = {
+			rubber = 2 # was: 3
+		}
+
+		history = {
+			owner = ENG
+
+			victory_points = {
+				2050 1
+			}
+
+			buildings = {
+				infrastructure = 3
+				arms_factory = 0
+				industrial_complex = 1
+				2050 = {
+					naval_base = 3
+				}
+			}
+		}
+	}
 # Newfoundland
 	state = { # 331 - Newfoundland
 		id = 331
@@ -770,6 +854,39 @@
 
 				12503 = {
 					naval_base = 1
+				}
+			}
+		}
+	}
+# Palestine
+	state = { # 454 - Palestine
+		id = 454
+		name = "Palestine"
+		manpower = 933142
+		state_category = eight
+
+		provinces = {
+			1 1015 1065 1086 1201 4088 4206 7107 7176 11970
+		}
+
+		history = {
+			owner = ENG
+			add_core_of = ISR
+			add_core_of = PAL
+
+			victory_points = {
+				1086 1 
+			}
+			victory_points = {
+				4206 1 
+			}
+
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 1
+				air_base = 2
+				4206 = {
+					naval_base = 3
 				}
 			}
 		}
