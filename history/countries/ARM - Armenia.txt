@@ -1,10 +1,7 @@
-﻿capital = 230 #Yerevan, Armenia
-
-oob = "AZR_1936"
+﻿capital = 230
 
 set_research_slots = 3
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -40,51 +37,21 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		right-wing = { 
-			popularity = 34
-		}	
+		
+		left-wing = {
+			popularity = 36
+		}
 	
 		centre = { 
 			popularity = 30
 		}
-		
-		left-wing = {
-			popularity = 36
-		}	
+
+		right-wing = { 
+			popularity = 34
+		}
+
+		syncretic = {
+			popularity = 0
+		}
 	}
 }
-
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = fascism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = communism
-	traits = {
-		
-	}
-}
-
-
