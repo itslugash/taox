@@ -1,5 +1,0 @@
-﻿#########################
-# TAOX Events - Germany #
-#########################
-
-add_namespace = taox_ger

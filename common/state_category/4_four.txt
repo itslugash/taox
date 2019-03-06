@@ -1,7 +1,0 @@
-state_categories = { # > 25,000
-	four = {
-		local_building_slots = 4
-
-		color = { 85 179 26 }
-	}
-}

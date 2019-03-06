@@ -1,7 +1,0 @@
-state_categories = { # > 500,000
-	eight = {
-		local_building_slots = 8
-
-		color = { 249 242 37 }
-	}
-}
