@@ -1,0 +1,278 @@
+#Category allowed for GXC YUN SHX XSM
+
+ ###  ##  ###   ##  #  # ###  ## ###      ## #  # ###  ###   ##  ###  ### 
+   # #  # #  # #  # ## # #   #   #       #   #  # #  # #  # #  # #  #  #  
+   # #### ###  #### # ## ##   #  ##       #  #  # ###  ###  #  # ###   #  
+#  # #  # #    #  # #  # #     # #         # #  # #    #    #  # #  #  #  
+ ##  #  # #    #  # #  # ### ##  ###     ##   ##  #    #     ##  #  #  #  
+
+CHI_seek_japanese_support = {
+
+	CHI_internal_party_support_right-wing = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = right-wing }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			right-wing_drift =0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_right-wing = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = right-wing }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			right-wing_drift =0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_left-wing = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = left-wing }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			left-wing_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_left-wing = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = left-wing }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			left-wing_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_syncretic = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = syncretic }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			syncretic_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_syncretic = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = syncretic }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			syncretic_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_centre = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = centre }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			centre_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_approach_japan = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			is_subject = no
+			if = {
+				limit = { JAP = { has_government = right-wing } }
+				right-wing > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = centre } }
+				centre > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = left-wing } }
+				left-wing > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = syncretic } }
+				syncretic > 0.4
+			}
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			JAP = { country_event = wtt_warlord.1 }
+			add_stability = 0.2
+			add_political_power = 100
+		}
+	}
+}
