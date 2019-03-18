@@ -107,7 +107,7 @@ country_event = {
 	}
 
 	trigger = {
-		#compare_autonomy_state < autonomy_dominion
+		#compare_autonomy_state < autonomy_nominal_dependency
 		has_capitulated = no
 		NOT = { surrender_progress > 0.5 }
 		original_tag = RAJ
@@ -140,7 +140,7 @@ country_event = {
 	}
 			
 	trigger = {
-		#compare_autonomy_state < autonomy_dominion
+		#compare_autonomy_state < autonomy_nominal_dependency
 		has_capitulated = no
 		NOT = { surrender_progress > 0.5 }
 		original_tag = RAJ

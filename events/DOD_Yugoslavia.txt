@@ -61,7 +61,7 @@ country_event = {
 				target = YUG
 				autonomy_state = autonomy_free
 			}
-			set_politics = { ruling_party = syncretic elections_allowed = yes }
+			set_politics = { ruling_party = syncretic elections_allowed = no }
 			add_popularity = { ideology = syncretic popularity = 0.5 }
 			set_party_name = { ideology = syncretic long_name = YUG_neutrality_party_2 name = YUG_neutrality_party_2 }
 		}

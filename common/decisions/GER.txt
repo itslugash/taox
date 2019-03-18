@@ -393,7 +393,7 @@ GER_reichskommissariats = {
 					transfer_state = 144
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = { target = PREV autonomy_state = autonomy_incorporated_dependency }
 					}
 					set_cosmetic_tag = NOR_reichskommissariat
 					create_country_leader = {
@@ -424,7 +424,7 @@ GER_reichskommissariats = {
 						}
 					}
 				}
-				set_autonomy = { target = NOR autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = NOR autonomy_state = autonomy_incorporated_dependency }
 			}
 		}
 	}
@@ -482,7 +482,7 @@ GER_reichskommissariats = {
 					transfer_state = 36
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = { target = PREV autonomy_state = autonomy_incorporated_dependency }
 					}
 					
 					set_cosmetic_tag = HOL_reichskommissariat
@@ -513,7 +513,7 @@ GER_reichskommissariats = {
 						}
 					}
 				}
-				set_autonomy = { target = HOL autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = HOL autonomy_state = autonomy_incorporated_dependency }
 			}
 		}
 	}
@@ -570,7 +570,7 @@ GER_reichskommissariats = {
 					transfer_state = 34
 					GER = {
 						puppet = PREV
-						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						set_autonomy = { target = PREV autonomy_state = autonomy_incorporated_dependency }
 					}
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
@@ -603,7 +603,7 @@ GER_reichskommissariats = {
 						}
 					}
 				}
-				set_autonomy = { target = BEL autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = BEL autonomy_state = autonomy_incorporated_dependency }
 			}
 		}
 	}
@@ -670,7 +670,7 @@ GER_reichskommissariats = {
 				set_state_controller = 784
 				GER = {
 					puppet = PREV
-					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					set_autonomy = { target = PREV autonomy_state = autonomy_incorporated_dependency }
 				}
 				
 				set_cosmetic_tag = BLR_reichskommissariat
@@ -763,7 +763,7 @@ GER_reichskommissariats = {
 				set_state_controller = 227
 				GER = {
 					puppet = PREV
-					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+					set_autonomy = { target = PREV autonomy_state = autonomy_incorporated_dependency }
 				}
 				set_cosmetic_tag = UKR_reichskommissariat
 				create_country_leader = {

@@ -1,23 +1,57 @@
-﻿capital = 285
+﻿#########
+# State #
+#########
 
-# Order of Battle
-	oob = "AST_1936"
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
+	capital = 285
+
+##########
+# Powers #
+##########
+
+	set_stability = 0.8
+
+	set_war_support = 0.3
+
+############
+# Politics #
+############
+
+	set_politics = {
+		parties = {
+
+			left-wing = {
+				popularity = 0.48
+			}
+			centre = { 
+				popularity = 97.32
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = {
+				popularity = 2.2
+			}
 		}
-		set_naval_oob = "AST_1936_naval"
+		ruling_party = centre
+		last_election = "1934.9.15"
+		election_frequency = 36
+		elections_allowed = no
+	}
 
-		else = {
-			set_naval_oob = "AST_1936_naval_legacy"
+	create_country_leader = {
+		name = "Joseph Lyons"
+		desc = "AST_Joseph_Lyons_DESC"
+		picture = "Portrait_AST_Joseph_Lyons.dds"
+		expire = "1999.12.31"
+		ideology = conservatism
+		traits = {
 		}
 	}
-	set_convoys = 100
 
-set_stability = 0.8
-set_war_support = 0.3
-
-# Technology
+##############
+# Technology #
+##############
+	
 	set_technology = {
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -39,6 +73,7 @@ set_war_support = 0.3
 
 		fleet_in_being = 1
 	}
+
 	if = {
 		limit = {
 			 has_dlc = "Man the Guns"
@@ -69,161 +104,123 @@ set_war_support = 0.3
 		}
 	}
 
-# Diplomacy
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		add_to_tech_sharing_group = commonwealth_research
+	}
+
+#########
+# Ideas #
+#########
+
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
 		}
 		add_ideas = AST_great_depression_1
-
-		add_to_tech_sharing_group = commonwealth_research
 	}
 
-set_politics = {
+########
+# Unit #
+########
 
-	parties = {
+	oob = "AST_1936"
 
-		left-wing = {
-			popularity = 0.48
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
 		}
+		set_naval_oob = "AST_1936_naval"
 
-		centre = { 
-			popularity = 97.32
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-
-		syncretic = {
-			popularity = 2.2
+		else = {
+			set_naval_oob = "AST_1936_naval_legacy"
 		}
 	}
-	
-	ruling_party = centre
-	last_election = "1934.9.15"
-	election_frequency = 36
-	elections_allowed = no
-}
 
-create_country_leader = {
-	name = "Joseph Lyons"
-	desc = "AST_Joseph_Lyons_DESC"
-	picture = "Portrait_AST_Joseph_Lyons.dds"
-	expire = "1999.12.31"
-	ideology = conservatism
-	traits = {
-		#
+########
+# Army #
+########
+
+	create_corps_commander = {
+		name = "Sir Leslie James Morshead"
+		gfx = "GFX_AST_leslie_morshead"
+		traits = {
+		}
+		skill = 4
+	    attack_skill = 4
+	    defense_skill = 2
+	    planning_skill = 5
+	    logistics_skill = 2
 	}
-}
 
-# Military Leaders
-	# General(s)
-		create_corps_commander = {
-			name = "Sir Leslie James Morshead"
-			gfx = "GFX_AST_leslie_morshead"
-			traits = {
-			}
-			skill = 4
-		    attack_skill = 4
-		    defense_skill = 2
-		    planning_skill = 5
-		    logistics_skill = 2
+	create_corps_commander = {
+		name = "Sir Thomas Blamey"
+		gfx = "GFX_AST_thomas_blamey"
+		traits = {
 		}
+		skill = 4
+	    attack_skill = 4
+	    defense_skill = 3
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
 
-		create_corps_commander = {
-			name = "Sir Thomas Blamey"
-			gfx = "GFX_AST_thomas_blamey"
-			traits = {
-			}
-			skill = 4
-		    attack_skill = 4
-		    defense_skill = 3
-		    planning_skill = 3
-		    logistics_skill = 3
+	create_corps_commander = {
+		name = "Henry Douglas Wynter"
+		gfx = "GFX_AST_henry_wynter"
+		traits = {
 		}
+		skill = 4
+	    attack_skill = 3
+	    defense_skill = 4
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
 
-		create_corps_commander = {
-			name = "Henry Douglas Wynter"
-			gfx = "GFX_AST_henry_wynter"
-			traits = {
-			}
-			skill = 4
-		    attack_skill = 3
-		    defense_skill = 4
-		    planning_skill = 3
-		    logistics_skill = 3
+	create_corps_commander = {
+		name = "George Alan Vasey"
+		gfx = "GFX_AST_alan_vasey"
+		traits = {
+			hill_fighter
 		}
+		skill = 3
+	    attack_skill = 2
+	    defense_skill = 4
+	    planning_skill = 3
+	    logistics_skill = 1
+	}
 
-		create_corps_commander = {
-			name = "George Alan Vasey"
-			gfx = "GFX_AST_alan_vasey"
-			traits = {
-				hill_fighter
-			}
-			skill = 3
-		    attack_skill = 2
-		    defense_skill = 4
-		    planning_skill = 3
-		    logistics_skill = 1
+	create_corps_commander = {
+		name = "Sir Horace Clement Hugh Robertson"
+		gfx = "GFX_AST_horace_robertson"
+		traits = {
+			desert_fox
 		}
+		skill = 3
+	    attack_skill = 3
+	    defense_skill = 1
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
 
-		create_corps_commander = {
-			name = "Sir Horace Clement Hugh Robertson"
-			gfx = "GFX_AST_horace_robertson"
-			traits = {
-				desert_fox
-			}
-			skill = 3
-		    attack_skill = 3
-		    defense_skill = 1
-		    planning_skill = 3
-		    logistics_skill = 3
+	create_corps_commander = {
+		name = "Sir John Northcott"
+		gfx = "GFX_AST_john_northcott"
+		traits = {
+			armor_officer
 		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
 
-		create_corps_commander = {
-			name = "Sir John Northcott"
-			gfx = "GFX_AST_john_northcott"
-			traits = {
-				armor_officer
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-
-	# Admirals
-
-		create_navy_leader = {
-			name = "Harold Bruce Farncomb"
-			gfx = "GFX_AST_harold_farncomb"
-			traits = {
-				aviation_enthusiast
-				naval_lineage
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			maneuvering_skill = 3
-			coordination_skill = 4
-		}
-
-		create_navy_leader = {
-			name = "Sir Victor Crutchley"
-			gfx = "GFX_AST_victor_crutchley"
-			traits = {
-				bold
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 2
-		}
-
-# Variants
+#############
+# Equipment #
+#############
 
 	if = {
 		limit = {
@@ -247,7 +244,6 @@ create_country_leader = {
 				rear_1_custom_slot = ship_light_medium_battery_2
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Town Class"
 			type = ship_hull_cruiser_1
@@ -266,7 +262,6 @@ create_country_leader = {
 			}
 			obsolete = yes
 		}
-
 		create_equipment_variant = {
 			name = "Canberra Class"
 			type = ship_hull_cruiser_1
@@ -285,7 +280,6 @@ create_country_leader = {
 				rear_1_custom_slot = ship_medium_battery_2
 			}
 		}
-
 		create_equipment_variant = {
 			name = "V/W Class"
 			type = ship_hull_light_1
@@ -302,7 +296,6 @@ create_country_leader = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-
 		create_equipment_variant = {
 			name = "S Class"
 			type = ship_hull_light_1
@@ -320,7 +313,6 @@ create_country_leader = {
 			}
 			obsolete = yes
 		}
-
 		else = {
 			create_equipment_variant = {
 				name = "Sydney Class"
@@ -332,7 +324,6 @@ create_country_leader = {
 					ship_anti_air_upgrade = 2
 				}
 			}
-			
 			create_equipment_variant = {
 				name = "Canberra Class"
 				type = heavy_cruiser_1
@@ -344,4 +335,37 @@ create_country_leader = {
 				}
 			}
 		}
+	}
+
+########
+# Navy #
+########
+
+	set_convoys = 100
+
+	create_navy_leader = {
+		name = "Harold Bruce Farncomb"
+		gfx = "GFX_AST_harold_farncomb"
+		traits = {
+			aviation_enthusiast
+			naval_lineage
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		maneuvering_skill = 3
+		coordination_skill = 4
+	}
+
+	create_navy_leader = {
+		name = "Sir Victor Crutchley"
+		gfx = "GFX_AST_victor_crutchley"
+		traits = {
+			bold
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 2
 	}

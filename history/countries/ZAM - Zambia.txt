@@ -1,32 +1,38 @@
-﻿capital = 771
+﻿#########
+# State #
+#########
 
-set_technology = {
-	infantry_weapons = 1
-}
+	capital = 771
 
-set_politics = {
+############
+# Politics #
+############
 
-	parties = {
-		
-		left-wing = {
-			popularity = 5
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 5
+			}
+			centre = { 
+				popularity = 55
+			}
+			right-wing = {
+				popularity = 15
+			}
+			syncretic = { 
+				popularity = 25
+			}
 		}
-
-		centre = { 
-			popularity = 55
-		}
-
-		right-wing = {
-			popularity = 15
-		}
-		
-		syncretic = { 
-			popularity = 25
-		}
+		ruling_party = centre
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	
-	ruling_party = centre
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+
+##############
+# Technology #
+##############
+
+	set_technology = {
+		infantry_weapons = 1
+	}

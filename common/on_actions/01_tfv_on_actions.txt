@@ -150,12 +150,12 @@ on_actions = {
 			if = {
 				limit = { tag = EGY }
 				if = {
-					limit = { has_autonomy_state = autonomy_colony }
+					limit = { has_autonomy_state = autonomy_autonomous_dependency }
 					set_country_flag = achievement_EGY_colony
 					log = EGY_colony
 				}
 				if = {
-					limit = { has_autonomy_state = autonomy_dominion }
+					limit = { has_autonomy_state = autonomy_nominal_dependency }
 					set_country_flag = achievement_EGY_dominion
 					log = EGY_dominion
 				}
@@ -165,8 +165,8 @@ on_actions = {
 			if = {
 				limit = {
 					OR = {
-						has_autonomy_state = autonomy_colony
-						has_autonomy_state = autonomy_dominion
+						has_autonomy_state = autonomy_autonomous_dependency
+						has_autonomy_state = autonomy_nominal_dependency
 					}
 					OVERLORD = { is_in_tech_sharing_group = commonwealth_research }
 				}
@@ -176,11 +176,11 @@ on_actions = {
 			if = {
 				limit = {
 					tag = RAJ
-					has_autonomy_state = autonomy_dominion
+					has_autonomy_state = autonomy_nominal_dependency
 				}
 				set_politics = {
 					ruling_party = centre
-					elections_allowed = yes
+					elections_allowed = no
 				}
 				add_popularity = {
 					ideology = syncretic

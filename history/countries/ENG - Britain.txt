@@ -122,31 +122,31 @@ if = {
 	}
 	set_autonomy = {
 		target = MAL
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_incorporated_dependency
 	}
 	set_autonomy = {
 		target = RAJ
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_autonomous_dependency
 		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = CAN
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_nominal_dependency
 		freedom_level = 0.4
 	}
 	set_autonomy = {
 		target = SAF
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_nominal_dependency
 		freedom_level = 0.4
 	}
 	set_autonomy = {
 		target = AST
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_nominal_dependency
 		freedom_level = 0.2
 	}
 	set_autonomy = {
 		target = NZL
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_nominal_dependency
 		freedom_level = 0.2
 	}
 	else = {
@@ -340,7 +340,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 
 

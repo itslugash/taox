@@ -1,60 +1,73 @@
-﻿capital = 267
+﻿#########
+# State #
+#########
 
-oob = "AFG_1936"
+	capital = 267
 
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-	basic_light_tank = 1
-}
+############
+# Politics #
+############
 
-set_politics = {
-
-	parties = {
-
-		left-wing = {
-			popularity = 0
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 0
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = { 
+				popularity = 100
+			}
 		}
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-		centre = { 
-			popularity = 0
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-		
-		syncretic = { 
-			popularity = 100
+	create_country_leader = {
+		name = "Mohammed Zahir Shah"
+		desc = "AFG_Mohammed_Zahir_Shah_DESC"
+		picture = "Portrait_AFG_Mohammed_Zahir_Shah.dds"
+		expire = "1999.12.31"
+		ideology = monarchism
+		traits = {
 		}
 	}
-	
-	ruling_party = syncretic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 
-create_country_leader = {
-	name = "Mohammed Zahir Shah"
-	desc = "AFG_Mohammed_Zahir_Shah_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
-	expire = "1999.12.31"
-	ideology = monarchism
-	traits = {
-		#
-	}
-}
+##############
+# Technology #
+##############
 
-create_field_marshal = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = {
-		desert_fox
+	set_technology = {
+		infantry_weapons = 1
+		gwtank = 1
+		basic_light_tank = 1
 	}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
+
+########
+# Unit #
+########
+
+	oob = "AFG_1936"
+
+########
+# Army #
+########
+
+	create_field_marshal = {
+		name = "Sardar Shah Wali Khan"
+		portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+		traits = {
+			desert_fox
+		}
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}

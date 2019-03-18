@@ -4807,7 +4807,7 @@ CHI_integrate_the_warlords = {
 	CHI_integrate_the_army = {
 		icon = generic_prepare_civil_war
 		available = {
-			FROM = { compare_autonomy_state < autonomy_colony }
+			FROM = { compare_autonomy_state < autonomy_autonomous_dependency }
 			#NOT = {
 			#	has_country_flag = CHI_integrate_the_army
 			#}
@@ -4993,7 +4993,7 @@ CHI_integrate_the_warlords = {
 		icon = generic_political_discourse
 		available = {
 			FROM = { 
-				compare_autonomy_state < autonomy_colony 
+				compare_autonomy_state < autonomy_autonomous_dependency 
 			}
 		}
 
@@ -5054,7 +5054,7 @@ CHI_integrate_the_warlords = {
 		icon = oppression
 		available = {
 			FROM = {
-				FROM = { compare_autonomy_state < autonomy_colony }
+				FROM = { compare_autonomy_state < autonomy_autonomous_dependency }
 			}
 		}
 

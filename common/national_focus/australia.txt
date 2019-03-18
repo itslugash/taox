@@ -3541,11 +3541,11 @@ focus_tree = {
 		available = {
 			if = {
 				limit = { NOT = { has_government = right-wing } }
-				has_autonomy_state = autonomy_dominion
+				has_autonomy_state = autonomy_nominal_dependency
 			}
 			if = {
 				limit = { has_government = right-wing }
-				has_autonomy_state = autonomy_satellite
+				has_autonomy_state = autonomy_autonomous_dependency
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
@@ -3910,11 +3910,11 @@ focus_tree = {
 			compare_autonomy_progress_ratio > 0.55
 			if = {
 				limit = { not = { has_government = right-wing } }
-				compare_autonomy_state > autonomy_colony
+				compare_autonomy_state > autonomy_autonomous_dependency
 			}
 			if = {
 				limit = { has_government = right-wing } 
-				compare_autonomy_state > autonomy_reichsprotectorate
+				compare_autonomy_state > autonomy_dependency
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
@@ -4021,11 +4021,11 @@ focus_tree = {
 					compare_autonomy_progress_ratio > 0.75
 					if = {
 						limit = { not = { has_government = right-wing } }
-						has_autonomy_state = autonomy_dominion
+						has_autonomy_state = autonomy_nominal_dependency
 					}
 					if = {
 						limit = { has_government = right-wing } 
-						has_autonomy_state = autonomy_satellite
+						has_autonomy_state = autonomy_autonomous_dependency
 					}
 				}
 			}
@@ -4125,11 +4125,11 @@ focus_tree = {
 		available = {
 			if = {
 				limit = { not = { has_government = right-wing } }
-				has_autonomy_state = autonomy_dominion
+				has_autonomy_state = autonomy_nominal_dependency
 			}
 			if = {
 				limit = { has_government = right-wing } 
-				has_autonomy_state = autonomy_satellite
+				has_autonomy_state = autonomy_autonomous_dependency
 			}
 			MAL = {
 				is_puppet_of = ENG
@@ -4181,11 +4181,11 @@ focus_tree = {
 				AND = {
 					if = {
 						limit = { not = { has_government = right-wing } }
-						has_autonomy_state = autonomy_dominion
+						has_autonomy_state = autonomy_nominal_dependency
 					}
 					if = {
 						limit = { has_government = right-wing } 
-						has_autonomy_state = autonomy_satellite
+						has_autonomy_state = autonomy_autonomous_dependency
 					}
 					compare_autonomy_progress_ratio > 0.8
 				}
@@ -4261,11 +4261,11 @@ focus_tree = {
 				AND = {
 					if = {
 						limit = { not = { has_government = right-wing } }
-						has_autonomy_state = autonomy_dominion
+						has_autonomy_state = autonomy_nominal_dependency
 					}
 					if = {
 						limit = { has_government = right-wing } 
-						has_autonomy_state = autonomy_satellite
+						has_autonomy_state = autonomy_autonomous_dependency
 					}
 					compare_autonomy_progress_ratio > 0.8
 				}
@@ -4398,11 +4398,11 @@ focus_tree = {
 			compare_autonomy_progress_ratio > 0.55
 			if = {
 				limit = { not = { has_government = right-wing } }
-				compare_autonomy_state > autonomy_colony
+				compare_autonomy_state > autonomy_autonomous_dependency
 			}
 			if = {
 				limit = { has_government = right-wing } 
-				compare_autonomy_state > autonomy_reichsprotectorate
+				compare_autonomy_state > autonomy_dependency
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}

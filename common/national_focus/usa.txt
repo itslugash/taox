@@ -231,7 +231,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			set_politics = { ruling_party = left-wing elections_allowed = yes } #good and nice communism has elections
+			set_politics = { ruling_party = left-wing elections_allowed = no } #good and nice communism has elections
 			add_popularity = { ideology = left-wing popularity = 0.25 }
 			hidden_effect = {
 				if = {

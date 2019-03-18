@@ -93,7 +93,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1933.10.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
@@ -120,7 +120,7 @@ set_politics = {
 		ruling_party = centre
 		last_election = "1936.10.19"
 		election_frequency = 36
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 

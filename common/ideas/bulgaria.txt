@@ -1,5 +1,20 @@
 ideas = {
-	
+
+	country = {
+		BUL_treaty_of_neuilly-sur-seine = {
+
+			picture = HUN_treaty_of_triannon
+
+			available = {
+				has_war = no
+			}
+
+			modifier = {
+				conscription_factor = -0.7
+				production_speed_arms_factory_factor = -0.5
+			}
+		}
+	}
 	political_advisor = {
 
 		BUL_konstantin_muraviev = {

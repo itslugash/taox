@@ -2937,7 +2937,7 @@ ENG_appeal_to_imperial_loyalists = {
 					add_to_faction = PREV
 					set_autonomy = {
 						target = PREV
-						autonomy_state = autonomy_integrated_puppet
+						autonomy_state = autonomy_incorporated_dependency
 					}
 				}
 				hidden_effect = {
@@ -3014,7 +3014,7 @@ ENG_appeal_to_imperial_loyalists = {
 					add_to_faction = PREV
 					set_autonomy = {
 						target = PREV
-						autonomy_state = autonomy_integrated_puppet
+						autonomy_state = autonomy_incorporated_dependency
 					}
 				}
 				hidden_effect = {
@@ -3091,7 +3091,7 @@ ENG_appeal_to_imperial_loyalists = {
 					add_to_faction = PREV
 					set_autonomy = {
 						target = PREV
-						autonomy_state = autonomy_integrated_puppet
+						autonomy_state = autonomy_incorporated_dependency
 					}
 				}
 				hidden_effect = {
@@ -3168,7 +3168,7 @@ ENG_appeal_to_imperial_loyalists = {
 					add_to_faction = PREV
 					set_autonomy = {
 						target = PREV
-						autonomy_state = autonomy_integrated_puppet
+						autonomy_state = autonomy_incorporated_dependency
 					}
 				}
 				hidden_effect = {

@@ -2478,7 +2478,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = centre
-					elections_allowed = yes
+					elections_allowed = no
 				}
 				limit = {
 					left-wing > 0.35
@@ -2687,7 +2687,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = centre
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}
 			swap_ideas = {

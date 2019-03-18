@@ -1190,12 +1190,12 @@ country_event = {
 		name = mtg_britain.20.a
 		add_opinion_modifier = { target = ENG modifier = ENG_three_nation_solution }
 		release = BAN
-		ENG = { set_autonomy = { target = BAN autonomy_state = autonomy_colony } }
+		ENG = { set_autonomy = { target = BAN autonomy_state = autonomy_autonomous_dependency } }
 		BAN = {
 			add_ideas = ENG_guided_by_britain_raj_1
 		}
 		release = PAK
-		ENG = { set_autonomy = { target = PAK autonomy_state = autonomy_colony } }
+		ENG = { set_autonomy = { target = PAK autonomy_state = autonomy_autonomous_dependency } }
 		PAK = {
 			add_ideas = ENG_guided_by_britain_raj_1
 		}
@@ -1223,28 +1223,28 @@ country_event = {
 				limit = {
 					tag = RAJ
 					NOT = { is_subject = no }
-					NOT = { has_autonomy_state = autonomy_dominion }
+					NOT = { has_autonomy_state = autonomy_nominal_dependency }
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
+				set_autonomy = { target = RAJ autonomy_state = autonomy_nominal_dependency }
 			}
 			if = {
 				limit = {
 					tag = PAK
 					NOT = { is_subject = no }
-					NOT = { has_autonomy_state = autonomy_dominion }
+					NOT = { has_autonomy_state = autonomy_nominal_dependency }
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
+				set_autonomy = { target = RAJ autonomy_state = autonomy_nominal_dependency }
 			}
 			if = {
 				limit = {
 					tag = BAN
 					NOT = { is_subject = no }
-					NOT = { has_autonomy_state = autonomy_dominion }
+					NOT = { has_autonomy_state = autonomy_nominal_dependency }
 					has_dlc = "Together for Victory"
 				}
-				set_autonomy = { target = RAJ autonomy_state = autonomy_dominion }
+				set_autonomy = { target = RAJ autonomy_state = autonomy_nominal_dependency }
 			}
 			retire_country_leader = yes
 		}
@@ -7350,7 +7350,7 @@ country_event = {
 		name = mtg_britain.113.a
 		set_autonomy = {
 		    target = FROM
-		    autonomy_state = autonomy_integrated_puppet
+		    autonomy_state = autonomy_incorporated_dependency
 		}
 		hidden_effect = {
 			if = {

@@ -1,36 +1,50 @@
-﻿capital = 104
+﻿#########
+# State #
+#########
 
-set_research_slots = 3
+	capital = 104
 
-# Starting tech
-# clone of Yugoslavia
-set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_submarine = 1
-}
+############
+# Politics #
+############
 
-set_politics = {
-
-	parties = {
-		right-wing = { 
-			popularity = 33
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 34
+			}
+			centre = {
+				popularity = 0
+			}
+			right-wing = { 
+				popularity = 33
+			}
+			syncretic = { 
+				popularity = 33
+			}		
 		}
-		syncretic = { 
-			popularity = 33
-		}		
-		left-wing = {
-			popularity = 34
-		}
+		ruling_party = left-wing
+		last_election = "1936.1.1"
+		election_frequency = 72
+		elections_allowed = no
 	}
-}
 
+##############
+# Technology #
+##############
 
+	set_research_slots = 3
+
+	set_technology = {
+		tech_support = 1		
+		tech_engineers = 1
+		tech_mountaineers = 1
+		early_fighter = 1
+		gwtank = 1
+		basic_light_tank = 1
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}

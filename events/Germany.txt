@@ -1,11 +1,10 @@
-﻿###########################
-# German Events
-###########################
+﻿####################
+# Events - Germany #
+####################
 
 add_namespace = germany
 
-# Austrian Anschluss Completed
-country_event = {
+country_event = { # "Anschluss"
 	id = germany.4
 	title = germany.4.t
 	desc = germany.4.d
@@ -15,27 +14,36 @@ country_event = {
 	
  	immediate = {
  		hidden_effect = {
- 			add_named_threat = { threat = 10 name = germany.4.t }
+ 			add_named_threat = {
+ 				name = germany.4.t
+ 				threat = 10
+ 			}
  		} 		
  	}
 
-	option = {
+	option = { # "How can anyone say that Austria is not German?!"
 		name = germany.4.a
-		4 = {
+		4 = { # Lower Austria
 			if = {
-				limit = { is_owned_by = AUS }
+				limit = {
+					is_owned_by = AUS
+				}
 				add_core_of = GER
 			}
 		}
-		152 = {
+		152 = { # Upper Austria
 			if = {
-				limit = { is_owned_by = AUS }
+				limit = {
+					is_owned_by = AUS
+				}
 				add_core_of = GER
 			}
 		}
-		153 = {
+		153 = { # Tyrol
 			if = {
-				limit = { is_owned_by = AUS }
+				limit = {
+					is_owned_by = AUS
+				}
 				add_core_of = GER
 			}
 		}
@@ -44,13 +52,20 @@ country_event = {
 				set_nationality = GER
 			}
 		}
-		annex_country = { target = AUS transfer_troops = yes }
-		add_political_power = 75
 		set_country_flag = AUS_annexed
-		add_war_support = 0.1
+		add_political_power = 75
 		add_stability = 0.05
+		add_war_support = 0.1
+		annex_country = {
+			target = AUS
+			transfer_troops = yes
+		}
 		USA = {
-			set_country_flag = { flag = USA_anschluss_window days = 60 value = 1 }
+			set_country_flag = {
+				flag = USA_anschluss_window
+				days = 60
+				value = 1
+			}
 		}
 		custom_effect_tooltip = anschluss_mefo_bills_tt
 		hidden_effect = { # Having it appear twice might be confusing
@@ -58,13 +73,18 @@ country_event = {
 			GER_mefo_bills_level_down = yes
 		}
 		custom_effect_tooltip = anschluss_mefo_bills_double_reduction
-		add_to_variable = { var = GER_mefo_bill_counter value = -10 }
+		add_to_variable = {
+			var = GER_mefo_bill_counter
+			value = -10
+		}
 		
 		if = {
 			limit = {
 				has_dlc = "Death or Dishonor"
 				country_exists = YUG
-				YUG = { has_war = no }
+				YUG = {
+					has_war = no
+				}
 			}
 			country_event = {
 				id = DOD_yugoslavia.30
@@ -72,15 +92,15 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			news_event = { hours = 6 id = news.36 }
+			news_event = {
+				id = news.36
+				hours = 6
+			}
 		}
 	}
 }
 
-#anti_comintern_pact
-# nations are asked to join pact, agreeing = relations with GER and hit with SOV 
-
-country_event = {
+country_event = { # "Anti-Comintern Pact"
 	id = germany.5
 	title = germany.5.t
 	desc = germany.5.d
@@ -88,8 +108,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
-		name = germany.5.a		#join
+	option = { # "Join"
+		name = germany.5.a
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -118,7 +138,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_literally_china = yes
-				JAP = { has_completed_focus = JAP_purge_the_kodoha_faction }
+				JAP = {
+					has_completed_focus = JAP_purge_the_kodoha_faction
+				}
 			}
 			modifier = {
 				factor = 0
@@ -128,56 +150,83 @@ country_event = {
 			}
 		}
 		set_country_flag = anti_comintern_member
-		GER = { add_opinion_modifier = { target = ROOT modifier = anti_comintern_pact_opinion } }
-		add_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
-		SOV  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+		GER = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = anti_comintern_pact_opinion
+			}
+		}
+		add_opinion_modifier = {
+			target = GER modifier = anti_comintern_pact_opinion
+		}
+		SOV  = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = pact_against_us
+			}
+		}
 	}
-	
-	option = {
-		name = germany.5.b		#refuse
-		trigger = { NOT = { is_puppet_of = GER } }
+	option = { # "Refuse"
+		name = germany.5.b
+		trigger = {
+			NOT = {
+				is_puppet_of = GER
+			}
+		}
 		ai_chance = { 
 			factor = 25 
 		}
-		GER =  { add_opinion_modifier = { target = ROOT modifier = refused_anti_comintern_pact_opinion } }
+		GER =  {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = refused_anti_comintern_pact_opinion
+			}
+		}
 	}
-
 }
 
-# tripartite_pact
-# anti_comintern_pact nations are asked to join pact, agreeing = relations with GER and hit with SOV
-
-country_event = {
+country_event = { # "The Tripartite Pact"
 	id = germany.6
 	title = germany.6.t
 	desc = germany.6.d
 	picture = GFX_report_event_hitler_croatia_handshake
-	
 
 	is_triggered_only = yes
 	
-	option = {
-		name = germany.6.a		#join	
-		remove_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
-		add_opinion_modifier = { target = GER modifier = tripartite_pact_opinion }
-		remove_opinion_modifier = { target = SOV modifier = pact_against_us }
-		add_opinion_modifier = { target = SOV modifier = worse_pact_against_us }
+	option = { # "Join"
+		name = germany.6.a
+		remove_opinion_modifier = {
+			target = GER
+			modifier = anti_comintern_pact_opinion
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = tripartite_pact_opinion
+		}
+		remove_opinion_modifier = {
+			target = SOV
+			modifier = pact_against_us
+		}
+		add_opinion_modifier = {
+			target = SOV
+			modifier = worse_pact_against_us
+		}
 	}
-	
-	option = {
-		name = germany.6.b		#refuse
-		trigger = { NOT = { is_puppet_of = GER } }
-		add_opinion_modifier = { target = GER modifier = refused_tripartite_pact_opinion }
+	option = { # "Refuse"
+		name = germany.6.b
+		trigger = {
+			NOT = {
+				is_puppet_of = GER
+			}
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = refused_tripartite_pact_opinion
+		}
 	}
-
 }
 
-#molotov_ribbentrop_pact
-# fire event to SOV to accept or not. adds claims
-# SOV events sends reply to GER, adds claims if they said yes, hurts relations if they say no
-
-# Molotov-Ribbentrop Pact (Soviets)
-country_event = {
+country_event = { # The Molotov-Ribbentrop Pact
 	id = germany.11
 	title = germany.11.t
 	desc = germany.11.d
@@ -185,8 +234,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = germany.11.a	#sounds good
+	option = { # "Sign the treaty."
+		name = germany.11.a
 		ai_chance = { 
 			factor = 90 
 			modifier = {
@@ -202,7 +251,10 @@ country_event = {
 				}
 			}
 		}
-		add_opinion_modifier = { target = GER modifier = MR_pact }# pact		
+		add_opinion_modifier = {
+			target = GER
+			modifier = MR_pact
+		}		
 		custom_effect_tooltip = germany.11.a.tt
 		add_state_claim = 96
 		add_state_claim = 11
@@ -224,26 +276,40 @@ country_event = {
 		add_state_claim = 97
 		add_state_claim = 80
 		add_state_claim = 784
-		hidden_effect =  { add_timed_idea = { idea = SOV_molotov_ribbentrop_pact days = 730 } }
+		hidden_effect =  {
+			add_timed_idea = {
+				idea = SOV_molotov_ribbentrop_pact
+				days = 730
+			}
+		}
 		GER = {
-			country_event = { days = 1 id = germany.12 }
+			country_event = {
+				days = 1
+				id = germany.12
+			}
 			effect_tooltip = {
-				add_opinion_modifier = { target = SOV modifier = MR_pact }# pact
+				add_opinion_modifier = {
+					target = SOV
+					modifier = MR_pact
+				}
 			}
 		}
 		set_global_flag = sov_yes_pact
 	}
-	
-	option = {
-		name = germany.11.b	#no way 
+	option = { # "No deals with the fascists!"
+		name = germany.11.b
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 				GER = {
-					NOT = { has_wargoal_against = SOV }
-					NOT = { is_justifying_wargoal_against = SOV }
+					NOT = {
+						has_wargoal_against = SOV
+					}
+					NOT = {
+						is_justifying_wargoal_against = SOV
+					}
 				}
 			}
 			modifier = {
@@ -254,14 +320,15 @@ country_event = {
 		add_political_power = -50	
 		add_opinion_modifier = { target = GER modifier = refused_MR_pact }# no pact 
 		GER = {
-			country_event = { days = 1 id = germany.13 }
+			country_event = {
+				days = 1 id = germany.13
+			}
 		}
 		set_global_flag = sov_no_pact
 	}
 }
 
-# Soviets Sign MR Pact
-country_event = {
+country_event = { # "Moscow Signs the Pact"
 	id = germany.12
 	title = germany.12.t
 	desc = germany.12.d
@@ -269,28 +336,41 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = germany.12.a	#neat
+	option = { # "Excellent."
+		name = germany.12.a
 		every_other_country = {
 			limit = {
-				NOT = { tag = GER }
+				NOT = {
+					tag = GER
+				}
 				has_government = right-wing 
 			}
-			add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+			add_opinion_modifier = {
+				target = GER modifier = MR_pact_fascists
+			}
 		}
-		diplomatic_relation = { country = SOV relation = non_aggression_pact }
-		add_opinion_modifier = { target = SOV modifier = MR_pact }# pact
+		diplomatic_relation = {
+			country = SOV relation = non_aggression_pact
+		}
+		add_opinion_modifier = {
+			target = SOV modifier = MR_pact
+		}
 		USA = {
-			set_country_flag = { flag = USA_MR_window days = 60 value = 1 }
+			set_country_flag = {
+				flag = USA_MR_window days = 60
+				value = 1
+			}
 		}
 		hidden_effect = {
-			country_event = { hours = 6 id = news.32 }
+			country_event = {
+				hours = 6
+				id = news.32
+			}
 		}
 	}
 }
 
-# Soviets Reject MR Pact
-country_event = {
+country_event = { # "Moscow Rejects the Pact"
 	id = germany.13
 	title = germany.13.t
 	desc = germany.13.d
@@ -298,14 +378,16 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
-		name = germany.13.a	#bah
-		add_opinion_modifier = { target = SOV modifier = refused_MR_pact }# no pact
+	option = { # "Curse them!"
+		name = germany.13.a
+		add_opinion_modifier = {
+			target = SOV
+			modifier = refused_MR_pact
+		}
 	}
 }
 
-# Poland conquered... honor MR Pact?
-country_event = {
+country_event = { # "The Partitioning of Poland"
 	id = germany.14
 	title = germany.14.t
 	desc = germany.14.d
@@ -316,8 +398,12 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_global_flag = sov_yes_pact
-		SOV = { exists = yes }
-		NOT =  { has_war_with = SOV }
+		SOV = {
+			exists = yes
+		}
+		NOT =  {
+			has_war_with = SOV
+		}
 		OR = {
 			OR = {
 				owns_state = 96
@@ -330,7 +416,9 @@ country_event = {
 				owns_state = 784
 			}
 			AND = {
-				POL = { has_capitulated = yes }
+				POL = {
+					has_capitulated = yes
+				}
 				OR = {
 					controls_state = 96
 					controls_state = 95
@@ -358,7 +446,9 @@ country_event = {
 						owns_state = 89
 						owns_state = 784
 						AND = {
-							POL = { has_capitulated = yes }
+							POL = {
+								has_capitulated = yes
+							}
 							OR = {
 								controls_state = 96
 								controls_state = 95
@@ -380,7 +470,8 @@ country_event = {
 		days = 1
 	}
 	
-	option = {
+	option = { # "Yes. Treaty stipulations must be obeyed."
+		name = germany.14.a
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -394,7 +485,6 @@ country_event = {
 				}
 			}
 		}
-		name = germany.14.a
 		if = {
 			limit = {
 				96 = {
@@ -403,12 +493,16 @@ country_event = {
 						any_other_country = {
 							controls_state = 96
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
 			}
-			SOV = { transfer_state = 96 }
+			SOV = {
+				transfer_state = 96
+			}
 		}
 		if = {
 			limit = {
@@ -418,12 +512,16 @@ country_event = {
 						any_other_country = {
 							controls_state = 95
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
 			}
-			SOV = { transfer_state = 95 }
+			SOV = {
+				transfer_state = 95
+			}
 		}
 		if = {
 			limit = {
@@ -433,12 +531,16 @@ country_event = {
 						any_other_country = {
 							controls_state = 94
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
 			}
-			SOV = { transfer_state = 94 }
+			SOV = {
+				transfer_state = 94
+			}
 		}
 		if = {
 			limit = {
@@ -448,12 +550,16 @@ country_event = {
 						any_other_country = {
 							controls_state = 93
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
 			}
-			SOV = { transfer_state = 93 }
+			SOV = {
+				transfer_state = 93
+			}
 		}
 		if = {
 			limit = {
@@ -463,7 +569,9 @@ country_event = {
 						any_other_country = {
 							controls_state = 91
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
@@ -478,7 +586,9 @@ country_event = {
 						any_other_country = {
 							controls_state = 97
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
@@ -493,7 +603,9 @@ country_event = {
 						any_other_country = {
 							controls_state = 89
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
@@ -508,16 +620,22 @@ country_event = {
 						any_other_country = {
 							controls_state = 784
 							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
+							GER = {
+								is_faction_leader = yes
+							}
 						}
 					}
 				}
 			}
-			SOV = { transfer_state = 784 }
+			SOV = {
+				transfer_state = 784
+			}
 		}
-		SOV = { country_event = germany.15 }
+		SOV = {
+			country_event = germany.15
+		}
 	}
-	option = {
+	option = { # "No! All of Poland belongs to the Vaterland!"
 		name = germany.14.b
 		ai_chance = {
 			base = 1
@@ -535,7 +653,9 @@ country_event = {
 				}
 			}
 		}
-		SOV = { country_event = germany.16 }
+		SOV = {
+			country_event = germany.16
+		}
 		clr_global_flag = sov_yes_pact
 		diplomatic_relation = {
 			country = SOV
@@ -561,8 +681,7 @@ country_event = {
 	}
 }
 
-# Germany honors MR Pact (Soviets)
-country_event = {
+country_event = { # "Germany Honors the Pact"
 	id = germany.15
 	title = germany.15.t
 	desc = germany.15.d
@@ -570,7 +689,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Excellent."
 		name = germany.12.a
 		if = {
 			limit = {
@@ -580,14 +699,16 @@ country_event = {
 				}
 			}
 			hidden_effect = {
-				news_event = { hours = 6 id = news.33 }
+				news_event = {
+					hours = 6
+					id = news.33
+				}
 			}
 		}
 	}
 }
 
-# Germany betrays MR Pact (Soviets)
-country_event = {
+country_event = { # "Germany Betrays the Pact"
 	id = germany.16
 	title = germany.16.t
 	desc = germany.16.d
@@ -595,7 +716,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "We were fools to trust the fascists!"
 		name = germany.16.a
 		create_wargoal = {
 			type = annex_everything
@@ -604,8 +725,7 @@ country_event = {
 	}
 }
 
-# Second Vienna Award
-country_event = {
+country_event = { # "Second Vienna Award"
 	id = germany.20
 	title = germany.20.t
 	desc = germany.20.d
@@ -613,20 +733,34 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Give Hungary Northern Transylvania
+	option = { # "Give Hungary Northern Transylvania."
 		name = germany.20.a
-		ai_chance = { factor = 80 }
-		add_named_threat = { threat = 2 name = GER_second_vienna_award_HUN_north }
+		ai_chance = {
+			factor = 80
+		}
+		add_named_threat = {
+			threat = 2
+			name = GER_second_vienna_award_HUN_north
+		}
 		HUN = {
 			set_country_flag = GER_second_vienna_award_HUN_north
-			add_opinion_modifier = { target = GER modifier = GER_second_vienna_award_HUN_north } 
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_second_vienna_award_HUN_north
+			} 
 		}
 		ROM = {
-			add_opinion_modifier = { target = GER modifier = GER_second_vienna_award_ROM_north }
-			country_event = { id = romania.2 }
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_second_vienna_award_ROM_north
+			}
+			country_event = {
+				id = romania.2
+			}
 		}
 	}
-	option = { # Give Hungary all of Transylvania
+	option = { # "Give Hungary all of Transylvania."
+		name = germany.20.b
 		trigger = {
 			ROM = {
 				controls_state = 77
@@ -634,7 +768,6 @@ country_event = {
 				controls_state = 84
 			}
 		}
-		name = germany.20.b
 		ai_chance = { 
 			factor = 10 
 			modifier = {
@@ -642,17 +775,28 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		add_named_threat = { threat = 3 name = GER_second_vienna_award_HUN_all }
+		add_named_threat = {
+			threat = 3
+			name = GER_second_vienna_award_HUN_all
+		}
 		HUN = { 
 			set_country_flag = GER_second_vienna_award_HUN_all
-			add_opinion_modifier = { target = GER modifier = GER_second_vienna_award_HUN_all } 
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_second_vienna_award_HUN_all
+			} 
 		}
 		ROM = {
-			add_opinion_modifier = { target = GER modifier = GER_second_vienna_award_ROM_all }
-			country_event = { id = romania.3 }
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_second_vienna_award_ROM_all
+			}
+			country_event = {
+				id = romania.3
+			}
 		}
 	}
-	option = { # Give Hungary nothing
+	option = { # "Transylvania shall remain in Romania."
 		name = germany.20.c
 		ai_chance = { 
 			factor = 10 
@@ -661,19 +805,25 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		ROM = {
-			country_event = { id = romania.4 }
-		}
 		HUN = {
 			set_country_flag = GER_second_vienna_award_noland
-			add_opinion_modifier = { target = GER modifier = GER_second_vienna_award_noland }
-			country_event = { id = hungary.1 }
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_second_vienna_award_noland
+			}
+			country_event = {
+				id = hungary.1
+			}
+		}
+		ROM = {
+			country_event = {
+				id = romania.4
+			}
 		}
 	}
 }
 
-# Romania Rejects Decision!
-country_event = {
+country_event = { # "Romania Rejects Our Verdict"
 	id = germany.21
 	title = germany.21.t
 	desc = germany.21.d
@@ -681,18 +831,19 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "The will of Germany must be obeyed!"
 		name = germany.21.a
 		create_wargoal = {
 			type = take_state_focus
 			target = ROM
-			generator = { 76 }
+			generator = {
+				76
+			}
 		}
 	}
 }
 
-# Claim Memel - Lithuania Folds
-country_event = {
+country_event = { # "Memel - Lithuania Folds"
 	id = germany.22
 	title = germany.22.t
 	desc = germany.22.d
@@ -700,20 +851,22 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Excellent."
 		name = germany.22.a
 		GER = { 
 			transfer_state = 188
 			add_state_core = 188
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.19 }
+			country_event = {
+				days = 1
+				id = news.19
+			}
 		}
 	}
 }
 
-# Claim Memel - Lithuania Rejects Demand
-country_event = {
+country_event = { # "Memel - Lithuania Refuses Demand"
 	id = germany.23
 	title = germany.23.t
 	desc = germany.23.d
@@ -721,21 +874,25 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Stubborn fools."
 		name = germany.23.a
 		create_wargoal = {
 			type = take_state_focus
 			target = LIT
-			generator = { 188 }
+			generator = {
+				188
+			}
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.20 }
+			country_event = {
+				days = 1
+				id = news.20
+			}
 		}
 	}
 }
 
-# Japan Demands Withdrawal of Falkenhausen
-country_event = {
+country_event = { # "German Military Mission to China"
 	id = germany.24
 	title = germany.24.t
 	desc = germany.24.d
@@ -743,45 +900,55 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { # Agree
+	option = { # "Recall von Falkenhausen."
 		name = germany.24.a
 		trigger = {
-			NOT = { has_country_flag = GER_von_falkenhausen_promise_to_china }
+			NOT = {
+				has_country_flag = GER_von_falkenhausen_promise_to_china
+			}
 		}
 		JAP = {
-			country_event = { days = 1 id = japan.8 }
+			country_event = {
+				days = 1 id = japan.8
+			}
 		}
 		CHI = {
-			country_event = { days = 1 id = china.2 }
+			country_event = {
+				days = 1 id = china.2
+			}
 			effect_tooltip = {
 				remove_ideas = german_advisors
 				show_ideas_tooltip = german_advisors
 			}
 		}
 	}
-	option = { # Refuse
+	option = { # "No, our advisors will stay."
 		name = germany.24.b
 		trigger = {
-			NOT = { has_country_flag = GER_von_falkenhausen_promise_to_china }
+			NOT = {
+				has_country_flag = GER_von_falkenhausen_promise_to_china
+			}
 		}
 		JAP = {
-			country_event = { days = 1 id = japan.9 }
+			country_event = {
+				days = 1 id = japan.9
+			}
 		}
 	}
-
-	option = { # Refuse, promised the Chinese in return for Tsingtao
+	option = { # "No, our advisors will stay, just as we have promised the Chinese."
 		name = germany.24.c
 		trigger = {
 			has_country_flag = GER_von_falkenhausen_promise_to_china
 		}
 		JAP = {
-			country_event = { days = 1 id = japan.9 }
+			country_event = {
+				days = 1 id = japan.9
+			}
 		}
 	}
 }
 
-# German - Chinese Relations Poor, Mission Recalled
-country_event = {
+country_event = { # "Military Advisors Recalled"
 	id = germany.25
 	title = germany.25.t
 	desc = germany.25.d
@@ -791,8 +958,12 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		CHI = { has_idea = german_advisors }
-		has_opinion = { target = CHI value < -20 }
+		CHI = {
+			has_idea = german_advisors
+		}
+		has_opinion = {
+			target = CHI value < -20
+		}
 	}
 
 	mean_time_to_happen = {
@@ -800,19 +971,22 @@ country_event = {
 	}
 	
 	immediate = {
-		CHI = { remove_ideas = german_advisors }
+		CHI = {
+			remove_ideas = german_advisors
+		}
 	}
 	
-	option = {
+	option = { # "We shall put him to work."
 		name = germany.25.a
 		CHI = {
-			country_event = { id = china.3 }
+			country_event = {
+				id = china.3
+			}
 		}
 	}
 }
 
-# Germany at war with China, Advisors Detained
-country_event = {
+country_event = { # "China Detains Military Advisors"
 	id = germany.26
 	title = germany.26.t
 	desc = germany.26.d
@@ -822,7 +996,9 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		CHI = { has_idea = german_advisors }
+		CHI = {
+			has_idea = german_advisors
+		}
 		has_war_with = CHI
 	}
 
@@ -831,19 +1007,22 @@ country_event = {
 	}
 	
 	immediate = {
-		CHI = { remove_ideas = german_advisors }
+		CHI = {
+			remove_ideas = german_advisors
+		}
 	}
 	
-	option = {
+	option = { # "Good man!"
 		name = germany.26.a
 		CHI = {
-			country_event = { id = china.4 }
+			country_event = {
+				id = china.4
+			}
 		}
 	}
 }
 
-# Fortifying the Westwall
-country_event = {
+country_event = { # "Fortifying the Westwall"
 	id = germany.27
 	title = germany.27.t
 	desc = germany.27.d
@@ -851,30 +1030,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "This will hold better than the Siegfried Line."
 		name = germany.27.a
-		50 = {
-			add_building_construction = {
-				type = bunker
-				province = 11640
-				level = 5
-			}
-			add_building_construction = {
-				type = bunker
-				province = 6712
-				level = 5
-			}
-			add_building_construction = {
-				type = bunker
-				province = 6542
-				level = 5
-			}
-			add_building_construction = {
-				type = bunker
-				province = 3530
-				level = 5
-			}
-		}
 		42 = {	
 			add_building_construction = {
 				type = bunker
@@ -897,11 +1054,32 @@ country_event = {
 				level = 5
 			}
 		}
+		50 = {
+			add_building_construction = {
+				type = bunker
+				province = 11640
+				level = 5
+			}
+			add_building_construction = {
+				type = bunker
+				province = 6712
+				level = 5
+			}
+			add_building_construction = {
+				type = bunker
+				province = 6542
+				level = 5
+			}
+			add_building_construction = {
+				type = bunker
+				province = 3530
+				level = 5
+			}
+		}
 	}
 }
 
-# Austria asked about Anschluss
-country_event = {
+country_event = { # "Germans press for Anschluss"
 	id = germany.28
 	title = germany.28.t
 	desc = germany.28.d
@@ -909,17 +1087,25 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Accept
+	option = { # "We shall join the German Reich!"
 		name = germany.28.a
 		ai_chance = {
 			base = 30
 			modifier = {
 				add = -25
-				GER = { has_army_size = { size < 40 } }
+				GER = {
+					has_army_size = {
+						size < 40
+					}
+				}
 			}
 			modifier = {
 				add = 100
-				GER = { has_army_size = { size > 39 } }
+				GER = {
+					has_army_size = {
+						size > 39
+					}
+				}
 			}
 			modifier = {
 				add = 20
@@ -927,26 +1113,40 @@ country_event = {
 			}
 		}
 		GER = {
-			country_event = { hours = 2 id = germany.4 }
+			country_event = {
+				hours = 2 id = germany.4
+			}
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Refuse
+	option = { # "No, Austria's destiny lies elsewhere."
 		name = germany.28.b
 		ai_chance = {
 			base = 10			
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				NOT = { HUN = { has_completed_focus = HUN_protect_austria } }
+				NOT = {
+					HUN = {
+						has_completed_focus = HUN_protect_austria
+					}
+				}
 			}
 			modifier = {
-				GER = { has_army_size = { size > 39 } }
+				GER = {
+					has_army_size = {
+						size > 39
+					}
+				}
 				factor = 0.5
 			}
 			modifier = {
 				add = 20
-				GER = { has_army_size = { size < 30 } }
+				GER = {
+					has_army_size = {
+						size < 30
+					}
+				}
 			}
 			modifier = {
 				add = 100
@@ -960,7 +1160,9 @@ country_event = {
 			modifier = {
 				factor = 2
 				is_in_faction = yes
-				NOT = { is_in_faction_with = GER }
+				NOT = {
+					is_in_faction_with = GER
+				}
 			}
 			modifier = {
 				any_other_country = {
@@ -970,17 +1172,23 @@ country_event = {
 			}
 		}
 		GER = {
-			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
-			country_event = { hours = 2 id = germany.29 }
-			if = { limit = { is_in_faction_with = AUS }
+			add_opinion_modifier = {
+				target = ROOT modifier = GER_anschluss_rejected
+			}
+			country_event = {
+				hours = 2 id = germany.29
+			}
+			if = {
+				limit = {
+					is_in_faction_with = AUS
+				}
 				remove_from_faction = AUS
 			}
 		}
 	}
 }
 
-# Austria refuses Anschluss
-country_event = {
+country_event = { # "Austria refuses the Anschluss!"
 	id = germany.29
 	title = germany.29.t
 	desc = germany.29.d
@@ -988,7 +1196,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "We must prepare for a military intervention."
 		name = germany.29.a
 		add_state_claim = 4
 		add_state_claim = 152
@@ -996,29 +1204,36 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = AUS
-			generator = { 4 152 153 }
+			generator = {
+				4 152 153
+			}
 		}
 	}
 }
 
-### Munich Conference
-
-# Britain
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.40
 	title = germany.40.t
 	desc = {
 		text = germany.40.d
-		trigger = { NOT = { has_war_with = GER } }
+		trigger = {
+			NOT = {
+				has_war_with = GER
+			}
+		}
 	}
 	desc = {
 		text = germany.40.d_2
-		trigger = { has_war_with = GER }
+		trigger = {
+			has_war_with = GER
+		}
 	}
 	desc = {
 		text = germany.40.d_3
 		trigger = {
-			NOT = { has_war_with = GER }
+			NOT = {
+				has_war_with = GER
+			}
 			tag = HOL
 		}
 	}
@@ -1026,18 +1241,22 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Abandon the Czechs
+	option = { # "The Czechs are on their own."
 		name = germany.40.a
 		ai_chance = { 
 			factor = 90 
 			modifier = {
 				factor = 0.3
 				has_government = left-wing
-				CZE = { has_government = left-wing }
+				CZE = {
+					has_government = left-wing
+				}
 			}
 			modifier = {
 				has_global_flag = GER_has_started_war
-				NOT = { is_in_faction_with = GER }
+				NOT = {
+					is_in_faction_with = GER
+				}
 				factor = 0
 			}
 			modifier = {
@@ -1059,8 +1278,10 @@ country_event = {
 			}
 		}
 		trigger = {
-			NOT = { has_war_with = GER } 
-			is_puppet = no # can't do anything if puppet
+			NOT = {
+				has_war_with = GER
+			} 
+			is_puppet = no
 		}
 		if = {
 			limit = {
@@ -1072,21 +1293,30 @@ country_event = {
 			limit = {
 				tag = HOL
 			}
-			ENG = { country_event = germany.40 }
+			ENG = {
+				country_event = germany.40
+			}
 		}
 		if = {
 			limit = {
 				tag = ENG
 			}
-			FRA = { country_event = germany.41 }
+			FRA = {
+				country_event = germany.41
+			}
 		}
 		CZE = {
-			add_opinion_modifier = { target = ROOT modifier = western_betrayal }
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = western_betrayal
+			}
 		}
 		if = {
 			limit = {
 				tag = HOL
-				CZE = { is_guaranteed_by = HOL }
+				CZE = {
+					is_guaranteed_by = HOL
+				}
 			}
 			HOL = {
 				diplomatic_relation = {
@@ -1104,7 +1334,9 @@ country_event = {
 		if = {
 			limit = {
 				tag = ENG
-				CZE = { is_guaranteed_by = ENG }
+				CZE = {
+					is_guaranteed_by = ENG
+				}
 			}
 			ENG = {
 				diplomatic_relation = {
@@ -1122,22 +1354,33 @@ country_event = {
 		if = {
 			limit = {
 				tag = HOL
-				CZE = { is_in_faction_with = HOL }
-				HOL = { is_faction_leader = yes }
+				CZE = {
+					is_in_faction_with = HOL
+				}
+				HOL = {
+					is_faction_leader = yes
+				}
 			}
-			CZE = { remove_from_faction = yes }
+			CZE = {
+				remove_from_faction = yes
+			}
 		}
 		if = {
 			limit = {
 				tag = ENG
-				CZE = { is_in_faction_with = ENG }
-				ENG = { is_faction_leader = yes }
+				CZE = {
+					is_in_faction_with = ENG
+				}
+				ENG = {
+					is_faction_leader = yes
+				}
 			}
-			CZE = { remove_from_faction = yes }
+			CZE = { remove_from_faction = yes
+		}
 		}
 	}
-	option = { # Support the Czechs
-		name = germany.40.b	
+	option = { # "Czechoslovakia must be defended!"
+		name = germany.40.b
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -1151,7 +1394,9 @@ country_event = {
 			modifier = {
 				factor = 3
 				has_government = left-wing
-				CZE = { has_government = left-wing }
+				CZE = {
+					has_government = left-wing
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1179,26 +1424,37 @@ country_event = {
 				is_in_faction_with = GER
 				is_faction_leader = no
 			}
-			GER = { remove_from_faction = ENG }
+			GER = {
+				remove_from_faction = ENG
+			}
 		}
 		if = {
 			limit = {
-				NOT = { has_completed_focus = ENG_no_further_appeasement }
+				NOT = {
+					has_completed_focus = ENG_no_further_appeasement
+				}
 			}
 			add_political_power = -200
 		}
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = {
+			target = GER modifier = condemn_aggression
+		}
 		effect_tooltip = {
 			GER = {
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69
+					}
 				}
 			}
 		}
 		if = {
-			limit = { CZE = { is_in_faction = no } }
+			limit = { CZE = {
+				is_in_faction = no
+			}
+		}
 			add_to_faction = CZE
 		}
 		if = {
@@ -1227,21 +1483,29 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { tag = HOL }
+				NOT = {
+					tag = HOL
+				}
 				FRA = { 
-					NOT = { has_war_with = CZE } 
+					NOT = {
+						has_war_with = CZE
+					} 
 				} 
 			}
-			FRA = { country_event = germany.42 }
+			FRA = {
+				country_event = germany.42
+			}
 		}
 		CZE = {
-			add_opinion_modifier = { target = ROOT modifier = offered_support }
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = offered_support
+			}
 		}
 	}
 }
 
-# France (Britain Backs Down)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.41
 	title = germany.40.t
 	desc = germany.41.d
@@ -1249,7 +1513,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = { # Follow Britain's lead
+	option = { # "Leave the Czechs to their fate."
 		name = germany.41.a
 		ai_chance = {
 			factor = 90
@@ -1260,7 +1524,9 @@ country_event = {
 			modifier = {
 				factor = 0.3
 				has_government = left-wing
-				CZE = { has_government = left-wing }
+				CZE = {
+					has_government = left-wing
+				}
 			}
 			modifier = {
 				has_global_flag = GER_has_started_war
@@ -1269,7 +1535,10 @@ country_event = {
 		}
 		CZE = { 
 			country_event = germany.46
-			add_opinion_modifier = { target = FRA modifier = western_betrayal }
+			add_opinion_modifier = {
+				target = FRA
+				modifier = western_betrayal
+			}
 		}
 		if = {
 			limit = {
@@ -1293,7 +1562,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				CZE = { is_guaranteed_by = FRA }
+				CZE = {
+					is_guaranteed_by = FRA
+				}
 			}
 			FRA = {
 				diplomatic_relation = {
@@ -1309,9 +1580,11 @@ country_event = {
 			}
 		}
 	}
-	option = { # Support the Czechs alone
-		name = germany.41.b	
-		trigger = { is_puppet = no }
+	option = { # "The British be damned! France supports her friends!"
+		name = germany.41.b
+		trigger = {
+			is_puppet = no
+		}
 		ai_chance = {
 			factor = 5
 			modifier = {
@@ -1328,7 +1601,9 @@ country_event = {
 			modifier = {
 				factor = 6
 				has_government = left-wing
-				CZE = { has_government = left-wing }
+				CZE = {
+					has_government = left-wing
+				}
 			}
 		}
 		if = {
@@ -1341,16 +1616,26 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					NOT = { has_completed_focus = FRA_little_entente }
-					NOT = { is_in_faction_with = CZE } 
+					NOT = {
+						has_completed_focus = FRA_little_entente
+					}
+					NOT = {
+						is_in_faction_with = CZE
+					} 
 				}
 			}
 			add_political_power = -200
 		}
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = {
+			target = GER
+			modifier = condemn_aggression
+		}
 		CZE = { 
 			country_event = germany.45
-			add_opinion_modifier = { target = FRA modifier = offered_support }
+			add_opinion_modifier = {
+				target = FRA
+				modifier = offered_support
+			}
 		}
 		GER = {
 			country_event = germany.48
@@ -1358,19 +1643,24 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69 }
 				}
 			}
 		}
 		if = {
-			limit = { is_in_faction_with = ENG }
+			limit = {
+				is_in_faction_with = ENG
+			}
 			ENG = { 
 				country_event = germany.43 
 				remove_from_faction = FRA
 			}
 		}
 		if = {
-			limit = { is_in_faction_with = GER }
+			limit = {
+				is_in_faction_with = GER
+			}
 			GER = { 
 				remove_from_faction = FRA
 			}
@@ -1379,10 +1669,18 @@ country_event = {
 			limit = {
 				is_in_faction = yes
 				is_faction_leader = yes
-				NOT = { is_in_faction_with = ENG }
-				NOT = { is_in_faction_with = GER }
-				NOT = { is_in_faction_with = CZE }
-				CZE = { is_in_faction = no }
+				NOT = {
+					is_in_faction_with = ENG
+				}
+				NOT = {
+					is_in_faction_with = GER
+				}
+				NOT = {
+					is_in_faction_with = CZE
+				}
+				CZE = {
+					is_in_faction = no
+				}
 			}
 			add_to_faction = CZE
 			CZE = {
@@ -1401,11 +1699,17 @@ country_event = {
 					is_in_faction_with = ENG
 					is_in_faction_with = GER
 				}
-				NOT = { is_in_faction_with = CZE }
-				CZE = { is_in_faction = no }
+				NOT = {
+					is_in_faction_with = CZE
+				}
+				CZE = {
+					is_in_faction = no
+				}
 			}
 			create_faction = "french_alliance"
-			set_rule = { can_create_factions = yes }
+			set_rule = {
+				can_create_factions = yes
+			}
 			add_to_faction = CZE
 			CZE = {
 				add_ai_strategy = {
@@ -1417,13 +1721,17 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { is_in_faction_with = CZE }
+				NOT = {
+					is_in_faction_with = CZE
+				}
 				CZE = { 
 					is_faction_leader = yes 
 					has_completed_focus = CZE_an_entente_of_our_own
 				}
 			}
-			CZE = { add_to_faction = FRA }
+			CZE = {
+				add_to_faction = FRA
+			}
 			FRA = {
 				add_ai_strategy = {
 					type = alliance
@@ -1433,14 +1741,17 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { NOT = { has_completed_focus = FRA_little_entente } }
+			limit = {
+				NOT = {
+					has_completed_focus = FRA_little_entente
+				}
+			}
 			add_stability = 0.05
 		}
 	}
 }
 
-# France (Britain Supports the Czechs)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.42
 	title = germany.40.t
 	desc = germany.42.d
@@ -1448,8 +1759,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Support
-	option = {
+	option = { # "We must prepare!"
 		name = germany.42.a
 		trigger = {
 			is_puppet = no
@@ -1464,17 +1774,27 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = yes
-				NOT = { is_in_faction_with = ENG }
-				NOT = { is_in_faction_with = CZE }
+				NOT = {
+					is_in_faction_with = ENG
+				}
+				NOT = {
+					is_in_faction_with = CZE
+				}
 			}
 			remove_from_faction = FRA
 		}
 		if = {
 			limit = { 
-				NOT = { is_in_faction_with = ENG } 
-				NOT = { is_in_faction_with = CZE }
+				NOT = {
+					is_in_faction_with = ENG
+				} 
+				NOT = {
+					is_in_faction_with = CZE
 				}
-			ENG = { add_to_faction = FRA }
+				}
+			ENG = {
+				add_to_faction = FRA
+			}
 			add_ai_strategy = {
 				type = alliance
 				id = "ENG"
@@ -1486,14 +1806,22 @@ country_event = {
 				is_in_faction_with = CZE
 				has_completed_focus = FRA_little_entente
 				is_faction_leader = yes
-				NOT = { is_in_faction_with = ENG }
+				NOT = {
+					is_in_faction_with = ENG
+				}
 			}
 			add_to_faction = ENG #Britain joins the little entente
 		}
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = {
+			target = GER
+			modifier = condemn_aggression
+		}
 		CZE = { 
 			country_event = germany.44
-			add_opinion_modifier = { target = FRA modifier = offered_support }
+			add_opinion_modifier = {
+				target = FRA
+				modifier = offered_support
+			}
 		}
 		GER = {
 			country_event = germany.47
@@ -1501,30 +1829,38 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69
+					}
 				}
 			}
 		}
 	}
-
-	#Abandon
-	option = {
+	option = { # "France should stay out of this."
 		name = germany.42.b
 		trigger = {
-			NOT = { is_in_faction_with = ENG }
-			NOT = { is_in_faction_with = CZE }
+			NOT = {
+				is_in_faction_with = ENG
+			}
+			NOT = {
+				is_in_faction_with = CZE
+			}
 		}
 		ai_chance = { 
 			factor = 10 
 			modifier = {
 				has_global_flag = GER_has_started_war
-				NOT = { is_in_faction_with = GER } #FRA doesn't care if in faction
+				NOT = {
+					is_in_faction_with = GER
+				}
 				factor = 0
 			}
 		}
 		if = {
 			limit = {
-				CZE = { is_guaranteed_by = FRA }
+				CZE = {
+					is_guaranteed_by = FRA
+				}
 			}
 			FRA = {
 				diplomatic_relation = {
@@ -1541,7 +1877,10 @@ country_event = {
 		}
 		CZE = {
 			country_event = germany.44
-			add_opinion_modifier = { target = FRA modifier = western_betrayal }
+			add_opinion_modifier = {
+				target = FRA
+				modifier = western_betrayal
+			}
 		}
 		GER = {
 			country_event = germany.47
@@ -1549,15 +1888,16 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69
+					}
 				}
 			}
 		}		
 	}
 }
 
-# France leaves the Allies
-country_event = {
+country_event = { # "France leaves the Allies"
 	id = germany.43
 	title = germany.43.t
 	desc = germany.43.d
@@ -1565,16 +1905,18 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Fools! [GER.GetLeader] must be appeased!"
 		name = germany.43.a
 		FRA = {
-			add_opinion_modifier = { target = ENG modifier = abandoned_czechs }
+			add_opinion_modifier = {
+				target = ENG
+				modifier = abandoned_czechs
+			}
 		}
 	}
 }
 
-# Czechoslovakia (British and (possibly) French Support)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.44
 	title = germany.40.t
 	desc = germany.44.d
@@ -1582,22 +1924,23 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Good! Let them come!"
 		name = germany.44.a
 		effect_tooltip = {
 			GER = {			
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69
+					}
 				}
 			}
 		}
 	}
 }
 
-# Czechoslovakia (French Support)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.45
 	title = germany.40.t
 	desc = germany.45.d
@@ -1605,22 +1948,23 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Vive la France!"
 		name = germany.45.a
 		effect_tooltip = {
 			GER = {
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 }
+					generator = {
+						69
+					}
 				}
 			}
 		}
 	}
 }
 
-# Czechoslovakia (Abandoned)
-country_event = {
+country_event = { # "The Munich Diktat"
 	id = germany.46
 	title = germany.46.t
 	desc = germany.46.d
@@ -1628,15 +1972,17 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Surrender the Sudetenland
+	option = { # "This is a dark day for Europe."
 		name = germany.46.a
 		ai_chance = {
 			factor = 90
-			modifier = { # Decrease chance CZE resists if AUS isn't taken first
-				AUS = { exists = yes }
+			modifier = {
+				AUS = {
+					exists = yes
+				}
 				factor = 0.5
 			}
-			modifier = { # If they stand a chance they will fight
+			modifier = {
 				factor = 0
 				strength_ratio = {
 					tag = GER
@@ -1644,36 +1990,44 @@ country_event = {
 				}
 				NOT = {
 					any_neighbor_country = {
-						NOT = { tag = GER }
+						NOT = {
+							tag = GER
+						}
 						is_in_faction_with = GER
 					}
 				}
 			}
 			modifier = {
-				factor = 0 #if you lead a faction, fight
+				factor = 0
 				is_faction_leader = yes
 			}
 			modifier = {
-				factor = 0.05 #if you are in a faction, maybe fight
+				factor = 0.05
 				is_faction_leader = no
 				is_in_faction = yes
 			}
 			modifier = {
 				factor = 0
 				is_puppet = yes
-				NOT = { is_puppet_of = GER } #puppeted CZE wouldn't surrender Sudetenland otherwise
+				NOT = {
+					is_puppet_of = GER
+				}
 			}
-			modifier = { # Increase it again if other bordering nations are in Axis
+			modifier = {
 				any_neighbor_country = {
-					NOT = { tag = GER }
+					NOT = {
+						tag = GER
+					}
 					is_in_faction_with = GER
 				}
 				factor = 2.0
 			}
 		}
-		GER = { country_event = germany.50 }
+		GER = {
+			country_event = germany.50
+		}
 	}
-	option = { # Refuse anyway
+	option = { # "We will never surrender!"
 		name = germany.46.b
 		ai_chance = { 
 			factor = 10 
@@ -1690,7 +2044,10 @@ country_event = {
 			}
 		}
 		GER = {
-			add_opinion_modifier = { target = ROOT modifier = GER_demand_sudetenland_rejected }
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = GER_demand_sudetenland_rejected
+			}
 			set_global_flag = CZE_refused_sudetenland
 			country_event = germany.49
 			effect_tooltip = {
@@ -1700,20 +2057,23 @@ country_event = {
 							is_in_faction_with = GER
 						}
 					}		
-					GER = { remove_from_faction = CZE }
+					GER = {
+						remove_from_faction = CZE
+					}
 				}
 				create_wargoal = {
 					type = take_state_focus
 					target = CZE
-					generator = { 69 74 }
+					generator = {
+						69 74
+					}
 				}
 			}
 		}
 	}
 }
 
-# Germany (British and (possibly) French Support for Czechoslovakia)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.47
 	title = germany.40.t
 	desc = germany.47.d
@@ -1721,24 +2081,27 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Time to do this the hard way."
 		name = germany.47.a
 		create_wargoal = {
 			type = take_state_focus
 			target = CZE
-			generator = { 69 74 }
+			generator = {
+				69 74
+			}
 		}
 		add_state_claim = 69
 		add_state_claim = 74
 		hidden_effect = {
-			news_event = { hours = 6 id = news.57 }
+			news_event = {
+				hours = 6 id = news.57
+			}
 		}
 		set_country_flag = allies_support_czechs
 	}
 }
 
-# Germany (French Support for Czechoslovakia)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.48
 	title = germany.40.t
 	desc = germany.48.d
@@ -1746,23 +2109,27 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "This may work to our advantage."
 		name = germany.48.a
 		create_wargoal = {
 			type = take_state_focus
 			target = CZE
-			generator = { 69 74 }
+			generator = {
+				69 74
+			}
 		}
 		add_state_claim = 69
 		add_state_claim = 74
 		hidden_effect = {
-			country_event = { hours = 6 id = news.58 }
+			country_event = {
+				id = news.58
+				hours = 6
+			}
 		}
 	}
 }
 
-# Germany (Czechoslovakia Refuses Demands)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.49
 	title = germany.40.t
 	desc = germany.49.d
@@ -1770,12 +2137,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "The Czechs must be destroyed."
 		name = germany.49.a
 		create_wargoal = {
 			type = take_state_focus
 			target = CZE
-			generator = { 69 74 }
+			generator = {
+				69 74
+			}
 		}
 		add_state_claim = 69
 		add_state_claim = 74
@@ -1785,16 +2154,20 @@ country_event = {
 					is_in_faction_with = GER
 				}
 			}
-			GER = { remove_from_faction = CZE }
+			GER = {
+				remove_from_faction = CZE
+			}
 		}
 		hidden_effect = {
-			country_event = { hours = 6 id = news.59 }
+			country_event = {
+				id = news.59
+				hours = 6
+			}
 		}
 	}
 }
 
-# Germany (Czechoslovakia Surrenders Sudetenland)
-country_event = {
+country_event = { # "The Munich Conference"
 	id = germany.50
 	title = germany.40.t
 	desc = germany.50.d
@@ -1802,35 +2175,63 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "This is a historic day for Germany."
 		name = germany.50.a
-		69 = { add_core_of = GER }
-		GER = { transfer_state = 69 }
-		74 = { add_core_of = GER }
-		GER = { transfer_state = 74 }
+		69 = {
+			add_core_of = GER
+		}
+		GER = {
+			transfer_state = 69
+		}
+		74 = {
+			add_core_of = GER
+		}
+		GER = {
+			transfer_state = 74
+		}
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
 		USA = {
-			set_country_flag = { flag = USA_munich_window days = 60 value = 1 }
+			set_country_flag = {
+				flag = USA_munich_window
+				days = 60
+				value = 1
+			}
 		}
 		if = {
 			limit = {
-				88 = { is_owned_by = POL }
+				88 = {
+					is_owned_by = POL
+				}
 			}
 			POL = { 
-				country_event = { hours = 6 id = germany.52 }
+				country_event = {
+					hours = 6
+					id = germany.52
+				}
 			}
 		}
 		hidden_effect = {
-			country_event = { hours = 6 id = news.56 }
+			country_event = {
+				hours = 6
+				id = news.56
+			}
 			if = {
 				limit = {
 					has_dlc = "Death or Dishonor"
 					country_exists = YUG
-					YUG = { has_war = no }
-					ENG = { NOT = { has_war_with = YUG } }
-					ENG = { has_government = centre }
+					YUG = {
+						has_war = no
+					}
+					ENG = {
+						NOT = {
+							has_war_with = YUG
+						}
+					}
+					ENG = {
+						has_government = centre
+					}
 				}
 				ENG = {
 					country_event = {
@@ -1843,8 +2244,7 @@ country_event = {
 	}
 }
 
-# Hungary (First Vienna Award)
-country_event = {
+country_event = { # "First Vienna Award"
 	id = germany.51
 	title = germany.51.t
 	desc = germany.51.d
@@ -1854,12 +2254,13 @@ country_event = {
 	
 	option = {
 		name = germany.51.a
-		HUN = { transfer_state = 664 }
+		HUN = {
+			transfer_state = 664
+		}
 	}
 }
 
-# Poland (Zaolzie)
-country_event = {
+country_event = { # "The Annexation of Zaolzie"
 	id = germany.52
 	title = germany.52.t
 	desc = germany.52.d
@@ -1867,15 +2268,18 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Zaolzie is ours!"
 		name = germany.52.a
-		72 = { add_core_of = POL }
-		POL = { transfer_state = 72 }
+		72 = {
+			add_core_of = POL
+		}
+		POL = {
+			transfer_state = 72
+		}
 	}
 }
 
-# Czechoslovakia (The Fate of Czechoslovakia)
-country_event = {
+country_event = { # "The Fate of Czechoslovakia"
 	id = germany.53
 	title = germany.53.t
 	desc = germany.53.d
@@ -1883,7 +2287,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { # Agree
+	option = { # "Give in to the Germans."
 		name = germany.53.a
 		ai_chance = {
 			factor = 100
@@ -1970,14 +2374,18 @@ country_event = {
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Refuse
+	option = { # "...yet still we must resist!"
 		name = germany.53.b
 		ai_chance = {
 			factor = 100
 			modifier = {				
 				factor = 0
-				NOT = { is_in_faction_with = ENG }
-				NOT = { is_in_faction_with = FRA }
+				NOT = {
+					is_in_faction_with = ENG
+				}
+				NOT = {
+					is_in_faction_with = FRA
+				}
 				is_puppet = no
 				NOT = {
 					GER = {
@@ -2045,8 +2453,7 @@ country_event = {
 	}
 }
 
-# The Czechs Resist
-country_event = {
+country_event = { # "The Czechs Resist"
 	id = germany.54
 	title = germany.54.t
 	desc = germany.54.d
@@ -2054,7 +2461,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Prague will soon be ours."
 		name = germany.54.a
 		if = {
 			limit = {
@@ -2079,50 +2486,90 @@ country_event = {
 	}
 }
 
-# The Fate of Czechoslovakia
-country_event = {
+country_event = { # "The Fate of Czechoslovakia"
 	id = germany.55
 	title = germany.53.t
 	desc = {
 		text = germany.55.d
-		trigger = { has_global_flag = end_of_czechoslovakia }
+		trigger = {
+			has_global_flag = end_of_czechoslovakia
+		}
 	}
 	desc = {
 		text = germany.55.d_2
-		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
+		trigger = {
+			NOT = {
+				has_global_flag = end_of_czechoslovakia
+			}
+		}
 	}
 	picture = GFX_report_event_german_inspect_troops
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "Set up a Czech protectorate and Slovak state."
 		name = germany.55.a
-		ai_chance = { factor = 80 }
-		if = {
+		ai_chance = {
+			factor = 80
+		}
+		if = { # 9 - Bohemia
+			limit = {
+				9 = {
+					OR = {
+						is_controlled_by = CZE
+						is_controlled_by = GER
+					}
+				}
+			}
+			CZE = {
+				transfer_state = 9
+			}
+		}
+		if = { # 70 - Western Slovakia
 			limit = {
 				70 = {
 					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
+						is_controlled_by = CZE
+						is_controlled_by = GER
 					}
 				}
 			}
-			SLO = { transfer_state = 70 }
+			SLO = {
+				transfer_state = 70
+			}
 		}
-		if = {
+		if = { # 71 - Eastern Slovakia
 			limit = {
 				71 = {
 					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
+						is_controlled_by = CZE
+						is_controlled_by = GER
 					}
 				}
 			}
-			SLO = { transfer_state = 71 }
+			SLO = {
+				transfer_state = 71
+			}
 		}
-		if = {
+		if = { # 72 - Zaolzie
 			limit = {
-				154 = { is_owned_by = HUN }
+				72 = {
+					OR = {
+						is_controlled_by = CZE
+						is_controlled_by = GER
+					}
+				}
+				country_exists = POL
+			}
+			POL = {
+				transfer_state = 72
+			}
+		}
+		if = { # 73 - Carpathian Ruthenia
+			limit = {
+				154 = {
+					is_controlled_by = HUN
+				}
 				HUN = {
 					is_friend_or_potential_friend_of_GER = yes
 				}
@@ -2134,15 +2581,21 @@ country_event = {
 				}
 				country_exists = HUN 
 			}
-			HUN = { transfer_state = 73 }
+			HUN = {
+				transfer_state = 73
+			}
 		}
-
-		
-		if = {
+		if = { # 73 - Carpathian Ruthenia
 			limit = {
 				OR = {
-					NOT = { 154 = { is_owned_by = HUN } }
-					HUN = { is_friend_or_potential_friend_of_GER = no }
+					NOT = {
+						154 = {
+							is_controlled_by = HUN
+						}
+					}
+					HUN = {
+						is_friend_or_potential_friend_of_GER = no
+					}
 				}				
 				73 = {
 					OR = {
@@ -2151,53 +2604,123 @@ country_event = {
 					}
 				}
 			}
-			SLO = { transfer_state = 73 }
+			SLO = {
+				transfer_state = 73
+			}
 		}
-		
-		if = {
+		if = { # 75 - Moravia
+			limit = {
+				75 = {
+					OR = {
+						is_controlled_by = CZE
+						is_controlled_by = GER
+					}
+				}
+			}
+			CZE = {
+				transfer_state = 75
+			}
+		}
+		if = { # 664 - Southern Slovakia
 			limit = {
 				664 = {
 					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
+						is_controlled_by = CZE
+						is_controlled_by = GER
 					}
 				}
 			}
-			SLO = { transfer_state = 664 }
+			SLO = {
+				transfer_state = 664
+			}
 		}
 		if = {
-			limit = { country_exists = CZE }
+			limit = {
+				country_exists = CZE
+			}
 			SLO = {
 				inherit_technology = CZE
 			}
-			annex_country = { target = CZE }
 			add_war_support = 0.1
 		}
-		puppet = SLO
 		if = {
 			limit = {
-				72 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
+				has_dlc = "Together for Victory"
+			}
+			GER = {
+				set_autonomy = {
+					target = CZE
+					autonomous_state = autonomy_incorporated_dependency
+				}
+				set_autonomy = {
+					target = SLO
+					autonomous_state = autonomy_dependency
+				}
+			}
+			else = {
+				puppet = CZE
+				puppet = SLO
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = GER_HUN_CZE_split
+			}
+			HUN = {
+				country_event = DOD_hungary.106
+			}
+		}
+		CZE = {
+			set_cosmetic_tag = GER_CZE
+			set_politics = {
+				parties = {
+					left-wing = {
+						popularity = 10.3
+					}
+					centre = { 
+						popularity = 60
+					}
+					right-wing = {
+						popularity = 29.7
+					}
+					syncretic = { 
+						popularity = 0
 					}
 				}
-				country_exists = POL
+				ruling_party = right-wing
 			}
-			POL = { transfer_state = 72 } # Give Poland Zaolzie
+			set_party_name = {
+				ideology = right-wing
+				long_name = "Nationalsozialistische Deutsche Arbeiterpartei"
+				name = "NSDAP"
+			}
+			create_country_leader = {
+				name = "Konstantin von Neurath"
+				desc = "GER_Konstantin_von_Neurath_DESC"
+				picture = "gfx/leaders/GER/Portrait_GER_Konstantin_von_Neurath.dds"
+				expire = "1999.12.31"
+				ideology = fascism
+				traits = {
+				}
+			}
 		}
-
-		if = {
-			limit = { has_global_flag = GER_HUN_CZE_split }
-			HUN = { country_event = DOD_hungary.106 }
-		}
-
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
-		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+		add_to_variable = {
+			var = GER_mefo_bill_counter
+			value = -5
+		}
 		GER_mefo_bills_level_down = yes
-		
 		hidden_effect = {
-			country_event = { hours = 6 id = news.60 }
+			country_event = {
+				id = news.60
+				hours = 6
+			}
+			every_state = {
+				limit = {
+					is_owned_by = CZE
+				}
+				add_core_of = CZE
+			}
 			every_state = {
 				limit = {
 					is_owned_by = SLO
@@ -2210,7 +2733,7 @@ country_event = {
 			}
 		}
 	}
-	option = {
+	option = { # "Partition Czechoslovakia with Hungary."
 		name = germany.55.b
 		add_political_power = -20
 		ai_chance = { 
@@ -2221,13 +2744,19 @@ country_event = {
 			}
 		}
 		trigger = {
-			664 = { is_owned_by = HUN }
+			664 = {
+				is_owned_by = HUN
+			}
 			HUN = {
 				is_friend_or_potential_friend_of_GER = yes
 			}
-			NOT = { has_global_flag = GER_HUN_CZE_split }
+			NOT = {
+				has_global_flag = GER_HUN_CZE_split
+			}
 		}
-		HUN = { country_event = germany.56 }
+		HUN = {
+			country_event = germany.56
+		}
 		add_war_support = 0.1
 		if = {
 			limit = {
@@ -2239,13 +2768,17 @@ country_event = {
 				}
 				country_exists = POL
 			}
-			POL = { transfer_state = 72 } # Give Poland Zaolzie
+			POL = {
+				transfer_state = 72
+			}
 		}
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
-		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+		add_to_variable = {
+			var = GER_mefo_bill_counter value = -5
+		}
 		GER_mefo_bills_level_down = yes
 	}
-	option = {
+	option = { # "All of Czechoslovakia belongs to the Reich!"
 		name = germany.55.c
 		add_political_power = -50
 		ai_chance = { 
@@ -2256,26 +2789,38 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { country_exists = CZE }
-			annex_country = { target = CZE }
+			limit = {
+				country_exists = CZE
+			}
+			annex_country = {
+				target = CZE
+			}
 			add_war_support = 0.1
 		}
 		if = {
-			limit = { has_global_flag = GER_HUN_CZE_split }
-			HUN = { country_event = DOD_hungary.106 }
+			limit = {
+				has_global_flag = GER_HUN_CZE_split
+			}
+			HUN = {
+				country_event = DOD_hungary.106
+			}
 		}
 		hidden_effect = {
-			country_event = { hours = 6 id = news.62 }
+			country_event = {
+				id = news.62
+				hours = 6
+			}
 		}
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
-		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+		add_to_variable = {
+			var = GER_mefo_bill_counter value = -5
+		}
 		GER_mefo_bills_level_down = yes
 	}
-
-	option = {
+	option = { # "Honor the promise to Hungary."
 		name = germany.55.do
 		trigger = {
-			has_global_flag = GER_HUN_CZE_split #promised Hungary Slovakia in earlier event 
+			has_global_flag = GER_HUN_CZE_split
 		}
 		ai_chance = { 
 			factor = 100
@@ -2284,10 +2829,14 @@ country_event = {
 				is_in_faction_with = HUN
 			}
 		}
-		HUN = { country_event = DOD_hungary.101 }
+		HUN = {
+			country_event = DOD_hungary.101
+		}
 		add_war_support = 0.1
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
-		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+		add_to_variable = {
+			var = GER_mefo_bill_counter value = -5
+		}
 		GER_mefo_bills_level_down = yes
 	}
 }

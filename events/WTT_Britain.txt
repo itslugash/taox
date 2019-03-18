@@ -1,7 +1,10 @@
-﻿add_namespace = wtt_britain 
+﻿###############################
+# WTT Events - United Kingdom #
+###############################
 
-#IRE gets choice; trade northern ireland in return for joining the alliance?
-country_event = {
+add_namespace = wtt_britain 
+
+country_event = { # "The MacDonald Proposal"
 	id = wtt_britain.24
 	title = wtt_britain.24.t
 	desc = wtt_britain.24.d
@@ -9,8 +12,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
-	option = {
+	option = { # "An excellent idea."
+		name = wtt_britain.24.a
 		ai_chance = {
 			factor = 80
 			modifier = {
@@ -22,20 +25,27 @@ country_event = {
 				factor = 0
 			}
 		}
-		name = wtt_britain.24.a
-		IRE = { transfer_state = 119 }
-		ENG = { add_to_faction = IRE }
-		ENG = { country_event = { id = wtt_britain.28 } }
+		ENG = {
+			add_to_faction = IRE
+			country_event = {
+				id = wtt_britain.28
+			}
+		}
+		IRE = {
+			transfer_state = 119
+		}
 	}
-	#decline
-	option = {
+	option = { # "The prize is not worth the cost."
 		name = wtt_britain.24.b
-		ENG = { country_event = { id = wtt_britain.29 } }
+		ENG = {
+			country_event = {
+				id = wtt_britain.29
+			}
+		}
 	}
 }
 
-#Mers-El-Kebir Raid: France gets choice; transfer fleet or lose a portion
-country_event = {
+country_event = { # "British Demand French Fleet"
 	id = wtt_britain.25
 	title = wtt_britain.25.t
 	desc = wtt_britain.25.d
@@ -43,46 +53,60 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
-	option = {
+	option = { # "We have no other choice..."
+		name = wtt_britain.25.a
 		ai_chance = {
 			factor = 10
 			modifier = {
+				has_opinion = {
+					target = ENG
+					value < -99
+				}
 				factor = 0
-				has_opinion = { target = ENG value < -99 }
 			}
 			modifier = {
+				has_opinion = {
+					target = ENG
+					value > -50
+				}
 				factor = 1.5
-				has_opinion = { target = ENG value > -50 }
 			}
 			modifier = {
-				factor = 1.5
-				has_opinion = { target = ENG value > -25 }
-			}
-			modifier = {
+				has_opinion = {
+					target = ENG
+					value > 0
+				}
 				factor = 2
-				has_opinion = { target = ENG value > 0 }
 			}
 		}
-		name = wtt_britain.25.a
-		ENG = { country_event = { id = wtt_britain.26 } }
-		hidden_effect = {
-			news_event = { id = news.332 days = 1 }
+		ENG = {
+			country_event = {
+				id = wtt_britain.26
+			}
 		}
-		transfer_navy = { target = ENG }
+		hidden_effect = {
+			news_event = {
+				id = news.332 days = 1
+			}
+		}
+		transfer_navy = {
+			target = ENG
+		}
 	}
-	#decline
-	option = {
+	option = { # "We shall never let any other nation take our fleet!"
+		name = wtt_britain.25.b
 		ai_chance = {
 			factor = 90
 		}
-		name = wtt_britain.25.b
-		ENG = { country_event = { id = wtt_britain.27 } }
+		ENG = {
+			country_event = {
+				id = wtt_britain.27
+			}
+		}
 	}
 }
 
-#Mers-El-Kebir Raid: Notification event for French accepted
-country_event = {
+country_event = { # "French Surrender Fleet"
 	id = wtt_britain.26
 	title = wtt_britain.26.t
 	desc = wtt_britain.26.d
@@ -90,14 +114,12 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#excellent
-	option = {
+	option = { # "At least we kept it out of the hands of the Germans."
 		name = wtt_britain.26.a
 	}
 }
 
-#Mers-El-Kebir Raid: British informed of rejection; choice of going through with bombardment or not
-country_event = {
+country_event = { # "French Reject Ultimatum"
 	id = wtt_britain.27
 	title = wtt_britain.27.t
 	desc = wtt_britain.27.d
@@ -105,14 +127,16 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#bombard!
-	option = {
+	option = { # "We cannot allow the French fleet to serve German interests!"
+		name = wtt_britain.27.a
 		ai_chance = {
 			factor = 85
 		}
-		name = wtt_britain.27.a
-		add_popularity = { ideology = centre popularity = -0.05 }
 		add_war_support = 0.05
+		add_popularity = {
+			ideology = centre
+			popularity = -0.05
+		}
 		random_other_country = {
 			limit = {
 				original_tag = FRA
@@ -126,19 +150,37 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = { has_government = right-wing }
+				GER = {
+					has_government = right-wing
+				}
 			}
-			GER = { add_popularity = { ideology = right-wing popularity = 0.05 } }
+			GER = {
+				add_popularity = {
+					ideology = right-wing
+					popularity = 0.05
+				}
+			}
 		}
 		if = {
 			limit = {
-				GER = { has_government = syncretic }
+				GER = {
+					has_government = syncretic
+				}
 			}
-			GER = { add_popularity = { ideology = syncretic popularity = 0.05 } }
+			GER = {
+				add_popularity = {
+					ideology = syncretic
+					popularity = 0.05
+				}
+			}
 		}
-		USA = { set_country_flag = mers_el_kebir_raid }
+		USA = {
+			set_country_flag = mers_el_kebir_raid
+		}
 		hidden_effect = {
-			news_event = { id = news.333 days = 1 }
+			news_event = {
+				id = news.333 days = 1
+			}
 		}
 		random_list = {
 			60 = {
@@ -191,34 +233,40 @@ country_event = {
 			}
 		}
 	}
-	#let it go
-	option = {
+	option = { # "This is too unpalatable. We must back down."
+		name = wtt_britain.27.b
 		ai_chance = {
 			factor = 15
 			modifier = {
 				factor = 0
-				FROM = { has_opinion = { target = ENG value < -99 } }
+				FROM = {
+					has_opinion = {
+						target = ENG value < -99
+					}
+				}
 			}
 			modifier = {
 				factor = 1.5
-				FROM = { has_opinion = { target = ENG value > -50 } }
-			}
-			modifier = {
-				factor = 1.5
-				FROM = { has_opinion = { target = ENG value > -25 } }
+				FROM = {
+					has_opinion = {
+						target = ENG value > -50
+					}
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { has_opinion = { target = ENG value > 0 } }
+				FROM = {
+					has_opinion = {
+						target = ENG value > 0
+					}
+				}
 			}
 		}
-		name = wtt_britain.27.b
 		add_war_support = -0.05
 	}
 }
 
-#MacDonald Proposal - Ireland Accepts
-country_event = {
+country_event = { # "Ireland Accepts MacDonald Proposal"
 	id = wtt_britain.28
 	title = wtt_britain.28.t
 	desc = wtt_britain.28.d
@@ -226,14 +274,12 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#excellent
-	option = {
-		name = excellent
+	option = { # "Excellent."
+		name = wtt_britain_28.a
 	}
 }
 
-#MacDonald Proposal - Ireland Rejects Offer
-country_event = {
+country_event = { # "Ireland Rejects MacDonald Proposal"
 	id = wtt_britain.29
 	title = wtt_britain.29.t
 	desc = wtt_britain.29.d
@@ -241,14 +287,12 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Damn
-	option = {
+	option = { # "Who will help them when the Germans come for them?"
 		name = wtt_britain.29.a
 	}
 }
 
-# Emergency Arms Deliveries
-country_event = {
+country_event = { # "American Emergency Arms Deliveries"
 	id = wtt_britain.30
 	title = wtt_britain.30.t
 	desc = wtt_britain.30.d
@@ -256,27 +300,31 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Praise the Americans!
-	option = {
+	option = { # "They have saved us from invasion!"
 		name = wtt_britain.30.a
 		effect_tooltip = {
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
-			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 250 producer = USA }
-			add_equipment_to_stockpile = { type = support_equipment_1 amount = 250 producer = USA }
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 20000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 250
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 250
+				producer = USA
+			}
 		}
 	}
 }
 
-#   ###  ##   ## ###      ##  ###  ##  ###  ###  ## 
-#   #   #  # #   #       #  #   # #  # #  # #   #   
-#   ##  ####  #  ##      ####  #  #  # ###  ##   #  
-#   #   #  #   # #       #  # #   #  # #  # #     # 
-### ### #  # ##  ###     #  # ###  ##  #  # ### ##  
-
 add_namespace = wtt_britain_lease_azores
 
-# England request lease of Azore from POR
-country_event = {
+country_event = { # "[From.GetNameDefCap] Requests lease of the Azores"
 	id = wtt_britain_lease_azores.1
 	title = wtt_britain_lease_azores.1.t
 	desc = wtt_britain_lease_azores.1.desc
@@ -284,8 +332,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#Accept lease
-	option = {
+	option = { # "Better than dragging us into the war..."
 		name = wtt_britain_lease_azores.1.a
 		ai_chance = {
 			base = 10
@@ -293,24 +340,25 @@ country_event = {
 		FROM = {
 			set_country_flag = wtt_britain_lease_azores_accepted
 			transfer_state = 698
-			country_event = { id = wtt_britain_lease_azores.2 }
+			country_event = {
+				id = wtt_britain_lease_azores.2
+			}
 		}
 	}
-
-	#Never
 	option = {
 		name = wtt_britain_lease_azores.1.b
 		ai_chance = {
 			base = 0
 		}
 		FROM = {
-			country_event = { id = wtt_britain_lease_azores.3 }
+			country_event = {
+				id = wtt_britain_lease_azores.3
+			}
 		}
 	}
 }
 
-# Answer from POR - yes
-country_event = {
+country_event = { # "[From.GetNameDefCap] Accepts"
 	id = wtt_britain_lease_azores.2
 	title = wtt_britain_lease_azores.2.t
 	desc = wtt_britain_lease_azores.2.desc
@@ -318,14 +366,12 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "This will prove useful."
 		name = wtt_britain_lease_azores.2.a
 	}
 }
 
-
-# Answer from POR - no
-country_event = {
+country_event = { # "[From.GetNameDefCap] Refuses"
 	id = wtt_britain_lease_azores.3
 	title = wtt_britain_lease_azores.3.t
 	desc = wtt_britain_lease_azores.3.desc
@@ -333,14 +379,16 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "We will remember this."
 		name = wtt_britain_lease_azores.3.a
-		add_opinion_modifier = { target = FROM modifier = POR_rejected_lease }
+		add_opinion_modifier = {
+			target = FROM
+			modifier = POR_rejected_lease
+		}
 	}
 }
 
-# Was is over - Give control back to POR
-country_event = {
+country_event = { # "Azores Lease Over"
 	id = wtt_britain_lease_azores.4
 	title = wtt_britain_lease_azores.4.t
 	desc = wtt_britain_lease_azores.4.desc
@@ -351,11 +399,13 @@ country_event = {
 		has_war = no
 	}
 
-	mean_time_to_happen = { days = 2 }
+	mean_time_to_happen = {
+		days = 2
+	}
 
 	fire_only_once = yes
 	
-	option = {
+	option = { # "The British always pay their debts."
 		name = wtt_britain_lease_azores.4.a
 		POR = {
 			transfer_state = 698
@@ -364,7 +414,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { # "Britain exits the Azores"
 	id = wtt_britain_lease_azores.5
 	title = wtt_britain_lease_azores.5.t
 	desc = wtt_britain_lease_azores.5.desc
@@ -372,7 +422,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "The best possible outcome."
 		name = wtt_britain_lease_azores.5.a		
 	}
 }

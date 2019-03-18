@@ -426,7 +426,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = left-wing
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}
 			
@@ -2303,7 +2303,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = centre
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}
 			
@@ -2974,7 +2974,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = centre
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}
 			create_country_leader = {
@@ -3775,7 +3775,7 @@ focus_tree = {
 				}				
 				set_politics = {
 					ruling_party = right-wing
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}			
 			if = {
@@ -3921,7 +3921,7 @@ focus_tree = {
 				}
 				set_politics = {
 					ruling_party = left-wing
-					elections_allowed = yes
+					elections_allowed = no
 				}
 			}
 			

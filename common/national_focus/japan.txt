@@ -278,7 +278,7 @@ focus_tree = {
 				}
 				set_autonomy = { target = MAN autonomy_state = autonomy_free } 
 				MAN = {
-					set_autonomy = { target = MEN autonomy_state = autonomy_integrated_puppet }
+					set_autonomy = { target = MEN autonomy_state = autonomy_incorporated_dependency }
 				}
 			}
 			if = {

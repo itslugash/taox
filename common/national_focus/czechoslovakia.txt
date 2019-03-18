@@ -2110,7 +2110,7 @@ focus_tree = {
 			custom_effect_tooltip = CZE_german_minor_ally_tt
 			hidden_effect = {
 				GER = {
-					set_autonomy = { target = CZE autonomy_state = autonomy_satellite }
+					set_autonomy = { target = CZE autonomy_state = autonomy_autonomous_dependency }
 				}
 			}
 		}

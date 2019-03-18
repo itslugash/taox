@@ -1985,7 +1985,7 @@ focus_tree = {
 					is_subject = no
 				}
 				GER = {
-					set_autonomy = { target = HUN autonomy_state = autonomy_satellite }
+					set_autonomy = { target = HUN autonomy_state = autonomy_autonomous_dependency }
 				}
 			}
 			if = {
@@ -1997,7 +1997,7 @@ focus_tree = {
 					is_subject = no
 				}
 				GER = {
-					set_autonomy = { target = ROM autonomy_state = autonomy_satellite }
+					set_autonomy = { target = ROM autonomy_state = autonomy_autonomous_dependency }
 				}
 			}
 			if = {
@@ -2010,7 +2010,7 @@ focus_tree = {
 					is_subject = no
 				}
 				GER = {
-					set_autonomy = { target = HUN autonomy_state = autonomy_dominion }
+					set_autonomy = { target = HUN autonomy_state = autonomy_nominal_dependency }
 				}
 			}
 			if = {
@@ -2023,7 +2023,7 @@ focus_tree = {
 					is_subject = no
 				}
 				GER = {
-					set_autonomy = { target = ROM autonomy_state = autonomy_dominion }
+					set_autonomy = { target = ROM autonomy_state = autonomy_nominal_dependency }
 				}
 			}
 			if = {
@@ -7363,7 +7363,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = { ideology = centre popularity = 0.1 }
-			set_politics = { ruling_party = centre elections_allowed = yes }
+			set_politics = { ruling_party = centre elections_allowed = no }
 			add_ideas = { GER_wilhelm_iii }
 			add_stability = 0.05
 			hidden_effect = {

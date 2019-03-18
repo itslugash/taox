@@ -91,10 +91,20 @@ ideas = {
 				has_war_support > 0.15
 				if = {
 					limit = {
-						original_tag = HUN
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+							original_tag = HUN
+						}
 						has_dlc = "Death or Dishonor"
 					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
+					NOT = {
+						OR = {
+							has_idea = AUS_treaty_of_saint-germain-en-laye
+							has_idea = BUL_treaty_of_neuilly-sur-seine
+							has_idea = HUN_treaty_of_triannon
+						}
+					}
 				}
 				if = {
 					limit = {
@@ -145,12 +155,22 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = HUN
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+							original_tag = HUN
+						}
 						has_dlc = "Death or Dishonor"
 					}
 					OR = {
 						has_completed_focus = HUN_secret_rearmament
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						NOT = {
+								OR = {
+								has_idea = AUS_treaty_of_saint-germain-en-laye
+								has_idea = BUL_treaty_of_neuilly-sur-seine
+								has_idea = HUN_treaty_of_triannon
+							}
+						}
 					}
 				}
 				if = {
@@ -217,10 +237,20 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = HUN
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+							original_tag = HUN
+						}
 						has_dlc = "Death or Dishonor"
 					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
+					NOT = { 
+						OR = {
+							has_idea = AUS_treaty_of_saint-germain-en-laye
+							has_idea = BUL_treaty_of_neuilly-sur-seine
+							has_idea = HUN_treaty_of_triannon
+						}
+					}
 				}
 				if = {
 					limit = {
@@ -279,10 +309,20 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = HUN
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+							original_tag = HUN
+						}
 						has_dlc = "Death or Dishonor"
 					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
+					NOT = {
+						OR = {
+							has_idea = AUS_treaty_of_saint-germain-en-laye
+							has_idea = BUL_treaty_of_neuilly-sur-seine
+							has_idea = HUN_treaty_of_triannon
+						}
+					}
 				}
 				if = {
 					limit = {

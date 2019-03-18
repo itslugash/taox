@@ -1,4 +1,20 @@
 ideas = {
+	
+	country = {
+		AUS_treaty_of_saint-germain-en-laye = {
+
+			picture = HUN_treaty_of_triannon
+
+			available = {
+				has_war = no
+			}
+
+			modifier = {
+				conscription_factor = -0.65
+				production_speed_arms_factory_factor = -0.5
+			}
+		}
+	}
 
 	political_advisor = {
 

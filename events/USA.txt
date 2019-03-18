@@ -813,7 +813,7 @@ country_event = {
 		name = usa.14.a
 		set_politics = {
 			ruling_party = centre
-			elections_allowed = yes
+			elections_allowed = no
 		}
 		set_political_party = {
 			ideology = centre
@@ -1109,7 +1109,7 @@ country_event = {
 		name = usa.24.a
 		set_politics = {
 			ruling_party = centre
-			elections_allowed = yes
+			elections_allowed = no
 		}
 		set_political_party = {
 			ideology = centre

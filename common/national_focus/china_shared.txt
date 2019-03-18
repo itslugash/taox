@@ -2087,17 +2087,17 @@ shared_focus = {
 	completion_reward = {
 		release_autonomy = {
 			target = VIN
-			autonomy_state = autonomy_puppet
+			autonomy_state = autonomy_dependency
 			freedom_level=0.5
 		}
 		release_autonomy = {
 			target = CAM
-			autonomy_state = autonomy_puppet
+			autonomy_state = autonomy_dependency
 			freedom_level=0.5
 		}
 		release_autonomy = {
 			target = LAO
-			autonomy_state = autonomy_puppet
+			autonomy_state = autonomy_dependency
 			freedom_level=0.5
 		}
 	}

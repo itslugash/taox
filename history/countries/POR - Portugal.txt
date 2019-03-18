@@ -128,7 +128,7 @@ set_politics = {
 	ruling_party = syncretic
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
@@ -155,7 +155,7 @@ set_politics = {
 		ruling_party = syncretic
 		last_election = "1938.10.30"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 

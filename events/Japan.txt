@@ -1,11 +1,10 @@
-﻿###########################
-# Japanese Events
-###########################
+﻿##################
+# Events - Japan #
+##################
 
 add_namespace = japan
 
-# Chinese Refuse Concessions
-country_event = {
+country_event = { # "The Marco Polo Bridge Incident"
 	id = japan.1
 	title = china.1.t
 	desc = japan.1.d
@@ -13,7 +12,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "They will pay for this!"
 		name = japan.1.a
 		add_war_support = 0.05
 		create_wargoal = {
@@ -25,12 +24,24 @@ country_event = {
   			target = SHX
   		}
 		hidden_effect = {
-			country_event = { days = 5 id = news.1 }
+			country_event = {
+				id = news.1
+				days = 5
+			}
 		}
-		USA = { set_country_flag = { flag = USA_china_window days = 60 value = 1 } }
+		USA = {
+			set_country_flag = {
+				flag = USA_china_window
+				days = 60
+				value = 1
+			}
+		}
 		if = {
 			limit = {
-				has_country_leader = { id = 700 ruling_only = yes }
+				has_country_leader = {
+					id = 700
+					ruling_only = yes
+				}
 			}
 			remove_country_leader_trait = imperial_sanction
 		}

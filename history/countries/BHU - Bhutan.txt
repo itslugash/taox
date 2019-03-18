@@ -1,116 +1,63 @@
-﻿capital = 324
+﻿#########
+# State #
+#########
 
-oob = "BHU_1936"
+	capital = 324
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
-set_war_support = 0.1
-set_stability = 0.8
-1939.1.1 = {
+##########
+# Powers #
+##########
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "BHU_1939"
-	set_technology = {
-		infantry_weapons = 1
-		tech_mountaineers = 1
+	set_stability = 0.8
 
-		#doctrines
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
+	set_war_support = 0.1
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
+############
+# Politics #
+############
 
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		dispersed_industry = 1
-	}
-}
-
-set_politics = {
-
-	parties = {
-		centre = { 
-			popularity = 0
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-		
-		left-wing = {
-			popularity = 0
-		}
-		
-		syncretic = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = syncretic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Jigme Wangchuck"
-	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "GFX_portrait_buthan_jigme_wangchuk"
-	expire = "1965.1.1"
-	ideology = authoritarianism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
-
 		parties = {
-		centre = { 
-			popularity = 0
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 0
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = { 
+				popularity = 100
+			}
 		}
-
-		right-wing = {
-			popularity = 0
-		}
-		
-		left-wing = {
-			popularity = 0
-		}
-		
-		syncretic = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = syncretic
+		ruling_party = syncretic
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
+
+	create_country_leader = {
+		name = "Jigme Wangchuck"
+		desc = "BHU_Jigme_Wanchuck_DESC"
+		picture = "GFX_portrait_buthan_jigme_wangchuk"
+		expire = "1999.12.31"
+		ideology = monarchism
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+	}
+
+########
+# Unit #
+########
+
+	oob = "BHU_1936"

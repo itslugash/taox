@@ -26,8 +26,8 @@ set_technology = {
 			has_dlc = "Death or Dishonor"
 		}
 		add_ideas = {
-			disarmed_nation
 			HUN_treaty_of_triannon
+			volunteer_only
 		}
 	}
 
@@ -85,7 +85,7 @@ set_politics = {
 	create_country_leader = {
 		name = "Miklós Horthy"
 		desc = "HUN_Miklos_Horthy_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
+		picture = "Portrait_HUN_Miklos_Horthy.dds"
 		expire = "1999.12.31"
 		ideology = nationalism
 		traits = {

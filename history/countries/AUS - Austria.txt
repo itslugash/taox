@@ -1,47 +1,36 @@
-﻿capital = 4
+﻿#########
+# State #
+#########
 
-oob = "AUS_1936"
+	capital = 4
 
-set_research_slots = 3
+############
+# Politics #
+############
 
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1		
-	tech_mountaineers = 1
-	early_fighter = 1
-}
-
-set_politics = {
-
-	parties = {
-
-		left-wing = {
-			popularity = 0.6
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0.6
+				banned = yes
+			}
+			centre = {
+				popularity = 41.7
+				banned = yes
+			}
+			right-wing = {
+				popularity = 57.7
+			}
+			syncretic = { 
+				popularity = 0
+				banned = yes
+			}
 		}
-
-		centre = {
-			popularity = 41.7
-		}
-
-		right-wing = {
-			popularity = 57.7
-		}
-
-		syncretic = { 
-			popularity = 0
-		}
+		ruling_party = right-wing
+		last_election = "1930.11.9"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	
-	ruling_party = right-wing
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-# Country Leaders
 
 	create_country_leader = {
 		name = "Johann Koplenig"
@@ -66,7 +55,7 @@ set_politics = {
 	create_country_leader = {
 		name = "Kurt Schuschnigg"
 		desc = "AUS_Kurt_Schuschnigg_DESC"
-		picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+		picture = "Portrait_AUS_Kurt_Schuschnigg.dds"
 		expire = "1999.12.31"
 		ideology = fascism
 		traits = {
@@ -83,20 +72,121 @@ set_politics = {
 		}
 	}
 
-# Military Leaders
-	# Field Marshal(s)
-	# General(s)
-		create_corps_commander = {
-			name = "Karl Eglseer"
-			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			traits = {
-				trait_mountaineer
-				trickster
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
+##############
+# Technology #
+##############
+	
+	set_research_slots = 3
+
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_recon = 1
+		tech_engineers = 1
+		tech_support = 1		
+		tech_mountaineers = 1
+		early_fighter = 1
+	}
+
+#########
+# Ideas #
+#########
+
+	add_ideas = {
+		AUS_treaty_of_saint-germain-en-laye
+		volunteer_only
+	}
+
+########
+# Unit #
+########
+
+	oob = "AUS_1936"
+
+########
+# Army #
+########
+	
+	create_corps_commander = {
+		name = "Ernst Hammer"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		traits = {
+			brilliant_strategist
+			career_officer
 		}
-	# Admiral(s)
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Eugen Beyer"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+		traits = {
+			infantry_officer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Alfred Ritter von Hubicki"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		traits = {
+			career_officer
+			cavalry_officer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Friedrich Materna"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		traits = {
+			career_officer
+			old_guard
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Franz Böhme"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+		traits = {
+			inflexible_strategist
+			old_guard
+			trait_mountaineer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Valentin Feurstein"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		traits = {
+			career_officer
+			trait_mountaineer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
