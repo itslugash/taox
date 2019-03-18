@@ -121,7 +121,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1934.2.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -168,7 +168,7 @@ create_country_leader = {
 		ruling_party = centre
 		last_election = "1938.5.1"
 		election_frequency = 48  
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 	create_country_leader = {

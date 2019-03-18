@@ -143,7 +143,7 @@ set_politics = {
 	ruling_party = syncretic
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 #Start Horty as neutral if DOD
@@ -242,7 +242,7 @@ create_country_leader = {
 		ruling_party = right-wing
 		last_election = "1939.5.29"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 }

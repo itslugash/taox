@@ -132,7 +132,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1933.5.17"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -168,7 +168,7 @@ create_country_leader = {
 		ruling_party = centre
 		last_election = "1938.5.18"
 		election_frequency = 60
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 	# Took office 5 days after this date

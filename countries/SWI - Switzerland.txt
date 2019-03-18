@@ -85,7 +85,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1935.10.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {#next election october 39
@@ -108,7 +108,7 @@ set_politics = {
 		ruling_party = centre
 		last_election = "1935.10.27"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 

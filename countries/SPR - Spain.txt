@@ -77,7 +77,7 @@ set_politics = {
 	ruling_party = centre
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 150
