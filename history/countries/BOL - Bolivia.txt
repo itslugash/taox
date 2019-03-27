@@ -17,10 +17,10 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 11.32
+				popularity = 0
 			}
 			centre = { 
-				popularity = 88.68
+				popularity = 100
 			}
 			right-wing = {
 				popularity = 0
@@ -37,10 +37,20 @@
 
 	create_country_leader = {
 		name = "José Luis Tejada Sorzano"
-		desc = "BOL_Jose_Luis_Tejada_Sorzano_DESC"
+		desc = "BOL_Jose_Luis_Tejada_Sorzano_desc"
 		picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 		expire = "1999.12.31"
 		ideology = liberalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Óscar Únzaga"
+		desc = "BOL_Oscar_Unzaga_desc"
+		picture = "Portrait_BOL_Oscar_Unzaga.dds"
+		expire = "1999.12.31"
+		ideology = reactionary
 		traits = {
 		}
 	}

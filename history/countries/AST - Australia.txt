@@ -18,7 +18,6 @@
 
 	set_politics = {
 		parties = {
-
 			left-wing = {
 				popularity = 0.48
 			}
@@ -39,11 +38,31 @@
 	}
 
 	create_country_leader = {
+		name = "Jack Miles"
+		desc = "AST_Jack_Miles_desc"
+		picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+		expire = "1999.12.31"
+		ideology = communism # CPA / Communist Party of Australia
+		traits = {
+		}
+	}
+
+	create_country_leader = {
 		name = "Joseph Lyons"
-		desc = "AST_Joseph_Lyons_DESC"
+		desc = "AST_Joseph_Lyons_desc"
 		picture = "Portrait_AST_Joseph_Lyons.dds"
 		expire = "1999.12.31"
-		ideology = conservatism
+		ideology = conservatism # Coalition / Liberal–National Coalition
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Julius Streeter"
+		desc = "AST_Julius_Streeter_desc"
+		picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+		expire = "1999.12.31"
+		ideology = sycretism # Douglas Credit / Douglas Credit Party
 		traits = {
 		}
 	}
@@ -51,7 +70,7 @@
 ##############
 # Technology #
 ##############
-	
+
 	set_technology = {
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -67,10 +86,8 @@
 		naval_bomber1 = 1
 		early_bomber = 1
 		CAS1 = 1
-		
 		trench_warfare = 1
 		fuel_silos = 1
-
 		fleet_in_being = 1
 	}
 
@@ -92,7 +109,6 @@
 			basic_cruiser_armor_scheme = 1
 			mtg_transport = 1
 		}
-
 		else = {
 			set_technology = {
 				early_destroyer = 1
@@ -127,96 +143,6 @@
 ########
 
 	oob = "AST_1936"
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_naval_oob = "AST_1936_naval"
-
-		else = {
-			set_naval_oob = "AST_1936_naval_legacy"
-		}
-	}
-
-########
-# Army #
-########
-
-	create_corps_commander = {
-		name = "Sir Leslie James Morshead"
-		gfx = "GFX_AST_leslie_morshead"
-		traits = {
-		}
-		skill = 4
-	    attack_skill = 4
-	    defense_skill = 2
-	    planning_skill = 5
-	    logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Sir Thomas Blamey"
-		gfx = "GFX_AST_thomas_blamey"
-		traits = {
-		}
-		skill = 4
-	    attack_skill = 4
-	    defense_skill = 3
-	    planning_skill = 3
-	    logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Henry Douglas Wynter"
-		gfx = "GFX_AST_henry_wynter"
-		traits = {
-		}
-		skill = 4
-	    attack_skill = 3
-	    defense_skill = 4
-	    planning_skill = 3
-	    logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "George Alan Vasey"
-		gfx = "GFX_AST_alan_vasey"
-		traits = {
-			hill_fighter
-		}
-		skill = 3
-	    attack_skill = 2
-	    defense_skill = 4
-	    planning_skill = 3
-	    logistics_skill = 1
-	}
-
-	create_corps_commander = {
-		name = "Sir Horace Clement Hugh Robertson"
-		gfx = "GFX_AST_horace_robertson"
-		traits = {
-			desert_fox
-		}
-		skill = 3
-	    attack_skill = 3
-	    defense_skill = 1
-	    planning_skill = 3
-	    logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Sir John Northcott"
-		gfx = "GFX_AST_john_northcott"
-		traits = {
-			armor_officer
-		}
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
 
 #############
 # Equipment #
@@ -335,6 +261,85 @@
 				}
 			}
 		}
+	}
+
+########
+# Army #
+########
+
+	create_corps_commander = {
+		name = "Henry Douglas Wynter"
+		gfx = "GFX_AST_henry_wynter"
+		traits = {
+		}
+		skill = 4
+	    attack_skill = 3
+	    defense_skill = 4
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Sir Leslie James Morshead"
+		gfx = "GFX_AST_leslie_morshead"
+		traits = {
+		}
+		skill = 4
+	    attack_skill = 4
+	    defense_skill = 2
+	    planning_skill = 5
+	    logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Sir Thomas Blamey"
+		gfx = "GFX_AST_thomas_blamey"
+		traits = {
+		}
+		skill = 4
+	    attack_skill = 4
+	    defense_skill = 3
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "George Alan Vasey"
+		gfx = "GFX_AST_alan_vasey"
+		traits = {
+			hill_fighter
+		}
+		skill = 3
+	    attack_skill = 2
+	    defense_skill = 4
+	    planning_skill = 3
+	    logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Sir Horace Clement Hugh Robertson"
+		gfx = "GFX_AST_horace_robertson"
+		traits = {
+			desert_fox
+		}
+		skill = 3
+	    attack_skill = 3
+	    defense_skill = 1
+	    planning_skill = 3
+	    logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Sir John Northcott"
+		gfx = "GFX_AST_john_northcott"
+		traits = {
+			armor_officer
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
 	}
 
 ########

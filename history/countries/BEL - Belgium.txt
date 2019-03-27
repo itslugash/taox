@@ -22,10 +22,10 @@
 				popularity = 38.17
 			}
 			centre = { 
-				popularity = 50.34
+				popularity = 43.28
 			}
 			right-wing = {
-				popularity = 11.49
+				popularity = 18.55
 			}
 			syncretic = {
 				popularity = 0
@@ -39,7 +39,7 @@
 
 	create_country_leader = {
 		name = "Emile Vandervelde"
-		desc = "BEL_Emile_Vandervelde_DESC"
+		desc = "BEL_Emile_Vandervelde_desc"
 		picture = "Portrait_BEL_Emile_Vandervelde.dds"
 		expire = "1999.12.31"
 		ideology = socialism
@@ -49,7 +49,7 @@
 
 	create_country_leader = {
 		name = "Paul van Zeeland"
-		desc = "BEL_Paul_van_Zeeland_DESC"
+		desc = "BEL_Paul_van_Zeeland_desc"
 		picture = "Portrait_BEL_Paul_van_Zeeland.dds"
 		expire = "1999.12.31"
 		ideology = conservatism
@@ -59,17 +59,17 @@
 
 	create_country_leader = {
 		name = "Léon Degrelle"
-		desc = "BEL_Leon_Degrelle_DESC"
+		desc = "BEL_Leon_Degrelle_desc"
 		picture = "Portrait_BEL_Leon_Degrelle.dds"
 		expire = "1999.12.31"
-		ideology = nationalism
+		ideology = fascism
 		traits = {
 		}
 	}
 
 	create_country_leader = {
 		name = "Leopold III"
-		desc = "BEL_Leopold_III_DESC"
+		desc = "BEL_Leopold_III_desc"
 		picture = "Portrait_BEL_Leopold_III.dds"
 		expire = "1999.12.31"
 		ideology = monarchism
@@ -77,16 +77,10 @@
 		}
 	}
 
-#############
-# Diplomacy #
-#############
-
-	give_guarantee = FRA
-
 ##############
 # Technology #
 ##############
-	
+
 	set_research_slots = 3
 
 	set_technology = {
@@ -112,6 +106,19 @@
 # Army #
 ########
 
+	create_navy_leader = {
+		name = "Georges Timmermans"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		traits = {
+			bold
+		}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 4
+	}
+
 	create_corps_commander = {
 		name = "M.C.L. Keyaerts"
 		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
@@ -131,16 +138,3 @@
 ########
 
 	set_convoys = 80
-
-	create_navy_leader = {
-		name = "Georges Timmermans"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
-		traits = {
-			bold
-		}
-		skill = 4
-		attack_skill = 4
-		defense_skill = 2
-		maneuvering_skill = 3
-		coordination_skill = 4
-	}

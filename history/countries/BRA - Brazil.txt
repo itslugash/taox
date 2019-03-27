@@ -17,16 +17,16 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 0.4
-			}
-			centre = { 
-				popularity = 29.02
-			}
-			right-wing = {
 				popularity = 0
 			}
+			centre = { 
+				popularity = 26.61
+			}
+			right-wing = {
+				popularity = 0.4
+			}
 			syncretic = { 
-				popularity = 70.58
+				popularity = 72.99
 			}
 		}
 		ruling_party = syncretic
@@ -37,7 +37,7 @@
 
 	create_country_leader = {
 		name = "Luís Carlos Prestes"
-		desc = "BRA_Luis_Carlos_Prestes_DESC"
+		desc = "BRA_Luis_Carlos_Prestes_desc"
 		picture = "Portrait_BRA_Luis_Carlos_Prestes.dds"
 		expire = "1999.12.31"
 		ideology = communism
@@ -46,9 +46,9 @@
 	}
 
 	create_country_leader = {
-		name = "Armando de Sales Oliveira"
-		desc = "BRA_Armando_de_Sales_Oliveira_DESC"
-		picture = "Portrait_BRA_Armando_de_Sales_Oliveira.dds"
+		name = "Júlio Prestes"
+		desc = "BRA_Julio_Prestes_desc"
+		picture = "Portrait_BRA_Julio_Prestes.dds"
 		expire = "1999.12.31"
 		ideology = liberalism
 		traits = {
@@ -57,17 +57,17 @@
 
 	create_country_leader = {
 		name = "Plínio Salgado"
-		desc = "POLITICS_PLINIO_SALGADO_DESC"
+		desc = "BRA_Plinio_Salgado_desc"
 		picture = "Portrait_Brazil_Plinio_Salgado.dds"
 		expire = "1999.12.31"
-		ideology = nationalism
+		ideology = reactionary
 		traits = {
 		}
 	}
 
 	create_country_leader = {
 		name = "Getúlio Vargas"
-		desc = "BRA_Getulio_Vargas_DESC"
+		desc = "BRA_Getulio_Vargas_desc"
 		picture = "Portrait_Brazil_Getulio_Vargas.dds"
 		expire = "1999.12.31"
 		ideology = syncretic_independent
@@ -91,7 +91,7 @@
 	}
 
 	if = {
-		limit = { 
+		limit = {
 			has_dlc = "Man the Guns"
 		}
 		set_technology = {
@@ -116,23 +116,7 @@
 				early_battleship = 1
 				transport = 1
 			}
-		}
-	}
-
-########
-# Unit #
-########
-
-	oob = "BRA_1936"
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_naval_oob = "BRA_1936_naval"
-		else = {
-			set_naval_oob = "BRA_1936_naval_legacy"
-		}
+		}	
 	}
 
 #############
@@ -209,11 +193,27 @@
 	}
 
 ########
+# Unit #
+########
+
+	oob = "BRA_1936"
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_naval_oob = "BRA_1936_naval"
+		else = {
+			set_naval_oob = "BRA_1936_naval_legacy"
+		}
+	}
+
+########
 # Army #
 ########
 
 	create_corps_commander = {
-		name = "Mascarenhas de Morais"
+		name = "João Batista Mascarenhas de Morais"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 		traits = {
 			jungle_rat

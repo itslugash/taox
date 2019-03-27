@@ -4,6 +4,12 @@
 
 	capital = 4
 
+##########
+# Powers #
+##########
+
+	set_stability = 0.50
+
 ############
 # Politics #
 ############
@@ -12,18 +18,15 @@
 		parties = {
 			left-wing = {
 				popularity = 0.6
-				banned = yes
 			}
 			centre = {
 				popularity = 41.7
-				banned = yes
 			}
 			right-wing = {
 				popularity = 57.7
 			}
 			syncretic = { 
 				popularity = 0
-				banned = yes
 			}
 		}
 		ruling_party = right-wing
@@ -34,8 +37,8 @@
 
 	create_country_leader = {
 		name = "Johann Koplenig"
-		desc = "AUS_Johann_Koplenig_DESC"
-		picture = "Portrait_AUS_Johann_Koplenig.dds"
+		desc = "AUS_Johann_Koplenig_desc"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 		expire = "1999.12.31"
 		ideology = communism
 		traits = {
@@ -43,9 +46,9 @@
 	}
 
 	create_country_leader = {
-		name = "Karl Seitz"
-		desc = "AUS_Karl_Seitz_DESC"
-		picture = "Portrait_AUS_Karl_Seitz.dds"
+		name = "Karl Renner"
+		desc = "POLITICS_KARL_RENNER_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
 		expire = "1999.12.31"
 		ideology = social_democracy
 		traits = {
@@ -54,20 +57,10 @@
 
 	create_country_leader = {
 		name = "Kurt Schuschnigg"
-		desc = "AUS_Kurt_Schuschnigg_DESC"
-		picture = "Portrait_AUS_Kurt_Schuschnigg.dds"
+		desc = "AUS_Kurt_Schuschnigg_desc"
+		picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 		expire = "1999.12.31"
 		ideology = fascism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Charles I"
-		desc = "AUS_Charles_I_DESC"
-		picture = "Portrait_AUS_Charles_I.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
 		traits = {
 		}
 	}
@@ -75,7 +68,7 @@
 ##############
 # Technology #
 ##############
-	
+
 	set_research_slots = 3
 
 	set_technology = {
@@ -88,15 +81,6 @@
 		early_fighter = 1
 	}
 
-#########
-# Ideas #
-#########
-
-	add_ideas = {
-		AUS_treaty_of_saint-germain-en-laye
-		volunteer_only
-	}
-
 ########
 # Unit #
 ########
@@ -106,87 +90,17 @@
 ########
 # Army #
 ########
-	
-	create_corps_commander = {
-		name = "Ernst Hammer"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-		traits = {
-			brilliant_strategist
-			career_officer
-		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 1
-		logistics_skill = 2
-	}
 
 	create_corps_commander = {
-		name = "Eugen Beyer"
+		name = "Karl Eglseer"
 		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 		traits = {
-			infantry_officer
+			trait_mountaineer
+			trickster
 		}
 		skill = 3
 		attack_skill = 2
 		defense_skill = 3
 		planning_skill = 3
 		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Alfred Ritter von Hubicki"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-		traits = {
-			career_officer
-			cavalry_officer
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Friedrich Materna"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-		traits = {
-			career_officer
-			old_guard
-		}
-		skill = 2
-		attack_skill = 1
-		defense_skill = 2
-		planning_skill = 1
-		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Franz Böhme"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-		traits = {
-			inflexible_strategist
-			old_guard
-			trait_mountaineer
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 1
-		logistics_skill = 1
-	}
-
-	create_corps_commander = {
-		name = "Valentin Feurstein"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-		traits = {
-			career_officer
-			trait_mountaineer
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 1
-		logistics_skill = 1
 	}

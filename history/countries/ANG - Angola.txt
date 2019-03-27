@@ -1,7 +1,7 @@
 ﻿#########
 # State #
 #########
-	
+
 	capital = 540
 
 ############
@@ -11,22 +11,18 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 5
+				popularity = 0
 			}
 			centre = { 
-				popularity = 25
+				popularity = 0
 			}
 			right-wing = {
-				popularity = 20
+				popularity = 0
 			}
 			syncretic = { 
-				popularity = 50
+				popularity = 100
 			}
 		}
-		ruling_party = syncretic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
 ##############
@@ -39,7 +35,13 @@
 	}
 
 ########
+# Unit #
+########
+
+	oob = "ANG_1936"
+
+########
 # Navy #
 ########
-	
+
 	set_convoys = 5

@@ -1,7 +1,7 @@
 ﻿###########
 # General #
 ###########
-	
+
 	set_country_flag = monroe_doctrine
 
 #########
@@ -36,67 +36,33 @@
 	}
 
 	create_country_leader = {
-		name = "Luis Víctor Sommi"
-		desc = "ARG_Luis_Victor_Sommi_DESC"
-		picture = "Portrait_ARG_Luis_Victor_Sommi.dds"
+		name = "Nicolás Repetto"
+		desc = "ARG_Nicolas_Repetto_desc"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 		expire = "1999.12.31"
-		ideology = communism
+		ideology = socialism # Partido Socialista
 		traits = {
 		}
 	}
 
 	create_country_leader = {
 		name = "Agustín Pedro Justo"
-		desc = "ARG_Agustin_Pedro_Justo_DESC"
-		picture = "Portrait_ARG_Agustin_Pedro_Justo.dds"
+		desc = "ARG_Agustin_Pedro_Justo_desc"
+		picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 		expire = "1999.12.31"
-		ideology = conservatism
+		ideology = conservatism # Concordancia
 		traits = {
 		}
 	}
 
 	create_country_leader = {
 		name = "Nimio de Anquín"
-		desc = "ARG_Nimio_de_Anquin_DESC"
-		picture = "Portrait_ARG_Nimio_de_Anquin.dds"
+		desc = "ARG_Nimio_de_Anquin_desc"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 		expire = "1999.12.31"
-		ideology = fascism
+		ideology = fascism # UNF / Unión Nacional Fascista
 		traits = {
 		}
-	}
-
-#############
-# Diplomacy #
-#############
-
-	diplomatic_relation = {
-		country = BRA
-		relation = non_aggression_pact
-		active = yes
-	}
-
-	diplomatic_relation = {
-		country = CHL
-		relation = non_aggression_pact
-		active = yes
-	}
-
-	diplomatic_relation = {
-		country = MEX
-		relation = non_aggression_pact
-		active = yes
-	}
-
-	diplomatic_relation = {
-		country = PAR
-		relation = non_aggression_pact
-		active = yes
-	}
-
-	diplomatic_relation = {
-		country = URG
-		relation = non_aggression_pact
-		active = yes
 	}
 
 ##############
@@ -141,6 +107,22 @@
 				early_battleship = 1
 				transport = 1
 			}
+		}
+	}
+
+########
+# Unit #
+########
+
+	oob = "ARG_1936"
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_naval_oob = "ARG_1936_naval_mtg"
+		else = {
+			set_naval_oob = "ARG_1936_naval_legacy"
 		}
 	}
 
@@ -312,38 +294,9 @@
 	}
 
 ########
-# Unit #
-########
-
-	oob = "ARG_1936"
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_naval_oob = "ARG_1936_naval_mtg"
-		else = {
-			set_naval_oob = "ARG_1936_naval_legacy"
-		}
-	}
-
-########
 # Army #
 ########
-
-	create_corps_commander = {
-		name = "Arturo Rawson"
-		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-		traits = {
-			defensive_doctrine
-		}
-		skill = 3
-	    attack_skill = 4
-	    defense_skill = 3
-	    planning_skill = 1
-	    logistics_skill = 2
-	}
-
+	
 	create_corps_commander = {
 		name = "Juan Pistarini"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
@@ -356,6 +309,19 @@
 	    defense_skill = 2
 	    planning_skill = 4
 	    logistics_skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Arturo Rawson"
+		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+		traits = {
+			defensive_doctrine
+		}
+		skill = 3
+	    attack_skill = 4
+	    defense_skill = 3
+	    planning_skill = 1
+	    logistics_skill = 2
 	}
 
 ########

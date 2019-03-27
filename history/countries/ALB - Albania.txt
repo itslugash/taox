@@ -11,16 +11,16 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 1.3
 			}
 			centre = { 
-				popularity = 0
+				popularity = 64.93
 			}
 			right-wing = {
 				popularity = 0
 			}
 			syncretic = { 
-				popularity = 100
+				popularity = 33.77
 			}
 		}
 		ruling_party = syncretic
@@ -31,13 +31,11 @@
 
 	create_country_leader = {
 		name = "Zog I"
-		desc = "ALB_Zogu_I_DESC"
-		picture = "Portrait_ALB_Zog_I.dds"
+		desc = "ALB_Zog_I_desc"
+		picture = "Portrait_Albania_King_Zog.dds"
 		expire = "1999.12.31"
-		ideology = monarchism
+		ideology = monarchism # House of Zogu
 		traits = {
-			assassination_survivor
-			dictator
 		}
 	}
 
@@ -60,7 +58,7 @@
 ########
 # Army #
 ########
-	
+
 	create_field_marshal = {
 		name = "Xhemal Aranitasi"
 		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
@@ -70,18 +68,6 @@
 		attack_skill = 1
 	    defense_skill = 3
 	    planning_skill = 2
-	    logistics_skill = 1
-	}
-
-	create_field_marshal = {
-		name = "Zog I"
-		portrait_path = "gfx/leaders/ALB/Portrait_ALB_Zog_I.dds"
-		traits = {
-		}
-		skill = 1
-		attack_skill = 1
-	    defense_skill = 1
-	    planning_skill = 1
 	    logistics_skill = 1
 	}
 

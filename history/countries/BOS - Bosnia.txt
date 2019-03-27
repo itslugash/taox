@@ -21,12 +21,8 @@
 			}
 			syncretic = { 
 				popularity = 33
-			}		
+			}	
 		}
-		ruling_party = left-wing
-		last_election = "1936.1.1"
-		election_frequency = 72
-		elections_allowed = no
 	}
 
 ##############

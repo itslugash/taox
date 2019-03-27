@@ -19,15 +19,10 @@
 			right-wing = {
 				popularity = 0
 			}
-			
 			syncretic = { 
 				popularity = 100
 			}
 		}
-		ruling_party = syncretic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
 ##############
@@ -38,6 +33,13 @@
 		infantry_weapons = 1
 		tech_mountaineers = 1
 	}
+
+########
+# Unit #
+########
+
+	oob = "ZIM_1936"
+
 
 ########
 # Navy #

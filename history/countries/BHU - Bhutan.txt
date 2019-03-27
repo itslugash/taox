@@ -39,13 +39,19 @@
 
 	create_country_leader = {
 		name = "Jigme Wangchuck"
-		desc = "BHU_Jigme_Wanchuck_DESC"
+		desc = "BHU_Jigme_Wangchuck_desc"
 		picture = "GFX_portrait_buthan_jigme_wangchuk"
 		expire = "1999.12.31"
 		ideology = monarchism
 		traits = {
 		}
 	}
+
+########
+# Unit #
+########
+
+	oob = "BHU_1936"
 
 ##############
 # Technology #
@@ -55,9 +61,3 @@
 		infantry_weapons = 1
 		tech_mountaineers = 1
 	}
-
-########
-# Unit #
-########
-
-	oob = "BHU_1936"

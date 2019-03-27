@@ -17,16 +17,12 @@
 				popularity = 30
 			}
 			right-wing = { 
-				popularity = 30
+				popularity = 0
 			}
 			syncretic = {
 				popularity = 30
 			}		
 		}
-		ruling_party = left-wing
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
 ##############

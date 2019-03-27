@@ -1,21 +1,27 @@
-﻿#########
+﻿###########
+# General #
+###########
+
+	set_stability = 0.6
+
+#########
 # State #
 #########
 
-	capital = 107
+	capital = 107	
 
 ############
 # Politics #
 ############
 
-	set_politics = {
+	set_politics = {	
 		parties = {
 			left-wing = {
 				popularity = 0
 			}
 			centre = { 
 				popularity = 44.9
-			}
+			}	
 			right-wing = {
 				popularity = 55.1
 			}
@@ -24,9 +30,49 @@
 			}
 		}
 		ruling_party = right-wing
-		last_election = "1935.5.5"
+		last_election = "1935.5.3"
 		election_frequency = 36
 		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Milan Gorkić"
+		desc = "YUG_Milan_Gorkic_desc"
+		picture = "Portrait_YUG_Milan_Gorkic.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Vladko Maček"
+		desc = "YUG_Vladko_Macek_desc"
+		picture = "Portrait_YUG_Vladko_Macek.dds"
+		expire = "1999.12.31"
+		ideology = liberalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Milan Stojadinović"
+		desc = "YUG_Milan_Stojadinovic_desc"
+		picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+		expire = "1999.12.31"
+		ideology = fascism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Prince Paul"
+		desc = "YUG_Prince_Paul_desc"
+		picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+		expire = "1999.12.31"
+		ideology = monarchism
+		traits = {
+		}
 	}
 
 ##############
@@ -90,8 +136,8 @@
 		add_ideas = {
 			YUG_idea_croatian_opposition
 			YUG_idea_macedonian_opposition
-			YUG_idea_serbian_general_staff
 			YUG_idea_slovene_nationalism
+			YUG_idea_serbian_general_staff
 		}
 	}
 
@@ -102,152 +148,18 @@
 	oob = "YUG_1936"
 
 	if = {
-
 		limit = {
 			has_dlc = "Man the Guns"
 		}
 		set_naval_oob = "YUG_1936_naval_mtg"
-
 		else = {
 			set_naval_oob = "YUG_1936_naval_legacy"
 		}
-	}
+	}	
 
-########
-# Navy #
-########
-
-	set_convoys = 10
-
-	create_country_leader = {
-		name = "Milan Gorkić"
-		desc = "YUG_Milan_Gorkic_DESC"
-		picture = "Portrait_YUG_Milan_Gorkic.dds"
-		expire = "1999.12.31"
-		ideology = communism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Vladko Maček"
-		desc = "YUG_Vladko_Macek_DESC"
-		picture = "Portrait_YUG_Vladko_Macek.dds"
-		expire = "1999.12.31"
-		ideology = centrism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Milan Stojadinović"
-		desc = "YUG_Milan_Stojadinovic_DESC"
-		picture = "Portrait_Yugoslavia_Milan_Stojadinovic.dds"
-		expire = "1999.12.31"
-		ideology = fascism
-		traits = {
-			financial_expert
-		}
-	}
-
-	create_country_leader = {
-		name = "Prince Paul"
-		desc = "YUG_Prince_Paul_DESC"
-		picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-		expire = "1965.1.1"
-		ideology = monarchism
-		traits = {
-		}
-	}
-
-# Military Leaders
-
-	# Field Marshal(s)
-
-		create_field_marshal = {
-			name = "Milutin Nedić"
-			gfx = GFX_Portrait_yugoslavia_milutin_nedic
-			traits = {
-				thorough_planner
-			}
-			skill = 3	
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-
-		create_field_marshal = {
-			name = "Danilo Kalafatović"
-			gfx = GFX_Portrait_yugoslavia_danilo_kalafatovic
-			traits = {
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-		}
-
-	# General(s)
-
-		create_corps_commander = {
-			name = "Ivan Gošnjak"
-			gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
-			traits = {
-				urban_assault_specialist
-			}
-			skill = 3
-			
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-
-		create_corps_commander = {
-			name = "Vladimir Čukavac"
-			gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
-			traits = {
-				trickster
-			}
-			skill = 3
-
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-
-		create_corps_commander = {
-			name = "Petar Kosić"
-			gfx = GFX_Portrait_yugoslavia_petar_kosic
-			traits = {
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-
-	# Admiral(s)
-
-		create_navy_leader = {
-			name = "Marijan Polić"
-			gfx = GFX_Portrait_yugoslavia_marijan_polic
-			traits = {
-				navy_career_officer
-				old_guard_navy
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 1
-			coordination_skill = 2
-		}
-
-# Variants
+#############
+# Equipment #
+#############
 
 	if = {
 		limit = {
@@ -264,7 +176,6 @@
 				rear_1_custom_slot = empty
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Dubrovnik Class"				
 			type = ship_hull_light_2
@@ -281,7 +192,6 @@
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Dalmacija Class"				
 			type = ship_hull_cruiser_coastal_defense_ship
@@ -300,7 +210,6 @@
 				rear_1_custom_slot = empty
 			}
 		}
-
 		else = {
 			create_equipment_variant = {
 				name = "Cervantes Class"
@@ -312,7 +221,6 @@
 					ship_anti_air_upgrade = 1
 				}
 			}
-
 			create_equipment_variant = {
 				name = "Veinticinco de Mayo Class"
 				type = heavy_cruiser_1
@@ -322,7 +230,95 @@
 					ship_armor_upgrade = 1
 					ship_gun_upgrade = 1
 				}
-			}
+			}	
 		}
 	}
+
+########
+# Army #
+########
 	
+	create_corps_commander = {
+		name = "Ivan Gošnjak"
+		gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
+		traits = {
+			urban_assault_specialist
+		}
+		skill = 3
+		
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Vladimir Čukavac"
+		gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
+		traits = {
+			trickster 
+		}
+		skill = 3	
+
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Petar Kosić"
+		gfx = GFX_Portrait_yugoslavia_petar_kosic
+		traits = {
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_field_marshal = {
+		name = "Danilo Kalafatović"
+		gfx = GFX_Portrait_yugoslavia_danilo_kalafatovic
+		traits = {
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Milutin Nedić"
+		gfx = GFX_Portrait_yugoslavia_milutin_nedic
+		traits = {
+			thorough_planner
+		}
+		skill = 3	
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+########
+# Navy #
+########
+
+	set_convoys = 10
+
+	create_navy_leader = {
+		name = "Marijan Polić"
+		gfx = GFX_Portrait_yugoslavia_marijan_polic
+		traits = {
+			navy_career_officer
+			old_guard_navy
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 1
+		coordination_skill = 2
+	}

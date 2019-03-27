@@ -11,16 +11,16 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 0
+				popularity = 10
 			}
 			centre = { 
 				popularity = 0
 			}
 			right-wing = {
-				popularity = 0
+				popularity = 15
 			}
 			syncretic = { 
-				popularity = 100
+				popularity = 75
 			}
 		}
 		ruling_party = syncretic
@@ -31,10 +31,10 @@
 
 	create_country_leader = {
 		name = "Mohammed Zahir Shah"
-		desc = "AFG_Mohammed_Zahir_Shah_DESC"
-		picture = "Portrait_AFG_Mohammed_Zahir_Shah.dds"
+		desc = "AFG_Mohammed_Zahir_Shah_desc"
+		picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 		expire = "1999.12.31"
-		ideology = monarchism
+		ideology = monarchism # Musahiban
 		traits = {
 		}
 	}
@@ -59,7 +59,7 @@
 # Army #
 ########
 
-	create_field_marshal = {
+	create_corps_commander = {
 		name = "Sardar Shah Wali Khan"
 		portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
 		traits = {

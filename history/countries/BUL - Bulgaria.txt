@@ -33,37 +33,18 @@
 
 	create_country_leader = {
 		name = "Georgi Dimitrov"
-		desc = "BUL_Georgi_Dimitrov_DESC"
+		desc = "BUL_Georgi_Dimitrov_desc"
 		picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 		expire = "1999.12.31"
 		ideology = communism
 		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Konstantin Muraviev"
-		desc = "BUL_Konstantin_Muraviev_DESC"
-		picture = "Portrait_BUL_Konstantin_Muraviev.dds"
-		expire = "1999.12.31"
-		ideology = centrism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Hristo Lukov"
-		desc = "BUL_Hristo_Lukov_DESC"
-		picture = "GFX_Portrait_bulgaria_hristo_lukov"
-		expire = "1999.12.31"
-		ideology = nationalism
-		traits = {
+			#
 		}
 	}
 
 	create_country_leader = {
 		name = "Boris III"
-		desc = "BUL_Boris_III_DESC"
+		desc = "BUL_Boris_III_desc"
 		picture = "Portrait_Bulgaria_Boris_III.dds"
 		expire = "1999.12.31"
 		ideology = monarchism
@@ -88,7 +69,7 @@
 #########
 # Ideas #
 #########
-	
+
 	add_ideas = {
 		BUL_treaty_of_neuilly-sur-seine
 		volunteer_only
@@ -101,37 +82,55 @@
 	oob = "BUL_1936"
 
 ########
-# Army #
-########
-
-	create_corps_commander = {
-		name = "Vasil Tenev Boydev"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-		traits = {
-			armor_officer
-		}
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 3
-	}
-
-	create_field_marshal = {
-		name = "Georgi Nikolov Popov"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-		traits = {
-			defensive_doctrine
-		}
-		skill = 4
-		attack_skill = 2
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 4
-	}
-
-########
 # Navy #
 ########
 
 	set_convoys = 5
+
+	
+
+	
+
+create_country_leader = {
+	name = "Zivko Topalovic"
+	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hristo Lukov"
+	desc = "POLITICS_HRISTO_LUKOV_DESC"
+	picture = "GFX_Portrait_bulgaria_hristo_lukov"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Vasil Tenev Boydev"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Georgi Nikolov Popov"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}

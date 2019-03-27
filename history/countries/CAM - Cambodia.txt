@@ -9,6 +9,7 @@
 ############
 
 	set_politics = {
+
 		parties = {
 			left-wing = {
 				popularity = 25
@@ -23,10 +24,6 @@
 				popularity = 35
 			}
 		}
-		ruling_party = centre
-		last_election = "1933.2.16"
-		election_frequency = 36
-		elections_allowed = no
 	}
 
 ##############
@@ -68,3 +65,9 @@
 		trench_warfare = 1
 		fleet_in_being = 1
 	}
+
+########
+# Unit #
+########
+
+	oob = "CAM_1936"
