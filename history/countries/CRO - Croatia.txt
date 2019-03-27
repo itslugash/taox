@@ -2,31 +2,27 @@
 # State #
 #########
 
-	capital = 109
+	capital = 109	
 
 ############
 # Politics #
 ############
-
-	set_politics = {
+	
+	set_politics = {	
 		parties = {
 			left-wing = {
 				popularity = 10
 			}
 			centre = { 
 				popularity = 15
-			}
+			}	
 			right-wing = {
 				popularity = 75
 			}
-			syncretic = { 
+			syncretic = {
 				popularity = 0
 			}
 		}
-		ruling_party = right-wing
-		last_election = "1936.1.1"
-		election_frequency = 12
-		elections_allowed = no
 	}
 
 ##############
@@ -45,10 +41,10 @@
 		early_heavy_cruiser = 1
 		early_battleship = 1
 		transport = 1
-	}
+	}	
 
 ########
 # Navy #
 ########
 
-	set_convoys = 5
+	set_convoys = 5	

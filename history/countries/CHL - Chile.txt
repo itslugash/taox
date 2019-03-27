@@ -17,13 +17,13 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 1.2
+				popularity = 50.45
 			}
 			centre = { 
-				popularity = 98.8
+				popularity = 49.52
 			}
 			right-wing = {
-				popularity = 0
+				popularity = 0.03
 			}
 			syncretic = {
 				popularity = 0
@@ -36,18 +36,18 @@
 	}
 
 	create_country_leader = {
-		name = "Carlos Contreras Labarca"
-		desc = "CHL_Carlos_Contreras_Labarca_DESC"
-		picture = "Portrait_CHL_Carlos_Contreras_Labarca.dds"
+		name = "Pedro Aguirre Cerda"
+		desc = "CHL_Pedro_Aguirre_Cerda_desc"
+		picture = "Portrait_CHL_Pedro_Aguirre_Cerda.ddds"
 		expire = "1999.12.31"
-		ideology = communism
+		ideology = socialism
 		traits = {
 		}
 	}
 
 	create_country_leader = {
 		name = "Arturo Alessandri Palma"
-		desc = "CHL_Arturo_Alessandri_Palma_DESC"
+		desc = "CHL_Arturo_Alessandri_Palma_desc"
 		picture = "GFX_Portrait_chile_arturo_alessandri"
 		expire = "1999.12.31"
 		ideology = liberalism
@@ -56,11 +56,11 @@
 	}
 
 	create_country_leader = {
-		name = "Jorge González von Marées"
-		desc = "CHL_Jorge_Gonzalez_von_Marees_DESC"
-		picture = "Portrait_CHL_Jorge_Gonzalez_von_Marees.dds"
+		name = "Carlos Ibáñez del Campo"
+		desc = "Portrait_CHL_Carlos_Ibanez_del_Campo_desc"
+		picture = "Portrait_CHL_Carlos_Ibanez_del_Campo.dds"
 		expire = "1999.12.31"
-		ideology = fascism
+		ideology = nationalism
 		traits = {
 		}
 	}
@@ -272,7 +272,7 @@
 ########
 
 	create_corps_commander = {
-		name = "Oscar Escudero Otárola"
+		name = "Escudero Oscar Otárola"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 		traits = {
 			trait_mountaineer

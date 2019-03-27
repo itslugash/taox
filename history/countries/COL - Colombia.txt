@@ -14,14 +14,14 @@
 # Politics #
 ############
 
-	set_politics = {
+	set_politics = {	
 		parties = {
 			left-wing = {
-				popularity = 0.36
+				popularity = 0
 			}
 			centre = { 
-				popularity = 99.64
-			}
+				popularity = 100
+			}	
 			right-wing = {
 				popularity = 0
 			}
@@ -36,18 +36,8 @@
 	}
 
 	create_country_leader = {
-		name = "Ignacio Torres Giraldo"
-		desc = "COL_Ignacio_Torres_Giraldo_DESC"
-		picture = "Portrait_COL_Ignacio_Torres_Giraldo.dds"
-		expire = "1999.12.31"
-		ideology = communism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
 		name = "Alfonso López Pumarejo"
-		desc = "COL_Alfonso_Lopez_Pumarejo_DESC"
+		desc = "COL_Alfonso_Lopez_Pumarejo_desc"
 		picture = "GFX_Portrait_columbia_alfonso_lopez"
 		expire = "1999.12.31"
 		ideology = liberalism
@@ -68,7 +58,7 @@
 		early_fighter = 1
 		cv_early_fighter = 1
 	}
-
+	
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
@@ -86,7 +76,7 @@
 				early_destroyer = 1
 			}
 		}
-	}
+	}	
 
 ########
 # Unit #
@@ -102,7 +92,7 @@
 		else = {
 			set_naval_oob = "COL_1936_naval_legacy"
 		}
-	}
+	}		
 
 #############
 # Equipment #

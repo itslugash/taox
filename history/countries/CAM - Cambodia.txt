@@ -65,9 +65,3 @@
 		trench_warfare = 1
 		fleet_in_being = 1
 	}
-
-########
-# Unit #
-########
-
-	oob = "CAM_1936"

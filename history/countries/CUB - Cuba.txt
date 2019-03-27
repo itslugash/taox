@@ -1,7 +1,7 @@
 ﻿###########
 # General #
 ###########
-
+	
 	set_country_flag = monroe_doctrine
 
 #########
@@ -10,10 +10,16 @@
 
 	capital = 315
 
+##########
+# Powers #
+##########
+	
+	set_war_support = 0.1
+
 ############
 # Politics #
 ############
-
+	
 	set_politics = {
 		parties = {
 			left-wing = {
@@ -36,20 +42,14 @@
 	}
 
 	create_country_leader = {
-		name = "José Barnet"
-		desc = "CUB_Jose_Barnet_DESC"
+		name = "José Agripino Barnet y Vinageras"
+		desc = "CUB_Jose_Agripino_Barnet_y_Vinageras_desc"
 		picture = "GFX_portrait_cuba_jose_barnet"
-		expire = "1999.12.31"
+		expire = "1999.12.321
 		ideology = liberalism
 		traits = {
 		}
 	}
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
 
 ##############
 # Technology #
@@ -68,6 +68,6 @@
 
 ########
 # Navy #
-########
+########	
 
 	set_convoys = 20

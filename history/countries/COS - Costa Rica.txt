@@ -1,14 +1,14 @@
 ﻿###########
 # General #
 ###########
-
+	
 	set_country_flag = monroe_doctrine
 
 #########
 # State #
 #########
 
-	capital = 316
+	capital = 316	
 
 ##########
 # Powers #
@@ -19,20 +19,20 @@
 ############
 # Politics #
 ############
-
-	set_politics = {
+	
+	set_politics = {	
 		parties = {
 			left-wing = {
 				popularity = 5.3
 			}
 			centre = { 
-				popularity = 94.7
-			}
+				popularity = 60.2
+			}	
 			right-wing = {
 				popularity = 0
 			}
 			syncretic = {
-				popularity = 0
+				popularity = 34.5
 			}
 		}
 		ruling_party = centre
@@ -42,8 +42,18 @@
 	}
 
 	create_country_leader = {
+		name = "Carlos Luis Sáenz"
+		desc = "COS_Carlos_Luis_Saenz_desc"
+		picture = "Portrait_COS_Carlos_Luis_Saenz.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
 		name = "Ricardo Jiménez Oreamuno"
-		desc = "COS_Ricardo_Jimenez_Oreamuno_DESC"
+		desc = "COS_Ricardo_Jimenez_Oreamuno_desc"
 		picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
 		expire = "1999.12.31"
 		ideology = liberalism
@@ -51,10 +61,20 @@
 		}
 	}
 
+	create_country_leader = {
+		name = "Octavio Béeche Argüello"
+		desc = "COS_Octavio_Beece_Arguello_desc"
+		picture = "Portrait_COS_Octavio_Beece_Arguello.dds"
+		expire = "1999.12.31"
+		ideology = personalism
+		traits = {
+		}
+	}
+
 ##############
 # Technology #
 ##############
-
+	
 	set_technology = {
 		infantry_weapons = 1
 	}
@@ -63,10 +83,10 @@
 # Unit #
 ########
 
-	oob = "COS_1936"
+	oob = "COS_1936"	
 
 ########
 # Navy #
 ########
-
+	
 	set_convoys = 10
