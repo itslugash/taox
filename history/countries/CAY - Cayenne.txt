@@ -23,10 +23,6 @@
 				popularity = 23
 			}
 		}
-		ruling_party = centre
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
 ##############
