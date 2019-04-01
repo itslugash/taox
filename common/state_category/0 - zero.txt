@@ -1,0 +1,9 @@
+state_categories = { # ≥ 1
+	zero = {
+		local_building_slots = 0
+	
+		color = {
+			255 255 255
+		}
+	}
+}

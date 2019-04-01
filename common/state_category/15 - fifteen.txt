@@ -1,0 +1,9 @@
+state_categories = { # ≥ 100,000,000
+	fifteen = {
+		local_building_slots = 15
+	
+		color = {
+			200 30 180
+		}
+	}
+}

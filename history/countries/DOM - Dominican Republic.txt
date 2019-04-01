@@ -1,7 +1,7 @@
 ﻿###########
 # General #
 ###########
-
+	
 	set_country_flag = monroe_doctrine
 
 #########
@@ -24,15 +24,12 @@
 		parties = {
 			left-wing = {
 				popularity = 0
-				banned = yes
 			}
 			centre = { 
 				popularity = 0
-				banned = yes
 			}
 			right-wing = {
 				popularity = 0
-				banned = yes
 			}
 			syncretic = {
 				popularity = 100
@@ -46,13 +43,11 @@
 
 	create_country_leader = {
 		name = "Rafael Trujillo"
-		desc = "DOM_Rafael_Trujillo_DESC"
+		desc = "DOM_Rafale_Trujillo_desc"
 		picture = "GFX_portrait_dominca_rafael_trujillo"
 		expire = "1999.12.31"
 		ideology = personalism
 		traits = {
-			dictator
-			generalissimo
 		}
 	}
 

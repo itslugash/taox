@@ -29,20 +29,22 @@
 				popularity = 0
 			}
 		}
-		ruling_party = left-wing
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
-############
-# Politics #
-############
+	create_country_leader = {
+		name = "Wilhelm Pieck"
+		desc = "GER_Wilhelm_Pieck_desc"	 
+		picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
+		}
+	}
 
 ##############
 # Technology #
 ##############
-
+	
 	set_research_slots = 4
 
 	set_technology = {

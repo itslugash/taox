@@ -1,13 +1,17 @@
-
-state={
-	id=14
-	name="STATE_14"
+state = {
+	id = 14
+	name = "Bretagne"
 	manpower = 2396600
-	
 	state_category = city
 
-	history={
+	provinces = {
+		542 3552 3758 6536 6548
+	}
+
+	history = {
 		owner = FRA
+		add_core_of = FRA
+
 		victory_points = {
 			3552 20
 		}
@@ -17,6 +21,7 @@ state={
 		victory_points = {
 			9495 1
 		}
+
 		buildings = {
 			infrastructure = 6
 			dockyard = 4
@@ -25,23 +30,13 @@ state={
 				naval_base = 10
 				coastal_bunker = 1
 			}
+			3758 = {
+				naval_base = 1
+			}
 			6536 = {
 				naval_base = 4
 				coastal_bunker = 1
 			}
-			9510 = {
-				naval_base = 1
-			}
 		}
-		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-			}
-		}
-	}
-
-	provinces={
-		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
 	}
 }

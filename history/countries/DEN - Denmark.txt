@@ -19,10 +19,10 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 2
+				popularity = 1.9
 			}
 			centre = { 
-				popularity = 97
+				popularity = 97.1
 			}
 			right-wing = {
 				popularity = 1
@@ -39,7 +39,7 @@
 
 	create_country_leader = {
 		name = "Aksel Larsen"
-		desc = "DEN_Aksel_Larsen_DESC"
+		desc = "DEN_Aksel_Larsen_desc"
 		picture = "Portrait_DEN_Aksel_Larsen.dds"
 		expire = "1999.12.31"
 		ideology = communism
@@ -49,7 +49,7 @@
 
 	create_country_leader = {
 		name = "Thorvald Stauning"
-		desc = "DEN_Thorvald_Stauning_DESC"
+		desc = "DEN_Thorvald_Stauning_desc"
 		picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 		expire = "1999.12.31"
 		ideology = social_democracy
@@ -59,7 +59,7 @@
 
 	create_country_leader = {
 		name = "Frits Clausen"
-		desc = "DEN_Frits_Clausen_DESC"
+		desc = "DEN_Frits_Clausen_desc"
 		picture = "Portrait_DEN_Frits_Clausen.dds"
 		expire = "1999.12.31"
 		ideology = fascism
@@ -69,7 +69,7 @@
 
 	create_country_leader = {
 		name = "Christian X"
-		desc = "DEN_Christian_X_DESC"
+		desc = "DEN_Christian_X_desc"
 		picture = "Portrait_DEN_Christian_X.dds"
 		expire = "1999.12.31"
 		ideology = monarchism
@@ -194,9 +194,6 @@
 				rear_1_custom_slot = ship_light_medium_battery_1
 			}
 		}
-		else = {
-
-		}
 	}
 
 ########
@@ -204,7 +201,7 @@
 ########
 
 	create_corps_commander = {
-		name = "William Wain Prior"
+		name = "Wilhelm Wain Prior"
 		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 		traits = {
 			trickster

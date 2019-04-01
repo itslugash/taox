@@ -62,7 +62,7 @@
 		desc = "AST_Julius_Streeter_desc"
 		picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 		expire = "1999.12.31"
-		ideology = sycretism # Douglas Credit / Douglas Credit Party
+		ideology = syncretism # Douglas Credit / Douglas Credit Party
 		traits = {
 		}
 	}

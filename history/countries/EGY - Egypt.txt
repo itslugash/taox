@@ -1,125 +1,72 @@
-﻿capital = 446
+﻿#########
+# State #
+#########
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-}
+	capital = 446
 
-set_convoys = 20
+############
+# Politics #
+############
 
-1939.1.1 = {
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 98.28
+			}
+			right-wing = {
+				popularity = 1.72
+			}
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		ruling_party = syncretic
+		last_election = "1926.5.24"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+	create_country_leader = {
+		name = "Mostafa el-Nahhas Pasha"
+		desc = "EGY_Mostafa_el-Nahhas_Pasha_desc"
+		picture = "Portrait_Mostafa_El-Nahas.dds"
+		ideology = liberalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Hafiz Ramadan Bey"
+		desc = "EGY_Hafiz_Ramadan_Bey_desc"
+		picture = "Portrait_EGY_Hafiz_Ramadan_Bey.dds"
+		ideology = nationalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Fuad I"
+		desc = "EGY_Fuad_I_desc"
+		picture = "Portrait_EGY_Fuad_I.dds"
+		ideology = monarchism
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		infantry_weapons = 1
+		gwtank = 1
 	}
-}
 
+########
+# Navy #
+########
 
-set_politics = {
-
-	parties = {
-		centre = { 
-			popularity = 25
-		}
-
-		right-wing = {
-			popularity = 20
-		}
-		
-		left-wing = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		syncretic = { 
-			popularity = 50
-		}
-	}
-	
-	ruling_party = syncretic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Muhammad Naguib"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmed Husayn"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = fascism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Farouk Muhammad Ali"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-	ideology = authoritarianism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hosni al-Arabi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = communism
-	traits = {
-		#
-	}
-}
+	set_convoys = 20

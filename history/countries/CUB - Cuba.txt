@@ -45,7 +45,7 @@
 		name = "José Agripino Barnet y Vinageras"
 		desc = "CUB_Jose_Agripino_Barnet_y_Vinageras_desc"
 		picture = "GFX_portrait_cuba_jose_barnet"
-		expire = "1999.12.321
+		expire = "1999.12.321"
 		ideology = liberalism
 		traits = {
 		}

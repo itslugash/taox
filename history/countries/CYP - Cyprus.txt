@@ -7,15 +7,15 @@
 ############
 # Politics #
 ############
-
-	set_politics = {
+	
+	set_politics = {	
 		parties = {
 			left-wing = {
 				popularity = 15
 			}
 			centre = { 
 				popularity = 60
-			}
+			}	
 			right-wing = {
 				popularity = 8
 			}
@@ -23,10 +23,6 @@
 				popularity = 27
 			}
 		}
-		ruling_party = centre
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 
 ##############

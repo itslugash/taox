@@ -14,10 +14,10 @@
 				popularity = 10.3
 			}
 			centre = { 
-				popularity = 60
+				popularity = 56.5
 			}
 			right-wing = {
-				popularity = 29.7
+				popularity = 33.2
 			}
 			syncretic = { 
 				popularity = 0
@@ -31,7 +31,7 @@
 
 	create_country_leader = {
 		name = "Klement Gottwald"
-		desc = "CZE_Klement_Gottwald_DESC"
+		desc = "CZE_Klement_Gottwald_desc"
 		picture = "Portrait_Czech_Klement_Gottwald.dds"
 		expire = "1999.12.31"
 		ideology = communism
@@ -41,7 +41,7 @@
 
 	create_country_leader = {
 		name = "Edvard Beneš"
-		desc = "CZE_Edvard_Benes_DESC"
+		desc = "CZE_Edvard_Benes_desc"
 		picture = "Portrait_Czech_Edvard_Benes.dds"
 		expire = "1999.12.31"
 		ideology = liberalism
@@ -50,21 +50,11 @@
 	}
 
 	create_country_leader = {
-		name = "Jaroslav Krejčí"
-		desc = "CZE_Jaroslav_Krejci_DESC"
-		picture = "Portrait_Czech_Jaroslav_Krejci.dds"
+		name = "Konrad Henlein"
+		desc = "CZE_Konrad_Henlein_desc"
+		picture = "Portrait_CZE_Konrad_Henlein.dds"
 		expire = "1999.12.31"
 		ideology = fascism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Charles III"
-		desc = "CZE_Charles_III_DESC"
-		picture = "Portrait_CZE_Charles_III.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
 		traits = {
 		}
 	}
@@ -72,15 +62,19 @@
 #############
 # Diplomacy #
 #############
-
-	create_faction = "Little Entente"
-	add_to_faction = ROM
-	add_to_faction = YUG
+	
+	if = {
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
+		give_guarantee = YUG
+		give_guarantee = ROM
+	}
 
 ##############
 # Technology #
 ##############
-
+	
 	set_research_slots = 3
 
 	set_technology = {
@@ -103,14 +97,14 @@
 #########
 # Ideas #
 #########
-
+	
 	if = {
 		limit = {
 			has_dlc = "Death or Dishonor"
 		}
 		add_ideas = {
-			CZE_skoda_works
 			CZE_divided_nation
+			CZE_skoda_works
 		}
 		else = {
 			add_ideas = {
@@ -123,24 +117,11 @@
 # Unit #
 ########
 
-	oob = "CZE_1936"	
+	oob = "CZE_1936"
 
 ########
 # Army #
 ########
-	
-	create_corps_commander = {
-		name = "Sergei Wojciechowski"
-		gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-		traits = {
-			winter_specialist
-		}
-		skill = 3
-	    attack_skill = 4
-	    defense_skill = 3
-	    planning_skill = 2
-	    logistics_skill = 1
-	}
 
 	create_corps_commander = {
 		name = "Richard Tesařík"
@@ -155,22 +136,21 @@
 	    logistics_skill = 1
 	}
 
-	create_field_marshal = {
-		name = "Josef Šnejdárek"
-		gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
+	create_corps_commander = {
+		name = "Sergej Vojcechovský"
+		gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
 		traits = {
-			defensive_doctrine
-			thorough_planner
+			winter_specialist
 		}
 		skill = 3
-	    attack_skill = 3
-	    defense_skill = 4
+	    attack_skill = 4
+	    defense_skill = 3
 	    planning_skill = 2
 	    logistics_skill = 1
 	}
 
 	create_field_marshal = {
-		name = "Vojtěch Boris Luža"
+		name = "Vojtěch Luža"
 		gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
 		traits = {
 			fast_planner
@@ -180,5 +160,19 @@
 	    attack_skill = 4
 	    defense_skill = 2
 	    planning_skill = 3
+	    logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Josef Šnejdárek"
+		gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
+		traits = {
+			thorough_planner
+			defensive_doctrine
+		}
+		skill = 3
+	    attack_skill = 3
+	    defense_skill = 4
+	    planning_skill = 2
 	    logistics_skill = 1
 	}
