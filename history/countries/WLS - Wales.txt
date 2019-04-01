@@ -1,35 +1,41 @@
-﻿capital = 122
+﻿#########
+# State #
+#########
 
-set_technology = {
-	infantry_weapons = 1
-	fuel_silos = 1
-}
+	capital = 122
 
-set_convoys = 20
+############
+# Politics #
+############
 
-set_politics = {
-
-	parties = {
-		
-		left-wing = {
-			popularity = 4
-		}
-
-		centre = { 
-			popularity = 93
-		}
-
-		right-wing = {
-			popularity = 3
-		}
-		
-		syncretic = { 
-			popularity = 0
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 4
+			}
+			centre = { 
+				popularity = 93
+			}
+			right-wing = {
+				popularity = 3
+			}
+			syncretic = { 
+				popularity = 0
+			}
 		}
 	}
-	
-	ruling_party = centre
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+
+##############
+# Technology #
+##############
+
+	set_technology = {
+		infantry_weapons = 1
+		fuel_silos = 1
+	}
+
+########
+# Navy #
+########
+
+	set_convoys = 20
