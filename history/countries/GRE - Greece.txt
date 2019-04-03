@@ -1,25 +1,85 @@
-﻿capital = 47
+﻿#########
+# State #
+#########
 
-# Order of Battle
+	capital = 47
 
-	oob = "GRE_1936"
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
+##########
+# Powers #
+##########
+
+	set_stability = 0.75
+
+############
+# Politics #
+############
+
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 5.9
+			}
+			centre = { 
+				popularity = 90.2
+			}
+			right-wing = {
+				popularity = 3.9
+			}
+			syncretic = { 
+				popularity = 0
+			}
 		}
-		set_naval_oob = "GRE_1936_naval_mtg"
+		ruling_party = syncretic
+		last_election = "1935.6.9"
+		election_frequency = 12
+		elections_allowed = no
+	}
 
-		else = {
-			set_naval_oob = "GRE_1936_naval_legacy"
+	create_country_leader = {
+		name = "Nikos Zachariadis"
+		desc = "GRE_Nikos_Zachariadis_desc"
+		picture = "Portrait_GRE_Nikos_Zachariadis.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
 		}
 	}
-	set_convoys = 10
 
-set_research_slots = 3
+	create_country_leader = {
+		name = "Eleftherios Venizelos"
+		desc = "GRE_Eleftherios_Venizelos_desc"
+		picture = "Portrait_GRA_Eleftherios_Venizelos.dds"
+		expire = "1999.12.31"
+		ideology = liberalism
+		traits = {
+		}
+	}
 
-set_stability = 0.75
+	create_country_leader = {
+		name = "Ioannis Metaxas"
+		desc = "GRE_Ioannis_Metaxas_desc"
+		picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+		expire = "1965.1.1"
+		ideology = nationalism
+		traits = {
+		}
+	}
 
-# Technology
+	create_country_leader = {
+		name = "George II"
+		desc = "GRE_George_II_desc"
+		picture = "Portrait_GRE_George_II.dds"
+		expire = "1999.12.31"
+		ideology = monarchism
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
+	set_research_slots = 3
 
 	set_technology = {
 		infantry_weapons = 1
@@ -30,6 +90,7 @@ set_stability = 0.75
 		gw_artillery = 1
 		interwar_antiair = 1
 	}
+
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
@@ -51,7 +112,6 @@ set_stability = 0.75
 			pre_dreadnoughts = 1
 			mtg_transport = 1
 		}
-
 		else = {
 			set_technology = {
 				early_submarine = 1
@@ -64,105 +124,33 @@ set_stability = 0.75
 		}
 	}
 
-# Diplomacy
+#########
+# Ideas #
+#########
 
 	add_ideas = {
 		limited_conscription
 	}
 
-	diplomatic_relation = {
-		country = ROM
-		relation = non_aggression_pact
-		active = yes
-	}
+########
+# Unit #
+########
 
-set_politics = {
+	oob = "GRE_1936"
 
-	parties = {
-		
-		left-wing = {
-			popularity = 5.9
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
 		}
-
-		centre = { 
-			popularity = 90.2
-		}
-
-		right-wing = {
-			popularity = 3.9
-		}
-		
-		syncretic = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = centre
-	last_election = "1935.6.9"
-	election_frequency = 12
-	elections_allowed = no
-}
-
-# Country Leaders
-
-	create_country_leader = {
-		name = "Nikos Zachariadis"
-		desc = "GRE_Nikos_Zachariadis_DESC"
-		picture = "Portrait_GRE_Nikos_Zachariadis.dds"
-		expire = "1999.12.31"
-		ideology = communism
-		traits = {
+		set_naval_oob = "GRE_1936_naval_mtg"
+		else = {
+			set_naval_oob = "GRE_1936_naval_legacy"
 		}
 	}
 
-	create_country_leader = {
-		name = "Konstantinos Demertzis"
-		desc = "GRE_Konstantinos_Demertzis_DESC"
-		picture = "Portrait_GRE_Konstantinos_Demertzis.dds"
-		expire = "1999.12.31"
-		ideology = centre_independent
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Georgios Kosmidis"
-		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-		expire = "1999.12.31"
-		ideology = fascism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Ioannis Metaxas"
-		desc = "GRE_Ioannis_Metaxas_DESC"
-		picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-		expire = "1999.12.31"
-		ideology = authoritarianism
-		traits = {
-		}
-	}
-
-# Military Leaders
-	# Field Marshal(s)
-	# General(s)
-		create_corps_commander = {
-			name = "Markos Drakos"
-			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			traits = {
-				hill_fighter
-			}
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-		}
-	# Admiral(s)
-
-# Variants
+#############
+# Equipment #
+#############
 
 	if = {
 		limit = {
@@ -180,7 +168,6 @@ set_politics = {
 			}
 			obsolete = yes
 		}
-
 		create_equipment_variant = {
 			name = "Glafkos Class"				
 			type = ship_hull_submarine_2
@@ -192,7 +179,6 @@ set_politics = {
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Aetos Class"					
 			type = ship_hull_light_1
@@ -210,7 +196,6 @@ set_politics = {
 			}
 			obsolete = yes
 		}
-
 		create_equipment_variant = {
 			name = "Hydra Class"	
 			type = ship_hull_light_1
@@ -227,7 +212,6 @@ set_politics = {
 				rear_1_custom_slot = ship_mine_layer_1
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Averof Class"				
 			type = ship_hull_cruiser_coastal_defense_ship
@@ -247,7 +231,6 @@ set_politics = {
 			}
 			obsolete = yes
 		}
-
 		create_equipment_variant = {
 			name = "Elli Class"				
 			type = ship_hull_cruiser_1
@@ -266,7 +249,6 @@ set_politics = {
 				rear_1_custom_slot = ship_mine_layer_1
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Kilkis Class"	
 			type = ship_hull_pre_dreadnought
@@ -286,7 +268,6 @@ set_politics = {
 			}
 			obsolete = yes
 		}
-
 		else = {
 			create_equipment_variant = {
 				name = "Hydra Class"
@@ -300,3 +281,24 @@ set_politics = {
 			}
 		}
 	}
+
+########
+# Army #
+########
+
+	create_corps_commander = {
+		name = "Markos Drakos"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+		traits = { hill_fighter }
+		skill = 3
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+########
+# Navy #
+########
+	
+	set_convoys = 10
