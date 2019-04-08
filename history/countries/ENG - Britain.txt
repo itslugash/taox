@@ -109,6 +109,10 @@
 			autonomous_state = autonomy_dependency
 		}
 		set_autonomy = {
+			target = JOR
+			autonomous_state = autonomy_dependency
+		}
+		set_autonomy = {
 			target = MAL
 			autonomous_state = autonomy_dependency
 		}
@@ -139,6 +143,7 @@
 		}
 		else = {
 			puppet = EGY
+			puppet = JOR
 			puppet = MAL
 			puppet = RAJ
 		}

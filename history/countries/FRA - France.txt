@@ -67,6 +67,24 @@
 		}
 	}
 
+############
+# Subjects #
+############
+
+	if = {
+		limit = {
+			has_dlc = {
+				"Together for Victory"
+			}
+			set_autonomy = {
+				target = LEB
+				autonomous_state = autonomy_dependency
+			}
+		}
+		else = {
+			puppet = LEB
+		}
+	}
 ##############
 # Technology #
 ##############
