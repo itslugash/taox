@@ -38,13 +38,12 @@
 	}
 
 	create_country_leader = {
-		name = "Imam Yahya Hamididdin"
-		desc = "YEM_Imam_Yahya_Hamididdin_DESC"
+		name = "Yahya Muhammad Hamid ed-Din"
+		desc = "YEM_Yahya_Muhammad_Hamid_ed-Din_desc"
 		picture = "GFX_portrait_yemen_imam_yahya"
 		expire = "1999.12.31"
 		ideology = monarchism
 		traits = {
-			popular_figurehead
 		}
 	}
 

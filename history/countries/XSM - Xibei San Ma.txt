@@ -17,7 +17,7 @@
 				popularity = 0
 			}
 			right-wing = {
-				popularity = 100
+				popularity = nationalism
 			}
 			syncretic = { 
 				popularity = 0
@@ -31,8 +31,8 @@
 
 	create_country_leader = {
 		name = "Ma Bufang"
-		desc = "XSM_Ma_Bufang_DESC"
-		picture = "portrait_xsm_ma_bufang.dds"
+		desc = "XSM_Ma_Bufang_desc"
+		picture = "GFX_portrait_xsm_ma_bufang"
 		expire = "1999.12.31"
 		ideology = nationalism
 		traits = {
@@ -68,59 +68,17 @@
 
 	oob = "XSM_1936"
 
+########
+# Army #
+########
 
-create_corps_commander = {
-	name = "Ma Bufang"
-	portrait_path = "gfx/leaders/XSM/portrait_xsm_ma_bufang.dds"
-	traits = {
-		cavalry_officer
-		harsh_leader
+	create_corps_commander = {
+		name = "Ma Hongbin"
+		portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+		traits = { }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
 	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Ma Buqing"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	traits = {
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Han Youwen"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = {
-		cavalry_officer
-		inflexible_strategist
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-
-
-	
-
-create_corps_commander = {
-	name = "Ma Hongbin"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = {
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
