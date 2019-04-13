@@ -1,25 +1,109 @@
-﻿capital = 46
+﻿###########
+# General #
+###########
 
-# Order of Battle
-	oob = "ROM_1936"
 	if = {
 		limit = {
-			has_dlc = "Man the Guns"
+			has_dlc = "Death or Dishonor"
 		}
-		set_naval_oob = "ROM_1936_naval_mtg"
-
-		else = {
-			set_naval_oob = "ROM_1936_naval_legacy"
+		ROM = {
+			random_list = {
+				100 = {
+					country_event = {
+						id = DOD_romania.81
+						days = 2
+						random = 20
+					}
+				}
+			}
 		}
 	}
-	set_convoys = 10
 
-set_research_slots = 3
+#########
+# State #
+#########
 
-set_stability = 0.6
-set_war_support = 0.6
+	capital = 46
 
-# Technology
+##########
+# Powers #
+##########
+
+	set_stability = 0.6
+
+	set_war_support = 0.6
+
+############
+# Politics #
+############
+
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 74.9
+			}
+			right-wing = {
+				popularity = 25.1
+			}
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		ruling_party = centre
+		last_election = "1933.12.20"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Alexander Danieliuk-Stefanski"
+		desc = "ROM_Alexander_Danieliuk-Stefanski_desc"
+		picture = "Portrait_ROM_Alexander_Danieliuk-Stefanski.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Gheorghe Tătărescu"
+		desc = "ROM_Gheorghe_Tatarescu_desc"
+		picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Corneliu Zelea Codreanu"
+		desc = "POLITICS_OCTAVIAN_GOGA_DESC"
+		picture = "Portrait_ROM_Corneliu_Zelea_Codreanu.dds"
+		expire = "1999.12.31"
+		ideology = nationalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Carol II"
+		desc = "ROM_Carol_II_desc"
+		picture = "Portrait_ROM_Carol_II.dds"
+		expire = "1999.12.31"
+		ideology = monarchism
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
+	set_research_slots = 3
+
 	set_technology = {
 		tech_support = 1		
 		tech_engineers = 1
@@ -48,7 +132,6 @@ set_war_support = 0.6
 			basic_torpedo = 1
 			basic_depth_charges = 1
 		}
-
 		else = {
 			set_technology = {
 				early_submarine = 1
@@ -57,9 +140,14 @@ set_war_support = 0.6
 		}
 	}
 
-# Diplomacy
+#########
+# Ideas #
+#########
 
-	add_ideas = neutrality_idea
+	add_ideas = {
+		neutrality_idea
+	}
+
 	if = {
 		limit = {
 			has_dlc = "Death or Dishonor"
@@ -69,173 +157,25 @@ set_war_support = 0.6
 		}
 	}
 
-	diplomatic_relation = {
-			country = GRE
-			relation = non_aggression_pact
-			active = yes
-		}
+########
+# Unit #
+########
+
+	oob = "ROM_1936"
 
 	if = {
 		limit = {
-			has_dlc = "Death or Dishonor"
+			has_dlc = "Man the Guns"
 		}
-		ROM = {
-			random_list = {
-				100 = {
-					country_event = {
-						id = DOD_romania.81 days = 2
-						random = 20
-					}
-				}
-			}
+		set_naval_oob = "ROM_1936_naval_mtg"
+		else = {
+			set_naval_oob = "ROM_1936_naval_legacy"
 		}
 	}
 
-set_politics = {
-
-	parties = {
-
-		left-wing = {
-			popularity = 0
-		}
-
-		centre = { 
-			popularity = 74.9
-		}
-
-		right-wing = {
-			popularity = 25.1
-		}
-		
-		syncretic = { 
-			popularity = 0
-		}
-	}
-	
-	ruling_party = centre
-	last_election = "1933.12.20"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-# Country Leaders
-
-	create_country_leader = {
-		name = "Boris Stefanov"
-		desc = "ROM_Boris_Stefanov_DESC"
-		picture = "Portrait_ROM_Boris_Stefanov.dds"
-		expire = "1965.1.1"
-		ideology = communism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Gheorghe Tătărescu"
-		desc = "ROM_Gheorghe_Tatarescu_DESC"
-		picture = "Portrait_Romania_Gheorghe_Tatarescu.dds"
-		expire = "1999.12.31"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Corneliu Zelea Codreanu"
-		desc = "ROM_Corneliu_Zelea_Codreanu_DESC"
-		picture = "Portrait_ROM_Corneliu_Zelea_Codreanu.dds"
-		expire = "1999.12.31"
-		ideology = nationalism
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "Carol II"
-		desc = "ROM_Carol_II_DESC"
-		picture = "Portrait_ROM_Carol_II.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
-		traits = {
-			#
-		}
-	}
-
-# Military Leaders
-	# Field Marshal(s)
-
-		create_field_marshal = {
-			name = "Ion Antonescu"
-			picture = "Portrait_Romania_Ion_Antonescu.dds"
-			traits = {
-				offensive_doctrine
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-		}
-
-		create_field_marshal = {
-			name = "Petre Dumitrescu"
-			gfx = GFX_Portrait_romania_petre_dumitrescu
-			traits = {
-				logistics_wizard
-				offensive_doctrine
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-		}
-
-	# General(s)
-
-		create_corps_commander = {
-			name = "Gheorghe Avramescu"
-			gfx = GFX_Portrait_romania_gheorghe_avramescu
-			traits = {
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-
-		create_corps_commander = {
-			name = "Ioan Mihail Racovita"
-			gfx = GFX_Portrait_romania_ioan_mihail_racovita
-			traits = {
-				hill_fighter
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-
-	# Admiral(s)
-
-		create_navy_leader = {
-			name = "Horia Macellariu"
-			gfx = "GFX_Portrait_romania_horia_macellariu"
-			traits = {
-				gentlemanly
-				spotter
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
-		}
-
-# Variants
+#############
+# Equipment #
+#############
 
 	if = {
 		limit = {
@@ -252,7 +192,6 @@ set_politics = {
 				rear_1_custom_slot = ship_mine_layer_sub
 			}
 		}
-
 		create_equipment_variant = {
 			name = "Marasti Class"				
 			type = ship_hull_light_1
@@ -270,7 +209,6 @@ set_politics = {
 			}
 			obsolete = yes
 		}
-
 		create_equipment_variant = {
 			name = "Regele Ferdinand Class"	
 			type = ship_hull_light_1
@@ -287,7 +225,6 @@ set_politics = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-
 		else = {
 			create_equipment_variant = {
 				name = "Regele Ferdinand Class"
@@ -301,3 +238,67 @@ set_politics = {
 			}
 		}
 	}
+
+########
+# Army #
+########
+
+	create_corps_commander = {
+		name = "Ioan Mihail Racovita"
+		gfx = GFX_Portrait_romania_ioan_mihail_racovita
+		traits = { hill_fighter }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Gheorghe Avramescu"
+		gfx = GFX_Portrait_romania_gheorghe_avramescu
+		traits = { }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_navy_leader = {
+		name = "Horia Macellariu"
+		gfx = "GFX_Portrait_romania_horia_macellariu"
+		traits = { gentlemanly spotter }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 2
+		coordination_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Petre Dumitrescu"
+		gfx = GFX_Portrait_romania_petre_dumitrescu
+		traits = { offensive_doctrine logistics_wizard }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Ion Antonescu"
+		picture = "Portrait_Romania_Ion_Antonescu.dds"
+		traits = { offensive_doctrine }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+########
+# Navy #
+########
+
+	set_convoys = 10

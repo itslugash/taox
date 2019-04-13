@@ -1,124 +1,81 @@
-﻿capital = 554
+﻿#########
+# State #
+#########
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-}
+	capital = 554
 
-set_convoys = 5
+############
+# Politics #
+############
 
-1939.1.1 = {
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 100
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = { 
+				popularity = 0
+			}
+		}
+		ruling_party = centre
+		last_election = "1932.7.2"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+	create_country_leader = {
+		name = "Khalid Bakdash"
+		desc = "SYR_Khalid_Bakdash_desc"
+		picture = "Portrait_SYR_Khalid_Bakdash.dds"
+		ideology = communism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Mohammad Ali Al-Abed"
+		desc = "SYR_Mohammad_Ali_Al-Abed_desc"
+		picture = "Portrait_SYR_Mohammad_Ali_Al-Abed.dds"
+		ideology = conservatism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Antoun Saadeh"
+		desc = "SYR_Antoun_Saadeh_desc"
+		picture = "Portrait_SYR_Antoun_Saadeh.dds"
+		ideology = nationalism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Ghazi I"
+		desc = "SYR_Ghazi_I_desc"
+		picture = "gfx/leaders/IRQ/GFX_portrait_iraq_ghazi"
+		ideology = monarchism
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		infantry_weapons = 1
+		gwtank = 1
 	}
-}
 
+########
+# Navy #
+########
 
-set_politics = {
-
-	parties = {
-		centre = { 
-			popularity = 50
-		}
-
-		right-wing = {
-			popularity = 10
-		}
-		
-		left-wing = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		syncretic = { 
-			popularity = 30
-		}
-	}
-	
-	ruling_party = centre
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Antun Saadeh"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = fascism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ghazi bin Faisal"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = authoritarianism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
-	ideology = communism
-	traits = {
-		#
-	}
-}
+	set_convoys = 5

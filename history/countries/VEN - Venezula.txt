@@ -1,53 +1,80 @@
-﻿capital = 307
+﻿###########
+# General #
+###########
 
-# Order of Battle
+	set_country_flag = monroe_doctrine
+
+#########
+# State #
+#########
+
+	capital = 307
+
+############
+# Politics #
+############
+
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 100
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = {
+				popularity = 0
+			}
+		}
+		ruling_party = centre
+		last_election = "1931.7.2"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Juan Bautista Fuenmayor"
+		desc = "VEN_Juan_Bautista_Fuenmayor_desc"
+		picture = "Portrait_VEN_Juan_Bautista_Fuenmayor.dds"
+		expire = "1999.12.31"
+		ideology = communism
+		traits = {
+		}
+	}
+
+	create_country_leader = {
+		name = "Eleazar López Contreras"
+		desc = "VEN_Eleazar_Lopez_Contreras_desc"
+		picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
+		expire = "1999.12.31"
+		ideology = syncretic_independent
+		traits = {
+		}
+	}
+
+##############
+# Technology #
+##############
+
+	set_technology = {
+		infantry_weapons = 1
+		gw_artillery = 1
+		early_fighter = 1
+		fuel_silos = 1
+		fuel_refining = 1
+	}
+
+########
+# Unit #
+########
 
 	oob = "VEN_1936"
+
+########
+# Navy #
+########
+
 	set_convoys = 10
-
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-	fuel_silos = 1
-	fuel_refining = 1
-}
-
-set_country_flag = monroe_doctrine
-
-set_politics = {
-
-	parties = {
-		
-		left-wing = {
-			popularity = 0
-		}
-
-		centre = { 
-			popularity = 100
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-
-		syncretic = {
-			popularity = 0
-		}
-	}
-	
-	ruling_party = centre
-	last_election = "1931.4.25"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Eleazar López Contreras"
-	desc = "VEN_Eleazar_Lopez_Contreras_DESC"
-	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
-	expire = "1999.12.31"
-	ideology = centre_independent
-	traits = {
-	}
-}

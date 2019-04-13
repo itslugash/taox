@@ -1,21 +1,53 @@
-﻿capital = 300
+﻿###########
+# General #
+###########
 
-# Order of Battle
+	set_country_flag = monroe_doctrine
 
-	oob = "URG_1936"
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
+#########
+# State #
+#########
+
+	capital = 300
+
+############
+# Politics #
+############
+
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 0
+			}
+			centre = { 
+				popularity = 100
+			}
+			right-wing = {
+				popularity = 0
+			}
+			syncretic = {
+				popularity = 0
+			}
 		}
-		set_naval_oob = "URG_1936_naval_mtg"
+		ruling_party = centre
+		last_election = "1930.11.30"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-		else = {
-			set_naval_oob = "URG_1936_naval_legacy"
+	create_country_leader = {
+		name = "José Luis Gabriel Terra"
+		desc = "URG_Jose_Luis_Gabriel_Terra_desc"
+		picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
+		expire = "1999.12.31"
+		ideology = liberalism
+		traits = {
 		}
 	}
-	set_convoys = 5
 
-# Technology
+##############
+# Technology #
+##############
 
 	set_technology = {
 		infantry_weapons = 1
@@ -23,6 +55,7 @@
 		interwar_antiair = 1
 		early_fighter = 1
 	}
+
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
@@ -33,7 +66,6 @@
 			basic_battery = 1
 			basic_torpedo = 1
 		}
-
 		else = {
 			set_technology = {
 				early_destroyer = 1
@@ -42,47 +74,25 @@
 		}
 	}
 
-set_country_flag = monroe_doctrine
+########
+# Unit #
+########
 
-set_politics = {
+	oob = "URG_1936"
 
-	parties = {
-		
-		left-wing = {
-			popularity = 4.73
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
 		}
-
-		centre = { 
-			popularity = 95.27
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-
-		syncretic = { 
-			popularity = 0
+		set_naval_oob = "URG_1936_naval_mtg"
+		else = {
+			set_naval_oob = "URG_1936_naval_legacy"
 		}
 	}
-	
-	ruling_party = centre
-	last_election = "1930.11.30"
-	election_frequency = 48
-	elections_allowed = no
-}
 
-create_country_leader = {
-	name = "Gabriel Terra"
-	desc = "URG_Gabriel_Terra_DESC"
-	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
-	expire = "1999.12.31"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-# Variants
+#############
+# Equipment #
+#############
 
 	if = {
 		limit = {
@@ -105,3 +115,9 @@ create_country_leader = {
 			}
 		}
 	}
+
+########
+# Navy #
+########
+
+	set_convoys = 5

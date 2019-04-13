@@ -1,103 +1,104 @@
-﻿capital = 3
+﻿#########
+# State #
+#########
 
-oob = "SWI_1936"
+	capital = 3
 
-set_research_slots = 3
+##########
+# Powers #
+##########
 
-set_stability = 0.85
+	set_stability = 0.85
 
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	early_fighter = 1
-	CAS1 = 1
-	fuel_silos = 1
-}
+############
+# Politics #
+############
 
-add_ideas = {
-	limited_conscription
-	neutrality_idea
-}
-
-set_politics = {
-
-	parties = {
-
-		left-wing = {
-			popularity = 1.4
+	set_politics = {
+		parties = {
+			left-wing = {
+				popularity = 1.4
+			}
+			centre = { 
+				popularity = 97.1
+			}
+			right-wing = {
+				popularity = 1.5
+			}
+			syncretic = {
+				popularity = 0
+			}
 		}
-
-		centre = { 
-			popularity = 97.1
-		}
-
-		right-wing = {
-			popularity = 1.5
-		}
-		
-		syncretic = {
-			popularity = 0
-		}
+		ruling_party = centre
+		last_election = "1935.10.27"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	
-	ruling_party = centre
-	last_election = "1935.10.27"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-# Country Leaders
 
 	create_country_leader = {
-		name = "Federal Council"
-		desc = "SWI_Federal_Council_DESC"
-		picture = "Portrait_Switzerland_Federal_council.dds"
+		name = "Fritz Platten"
+		desc = "SWI_Fritz_Platten_desc"
+		picture = "Portrait_SWI_Fritz_Platten.dds"
 		expire = "1999.12.31"
 		ideology = communism
 		traits = {
-			#
 		}
 	}
 
 	create_country_leader = {
 		name = "Federal Council"
-		desc = "SWI_Federal_Council_DESC"
+		desc = "SWI_Federal_Council_desc"
 		picture = "Portrait_Switzerland_Federal_council.dds"
 		expire = "1999.12.31"
-		ideology = centrism
+		ideology = liberalism
 		traits = {
-			#
 		}
 	}
 
-	create_country_leader = {
-		name = "Federal Council"
-		desc = "SWI_Federal_Council_DESC"
-		picture = "Portrait_Switzerland_Federal_council.dds"
-		expire = "1999.12.31"
-		ideology = nationalism
-		traits = {
-			#
-		}
+##############
+# Technology #
+##############
+
+	set_research_slots = 3
+
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_mountaineers = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		early_fighter = 1
+		CAS1 = 1
+		fuel_silos = 1
 	}
 
-# Military Leaders
-	# Field Marshal(s)
-	# General(s)
-		create_corps_commander = {
-			name = "Henri Guisan"
-			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			traits = {
-				winter_specialist
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	# Admiral(s)
+#########
+# Ideas #
+#########
+
+	add_ideas = {
+		neutrality_idea	
+		limited_conscription
+	}
+
+########
+# Unit #
+########
+
+	oob = "SWI_1936"
+
+########
+# Army #
+########
+
+	create_corps_commander = {
+		name = "Henri Guisan"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		traits = {  winter_specialist }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}

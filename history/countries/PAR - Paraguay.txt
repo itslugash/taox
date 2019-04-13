@@ -1,148 +1,62 @@
-﻿capital = 301
+﻿###########
+# General #
+###########
 
-oob = "PAR_1936"
+	set_country_flag = monroe_doctrine
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-}
-set_country_flag = monroe_doctrine
+#########
+# State #
+#########
 
-1939.1.1 = {
+	capital = 301
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "PAR_1939"
-	set_technology = {
-		CAS1 = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+############
+# Politics #
+############
 
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
-set_politics = {
-
-	parties = {
-		centre = { 
-			popularity = 25
-		}
-
-		right-wing = {
-			popularity = 0
-		}
-		
-		left-wing = {
-			popularity = 75
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = left-wing
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-#create_country_leader = {
-#	name = "Eusebio Ayala"
-#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
-#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		#
-#	}
-#}
-
-# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
-create_country_leader = {
-	name = "Rafael Franco"
-	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
-	expire = "1965.1.1"
-	ideology = communism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
-
 		parties = {
-			centre = { 
-				popularity = 20
+			left-wing = {
+				popularity = 0
 			}
-
+			centre = { 
+				popularity = 25
+			}
 			right-wing = {
 				popularity = 0
 			}
-			
-			left-wing = {
-				popularity = 30
-				#banned = no #default is no
-			}
-
 			syncretic = {
-				popularity = 50
+				popularity = 0
 			}
 		}
-
-		ruling_party = syncretic
-		last_election = "1938.1.1"
+		ruling_party = left-wing
+		last_election = "1928.7.2"
 		election_frequency = 48
 		elections_allowed = no
 	}
 
-
 	create_country_leader = {
-		name = "Higinio Morinigo"
-		desc = "POLITICS_HIGINIO_MORINIGO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = authoritarianism
+		name = "Eusebio Ayala"
+		desc = "PAR_Eusebio_Ayala_desc"
+		picture = "Portrait_PAR_Eusebio_Ayala.dds"
+		expire = "1999.12.31"
+		ideology = liberalism
 		traits = {
-			#
 		}
 	}
 
+##############
+# Technology #
+##############
 
-}
+	set_technology = {
+		infantry_weapons = 1
+		gw_artillery = 1
+		early_fighter = 1
+	}
+
+########
+# Unit #
+########
+
+	oob = "PAR_1936"
