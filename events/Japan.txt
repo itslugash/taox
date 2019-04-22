@@ -48,8 +48,7 @@ country_event = { # "The Marco Polo Bridge Incident"
 	}
 }
 
-# Chinese Concessions
-country_event = {
+country_event = { # "The Marco Polo Bridge Incident"
 	id = japan.2
 	title = china.1.t
 	desc = japan.2.d
@@ -57,13 +56,19 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # "The war will have to wait."
 		name = japan.2.a
 		effect_tooltip = {
-			set_truce = { target = FROM days = 180 }
+			set_truce = {
+				target = FROM
+				days = 180
+			}
 		}
 		hidden_effect = {
-			country_event = { days = 5 id = news.2 }
+			country_event = {
+				id = news.2
+				days = 5
+			}
 		}
 		if = {
 			limit = {
@@ -108,7 +113,10 @@ country_event = {
 		add_state_claim = 613
 		if = {
 			limit = {
-				has_country_leader = { id = 700 ruling_only = yes }
+				has_country_leader = {
+					id = 700
+					ruling_only = yes
+				}
 			}
 			remove_country_leader_trait = imperial_sanction
 		}
@@ -121,8 +129,7 @@ country_event = {
 	}
 }
 
-# Soviets Push Back And Win
-country_event = {
+country_event = { # "Border Skirmish: Soviet Victory"
 	id = japan.3
 	title = japan.3.t
 	desc = japan.3.d
@@ -133,14 +140,19 @@ country_event = {
 	option = {
 		if = {
 			limit = { 
-			714 = { 
-				OR = {
-					is_owned_by = JAP
-					is_owned_by = MAN
-				} 
-				any_neighbor_state = { is_owned_by = SOV } }
+				714 = { 
+					OR = {
+						is_owned_by = JAP
+						is_owned_by = MAN
+					} 
+					any_neighbor_state = {
+						is_owned_by = SOV
+					}
+				}
 			} 
-			714 = { add_manpower = -30000 }
+			714 = {
+				add_manpower = -30000
+			}
 		}		
 		if = {
 			limit = {
