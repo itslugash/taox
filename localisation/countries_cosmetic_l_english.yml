@@ -1,4 +1,11 @@
 ﻿l_english:
+ENG_BLZ_autonomy_dependency:0 "British Honduras"
+ENG_BLZ_autonomy_dependency_DEF:0 "Belizean"
+ENG_MAL_autonomy_dependency:0 "British Malaya"
+ENG_MAL_autonomy_dependency_DEF:0 "Malayan"
+ENG_RAJ_autonomy_dependency:0 "British India"
+ENG_RAJ_autonomy_dependency_DEF:0 "Indian"
+
   INS_HOL_democratic:0 "Dutch East Indies"
   INS_HOL_democratic_DEF:0 "the Dutch East Indies"
   INS_subject:0 "$OVERLORDADJ$ East Indies"

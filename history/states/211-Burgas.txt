@@ -1,34 +1,33 @@
+state = {
+	id = 211
+	name = "Yuzhna Bŭlgariya"
+	manpower = 3130466
+	state_category = ten
 
-state={
-	id=211
-	name="STATE_211"
-	manpower = 1575499
-
-
-	state_category = town
-
-	history={
-		owner = BUL
-		victory_points = {
-			9783 5
-		}
-		victory_points = {
-			9902 3
-		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			9783 = {
-				naval_base = 3
-			}
-			9902 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = BUL
+	provinces = {
+		878 893 935 949 965 3908 3937 3971 6857 6923 6982 9818 9862 11813
 	}
 
-	provinces={
-		649 6967 9612 9769 9783 9888 9902 9919 
+	resources = {
+		aluminium = 1
+	}
+
+	history = {
+		owner = BUL
+		add_core_of = BUL
+
+		victory_points = {
+			949 15 
+		}
+		victory_points = {
+			6923 5
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 8
+			air_base = 5
+		}
 	}
 }

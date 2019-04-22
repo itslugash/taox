@@ -1,4 +1,22 @@
-﻿#########
+﻿###########
+# General #
+###########
+
+	if = {
+		limit = {
+			AND = {
+				is_puppet_of = CHI
+				NOT = {
+					has_autonomy_state = {
+						autonomy_nominal_dependency
+					}
+				}
+			}
+		}
+		set_cosmetic_tag = CHI_XSM
+	}
+
+#########
 # State #
 #########
 

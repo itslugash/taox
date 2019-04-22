@@ -1,4 +1,22 @@
-﻿#########
+﻿###########
+# General #
+###########
+
+	if = {
+		limit = {
+			AND = {
+				is_puppet_of = CHI
+				NOT = {
+					has_autonomy_state = {
+						autonomy_nominal_dependency
+					}
+				}
+			}
+		}
+		set_cosmetic_tag = CHI_YUN
+	}
+
+#########
 # State #
 #########
 
@@ -17,12 +35,16 @@
 				popularity = 0
 			}
 			right-wing = {
-				popularity = 20
+				popularity = 100
 			}
 			syncretic = {
-				popularity = 80
+				popularity = 0
 			}
 		}
+		ruling_party = right-wing
+		last_election = "1936.1.1"
+		election_frequency = 24
+		elections_allowed = no
 	}
 
 	create_country_leader = {

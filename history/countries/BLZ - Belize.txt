@@ -1,4 +1,10 @@
-﻿#########
+﻿###########
+# General #
+###########
+
+	set_cosmetic_tag = ENG_BLZ
+
+#########
 # State #
 #########
 
@@ -11,17 +17,31 @@
 	set_politics = {
 		parties = {
 			left-wing = {
-				popularity = 1
+				popularity = 0
 			}
 			centre = { 
-				popularity = 75
+				popularity = 0
 			}
 			right-wing = {
-				popularity = 1
+				popularity = 0
 			}
 			syncretic = { 
-				popularity = 23
+				popularity = 100
 			}
+		}
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Alan Burns"
+		desc = "BLZ_Alan_Burns_desc"
+		picture = "Portrait_BLZ_Alan_Burns.dds"
+		expire = "1999.12.31"
+		ideology = syncretic_independent
+		traits = {
 		}
 	}
 

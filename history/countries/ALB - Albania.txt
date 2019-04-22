@@ -34,7 +34,7 @@
 		desc = "ALB_Zog_I_desc"
 		picture = "Portrait_Albania_King_Zog.dds"
 		expire = "1999.12.31"
-		ideology = monarchism # House of Zogu
+		ideology = monarchism
 		traits = {
 		}
 	}

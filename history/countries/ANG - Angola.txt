@@ -1,4 +1,10 @@
-﻿#########
+﻿###########
+# General #
+###########
+
+	set_cosmetic_tag = POR_ANG
+
+#########
 # State #
 #########
 
@@ -22,6 +28,20 @@
 			syncretic = { 
 				popularity = 100
 			}
+		}
+		ruling_party = syncretic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "António Lopes Mateus"
+		desc = "POR_Antonio_Lopes_Mateus_desc"
+		picture = "gfx/leaders/POR/Portrait_POR_Antonio_Lopes_Mateus.dds"
+		expire = "1999.12.31"
+		ideology = syncretic_independent
+		traits = {
 		}
 	}
 

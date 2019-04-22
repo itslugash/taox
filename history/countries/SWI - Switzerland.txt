@@ -2,7 +2,7 @@
 # State #
 #########
 
-	capital = 3
+	capital = 151
 
 ##########
 # Powers #

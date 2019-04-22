@@ -37,7 +37,7 @@
 				popularity = 0
 			}
 		}
-		ruling_party = syncretic
+		ruling_party = right-wing
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -51,6 +51,43 @@
 		ideology = nationalism
 		traits = {
 			generallissimo
+		}
+	}
+
+############
+# Subjects #
+############
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = GXC
+			autonomous_state = autonomy_autonomous_dependency
+		}
+		set_autonomy = {
+			target = SHX
+			autonomous_state = autonomy_autonomous_dependency
+		}
+		set_autonomy = {
+			target = SIK
+			autonomous_state = autonomy_autonomous_dependency
+		}
+		set_autonomy = {
+			target = XSM
+			autonomous_state = autonomy_autonomous_dependency
+		}
+		set_autonomy = {
+			target = YUN
+			autonomous_state = autonomy_autonomous_dependency
+		}
+		else = {
+			puppet = GXC
+			puppet = SHX
+			puppet = SIK
+			puppet = XSM
+			puppet = YUN
 		}
 	}
 
