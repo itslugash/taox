@@ -1,27 +1,34 @@
+state = {
+	id = 149
+	name = "Länsi Suomi"
+	manpower = 1301689
+	state_category = nine
 
-state={
-	id=149
-	name="STATE_149" # Pohjanmaa
-	manpower = 811029
+	provinces = {
+		32 63 66 169 3009 3025 3083 3117 3119 3122 3137 3172 6013 6047 6066 6138 6141 6198 9038 9056 9094 9160 9194 9156 9166 9219 11033 11065 11126 11144 11172 13101 13102 13106 13107 13113 
+	}
 	
-	state_category = town
-	
-	history={
+	history = {
 		owner = FIN
+		add_core_of = FIN
+
+		victory_points = {
+			3083 1 
+		}
 		victory_points = {
 			3122 3 
 		}
+
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 0
+			industrial_complex = 1
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
 			3122 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = FIN
-	}
-
-	provinces={
-		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 13113 
 	}
 }

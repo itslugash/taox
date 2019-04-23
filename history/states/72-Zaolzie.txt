@@ -1,7 +1,7 @@
 state = {
 	id = 72
 	name = "Zaolší"
-	manpower = 139533
+	manpower = 227399
 	state_category = six
 
 	provinces = {
@@ -14,7 +14,8 @@ state = {
 
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 4
 		}
 	}
 }

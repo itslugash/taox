@@ -1,11 +1,11 @@
 state = {
 	id = 99
 	name = "Jylland"
-	manpower = 1672235
-	state_category = town
+	manpower = 1712417
+	state_category = nine
 
 	provinces = {
-		316 332 394 399 3206 3277 3341 6235 6364 11251
+		316 394 399 3206 3277 3325 3341 3374 6235 6364
 	}
 
 	resources = {
@@ -17,14 +17,21 @@ state = {
 		add_core_of = DEN
 
 		victory_points = {
+			3325 5
+		}
+		victory_points = {
 			6364 3 
 		}
 
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 3
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 2
 			394 = {
+				naval_base = 3
+			}
+			3325 = {
 				naval_base = 3
 			}
 			6364 = {

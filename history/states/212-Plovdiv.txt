@@ -1,14 +1,20 @@
 state = {
 	id = 212
-	name = "212_UNUSED"
-	manpower = 1
-	state_category = zero
-
-	history = {
-		owner = BUL		
-	}
+	name = "Nordslesvig"
+	manpower = 191983
+	state_category = six
 
 	provinces = {
-		8450
+		332 11251
+	}
+
+	history = {
+		owner = DEN
+		add_core_of = DEN
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 }

@@ -1,10 +1,10 @@
 state = {
 	id = 9
 	name = "Čechy"
-	manpower = 4124111
+	manpower = 4102145
 	state_category = ten
 
-	provinces = {
+	provinces = { 14
 		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
 	}
 
@@ -30,9 +30,9 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 7
-			arms_factory = 6
-			industrial_complex = 1
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
 			anti_air_building = 5
 			air_base = 5
 		}

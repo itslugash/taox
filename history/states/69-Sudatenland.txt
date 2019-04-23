@@ -1,7 +1,7 @@
 state = {
 	id = 69
 	name = "Německé Čechy"
-	manpower = 2597880
+	manpower = 2575913
 	state_category = ten
 
 	provinces = {
@@ -27,8 +27,9 @@ state = {
 		}
 		
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 2
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
 			anti_air_building = 1
 			424 = {
 				bunker = 1
