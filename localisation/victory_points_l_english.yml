@@ -99,9 +99,95 @@
       VICTORY_POINTS_3320:0 "Wilno"
       VICTORY_POINTS_9274:0 "Alytus"
   # POR - Portugal
+    # 112
+      VICTORY_POINTS_3790:0 "Portimão"
+      VICTORY_POINTS_6880:0 "Faro"
+    # 179
+      VICTORY_POINTS_970:0 "Setúbal"
+      VICTORY_POINTS_9869:0 "Évora"
+      VICTORY_POINTS_1768:0 "Santarém"
+    # 180
+      VICTORY_POINTS_724:0 "Vila Real"
+      VICTORY_POINTS_3892:0 "Bragança"
+      VICTORY_POINTS_9817:0 "Porto"
+      VICTORY_POINTS_11673:0 "Braga"
+    # 181
+      VICTORY_POINTS_938:0 "Guarda"
+      VICTORY_POINTS_3798:0 "Coimbra"
+      VICTORY_POINTS_3861:0 "Caldas da Rainha"
+      VICTORY_POINTS_3969:0 "Castelo Branco"
+      VICTORY_POINTS_6924:0 "Aveiro"
+      VICTORY_POINTS_9787:0 "Viseu"
+      VICTORY_POINTS_11805:0 "Lisboa"
+      VICTORY_POINTS_11885:0 "Leiria"
     # 540
       VICTORY_POINTS_8248:0 "Luanda"
+    # 697
+      VICTORY_POINTS_3118:0 "Funchal"
+    # 698
+      VICTORY_POINTS_1751:0 "Ponta Delgada"
 # S
+  # SPR - Spain
+    # 165
+      VICTORY_POINTS_6812:0 "Tarragona"
+      VICTORY_POINTS_6836:0 "Lérida"
+      VICTORY_POINTS_6927:0 "Gerona"
+      VICTORY_POINTS_9764:0 "Barcelona"
+    # 166
+      VICTORY_POINTS_3816:0 "Zaragoza"
+      VICTORY_POINTS_11821:0 "Huesca"
+    # 167
+      VICTORY_POINTS_962:0 "Alcoy"
+      VICTORY_POINTS_4098:0 "Alicante"
+      VICTORY_POINTS_6817:0 "Castellón de la Plana"
+      VICTORY_POINTS_6906:0 "Valencia"
+      VICTORY_POINTS_6959:0 "Gandía"
+    # 168
+      VICTORY_POINTS_832:0 "Albacete"
+      VICTORY_POINTS_1093:0 "Murcia"
+      VICTORY_POINTS_7111:0 "Lorca"
+      VICTORY_POINTS_10024:0 "Cartagena"
+    # 169
+      VICTORY_POINTS_747:0 "Almería"
+      VICTORY_POINTS_1048:0 "Cádiz"
+      VICTORY_POINTS_1176:0 "Granada"
+      VICTORY_POINTS_6744:0 "Córdoba"
+      VICTORY_POINTS_7183:0 "Sevilla"
+      VICTORY_POINTS_9979:0 "Málaga"
+    # 170
+      VICTORY_POINTS_6866:0 "Cáceres"
+      VICTORY_POINTS_6902:0 "Badajoz"
+      VICTORY_POINTS_9925:0 "Mérida"
+    # 171
+      VICTORY_POINTS_758:0 "La Coruña"
+      VICTORY_POINTS_6734:0 "Vigo"
+      VICTORY_POINTS_6955:0 "Santiago de Compostela"
+      VICTORY_POINTS_11677:0 "Orense"
+    # 172
+      VICTORY_POINTS_740:0 "Bilbao"
+      VICTORY_POINTS_3735:0 "Vitoria-Gasteiz"
+      VICTORY_POINTS_3737:0 "Pamplona"
+    # 173
+      VICTORY_POINTS_9719:0 "Oviedo"
+      VICTORY_POINTS_11707:0 "Gijón"
+    # 174
+      VICTORY_POINTS_726:0 "León"
+      VICTORY_POINTS_918:0 "Zamora"
+      VICTORY_POINTS_3874:0 "Salamanca"
+      VICTORY_POINTS_11843:0 "Ponferrada"
+    # 175
+      VICTORY_POINTS_858:0 "Toledo"
+      VICTORY_POINTS_3858:0 "Alcalá de Henares"
+      VICTORY_POINTS_3938:0 "Madrid"
+      VICTORY_POINTS_3945:0 "Cuenca"
+      VICTORY_POINTS_3986:0 "Talavera de la Reina"
+      VICTORY_POINTS_9778:0 "Ciudad Real"
+    # 176
+      VICTORY_POINTS_885:0 "Burgos"
+      VICTORY_POINTS_3820:0 "Valladolid"
+      VICTORY_POINTS_9870:0 "Palencia"
+    # 177
+      VICTORY_POINTS_9793:0 "Palma de Mallorca"
   # SWI - Switzerland
     # 3
       VICTORY_POINTS_6666:0 "Genève"
@@ -225,22 +311,22 @@
   VICTORY_POINTS_4112:0 "Izmir"
   VICTORY_POINTS_9893:0 "Gaziantep"
   VICTORY_POINTS_9932:0 "Trabzon"
-  VICTORY_POINTS_3938:0 "Madrid"
-  VICTORY_POINTS_9764:0 "Barcelona"
-  VICTORY_POINTS_740:0 "Bilbao"
-  VICTORY_POINTS_758:1 "La Coruña"
-  VICTORY_POINTS_875:0 "Cordoba"
-  VICTORY_POINTS_885:0 "Burgos"
-  VICTORY_POINTS_3816:0 "Zaragoza"
-  VICTORY_POINTS_6906:0 "Valencia"
-  VICTORY_POINTS_7183:0 "Sevilla"
-  VICTORY_POINTS_9979:0 "Malaga"
-  VICTORY_POINTS_10024:0 "Murcia"
-  VICTORY_POINTS_11707:0 "Oviedo"
-  VICTORY_POINTS_11825:0 "Valladolid"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   VICTORY_POINTS_4135:0 "Gibraltar"
-  VICTORY_POINTS_11805:0 "Lisbon"
-  VICTORY_POINTS_9817:0 "Porto"
+  
+  
   VICTORY_POINTS_9904:0 "Rome"
   VICTORY_POINTS_3780:0 "Milan"
   VICTORY_POINTS_819:0 "Naples"
@@ -325,7 +411,7 @@
   VICTORY_POINTS_9753:0 "Astrakhan"
   VICTORY_POINTS_10641:0 "Yakutsk"
   VICTORY_POINTS_10696:0 "Omsk"
-  VICTORY_POINTS_11159:1 "Petrozavodsk"
+  VICTORY_POINTS_11159:0 "Petrozavodsk"
   VICTORY_POINTS_11202:0 "Pskov"
   VICTORY_POINTS_11241:0 "Vitebsk"
   VICTORY_POINTS_11225:0 "Kuibyshev"
@@ -610,11 +696,11 @@
   VICTORY_POINTS_911:0 "Toulon"
   VICTORY_POINTS_925:0 "Ancona"
   VICTORY_POINTS_1005:0 "Antalya"
-  VICTORY_POINTS_1048:0 "Cádiz"
+  
   VICTORY_POINTS_1070:0 "Haikou"
   VICTORY_POINTS_1273:0 "Goa"
   VICTORY_POINTS_1440:0 "San Juan"
-  VICTORY_POINTS_1751:1 "Ponta Delgada"
+  
   VICTORY_POINTS_2038:0 "Freetown"
   VICTORY_POINTS_2045:0 "Tianshui"
   VICTORY_POINTS_2189:0 "Hobart"
@@ -645,7 +731,7 @@
   VICTORY_POINTS_9458:0 "Portsmouth"
   VICTORY_POINTS_9832:0 "Providence"
   VICTORY_POINTS_9907:0 "Florence"
-  VICTORY_POINTS_9945:1 "Ceuta"
+  VICTORY_POINTS_9945:0 "Ceuta"
   VICTORY_POINTS_9974:0 "Ningbo"
   VICTORY_POINTS_9975:0 "Ahmadabad"
   VICTORY_POINTS_9994:0 "Bizerte"
@@ -662,7 +748,7 @@
   VICTORY_POINTS_11773:0 "Cagliari"
   VICTORY_POINTS_11833:0 "Livorno"
   VICTORY_POINTS_11846:0 "Anzio"
-  VICTORY_POINTS_12003:1 "Valletta"
+  VICTORY_POINTS_12003:0 "Valletta"
   VICTORY_POINTS_12068:0 "Gaoxiong"
   VICTORY_POINTS_12725:0 "Port Sudan"
   VICTORY_POINTS_12732:0 "Lanzhou"
@@ -719,7 +805,7 @@
   VICTORY_POINTS_4989:0 "Banjul"
   VICTORY_POINTS_12891:0 "Bissau"
   VICTORY_POINTS_1909:0 "Conakry"
-  VICTORY_POINTS_10803:1 "Abidjan"
+  VICTORY_POINTS_10803:0 "Abidjan"
   VICTORY_POINTS_4927:0 "Bamako"
   VICTORY_POINTS_10836:0 "Ouagadougou"
   VICTORY_POINTS_2056:0 "Niamey"
@@ -748,7 +834,7 @@
   VICTORY_POINTS_1384:0 "Dushanbe"
   VICTORY_POINTS_12333:0 "Ashgabat"
   VICTORY_POINTS_12583:0 "Bishkek"
-  VICTORY_POINTS_3707:1 "Chisinău"
+  VICTORY_POINTS_3707:0 "Chisinău"
   VICTORY_POINTS_5128:0 "Antananarivo"
   VICTORY_POINTS_11984:0 "Nicosia"
   VICTORY_POINTS_13215:0 "Mexicali"
@@ -794,7 +880,7 @@
   VICTORY_POINTS_402:0 "Siedlce"
   VICTORY_POINTS_442:0 "Tarnów"
   VICTORY_POINTS_3295:0 "Toruń"
-  VICTORY_POINTS_279:1 "Bydgoszcz"
+  VICTORY_POINTS_279:0 "Bydgoszcz"
   
   
   VICTORY_POINTS_9289:0 "Mogilev"
@@ -926,29 +1012,28 @@
   VICTORY_POINTS_9663:0 "Sochi"
   VICTORY_POINTS_719:0 "Novorossiysk"
   VICTORY_POINTS_487:0 "Mikhaylovka"
-  VICTORY_POINTS_747:0 "Almería"
-  VICTORY_POINTS_1176:0 "Granada"
-  VICTORY_POINTS_6902:0 "Badajoz"
-  VICTORY_POINTS_3874:0 "Salamanca"
-  VICTORY_POINTS_858:0 "Toledo"
-  VICTORY_POINTS_6832:0 "Ciudad Real"
-  VICTORY_POINTS_6734:0 "Vigo"
-  VICTORY_POINTS_9793:0 "Palma de Mallorca"
-  VICTORY_POINTS_13071:0 "Santa Cruz de Tenerife"
-  VICTORY_POINTS_4098:0 "Alicante"
-  VICTORY_POINTS_3945:0 "Cuenca"
-  VICTORY_POINTS_9840:0 "Huesca"
-  VICTORY_POINTS_7213:0 "Teruel"
-  VICTORY_POINTS_6966:0 "Tortosa"
-  VICTORY_POINTS_6927:0 "Gerona"
-  VICTORY_POINTS_3790:0 "Portimão"
-  VICTORY_POINTS_6880:0 "Faro"
-  VICTORY_POINTS_9869:0 "Évora"
-  VICTORY_POINTS_9787:0 "Viseu"
-  VICTORY_POINTS_6996:0 "Guarda"
-  VICTORY_POINTS_11673:0 "Braga"
-  VICTORY_POINTS_3798:0 "Coimbra"
-  VICTORY_POINTS_3118:0 "Funchal"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   VICTORY_POINTS_10329:0 "Zlatoust"
   VICTORY_POINTS_4824:0 "Tyumen"
   VICTORY_POINTS_12594:0 "Semipalatinsk"

@@ -2,7 +2,7 @@
 # State #
 #########
 
-	capital = 112
+	capital = 181
 
 ##########
 # Powers #
@@ -16,13 +16,13 @@
 
 	set_politics = {
 		parties = {
+			left-wing = {
+				popularity = 0
+			}
 			centre = {
 				popularity = 0
 			}
 			right-wing = {
-				popularity = 0
-			}
-			left-wing = {
 				popularity = 0
 			}
 			syncretic = {
@@ -30,7 +30,7 @@
 			}
 		}
 		ruling_party = syncretic
-		last_election = "1933.3.5"
+		last_election = "1934.12.16"
 		election_frequency = 48
 		elections_allowed = no
 	}

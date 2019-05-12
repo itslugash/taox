@@ -1,28 +1,34 @@
+state = {
+	id = 174
+	name = "León"
+	manpower = 543281
+	state_category = eight
 
-state={
-	id=174
-	name="STATE_174"
-	manpower = 1566041
-	
-	state_category = large_town
-
-	history={
-		owner = SPR
-		victory_points = {
-			11707 1 
-		}
-		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
-			11707 = {
-				naval_base = 2
-			}
-		}
-		add_core_of = SPR
+	provinces = {
+		726 794 874 918 920 3725 3729 3744 3874 6746 6867 6907 9699 9770 11843
 	}
 
-	provinces={
-		726 918 920 3725 3727 3729 3744 3918 3920 6746 6749 6907 9699 9719 11707 11843 4024
+	history = {
+		owner = SPR
+		add_core_of = SPR
+
+		victory_points = { # León
+			726 5
+		}
+		victory_points = { # Zamora
+			918 3
+		}
+		victory_points = { # Salamanca
+			3874 5
+		}
+		victory_points = { # Ponferrada
+			11843 3
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 }
