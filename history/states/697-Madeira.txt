@@ -1,25 +1,28 @@
-state={
-	id=697
-	name="STATE_697"
-	manpower = 211600
-	
-	state_category = small_island
+state = {
+	id = 697
+	name = "Madeira"
+	manpower = 181673
+	state_category = six
 
-	history={
+	provinces = {
+		3118
+	}
+
+	history = {
 		owner = POR
-		victory_points = {
-			3118 1
+		add_core_of = POR
+
+		victory_points = { # Funchal
+			3118 5
 		}
+
 		buildings = {
-			infrastructure = 3
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 1
 			3118 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = POR
-	}
-	
-	provinces={
-		3118 
 	}
 }

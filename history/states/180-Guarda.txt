@@ -1,31 +1,38 @@
+state = {
+	id = 180
+	name = "Norte de Portugal"
+	manpower = 2254530
+	state_category = nine
 
-state={
-	id=180
-	name="STATE_180"
-	manpower = 964700
-	
-	state_category = town
+	provinces = {
+		724 877 889 3892 4080 6921 6941 9817 11673 
+	}
 
-	history={
+	history = {
 		owner = POR
-		victory_points = {
-			9817 10
+		add_core_of = POR
+
+		victory_points = { # Vila Real
+			724 1
 		}
-		victory_points = {
+		victory_points = { # Bragança
+			3892 1
+		}
+		victory_points = { # Porto
+			9817 5
+		}
+		victory_points = { # Braga
 			11673 5
 		}
+
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 			dockyard = 2
 			9817 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = POR
-	}
-
-	provinces={
-		724 877 3892 6921 6941 9817 11673 
 	}
 }

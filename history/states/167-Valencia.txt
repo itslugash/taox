@@ -1,34 +1,45 @@
+state = {
+	id = 167
+	name = "Valencia"
+	manpower = 2714266
+	state_category = ten
 
-state={
-	id=167
-	name="STATE_167"
-	manpower = 1979294
-	
-	state_category = large_town
+	provinces = {
+		962 3799 3873 4098 6817 6856 6906 6959 9896
+	}
 
-	history={
+	history = {
 		owner = SPR
-		victory_points = {
-			6906 5
+		add_core_of = SPR
+
+		victory_points = { # Alcoy
+			962 3
 		}
-		victory_points = {
-			4098 1
+		victory_points = { # Alicante
+			4098 10
 		}
+		victory_points = { # Castellón de la Plana
+			6817 5
+		}
+		victory_points = { # Valencia
+			6906 15
+		}
+		victory_points = { # Gandía
+			6959 3
+		}
+		
 		buildings = {
-			infrastructure = 6
-			dockyard = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 3
-			6906 = {
-				naval_base = 3
-			}
+			dockyard = 1
 			4098 = {
 				naval_base = 2
 			}
+			6906 = {
+				naval_base = 3
+			}
 		}
-		add_core_of = SPR
-	}
-
-	provinces={
-		962 3799 3873 4098 6817 6856 6906 6959 9889 9896 
 	}
 }

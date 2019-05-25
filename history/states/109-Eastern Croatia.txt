@@ -1,33 +1,25 @@
-state = {
-	id = 109
-	name = "Dalmacija"
-	manpower = 1282341
-	state_category = nine
 
-	provinces = {
-		984 3924 3974 6889 11816 11901
+state={
+	id=109
+	name="STATE_109" # Croatia
+	manpower = 2224400
+	
+	state_category = large_town
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			11581 3 
+		}
+		add_core_of = YUG
+		add_core_of = CRO
 	}
 
-	history = {
-		owner = YUG
-		add_core_of = CRO
-		add_core_of = YUG
-
-		victory_points = {
-			3924 3
-		}
-
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			dockyard = 1
-			industrial_complex = 2
-			3924 = {
-				naval_base = 3
-			}
-			6889 = {
-				naval_base = 1
-			}
-		}
+	provinces={
+		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594
 	}
 }
