@@ -1,0 +1,14 @@
+state = {
+	id = 2231
+	name = "Saint Lucia" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2231
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

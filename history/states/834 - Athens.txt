@@ -1,0 +1,15 @@
+state = {
+	id = 834
+	name = "Athens" # Attica
+	manpower = 1
+	state_category = city
+	provinces = {
+		834
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

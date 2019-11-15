@@ -1,0 +1,14 @@
+state = {
+	id = 1978
+	name = "Madingou" # Congo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1978
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

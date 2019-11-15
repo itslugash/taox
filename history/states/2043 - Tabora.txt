@@ -1,0 +1,14 @@
+state = {
+	id = 2043
+	name = "Tabora" # Tanganyika
+	manpower = 1
+	state_category = city
+	provinces = {
+		2043
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

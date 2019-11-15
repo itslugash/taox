@@ -1,0 +1,15 @@
+state = {
+	id = 1071
+	name = "Bytantaysk" # Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1071
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1713
+	name = "Laghwat" # Constantine
+	manpower = 1
+	state_category = city
+	provinces = {
+		1713
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

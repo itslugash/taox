@@ -1,0 +1,15 @@
+state = {
+	id = 910
+	name = "Ruwayshid" # Transjordan
+	manpower = 1
+	state_category = city
+	provinces = {
+		910
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

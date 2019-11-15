@@ -1,27 +1,15 @@
-state={
-	id=738
-	name="STATE_738"
-
-	history={
-		owner = INS
-		add_core_of = INS
+state = {
+	id = 738
+	name = "Parma" # Emilia
+	manpower = 1
+	state_category = city
+	provinces = {
+		738
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
-			infrastructure = 1
-
-			4579 = {
-				naval_base = 1
-
-			}
-
-
 		}
-
 	}
-
-	provinces={
-		4579 
-	}
-	manpower=36146
-	buildings_max_level_factor=1	
-	state_category="small_island"
 }

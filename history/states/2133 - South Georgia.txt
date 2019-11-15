@@ -1,0 +1,14 @@
+state = {
+	id = 2133
+	name = "South Georgia" # South Atlantic Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2133
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

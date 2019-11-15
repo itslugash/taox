@@ -1,0 +1,15 @@
+state = {
+	id = 1486
+	name = "Tingzhou" # Fujian
+	manpower = 1
+	state_category = city
+	provinces = {
+		1486
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

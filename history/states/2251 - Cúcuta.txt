@@ -1,0 +1,15 @@
+state = {
+	id = 2251
+	name = "Cúcuta" # Antioquía
+	manpower = 1
+	state_category = city
+	provinces = {
+		2251
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

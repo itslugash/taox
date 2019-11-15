@@ -1,0 +1,15 @@
+state = {
+	id = 2253
+	name = "Quibdó" # Antioquía
+	manpower = 1
+	state_category = city
+	provinces = {
+		2253
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

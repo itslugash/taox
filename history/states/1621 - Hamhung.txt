@@ -1,0 +1,15 @@
+state = {
+	id = 1621
+	name = "Hamhung" # Pyongyang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1621
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

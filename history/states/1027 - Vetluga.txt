@@ -1,0 +1,15 @@
+state = {
+	id = 1027
+	name = "Vetluga" # Kazan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1027
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

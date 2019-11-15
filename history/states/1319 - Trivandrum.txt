@@ -1,0 +1,15 @@
+state = {
+	id = 1319
+	name = "Trivandrum" # Travancore
+	manpower = 1
+	state_category = city
+	provinces = {
+		1319
+	}
+	history = {
+		owner = TRA
+		add_core_of = TRA
+		buildings = {
+		}
+	}
+}

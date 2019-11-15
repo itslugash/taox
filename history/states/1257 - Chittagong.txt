@@ -1,0 +1,14 @@
+state = {
+	id = 1257
+	name = "Chittagong" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1257
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

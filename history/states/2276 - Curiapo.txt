@@ -1,0 +1,15 @@
+state = {
+	id = 2276
+	name = "Curiapo" # Bolívar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2276
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

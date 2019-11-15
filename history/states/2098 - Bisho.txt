@@ -1,0 +1,14 @@
+state = {
+	id = 2098
+	name = "Bisho" # Eastern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2098
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

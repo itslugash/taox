@@ -1,0 +1,15 @@
+state = {
+	id = 1125
+	name = "Qom" # Irakajemi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1125
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1720
+	name = "Timimoun" # West Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1720
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

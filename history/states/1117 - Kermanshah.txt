@@ -1,0 +1,15 @@
+state = {
+	id = 1117
+	name = "Kermanshah" # Luristan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1117
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

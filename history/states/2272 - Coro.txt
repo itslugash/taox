@@ -1,0 +1,15 @@
+state = {
+	id = 2272
+	name = "Coro" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2272
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

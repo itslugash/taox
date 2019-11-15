@@ -1,0 +1,14 @@
+state = {
+	id = 1463
+	name = "Davao" # Mindanao
+	manpower = 1
+	state_category = city
+	provinces = {
+		1463
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

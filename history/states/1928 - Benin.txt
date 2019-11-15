@@ -1,0 +1,14 @@
+state = {
+	id = 1928
+	name = "Benin" # Benin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1928
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

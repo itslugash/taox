@@ -1,0 +1,15 @@
+state = {
+	id = 2247
+	name = "Bogotá" # Cundinamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2247
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

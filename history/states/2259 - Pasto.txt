@@ -1,0 +1,15 @@
+state = {
+	id = 2259
+	name = "Pasto" # Cauca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2259
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

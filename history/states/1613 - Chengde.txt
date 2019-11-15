@@ -1,0 +1,15 @@
+state = {
+	id = 1613
+	name = "Chengde" # Northern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1613
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

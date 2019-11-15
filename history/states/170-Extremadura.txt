@@ -1,35 +1,15 @@
 state = {
 	id = 170
-	name = "Extremadura"
-	manpower = 585974
-	state_category = eight
-
+	name = "Evansville" # Indiana
+	manpower = 1
+	state_category = city
 	provinces = {
-		809 931 985 3930 6866 6902 6948 6954 9839 9877 9889 9917 9925 11756 11780 11798 11851 
+		170
 	}
-	
-	resources = {
-		tungsten = 4
-	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		
-		victory_points = { # Cáceres
-			6866 3
-		}
-		victory_points = { # Badajoz
-			6902 5
-		}
-		victory_points = { # Mérida
-			9925 3
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 0
-			industrial_complex = 2
-			arms_factory = 1
 		}
 	}
 }

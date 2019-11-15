@@ -1,0 +1,14 @@
+state = {
+	id = 1991
+	name = "Uvira" # Congo Orientale
+	manpower = 1
+	state_category = city
+	provinces = {
+		1991
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

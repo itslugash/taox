@@ -1,0 +1,15 @@
+state = {
+	id = 1051
+	name = "Adygei" # Ekaterinodar
+	manpower = 1
+	state_category = city
+	provinces = {
+		1051
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

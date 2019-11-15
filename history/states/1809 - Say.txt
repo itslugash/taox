@@ -1,0 +1,14 @@
+state = {
+	id = 1809
+	name = "Say" # Outer Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1809
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

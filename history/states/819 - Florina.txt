@@ -1,0 +1,15 @@
+state = {
+	id = 819
+	name = "Florina" # West Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		819
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

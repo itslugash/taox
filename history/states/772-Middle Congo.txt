@@ -1,29 +1,15 @@
-
-state={
-	id=772
-	name="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
-	
-	state_category = pastoral
-	resources={
-		rubber=1 # was: 1
+state = {
+	id = 772
+	name = "Sisak" # Croatia
+	manpower = 1
+	state_category = city
+	provinces = {
+		772
 	}
-	history={
-		owner = FRA
-		add_core_of = RCG
-		victory_points = {
-			8193 2
-		}
+	history = {
+		owner = HUN
+		add_core_of = HUN
 		buildings = {
-			infrastructure = 3
-			12975 = {
-				naval_base = 1
-			}
 		}
-
-	}
-
-	provinces={
-		2192 3109 6008 8193 12975 
 	}
 }

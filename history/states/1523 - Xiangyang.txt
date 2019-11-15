@@ -1,0 +1,15 @@
+state = {
+	id = 1523
+	name = "Xiangyang" # Western Hubei
+	manpower = 1
+	state_category = city
+	provinces = {
+		1523
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

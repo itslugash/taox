@@ -1,0 +1,15 @@
+state = {
+	id = 1151
+	name = "Mecca" # Hedjaz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1151
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

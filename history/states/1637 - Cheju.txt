@@ -1,0 +1,15 @@
+state = {
+	id = 1637
+	name = "Cheju" # Busan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1637
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

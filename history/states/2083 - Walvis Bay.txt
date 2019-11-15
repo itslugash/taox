@@ -1,0 +1,14 @@
+state = {
+	id = 2083
+	name = "Walvis Bay" # Namaqualand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2083
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

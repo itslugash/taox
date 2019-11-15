@@ -1,0 +1,15 @@
+state = {
+	id = 1630
+	name = "Kangnung" # Seoul
+	manpower = 1
+	state_category = city
+	provinces = {
+		1630
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

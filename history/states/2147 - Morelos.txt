@@ -1,0 +1,15 @@
+state = {
+	id = 2147
+	name = "Morelos" # Chihuahua
+	manpower = 1
+	state_category = city
+	provinces = {
+		2147
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

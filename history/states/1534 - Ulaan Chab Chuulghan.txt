@@ -1,0 +1,15 @@
+state = {
+	id = 1534
+	name = "Ulaan Chab Chuulghan" # Inner Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1534
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

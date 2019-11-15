@@ -1,0 +1,14 @@
+state = {
+	id = 1404
+	name = "Palak Pinang" # Sumatra
+	manpower = 1
+	state_category = city
+	provinces = {
+		1404
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

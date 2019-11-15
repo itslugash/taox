@@ -1,0 +1,14 @@
+state = {
+	id = 2079
+	name = "Swakopmund" # Hereroland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2079
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

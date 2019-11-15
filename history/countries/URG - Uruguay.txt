@@ -1,123 +1,21 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 300
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1930.11.30"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 300
+set_popularities = {
+	social_democracy = 2.5
+	market_liebralism = 51.1
+	social_conservatism = 46.6
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1934.4.19"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Claudio Williman"
+	desc = "URG_Claudio_William_desc"
+	picture = "Portrait_URG_Claudio_William.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "José Luis Gabriel Terra"
-		desc = "URG_Jose_Luis_Gabriel_Terra_desc"
-		picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
-		expire = "1999.12.31"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		gw_artillery = 1
-		interwar_antiair = 1
-		early_fighter = 1
-	}
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			basic_naval_mines = 1
-			early_ship_hull_light = 1
-			basic_battery = 1
-			basic_torpedo = 1
-		}
-		else = {
-			set_technology = {
-				early_destroyer = 1
-				early_light_cruiser = 1
-			}
-		}
-	}
-
-########
-# Unit #
-########
-
-	oob = "URG_1936"
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_naval_oob = "URG_1936_naval_mtg"
-		else = {
-			set_naval_oob = "URG_1936_naval_legacy"
-		}
-	}
-
-#############
-# Equipment #
-#############
-
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Uruguay Class"				
-			type = ship_hull_light_1
-			name_group = URG_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = empty
-				rear_1_custom_slot = empty
-			}
-		}
-	}
-
-########
-# Navy #
-########
-
-	set_convoys = 5
+}

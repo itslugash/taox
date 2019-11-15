@@ -1,0 +1,14 @@
+state = {
+	id = 1398
+	name = "Jambi" # Sumatra
+	manpower = 1
+	state_category = city
+	provinces = {
+		1398
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

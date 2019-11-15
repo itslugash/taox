@@ -1,0 +1,14 @@
+state = {
+	id = 1270
+	name = "Gwalior" # Central India
+	manpower = 1
+	state_category = city
+	provinces = {
+		1270
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

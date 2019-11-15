@@ -1,0 +1,15 @@
+state = {
+	id = 1690
+	name = "Marrakesh" # Morocco
+	manpower = 1
+	state_category = city
+	provinces = {
+		1690
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

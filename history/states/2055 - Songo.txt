@@ -1,0 +1,14 @@
+state = {
+	id = 2055
+	name = "Songo" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2055
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2177
+	name = "Oaxaca" # México
+	manpower = 1
+	state_category = city
+	provinces = {
+		2177
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1341
+	name = "Putao" # Kachin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1341
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

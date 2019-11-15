@@ -1,0 +1,15 @@
+state = {
+	id = 1203
+	name = "Osh" # Kirghizia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1203
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

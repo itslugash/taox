@@ -1,0 +1,14 @@
+state = {
+	id = 1996
+	name = "Kisangani" # Congo Orientale
+	manpower = 1
+	state_category = city
+	provinces = {
+		1996
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

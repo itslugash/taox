@@ -1,0 +1,15 @@
+state = {
+	id = 812
+	name = "Pleven" # Bulgaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		812
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1262
+	name = "Keunjahr" # Orissa
+	manpower = 1
+	state_category = city
+	provinces = {
+		1262
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

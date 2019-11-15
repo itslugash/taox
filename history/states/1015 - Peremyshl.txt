@@ -1,0 +1,15 @@
+state = {
+	id = 1015
+	name = "Peremyshl" # Bryansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1015
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

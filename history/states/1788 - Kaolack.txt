@@ -1,0 +1,14 @@
+state = {
+	id = 1788
+	name = "Kaolack" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1788
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

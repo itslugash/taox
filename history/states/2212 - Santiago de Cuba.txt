@@ -1,0 +1,15 @@
+state = {
+	id = 2212
+	name = "Santiago de Cuba" # Greater Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2212
+	}
+	history = {
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+		}
+	}
+}

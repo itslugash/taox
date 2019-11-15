@@ -19,7 +19,7 @@ country_event = {
 		is_in_faction_with = GER
 		has_idea = anti_german_military
 		GER = {
-			has_government = right-wing
+			has_government = fascism
 			is_faction_leader = yes
 		}
 	}
@@ -41,7 +41,7 @@ country_event = {
 			desc = "POLITICS_PETER_II_DESC"
 			picture = "Portrait_Yugoslavia_Peter_II.dds"
 			expire = "1965.1.1"
-			ideology = authoritarianism
+			ideology = despotism
 			traits = {
 				#
 			}
@@ -61,9 +61,9 @@ country_event = {
 				target = YUG
 				autonomy_state = autonomy_free
 			}
-			set_politics = { ruling_party = syncretic elections_allowed = no }
-			add_popularity = { ideology = syncretic popularity = 0.5 }
-			set_party_name = { ideology = syncretic long_name = YUG_neutrality_party_2 name = YUG_neutrality_party_2 }
+			set_politics = { ruling_party = neutrality elections_allowed = yes }
+			add_popularity = { ideology = neutrality popularity = 0.5 }
+			set_party_name = { ideology = neutrality long_name = YUG_neutrality_party_2 name = YUG_neutrality_party_2 }
 		}
 	}
 	option = { #resistance to the coup, call on Germans for support
@@ -86,11 +86,11 @@ country_event = {
 				}
 			}
 		}
-		start_civil_war = { ideology = centre size = 0.6 capital = 107 states = { 108 107 106 105 } }
+		start_civil_war = { ideology = democratic size = 0.6 capital = 107 states = { 108 107 106 105 } }
 		random_country = {
 			limit = {
 				original_tag = YUG
-				has_government = centre
+				has_government = democratic
 			}
 			retire_country_leader = yes
 			set_capital = 107
@@ -176,7 +176,7 @@ country_event = {
 		has_idea = YUG_idea_croatian_opposition
 		has_war_with = GER
 		GER = {
-			has_government = right-wing
+			has_government = fascism
 		}
 		OR = {
 			AND = {
@@ -1066,7 +1066,7 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
-		has_government = centre
+		has_government = democratic
 		has_war_with = GER
 		NOT = { has_war_with = YUG }
 		NOT = { is_in_faction_with = YUG }
@@ -1124,7 +1124,7 @@ country_event = {
 	fire_only_once = yes 
 	trigger = {
 		tag = ENG
-		has_government = centre
+		has_government = democratic
 		YUG = { is_in_faction = no }
 		YUG = { exists = yes }
 		has_war_with = GER

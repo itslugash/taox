@@ -1,39 +1,15 @@
 state = {
 	id = 172
-	name = "Navarra"
-	manpower = 1505336
-	state_category = nine
-
+	name = "Fort Wayne" # Indiana
+	manpower = 1
+	state_category = city
 	provinces = {
-		740 932 3735 3737 3931 6756 9857
+		172
 	}
-	
-	resources = {
-		steel = 8
-	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
-		victory_points = { # Bilbao
-			740 10
-		}
-		victory_points = { # Vitoria-Gasteiz
-			3735 5
-		}
-		victory_points = { # Pamplona
-			3737 5
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 1
-			740 = {
-				naval_base = 1
-			}
 		}
 	}
 }

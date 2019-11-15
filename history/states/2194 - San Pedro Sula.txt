@@ -1,0 +1,15 @@
+state = {
+	id = 2194
+	name = "San Pedro Sula" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2194
+	}
+	history = {
+		owner = HON
+		add_core_of = HON
+		buildings = {
+		}
+	}
+}

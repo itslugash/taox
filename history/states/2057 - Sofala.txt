@@ -1,0 +1,14 @@
+state = {
+	id = 2057
+	name = "Sofala" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2057
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1062
+	name = "Berezov" # Ural
+	manpower = 1
+	state_category = city
+	provinces = {
+		1062
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

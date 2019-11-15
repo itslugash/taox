@@ -1,0 +1,15 @@
+state = {
+	id = 1018
+	name = "Belgorod" # Kursk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1018
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

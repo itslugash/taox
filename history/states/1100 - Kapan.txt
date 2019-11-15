@@ -1,0 +1,15 @@
+state = {
+	id = 1100
+	name = "Kapan" # Armenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1100
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

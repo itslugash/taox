@@ -1,0 +1,14 @@
+state = {
+	id = 1323
+	name = "Kandy" # Ceylon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1323
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

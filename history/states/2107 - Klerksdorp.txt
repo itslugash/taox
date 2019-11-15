@@ -1,0 +1,14 @@
+state = {
+	id = 2107
+	name = "Klerksdorp" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2107
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

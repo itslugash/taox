@@ -1,0 +1,14 @@
+state = {
+	id = 1927
+	name = "Ilorin" # Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1927
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

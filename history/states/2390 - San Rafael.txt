@@ -1,0 +1,15 @@
+state = {
+	id = 2390
+	name = "San Rafael" # Río Negro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2390
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

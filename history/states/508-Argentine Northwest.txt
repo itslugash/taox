@@ -1,25 +1,15 @@
-
-state={
-	id=508
-	name="STATE_508" # Tucuman
-	manpower = 781311
-	
-	state_category = rural
-
-	history={
-		owner = ARG
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		add_core_of = ARG
-		victory_points = {
-			8216 1 
-		}
-
+state = {
+	id = 508
+	name = "Albacete" # Valencia
+	manpower = 1
+	state_category = city
+	provinces = {
+		508
 	}
-
-	provinces={
-		2136 2224 8195 8216 8253 11001 12928 12978 
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		buildings = {
+		}
 	}
 }

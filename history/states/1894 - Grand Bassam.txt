@@ -1,0 +1,14 @@
+state = {
+	id = 1894
+	name = "Grand Bassam" # Ivory Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1894
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

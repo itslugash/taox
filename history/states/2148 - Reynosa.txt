@@ -1,0 +1,15 @@
+state = {
+	id = 2148
+	name = "Reynosa" # Nuevo León
+	manpower = 1
+	state_category = city
+	provinces = {
+		2148
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

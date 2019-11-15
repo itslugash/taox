@@ -1,0 +1,14 @@
+state = {
+	id = 1944
+	name = "Gombe" # Nigeria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1944
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

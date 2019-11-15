@@ -1,0 +1,15 @@
+state = {
+	id = 993
+	name = "Vyterga" # Tver
+	manpower = 1
+	state_category = city
+	provinces = {
+		993
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

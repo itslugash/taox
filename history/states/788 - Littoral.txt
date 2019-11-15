@@ -1,0 +1,15 @@
+state = {
+	id = 788
+	name = "Mostar" # Bosnia
+	manpower = 1
+	state_category = city
+	provinces = {
+		788
+	}
+	history = {
+		owner = BOS
+		add_core_of = BOS
+		buildings = {
+		}
+	}
+}

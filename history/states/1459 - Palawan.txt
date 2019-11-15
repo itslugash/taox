@@ -1,0 +1,14 @@
+state = {
+	id = 1459
+	name = "Palawan" # Visayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1459
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

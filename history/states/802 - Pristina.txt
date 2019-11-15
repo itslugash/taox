@@ -1,0 +1,15 @@
+state = {
+	id = 802
+	name = "Pristina" # Southern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		802
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

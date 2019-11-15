@@ -1,21 +1,15 @@
-
-state={
-	id=437
-	name="STATE_437" # Indore
-	manpower = 8402500
-
-	state_category = rural
-
-	history={
-		owner = RAJ
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-		}
-
+state = {
+	id = 437
+	name = "La Roche" # Loire
+	manpower = 1
+	state_category = city
+	provinces = {
+		437
 	}
-
-	provinces={
-		1949 2036 2092 2105 4106 7080 7205 8076 10807 10816 11993 11995 12080 
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
 	}
 }

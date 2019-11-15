@@ -1,0 +1,14 @@
+state = {
+	id = 1222
+	name = "Bela" # Baluchistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1222
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

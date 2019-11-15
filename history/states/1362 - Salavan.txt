@@ -1,0 +1,14 @@
+state = {
+	id = 1362
+	name = "Salavan" # Laos
+	manpower = 1
+	state_category = city
+	provinces = {
+		1362
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

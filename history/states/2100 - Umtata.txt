@@ -1,0 +1,14 @@
+state = {
+	id = 2100
+	name = "Umtata" # Eastern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2100
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 822
+	name = "Polygyros" # East Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		822
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

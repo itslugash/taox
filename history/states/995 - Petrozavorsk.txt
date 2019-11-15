@@ -1,0 +1,15 @@
+state = {
+	id = 995
+	name = "Petrozavorsk" # Karelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		995
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

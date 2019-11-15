@@ -1,0 +1,15 @@
+state = {
+	id = 879
+	name = "Sivas" # Trabzon
+	manpower = 1
+	state_category = city
+	provinces = {
+		879
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

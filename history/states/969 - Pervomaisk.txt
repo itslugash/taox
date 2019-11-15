@@ -1,0 +1,15 @@
+state = {
+	id = 969
+	name = "Pervomaisk" # Cherson
+	manpower = 1
+	state_category = city
+	provinces = {
+		969
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

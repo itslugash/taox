@@ -1,0 +1,15 @@
+state = {
+	id = 1166
+	name = "Muscat" # Oman
+	manpower = 1
+	state_category = city
+	provinces = {
+		1166
+	}
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2291
+	name = "Piura" # Cajamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2291
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

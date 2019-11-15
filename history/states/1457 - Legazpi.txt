@@ -1,0 +1,14 @@
+state = {
+	id = 1457
+	name = "Legazpi" # Luzón
+	manpower = 1
+	state_category = city
+	provinces = {
+		1457
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

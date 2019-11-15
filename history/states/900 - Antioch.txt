@@ -1,0 +1,15 @@
+state = {
+	id = 900
+	name = "Antioch" # Aleppo
+	manpower = 1
+	state_category = city
+	provinces = {
+		900
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

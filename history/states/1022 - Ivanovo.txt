@@ -1,0 +1,15 @@
+state = {
+	id = 1022
+	name = "Ivanovo" # Moscow
+	manpower = 1
+	state_category = city
+	provinces = {
+		1022
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

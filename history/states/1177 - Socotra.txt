@@ -1,0 +1,15 @@
+state = {
+	id = 1177
+	name = "Socotra" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1177
+	}
+	history = {
+		owner = ADN
+		add_core_of = ADN
+		buildings = {
+		}
+	}
+}

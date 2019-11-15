@@ -1,0 +1,14 @@
+state = {
+	id = 1787
+	name = "Diourbel" # Senegal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1787
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

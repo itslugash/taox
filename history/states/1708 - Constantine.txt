@@ -1,0 +1,14 @@
+state = {
+	id = 1708
+	name = "Constantine" # Constantine
+	manpower = 1
+	state_category = city
+	provinces = {
+		1708
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

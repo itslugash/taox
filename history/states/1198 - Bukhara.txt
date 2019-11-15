@@ -1,0 +1,15 @@
+state = {
+	id = 1198
+	name = "Bukhara" # Uzbekia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1198
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

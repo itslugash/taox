@@ -1,0 +1,14 @@
+state = {
+	id = 2002
+	name = "Quibala" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2002
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

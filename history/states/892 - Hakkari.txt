@@ -1,0 +1,15 @@
+state = {
+	id = 892
+	name = "Hakkari" # Diyarbakir-Van
+	manpower = 1
+	state_category = city
+	provinces = {
+		892
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

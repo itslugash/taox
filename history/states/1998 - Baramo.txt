@@ -1,0 +1,14 @@
+state = {
+	id = 1998
+	name = "Baramo" # Congo Orientale
+	manpower = 1
+	state_category = city
+	provinces = {
+		1998
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

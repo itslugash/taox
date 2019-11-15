@@ -1,0 +1,15 @@
+state = {
+	id = 1640
+	name = "Yamaguchi" # Chugoku-Shikoku
+	manpower = 1
+	state_category = city
+	provinces = {
+		1640
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

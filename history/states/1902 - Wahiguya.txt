@@ -1,0 +1,14 @@
+state = {
+	id = 1902
+	name = "Wahiguya" # Volta
+	manpower = 1
+	state_category = city
+	provinces = {
+		1902
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

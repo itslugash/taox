@@ -1,0 +1,14 @@
+state = {
+	id = 1774
+	name = "Dakhla" # West Morocco
+	manpower = 1
+	state_category = city
+	provinces = {
+		1774
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

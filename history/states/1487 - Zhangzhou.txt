@@ -1,0 +1,15 @@
+state = {
+	id = 1487
+	name = "Zhangzhou" # Fujian
+	manpower = 1
+	state_category = city
+	provinces = {
+		1487
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

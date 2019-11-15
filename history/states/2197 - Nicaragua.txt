@@ -1,0 +1,15 @@
+state = {
+	id = 2197
+	name = "Managua" # Nicaragua
+	manpower = 1
+	state_category = city
+	provinces = {
+		2197
+	}
+	history = {
+		owner = NIC
+		add_core_of = NIC
+		buildings = {
+		}
+	}
+}

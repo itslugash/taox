@@ -1,0 +1,15 @@
+state = {
+	id = 2332
+	name = "Osorno" # Araucania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2332
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

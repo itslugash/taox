@@ -1,0 +1,15 @@
+state = {
+	id = 1042
+	name = "Ufa" # Samara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1042
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

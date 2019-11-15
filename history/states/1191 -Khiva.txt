@@ -1,0 +1,15 @@
+state = {
+	id = 1191
+	name = "Khiva" # Uzbekia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1191
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

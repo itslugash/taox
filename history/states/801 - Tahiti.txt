@@ -1,0 +1,15 @@
+state = {
+	id = 801
+	name = "Tahiti" # New Caledonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		801
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
+	}
+}

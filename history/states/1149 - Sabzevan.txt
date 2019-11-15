@@ -1,0 +1,15 @@
+state = {
+	id = 1149
+	name = "Sabzevan" # Khorasan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1149
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2236
+	name = "Saint Martin" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2236
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

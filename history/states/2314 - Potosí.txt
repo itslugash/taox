@@ -1,0 +1,15 @@
+state = {
+	id = 2314
+	name = "Potosí" # Potosi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2314
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+		}
+	}
+}

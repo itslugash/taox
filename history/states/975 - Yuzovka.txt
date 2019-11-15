@@ -1,0 +1,15 @@
+state = {
+	id = 975
+	name = "Yuzovka" # Luhansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		975
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

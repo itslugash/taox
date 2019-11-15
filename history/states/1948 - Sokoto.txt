@@ -1,0 +1,14 @@
+state = {
+	id = 1948
+	name = "Sokoto" # Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1948
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

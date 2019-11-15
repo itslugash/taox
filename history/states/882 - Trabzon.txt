@@ -1,0 +1,15 @@
+state = {
+	id = 882
+	name = "Trabzon" # Trabzon
+	manpower = 1
+	state_category = city
+	provinces = {
+		882
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

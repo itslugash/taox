@@ -1,0 +1,15 @@
+state = {
+	id = 987
+	name = "Ust Sysolsk" # Galich
+	manpower = 1
+	state_category = city
+	provinces = {
+		987
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

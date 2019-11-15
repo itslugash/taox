@@ -1,0 +1,15 @@
+state = {
+	id = 2159
+	name = "San Luis Potosí" # Zacatecas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2159
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

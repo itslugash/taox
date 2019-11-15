@@ -1,0 +1,15 @@
+state = {
+	id = 2392
+	name = "Viedma" # Patagonia Septentrional
+	manpower = 1
+	state_category = city
+	provinces = {
+		2392
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

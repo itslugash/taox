@@ -1,0 +1,15 @@
+state = {
+	id = 1466
+	name = "Dalandzadgad" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1466
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

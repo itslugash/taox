@@ -1,0 +1,15 @@
+state = {
+	id = 2260
+	name = "San José del Guaviare" # Guaviare
+	manpower = 1
+	state_category = city
+	provinces = {
+		2260
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

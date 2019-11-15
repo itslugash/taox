@@ -1,0 +1,14 @@
+state = {
+	id = 2013
+	name = "Mongu" # Zambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2013
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

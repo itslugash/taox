@@ -1,0 +1,15 @@
+state = {
+	id = 2323
+	name = "La Serena" # Santiago
+	manpower = 1
+	state_category = city
+	provinces = {
+		2323
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

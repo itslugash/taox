@@ -1,0 +1,15 @@
+state = {
+	id = 2305
+	name = "Antofagasta" # Atacama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2305
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

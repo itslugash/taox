@@ -1,0 +1,15 @@
+state = {
+	id = 2258
+	name = "Buenaventura" # Cauca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2258
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1211
+	name = "Balkh" # Western Afghanistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1211
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		}
+	}
+}

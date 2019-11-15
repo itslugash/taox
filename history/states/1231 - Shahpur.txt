@@ -1,0 +1,14 @@
+state = {
+	id = 1232
+	name = "Shahpur" # Punjab
+	manpower = 1
+	state_category = city
+	provinces = {
+		1232
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

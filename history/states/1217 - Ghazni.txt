@@ -1,0 +1,15 @@
+state = {
+	id = 1217
+	name = "Ghazni" # Eastern Afghanistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1217
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		}
+	}
+}

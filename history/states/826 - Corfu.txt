@@ -1,0 +1,15 @@
+state = {
+	id = 826
+	name = "Corfu" # Peloponnese
+	manpower = 1
+	state_category = city
+	provinces = {
+		826
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

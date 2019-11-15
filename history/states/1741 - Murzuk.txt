@@ -1,0 +1,15 @@
+state = {
+	id = 1741
+	name = "Murzuk" # Tripoli
+	manpower = 1
+	state_category = city
+	provinces = {
+		1741
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

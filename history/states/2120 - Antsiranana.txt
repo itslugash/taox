@@ -1,0 +1,14 @@
+state = {
+	id = 2120
+	name = "Antsiranana" # North Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2120
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -186,7 +186,7 @@ country_event = {
 		GER = {
 			OR = {
 				is_faction_leader = yes
-				has_government = syncretic
+				has_government = neutrality
 			}
 		}
 		has_civil_war = no
@@ -388,7 +388,7 @@ country_event = {
 			factor = 50
 		}
 		trigger = {
-			has_government = right-wing
+			has_government = fascism
 		}
 		#Set same cosmetic tag they would get on capitulation
 		FRA = {
@@ -521,7 +521,6 @@ country_event = {
 					set_state_controller = 25
 					set_state_controller = 20
 					set_state_controller = 33
-
 					#tunisia
 					if = {
 						limit = {
@@ -612,10 +611,10 @@ country_event = {
 					}
 			}
 			start_civil_war = {
-				ideology = right-wing
+				ideology = fascism
 				size = 0.9
 				capital = 26
-				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 }
+				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 776 777 778 779 780 781 782 786 }
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -644,25 +643,23 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = right-wing }
+			limit = { original_tag = FRA has_government = fascism }
 			ROOT = { puppet = PREV }
 			set_capital = 26
 			set_politics = {
-				ruling_party = right-wing
+				ruling_party = fascism
 				elections_allowed = no
-				parties = {
-					centre = { 
-						popularity = 22
-					}
-
-					right-wing = {
-						popularity = 76
-					}
-					
-					left-wing = {
-						popularity = 2
-					}
+			}
+			set_popularities = {
+				democratic = 22
+				fascism = 76
+				communism = 2
+			}
+			every_unit_leader = {
+				limit = {
+					has_id = 101
 				}
+				set_nationality = FRA
 			}
 			# FRA Player Switches to Vichy
 			if = {
@@ -683,7 +680,7 @@ country_event = {
 			factor = 50
 		}
 		trigger = {
-			has_government = syncretic
+			has_government = neutrality
 		}
 		#Set same cosmetic tag they would get on capitulation
 		FRA = {
@@ -907,7 +904,7 @@ country_event = {
 					}
 			}
 			start_civil_war = {
-				ideology = syncretic
+				ideology = neutrality
 				size = 0.5
 				capital = 26
 				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 }
@@ -939,28 +936,18 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = syncretic }
+			limit = { original_tag = FRA has_government = neutrality }
 			ROOT = { puppet = PREV }
 			set_capital = 26
 			set_politics = {
-				ruling_party = syncretic
+				ruling_party = neutrality
 				elections_allowed = no
-				parties = {
-					centre = { 
-						popularity = 22
-					}
-
-					syncretic = {
-						popularity = 60
-					}
-					right-wing = {
-						popularity = 16
-					}
-					
-					left-wing = {
-						popularity = 2
-					}
-				}
+			}
+			set_popularities = {
+				democratic = 22
+				neutrality = 60
+				fascism = 16
+				communism = 2
 			}
 			# FRA Player Switches to Vichy
 			if = {
@@ -1106,7 +1093,16 @@ country_event = {
 		custom_effect_tooltip = france.20.a_tt
 		set_country_flag = france_de_gaulle
 		hidden_effect =  {
-			retire_country_leader = yes
+			create_country_leader = {
+				name = "Charles de Gaulle"
+				desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+				picture = "Portrait_France_Charles_De_Gaulle.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					
+				}
+			}
 		}
 		name = france.20.a
 	}
@@ -1120,7 +1116,7 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 	
 	trigger = {
-		NOT = { has_government = left-wing }
+		NOT = { has_government = communism }
 		tag = FRA
 		date > 1936.4.1
 		date < 1938.1.1
@@ -1151,7 +1147,7 @@ country_event = {
 			days = 365
 		}
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.07
 		}		
 	}
@@ -1164,7 +1160,7 @@ country_event = {
 	picture = GFX_report_event_airplane_factory
 	
 	trigger = {
-		NOT = { has_government = left-wing }
+		NOT = { has_government = communism }
 		has_idea = FRA_matignon_agreements
 		date > 1936.7.1
 	}
@@ -1185,12 +1181,12 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				left-wing > 0.4
+				communism > 0.4
 			}
 		}
 		remove_ideas =  FRA_matignon_agreements
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.05
 		}
 	}	
@@ -1227,9 +1223,9 @@ country_event = {
 #
 #	trigger = {
 #		tag = FRA
-#		SOV = { has_government = left-wing }
-#		has_government = centre
-#		left-wing < 0.5
+#		SOV = { has_government = communism }
+#		has_government = democratic
+#		communism < 0.5
 #		has_global_flag = sov_yes_pact
 #	}
 #
@@ -1242,7 +1238,7 @@ country_event = {
 #		add_political_power = -20
 #		name = france.24.a
 #		add_popularity = {
-#			ideology = left-wing
+#			ideology = communism
 #			popularity = -0.3
 #		}
 #		add_ideas = FRA_communism_banned
@@ -1254,7 +1250,7 @@ country_event = {
 #		
 #		every_other_country = {
 #			limit = { 
-#				has_government = left-wing
+#				has_government = communism
 #			}
 #			add_opinion_modifier = {
 #				target = FRA
@@ -1517,7 +1513,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = FRA
-					has_government = centre
+					has_government = democratic
 				}
 				if = {
 					limit = { ROOT = { owns_state = 554 } }
@@ -1558,9 +1554,9 @@ country_event = {
 	id = france.29
 	title = france.29.t
 	desc = france.29.d
-	picture = GFX_report_event_sign_treaty2
+	picture = GFX_report_event_generic_sign_treaty2
 
-	is_triggered_only	= yes
+	is_triggered_only = yes
 
 	option = {
 		name = france.29.a
@@ -1592,7 +1588,7 @@ country_event = {
  
     trigger = {
         original_tag = FRA
-        has_government = centre
+        has_government = democratic
         has_global_flag = fall_of_france
         NOT = { has_country_flag = france_de_gaulle }
     } 
@@ -1611,8 +1607,8 @@ country_event = {
         	expire = "1965.1.1"
         	ideology = liberalism
         	traits = {
-        	      }
             }
+        }
         set_country_flag = daladier_resigned
       }
 }
@@ -1630,7 +1626,7 @@ country_event = {
     	random_other_country = {
 			limit = {
 				original_tag = SPR
-				has_government = right-wing
+				has_government = fascism
 			}
 			FRA = {
 				add_ai_strategy = {
@@ -1689,101 +1685,66 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = centre
+					has_government = democratic
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = centre
-						elections_allowed = no
-						parties = {
-							centre = { 
-								popularity = 60
-							}
-							syncretic = {
-								popularity = 0
-							}
-							right-wing = {
-								popularity = 20
-							}
-							left-wing = {
-								popularity = 20
-							}
-						}
+						ruling_party = democratic
+						elections_allowed = yes
+					}
+					set_popularities = {
+						democratic = 60
+						fascism = 20
+						communism = 20
 					}
 				}
 			}
 			if = {
 				limit = {
-					has_government = right-wing
+					has_government = fascism
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = right-wing
+						ruling_party = fascism
 						elections_allowed = no
-						parties = {
-							centre = { 
-								popularity = 20
-							}
-							syncretic = {
-								popularity = 0
-							}
-							right-wing = {
-								popularity = 60
-							}
-							left-wing = {
-								popularity = 20
-							}
-						}
+					}
+					set_popularities = {
+						democratic = 20
+						fascism = 60
+						communism = 20
 					}
 				}
 			}
 			if = {
 				limit = {
-					has_government = left-wing
+					has_government = communism
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = left-wing
+						ruling_party = communism
 						elections_allowed = no
-						parties = {
-							centre = { 
-								popularity = 20
-							}
-							syncretic = {
-								popularity = 0
-							}
-							right-wing = {
-								popularity = 20
-							}
-							left-wing = {
-								popularity = 60
-							}
-						}
+					}
+					set_popularities = {
+						democratic = 20
+						fascism = 20
+						communism = 60
 					}
 				}
 			}
 			if = {
 				limit = {
-					has_government = syncretic
+					has_government = neutrality
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = syncretic
+						ruling_party = neutrality
 						elections_allowed = no
-						parties = {
-							centre = { 
-								popularity = 15
-							}
-							syncretic = {
-								popularity = 55
-							}
-							right-wing = {
-								popularity = 15
-							}
-							left-wing = {
-								popularity = 15
-							}
-						}
+					}
+					set_popularities = {
+						democratic = 15
+						neutrality = 55
+						fascism = 15
+						communism = 15
 					}
 				}
 			}
@@ -1845,7 +1806,7 @@ country_event = {
 			
 			modifier = {
 				factor = 2
-				has_government = centre
+				has_government = democratic
 			}
 		}
 	}
@@ -1886,7 +1847,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = right-wing
+				has_government = fascism
 			}
 			modifier = {
 				factor = 0.5

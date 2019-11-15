@@ -1,0 +1,14 @@
+state = {
+	id = 1722
+	name = "Tin Zawatene" # Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1722
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

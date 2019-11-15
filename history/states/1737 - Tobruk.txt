@@ -1,0 +1,15 @@
+state = {
+	id = 1737
+	name = "Tobruk" # Libya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1737
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

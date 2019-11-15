@@ -1,0 +1,14 @@
+state = {
+	id = 2072
+	name = "Hwange" # Zambezi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2072
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1790
+	name = "Matam" # Senegal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1790
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

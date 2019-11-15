@@ -1,0 +1,15 @@
+state = {
+	id = 915
+	name = "Sidon" # Lebanon
+	manpower = 1
+	state_category = city
+	provinces = {
+		915
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2182
+	name = "Tapachula" # Yucatán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2182
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

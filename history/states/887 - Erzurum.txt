@@ -1,0 +1,15 @@
+state = {
+	id = 887
+	name = "Erzurum" # Trabzon
+	manpower = 1
+	state_category = city
+	provinces = {
+		887
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

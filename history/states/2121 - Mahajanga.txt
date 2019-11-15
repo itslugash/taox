@@ -1,0 +1,14 @@
+state = {
+	id = 2121
+	name = "Mahajanga" # North Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2121
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1377
+	name = "Tourane" # Annam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1377
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

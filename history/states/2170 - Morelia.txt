@@ -1,0 +1,15 @@
+state = {
+	id = 2170
+	name = "Morelia" # Morelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2170
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

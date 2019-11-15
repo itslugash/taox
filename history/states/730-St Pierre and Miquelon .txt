@@ -1,18 +1,15 @@
-state={
-	id=730
-	name="STATE_730"
-	manpower=3426
-	state_category = tiny_island
-
-	history={
-		owner = FRA
+state = {
+	id = 730
+	name = "Verona" # Venezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		730
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
-			infrastructure = 3
-			373 = {
-				naval_base = 1
-			}
 		}
 	}
-	
-	provinces={ 373 }
 }

@@ -1,0 +1,14 @@
+state = {
+	id = 2226
+	name = "Tortola" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2226
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

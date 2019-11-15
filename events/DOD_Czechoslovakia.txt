@@ -332,7 +332,7 @@ country_event = {
 	option = {
 		name = czech.14.a
 		#start_civil_war = {
-		#		ideology = syncretic
+		#		ideology = neutrality
 		#		size = 0.45
 		#		capital = 70
 		#		states = { 70 71 664 73 }
@@ -809,7 +809,7 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
-				has_government = centre
+				has_government = democratic
 				factor = 2
 			}
 			modifier = {

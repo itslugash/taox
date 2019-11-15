@@ -1,0 +1,15 @@
+state = {
+	id = 1358
+	name = "Udon Thani" # Nakhon Ratchasima
+	manpower = 1
+	state_category = city
+	provinces = {
+		1358
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		}
+	}
+}

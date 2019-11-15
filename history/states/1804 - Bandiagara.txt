@@ -1,0 +1,14 @@
+state = {
+	id = 1804
+	name = "Bandiagara" # Eastern Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1804
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

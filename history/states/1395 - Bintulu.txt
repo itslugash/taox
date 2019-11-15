@@ -1,0 +1,15 @@
+state = {
+	id = 1395
+	name = "Bintulu" # North Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1395
+	}
+	history = {
+		owner = SAR
+		add_core_of = SAR
+		buildings = {
+		}
+	}
+}

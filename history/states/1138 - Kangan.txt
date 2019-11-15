@@ -1,0 +1,15 @@
+state = {
+	id = 1138
+	name = "Kangan" # Khuzestan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1138
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

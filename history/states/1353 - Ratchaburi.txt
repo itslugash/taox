@@ -1,0 +1,15 @@
+state = {
+	id = 1353
+	name = "Ratchaburi" # Bangkok
+	manpower = 1
+	state_category = city
+	provinces = {
+		1353
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		}
+	}
+}

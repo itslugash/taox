@@ -1,0 +1,15 @@
+state = {
+	id = 1365
+	name = "Chanthaburi" # Nakhon Ratchasima
+	manpower = 1
+	state_category = city
+	provinces = {
+		1365
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		}
+	}
+}

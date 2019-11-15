@@ -1,0 +1,14 @@
+state = {
+	id = 1235
+	name = "Simla" # Punjab
+	manpower = 1
+	state_category = city
+	provinces = {
+		1235
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

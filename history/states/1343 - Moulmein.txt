@@ -1,0 +1,14 @@
+state = {
+	id = 1343
+	name = "Moulmein" # Tenasserim
+	manpower = 1
+	state_category = city
+	provinces = {
+		1343
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

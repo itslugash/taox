@@ -1,0 +1,15 @@
+state = {
+	id = 2364
+	name = "Resistencia" # Chaco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2364
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

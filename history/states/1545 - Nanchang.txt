@@ -1,0 +1,15 @@
+state = {
+	id = 1545
+	name = "Nanchang" # Jiangxi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1545
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

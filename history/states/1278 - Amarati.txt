@@ -1,0 +1,14 @@
+state = {
+	id = 1278
+	name = "Amarati" # Nagpur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1278
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

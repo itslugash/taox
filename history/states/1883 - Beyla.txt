@@ -1,0 +1,14 @@
+state = {
+	id = 1883
+	name = "Beyla" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1883
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

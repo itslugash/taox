@@ -1,0 +1,15 @@
+state = {
+	id = 1729
+	name = "Tozeur" # Tunisia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1729
+	}
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,215 @@
+#########################
+# TAOX - British Events #
+#########################
+
+add_namespace = TAOX_GBR
+
+country_event = { # 1.15.1910 - "General Election of January 1910"
+	id = TAOX.GBR.1
+	title = TAOX.GBR.1.t
+	desc = TAOX.GBR.1.d
+	picture = 
+	trigger = {
+		date > 1.14.1910
+		date < 2.11.1910
+		tag = GBR
+	}
+	fire_only_once = yes
+	option = { # Social Liberals Win
+		name = TAOX.GBR.1.a
+		set_politics = {
+			ruling_party = social_liberalism
+		}
+		add_ideas = {
+			GBR_PM_HH_Asquith
+			GBR_FAM_Edward_Grey
+			GBR_TM_David_Lloyd_George
+			GBR_DM_Richard_Haldane
+			GBR_IM_Herbert_Gladstone
+		}
+	}
+	option = { # Social Conservatives Win
+		name = TAOX.GBR.1.b
+		set_politics = {
+			ruling_party = social_conservatism
+		}
+		add_ideas = {
+			GBR_PM_Arthur_Balfour
+			GBR_FAM_Henry_Petty-Fitzmaurice
+			GBR_TM_Austen_Chamberlain
+			GBR_DM_St_John_Brodrick
+			GBR_IM_Aretas_Akers-Douglas
+		}
+	}
+}
+
+country_event = { # 5.6.1910 - "Death of Edward VII"
+	id = TAOX_GBR.2
+	title = TAOX_GBR.2.t
+	desc = TAOX_GBR.2.d
+	picture = GFX_report_event_europe_funeral
+	trigger = {
+		date > 1910.5.5
+		date < 1910.5.7
+		tag = GBR
+	}	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		if = {
+			limit = {
+				tag = GBR
+			}
+		}
+		set_country_flag = GBR_King_George_V
+	}
+	option = { # "May he rest in peace."
+		name = TAOX_GBR.2.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = stalinism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = leninism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = left-wing_radicalism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = social_democracy_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = social_liberlaism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = market_liberalism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = social_conservatism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = fascism_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = paternal_autocracy_ideology
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "GBR_George_V_desc"
+			picture = "gfx/leaders/ENG/Portrait_ENG_George_V.tga"
+			expire = 1999.12.31
+			ideology = national_socialism_ideology
+			traits = {
+			}
+		}
+	}
+}
+
+country_event = { # 1.15.1910 - "General Election of December 1910"
+	id = TAOX.GBR.3
+	title = TAOX.GBR.3.t
+	desc = TAOX.GBR.3.d
+	picture = 
+	trigger = {
+		date > 12.2.1910
+		date < 12.20.1910
+		tag = GBR
+	}
+	fire_only_once = yes
+	option = { # Social Liberals Win
+		name = TAOX.GBR.3.a
+		set_politics = {
+			ruling_party = social_liberalism
+		}
+		add_ideas = {
+			GBR_PM_HH_Asquith
+			GBR_FAM_Edward_Grey
+			GBR_TM_David_Lloyd_George
+			GBR_DM_Richard_Haldane
+			GBR_IM_Winston_Churchill
+		}
+	}
+	option = { # Social Conservatives Win
+		name = TAOX.GBR.3.b
+		set_politics = {
+			ruling_party = social_conservatism
+		}
+		add_ideas = {
+			GBR_PM_Arthur_Balfour
+			GBR_FAM_Henry_Petty-Fitzmaurice
+			GBR_TM_Austen_Chamberlain
+			GBR_DM_St_John_Brodrick
+			GBR_IM_Aretas_Akers-Douglas
+		}
+	}
+}
+
+country_event = { # 6.22.1911 - "Coronation of George V"
+	id = TAOX_GBR.4
+	title = TAOX.GBR.4.t
+	desc = TAOX.GBR.4.d
+	picture = 
+	trigger = {
+		has_country_flag = GBR_King_George_V
+	}
+	option = { # "God save the king."
+		name = TAOX.GBR.4.a
+		add_stability = 0.15
+	}
+}

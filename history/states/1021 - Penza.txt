@@ -1,0 +1,15 @@
+state = {
+	id = 1021
+	name = "Penza" # Tartaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1021
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

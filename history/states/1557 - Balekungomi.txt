@@ -1,0 +1,15 @@
+state = {
+	id = 1557
+	name = "Balekungomi" # Qinghai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1557
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

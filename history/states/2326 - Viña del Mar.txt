@@ -1,0 +1,15 @@
+state = {
+	id = 2326
+	name = "Viña del Mar" # Santiago
+	manpower = 1
+	state_category = city
+	provinces = {
+		2326
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

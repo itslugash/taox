@@ -1,0 +1,15 @@
+state = {
+	id = 2313
+	name = "Chuquisaca" # Santa Cruz
+	manpower = 1
+	state_category = city
+	provinces = {
+		2313
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+		}
+	}
+}

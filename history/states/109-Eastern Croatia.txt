@@ -1,25 +1,15 @@
-
-state={
-	id=109
-	name="STATE_109" # Croatia
-	manpower = 2224400
-	
-	state_category = large_town
-
-	history={
-		owner = YUG
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-		}
-		victory_points = {
-			11581 3 
-		}
-		add_core_of = YUG
-		add_core_of = CRO
+state = {
+	id = 109
+	name = "Alamosa" # Colorado
+	manpower = 1
+	state_category = city
+	provinces = {
+		109
 	}
-
-	provinces={
-		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
 	}
 }

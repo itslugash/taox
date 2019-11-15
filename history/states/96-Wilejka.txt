@@ -1,23 +1,15 @@
-state={
-	id=96
-	name="STATE_96"
-	manpower = 726000
-	
-	state_category = rural
-	
-	history={
-		victory_points = {
-			406 1
-		}
-		owner = POL
-		buildings = {
-			infrastructure = 4
-		}
-		add_core_of = POL
-		add_core_of = BLR
+state = {
+	id = 96
+	name = "Las Vegas" # Nevada-Utah
+	manpower = 1
+	state_category = city
+	provinces = {
+		96
 	}
-
-	provinces={
-		233 277 358 406 6340 9341 11391 
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
 	}
 }

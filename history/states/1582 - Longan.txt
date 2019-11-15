@@ -1,0 +1,15 @@
+state = {
+	id = 1582
+	name = "Longan" # Sichuan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1582
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

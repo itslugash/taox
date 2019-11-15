@@ -1,0 +1,15 @@
+state = {
+	id = 1173
+	name = "Mukalla" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1173
+	}
+	history = {
+		owner = ADN
+		add_core_of = ADN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2008
+	name = "Ondjiva" # South Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2008
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

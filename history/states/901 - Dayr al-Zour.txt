@@ -1,0 +1,15 @@
+state = {
+	id = 901
+	name = "Dayr al-Zour" # Aleppo
+	manpower = 1
+	state_category = city
+	provinces = {
+		901
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1073
+	name = "Yevensk" # Kamchatka
+	manpower = 1
+	state_category = city
+	provinces = {
+		1073
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

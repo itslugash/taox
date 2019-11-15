@@ -1,0 +1,15 @@
+state = {
+	id = 2192
+	name = "San Miguel" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2192
+	}
+	history = {
+		owner = ELS
+		add_core_of = ELS
+		buildings = {
+		}
+	}
+}

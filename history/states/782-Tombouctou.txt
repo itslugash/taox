@@ -1,22 +1,15 @@
-
-state={
-	id=782
-	name="STATE_782" # Tombouctou
-	manpower = 79243
-	
-	state_category = wasteland
-	impassable = yes
-
-	history={
-		owner = FRA
-		add_core_of = MLI
-		buildings = {
-			infrastructure = 0
-		}
-
+state = {
+	id = 782
+	name = "Dubrovnik" # Dalmatia
+	manpower = 1
+	state_category = city
+	provinces = {
+		782
 	}
-
-	provinces={
-		1115 2068 10725 10868
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

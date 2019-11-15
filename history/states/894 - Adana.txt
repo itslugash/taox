@@ -1,0 +1,15 @@
+state = {
+	id = 894
+	name = "Adana" # Ankara And Adana
+	manpower = 1
+	state_category = city
+	provinces = {
+		894
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

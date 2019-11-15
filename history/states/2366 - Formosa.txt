@@ -1,0 +1,15 @@
+state = {
+	id = 2366
+	name = "Formosa" # Alto Paraguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2366
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

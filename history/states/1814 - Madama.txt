@@ -1,0 +1,14 @@
+state = {
+	id = 1814
+	name = "Madama" # Niger
+	manpower = 1
+	state_category = city
+	provinces = {
+		1814
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

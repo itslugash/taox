@@ -1,0 +1,15 @@
+state = {
+	id = 1037
+	name = "Saratov" # Tartaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1037
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1113
+	name = "Rasht" # Gilan-Mazandaran
+	manpower = 1
+	state_category = city
+	provinces = {
+		1113
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

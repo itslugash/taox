@@ -1,0 +1,14 @@
+state = {
+	id = 1324
+	name = "Trincomalee" # Ceylon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1324
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

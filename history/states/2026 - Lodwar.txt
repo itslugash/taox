@@ -1,0 +1,14 @@
+state = {
+	id = 2026
+	name = "Lodwar" # Rift Valley
+	manpower = 1
+	state_category = city
+	provinces = {
+		2026
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

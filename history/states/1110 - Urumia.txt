@@ -1,0 +1,15 @@
+state = {
+	id = 1110
+	name = "Urumia" # Tabriz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1110
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

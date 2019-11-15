@@ -1,0 +1,14 @@
+state = {
+	id = 1236
+	name = "Delhi" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1236
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

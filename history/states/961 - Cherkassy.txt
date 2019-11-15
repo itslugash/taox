@@ -1,0 +1,15 @@
+state = {
+	id = 961
+	name = "Cherkassy" # Kiev
+	manpower = 1
+	state_category = city
+	provinces = {
+		961
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

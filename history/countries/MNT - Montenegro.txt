@@ -1,46 +1,19 @@
-﻿#########
-# State #
-#########
-
-	capital = 105
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 34
-			}
-			centre = {
-				popularity = 0
-			}
-			right-wing = { 
-				popularity = 33
-			}
-			syncretic = { 
-				popularity = 33
-			}	
-		}
+﻿capital = 105
+set_popularities = {
+	social_conservatism = 100
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1907.10.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Nikola I"
+	desc = "MNT_Nikola_I_desc"
+	picture = "Portrait_MNT_Nikola_I.tga"
+	expire = "1999.12.31"
+	ideology = fascism_ideology
+	traits = {
 	}
-
-##############
-# Technology #
-##############
-
-	set_research_slots = 3
-
-	set_technology = {
-		tech_support = 1		
-		tech_engineers = 1
-		tech_mountaineers = 1
-		early_fighter = 1
-		gwtank = 1
-		basic_light_tank = 1
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_submarine = 1
-	}
+}

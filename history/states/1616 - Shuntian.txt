@@ -1,0 +1,15 @@
+state = {
+	id = 1616
+	name = "Shuntian" # Northern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1616
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

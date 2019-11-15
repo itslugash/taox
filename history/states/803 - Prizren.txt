@@ -1,0 +1,15 @@
+state = {
+	id = 803
+	name = "Prizren" # Southern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		803
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

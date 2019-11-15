@@ -1,0 +1,15 @@
+state = {
+	id = 2252
+	name = "Medellín" # Antioquía
+	manpower = 1
+	state_category = city
+	provinces = {
+		2252
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

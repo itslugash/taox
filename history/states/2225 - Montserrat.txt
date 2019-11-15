@@ -1,0 +1,14 @@
+state = {
+	id = 2225
+	name = "Montserrat" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2225
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

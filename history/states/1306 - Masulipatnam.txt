@@ -1,0 +1,14 @@
+state = {
+	id = 1306
+	name = "Masulipatnam" # Circars
+	manpower = 1
+	state_category = city
+	provinces = {
+		1306
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

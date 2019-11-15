@@ -1,0 +1,14 @@
+state = {
+	id = 1229
+	name = "Sialkot" # Punjab
+	manpower = 1
+	state_category = city
+	provinces = {
+		1229
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

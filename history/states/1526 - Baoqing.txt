@@ -1,0 +1,15 @@
+state = {
+	id = 1526
+	name = "Baoqing" # Hunan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1526
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

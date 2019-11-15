@@ -1,0 +1,14 @@
+state = {
+	id = 1711
+	name = "Ouargla" # Constantine
+	manpower = 1
+	state_category = city
+	provinces = {
+		1711
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

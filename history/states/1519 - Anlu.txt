@@ -1,0 +1,15 @@
+state = {
+	id = 1519
+	name = "Anlu" # Western Hubei
+	manpower = 1
+	state_category = city
+	provinces = {
+		1519
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

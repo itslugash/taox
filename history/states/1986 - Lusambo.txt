@@ -1,0 +1,14 @@
+state = {
+	id = 1986
+	name = "Lusambo" # Kasai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1986
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

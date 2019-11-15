@@ -1,0 +1,15 @@
+state = {
+	id = 992
+	name = "Belozersk" # Tver
+	manpower = 1
+	state_category = city
+	provinces = {
+		992
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1872
+	name = "Busaso" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1872
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

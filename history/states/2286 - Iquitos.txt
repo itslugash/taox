@@ -1,0 +1,15 @@
+state = {
+	id = 2286
+	name = "Iquitos" # Pastaza
+	manpower = 1
+	state_category = city
+	provinces = {
+		2286
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

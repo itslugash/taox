@@ -1,0 +1,15 @@
+state = {
+	id = 1468
+	name = "Uliastai" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1468
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

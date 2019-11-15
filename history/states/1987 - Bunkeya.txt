@@ -1,0 +1,14 @@
+state = {
+	id = 1987
+	name = "Bunkeya" # Katanga
+	manpower = 1
+	state_category = city
+	provinces = {
+		1987
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

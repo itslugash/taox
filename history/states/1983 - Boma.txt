@@ -1,0 +1,14 @@
+state = {
+	id = 1983
+	name = "Boma" # Bas-Congo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1983
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

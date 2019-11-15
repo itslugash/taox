@@ -1,0 +1,14 @@
+state = {
+	id = 2006
+	name = "Kuito" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2006
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2110
+	name = "Thohoyandu" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2110
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

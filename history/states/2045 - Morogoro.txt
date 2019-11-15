@@ -1,0 +1,14 @@
+state = {
+	id = 2045
+	name = "Morogoro" # Zanzibar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2045
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2346
+	name = "Tacuarembó" # Uruguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2346
+	}
+	history = {
+		owner = URG
+		add_core_of = URG
+		buildings = {
+		}
+	}
+}

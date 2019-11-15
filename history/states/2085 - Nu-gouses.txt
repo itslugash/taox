@@ -1,0 +1,14 @@
+state = {
+	id = 2085
+	name = "Nu-gouses" # Namaqualand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2085
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

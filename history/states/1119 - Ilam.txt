@@ -1,0 +1,15 @@
+state = {
+	id = 1119
+	name = "Ilam" # Luristan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1119
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1770
+	name = "Qusayr" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1770
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

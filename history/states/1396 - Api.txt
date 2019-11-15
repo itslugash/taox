@@ -1,0 +1,15 @@
+state = {
+	id = 1396
+	name = "Api" # North Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1396
+	}
+	history = {
+		owner = NBO
+		add_core_of = NBO
+		buildings = {
+		}
+	}
+}

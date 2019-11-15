@@ -1,0 +1,15 @@
+state = {
+	id = 2365
+	name = "Villa Ángela" # Chaco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2365
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

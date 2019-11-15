@@ -1,0 +1,15 @@
+state = {
+	id = 1469
+	name = "Kyzyl" # Tomsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1469
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

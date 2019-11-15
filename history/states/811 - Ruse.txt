@@ -1,0 +1,15 @@
+state = {
+	id = 811
+	name = "Ruse" # Bulgaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		811
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

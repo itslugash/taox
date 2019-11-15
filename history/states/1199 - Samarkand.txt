@@ -1,0 +1,15 @@
+state = {
+	id = 1199
+	name = "Samarkand" # Uzbekia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1199
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

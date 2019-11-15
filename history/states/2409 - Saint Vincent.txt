@@ -1,0 +1,15 @@
+state = {
+	id = 2409
+	name = "Saint Vincent" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2409
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
+		buildings = {
+		}
+	}
+}

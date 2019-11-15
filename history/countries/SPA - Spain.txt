@@ -1,0 +1,21 @@
+capital = 41
+set_popularities = {
+	social_liberalism = 24.52
+	social_conservatism = 74.15
+	fascism = 1.33
+}
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1907.4.21"
+	election_frequency = 36
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Alfonso XIII"
+	desc = "SPA_Alfonso_XIII_desc"
+	picture = "Portrait_SPA_Alfonso_XIII.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
+	traits = {
+	}
+}

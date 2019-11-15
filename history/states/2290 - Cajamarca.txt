@@ -1,0 +1,15 @@
+state = {
+	id = 2290
+	name = "Cajamarca" # Cajamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2290
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

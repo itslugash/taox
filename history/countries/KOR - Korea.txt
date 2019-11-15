@@ -1,41 +1,19 @@
-﻿#########
-# State #
-#########
-
-	capital = 525
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 30
-			}
-			centre = { 
-				popularity = 35
-			}
-			right-wing = {
-				popularity = 25
-			}
-			syncretic = { 
-				popularity = 10
-			}
-		}
+﻿capital = 525
+set_popularities = {
+	paternal_autocracy = 100
+}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Sunjong"
+	desc = "KOR_Sunjong_desc"
+	picture = "Portrait_KOR_Sunjong.tga"
+	expire = "1999.12.31"
+	ideology = paternal_autocracy_ideology
+	traits = {
 	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		mass_assault = 1
-	}
-
-########
-# Navy #
-########
-
-	set_convoys = 5
+}

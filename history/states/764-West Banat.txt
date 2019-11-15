@@ -1,22 +1,15 @@
-
-state={
-	id=764
-	name="STATE_764"
-	manpower = 585579
-	state_category = rural
-
-	history={
-		owner = YUG
-		controller = YUG
-
-		buildings = {
-			infrastructure = 6
-		}
-		add_core_of = YUG
-		add_core_of = SER
+state = {
+	id = 764
+	name = "Catania" # Sicily
+	manpower = 1
+	state_category = city
+	provinces = {
+		764
 	}
-
-	provinces={
-		614 3614 6643 11787
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+		}
 	}
 }

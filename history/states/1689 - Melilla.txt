@@ -1,0 +1,15 @@
+state = {
+	id = 1689
+	name = "Melilla" # al-Rif
+	manpower = 1
+	state_category = city
+	provinces = {
+		1689
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1882
+	name = "Kankan" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1882
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

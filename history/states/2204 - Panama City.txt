@@ -1,0 +1,15 @@
+state = {
+	id = 2204
+	name = "Panama City" # Panama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2204
+	}
+	history = {
+		owner = PAN
+		add_core_of = PAN
+		buildings = {
+		}
+	}
+}

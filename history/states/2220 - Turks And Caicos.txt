@@ -1,0 +1,14 @@
+state = {
+	id = 2220
+	name = "Turks And Caicos" # Caribbean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2220
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

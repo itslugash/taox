@@ -1,0 +1,14 @@
+state = {
+	id = 2223
+	name = "Saint Thomas" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2223
+	}
+	history = {
+		owner = DEN
+		buildings = {
+		}
+	}
+}

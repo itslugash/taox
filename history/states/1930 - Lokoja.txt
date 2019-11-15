@@ -1,0 +1,14 @@
+state = {
+	id = 1930
+	name = "Lokoja" # Benin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1930
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

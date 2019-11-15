@@ -1,0 +1,14 @@
+state = {
+	id = 1881
+	name = "Dinguiraye" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1881
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

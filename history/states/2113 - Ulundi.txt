@@ -1,0 +1,14 @@
+state = {
+	id = 2113
+	name = "Ulundi" # Natal-Zululand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2113
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

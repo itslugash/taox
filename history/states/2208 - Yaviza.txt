@@ -1,0 +1,15 @@
+state = {
+	id = 2208
+	name = "Yaviza" # Panama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2208
+	}
+	history = {
+		owner = PAN
+		add_core_of = PAN
+		buildings = {
+		}
+	}
+}

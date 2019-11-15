@@ -1,0 +1,15 @@
+state = {
+	id = 2160
+	name = "Aguascalientes" # Jalisco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2160
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

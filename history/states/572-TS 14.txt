@@ -1,25 +1,15 @@
-
-state={
-	id=572
-	name="STATE_572" # Chelyabinsk
-	manpower = 2074932
-	
-	state_category = town
-
-	history={
-		owner = SOV
-		victory_points = {
-			9292 5
-		}
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-
-		}
-		add_core_of = SOV
+state = {
+	id = 572
+	name = "Trier" # Rhineland
+	manpower = 1
+	state_category = city
+	provinces = {
+		572
 	}
-
-	provinces={
-		1233 1292 1294 1327 1775 4242 7285 9292 10170 10213 10542 12106 12157 12287 12584 
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
 	}
 }

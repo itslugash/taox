@@ -1,0 +1,15 @@
+state = {
+	id = 851
+	name = "Durres" # Albania
+	manpower = 1
+	state_category = city
+	provinces = {
+		851
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

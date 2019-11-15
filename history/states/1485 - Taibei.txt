@@ -1,0 +1,14 @@
+state = {
+	id = 1485
+	name = "Taibei" # Formosa
+	manpower = 1
+	state_category = city
+	provinces = {
+		1485
+	}
+	history = {
+		owner = JAP
+		buildings = {
+		}
+	}
+}

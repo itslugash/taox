@@ -1,0 +1,14 @@
+state = {
+	id = 1973
+	name = "Bata" # Gabon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1973
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

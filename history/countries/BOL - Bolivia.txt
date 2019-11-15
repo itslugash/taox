@@ -1,75 +1,19 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 302
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = { 
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1934.11.11"
-		election_frequency = 72
-		elections_allowed = no
+﻿capital = 302
+set_popularities = {
+	social_liberalism = 100
+}
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1910.1.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Eliodoro Villazón"
+	desc = "BOL_Eliodoro_Villazon_desc"
+	picture = "Portrait_BOL_Eliodoro_Villazon.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "José Luis Tejada Sorzano"
-		desc = "BOL_Jose_Luis_Tejada_Sorzano_desc"
-		picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
-		expire = "1999.12.31"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Óscar Únzaga"
-		desc = "BOL_Oscar_Unzaga_desc"
-		picture = "Portrait_BOL_Oscar_Unzaga.dds"
-		expire = "1999.12.31"
-		ideology = reactionary
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		tech_support = 1		
-		tech_engineers = 1
-		gw_artillery = 1
-		early_fighter = 1
-		fuel_silos = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "BOL_1936"
+}

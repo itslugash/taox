@@ -1,0 +1,15 @@
+state = {
+	id = 963
+	name = "Poltava" # Kiev
+	manpower = 1
+	state_category = city
+	provinces = {
+		963
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

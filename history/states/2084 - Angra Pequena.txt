@@ -1,0 +1,14 @@
+state = {
+	id = 2084
+	name = "Angra Pequena" # Namaqualand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2084
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

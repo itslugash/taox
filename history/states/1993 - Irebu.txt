@@ -1,0 +1,14 @@
+state = {
+	id = 1993
+	name = "Irebu" # Equateur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1993
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

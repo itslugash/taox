@@ -1,0 +1,15 @@
+state = {
+	id = 2216
+	name = "La Vega" # Hispaniola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2216
+	}
+	history = {
+		owner = DOM
+		add_core_of = DOM
+		buildings = {
+		}
+	}
+}

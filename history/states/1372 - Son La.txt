@@ -1,0 +1,14 @@
+state = {
+	id = 1372
+	name = "Son La" # Tonkin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1372
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

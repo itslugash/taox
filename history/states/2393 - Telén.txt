@@ -1,0 +1,15 @@
+state = {
+	id = 2393
+	name = "Telén" # Río Negro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2393
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

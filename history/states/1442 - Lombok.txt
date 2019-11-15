@@ -1,0 +1,14 @@
+state = {
+	id = 1442
+	name = "Lombok" # Sunda Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		1442
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

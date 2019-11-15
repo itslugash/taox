@@ -1,0 +1,14 @@
+state = {
+	id = 2029
+	name = "Mombasa" # Zanzibar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2029
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

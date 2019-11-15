@@ -1,0 +1,14 @@
+state = {
+	id = 2025
+	name = "Marsabit" # Kenya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2025
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

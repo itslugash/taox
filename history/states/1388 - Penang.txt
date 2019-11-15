@@ -1,0 +1,14 @@
+state = {
+	id = 1388
+	name = "Penang" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1388
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

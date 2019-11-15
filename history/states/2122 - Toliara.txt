@@ -1,0 +1,14 @@
+state = {
+	id = 2122
+	name = "Toliara" # South Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2122
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1771
+	name = "Marsa Alam" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1771
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

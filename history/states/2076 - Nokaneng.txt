@@ -1,0 +1,14 @@
+state = {
+	id = 2076
+	name = "Nokaneng" # Zambezi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2076
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

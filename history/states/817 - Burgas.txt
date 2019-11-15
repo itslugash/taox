@@ -1,0 +1,15 @@
+state = {
+	id = 817
+	name = "Burgas" # Rumelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		817
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

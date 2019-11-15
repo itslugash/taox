@@ -1,0 +1,15 @@
+state = {
+	id = 1767
+	name = "Luxor" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1767
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

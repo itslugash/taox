@@ -1,0 +1,15 @@
+state = {
+	id = 1214
+	name = "Farrah" # Western Afghanistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1214
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		}
+	}
+}

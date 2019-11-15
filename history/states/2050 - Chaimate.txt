@@ -1,0 +1,14 @@
+state = {
+	id = 2050
+	name = "Chaimate" # Lourenço Marques
+	manpower = 1
+	state_category = city
+	provinces = {
+		2050
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

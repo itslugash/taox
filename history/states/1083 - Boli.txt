@@ -1,0 +1,15 @@
+state = {
+	id = 1083
+	name = "Boli" # Outer Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1083
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

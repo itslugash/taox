@@ -1,0 +1,14 @@
+state = {
+	id = 2130
+	name = "Ascension" # South Atlantic Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2130
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

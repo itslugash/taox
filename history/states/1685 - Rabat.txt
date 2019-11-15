@@ -1,0 +1,15 @@
+state = {
+	id = 1685
+	name = "Rabat" # Fez
+	manpower = 1
+	state_category = city
+	provinces = {
+		1685
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

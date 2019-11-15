@@ -1,0 +1,15 @@
+state = {
+	id = 830
+	name = "Dedeagatch" # East Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		830
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

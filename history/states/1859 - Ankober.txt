@@ -1,0 +1,15 @@
+state = {
+	id = 1859
+	name = "Ankober" # Oromia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1859
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

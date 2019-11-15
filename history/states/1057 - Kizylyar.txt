@@ -1,0 +1,15 @@
+state = {
+	id = 1057
+	name = "Kizylyar" # North Caucasia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1057
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

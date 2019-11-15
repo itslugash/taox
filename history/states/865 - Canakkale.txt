@@ -1,0 +1,15 @@
+state = {
+	id = 865
+	name = "Canakkale" # Aydin
+	manpower = 1
+	state_category = city
+	provinces = {
+		865
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

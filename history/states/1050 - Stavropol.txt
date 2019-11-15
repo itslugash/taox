@@ -1,0 +1,15 @@
+state = {
+	id = 1050
+	name = "Stavropol" # Ekaterinodar
+	manpower = 1
+	state_category = city
+	provinces = {
+		1050
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

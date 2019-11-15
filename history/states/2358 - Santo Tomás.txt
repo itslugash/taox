@@ -1,0 +1,15 @@
+state = {
+	id = 2358
+	name = "Santo Tomás" # Corrientes
+	manpower = 1
+	state_category = city
+	provinces = {
+		2358
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

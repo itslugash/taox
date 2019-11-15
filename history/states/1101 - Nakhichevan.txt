@@ -1,0 +1,15 @@
+state = {
+	id = 1101
+	name = "Nakhichevan" # Armenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1101
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

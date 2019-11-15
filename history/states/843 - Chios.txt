@@ -1,0 +1,15 @@
+state = {
+	id = 843
+	name = "Chios" # Aegean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		843
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

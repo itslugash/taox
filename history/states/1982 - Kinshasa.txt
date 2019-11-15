@@ -1,0 +1,14 @@
+state = {
+	id = 1982
+	name = "Kinshasa" # Bas-Congo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1982
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

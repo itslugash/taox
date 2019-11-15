@@ -1,0 +1,15 @@
+state = {
+	id = 1479
+	name = "Mukden" # Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1479
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

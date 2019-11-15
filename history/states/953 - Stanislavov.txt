@@ -1,0 +1,15 @@
+state = {
+	id = 953
+	name = "Stanislavov" # East Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		953
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
+	}
+}

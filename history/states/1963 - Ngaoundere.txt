@@ -1,0 +1,14 @@
+state = {
+	id = 1963
+	name = "Ngaoundere" # North Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1963
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

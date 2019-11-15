@@ -1,0 +1,14 @@
+state = {
+	id = 1976
+	name = "Makokou" # Gabon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1976
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2269
+	name = "Güiria" # Bolívar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2269
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

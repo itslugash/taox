@@ -1,22 +1,15 @@
-state={
-	id=709
-	name="STATE_709"
-	manpower = 126703
-	
-	state_category = small_island
-	
-	history=
-	{
-		owner = ENG
-		buildings = {
-			infrastructure = 3
-			2188 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 709
+	name = "Lomzha" # Mazowieckie
+	manpower = 1
+	state_category = city
+	provinces = {
+		709
 	}
-	
-	provinces={
-		2188 
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
 	}
 }

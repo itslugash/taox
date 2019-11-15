@@ -1,0 +1,15 @@
+state = {
+	id = 1636
+	name = "Taejon" # Seoul
+	manpower = 1
+	state_category = city
+	provinces = {
+		1636
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

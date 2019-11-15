@@ -1,23 +1,15 @@
-state=
-{
-	id=311
-	name="STATE_311"
-	manpower = 51000
-	
-	state_category = pastoral
-	history=
-	{
-		add_core_of = BLZ
-		owner = ENG
-		victory_points = {
-			2077 1 
-		}
+state = {
+	id = 311
+	name = "Skien" # Vestlandet
+	manpower = 1
+	state_category = city
+	provinces = {
+		311
+	}
+	history = {
+		owner = NOR
+		add_core_of = NOR
 		buildings = {
-			infrastructure = 4
-			2077 = {
-				naval_base = 1
-			}
 		}
 	}
-	provinces= { 2077 }
 }

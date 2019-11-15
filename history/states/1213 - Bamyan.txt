@@ -1,0 +1,15 @@
+state = {
+	id = 1213
+	name = "Bamyan" # Western Afghanistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1213
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		}
+	}
+}

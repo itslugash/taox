@@ -1,38 +1,15 @@
 state = {
 	id = 165
-	name = "Cataluña"
-	manpower = 4009260
-	state_category = ten
-
+	name = "Champaign" # Illinois
+	manpower = 1
+	state_category = city
 	provinces = {
-		854 872 897 6812 6836 6865 6927 6966 9764 9797 9824 11779
+		165
 	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
-		victory_points = { # Tarragona
-			6812 5
-		}
-		victory_points = { # Lérida
-			6836 5
-		}
-		victory_points = { # Gerona
-			6927 5
-		}
-		victory_points = { # Barcelona
-			9764 20
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 2
-			9764 = {
-				naval_base = 4
-			}
 		}
 	}
 }

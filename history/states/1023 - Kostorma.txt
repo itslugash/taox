@@ -1,0 +1,15 @@
+state = {
+	id = 1023
+	name = "Kostorma" # Galich
+	manpower = 1
+	state_category = city
+	provinces = {
+		1023
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

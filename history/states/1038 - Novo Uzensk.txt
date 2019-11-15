@@ -1,0 +1,15 @@
+state = {
+	id = 1038
+	name = "Novo Uzensk" # Tartaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1038
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

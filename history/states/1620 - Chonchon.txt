@@ -1,0 +1,15 @@
+state = {
+	id = 1620
+	name = "Chonchon" # Pyongyang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1620
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

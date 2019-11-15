@@ -1,0 +1,15 @@
+state = {
+	id = 794
+	name = "Belgrade" # Northern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		794
+	}
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+		}
+	}
+}

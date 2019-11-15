@@ -1,0 +1,14 @@
+state = {
+	id = 1718
+	name = "In Salah" # Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1718
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

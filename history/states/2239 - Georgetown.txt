@@ -1,0 +1,14 @@
+state = {
+	id = 2239
+	name = "Georgetown" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2239
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

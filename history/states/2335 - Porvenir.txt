@@ -1,0 +1,15 @@
+state = {
+	id = 2335
+	name = "Porvenir" # Araucania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2335
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

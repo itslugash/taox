@@ -1,0 +1,15 @@
+state = {
+	id = 1687
+	name = "Tetouan" # al-Rif
+	manpower = 1
+	state_category = city
+	provinces = {
+		1687
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

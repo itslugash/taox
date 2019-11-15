@@ -1,0 +1,15 @@
+state = {
+	id = 1196
+	name = "Dashhowuz" # Turkmenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1196
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

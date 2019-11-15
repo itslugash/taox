@@ -1,0 +1,15 @@
+state = {
+	id = 889
+	name = "Malatya" # Diyarbakir-Van
+	manpower = 1
+	state_category = city
+	provinces = {
+		889
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 913
+	name = "Beirut" # Lebanon
+	manpower = 1
+	state_category = city
+	provinces = {
+		913
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 799
+	name = "Leskovac" # Southern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		799
+	}
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+		}
+	}
+}

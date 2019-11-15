@@ -1,0 +1,14 @@
+state = {
+	id = 1939
+	name = "Zaria" # East Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1939
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

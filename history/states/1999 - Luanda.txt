@@ -1,0 +1,14 @@
+state = {
+	id = 1999
+	name = "Luanda" # North Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		1999
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

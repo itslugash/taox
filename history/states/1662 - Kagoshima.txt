@@ -1,0 +1,15 @@
+state = {
+	id = 1662
+	name = "Kagoshima" # Kyushu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1662
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2096
+	name = "Port Elizabeth" # Eastern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2096
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

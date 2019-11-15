@@ -1,0 +1,15 @@
+state = {
+	id = 1833
+	name = "Suakin" # Dongola
+	manpower = 1
+	state_category = city
+	provinces = {
+		1833
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

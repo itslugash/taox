@@ -1,0 +1,14 @@
+state = {
+	id = 2228
+	name = "Martinique" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2228
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

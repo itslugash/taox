@@ -1,0 +1,14 @@
+state = {
+	id = 1330
+	name = "Rangoon" # Pegu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1330
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

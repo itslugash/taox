@@ -1,0 +1,14 @@
+state = {
+	id = 1230
+	name = "Attock" # Punjab
+	manpower = 1
+	state_category = city
+	provinces = {
+		1230
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

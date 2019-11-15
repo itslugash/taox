@@ -1,0 +1,15 @@
+state = {
+	id = 2327
+	name = "Talca" # Los Ríos
+	manpower = 1
+	state_category = city
+	provinces = {
+		2327
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1380
+	name = "Saigon" # Cochin China
+	manpower = 1
+	state_category = city
+	provinces = {
+		1380
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2209
+	name = "Havana" # Greater Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2209
+	}
+	history = {
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+		}
+	}
+}

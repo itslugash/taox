@@ -1,0 +1,15 @@
+state = {
+	id = 1145
+	name = "Jask" # Laristan-Sistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1145
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

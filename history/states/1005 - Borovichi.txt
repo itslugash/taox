@@ -1,0 +1,15 @@
+state = {
+	id = 1005
+	name = "Borovichi" # Novgorod
+	manpower = 1
+	state_category = city
+	provinces = {
+		1005
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

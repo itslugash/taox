@@ -1,0 +1,14 @@
+state = {
+	id = 1357
+	name = "Vientiane" # Laos
+	manpower = 1
+	state_category = city
+	provinces = {
+		1357
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

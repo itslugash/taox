@@ -1,0 +1,15 @@
+state = {
+	id = 1830
+	name = "Sennar" # Sudan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1830
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

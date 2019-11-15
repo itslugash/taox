@@ -1,0 +1,15 @@
+state = {
+	id = 836
+	name = "Lamia" # Attica
+	manpower = 1
+	state_category = city
+	provinces = {
+		836
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

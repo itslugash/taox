@@ -1,0 +1,14 @@
+state = {
+	id = 1374
+	name = "Thanh Hoa" # Annam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1374
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

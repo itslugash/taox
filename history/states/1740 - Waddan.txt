@@ -1,0 +1,15 @@
+state = {
+	id = 1740
+	name = "Waddan" # Libyan Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1740
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2095
+	name = "Dikathong" # Northern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2095
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

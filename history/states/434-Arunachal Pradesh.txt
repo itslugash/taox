@@ -1,23 +1,15 @@
-
-state={
-	id=434
-	name="STATE_434"
-	manpower = 200000
-	
-	state_category = wasteland
-	resources={
-		tungsten=49 # was: 54
+state = {
+	id = 434
+	name = "Angers" # Loire
+	manpower = 1
+	state_category = city
+	provinces = {
+		434
 	}
-
-	history={
-		owner = RAJ
+	history = {
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 1
 		}
-
-	}
-
-	provinces={
-		1116 1996 10810 12322 12730 
 	}
 }

@@ -1,0 +1,14 @@
+state = {
+	id = 2007
+	name = "Mavinga" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2007
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1032
+	name = "Chistopol" # Kazan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1032
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

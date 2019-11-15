@@ -1,0 +1,15 @@
+state = {
+	id = 2289
+	name = "Puca Urco" # Pastaza
+	manpower = 1
+	state_category = city
+	provinces = {
+		2289
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

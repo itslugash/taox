@@ -1,0 +1,14 @@
+state = {
+	id = 1968
+	name = "Bossangoa" # Ubangi-Shari
+	manpower = 1
+	state_category = city
+	provinces = {
+		1968
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

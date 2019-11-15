@@ -1,39 +1,15 @@
 state = {
 	id = 168
-	name = "Murcia"
-	manpower = 993633
-	state_category = eight
-
+	name = "Carbondale" # Illinois
+	manpower = 1
+	state_category = city
 	provinces = {
-		832 942 1093 3835 4195 7111 9903 10024 10109 11807 11884
+		168
 	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
-		victory_points = { # Albacete
-			832 5
-		}
-		victory_points = { # Murcia
-			1093 10
-		}
-		victory_points = { # Lorca
-			7111 3
-		}
-		victory_points = { # Cartagena
-			10024 5
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
-			air_base = 2
-			10024 = {
-				naval_base = 8
-			}
 		}
 	}
 }

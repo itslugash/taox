@@ -1,0 +1,14 @@
+state = {
+	id = 1291
+	name = "Ahmedabad" # Gujarat
+	manpower = 1
+	state_category = city
+	provinces = {
+		1291
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1831
+	name = "Rabak" # Sudan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1831
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

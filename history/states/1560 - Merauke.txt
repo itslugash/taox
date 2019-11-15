@@ -1,0 +1,14 @@
+state = {
+	id = 1560
+	name = "Merauke" # Western New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1560
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

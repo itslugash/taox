@@ -1,0 +1,14 @@
+state = {
+	id = 1979
+	name = "Biloka" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		1979
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

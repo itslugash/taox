@@ -1,0 +1,15 @@
+state = {
+	id = 2357
+	name = "Curuzú Cuatiú" # Corrientes
+	manpower = 1
+	state_category = city
+	provinces = {
+		2357
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

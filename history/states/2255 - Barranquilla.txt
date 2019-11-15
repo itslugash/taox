@@ -1,0 +1,15 @@
+state = {
+	id = 2255
+	name = "Barranquilla" # Antioquía
+	manpower = 1
+	state_category = city
+	provinces = {
+		2255
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2019
+	name = "Entebbe" # Uganda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2019
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

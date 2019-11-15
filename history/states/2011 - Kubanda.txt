@@ -1,0 +1,14 @@
+state = {
+	id = 2011
+	name = "Kubanda" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2011
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

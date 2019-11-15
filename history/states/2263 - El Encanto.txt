@@ -1,0 +1,15 @@
+state = {
+	id = 2263
+	name = "El Encanto" # Guaviare
+	manpower = 1
+	state_category = city
+	provinces = {
+		2263
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

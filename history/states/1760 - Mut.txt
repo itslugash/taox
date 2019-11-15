@@ -1,0 +1,15 @@
+state = {
+	id = 1760
+	name = "Mut" # Egyptian Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1760
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

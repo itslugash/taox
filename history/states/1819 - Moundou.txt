@@ -1,0 +1,14 @@
+state = {
+	id = 1819
+	name = "Moundou" # Waddai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1819
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

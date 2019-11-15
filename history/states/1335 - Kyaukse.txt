@@ -1,0 +1,14 @@
+state = {
+	id = 1335
+	name = "Kyaukse" # Shan States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1335
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1654
+	name = "Bonin" # Bonin Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		1654
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

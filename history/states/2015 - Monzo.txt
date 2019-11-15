@@ -1,0 +1,14 @@
+state = {
+	id = 2015
+	name = "Monzo" # Zambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2015
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

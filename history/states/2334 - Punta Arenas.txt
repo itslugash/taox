@@ -1,0 +1,15 @@
+state = {
+	id = 2334
+	name = "Punta Arenas" # Araucania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2334
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2336
+	name = "Easter Island" # Araucania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2336
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2371
+	name = "Equia" # Jujuy
+	manpower = 1
+	state_category = city
+	provinces = {
+		2371
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

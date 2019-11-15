@@ -23,14 +23,14 @@ news_event = {
 		name = wtt_news.1.b
 		trigger = { 
 			NOT = { original_tag = GER }
-			has_government = right-wing
+			has_government = fascism
 		}
 	}
 	option = {
 		name = wtt_news.1.c
 		trigger = { 
 			NOT = { original_tag = GER }
-			NOT = { has_government = right-wing }
+			NOT = { has_government = fascism }
 		}
 	}
 }
@@ -271,7 +271,7 @@ news_event = {
 	id = wtt_news.8
 	title = wtt_news.8.t
 	desc = wtt_news.8.desc
-	picture = GFX_news_event_herman_goring
+	picture = GFX_news_event_german_reichstag_ruins_2
 	
 	major = yes
 	
@@ -941,7 +941,7 @@ news_event = {
 				original_tag = ENG
 				AND = {
 					original_tag = FRA
-					has_government = centre
+					has_government = democratic
 				}
 			}
 		}
@@ -955,7 +955,7 @@ news_event = {
 				original_tag = ENG
 				AND = {
 					original_tag = FRA
-					has_government = centre
+					has_government = democratic
 				}
 			}
 		}
@@ -1017,7 +1017,7 @@ news_event = {
 				original_tag = JAP
 				AND = {
 					original_tag = MAN
-					has_government = right-wing
+					has_government = fascism
 				}
 			}
 		}
@@ -1057,7 +1057,7 @@ news_event = {
 				original_tag = RAJ
 				AND = {
 					original_tag = MAN
-					has_government = right-wing
+					has_government = fascism
 				}
 			}
 		}

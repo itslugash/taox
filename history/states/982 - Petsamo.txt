@@ -1,0 +1,15 @@
+state = {
+	id = 982
+	name = "Petsamo" # Northern Finland
+	manpower = 1
+	state_category = city
+	provinces = {
+		982
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

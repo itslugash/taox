@@ -1,0 +1,14 @@
+state = {
+	id = 1970
+	name = "Bangassou" # Ubangi-Shari
+	manpower = 1
+	state_category = city
+	provinces = {
+		1970
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1899
+	name = "Bondouku" # Ivory Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1899
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

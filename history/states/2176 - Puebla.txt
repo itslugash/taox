@@ -1,0 +1,15 @@
+state = {
+	id = 2176
+	name = "Puebla" # México
+	manpower = 1
+	state_category = city
+	provinces = {
+		2176
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

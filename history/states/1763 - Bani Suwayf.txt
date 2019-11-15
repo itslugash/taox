@@ -1,0 +1,15 @@
+state = {
+	id = 1763
+	name = "Bani Suwayf" # Middle Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1763
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

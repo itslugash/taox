@@ -57,6 +57,12 @@ country_event = {
 				transfer_state = 597
 				transfer_state = 614
 				add_state_claim = 613
+				if = {
+					limit = {
+						ROOT = { controls_state = 743 }
+					}
+					transfer_state = 743
+				}
 			}
 			country_event = { id = japan.2 }
 		}
@@ -1275,7 +1281,7 @@ country_event = {
 
 	trigger = {
 		original_tag = CHI
-		has_government = left-wing
+		has_government = communism
 		Not = {
 			has_dlc = "Waking the Tiger"
 		}
@@ -1285,7 +1291,7 @@ country_event = {
 		}
 		PRC = {
 			exists = yes
-			has_government = left-wing
+			has_government = communism
 		}
 	}
 
@@ -1341,22 +1347,22 @@ country_event = {
 
 	trigger = {
 		original_tag = CHI
-		has_government = syncretic
+		has_government = neutrality
 		NOT = {
 			has_dlc = "Waking the Tiger"
 		}
 		PRC = {
 			exists = yes
-			has_government = left-wing
+			has_government = communism
 		}
-		left-wing > 0.3
+		communism > 0.3
 	}
 
 	mean_time_to_happen = {
 		days = 270
 		modifier = {
 			factor = 0.5
-			left-wing > 0.5
+			communism > 0.5
 		}
 	}
 
@@ -1380,7 +1386,7 @@ country_event = {
 			country_event = { id = china.203 days = 1 }
 		}
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = -0.15
 		}
 	}
@@ -1400,7 +1406,7 @@ country_event = {
 		effect_tooltip = {
 			CHI = {
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = -0.15
 				}		
 			}

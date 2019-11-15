@@ -1,0 +1,15 @@
+state = {
+	id = 2406
+	name = "Cocos Islands" # Christmas & Cocos Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2406
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
+		buildings = {
+		}
+	}
+}

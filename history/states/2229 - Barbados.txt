@@ -1,0 +1,14 @@
+state = {
+	id = 2229
+	name = "Barbados" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2229
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

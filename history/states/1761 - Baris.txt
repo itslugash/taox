@@ -1,0 +1,15 @@
+state = {
+	id = 1761
+	name = "Baris" # Egyptian Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1761
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

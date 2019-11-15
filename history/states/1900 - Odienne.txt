@@ -1,0 +1,14 @@
+state = {
+	id = 1900
+	name = "Odienne" # Windward Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1900
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

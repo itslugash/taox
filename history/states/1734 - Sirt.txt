@@ -1,0 +1,15 @@
+state = {
+	id = 1734
+	name = "Sirt" # Libya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1734
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

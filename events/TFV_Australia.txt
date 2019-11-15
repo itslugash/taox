@@ -182,7 +182,7 @@ country_event = {
 						}
 					}
 					NZL = { is_in_faction = no }
-					has_government = right-wing
+					has_government = fascism
 				}
 			}
 			modifier = {
@@ -406,7 +406,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = INS
-				has_government = right-wing
+				has_government = fascism
 			}
 			white_peace = HOL
 		}
@@ -502,7 +502,7 @@ country_event = {
 			base = 50
 			modifier = {
 				factor = 0
-				has_government = right-wing
+				has_government = fascism
 			}
 			modifier = {
 				add = -20
@@ -527,7 +527,7 @@ country_event = {
 			base = 50
 			modifier = {
 				factor = 0
-				has_government = left-wing
+				has_government = communism
 			}
 		}
 		
@@ -807,6 +807,46 @@ country_event = {
 	}
 }
 
+#coronation visit edward viii
+country_event = {
+	id = tfv_australia.92
+	title = tfv_australia.92.t	
+	desc = tfv_australia.92.desc	#
+	picture = GFX_report_event_royal_visit
+	
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+			base = 33
+		}
+		name = tfv_australia.92.a
+		add_stability = 0.025
+		add_popularity = { ideology = neutrality popularity = 0.075 }
+	}
+
+	option = {
+		ai_chance = {
+			base = 34
+		}
+		name = tfv_australia.92.b
+		add_manpower = 3000
+		add_war_support = 0.075
+		add_popularity = { ideology = neutrality popularity = 0.025 }
+		add_stability = -0.05
+	}
+
+	option = {
+		ai_chance = {
+			base = 33
+		}
+		name = tfv_australia.92.c
+		add_political_power = 50
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		add_stability = -0.025
+	}
+}
+
 # Indonesian Nationalists Alert 
 country_event = {
 	id = tfv_australia.95
@@ -837,7 +877,7 @@ country_event = {
 	option = {
 		name = tfv_australia.96.a
 		start_civil_war = {
-			ideology = right-wing
+			ideology = fascism
 			size = 0.5
 			states = { 334 673 669 668 738 667 }
 		}
@@ -849,31 +889,31 @@ country_event = {
 		name = tfv_australia.96.b
 		if = {
 			limit = {
-				has_government = centre
+				has_government = democratic
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = centre
+				ruling_party = fascism
+				ideology = democratic
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = left-wing
+				has_government = communism
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = left-wing
+				ruling_party = fascism
+				ideology = communism
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = syncretic
+				has_government = neutrality
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = syncretic
+				ruling_party = fascism
+				ideology = neutrality
 				size = 0.5
 			}
 		}

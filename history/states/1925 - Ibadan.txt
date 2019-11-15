@@ -1,0 +1,14 @@
+state = {
+	id = 1925
+	name = "Ibadan" # Yoruba States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1925
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

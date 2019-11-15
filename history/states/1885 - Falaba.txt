@@ -1,0 +1,14 @@
+state = {
+	id = 1885
+	name = "Falaba" # Sierra Leone
+	manpower = 1
+	state_category = city
+	provinces = {
+		1885
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

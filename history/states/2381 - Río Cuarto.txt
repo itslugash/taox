@@ -1,0 +1,15 @@
+state = {
+	id = 2381
+	name = "Río Cuarto" # La Pampa
+	manpower = 1
+	state_category = city
+	provinces = {
+		2381
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

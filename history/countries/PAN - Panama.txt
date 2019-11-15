@@ -1,72 +1,19 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 304
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1932.6.5"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 304
+set_popularities = {
+	social_liberalism = 100
+}
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1932.6.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "José Domingo de Obaldía"
+	desc = "PAN_Jose_Domingo_de_Obaldia_desc"
+	picture = "Portrait_PAN_Jose_Domingo_de_Obaldia.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Harmodio Arias Madrid"
-		desc = "PAN_Harmodio_Arias_Madrid_desc"
-		picture = "GFX_portrait_panama_harmodio_arias_madrid"
-		expire = "1999.12.31"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "PAN_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 10
+}

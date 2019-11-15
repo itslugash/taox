@@ -1,28 +1,15 @@
-state={
-	id=274
-	name="STATE_274"
-
-	history={
-		owner = ENG
-		add_core_of = GHA
-		victory_points = {
-			10862 1 
-		}
+state = {
+	id = 274
+	name = "Cardigan" # Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		274
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
 		buildings = {
-			infrastructure = 3
-			10862 = {
-				naval_base = 2
-
-			}
-
 		}
-
 	}
-
-	provinces={
-		8039 8096 10862 12742 12785 12787 13136 
-	}
-	manpower=3163600
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

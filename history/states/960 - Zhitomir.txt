@@ -1,0 +1,15 @@
+state = {
+	id = 960
+	name = "Zhitomir" # Kiev
+	manpower = 1
+	state_category = city
+	provinces = {
+		960
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

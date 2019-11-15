@@ -1,0 +1,15 @@
+state = {
+	id = 1585
+	name = "Yibin" # Sichuan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1585
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

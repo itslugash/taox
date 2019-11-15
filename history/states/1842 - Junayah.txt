@@ -1,0 +1,15 @@
+state = {
+	id = 1842
+	name = "Junayah" # Darfur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1842
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

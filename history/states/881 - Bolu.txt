@@ -1,0 +1,15 @@
+state = {
+	id = 881
+	name = "Bolu" # Kastamonu
+	manpower = 1
+	state_category = city
+	provinces = {
+		881
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

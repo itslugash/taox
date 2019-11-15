@@ -1,19 +1,15 @@
 state = {
 	id = 41
-	name = "41_UNUSED"
+	name = "Brandon" # Manitoba
 	manpower = 1
-	state_category = zero
-
+	state_category = city
 	provinces = {
-		96
+		41
 	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
+		owner = CAN
+		add_core_of = CAN
 		buildings = {
-			infrastructure = 0
 		}
 	}
 }

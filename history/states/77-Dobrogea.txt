@@ -1,25 +1,15 @@
-
-state={
-	id=77
-	name="STATE_77"
-	manpower = 378000
-	
-	state_category = rural
-
-	history={
-		victory_points = {
-			11597 1
-		}
-		owner = ROM
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-		}
-		add_core_of = ROM
-		add_claim_by = BUL
+state = {
+	id = 77
+	name = "St Pierre & Miquelon" # Saint Pierre and Miquelon
+	manpower = 1
+	state_category = city
+	provinces = {
+		77
 	}
-
-	provinces={
-		9614 11597 
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
 	}
 }

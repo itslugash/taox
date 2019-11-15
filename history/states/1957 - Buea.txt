@@ -1,0 +1,14 @@
+state = {
+	id = 1957
+	name = "Buea" # South Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1957
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

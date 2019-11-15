@@ -1,0 +1,15 @@
+state = {
+	id = 1208
+	name = "Khorug" # Tajikistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1208
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

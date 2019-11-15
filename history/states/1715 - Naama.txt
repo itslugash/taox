@@ -1,0 +1,14 @@
+state = {
+	id = 1715
+	name = "Naama" # Tlemcen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1715
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

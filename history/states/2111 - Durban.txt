@@ -1,0 +1,14 @@
+state = {
+	id = 2111
+	name = "Durban" # Natal-Zululand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2111
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

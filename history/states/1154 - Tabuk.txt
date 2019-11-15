@@ -1,0 +1,15 @@
+state = {
+	id = 1154
+	name = "Tabuk" # Hedjaz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1154
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

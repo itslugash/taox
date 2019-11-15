@@ -1,0 +1,15 @@
+state = {
+	id = 1646
+	name = "Kanazawa" # Chubu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1646
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

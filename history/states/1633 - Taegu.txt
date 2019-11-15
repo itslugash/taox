@@ -1,0 +1,15 @@
+state = {
+	id = 1633
+	name = "Taegu" # Busan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1633
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

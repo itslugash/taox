@@ -1,0 +1,15 @@
+state = {
+	id = 957
+	name = "Kovel" # Rovne
+	manpower = 1
+	state_category = city
+	provinces = {
+		957
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

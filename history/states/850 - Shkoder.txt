@@ -1,0 +1,15 @@
+state = {
+	id = 850
+	name = "Shkoder" # Albania
+	manpower = 1
+	state_category = city
+	provinces = {
+		850
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

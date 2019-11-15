@@ -1,0 +1,14 @@
+state = {
+	id = 2081
+	name = "Linyati" # Hereroland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2081
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

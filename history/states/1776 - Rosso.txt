@@ -1,0 +1,14 @@
+state = {
+	id = 1776
+	name = "Rosso" # Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1776
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

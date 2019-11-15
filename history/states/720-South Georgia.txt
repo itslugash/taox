@@ -1,22 +1,15 @@
-state={
-	id=720
-	name="STATE_720"
-	manpower=30	
-	state_category = tiny_island
-	
-	history=
-	{
-		owner = ENG
-		buildings = {
-			infrastructure = 1
-			10995 = {
-				naval_base = 1
-			}
-		}
-		add_claim_by = ARG
+state = {
+	id = 720
+	name = "Torino" # Piemonte
+	manpower = 1
+	state_category = city
+	provinces = {
+		720
 	}
-	
-	provinces={
-		10995 
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+		}
 	}
 }

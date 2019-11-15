@@ -1,31 +1,15 @@
-state={
-	id=695
-	name="STATE_695"
-	manpower = 76299
-	
-	state_category = rural
-
-	resources={
-		oil=35 # was: 126
+state = {
+	id = 695
+	name = "Königsberg" # Ostpreußen
+	manpower = 1
+	state_category = city
+	provinces = {
+		695
 	}
-
-	history={
-		add_core_of = CRC
-		owner = HOL
-		victory_points = {
-			153 1
-		}
+	history = {
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			fuel_silo = 1
-			infrastructure = 3
-			153 = {
-				naval_base = 1
-				coastal_bunker = 2
-			}
 		}
-	}
-
-	provinces={
-		153 
 	}
 }

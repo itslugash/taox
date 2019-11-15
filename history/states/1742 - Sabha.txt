@@ -1,0 +1,15 @@
+state = {
+	id = 1742
+	name = "Sabha" # Tripoli
+	manpower = 1
+	state_category = city
+	provinces = {
+		1742
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

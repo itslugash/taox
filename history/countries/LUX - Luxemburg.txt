@@ -1,87 +1,19 @@
-﻿#########
-# State #
-#########
-
-	capital = 8
-
-##########
-# Powers #
-##########
-
-	set_stability = 0.8
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1934.6.3"
-		election_frequency = 36
-		elections_allowed = no
+﻿capital = 8
+set_popularities = {
+	market_liberalism = 100
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1910.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+create_country_leader = {
+	name = "William IV"
+	desc = "LUX_William_IV_desc"
+	picture = "Portrait_LUX_William_IV.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Charles Marx"
-		desc = "LUX_Charles_Marx_desc"
-		picture = "Portrait_LUX_Charles_Marx.dds"
-		expire = "1999.12.31"
-		ideology = communism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Joseph Bech"
-		desc = "LUX_Joseph_Bech_desc"
-		picture = "GFX_portrait_luxembourg_joseph_bech"
-		expire = "1999.12.31"
-		ideology = conservatism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Charlotte"
-		desc = "LUX_Charlotte_desc"
-		picture = "Portrait_LUX_Charlotte.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		gw_artillery = 1
-		tech_support = 1		
-		tech_engineers = 1
-		early_fighter = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "LUX_1936"
+}

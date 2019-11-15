@@ -1,0 +1,14 @@
+state = {
+	id = 1282
+	name = "Raigarh" # Nagpur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1282
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

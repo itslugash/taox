@@ -1,0 +1,15 @@
+state = {
+	id = 841
+	name = "Kalamata" # Peloponnese
+	manpower = 1
+	state_category = city
+	provinces = {
+		841
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

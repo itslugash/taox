@@ -1,0 +1,15 @@
+state = {
+	id = 1590
+	name = "Lhodrak" # Tibet
+	manpower = 1
+	state_category = city
+	provinces = {
+		1590
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

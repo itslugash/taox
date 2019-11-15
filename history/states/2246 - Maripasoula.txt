@@ -1,0 +1,14 @@
+state = {
+	id = 2246
+	name = "Maripasoula" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2246
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

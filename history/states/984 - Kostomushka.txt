@@ -1,0 +1,15 @@
+state = {
+	id = 984
+	name = "Kostomushka" # Karelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		984
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

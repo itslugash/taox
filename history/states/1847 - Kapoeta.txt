@@ -1,0 +1,15 @@
+state = {
+	id = 1847
+	name = "Kapoeta" # Equatoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1847
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

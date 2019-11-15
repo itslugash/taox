@@ -1,82 +1,21 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 318
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0.3
-			}
-			centre = { 
-				popularity = 0
-			}
-			right-wing = {
-				popularity = 99.7
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 318
+set_popularities = {
+	social_liberalism = 60
+	social_conservatism = 30
+	paternal_autocracy = 10
+}
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1909.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "François C. Antoine Simon"
+	desc = "HAI_Francois_C_Antoine_Simon_desc"
+	picture = "Portrait_HAI_Francois_C_Antoine_Simon.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Jacques Roumain"
-		desc = "HAI_Jacques_Roumain_desc"
-		picture = "Portrait_HAI_Jacques_Roumain.dds"
-		expire = "1999.12.31"
-		ideology = communism
-		traits = {
-		}
-	}
-
-	create_country_leader = {
-		name = "Sténio Vincent"
-		desc = "HAI_Stenio_Vincent_desc"
-		picture = "GFX_portrait_haiti_stenio_vincent"
-		expire = "1999.12.31"
-		ideology = conservatism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "HAI_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 5
+}

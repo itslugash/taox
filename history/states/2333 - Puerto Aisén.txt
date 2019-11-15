@@ -1,0 +1,15 @@
+state = {
+	id = 2333
+	name = "Puerto Aisén" # Araucania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2333
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

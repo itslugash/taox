@@ -1,0 +1,15 @@
+state = {
+	id = 917
+	name = "Jerusalem" # Palestine
+	manpower = 1
+	state_category = city
+	provinces = {
+		917
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

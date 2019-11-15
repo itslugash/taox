@@ -1,0 +1,15 @@
+state = {
+	id = 1326
+	name = "Katmandu" # Himalayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1326
+	}
+	history = {
+		owner = NEP
+		add_core_of = NEP
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2034
+	name = "Kigali" # Tanganyika
+	manpower = 1
+	state_category = city
+	provinces = {
+		2034
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

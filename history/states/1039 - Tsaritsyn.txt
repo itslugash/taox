@@ -1,0 +1,15 @@
+state = {
+	id = 1039
+	name = "Tsaritsyn" # Astrakhan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1039
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

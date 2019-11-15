@@ -1,0 +1,15 @@
+state = {
+	id = 2203
+	name = "Limón" # Costa Rica
+	manpower = 1
+	state_category = city
+	provinces = {
+		2203
+	}
+	history = {
+		owner = COS
+		add_core_of = COS
+		buildings = {
+		}
+	}
+}

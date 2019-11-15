@@ -1,0 +1,15 @@
+state = {
+	id = 2254
+	name = "Cartagena de Indias" # Antioquía
+	manpower = 1
+	state_category = city
+	provinces = {
+		2254
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

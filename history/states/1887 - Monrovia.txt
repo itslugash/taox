@@ -1,0 +1,15 @@
+state = {
+	id = 1887
+	name = "Monrovia" # Liberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1887
+	}
+	history = {
+		owner = LIB
+		add_core_of = LIB
+		buildings = {
+		}
+	}
+}

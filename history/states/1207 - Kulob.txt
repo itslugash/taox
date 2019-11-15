@@ -1,0 +1,15 @@
+state = {
+	id = 1207
+	name = "Kulob" # Tajikistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1207
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,28 +1,15 @@
-
-state={
-	id=542
-	name="STATE_542"
-	manpower = 234000
-	
-	state_category = wasteland
-	
-	resources={
-		chromium=90 # was: 168
+state = {
+	id = 542
+	name = "Lingen" # Hannover
+	manpower = 1
+	state_category = city
+	provinces = {
+		542
 	}
-
-	history={
-		owner = ENG
+	history = {
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			infrastructure = 1
 		}
-		add_core_of = BOT
-		victory_points = {
-			8214 1
-		}
-
-	}
-
-	provinces={
-		1580 8214 10525 12940 12963 
 	}
 }

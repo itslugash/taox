@@ -1,0 +1,15 @@
+state = {
+	id = 2329
+	name = "Temuco" # Los Ríos
+	manpower = 1
+	state_category = city
+	provinces = {
+		2329
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

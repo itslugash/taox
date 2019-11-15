@@ -1,0 +1,15 @@
+state = {
+	id = 906
+	name = "Suwayda" # Syria
+	manpower = 1
+	state_category = city
+	provinces = {
+		906
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

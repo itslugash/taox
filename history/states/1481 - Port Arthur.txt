@@ -1,0 +1,15 @@
+state = {
+	id = 1481
+	name = "Port Arthur" # Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1481
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

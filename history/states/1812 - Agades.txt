@@ -1,0 +1,14 @@
+state = {
+	id = 1812
+	name = "Agades" # Niger
+	manpower = 1
+	state_category = city
+	provinces = {
+		1812
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

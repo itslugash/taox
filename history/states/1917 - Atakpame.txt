@@ -1,0 +1,14 @@
+state = {
+	id = 1917
+	name = "Atakpame" # Togo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1917
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

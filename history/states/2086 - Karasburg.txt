@@ -1,0 +1,14 @@
+state = {
+	id = 2086
+	name = "Karasburg" # Namaqualand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2086
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

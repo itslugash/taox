@@ -1,0 +1,15 @@
+state = {
+	id = 1846
+	name = "Lado" # Equatoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1846
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

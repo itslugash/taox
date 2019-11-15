@@ -1,0 +1,14 @@
+state = {
+	id = 1279
+	name = "Jagdalpur" # Nagpur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1279
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

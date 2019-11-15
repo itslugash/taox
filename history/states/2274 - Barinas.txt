@@ -1,0 +1,15 @@
+state = {
+	id = 2274
+	name = "Barinas" # Miranda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2274
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

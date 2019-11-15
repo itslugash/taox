@@ -1,0 +1,15 @@
+state = {
+	id = 1759
+	name = "Bawiti" # Matruh
+	manpower = 1
+	state_category = city
+	provinces = {
+		1759
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

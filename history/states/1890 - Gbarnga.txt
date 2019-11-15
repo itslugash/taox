@@ -1,0 +1,15 @@
+state = {
+	id = 1890
+	name = "Gbarnga" # Liberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1890
+	}
+	history = {
+		owner = LIB
+		add_core_of = LIB
+		buildings = {
+		}
+	}
+}

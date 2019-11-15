@@ -1,0 +1,15 @@
+state = {
+	id = 990
+	name = "Kotlas" # Galich
+	manpower = 1
+	state_category = city
+	provinces = {
+		990
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

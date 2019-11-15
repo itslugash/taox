@@ -1,0 +1,14 @@
+state = {
+	id = 1799
+	name = "Sikasso" # Eastern Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1799
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

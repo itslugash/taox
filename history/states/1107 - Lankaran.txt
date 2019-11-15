@@ -1,0 +1,15 @@
+state = {
+	id = 1107
+	name = "Lankaran" # Azerbaijan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1107
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

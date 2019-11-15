@@ -1,0 +1,15 @@
+state = {
+	id = 1205
+	name = "Kyzyl Arvat" # Turkmenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1205
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1449
+	name = "Ambon" # Moluccas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1449
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

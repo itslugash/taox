@@ -1,0 +1,14 @@
+state = {
+	id = 2115
+	name = "Tananarive" # North Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2115
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1990
+	name = "Nyangwe" # Congo Orientale
+	manpower = 1
+	state_category = city
+	provinces = {
+		1990
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

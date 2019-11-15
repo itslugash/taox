@@ -1,36 +1,15 @@
 state = {
 	id = 179
-	name = "Alentejo"
-	manpower = 1206267
-	state_category = nine
-
+	name = "Columbus" # Ohio
+	manpower = 1
+	state_category = city
 	provinces = {
-		844 924 970 980 3846 3866 3886 3926 6884 6933 6986 9765 9819 9869 11768
+		179
 	}
-
-	resources = {
-		tungsten = 48
-	}
-
 	history = {
-		owner = POR
-		add_core_of = POR
-
-		victory_points = { # Setúbal
-			970 3
-		}
-		victory_points = { # Évora
-			9869 1
-		}
-		victory_points = { # Santarém
-			11768 1
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 5
 		}
 	}
 }

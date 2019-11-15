@@ -1,0 +1,15 @@
+state = {
+	id = 952
+	name = "Ternopil" # East Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		952
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
+	}
+}

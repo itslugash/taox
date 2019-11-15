@@ -1,0 +1,15 @@
+state = {
+	id = 920
+	name = "Jaffa" # Gaza
+	manpower = 1
+	state_category = city
+	provinces = {
+		920
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

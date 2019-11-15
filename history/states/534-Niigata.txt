@@ -1,29 +1,15 @@
-
-state={
-	id=534
-	name="STATE_534" # Hokuriku
-	manpower = 1933000
-	
+state = {
+	id = 534
+	name = "Hannover" # Hannover
+	manpower = 1
 	state_category = city
-
-	history={
-		owner = JAP
-		add_core_of = JAP
-		buildings = {
-			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
-			fuel_silo = 1
-		}
-		
-		victory_points = {
-			1117 10
-		}
-
-
+	provinces = {
+		534
 	}
-
-	provinces={
-		1117 9952 10128 11930 11989 12007 
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
 	}
 }

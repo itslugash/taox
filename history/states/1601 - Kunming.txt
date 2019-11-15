@@ -1,0 +1,15 @@
+state = {
+	id = 1601
+	name = "Kunming" # Yunnan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1601
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

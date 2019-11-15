@@ -1,0 +1,14 @@
+state = {
+	id = 1293
+	name = "Mandvi" # Gujarat
+	manpower = 1
+	state_category = city
+	provinces = {
+		1293
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

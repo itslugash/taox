@@ -1,0 +1,15 @@
+state = {
+	id = 798
+	name = "Niš" # Southern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		798
+	}
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+		}
+	}
+}

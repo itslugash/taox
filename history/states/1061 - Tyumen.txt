@@ -1,0 +1,15 @@
+state = {
+	id = 1061
+	name = "Tyumen" # Ural
+	manpower = 1
+	state_category = city
+	provinces = {
+		1061
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1946
+	name = "Kebbi" # Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1946
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

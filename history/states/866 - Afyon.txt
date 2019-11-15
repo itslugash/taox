@@ -1,0 +1,15 @@
+state = {
+	id = 866
+	name = "Afyon" # Hudavendigar
+	manpower = 1
+	state_category = city
+	provinces = {
+		866
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

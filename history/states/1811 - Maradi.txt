@@ -1,0 +1,14 @@
+state = {
+	id = 1811
+	name = "Maradi" # Outer Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1811
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

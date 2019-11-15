@@ -1,0 +1,14 @@
+state = {
+	id = 2067
+	name = "Lilongwe" # Kazembe
+	manpower = 1
+	state_category = city
+	provinces = {
+		2067
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

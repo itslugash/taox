@@ -1,0 +1,15 @@
+state = {
+	id = 1389
+	name = "Alor Setar" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1389
+	}
+	history = {
+		owner = KDH
+		add_core_of = KDH
+		buildings = {
+		}
+	}
+}

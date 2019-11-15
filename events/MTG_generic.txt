@@ -66,7 +66,15 @@ country_event = {
 	# Yes we will
 	option = {
 		name = mtg_exile_government.3.a
-		ai_chance = { factor = 1 }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_navy_size = {
+				    size > 75
+				}
+			}
+		}
 		transfer_navy = {
 			target = FROM
 			is_government_in_exile = yes
@@ -85,7 +93,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_navy_size = {
-				    size > 75
+				    size < 25
 				}
 			}
 		}
@@ -154,7 +162,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = syncretic
+					has_government = neutrality
 				}
 			}
 			effect_tooltip = {
@@ -163,7 +171,7 @@ country_event = {
 					days = 365
 				}
 				set_politics = {
-					ruling_party = syncretic
+					ruling_party = neutrality
 					elections_allowed = no
 				}
 			}
@@ -171,7 +179,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = centre
+					has_government = democratic
 				}
 			}
 			effect_tooltip = {
@@ -180,7 +188,24 @@ country_event = {
 					days = 365
 				}
 				set_politics = {
-					ruling_party = centre
+					ruling_party = democratic
+					elections_allowed = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = fascism
+				}
+			}
+			effect_tooltip = {
+				add_timed_idea = {
+					idea = political_turmoil
+					days = 365
+				}
+				set_politics = {
+					ruling_party = fascism
 					elections_allowed = no
 				}
 			}
@@ -188,7 +213,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = right-wing
+					has_government = communism
 				}
 			}
 			effect_tooltip = {
@@ -197,24 +222,7 @@ country_event = {
 					days = 365
 				}
 				set_politics = {
-					ruling_party = right-wing
-					elections_allowed = no
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_government = left-wing
-				}
-			}
-			effect_tooltip = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 			}

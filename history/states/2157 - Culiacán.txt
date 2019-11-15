@@ -1,0 +1,15 @@
+state = {
+	id = 2157
+	name = "Culiacán" # Durango
+	manpower = 1
+	state_category = city
+	provinces = {
+		2157
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1897
+	name = "Akoupe" # Ivory Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1897
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

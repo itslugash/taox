@@ -1,0 +1,15 @@
+state = {
+	id = 2395
+	name = "Curacó" # Río Negro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2395
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

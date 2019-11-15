@@ -1,0 +1,14 @@
+state = {
+	id = 1250
+	name = "Bhagalpur" # Bihar
+	manpower = 1
+	state_category = city
+	provinces = {
+		1250
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

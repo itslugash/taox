@@ -1,0 +1,14 @@
+state = {
+	id = 2052
+	name = "Massekisse" # Lourenço Marques
+	manpower = 1
+	state_category = city
+	provinces = {
+		2052
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

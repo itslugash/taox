@@ -1,0 +1,15 @@
+state = {
+	id = 1123
+	name = "Zanjan" # Tabriz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1123
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

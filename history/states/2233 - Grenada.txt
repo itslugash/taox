@@ -1,0 +1,14 @@
+state = {
+	id = 2233
+	name = "Grenada" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2233
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2375
+	name = "Vinchina" # Tucumán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2375
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

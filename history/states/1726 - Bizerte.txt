@@ -1,0 +1,15 @@
+state = {
+	id = 1726
+	name = "Bizerte" # Tunisia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1726
+	}
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+		}
+	}
+}

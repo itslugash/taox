@@ -1,0 +1,15 @@
+state = {
+	id = 2200
+	name = "Bluefields" # Nicaragua
+	manpower = 1
+	state_category = city
+	provinces = {
+		2200
+	}
+	history = {
+		owner = NIC
+		add_core_of = NIC
+		buildings = {
+		}
+	}
+}

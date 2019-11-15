@@ -1,0 +1,15 @@
+state = {
+	id = 886
+	name = "Ardahan" # Kars
+	manpower = 1
+	state_category = city
+	provinces = {
+		886
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 940
+	name = "Pinsk" # Brėst
+	manpower = 1
+	state_category = city
+	provinces = {
+		940
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

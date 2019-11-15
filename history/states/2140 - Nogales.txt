@@ -1,0 +1,15 @@
+state = {
+	id = 2140
+	name = "Nogales" # Sonora
+	manpower = 1
+	state_category = city
+	provinces = {
+		2140
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

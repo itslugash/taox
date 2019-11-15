@@ -1,0 +1,14 @@
+state = {
+	id = 2237
+	name = "Trinidad" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2237
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

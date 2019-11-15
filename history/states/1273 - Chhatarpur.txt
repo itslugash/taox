@@ -1,0 +1,14 @@
+state = {
+	id = 1273
+	name = "Chhatarpur" # Central India
+	manpower = 1
+	state_category = city
+	provinces = {
+		1273
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

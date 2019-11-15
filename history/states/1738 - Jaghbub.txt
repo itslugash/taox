@@ -1,0 +1,15 @@
+state = {
+	id = 1738
+	name = "Jaghbub" # Libyan Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1738
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

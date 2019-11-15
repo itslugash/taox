@@ -1,0 +1,15 @@
+state = {
+	id = 821
+	name = "Edessa" # West Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		821
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

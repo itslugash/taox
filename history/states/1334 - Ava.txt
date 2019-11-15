@@ -1,0 +1,14 @@
+state = {
+	id = 1334
+	name = "Ava" # Shan States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1334
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

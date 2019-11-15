@@ -1,0 +1,14 @@
+state = {
+	id = 1300
+	name = "Bijapur" # Bombay
+	manpower = 1
+	state_category = city
+	provinces = {
+		1300
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

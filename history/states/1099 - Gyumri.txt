@@ -1,0 +1,15 @@
+state = {
+	id = 1099
+	name = "Gyumri" # Armenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1099
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

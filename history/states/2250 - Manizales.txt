@@ -1,0 +1,15 @@
+state = {
+	id = 2250
+	name = "Manizales" # Cundinamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2250
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

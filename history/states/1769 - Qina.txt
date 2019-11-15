@@ -1,0 +1,15 @@
+state = {
+	id = 1769
+	name = "Qina" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1769
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

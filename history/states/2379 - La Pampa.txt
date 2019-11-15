@@ -1,0 +1,15 @@
+state = {
+	id = 2379
+	name = "Córdoba de Argentina" # La Pampa
+	manpower = 1
+	state_category = city
+	provinces = {
+		2379
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1426
+	name = "Pontianak" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1426
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

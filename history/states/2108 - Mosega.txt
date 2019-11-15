@@ -1,0 +1,14 @@
+state = {
+	id = 2108
+	name = "Mosega" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2108
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

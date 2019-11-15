@@ -1,0 +1,15 @@
+state = {
+	id = 1595
+	name = "Ili" # Xinjiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1595
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

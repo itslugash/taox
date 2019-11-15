@@ -1,0 +1,15 @@
+state = {
+	id = 2345
+	name = "Paysandú" # Uruguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2345
+	}
+	history = {
+		owner = URG
+		add_core_of = URG
+		buildings = {
+		}
+	}
+}

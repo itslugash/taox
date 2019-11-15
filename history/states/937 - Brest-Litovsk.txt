@@ -1,0 +1,15 @@
+state = {
+	id = 937
+	name = "Brest-Litovsk" # Brėst
+	manpower = 1
+	state_category = city
+	provinces = {
+		937
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

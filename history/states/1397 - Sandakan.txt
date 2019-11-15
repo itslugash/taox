@@ -1,0 +1,15 @@
+state = {
+	id = 1397
+	name = "Sandakan" # North Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1397
+	}
+	history = {
+		owner = NBO
+		add_core_of = NBO
+		buildings = {
+		}
+	}
+}

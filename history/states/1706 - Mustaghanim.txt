@@ -1,0 +1,14 @@
+state = {
+	id = 1706
+	name = "Mustaghanim" # Algiers
+	manpower = 1
+	state_category = city
+	provinces = {
+		1706
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

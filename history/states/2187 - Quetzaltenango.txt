@@ -1,0 +1,15 @@
+state = {
+	id = 2187
+	name = "Quetzaltenango" # Guatemala
+	manpower = 1
+	state_category = city
+	provinces = {
+		2187
+	}
+	history = {
+		owner = GUA
+		add_core_of = GUA
+		buildings = {
+		}
+	}
+}

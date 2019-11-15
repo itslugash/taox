@@ -1,0 +1,14 @@
+state = {
+	id = 2230
+	name = "Guadeloupe" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2230
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

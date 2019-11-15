@@ -1,0 +1,15 @@
+state = {
+	id = 976
+	name = "Mariupol" # Luhansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		976
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

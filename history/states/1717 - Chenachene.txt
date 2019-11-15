@@ -1,0 +1,14 @@
+state = {
+	id = 1717
+	name = "Chenachene" # West Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1717
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

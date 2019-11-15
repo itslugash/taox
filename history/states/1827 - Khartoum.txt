@@ -1,0 +1,15 @@
+state = {
+	id = 1827
+	name = "Khartoum" # Sudan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1827
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

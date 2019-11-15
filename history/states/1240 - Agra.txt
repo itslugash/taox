@@ -1,0 +1,14 @@
+state = {
+	id = 1240
+	name = "Agra" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1240
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

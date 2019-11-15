@@ -1,0 +1,14 @@
+state = {
+	id = 1290
+	name = "Umarkot" # Sind
+	manpower = 1
+	state_category = city
+	provinces = {
+		1290
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

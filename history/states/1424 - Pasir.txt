@@ -1,0 +1,14 @@
+state = {
+	id = 1424
+	name = "Pasir" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1424
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

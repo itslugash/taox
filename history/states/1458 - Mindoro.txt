@@ -1,0 +1,14 @@
+state = {
+	id = 1458
+	name = "Mindoro" # Luzón
+	manpower = 1
+	state_category = city
+	provinces = {
+		1458
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

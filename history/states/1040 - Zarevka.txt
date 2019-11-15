@@ -1,0 +1,15 @@
+state = {
+	id = 1040
+	name = "Zarevka" # Astrakhan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1040
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

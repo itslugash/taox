@@ -1,0 +1,15 @@
+state = {
+	id = 1142
+	name = "Bandar Abbas" # Laristan-Sistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1142
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

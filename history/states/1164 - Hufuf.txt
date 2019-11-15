@@ -1,0 +1,15 @@
+state = {
+	id = 1164
+	name = "Hufuf" # Nejd
+	manpower = 1
+	state_category = city
+	provinces = {
+		1164
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		}
+	}
+}

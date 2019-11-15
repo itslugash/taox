@@ -1,0 +1,15 @@
+state = {
+	id = 1201
+	name = "Khojand" # Tajikistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1201
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

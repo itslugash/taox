@@ -1,0 +1,14 @@
+state = {
+	id = 2118
+	name = "Tolanaro" # South Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2118
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

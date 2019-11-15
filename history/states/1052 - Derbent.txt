@@ -1,0 +1,15 @@
+state = {
+	id = 1052
+	name = "Derbent" # North Caucasia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1052
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 988
+	name = "Povyents" # Karelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		988
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

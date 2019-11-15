@@ -1,0 +1,15 @@
+state = {
+	id = 1470
+	name = "Anqing" # Southern Anhui
+	manpower = 1
+	state_category = city
+	provinces = {
+		1470
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

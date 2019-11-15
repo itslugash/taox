@@ -1,0 +1,14 @@
+state = {
+	id = 2031
+	name = "Wajir" # Kenya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2031
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

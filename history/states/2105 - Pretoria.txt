@@ -1,0 +1,14 @@
+state = {
+	id = 2105
+	name = "Pretoria" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2105
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

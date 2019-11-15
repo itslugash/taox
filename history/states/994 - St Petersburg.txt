@@ -1,0 +1,15 @@
+state = {
+	id = 994
+	name = "St Petersburg" # Ingria
+	manpower = 1
+	state_category = city
+	provinces = {
+		994
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

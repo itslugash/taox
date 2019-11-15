@@ -1,0 +1,14 @@
+state = {
+	id = 1423
+	name = "Banjarmasin" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1423
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

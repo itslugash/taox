@@ -1,22 +1,15 @@
-
-state={
-	id=778
-	name="STATE_778" # Upper Volta
-	manpower = 3186184
-	
-	state_category = pastoral
-	history={
-		owner = FRA
-		add_core_of = VOL
-		victory_points = {
-			10836 1
-		}
-		buildings = {
-			infrastructure = 3
-		}
+state = {
+	id = 778
+	name = "Fiume" # Istria
+	manpower = 1
+	state_category = city
+	provinces = {
+		778
 	}
-
-	provinces={
-		2001 7950 7983 8071 10836 12851
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

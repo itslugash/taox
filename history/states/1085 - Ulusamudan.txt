@@ -1,0 +1,15 @@
+state = {
+	id = 1085
+	name = "Ulusamudan" # Outer Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1085
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

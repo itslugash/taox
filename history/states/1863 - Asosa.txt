@@ -1,0 +1,15 @@
+state = {
+	id = 1863
+	name = "Asosa" # Amhara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1863
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

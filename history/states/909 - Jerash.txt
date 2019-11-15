@@ -1,0 +1,15 @@
+state = {
+	id = 909
+	name = "Jerash" # Transjordan
+	manpower = 1
+	state_category = city
+	provinces = {
+		909
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

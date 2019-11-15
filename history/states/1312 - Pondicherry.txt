@@ -1,0 +1,14 @@
+state = {
+	id = 1312
+	name = "Pondicherry" # Madras
+	manpower = 1
+	state_category = city
+	provinces = {
+		1312
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

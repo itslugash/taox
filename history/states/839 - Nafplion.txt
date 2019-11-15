@@ -1,0 +1,15 @@
+state = {
+	id = 839
+	name = "Nafplion" # Peloponnese
+	manpower = 1
+	state_category = city
+	provinces = {
+		839
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

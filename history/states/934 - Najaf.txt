@@ -1,0 +1,15 @@
+state = {
+	id = 934
+	name = "Najaf" # Baghdad
+	manpower = 1
+	state_category = city
+	provinces = {
+		934
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

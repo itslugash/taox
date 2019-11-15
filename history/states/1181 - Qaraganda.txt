@@ -1,0 +1,15 @@
+state = {
+	id = 1181
+	name = "Qaraganda" # Akmolinsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1181
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

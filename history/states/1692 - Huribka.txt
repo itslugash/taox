@@ -1,0 +1,15 @@
+state = {
+	id = 1692
+	name = "Huribka" # Morocco
+	manpower = 1
+	state_category = city
+	provinces = {
+		1692
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

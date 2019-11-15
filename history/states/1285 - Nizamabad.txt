@@ -1,0 +1,15 @@
+state = {
+	id = 1285
+	name = "Nizamabad" # Hyderabad
+	manpower = 1
+	state_category = city
+	provinces = {
+		1285
+	}
+	history = {
+		owner = HYD
+		add_core_of = HYD
+		buildings = {
+		}
+	}
+}

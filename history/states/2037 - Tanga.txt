@@ -1,0 +1,14 @@
+state = {
+	id = 2037
+	name = "Tanga" # Zanzibar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2037
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

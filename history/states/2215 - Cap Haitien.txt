@@ -1,0 +1,15 @@
+state = {
+	id = 2215
+	name = "Cap Haitien" # Hispaniola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2215
+	}
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		buildings = {
+		}
+	}
+}

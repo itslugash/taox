@@ -1,0 +1,14 @@
+state = {
+	id = 2114
+	name = "Mbabane" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2114
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

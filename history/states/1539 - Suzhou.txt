@@ -1,0 +1,15 @@
+state = {
+	id = 1539
+	name = "Suzhou" # Suzhou
+	manpower = 1
+	state_category = city
+	provinces = {
+		1539
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1862
+	name = "Bonga" # Amhara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1862
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

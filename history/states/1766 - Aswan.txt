@@ -1,0 +1,15 @@
+state = {
+	id = 1766
+	name = "Aswan" # Egyptian Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1766
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

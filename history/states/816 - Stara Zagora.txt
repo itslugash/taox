@@ -1,0 +1,15 @@
+state = {
+	id = 816
+	name = "Stara Zagora" # Rumelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		816
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

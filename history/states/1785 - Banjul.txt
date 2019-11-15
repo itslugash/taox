@@ -1,0 +1,14 @@
+state = {
+	id = 1785
+	name = "Banjul" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1785
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

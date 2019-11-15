@@ -1,0 +1,14 @@
+state = {
+	id = 1794
+	name = "Bamako" # Western Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1794
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

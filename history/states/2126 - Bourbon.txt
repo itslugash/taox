@@ -1,0 +1,14 @@
+state = {
+	id = 2126
+	name = "Bourbon" # Indian Ocean Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2126
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1732
+	name = "Gharyan" # Tripoli
+	manpower = 1
+	state_category = city
+	provinces = {
+		1732
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

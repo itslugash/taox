@@ -1,0 +1,14 @@
+state = {
+	id = 2014
+	name = "Kasempa" # Zambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2014
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1937
+	name = "Tukari" # Nigeria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1937
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

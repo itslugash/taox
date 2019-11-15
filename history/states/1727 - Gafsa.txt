@@ -1,0 +1,15 @@
+state = {
+	id = 1727
+	name = "Gafsa" # Tunisia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1727
+	}
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+		}
+	}
+}

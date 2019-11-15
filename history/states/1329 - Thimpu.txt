@@ -1,0 +1,15 @@
+state = {
+	id = 1329
+	name = "Thimpu" # Himalayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1329
+	}
+	history = {
+		owner = BHU
+		add_core_of = BHU
+		buildings = {
+		}
+	}
+}

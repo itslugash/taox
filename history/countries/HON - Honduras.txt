@@ -1,72 +1,19 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 312
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0.1
-			}
-			centre = { 
-				popularity = 99.9
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1932.10.28"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 312
+set_popularities = {
+	social_conservatism = 100
+}
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1907.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Miguel Rafael Dávila Cuéllar"
+	desc = "HON_Miguel_Rafael_Davila_Cuellar_desc"
+	picture = "Portrait_HON_Miguel_Rafael_Davila_Cuellar.tga"
+	expire = "1999.12.31"
+	ideology = social_conservatism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Tiburcio Carías Andino"
-		desc = "HON_Tiburcio_Carias_Andino_desc"
-		picture = "GFX_portrait_honduras_portrait_tiburcio_carias_andino"
-		expire = "1999.12.31"
-		ideology = conservatism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "HON_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 10
+}

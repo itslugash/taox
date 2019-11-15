@@ -1,0 +1,14 @@
+state = {
+	id = 854
+	name = "Malta" # Sicily
+	manpower = 1
+	state_category = city
+	provinces = {
+		854
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

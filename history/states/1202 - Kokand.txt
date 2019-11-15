@@ -1,0 +1,15 @@
+state = {
+	id = 1202
+	name = "Kokand" # Kirghizia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1202
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

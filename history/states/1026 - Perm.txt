@@ -1,0 +1,15 @@
+state = {
+	id = 1026
+	name = "Perm" # Perm
+	manpower = 1
+	state_category = city
+	provinces = {
+		1026
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

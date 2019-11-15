@@ -1,26 +1,15 @@
-
-state={
-	id=554
-	name="STATE_554"
-	manpower = 547797
-	
-	state_category = rural
-
-	history={
-		owner = FRA
-		victory_points = {
-			4111 5
-		}
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-		}
-		add_core_of = SYR	
-
+state = {
+	id = 554
+	name = "Erfurt" # Magdeburg
+	manpower = 1
+	state_category = city
+	provinces = {
+		554
 	}
-
-
-	provinces={
-		1074 4111 4486 4550 7184 
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
 	}
 }

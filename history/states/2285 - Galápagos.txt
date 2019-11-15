@@ -1,0 +1,15 @@
+state = {
+	id = 2285
+	name = "Galápagos" # Ecuador
+	manpower = 1
+	state_category = city
+	provinces = {
+		2285
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		buildings = {
+		}
+	}
+}

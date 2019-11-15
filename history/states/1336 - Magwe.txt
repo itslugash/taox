@@ -1,0 +1,14 @@
+state = {
+	id = 1336
+	name = "Magwe" # Shan States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1336
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

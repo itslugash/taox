@@ -1,0 +1,15 @@
+state = {
+	id = 2163
+	name = "Tampico" # Nuevo León
+	manpower = 1
+	state_category = city
+	provinces = {
+		2163
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

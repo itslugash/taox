@@ -1,0 +1,14 @@
+state = {
+	id = 1777
+	name = "Aleg" # Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1777
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

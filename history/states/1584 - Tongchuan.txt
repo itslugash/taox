@@ -1,0 +1,15 @@
+state = {
+	id = 1584
+	name = "Tongchuan" # Chongqing
+	manpower = 1
+	state_category = city
+	provinces = {
+		1584
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1144
+	name = "Zahedan" # Laristan-Sistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1144
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

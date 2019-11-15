@@ -1,0 +1,15 @@
+state = {
+	id = 1612
+	name = "Beijing" # Northern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1612
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

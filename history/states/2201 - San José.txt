@@ -1,0 +1,15 @@
+state = {
+	id = 2201
+	name = "San José" # Costa Rica
+	manpower = 1
+	state_category = city
+	provinces = {
+		2201
+	}
+	history = {
+		owner = COS
+		add_core_of = COS
+		buildings = {
+		}
+	}
+}

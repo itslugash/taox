@@ -1,0 +1,14 @@
+state = {
+	id = 2046
+	name = "Ujiji" # Tanganyika
+	manpower = 1
+	state_category = city
+	provinces = {
+		2046
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

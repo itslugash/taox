@@ -1,0 +1,15 @@
+state = {
+	id = 1157
+	name = "Riyadh" # Nejd
+	manpower = 1
+	state_category = city
+	provinces = {
+		1157
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		}
+	}
+}

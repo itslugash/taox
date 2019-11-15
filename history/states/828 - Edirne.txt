@@ -1,0 +1,15 @@
+state = {
+	id = 828
+	name = "Edirne" # Thrace
+	manpower = 1
+	state_category = city
+	provinces = {
+		828
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

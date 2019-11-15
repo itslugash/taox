@@ -1,0 +1,15 @@
+state = {
+	id = 2315
+	name = "Tarija" # Jujuy
+	manpower = 1
+	state_category = city
+	provinces = {
+		2315
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+		}
+	}
+}

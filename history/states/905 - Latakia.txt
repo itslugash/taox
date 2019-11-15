@@ -1,0 +1,15 @@
+state = {
+	id = 905
+	name = "Latakia" # Aleppo
+	manpower = 1
+	state_category = city
+	provinces = {
+		905
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

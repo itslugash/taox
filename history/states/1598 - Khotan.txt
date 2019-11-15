@@ -1,0 +1,15 @@
+state = {
+	id = 1598
+	name = "Khotan" # Xinjiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1598
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

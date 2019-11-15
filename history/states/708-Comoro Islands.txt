@@ -1,22 +1,15 @@
-state={
-	id=708
-	name="STATE_708"
-	manpower = 126703
-
-	state_category = small_island
-
-	history={
-		owner = FRA
-		add_core_of = MAD
-		buildings = {
-			infrastructure = 3
-			13072 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 708
+	name = "Plotsk" # Mazowieckie
+	manpower = 1
+	state_category = city
+	provinces = {
+		708
 	}
-
-	provinces={
-		13072 
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
 	}
 }

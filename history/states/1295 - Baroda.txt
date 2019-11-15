@@ -1,0 +1,14 @@
+state = {
+	id = 1295
+	name = "Baroda" # Gujarat
+	manpower = 1
+	state_category = city
+	provinces = {
+		1295
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

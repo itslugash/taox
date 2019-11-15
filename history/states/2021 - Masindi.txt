@@ -1,0 +1,14 @@
+state = {
+	id = 2021
+	name = "Masindi" # Uganda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2021
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

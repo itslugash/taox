@@ -1,0 +1,14 @@
+state = {
+	id = 1798
+	name = "Bougouni" # Eastern Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1798
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

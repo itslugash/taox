@@ -1,0 +1,14 @@
+state = {
+	id = 1345
+	name = "Sittwe" # Pegu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1345
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,78 +1,19 @@
-﻿#########
-# State #
-#########
-
-	capital = 271
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 0
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = { 
-				popularity = 100
-			}
-		}
-		ruling_party = syncretic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 271
+set_popularities = {
+	paternal_autocracy = 100
+}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Menelik II"
+	desc = "ETH_Menelik_II_desc"
+	picture = "Portrait_ETH_Menelik_II.tga"
+	expire = "1999.12.31"
+	ideology = paternal_autocracy_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Haile Selassie I"
-		desc = "ETH_Haile_Selassie_I_desc"
-		picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		tech_mountaineers = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "ETH_1936"
-
-########
-# Army #
-########
-
-	create_corps_commander = {
-		name = "Seyoum Mengesha"
-		portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-		traits = {
-			desert_fox
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
-	}
-
-########
-# Navy #
-########
-
-	set_convoys = 5
+}

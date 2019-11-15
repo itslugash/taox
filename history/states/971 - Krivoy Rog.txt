@@ -1,0 +1,15 @@
+state = {
+	id = 971
+	name = "Krivoy Rog" # Cherson
+	manpower = 1
+	state_category = city
+	provinces = {
+		971
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

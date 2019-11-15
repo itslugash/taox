@@ -1,0 +1,14 @@
+state = {
+	id = 1950
+	name = "Yola" # Nigeria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1950
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

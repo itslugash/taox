@@ -1,0 +1,15 @@
+state = {
+	id = 872
+	name = "Mugla" # Aydin
+	manpower = 1
+	state_category = city
+	provinces = {
+		872
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

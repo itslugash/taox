@@ -1,0 +1,14 @@
+state = {
+	id = 2059
+	name = "Quelimane" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2059
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1386
+	name = "Malacca" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1386
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1820
+	name = "Bongor" # Waddai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1820
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

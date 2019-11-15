@@ -1,0 +1,14 @@
+state = {
+	id = 2235
+	name = "Aruba" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2235
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

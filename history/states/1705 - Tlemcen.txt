@@ -1,0 +1,14 @@
+state = {
+	id = 1705
+	name = "Tlemcens" # Tlemcen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1705
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

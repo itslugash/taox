@@ -1,0 +1,14 @@
+state = {
+	id = 2190
+	name = "Belize" # Guatemala
+	manpower = 1
+	state_category = city
+	provinces = {
+		2190
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

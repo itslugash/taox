@@ -1,0 +1,15 @@
+state = {
+	id = 1313
+	name = "Bangalore" # Mysore
+	manpower = 1
+	state_category = city
+	provinces = {
+		1313
+	}
+	history = {
+		owner = MYS
+		add_core_of = MYS
+		buildings = {
+		}
+	}
+}

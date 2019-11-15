@@ -1,60 +1,19 @@
-﻿#########
-# State #
-#########
-
-	capital = 298
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1931.7.2"
-		election_frequency = 96
-		elections_allowed = no
+﻿capital = 298
+set_popularities = {
+	social_conservatism = 100
+}
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1907.1.1"
+	election_frequency = 96
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Arthur Barclay"
+	desc = "LIB_Arthur_Barclay_desc"
+	picture = "Portrait_LIB_Arthur_Barclay.tga"
+	expire = "1999.12.31"
+	ideology = social_conservatism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Edwin James Barclay"
-		desc = "LIB_Edwin_James_Barclay_desc"
-		picture = "Portrait_LIB_Edwin_James_Barclay.dds"
-		expire = "1999.12.31"
-		ideology = conservatism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "LIB_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 10
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2241
+	name = "Cayenne" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2241
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

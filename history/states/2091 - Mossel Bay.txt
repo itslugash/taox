@@ -1,0 +1,14 @@
+state = {
+	id = 2091
+	name = "Mossel Bay" # Cape Colony
+	manpower = 1
+	state_category = city
+	provinces = {
+		2091
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

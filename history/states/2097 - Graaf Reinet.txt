@@ -1,0 +1,14 @@
+state = {
+	id = 2097
+	name = "Graaf Reinet" # Eastern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2097
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1516
+	name = "Hanyang" # Eastern Hubei
+	manpower = 1
+	state_category = city
+	provinces = {
+		1516
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

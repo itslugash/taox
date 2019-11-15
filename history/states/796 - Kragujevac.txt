@@ -1,0 +1,15 @@
+state = {
+	id = 796
+	name = "Kragujevac" # Northern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		796
+	}
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+		}
+	}
+}

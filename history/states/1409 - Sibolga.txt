@@ -1,0 +1,14 @@
+state = {
+	id = 1409
+	name = "Sibolga" # Aceh
+	manpower = 1
+	state_category = city
+	provinces = {
+		1409
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

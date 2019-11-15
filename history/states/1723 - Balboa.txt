@@ -1,0 +1,15 @@
+state = {
+	id = 1723
+	name = "Balboa" # Panama
+	manpower = 1
+	state_category = city
+	provinces = {
+		1723
+	}
+	history = {
+		owner = PAN
+		add_core_of = PAN
+		buildings = {
+		}
+	}
+}

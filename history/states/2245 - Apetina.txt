@@ -1,0 +1,14 @@
+state = {
+	id = 2245
+	name = "Apetina" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2245
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

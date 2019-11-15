@@ -1,0 +1,15 @@
+state = {
+	id = 2399
+	name = "Rio Gallegos" # Patagonia Meridional
+	manpower = 1
+	state_category = city
+	provinces = {
+		2399
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

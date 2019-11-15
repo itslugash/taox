@@ -1,0 +1,15 @@
+state = {
+	id = 1605
+	name = "Huzhou" # Zhejiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1605
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

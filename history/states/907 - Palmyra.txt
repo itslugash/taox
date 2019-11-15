@@ -1,0 +1,15 @@
+state = {
+	id = 907
+	name = "Palmyra" # Syria
+	manpower = 1
+	state_category = city
+	provinces = {
+		907
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 914
+	name = "Askaleh" # Lebanon
+	manpower = 1
+	state_category = city
+	provinces = {
+		914
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

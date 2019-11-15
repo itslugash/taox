@@ -1,19 +1,15 @@
-
-state={
-	id=417
-	name="STATE_417" # Hamadan
-	manpower = 796396
-	state_category = rural
-
-	history={
-		owner = PER
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = PER
+state = {
+	id = 417
+	name = "Alençon" # Normandie
+	manpower = 1
+	state_category = city
+	provinces = {
+		417
 	}
-
-	provinces={
-		1982 2065 8040 8125 10922 
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
 	}
 }

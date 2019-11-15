@@ -1,0 +1,14 @@
+state = {
+	id = 1251
+	name = "Calcutta" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1251
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

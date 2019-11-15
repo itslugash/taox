@@ -1,0 +1,15 @@
+state = {
+	id = 2267
+	name = "Cumaná" # Miranda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2267
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1822
+	name = "Am Timan" # Waddai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1822
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2413
+	name = "Marabá" # Maranhão
+	manpower = 1
+	state_category = city
+	provinces = {
+		2413
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

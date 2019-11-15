@@ -1,0 +1,15 @@
+state = {
+	id = 2207
+	name = "Sainshand" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2207
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

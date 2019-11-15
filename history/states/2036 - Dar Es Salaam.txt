@@ -1,0 +1,14 @@
+state = {
+	id = 2036
+	name = "Dar Es Salaam" # Zanzibar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2036
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

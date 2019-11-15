@@ -1,0 +1,14 @@
+state = {
+	id = 1951
+	name = "Kuka" # Bornu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1951
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

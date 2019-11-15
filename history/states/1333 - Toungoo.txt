@@ -1,0 +1,14 @@
+state = {
+	id = 1333
+	name = "Toungoo" # Pegu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1333
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

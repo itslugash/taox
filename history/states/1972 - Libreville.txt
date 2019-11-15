@@ -1,0 +1,14 @@
+state = {
+	id = 1972
+	name = "Libreville" # Gabon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1972
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1082
+	name = "Haishenwai" # Outer Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1082
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

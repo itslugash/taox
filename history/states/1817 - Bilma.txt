@@ -1,0 +1,14 @@
+state = {
+	id = 1817
+	name = "Bilma" # Niger
+	manpower = 1
+	state_category = city
+	provinces = {
+		1817
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

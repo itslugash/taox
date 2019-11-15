@@ -1,0 +1,15 @@
+state = {
+	id = 2288
+	name = "Yuncos" # Pastaza
+	manpower = 1
+	state_category = city
+	provinces = {
+		2288
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

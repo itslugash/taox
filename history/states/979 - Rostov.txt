@@ -1,0 +1,15 @@
+state = {
+	id = 979
+	name = "Rostov" # Rostov
+	manpower = 1
+	state_category = city
+	provinces = {
+		979
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

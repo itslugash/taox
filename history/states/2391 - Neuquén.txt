@@ -1,0 +1,15 @@
+state = {
+	id = 2391
+	name = "Neuquén" # Patagonia Septentrional
+	manpower = 1
+	state_category = city
+	provinces = {
+		2391
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1092
+	name = "Kutaisi" # Georgia - Russia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1092
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

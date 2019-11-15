@@ -1,0 +1,15 @@
+state = {
+	id = 2273
+	name = "Barquisimento" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2273
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

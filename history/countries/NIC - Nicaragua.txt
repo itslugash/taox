@@ -1,75 +1,19 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 317
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 100
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = syncretic
-		last_election = "1932.11.6"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 317
+set_popularities = {
+	social_liberalism = 0.2
+	social_conservatism = 99.8
+}
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1906.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "José Madriz Rodríguez"
+	desc = "NIC_Jose_Madriz_Rodriguez_desc"
+	picture = "Portrait_NIC_Jose_Madriz_Rodriguez.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
 	}
-
-	create_country_leader = {
-		name = "Juan Bautista Sacasa"
-		desc = "NIC_Juan_Bautista_Sacasa_desc"
-		picture = "Portrait_NIC_Juan_Bautista_Sacasa.dds"
-		expire = "1999.12.31"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		gw_artillery = 1
-		early_fighter = 1
-		early_bomber = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "NIC_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 10
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2301
+	name = "Puerto Maldonado" # Ica
+	manpower = 1
+	state_category = city
+	provinces = {
+		2301
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

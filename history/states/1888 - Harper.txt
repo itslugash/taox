@@ -1,0 +1,15 @@
+state = {
+	id = 1888
+	name = "Harper" # Liberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1888
+	}
+	history = {
+		owner = LIB
+		add_core_of = LIB
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2279
+	name = "Quito" # Ecuador
+	manpower = 1
+	state_category = city
+	provinces = {
+		2279
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		buildings = {
+		}
+	}
+}

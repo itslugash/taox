@@ -1,0 +1,15 @@
+state = {
+	id = 869
+	name = "Izmir" # Aydin
+	manpower = 1
+	state_category = city
+	provinces = {
+		869
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

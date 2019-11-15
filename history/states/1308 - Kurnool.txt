@@ -1,0 +1,14 @@
+state = {
+	id = 1308
+	name = "Kurnool" # Circars
+	manpower = 1
+	state_category = city
+	provinces = {
+		1308
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

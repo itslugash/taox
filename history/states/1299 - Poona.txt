@@ -1,0 +1,14 @@
+state = {
+	id = 1299
+	name = "Poona" # Bombay
+	manpower = 1
+	state_category = city
+	provinces = {
+		1299
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

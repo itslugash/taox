@@ -1,0 +1,15 @@
+state = {
+	id = 1387
+	name = "Kuala Lumpur" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1387
+	}
+	history = {
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+		}
+	}
+}

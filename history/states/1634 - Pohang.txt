@@ -1,0 +1,15 @@
+state = {
+	id = 1634
+	name = "Pohang" # Busan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1634
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2211
+	name = "Camagüey" # Greater Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2211
+	}
+	history = {
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+		}
+	}
+}

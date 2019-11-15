@@ -1,0 +1,15 @@
+state = {
+	id = 2338
+	name = "Puerto Guaraní" # Alto Paraguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2338
+	}
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+		}
+	}
+}

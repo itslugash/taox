@@ -1,0 +1,14 @@
+state = {
+	id = 2238
+	name = "Tobago" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2238
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

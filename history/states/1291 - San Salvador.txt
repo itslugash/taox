@@ -1,0 +1,15 @@
+state = {
+	id = 2191
+	name = "San Salvador" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2191
+	}
+	history = {
+		owner = ELS
+		add_core_of = ELS
+		buildings = {
+		}
+	}
+}

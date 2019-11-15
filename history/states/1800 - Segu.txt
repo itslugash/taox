@@ -1,0 +1,14 @@
+state = {
+	id = 1800
+	name = "Segu" # Eastern Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1800
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

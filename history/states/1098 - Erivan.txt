@@ -1,0 +1,15 @@
+state = {
+	id = 1098
+	name = "Erivan" # Armenia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1098
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

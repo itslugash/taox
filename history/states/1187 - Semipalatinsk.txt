@@ -1,0 +1,15 @@
+state = {
+	id = 1187
+	name = "Semipalatinsk" # Semireche
+	manpower = 1
+	state_category = city
+	provinces = {
+		1187
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

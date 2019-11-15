@@ -1,0 +1,15 @@
+state = {
+	id = 2317
+	name = "San Ignacio" # Santa Cruz
+	manpower = 1
+	state_category = city
+	provinces = {
+		2317
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+		}
+	}
+}

@@ -1,73 +1,20 @@
-﻿###########
-# General #
-###########
-	
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 315
-
-##########
-# Powers #
-##########
-	
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-	
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 2
-			}
-			centre = { 
-				popularity = 98
-			}
-			right-wing = {
-				popularity = 0
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = centre
-		last_election = "1928.11.1"
-		election_frequency = 48
-		elections_allowed = no
+﻿capital = 315
+set_popularities = {
+	market_liberalism = 48.02
+	social_conservatism = 51.98
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1908.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "José Miguel Gómez"
+	desc = "CUB_Jose_Miguel_Gomez_desc"
+	picture = "Portrait_CUB_Jose_Miguel_Gomez.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "José Agripino Barnet y Vinageras"
-		desc = "CUB_Jose_Agripino_Barnet_y_Vinageras_desc"
-		picture = "GFX_portrait_cuba_jose_barnet"
-		expire = "1999.12.321"
-		ideology = liberalism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		early_fighter = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "CUB_1936"
-
-########
-# Navy #
-########	
-
-	set_convoys = 20
+}

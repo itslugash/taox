@@ -1,71 +1,58 @@
-﻿############################
-# Vanilla - Spanish Events #
-############################
+﻿###########################
+# Spanish Events
+###########################
 
 add_namespace = spain
 
-country_event = { # "Civil War!"
+# Spanish Civil War
+country_event = {
 	id = spain.1
 	title = spain.1.t
 	desc = spain.1.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
+	
 	trigger = {
-		NOT = {
-			has_global_flag = scw_over
-		}
+		NOT = { has_global_flag = scw_over }
 		tag = SPR
 		has_defensive_war = no
-		NOT = {
-			has_government = right-wing
-		}
-		date > 1936.2.16
+		NOT = { has_government = fascism }
+		date > 1936.2.16 # Trigger at some point after 1936 elections
 	}
 
 	mean_time_to_happen = {
-		days = 151
+		days = 151	# Historical outbreak time after elections
 	}
-
-	fire_only_once = yes
-
-	option = { # "The Nationalists!"
+	
+	option = { # Support Nationalists
 		name = spain.1.a
-		trigger = {
-			is_ai = no
-		}
+		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = left-wing
+				ruling_party = fascism
+				ideology = communism
 				size = 0.5
 				capital = 41
-				states = {
-					41 165 167 168 172 173 175
-				}
+				states = { 41 165 167 168 172 173 175 }
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = left-wing
+					has_government = communism
 				}
 				load_oob = "SPR_Civil_War"
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
 				set_war_support = 0.8
-				country_event = {
-					id = spain.3
-					days = 1
-				}
+				#country_event = { id = spain.3 days = 1 }
 				add_popularity = {
-					ideology = centre
+					ideology = democratic
 					popularity = 0.35
 				}
 			}
-			news_event = { # "The Spanish Civil War"
-				id = news.63
-				hours = 6
-			}
+			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
 			
 			load_oob = "SPA_Civil_War"
@@ -74,71 +61,60 @@ country_event = { # "Civil War!"
 			set_war_support = 0.8
 			
 			add_popularity = {
-				ideology = right-wing
+				ideology = fascism
 				popularity = 1
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = left-wing
+					has_government = communism
 				}
 				set_cosmetic_tag = SPR_civil_war
 			}
 
-			country_event = { # "Seek International Support?"
-				id = spain.2
-				days = 7
-			}
+			#country_event = { id = spain.2 days = 7 }
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}
-	option = { # "The Republicans!"
+	option = { # Support Republicans
 		name = spain.1.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = right-wing
+				ideology = fascism
 				size = 0.5
 				capital = 176
-				states = {
-					166 699 178 290 169 170 176 174 171 177 297
-				}
+				states = { 166 699 178 290 169 170 176 174 171 177 297 }
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = right-wing
+					has_government = fascism
 				}
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
 				set_war_support = 0.8
-				country_event = { # # "Seek International Support?"
-					id = spain.2
-					days = 1
-				}
+				#country_event = { id = spain.2 days = 1 }
 				load_oob = "SPA_Civil_War"
 			}
-			news_event = { # "The Spanish Civil War"
-				id = news.63
-				hours = 6
-			}
+			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
 			
 			set_politics = {
-				ruling_party = left-wing
+				ruling_party = communism
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = left-wing
+				ideology = communism
 				popularity = 0.5
 			}
 			add_popularity = {
-				ideology = right-wing
+				ideology = fascism
 				popularity = -1
 			}	
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = right-wing
+					has_government = fascism
 				}
 				set_cosmetic_tag = SPR_civil_war
 			}
@@ -147,16 +123,14 @@ country_event = { # "Civil War!"
 			set_stability = 0.9
 			set_war_support = 0.8
 			
-			country_event = { # "Seek International Support?"
-				id = spain.3
-				days = 7
-			}
+			#country_event = { id = spain.3 days = 7 }
 		}
 		custom_effect_tooltip = republicans_chosen
 	}
 }
 
-country_event = { # "Seek International Support?"
+# Nationalists: Seek Support
+country_event = {
 	id = spain.2
 	title = spain.2.t
 	desc = spain.2.d
@@ -169,46 +143,31 @@ country_event = { # "Seek International Support?"
 		original_tag = SPR
 	}
 
-	option = { # "Let's request equipment and munitions."
+	option = {
 		name = spain.2.a
 		every_other_country = {
 			limit = {
-				has_government = right-wing
-				NOT = {
-					original_tag = SPR
-				}
+				has_government = fascism
+				NOT = { original_tag = SPR }
 			}
-			country_event = { # "Nationalist Spain Wants Our Help"
-				id = spain.4
-				days = 1
-			}
+			country_event = { id = spain.4 days = 1 }
 		}
 		if = {
 			limit = {
-				POR = {
-					NOT = {
-						has_government = left-wing
-					}
-				}
+				POR = { NOT = { has_government = communism } }
 			}
-			POR = {
-				country_event = { # "Nationalist Spain Wants Our Help"
-					id = spain.4
-					days = 1
-				}
-			}
+			POR = { country_event = { id = spain.4 days = 1 } }
 		}
 	}
 
-	option = { # "Spain must be won with Spanish blood!"
+	option = {
 		name = spain.2.b
 		add_political_power = 40
-		ai_chance = {
-			factor = 0
-		}
+		ai_chance = { factor = 0 }
 	}
 }
 
+# Republicans: Seek Support
 country_event = {
 	id = spain.3
 	title = spain.2.t
@@ -225,14 +184,14 @@ country_event = {
 		name = spain.3.a
 		every_other_country = {
 			limit = {
-				has_government = left-wing
+				has_government = communism
 				NOT = { tag = SPR }
 			}
 			country_event = { id = spain.5 days = 1 }
 		}
 		if = {
 			limit = {
-				MEX = { NOT = { has_government = right-wing } }
+				MEX = { NOT = { has_government = fascism } }
 			}
 			MEX = { country_event = { id = spain.5 days = 1 } }
 		}
@@ -307,7 +266,7 @@ country_event = {
 		SPR = { has_civil_war = yes }
 		any_other_country = {
 			original_tag = SPR
-			has_government = right-wing
+			has_government = fascism
 			ROOT = { is_lend_leasing = PREV }
 		}
 	}
@@ -322,7 +281,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = SPR
-				has_government = right-wing
+				has_government = fascism
 			}
 			add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war }
 		}
@@ -362,7 +321,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = SPR
-		has_government = right-wing
+		has_government = fascism
 		has_global_flag = nationalist_victory
 		owns_state = 41
 	}
@@ -405,7 +364,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 		name = spain.9.a
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.1
 		}
 	}
@@ -415,7 +374,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		name = spain.9.b
 		set_politics = {
-			ruling_party = right-wing
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		set_country_flag = SPR_communist_civil_war
@@ -448,8 +407,8 @@ country_event = {
 		hidden_effect = {
 			set_capital = 176
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = left-wing
+				ruling_party = fascism
+				ideology = communism
 				size = 0.5
 				capital = 41
 				states = { 41 165 167 168 172 173 175 }
@@ -457,14 +416,14 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = left-wing
+					has_government = communism
 				}
 				load_oob = "SPR_Civil_War"
 				set_equipment_fraction = 0.7
 				set_stability = 0.8
 				set_war_support = 0.8
 				add_popularity = {
-					ideology = centre
+					ideology = democratic
 					popularity = 0.35
 				}
 			}
@@ -476,7 +435,7 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 			add_popularity = {
-				ideology = right-wing
+				ideology = fascism
 				popularity = 1
 			}
 			
@@ -487,7 +446,7 @@ country_event = {
 		name = spain.10.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = right-wing
+				ideology = fascism
 				size = 0.5
 				capital = 176
 				states = { 166 699 178 290 169 170 176 174 171 177 297 }
@@ -495,7 +454,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = right-wing
+					has_government = fascism
 				}
 				set_equipment_fraction = 0.7
 				set_stability = 0.9
@@ -506,7 +465,7 @@ country_event = {
 			set_global_flag = spanish_civil_war
 			
 			set_politics = {
-				ruling_party = left-wing
+				ruling_party = communism
 				elections_allowed = no
 			}
 			load_oob = "SPR_Civil_War"
@@ -514,15 +473,15 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 			add_popularity = {
-				ideology = right-wing
+				ideology = fascism
 				popularity = -1
 			}
 			add_popularity = {
-				ideology = left-wing
+				ideology = communism
 				popularity = 1
 			}	
 			add_popularity = {
-				ideology = centre
+				ideology = democratic
 				popularity = 0.35
 			}
 			

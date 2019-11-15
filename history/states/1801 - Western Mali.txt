@@ -1,0 +1,14 @@
+state = {
+	id = 1801
+	name = "Mourdiah" # Western Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1801
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1580
+	name = "Jiading" # Sichuan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1580
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1849
+	name = "Massawa" # Eritrea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1849
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

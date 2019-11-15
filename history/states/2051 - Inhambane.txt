@@ -1,0 +1,14 @@
+state = {
+	id = 2051
+	name = "Inhambane" # Lourenço Marques
+	manpower = 1
+	state_category = city
+	provinces = {
+		2051
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

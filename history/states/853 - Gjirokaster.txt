@@ -1,0 +1,15 @@
+state = {
+	id = 853
+	name = "Gjirokaster" # Albania
+	manpower = 1
+	state_category = city
+	provinces = {
+		853
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

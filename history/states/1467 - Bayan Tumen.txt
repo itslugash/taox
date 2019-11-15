@@ -1,0 +1,15 @@
+state = {
+	id = 1467
+	name = "Bayan Tumen" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1467
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

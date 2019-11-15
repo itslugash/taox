@@ -1,0 +1,15 @@
+state = {
+	id = 2206
+	name = "Penonomé" # Panama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2206
+	}
+	history = {
+		owner = PAN
+		add_core_of = PAN
+		buildings = {
+		}
+	}
+}

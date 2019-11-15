@@ -1,0 +1,15 @@
+state = {
+	id = 2368
+	name = "Salta" # Jujuy
+	manpower = 1
+	state_category = city
+	provinces = {
+		2368
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1427
+	name = "Kota Waringin" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1427
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

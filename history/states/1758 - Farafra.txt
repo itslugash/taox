@@ -1,0 +1,15 @@
+state = {
+	id = 1758
+	name = "Farafra" # Egyptian Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		1758
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2217
+	name = "Jamaica" # Caribbean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2217
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

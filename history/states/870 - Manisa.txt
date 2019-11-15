@@ -1,0 +1,15 @@
+state = {
+	id = 870
+	name = "Manisa" # Aydin
+	manpower = 1
+	state_category = city
+	provinces = {
+		870
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

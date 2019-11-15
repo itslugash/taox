@@ -1,0 +1,15 @@
+state = {
+	id = 997
+	name = "Gdov" # Ingria
+	manpower = 1
+	state_category = city
+	provinces = {
+		997
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

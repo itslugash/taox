@@ -1,0 +1,15 @@
+state = {
+	id = 1603
+	name = "Puer" # Yunnan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1603
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1218
+	name = "Peshawar" # Baluchistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1218
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1148
+	name = "Birjand" # Khorasan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1148
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

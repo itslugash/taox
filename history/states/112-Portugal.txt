@@ -1,31 +1,15 @@
 state = {
 	id = 112
-	name = "Algarve"
-	manpower = 313981
-	state_category = seven
-
+	name = "Casper" # Wyoming
+	manpower = 1
+	state_category = city
 	provinces = {
-		3790 6880
+		112
 	}
-
 	history = {
-		owner = POR
-		add_core_of = POR
-
-		victory_points = { # Portimão
-			3790 1
-		}
-		victory_points = { # Faro
-			6880 1
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-			3790 = {
-				naval_base = 2
-			}
 		}
 	}
 }

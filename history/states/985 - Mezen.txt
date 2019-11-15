@@ -1,0 +1,15 @@
+state = {
+	id = 985
+	name = "Mezen" # Nenetsia
+	manpower = 1
+	state_category = city
+	provinces = {
+		985
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

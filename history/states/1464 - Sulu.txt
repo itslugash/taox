@@ -1,0 +1,14 @@
+state = {
+	id = 1464
+	name = "Sulu" # Mindanao
+	manpower = 1
+	state_category = city
+	provinces = {
+		1464
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

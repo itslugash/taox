@@ -1,19 +1,15 @@
-state={
-	id=703
-	name="STATE_703"
-	manpower=458
-	state_category = tiny_island
-	history= {
-		owner = ENG
-		buildings = {
-			infrastructure = 1
-			13013 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 703
+	name = "Krakow" # West Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		703
 	}
-	
-	provinces={
-		13013 
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

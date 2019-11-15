@@ -1,0 +1,15 @@
+state = {
+	id = 2167
+	name = "Guanajuato" # Zacatecas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2167
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

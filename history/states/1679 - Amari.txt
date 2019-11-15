@@ -1,0 +1,15 @@
+state = {
+	id = 1679
+	name = "Amari" # Kyushu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1679
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

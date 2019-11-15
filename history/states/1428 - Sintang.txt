@@ -1,0 +1,14 @@
+state = {
+	id = 1428
+	name = "Sintang" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1428
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

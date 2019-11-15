@@ -1,0 +1,14 @@
+state = {
+	id = 2054
+	name = "Tete" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2054
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

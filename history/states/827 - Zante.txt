@@ -1,0 +1,15 @@
+state = {
+	id = 827
+	name = "Zante" # Peloponnese
+	manpower = 1
+	state_category = city
+	provinces = {
+		827
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

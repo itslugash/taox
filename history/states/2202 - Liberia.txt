@@ -1,0 +1,15 @@
+state = {
+	id = 2202
+	name = "Liberia" # Costa Rica
+	manpower = 1
+	state_category = city
+	provinces = {
+		2202
+	}
+	history = {
+		owner = COS
+		add_core_of = COS
+		buildings = {
+		}
+	}
+}

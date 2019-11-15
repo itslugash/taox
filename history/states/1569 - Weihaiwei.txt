@@ -1,0 +1,15 @@
+state = {
+	id = 1569
+	name = "Weihaiwei" # Shandong
+	manpower = 1
+	state_category = city
+	provinces = {
+		1569
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

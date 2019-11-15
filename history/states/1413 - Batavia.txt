@@ -1,0 +1,14 @@
+state = {
+	id = 1413
+	name = "Batavia" # Java
+	manpower = 1
+	state_category = city
+	provinces = {
+		1413
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2248
+	name = "Ibagué" # Cundinamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2248
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

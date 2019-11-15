@@ -1,0 +1,14 @@
+state = {
+	id = 2028
+	name = "Kisumu" # Rift Valley
+	manpower = 1
+	state_category = city
+	provinces = {
+		2028
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

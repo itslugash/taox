@@ -1,0 +1,14 @@
+state = {
+	id = 1298
+	name = "Nasik" # Bombay
+	manpower = 1
+	state_category = city
+	provinces = {
+		1298
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

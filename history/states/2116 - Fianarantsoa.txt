@@ -1,0 +1,14 @@
+state = {
+	id = 2116
+	name = "Fianarantsoa" # South Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2116
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

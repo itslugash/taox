@@ -1,0 +1,15 @@
+state = {
+	id = 938
+	name = "Lida" # Brėst
+	manpower = 1
+	state_category = city
+	provinces = {
+		938
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

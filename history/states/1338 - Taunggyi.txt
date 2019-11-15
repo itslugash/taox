@@ -1,0 +1,14 @@
+state = {
+	id = 1338
+	name = "Taunggyi" # Shan States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1338
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

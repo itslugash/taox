@@ -1,0 +1,15 @@
+state = {
+	id = 1599
+	name = "Kumul" # Xinjiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1599
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

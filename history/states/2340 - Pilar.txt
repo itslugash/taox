@@ -1,0 +1,15 @@
+state = {
+	id = 2340
+	name = "Pilar" # Bajo Paraguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2340
+	}
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1773
+	name = "Aaiun" # West Morocco
+	manpower = 1
+	state_category = city
+	provinces = {
+		1773
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

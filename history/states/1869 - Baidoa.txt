@@ -1,0 +1,14 @@
+state = {
+	id = 1869
+	name = "Baidoa" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1869
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

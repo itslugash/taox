@@ -1,0 +1,15 @@
+state = {
+	id = 1757
+	name = "Sharm al-Shaykh" # Sinai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1757
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

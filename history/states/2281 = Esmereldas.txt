@@ -1,0 +1,15 @@
+state = {
+	id = 2281
+	name = "Esmereldas" # Ecuador
+	manpower = 1
+	state_category = city
+	provinces = {
+		2281
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		buildings = {
+		}
+	}
+}

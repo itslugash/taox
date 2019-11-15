@@ -1,0 +1,15 @@
+state = {
+	id = 1080
+	name = "Chernomin" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1080
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1914
+	name = "Lome" # Togo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1914
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

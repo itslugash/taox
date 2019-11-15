@@ -1,0 +1,14 @@
+state = {
+	id = 2127
+	name = "Seychelles" # Indian Ocean Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2127
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

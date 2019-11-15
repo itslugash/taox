@@ -1,0 +1,15 @@
+state = {
+	id = 864
+	name = "Balikesir" # Aydin
+	manpower = 1
+	state_category = city
+	provinces = {
+		864
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

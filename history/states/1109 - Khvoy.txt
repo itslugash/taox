@@ -1,0 +1,15 @@
+state = {
+	id = 1109
+	name = "Khvoy" # Tabriz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1109
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1780
+	name = "Tishit" # Inner Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1780
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

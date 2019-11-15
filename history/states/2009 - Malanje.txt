@@ -1,0 +1,14 @@
+state = {
+	id = 2009
+	name = "Malanje" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2009
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

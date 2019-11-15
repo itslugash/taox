@@ -1,0 +1,14 @@
+state = {
+	id = 1873
+	name = "Berbera" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1873
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

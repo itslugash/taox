@@ -1,0 +1,14 @@
+state = {
+	id = 2134
+	name = "Azores" # Macaronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2134
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

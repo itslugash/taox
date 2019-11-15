@@ -1,0 +1,15 @@
+state = {
+	id = 1076
+	name = "Bratsk" # Irkutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1076
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

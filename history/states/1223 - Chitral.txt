@@ -1,0 +1,14 @@
+state = {
+	id = 1223
+	name = "Chitral" # Baluchistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1223
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1782
+	name = "Bir Murghayn" # Inner Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1782
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1260
+	name = "Dibrugarh" # Assam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1260
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1617
+	name = "Tianjin" # Northern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1617
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

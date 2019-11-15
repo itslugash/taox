@@ -1,0 +1,14 @@
+state = {
+	id = 1412
+	name = "Aden" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1412
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

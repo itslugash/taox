@@ -1,0 +1,15 @@
+state = {
+	id = 989
+	name = "Vologda" # Tver
+	manpower = 1
+	state_category = city
+	provinces = {
+		989
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1432
+	name = "Mamuju" # Moluccas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1432
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

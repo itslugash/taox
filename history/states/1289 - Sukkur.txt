@@ -1,0 +1,14 @@
+state = {
+	id = 1289
+	name = "Sukkur" # Sind
+	manpower = 1
+	state_category = city
+	provinces = {
+		1289
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1904
+	name = "Fada Ngourma" # Volta
+	manpower = 1
+	state_category = city
+	provinces = {
+		1904
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

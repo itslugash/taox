@@ -1,0 +1,14 @@
+state = {
+	id = 1256
+	name = "Jessore" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1256
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

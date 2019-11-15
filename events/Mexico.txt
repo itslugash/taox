@@ -23,14 +23,14 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_government = syncretic
+					has_government = neutrality
 				}
 				set_variable = {
 					var = civil_war_size_var
 					value = party_popularity@fascism
 				}
 				start_civil_war = {
-					ideology = right-wing
+					ideology = fascism
 					size = civil_war_size_var
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
 					states = { 479 480 }
@@ -38,14 +38,14 @@ country_event = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = syncretic }
+					NOT = { has_government = neutrality }
 				}
 				set_variable = {
 					var = civil_war_size_var
 					value = party_popularity@neutrality
 				}
 				start_civil_war = {
-					ideology = syncretic
+					ideology = neutrality
 					size = civil_war_size_var
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
 					states = { 479 480 }
@@ -150,14 +150,14 @@ country_event = {
 				}
 				if = {
 					limit = {
-						has_government = syncretic
+						has_government = neutrality
 					}
 					create_country_leader = {
 						name = "Saturnino Cedillo"
 						desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 						picture = "GFX_portrait_mex_saturnino_cedillo"
 						expire = "1965.1.1"
-						ideology = authoritarianism
+						ideology = despotism
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -165,14 +165,14 @@ country_event = {
 				}
 				if = {
 					limit = {
-						has_government = right-wing
+						has_government = fascism
 					}
 					create_country_leader = {
 						name = "Saturnino Cedillo"
 						desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 						picture = "GFX_portrait_mex_saturnino_cedillo"
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -245,9 +245,9 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_government = left-wing
+				has_government = communism
 				FROM = {
-					has_government = left-wing
+					has_government = communism
 				}
 			}
 		}
@@ -298,9 +298,9 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_government = left-wing
+				has_government = communism
 				FROM = {
-					has_government = left-wing
+					has_government = communism
 				}
 			}
 		}
@@ -556,13 +556,15 @@ country_event = {
 	}
 	
 	option = {
+		name = mexico.9.a
+
 		add_to_faction = MEX
 				
 		hidden_effect = {
 			news_event = { id = news.289 hours = 12 }
 		}
 		
-		FROM = { country_event = { id = generic.3 hours = 6 } }
+		MEX = { country_event = { id = generic.3 hours = 6 } }
 		
 		ai_chance = {
 			factor = 90
@@ -1046,9 +1048,9 @@ country_event = {
 		tag = MEX
 		date > 1936.08.28
 		OR = {
-			has_government = syncretic
+			has_government = neutrality
 			AND = {
-				has_government = left-wing
+				has_government = communism
 				NOT = {
 					has_country_leader = { ruling_only = yes name = "Dionisio Encina" }
 				} 
@@ -1208,8 +1210,8 @@ country_event = {
 		
 		trigger = {
 			OR = {
-				has_government = left-wing
-				has_government = syncretic
+				has_government = communism
+				has_government = neutrality
 			}
 			has_dlc = "Man the Guns"
 		}
@@ -1295,7 +1297,7 @@ country_event = {
 		
 		trigger = {
 			NOT = {
-				has_government = centre
+				has_government = democratic
 			}
 		}
 		
@@ -1303,30 +1305,30 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_government = syncretic
+				has_government = neutrality
 			}
 			set_politics = {
-				ruling_party = syncretic
+				ruling_party = neutrality
 				elections_allowed = no
 			}
 		}
 		
 		if = {
 			limit = {
-				has_government = right-wing
+				has_government = fascism
 			}
 			set_politics = {
-				ruling_party = right-wing
+				ruling_party = fascism
 				elections_allowed = no
 			}
 		}
 		
 		if = {
 			limit = {
-				has_government = left-wing
+				has_government = communism
 			}
 			set_politics = {
-				ruling_party = left-wing
+				ruling_party = communism
 				elections_allowed = no
 			}
 		}
@@ -1365,7 +1367,7 @@ country_event = {
 					name = "Francisco Múgica"
 				}
 			}
-			has_government = syncretic
+			has_government = neutrality
 		}
 
 		create_country_leader = {
@@ -1373,7 +1375,7 @@ country_event = {
 			desc = "POLITICS_FRANCISCO_MUGICA_DESC"
 			picture = "GFX_portrait_mex_francisco_mugica"
 			expire = "1965.1.1"
-			ideology = centrism
+			ideology = moderatism
 			traits = {
 				revolutionary_general
 			}
@@ -1407,7 +1409,7 @@ country_event = {
 					name = "Manuel Ávila Camacho"
 				}
 			}
-			has_government = syncretic
+			has_government = neutrality
 		}
 
 		create_country_leader = {
@@ -1415,7 +1417,7 @@ country_event = {
 			desc = "POLITICS_MANUEL_AVILA_DESC"
 			picture = "GFX_portrait_mex_avila_civil"
 			expire = "1965.1.1"
-			ideology = syncretic_independent
+			ideology = oligarchism
 			traits = {
 				the_gentleman_president
 			}
@@ -1453,7 +1455,7 @@ country_event = {
 					name = "Saturnino Cedillo"
 				}
 			}
-			has_government = syncretic
+			has_government = neutrality
 		}
 
 		create_country_leader = {
@@ -1461,7 +1463,7 @@ country_event = {
 			desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 			picture = "GFX_portrait_mex_saturnino_cedillo"
 			expire = "1965.1.1"
-			ideology = authoritarianism
+			ideology = despotism
 			traits = {
 				strongman_of_san_luis_potosi
 			}
@@ -1477,7 +1479,7 @@ country_event = {
 	#				name = "Juan Andreu"
 	#			}
 	#		}
-	#		has_government = syncretic
+	#		has_government = neutrality
 	#	}
 
 	#	create_country_leader = {
@@ -1485,7 +1487,7 @@ country_event = {
 	#		desc = "POLITICS_JUAN_ANDREU_DESC"
 	#		picture = "GFX_portrait_mex_juan_andreu"
 	#		expire = "1965.1.1"
-	#		ideology = syncretic_independent
+	#		ideology = oligarchism
 	#		traits = {
 	#			the_silver_president
 	#		}
@@ -1504,7 +1506,7 @@ country_event = {
 					name = "Vicente Lombardo"
 				}
 			}
-			has_government = centre
+			has_government = democratic
 		}
 
 		create_country_leader = {
@@ -1514,7 +1516,7 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
-				the_dean_of_mexican_communism
+				the_dean_of_mexican_marxism
 			}
 		}
 		
@@ -1550,7 +1552,7 @@ country_event = {
 					name = "Francisco Múgica"
 				}
 			}
-			has_government = centre
+			has_government = democratic
 		}
 
 		create_country_leader = {
@@ -1596,7 +1598,7 @@ country_event = {
 					name = "Manuel Ávila Camacho"
 				}
 			}
-			has_government = centre
+			has_government = democratic
 		}
 
 		create_country_leader = {
@@ -1646,7 +1648,7 @@ country_event = {
 	#				name = "Juan Andreu"
 	#			}
 	#		}
-	#		has_government = centre
+	#		has_government = democratic
 	#	}
 
 	#	create_country_leader = {
@@ -1673,7 +1675,7 @@ country_event = {
 					name = "Vicente Lombardo"
 				}
 			}
-			has_government = left-wing
+			has_government = communism
 		}
 
 		create_country_leader = {
@@ -1681,9 +1683,9 @@ country_event = {
 			desc = "POLITICS_VICENTE_LOMBARDO_DESC"
 			picture = "GFX_portrait_mex_vicente_lombardo"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = marxism
 			traits = {
-				the_dean_of_mexican_communism
+				the_dean_of_mexican_marxism
 			}
 		}
 	}
@@ -1697,7 +1699,7 @@ country_event = {
 					name = "Francisco Múgica"
 				}
 			}
-			has_government = left-wing
+			has_government = communism
 		}
 
 		create_country_leader = {
@@ -1705,7 +1707,7 @@ country_event = {
 			desc = "POLITICS_FRANCISCO_MUGICA_DESC"
 			picture = "GFX_portrait_mex_francisco_mugica"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = marxism
 			traits = {
 				revolutionary_general
 			}
@@ -1722,7 +1724,7 @@ country_event = {
 				}
 			}
 
-			has_government = left-wing
+			has_government = communism
 			NOT = {
 				has_completed_focus = MEX_focus_communist_revolution
 			}			
@@ -1736,7 +1738,7 @@ country_event = {
 			desc = "POLITICS_DIONISIO_ENCINA_DESC"
 			picture = "GFX_Portrait_MEX_Dionisio_Encina"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = stalinism
 			traits = {
 				staunch_stalinist
 			}
@@ -1752,7 +1754,7 @@ country_event = {
 					name = "Hernán Laborde"
 				}
 			}
-			has_government = left-wing
+			has_government = communism
 			OR = {
 				NOT = {
 					has_global_flag = flag_mexico_invited_trotsky_to_government
@@ -1769,7 +1771,7 @@ country_event = {
 			desc = "POLITICS_HERNAN_LABORDE_DESC"
 			picture = "GFX_Portrait_MEX_Hernan_Laborde"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = leninism
 			traits = {
 				devoted_trotskyist
 			}
@@ -1791,7 +1793,7 @@ country_event = {
 					has_country_leader = { name = "Leon Trotsky" }
 				}
 			}
-			has_government = left-wing
+			has_government = communism
 			has_global_flag = flag_mexico_invited_trotsky_to_government
 		}
 
@@ -1800,7 +1802,7 @@ country_event = {
 			desc = "POLITICS_LEON_TROTSKY_DESC"
 			picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = leninism
 			traits = {
 				exiled_revolutionary
 			}
@@ -1820,7 +1822,7 @@ country_event = {
 				}	
 			}
 			has_completed_focus = MEX_focus_support_general_cedillo
-			has_government = right-wing
+			has_government = fascism
 		}
 
 		create_country_leader = {
@@ -1828,7 +1830,7 @@ country_event = {
 			desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 			picture = "GFX_portrait_mex_saturnino_cedillo"
 			expire = "1965.1.1"
-			ideology = fascism
+			ideology = fascism_ideology
 			traits = {
 				strongman_of_san_luis_potosi
 			}
@@ -1844,7 +1846,7 @@ country_event = {
 	#				name = "Juan Andreu"
 	#			}
 	#		}
-	#		has_government = right-wing
+	#		has_government = fascism
 	#	}
 
 	#	create_country_leader = {
@@ -1852,7 +1854,7 @@ country_event = {
 	#		desc = "POLITICS_JUAN_ANDREU_DESC"
 	#		picture = "GFX_portrait_mex_juan_andreu"
 	#		expire = "1965.1.1"
-	#		ideology = fascism
+	#		ideology = fascism_ideology
 	#		traits = {
 	#			the_silver_president
 	#		}
@@ -1869,7 +1871,7 @@ country_event = {
 					name = "Jesús Degollado Guízar"
 				}
 			}
-			has_government = right-wing
+			has_government = fascism
 		}
 
 		create_country_leader = {
@@ -1877,7 +1879,7 @@ country_event = {
 			desc = "POLITICS_JESUS_DEGOLLADO_GUIZAR_DESC"
 			picture = "GFX_portrait_mex_jesus_degollado_guizar"
 			expire = "1965.1.1"
-			ideology = fascism
+			ideology = falangism
 			traits = {
 				cristero_general
 			}
@@ -1893,7 +1895,7 @@ country_event = {
 					name = "Salvador Abascal"
 				}
 			}
-			has_government = right-wing
+			has_government = fascism
 		}
 
 		create_country_leader = {
@@ -1901,7 +1903,7 @@ country_event = {
 			desc = "POLITICS_SALVADOR_ABASCAL_DESC"
 			picture = "GFX_Portrait_MEX_Salvador_Abascal"
 			expire = "1965.1.1"
-			ideology = fascism
+			ideology = falangism
 			traits = {
 				fascist_militia_leader
 			}
@@ -1922,7 +1924,7 @@ country_event = {
 			desc = "POLITICS_VALENTIN_CAMPA_DESC"
 			picture = "gfx/leaders/South America/Portrait_South_America_Generic_4.dds"
 			expire = "1965.1.1"
-			ideology = communism
+			ideology = leninism
 			traits = {
 				railroad_enthusiast
 			}
@@ -2020,7 +2022,7 @@ country_event = {
 				desc = "POLITICS_HERNAN_LABORDE_DESC"
 				picture = "GFX_Portrait_MEX_Hernan_Laborde"
 				expire = "1965.1.1"
-				ideology = communism
+				ideology = leninism
 				traits = {
 					devoted_trotskyist
 				}
@@ -2411,30 +2413,30 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_government = left-wing
+					has_government = communism
 				}
 				start_civil_war = {
-					ideology = right-wing
+					ideology = fascism
 					size = 0.35
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
 				}
 			}
 			if = {
 				limit = {
-					has_government = right-wing
+					has_government = fascism
 				}
 				start_civil_war = {
-					ideology = centre
+					ideology = democratic
 					size = 0.35
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
 				}
 			}
 			if = {
 				limit = {
-					has_government = syncretic
+					has_government = neutrality
 				}
 				start_civil_war = {
-					ideology = centre
+					ideology = democratic
 					size = 0.35
 					keep_unit_leaders = { 700 701 702 703 704 705 706 707 708 709 710 711 712 }
 				}
@@ -2481,7 +2483,7 @@ country_event = {
 					desc = "POLITICS_JESUS_DEGOLLADO_GUIZAR_DESC"
 					picture = GFX_portrait_mex_jesus_degollado_guizar
 					expire = "1965.1.1"
-					ideology = fascism
+					ideology = falangism
 					traits = {
 						cristero_general
 					}
@@ -2542,8 +2544,8 @@ country_event = {
 						owner = PREV
 					}
 				}
-				set_party_name = { ideology = right-wing name = MEX_fascist_party_legionnaires_of_christ_short long_name = MEX_fascist_party_legionnaires_of_christ_long }
-				set_party_name = { ideology = centre name = MEX_democratic_party_national_action_party_short long_name = MEX_democratic_party_national_action_party_long }
+				set_party_name = { ideology = fascism name = MEX_fascist_party_legionnaires_of_christ_short long_name = MEX_fascist_party_legionnaires_of_christ_long }
+				set_party_name = { ideology = democratic name = MEX_democratic_party_national_action_party_short long_name = MEX_democratic_party_national_action_party_long }
 			}
 		}
 	}
@@ -2635,41 +2637,41 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_government = centre
+					has_government = democratic
 					NOT = {
 						has_completed_focus = MEX_focus_jefe_maximo
 					}
 				}
 				start_civil_war = {
-					ideology = syncretic
+					ideology = neutrality
 					size = 0.35
 				}
 			}
 			if = {
 				limit = {
-					has_government = centre
+					has_government = democratic
 					has_completed_focus = MEX_focus_jefe_maximo
 				}
 				start_civil_war = {
-					ideology = left-wing
+					ideology = communism
 					size = 0.35
 				}
 			}
 			if = {
 				limit = {
-					has_government = right-wing
+					has_government = fascism
 				}
 				start_civil_war = {
-					ideology = left-wing
+					ideology = communism
 					size = 0.35
 				}
 			}
 			if = {
 				limit = {
-					has_government = syncretic
+					has_government = neutrality
 				}
 				start_civil_war = {
-					ideology = left-wing
+					ideology = communism
 					size = 0.35
 				}
 			}
@@ -2748,7 +2750,7 @@ country_event = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_military
 					expire = "1965.1.1"
-					ideology = authoritarianism
+					ideology = despotism
 					traits = {
 						el_jefe_maximo
 					}
@@ -2758,9 +2760,9 @@ country_event = {
 					desc = "POLITICS_VICENTE_LOMBARDO_DESC"
 					picture = "GFX_portrait_mex_vicente_lombardo"
 					expire = "1965.1.1"
-					ideology = communism
+					ideology = marxism
 					traits = {
-						the_dean_of_mexican_communism
+						the_dean_of_mexican_marxism
 					}
 				}
 				if = {
@@ -2772,7 +2774,7 @@ country_event = {
 						desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 						picture = "GFX_portrait_mex_saturnino_cedillo"
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -2787,7 +2789,7 @@ country_event = {
 						desc = "POLITICS_JUAN_ANDREU_DESC"
 						picture = "GFX_portrait_mex_juan_andreu"
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							the_silver_president
 						}
@@ -2918,7 +2920,7 @@ country_event = {
 		
 		has_war = yes # Ostensibly over fabrics in short supply during wartime. Sumptuary laws help create an orderly and peaceful society under God
 		
-		has_government = centre # Bigger concerns if they are fascists or communists
+		has_government = democratic # Bigger concerns if they are fascists or communists
 		
 		country_exists = MEX
 		
@@ -2993,7 +2995,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.1
-				has_government = right-wing
+				has_government = fascism
 			}
 			modifier = {
 				factor = 10
@@ -3994,7 +3996,7 @@ country_event = {
 		}		
 	}	
 	option = {
-		name = mexico.52.b #Never! communism best -ism.
+		name = mexico.52.b #Never! Stalinism best -ism.
 		ai_chance = {
 			factor = 30
 		}		
@@ -4020,7 +4022,7 @@ country_event = {
 	}	
 	option = {
 		name = mexico.53.b
-		#Never! communism best -ism.
+		#Never! Stalinism best -ism.
 		ai_chance = {
 			factor = 10
 		}		

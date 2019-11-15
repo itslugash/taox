@@ -1,0 +1,15 @@
+state = {
+	id = 966
+	name = "Kerch" # Crimea
+	manpower = 1
+	state_category = city
+	provinces = {
+		966
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

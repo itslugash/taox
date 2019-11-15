@@ -1,0 +1,15 @@
+state = {
+	id = 2412
+	name = "Óbidos" # Pará
+	manpower = 1
+	state_category = city
+	provinces = {
+		2412
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

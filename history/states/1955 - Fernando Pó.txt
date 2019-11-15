@@ -1,0 +1,14 @@
+state = {
+	id = 1955
+	name = "Fernando Pó" # South Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1955
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

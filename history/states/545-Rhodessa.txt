@@ -1,25 +1,15 @@
-state={
-	id=545
-	
-	state_category = pastoral
-	
-	name="STATE_545"
-
-	history={
-		owner = ENG
+state = {
+	id = 545
+	name = "Neustrelitz" # Pommern
+	manpower = 1
+	state_category = city
+	provinces = {
+		545
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			infrastructure = 3
-
 		}
-		victory_points = {
-			10929 1 
-		}
-		add_core_of = ZIM
 	}
-
-	provinces={
-		1874 2151 2216 4851 7842 10929
-	}
-	manpower=1171336
-	buildings_max_level_factor=1.000
 }

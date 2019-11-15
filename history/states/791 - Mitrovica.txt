@@ -1,0 +1,15 @@
+state = {
+	id = 791
+	name = "Mitrovica" # Slavonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		791
+	}
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
+	}
+}

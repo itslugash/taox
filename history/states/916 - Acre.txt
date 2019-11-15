@@ -1,0 +1,15 @@
+state = {
+	id = 916
+	name = "Acre" # Palestine
+	manpower = 1
+	state_category = city
+	provinces = {
+		916
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

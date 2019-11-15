@@ -1,0 +1,14 @@
+state = {
+	id = 1988
+	name = "Mussumba" # Katanga
+	manpower = 1
+	state_category = city
+	provinces = {
+		1988
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2257
+	name = "Popayán" # Cauca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2257
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

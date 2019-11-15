@@ -1,0 +1,14 @@
+state = {
+	id = 1886
+	name = "Bo" # Sierra Leone
+	manpower = 1
+	state_category = city
+	provinces = {
+		1886
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

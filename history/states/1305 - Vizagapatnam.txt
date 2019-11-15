@@ -1,0 +1,14 @@
+state = {
+	id = 1305
+	name = "Vizagapatnam" # Circars
+	manpower = 1
+	state_category = city
+	provinces = {
+		1305
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

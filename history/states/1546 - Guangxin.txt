@@ -1,0 +1,15 @@
+state = {
+	id = 1546
+	name = "Guangxin" # Jiangxi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1546
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

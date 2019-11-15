@@ -1,0 +1,14 @@
+state = {
+	id = 1373
+	name = "Lang Son" # Tonkin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1373
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

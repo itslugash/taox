@@ -1,0 +1,15 @@
+state = {
+	id = 1084
+	name = "Utchan" # Outer Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1084
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

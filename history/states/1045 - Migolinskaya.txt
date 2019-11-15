@@ -1,0 +1,15 @@
+state = {
+	id = 1045
+	name = "Migolinskaya" # Rostov
+	manpower = 1
+	state_category = city
+	provinces = {
+		1045
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1019
+	name = "Voronets" # Kursk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1019
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

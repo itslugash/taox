@@ -1,0 +1,15 @@
+state = {
+	id = 857
+	name = "Famagusta" # Cyprus
+	manpower = 1
+	state_category = city
+	provinces = {
+		857
+	}
+	history = {
+		owner = CYP
+		add_core_of = CYP
+		buildings = {
+		}
+	}
+}

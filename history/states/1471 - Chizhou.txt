@@ -1,0 +1,15 @@
+state = {
+	id = 1471
+	name = "Chizhou" # Southern Anhui
+	manpower = 1
+	state_category = city
+	provinces = {
+		1471
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

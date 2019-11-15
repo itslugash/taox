@@ -1,0 +1,15 @@
+state = {
+	id = 2171
+	name = "Los Albañiles" # Morelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2171
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

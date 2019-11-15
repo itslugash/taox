@@ -1,0 +1,14 @@
+state = {
+	id = 2058
+	name = "Mossurize" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2058
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

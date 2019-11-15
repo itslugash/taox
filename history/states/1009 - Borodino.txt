@@ -1,0 +1,15 @@
+state = {
+	id = 1009
+	name = "Borodino" # Bryansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1009
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

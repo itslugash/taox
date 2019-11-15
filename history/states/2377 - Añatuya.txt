@@ -1,0 +1,15 @@
+state = {
+	id = 2377
+	name = "Añatuya" # Chaco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2377
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

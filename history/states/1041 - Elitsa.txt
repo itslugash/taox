@@ -1,0 +1,15 @@
+state = {
+	id = 1041
+	name = "Elitsa" # Astrakhan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1041
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

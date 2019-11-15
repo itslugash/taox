@@ -1,0 +1,15 @@
+state = {
+	id = 2337
+	name = "Fortin Falcon" # Alto Paraguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2337
+	}
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+		}
+	}
+}

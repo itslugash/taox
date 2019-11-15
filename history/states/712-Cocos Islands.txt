@@ -1,21 +1,15 @@
-state={
-	id=712
-	name="STATE_712"
-	manpower=42	
-	state_category = tiny_island
-	
-	history=
-	{
-		owner = ENG
-		buildings = {
-			infrastructure = 3
-			13002 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 712
+	name = "lodka" # Wielkopolskie
+	manpower = 1
+	state_category = city
+	provinces = {
+		712
 	}
-	
-	provinces={
-		13002 
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
 	}
 }

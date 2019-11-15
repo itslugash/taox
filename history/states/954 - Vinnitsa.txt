@@ -1,0 +1,15 @@
+state = {
+	id = 954
+	name = "Vinnitsa" # Kiev
+	manpower = 1
+	state_category = city
+	provinces = {
+		954
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

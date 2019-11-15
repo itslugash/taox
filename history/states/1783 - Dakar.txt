@@ -1,0 +1,14 @@
+state = {
+	id = 1783
+	name = "Dakar" # Senegal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1783
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

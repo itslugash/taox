@@ -1,0 +1,14 @@
+state = {
+	id = 1942
+	name = "Bauchi" # Nigeria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1942
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

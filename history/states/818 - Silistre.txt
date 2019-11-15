@@ -1,0 +1,15 @@
+state = {
+	id = 818
+	name = "Silistre" # Dobrudja
+	manpower = 1
+	state_category = city
+	provinces = {
+		818
+	}
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+		}
+	}
+}

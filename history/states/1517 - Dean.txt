@@ -1,0 +1,15 @@
+state = {
+	id = 1517
+	name = "Dean" # Eastern Hubei
+	manpower = 1
+	state_category = city
+	provinces = {
+		1517
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

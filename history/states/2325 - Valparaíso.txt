@@ -1,0 +1,15 @@
+state = {
+	id = 2325
+	name = "Valparaíso" # Santiago
+	manpower = 1
+	state_category = city
+	provinces = {
+		2325
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

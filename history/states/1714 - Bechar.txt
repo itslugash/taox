@@ -1,0 +1,14 @@
+state = {
+	id = 1714
+	name = "Bechar" # West Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1714
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

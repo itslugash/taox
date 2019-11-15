@@ -241,11 +241,11 @@ country_event = {
 	option = { # Seek german alliance
 		name = romania.6.a
 		set_politics = {
-			ruling_party = right-wing
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = 0.35
 		}
 		add_opinion_modifier = { target = GER modifier = ROM_seek_alliance_GER }
@@ -261,11 +261,11 @@ country_event = {
 	option = { # Seek soviet alliance
 		name = romania.6.b
 		set_politics = {
-			ruling_party = left-wing
+			ruling_party = communism
 			elections_allowed = no
 		}
 		add_popularity = {
-		ideology = left-wing
+		ideology = communism
 			popularity = 0.5
 		}
 		add_opinion_modifier = { target = SOV modifier = ROM_seek_alliance_SOV }

@@ -1,0 +1,14 @@
+state = {
+	id = 1960
+	name = "Bafoussam" # North Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1960
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

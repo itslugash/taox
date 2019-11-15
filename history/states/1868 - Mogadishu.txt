@@ -1,0 +1,14 @@
+state = {
+	id = 1868
+	name = "Mogadishu" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1868
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

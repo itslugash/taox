@@ -1,0 +1,15 @@
+state = {
+	id = 1607
+	name = "Jinhua" # Zhejiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1607
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

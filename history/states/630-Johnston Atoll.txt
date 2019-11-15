@@ -1,21 +1,15 @@
-state=
-{
-	id=630
-	name="STATE_630"
+state = {
+	id = 630
+	name = "Budějovice" # Bohemia
 	manpower = 1
-	state_category = tiny_island
-
-	history={
-		owner = USA
-		buildings = {
-			infrastructure = 1
-			13051 = {
-				naval_base = 1
-			}
-		}
+	state_category = city
+	provinces = {
+		630
 	}
-	
-	provinces={
-		13051 	
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

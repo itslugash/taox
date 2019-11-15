@@ -1,0 +1,14 @@
+state = {
+	id = 1436
+	name = "Kendari" # Moluccas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1436
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

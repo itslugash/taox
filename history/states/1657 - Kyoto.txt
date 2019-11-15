@@ -1,0 +1,15 @@
+state = {
+	id = 1657
+	name = "Kyoto" # Kansai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1657
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

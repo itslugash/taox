@@ -1,0 +1,15 @@
+state = {
+	id = 1768
+	name = "Idfu" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1768
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

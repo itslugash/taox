@@ -1,0 +1,14 @@
+state = {
+	id = 1984
+	name = "Kananga" # Kasai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1984
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

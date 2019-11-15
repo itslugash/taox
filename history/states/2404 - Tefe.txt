@@ -1,0 +1,15 @@
+state = {
+	id = 2404
+	name = "Tefe" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2404
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

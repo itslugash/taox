@@ -1,0 +1,15 @@
+state = {
+	id = 1492
+	name = "Pingliang" # Gansu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1492
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

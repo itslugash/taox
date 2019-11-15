@@ -1,0 +1,14 @@
+state = {
+	id = 1719
+	name = "Ilizi" # Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1719
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

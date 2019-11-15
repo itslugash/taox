@@ -1,0 +1,15 @@
+state = {
+	id = 1011
+	name = "Tula" # Moscow
+	manpower = 1
+	state_category = city
+	provinces = {
+		1011
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

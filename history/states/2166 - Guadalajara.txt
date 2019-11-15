@@ -1,0 +1,15 @@
+state = {
+	id = 2166
+	name = "Guadalajara" # Jalisco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2166
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

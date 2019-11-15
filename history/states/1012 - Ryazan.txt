@@ -1,0 +1,15 @@
+state = {
+	id = 1012
+	name = "Ryazan" # Moscow
+	manpower = 1
+	state_category = city
+	provinces = {
+		1012
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1884
+	name = "Freetown" # Sierra Leone
+	manpower = 1
+	state_category = city
+	provinces = {
+		1884
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 789
+	name = "Livno" # Bosnia
+	manpower = 1
+	state_category = city
+	provinces = {
+		789
+	}
+	history = {
+		owner = BOS
+		add_core_of = BOS
+		buildings = {
+		}
+	}
+}

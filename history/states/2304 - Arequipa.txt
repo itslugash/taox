@@ -1,0 +1,15 @@
+state = {
+	id = 2304
+	name = "Arequipa" # Arequipa
+	manpower = 1
+	state_category = city
+	provinces = {
+		2304
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

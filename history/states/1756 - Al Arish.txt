@@ -1,0 +1,15 @@
+state = {
+	id = 1756
+	name = "Al Arish" # Sinai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1756
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

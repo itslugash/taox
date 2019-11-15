@@ -1,21 +1,15 @@
-state=
-{
-	id=163
-	name="STATE_163"
-	manpower = 18000
-	
-	state_category = enclave
-	
-	history={
-		owner = ITA
+state = {
+	id = 163
+	name = "Chicago" # Illinois
+	manpower = 1
+	state_category = city
+	provinces = {
+		163
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 5
-			3943 = {
-				naval_base = 1
-			}
 		}
-	} 
-	provinces={	
-		3943 
 	}
 }

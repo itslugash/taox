@@ -1,0 +1,15 @@
+state = {
+	id = 804
+	name = "Novi Pazar" # Southern Serbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		804
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

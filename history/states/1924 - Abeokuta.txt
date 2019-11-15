@@ -1,0 +1,14 @@
+state = {
+	id = 1924
+	name = "Abeokuta" # Yoruba States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1924
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2188
+	name = "Puerto Barrios" # Guatemala
+	manpower = 1
+	state_category = city
+	provinces = {
+		2188
+	}
+	history = {
+		owner = GUA
+		add_core_of = GUA
+		buildings = {
+		}
+	}
+}

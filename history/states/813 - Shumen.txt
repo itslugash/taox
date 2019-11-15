@@ -1,0 +1,15 @@
+state = {
+	id = 813
+	name = "Shumen" # Bulgaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		813
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

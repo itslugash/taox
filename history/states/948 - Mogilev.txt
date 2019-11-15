@@ -1,0 +1,15 @@
+state = {
+	id = 948
+	name = "Mogilev" # Orsha
+	manpower = 1
+	state_category = city
+	provinces = {
+		948
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

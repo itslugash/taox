@@ -1,0 +1,14 @@
+state = {
+	id = 1378
+	name = "Pleiku" # Cochin China
+	manpower = 1
+	state_category = city
+	provinces = {
+		1378
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

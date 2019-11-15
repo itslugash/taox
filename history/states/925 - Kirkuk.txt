@@ -1,0 +1,15 @@
+state = {
+	id = 925
+	name = "Kirkuk" # Mosul
+	manpower = 1
+	state_category = city
+	provinces = {
+		925
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

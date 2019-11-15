@@ -1,0 +1,15 @@
+state = {
+	id = 824
+	name = "Janina" # Thessaly
+	manpower = 1
+	state_category = city
+	provinces = {
+		824
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

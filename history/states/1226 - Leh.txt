@@ -1,0 +1,15 @@
+state = {
+	id = 1226
+	name = "Leh" # Kashmir
+	manpower = 1
+	state_category = city
+	provinces = {
+		1226
+	}
+	history = {
+		owner = KAS
+		add_core_of = KAS
+		buildings = {
+		}
+	}
+}

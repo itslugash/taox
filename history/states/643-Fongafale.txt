@@ -1,26 +1,15 @@
-
-state={
-	id=643
-	name="STATE_643"
-	manpower=493
-	state_category = small_island
-
-	history={
-		owner = ENG
-		add_core_of = FIJ
-		buildings = {
-			infrastructure = 3
-			13056 = {
-				naval_base = 1
-			}
-			13054 = {
-				naval_base = 1
-			}
-		}
-
+state = {
+	id = 643
+	name = "Székesfehérvár" # Transdanubia
+	manpower = 1
+	state_category = city
+	provinces = {
+		643
 	}
-
-	provinces={
-		13054 13055 13056 13057 
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
 	}
 }

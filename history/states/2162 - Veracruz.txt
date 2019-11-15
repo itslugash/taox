@@ -1,0 +1,15 @@
+state = {
+	id = 2162
+	name = "Veracruz" # México
+	manpower = 1
+	state_category = city
+	provinces = {
+		2162
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

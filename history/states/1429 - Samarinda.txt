@@ -1,0 +1,14 @@
+state = {
+	id = 1429
+	name = "Samarinda" # Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1429
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

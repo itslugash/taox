@@ -1,0 +1,14 @@
+state = {
+	id = 2099
+	name = "Mathele" # Eastern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2099
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

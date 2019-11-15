@@ -1,0 +1,14 @@
+state = {
+	id = 2020
+	name = "Mbarara" # Uganda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2020
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2165
+	name = "Villahermosa" # Yucatán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2165
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

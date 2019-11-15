@@ -1,0 +1,15 @@
+state = {
+	id = 943
+	name = "Smolensk" # Smolensk
+	manpower = 1
+	state_category = city
+	provinces = {
+		943
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

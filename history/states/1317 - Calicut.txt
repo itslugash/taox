@@ -1,0 +1,14 @@
+state = {
+	id = 1317
+	name = "Calicut" # Travancore
+	manpower = 1
+	state_category = city
+	provinces = {
+		1317
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

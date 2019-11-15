@@ -1,0 +1,14 @@
+state = {
+	id = 2234
+	name = "Curacao" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2234
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

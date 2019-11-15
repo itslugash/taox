@@ -1,0 +1,14 @@
+state = {
+	id = 1958
+	name = "Kribi" # South Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1958
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

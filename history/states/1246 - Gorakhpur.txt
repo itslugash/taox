@@ -1,0 +1,14 @@
+state = {
+	id = 1246
+	name = "Gorakhpur" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1246
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

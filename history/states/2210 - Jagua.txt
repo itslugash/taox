@@ -1,0 +1,15 @@
+state = {
+	id = 2210
+	name = "Jagua" # Greater Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2210
+	}
+	history = {
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+		}
+	}
+}

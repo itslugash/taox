@@ -1,35 +1,15 @@
-
-state={
-	id=639
-	name="STATE_639"
-	manpower=1035
-	state_category = small_island
-
-	history={
-		owner = ENG
-		add_core_of = FIJ
-		buildings = {
-			infrastructure = 3
-			13021 = {
-				naval_base = 1
-			}
-			4387 = {
-				naval_base = 1
-			}
-			7393 = {
-				naval_base = 1
-			}
-			13020 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			13021 1 
-		}
-
+state = {
+	id = 639
+	name = "Zalaegerszeg" # Transdanubia
+	manpower = 1
+	state_category = city
+	provinces = {
+		639
 	}
-
-	provinces={
-		4387 7393 13020 13021 13022 
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
 	}
 }

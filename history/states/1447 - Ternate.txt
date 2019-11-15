@@ -1,0 +1,14 @@
+state = {
+	id = 1447
+	name = "Ternate" # Moluccas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1447
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

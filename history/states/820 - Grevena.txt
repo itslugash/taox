@@ -1,0 +1,15 @@
+state = {
+	id = 820
+	name = "Grevena" # West Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		820
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

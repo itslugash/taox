@@ -1,0 +1,15 @@
+state = {
+	id = 2372
+	name = "Rivadavia" # Jujuy
+	manpower = 1
+	state_category = city
+	provinces = {
+		2372
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

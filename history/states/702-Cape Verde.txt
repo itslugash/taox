@@ -1,21 +1,15 @@
-state={
-	id=702
-	name="STATE_702"
-	manpower = 150600
-	
-	state_category = small_island
-
-	history={
-		owner = POR
-		buildings = {
-			infrastructure = 3
-			13014 ={
-				naval_base = 1
-			}
-		}
+state = {
+	id = 702
+	name = "Lemberg" # East Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		702
 	}
-
-	provinces={
-		13014 
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

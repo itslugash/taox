@@ -1,0 +1,14 @@
+state = {
+	id = 1781
+	name = "Walata" # Inner Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1781
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

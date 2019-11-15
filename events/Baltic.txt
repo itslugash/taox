@@ -1,23 +1,20 @@
-﻿###########################
-# Baltic Events
-###########################
+﻿########################
+# TAOX - Baltic Events #
+########################
 
 add_namespace = baltic
 
-# Soviet Ultimatum (Estonia)
-country_event = {
+country_event = { # "Soviet Ultimatum (Estonia)"
 	id = baltic.1
 	title = baltic.1.t
 	desc = baltic.1.d
 	picture = GFX_report_event_soviet_soldiers
-	
 	is_triggered_only = yes
-	
-	option = { # Accept demands
+	option = { # "Accept the inevitable..."
 		name = baltic.1.a
 		ai_chance = {
 			base = 10
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = {
 				factor = 0
 				OR = {
 					any_other_country = {
@@ -28,16 +25,21 @@ country_event = {
 						}
 					}
 					has_idea = anti_soviet_pact
-					SOV = { surrender_progress > 0.5 }
+					SOV = {
+						surrender_progress > 0.5
+					}
 				}
 			}
 		}
 		SOV = {
-			country_event = { days = 5 id = soviet.6 }
+			country_event = { # "Estonia Submits"
+				id = soviet.6
+				days = 5
+			}
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Refuse
+	option = { # "They will have to take our land by force!"
 		name = baltic.1.b
 		ai_chance = {
 			base = 0
@@ -59,9 +61,11 @@ country_event = {
 				}
 			}
 		}
-
 		SOV = {
-			country_event = { days = 5 id = soviet.7 }
+			country_event = { # "Estonia Refuses Our Offer"
+				id = soviet.7
+				days = 5
+			}
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -71,21 +75,17 @@ country_event = {
 		}
 	}
 }
-
-# Soviet Ultimatum (Latvia)
-country_event = {
+country_event = { # "Soviet Ultimatum (Latvia)"
 	id = baltic.2
 	title = baltic.1.t
 	desc = baltic.1.d
 	picture = GFX_report_event_soviet_soldiers
-	
 	is_triggered_only = yes
-	
-	option = { # Accept demands
+	option = { # "Accept the inevitable..."
 		name = baltic.1.a
 		ai_chance = {
 			base = 10
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = {
 				factor = 0
 				OR = {
 					any_other_country = {
@@ -96,16 +96,20 @@ country_event = {
 						}
 					}
 					has_idea = anti_soviet_pact
-					SOV = { surrender_progress > 0.5 }
+					SOV = {
+						surrender_progress > 0.5
+					}
 				}
 			}
 		}
-
 		SOV = {
-			country_event = { days = 5 id = soviet.8 }
+			country_event = { # "Latvia Submits"
+				id = soviet.8
+				days = 5
+			}
 		}
 	}
-	option = { # Refuse
+	option = { # "They will have to take our land by force!"
 		name = baltic.1.b
 		ai_chance = {
 			base = 0
@@ -127,9 +131,11 @@ country_event = {
 				}
 			}
 		}
-
 		SOV = {
-			country_event = { days = 5 id = soviet.9 }
+			country_event = { # "Latvia Refuses Our Offer"
+				id = soviet.9
+				days = 5
+			}
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -139,21 +145,17 @@ country_event = {
 		}
 	}
 }
-
-# Soviet Ultimatum (Lithuania)
-country_event = {
+country_event = { # "Soviet Ultimatum (Lithuania)"
 	id = baltic.3
 	title = baltic.1.t
 	desc = baltic.1.d
 	picture = GFX_report_event_soviet_soldiers
-	
 	is_triggered_only = yes
-	
-	option = { # Accept demands
+	option = { # "Accept the inevitable..."
 		name = baltic.1.a
 		ai_chance = {
 			base = 10
-			modifier = { # Don't accept if in a faction that can protect them
+			modifier = {
 				factor = 0
 				OR = {
 					any_other_country = {
@@ -164,16 +166,20 @@ country_event = {
 						}
 					}
 					has_idea = anti_soviet_pact
-					SOV = { surrender_progress > 0.5 }
+					SOV = {
+						surrender_progress > 0.5
+					}
 				}
 			}
 		}
-
 		SOV = {
-			country_event = { days = 5 id = soviet.10 }
+			country_event = { # "Lithuania Submits"
+				id = soviet.10
+				days = 5
+			}
 		}
 	}
-	option = { # Refuse
+	option = { # "They will have to take our land by force!"
 		name = baltic.1.b
 		ai_chance = {
 			base = 0
@@ -195,9 +201,11 @@ country_event = {
 				}
 			}
 		}
-
 		SOV = {
-			country_event = { days = 5 id = soviet.11 }
+			country_event = { # "Lithuania Refuses Our Offer"
+				id = soviet.11
+				days = 5
+			}
 			effect_tooltip = {
 				create_wargoal = {
 				type = annex_everything
@@ -207,17 +215,13 @@ country_event = {
 		}
 	}
 }
-
-# Germany Claims Memel (Lithuania)
-country_event = {
+country_event = { # "Germany Demands Memel"
 	id = baltic.4
 	title = baltic.4.t
 	desc = baltic.4.d
 	picture = GFX_report_event_generic_read_write
-	
-	is_triggered_only = yes
-	
-	option = { # Accept demands
+	is_triggered_only = yes	
+	option = { # "We must accept."
 		name = baltic.4.a
 		ai_chance = { 
 			factor = 90
@@ -256,10 +260,13 @@ country_event = {
 			}
 		}
 		GER = {
-			country_event = { days = 1 id = germany.22 }
+			country_event = { # "Lithuana Cedes Memel"
+				id = germany.22
+				days = 1
+			}
 		}
 	}
-	option = { # Refuse
+	option = { # "Never!"
 		name = baltic.4.b		
 		ai_chance = { 
 			factor = 10
@@ -306,53 +313,73 @@ country_event = {
 				create_wargoal = {
 				type = take_state_focus
 				target = LIT
-				generator = { 188 }
+				generator = {
+					188
 				}
-				country_event = { days = 1 id = germany.23 }
+				}
+				country_event = { # "Lithuana Refuses to Cede Memel"
+					id = germany.23
+					days = 1
+				}
 			}
 		}
 		hidden_effect = {
 			GER = {
-				country_event = { days = 1 id = germany.23 }
+				country_event = { # "Lithuana Refuses to Cede Memel"
+					id = germany.23
+					days = 1
+				}
 			}
 		}		
 	}
 }
-
-# Country becomes communist. Get's event to become part of the Soviet Union
-country_event = {
+country_event = { # "Communists in Control"
 	id = baltic.5
 	title = baltic.5.t
 	desc = baltic.5.d
 	picture = GFX_report_event_worker_protests
-
 	trigger = {
-		SOV = { has_government = left-wing }
-		NOT = { has_country_flag = baltic.5_fired }
+		SOV = {
+			OR = {
+				has_government = stalinism
+				has_government = leninism
+				has_government = left-wing_radicalism
+			}
+		}
+		NOT = {
+			has_country_flag = baltic.5_fired
+		}
 		OR = {
-			tag = LIT
-			tag = FIN
 			tag = EST
+			tag = FIN
 			tag = LAT
+			tag = LIT
 		} 
-		has_government = left-wing
+		OR = {
+			has_government = stalinism
+			has_government = leninism
+			has_government = left-wing_radicalism
+		}
 	}
-
 	immediate = {
-		FROM = { set_country_flag = baltic.5_fired }
+		FROM = {
+			set_country_flag = baltic.5_fired
+		}
 		save_event_target_as = baltic_annexation
 	}
-	
-	option = { # Annexed by SOV
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = { # "Our future is best secured if we truely become one with the Motherland."
 		name = baltic.5.a
 		ai_chance = {
 			factor = 40
 			modifier =  {
 				factor = 2
 				OR = {
-					tag = LIT
-					tag = LAT
 					tag = EST
+					tag = LAT
+					tag = LIT
 				}
 			}
 			modifier = {
@@ -360,56 +387,60 @@ country_event = {
 				is_puppet = yes
 			}
 		}
-		SOV =	{ country_event = { id = soviet.35 days = 1 } }
+		SOV =	{
+			country_event = { # "[From.GetNameDefCap] seeks to join [SOV.GetNameDef]"
+				id = soviet.35
+				days = 1
+			}
+		}
 	}
-	option = { # Become Puppet state
+	option = { # "[Root.GetName] has more to offer operating on its own under the protection of the Soviet Union."
 		name = baltic.5.b
-		ai_chance = { factor = 55
+		ai_chance = {
+			factor = 55
 			modifier = {
 				factor = 2
 				tag = FIN
 			}
 		}
-		SOV = { country_event = { id = soviet.36 days = 1 } }
+		SOV = {
+			country_event = { # "[From.GetName] wants our rule."
+				id = soviet.36
+				days = 1
+			}
+		}
 	}
-	option = { # Stay as own communist state
+	option = { # "[Root.GetName] shall remain a sovereign state."
 		name = baltic.5.c
 		trigger = {
 			is_puppet = no
 		}
-		ai_chance = { factor = 5 }
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		ai_chance = {
+			factor = 5
+		}
 	}
 }
-
-# Hidden event to be annexed. Needed because of problem with FROM and events in annexed countries (JH)
 country_event = {
 	id = baltic.6
-
 	hidden = yes
-	
 	is_triggered_only = yes
-
 	immediate = {
-		news_event = { id = news.69 }
-		news_event = { id = news.71 hours = 1 }
+		news_event = { # "Soviet Expansion in Europe"
+			id = news.69
+		}
+		news_event = {
+			id = news.71
+			hours = 1
+		}
 	}
 }
-
-#Poland Seeks Alliance With ROOT  
-#Event fired by Poland seeking to make a Baltic faction
-country_event = {
+country_event = { # "[From.GetName] Requests [Root.GetAdjective] Participation in the [From.GetFactionName]"
 	id = baltic.7
 	title = baltic.7.t
 	desc = baltic.7.d
 	picture = GFX_report_event_polish_tanks_01
-
 	is_triggered_only = yes
-
-	option = { #Enter alliance
+	option = { # "[Root.GetName] stands with its brothers."
 		name = baltic.7.a
 		ai_chance = {
 			factor = 90
@@ -423,11 +454,13 @@ country_event = {
 					value = 200
 				}
 			}
-			country_event = { id = poland.10 days = 1 }
+			country_event = { # "[From.GetName] Joins the [Root.GetFactionName]"
+				id = poland.10
+				days = 1
+			}
 		}
 	}
-
-	option = {
+	option = { # "[Root.GetName] can only survive on its own."
 		name = baltic.7.b
 		ai_chance = {
 			factor = 10
@@ -441,7 +474,10 @@ country_event = {
 			}
 		}
 		POL = {
-			country_event = { id = poland.11 days = 1 }
+			country_event = { # "[From.GetName] Refuses to Join [Root.GetFactionName]"
+				id = poland.11
+				days = 1
+			}
 		}
 	}
 }

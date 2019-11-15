@@ -1,0 +1,15 @@
+state = {
+	id = 2265
+	name = "Guanare" # Miranda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2265
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1874
+	name = "Zeyla" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1874
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

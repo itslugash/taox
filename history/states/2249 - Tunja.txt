@@ -1,0 +1,15 @@
+state = {
+	id = 2249
+	name = "Tunja" # Cundinamarca
+	manpower = 1
+	state_category = city
+	provinces = {
+		2249
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1578
+	name = "Chengdu" # Sichuan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1578
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

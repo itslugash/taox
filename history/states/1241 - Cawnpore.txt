@@ -1,0 +1,14 @@
+state = {
+	id = 1241
+	name = "Cawnpore" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1241
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

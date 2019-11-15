@@ -1,0 +1,14 @@
+state = {
+	id = 2065
+	name = "Milange" # Mocambique
+	manpower = 1
+	state_category = city
+	provinces = {
+		2065
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

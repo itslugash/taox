@@ -1,0 +1,15 @@
+state = {
+	id = 1733
+	name = "Misratah" # Libya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1733
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

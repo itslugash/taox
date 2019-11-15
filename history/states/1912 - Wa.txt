@@ -1,0 +1,14 @@
+state = {
+	id = 1912
+	name = "Wa" # Ghana
+	manpower = 1
+	state_category = city
+	provinces = {
+		1912
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1712
+	name = "Tuggurt" # Constantine
+	manpower = 1
+	state_category = city
+	provinces = {
+		1712
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

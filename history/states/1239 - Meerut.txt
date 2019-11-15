@@ -1,0 +1,14 @@
+state = {
+	id = 1239
+	name = "Meerut" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1239
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

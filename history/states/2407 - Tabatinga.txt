@@ -1,0 +1,15 @@
+state = {
+	id = 2407
+	name = "Tabatinga" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2407
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

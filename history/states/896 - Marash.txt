@@ -1,0 +1,15 @@
+state = {
+	id = 896
+	name = "Marash" # Ankara and Adana
+	manpower = 1
+	state_category = city
+	provinces = {
+		896
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

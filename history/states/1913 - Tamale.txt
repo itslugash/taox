@@ -1,0 +1,14 @@
+state = {
+	id = 1913
+	name = "Tamale" # Ghana
+	manpower = 1
+	state_category = city
+	provinces = {
+		1913
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

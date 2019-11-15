@@ -1,39 +1,15 @@
 state = {
 	id = 171
-	name = "Galicia"
-	manpower = 1468081
-	state_category = nine
-
+	name = "South Bend" # Indiana
+	manpower = 1
+	state_category = city
 	provinces = {
-		729 758 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840
+		171
 	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
-		victory_points = { # La Coruña
-			758 5
-		}
-		victory_points = { # Vigo
-			6734 10
-		}
-		victory_points = { # Santiago de Compostela
-			6955 3
-		}
-		victory_points = { # Orense
-			11677 5
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 2
-			air_base = 2
-			758 = {
-				naval_base = 6
-			}
 		}
 	}
 }

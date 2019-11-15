@@ -1,0 +1,15 @@
+state = {
+	id = 1570
+	name = "Wuding" # Southern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1570
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

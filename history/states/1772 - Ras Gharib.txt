@@ -1,0 +1,15 @@
+state = {
+	id = 1772
+	name = "Ras Gharib" # Upper Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		1772
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

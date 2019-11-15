@@ -1,0 +1,15 @@
+state = {
+	id = 1746
+	name = "Dumyat" # Sinai
+	manpower = 1
+	state_category = city
+	provinces = {
+		1746
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1054
+	name = "Vladikavkaz" # North Caucasia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1054
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

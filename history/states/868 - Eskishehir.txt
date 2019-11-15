@@ -1,0 +1,15 @@
+state = {
+	id = 868
+	name = "Eskishehir" # Hudavendigar
+	manpower = 1
+	state_category = city
+	provinces = {
+		868
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

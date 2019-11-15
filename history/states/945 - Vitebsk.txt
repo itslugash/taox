@@ -1,0 +1,15 @@
+state = {
+	id = 945
+	name = "Vitebsk" # Orsha
+	manpower = 1
+	state_category = city
+	provinces = {
+		945
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

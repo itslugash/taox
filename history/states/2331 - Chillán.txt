@@ -1,0 +1,15 @@
+state = {
+	id = 2331
+	name = "Chillán" # Los Ríos
+	manpower = 1
+	state_category = city
+	provinces = {
+		2331
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

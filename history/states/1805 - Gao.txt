@@ -1,0 +1,14 @@
+state = {
+	id = 1805
+	name = "Gao" # Timbuktu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1805
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

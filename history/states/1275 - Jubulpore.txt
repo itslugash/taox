@@ -1,0 +1,14 @@
+state = {
+	id = 1275
+	name = "Jubulpore" # Central India
+	manpower = 1
+	state_category = city
+	provinces = {
+		1275
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1220
+	name = "Dalbandin" # Baluchistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1220
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

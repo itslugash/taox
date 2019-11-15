@@ -1,0 +1,15 @@
+state = {
+	id = 809
+	name = "Sofia" # Rumelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		809
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2401
+	name = "Marabitanas" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2401
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

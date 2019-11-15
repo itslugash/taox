@@ -1,0 +1,15 @@
+state = {
+	id = 2403
+	name = "Cachoeira" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2403
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

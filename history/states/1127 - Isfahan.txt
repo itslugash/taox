@@ -1,0 +1,15 @@
+state = {
+	id = 1127
+	name = "Isfahan" # Isfahan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1127
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

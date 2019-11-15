@@ -1,0 +1,15 @@
+state = {
+	id = 2361
+	name = "Sancti Spiritu" # Santa Fe
+	manpower = 1
+	state_category = city
+	provinces = {
+		2361
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

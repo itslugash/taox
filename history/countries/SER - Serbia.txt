@@ -1,61 +1,21 @@
-﻿#########
-# State #
-#########
-
-	capital = 107
-
-##########
-# Powers #
-##########
-
-	set_stability = 0.6
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 20
-			}
-			centre = { 
-				popularity = 20
-			}
-			right-wing = {
-				popularity = 30
-			}
-			syncretic = { 
-				popularity = 30
-			}
-		}
+﻿capital = 107
+set_popularities = {
+	social_democracy = 7.27
+	social_liberalism = 38.13
+	social_conservatism = 54.6
+}
+set_politics = { 72.9
+	ruling_party = social_conservatism
+	last_election = "1908.5.31"
+	election_frequency = 36
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Peter I"
+	desc = "SER_Peter_I_desc"
+	picture = "Portrait_SER_Peter_I.tga"
+	expire = "1999.12.31"
+	ideology = social_conservatism_ideology
+	traits = {
 	}
-
-##############
-# Technology #
-##############
-
-	set_research_slots = 3
-
-	set_technology = {
-		tech_support = 1		
-		tech_engineers = 1
-		tech_mountaineers = 1
-		early_fighter = 1
-		gwtank = 1
-		basic_light_tank = 1
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_submarine = 1
-		fuel_silos = 1
-	}
-
-#########
-# Ideas #
-#########
-
-	add_ideas = {
-		anti_german_military
-	}
+}

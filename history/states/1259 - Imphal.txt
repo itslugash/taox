@@ -1,0 +1,14 @@
+state = {
+	id = 1259
+	name = "Imphal" # Assam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1259
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

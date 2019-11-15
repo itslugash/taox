@@ -1,0 +1,14 @@
+state = {
+	id = 1985
+	name = "Kumbana" # Bas-Congo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1985
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

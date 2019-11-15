@@ -1,0 +1,15 @@
+state = {
+	id = 2376
+	name = "Santiago del Estero" # Chaco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2376
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

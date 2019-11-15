@@ -1,0 +1,14 @@
+state = {
+	id = 2074
+	name = "Gaborone" # Botswana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2074
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

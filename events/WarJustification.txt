@@ -14,8 +14,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = right-wing
-		FROM = { has_government = syncretic }
+		has_government = fascism
+		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -40,8 +40,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = right-wing
-		FROM = { has_government = centre }
+		has_government = fascism
+		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 
@@ -66,8 +66,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = right-wing
-		FROM = { has_government = left-wing }
+		has_government = fascism
+		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 
@@ -92,8 +92,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = right-wing
-		FROM = { has_government = right-wing }
+		has_government = fascism
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -118,8 +118,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = left-wing
-		FROM = { has_government = syncretic }
+		has_government = communism
+		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -144,8 +144,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = left-wing
-		FROM = { has_government = centre }
+		has_government = communism
+		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -170,8 +170,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = left-wing
-		FROM = { has_government = left-wing }
+		has_government = communism
+		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -196,8 +196,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = left-wing
-		FROM = { has_government = right-wing }
+		has_government = communism
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -222,8 +222,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = centre
-		FROM = { has_government = syncretic }
+		has_government = democratic
+		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -248,8 +248,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = centre
-		FROM = { has_government = centre }
+		has_government = democratic
+		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -274,8 +274,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = centre
-		FROM = { has_government = left-wing }
+		has_government = democratic
+		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -300,8 +300,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = centre
-		FROM = { has_government = right-wing }
+		has_government = democratic
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -326,8 +326,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = syncretic
-		FROM = { has_government = syncretic }
+		has_government = neutrality
+		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -352,8 +352,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = syncretic
-		FROM = { has_government = centre }
+		has_government = neutrality
+		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -378,8 +378,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = syncretic
-		FROM = { has_government = left-wing }
+		has_government = neutrality
+		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -404,8 +404,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = syncretic
-		FROM = { has_government = right-wing }
+		has_government = neutrality
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -839,22 +839,22 @@ country_event = {
 	
 	option = {
 		name = war_justification.301.a
-		trigger = { has_government = centre }
+		trigger = { has_government = democratic }
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = centre
+			ideology = democratic
 			popularity = -0.05
 		}
 	}
 
 	option = {
 		name = war_justification.301.b
-		trigger = { has_government = left-wing }
+		trigger = { has_government = communism }
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = -0.05
 		}
 	}
@@ -863,14 +863,14 @@ country_event = {
 		name = war_justification.301.c
 		trigger = {
 			OR = {
-				has_government = right-wing
-				has_government = syncretic
+				has_government = fascism
+				has_government = neutrality
 			}
 		}
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = -0.05
 		}
 	}

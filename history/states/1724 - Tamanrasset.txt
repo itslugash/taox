@@ -1,0 +1,14 @@
+state = {
+	id = 1724
+	name = "Tamanrasset" # Sahara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1724
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

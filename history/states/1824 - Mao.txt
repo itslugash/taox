@@ -1,0 +1,14 @@
+state = {
+	id = 1824
+	name = "Mao" # Chad
+	manpower = 1
+	state_category = city
+	provinces = {
+		1824
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

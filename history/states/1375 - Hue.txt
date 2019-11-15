@@ -1,0 +1,14 @@
+state = {
+	id = 1375
+	name = "Hue" # Annam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1375
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

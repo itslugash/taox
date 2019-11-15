@@ -1,0 +1,15 @@
+state = {
+	id = 1049
+	name = "Novorossiysk" # Ekaterinodar
+	manpower = 1
+	state_category = city
+	provinces = {
+		1049
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

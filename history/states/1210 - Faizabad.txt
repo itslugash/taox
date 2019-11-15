@@ -1,0 +1,15 @@
+state = {
+	id = 1210
+	name = "Faizabad" # Eastern Afghanistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1210
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		}
+	}
+}

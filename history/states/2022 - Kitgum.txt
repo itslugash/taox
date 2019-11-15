@@ -1,0 +1,14 @@
+state = {
+	id = 2022
+	name = "Kitgum" # Uganda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2022
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

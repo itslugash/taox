@@ -1,0 +1,15 @@
+state = {
+	id = 1079
+	name = "Nerchinsk" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1079
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

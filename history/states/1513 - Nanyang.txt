@@ -1,0 +1,15 @@
+state = {
+	id = 1513
+	name = "Nanyang" # Henan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1513
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

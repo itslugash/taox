@@ -1,0 +1,15 @@
+state = {
+	id = 845
+	name = "Cyclades" # Aegean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		845
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+	}
+}

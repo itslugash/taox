@@ -1,0 +1,15 @@
+state = {
+	id = 1858
+	name = "Awsa" # Gonder-Tigray
+	manpower = 1
+	state_category = city
+	provinces = {
+		1858
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

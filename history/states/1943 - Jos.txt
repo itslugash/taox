@@ -1,0 +1,14 @@
+state = {
+	id = 1943
+	name = "Jos" # Nigeria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1943
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

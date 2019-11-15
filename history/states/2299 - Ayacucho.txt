@@ -1,0 +1,15 @@
+state = {
+	id = 2299
+	name = "Ayacucho" # Ica
+	manpower = 1
+	state_category = city
+	provinces = {
+		2299
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

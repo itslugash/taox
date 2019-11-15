@@ -1,0 +1,14 @@
+state = {
+	id = 1276
+	name = "Hoshangabad" # Central India
+	manpower = 1
+	state_category = city
+	provinces = {
+		1276
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

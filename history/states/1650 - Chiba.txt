@@ -1,0 +1,15 @@
+state = {
+	id = 1650
+	name = "Chiba" # Kanto
+	manpower = 1
+	state_category = city
+	provinces = {
+		1650
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

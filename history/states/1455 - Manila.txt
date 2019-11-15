@@ -1,0 +1,14 @@
+state = {
+	id = 1455
+	name = "Manila" # Luzón
+	manpower = 1
+	state_category = city
+	provinces = {
+		1455
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

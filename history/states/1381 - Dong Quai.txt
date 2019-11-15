@@ -1,0 +1,14 @@
+state = {
+	id = 1381
+	name = "Dong Quai" # Cochin China
+	manpower = 1
+	state_category = city
+	provinces = {
+		1381
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

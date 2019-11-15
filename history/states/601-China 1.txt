@@ -1,36 +1,15 @@
-state={
-	id=601
-	name="STATE_601"
-	resources={
-		oil=2.000
+state = {
+	id = 601
+	name = "Ingolstadt" # Bayern
+	manpower = 1
+	state_category = city
+	provinces = {
+		601
 	}
-
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = TIB
-		add_core_of = PRC
+	history = {
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			infrastructure = 1
-
 		}
-		victory_points = {
-			10856 1
-		}
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 2
-
-			}
-
-		}
-
 	}
-
-	provinces={
-		4407 5018 5080 5102 8041 8059 10741 10856 
-	}
-	manpower=368200
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

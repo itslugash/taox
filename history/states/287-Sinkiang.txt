@@ -1,23 +1,15 @@
-state={
-	id=287
-	name="STATE_287"
-
-	history={
-		owner = SIK
-		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
+state = {
+	id = 287
+	name = "Coventry" # Midlands
+	manpower = 1
+	state_category = city
+	provinces = {
+		287
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
 		buildings = {
-			infrastructure = 1
-
 		}
-
 	}
-
-	provinces={
-		4973 8042 8086 10885 10911 12864 
-	}
-	manpower=408000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

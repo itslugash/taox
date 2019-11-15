@@ -1,0 +1,14 @@
+state = {
+	id = 2005
+	name = "Huambo" # South Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2005
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

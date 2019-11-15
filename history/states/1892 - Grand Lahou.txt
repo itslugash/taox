@@ -1,0 +1,14 @@
+state = {
+	id = 1892
+	name = "Grand Lahou" # Ivory Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1892
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

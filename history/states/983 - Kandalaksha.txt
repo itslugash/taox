@@ -1,0 +1,15 @@
+state = {
+	id = 983
+	name = "Kandalaksha" # Karelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		983
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

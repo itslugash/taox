@@ -1,0 +1,15 @@
+state = {
+	id = 2214
+	name = "Santo Domingo" # Hispaniola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2214
+	}
+	history = {
+		owner = DOM
+		add_core_of = DOM
+		buildings = {
+		}
+	}
+}

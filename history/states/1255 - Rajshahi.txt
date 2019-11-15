@@ -1,0 +1,14 @@
+state = {
+	id = 1255
+	name = "Rajshahi" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1255
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2146
+	name = "Monterrey" # Nuevo León
+	manpower = 1
+	state_category = city
+	provinces = {
+		2146
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

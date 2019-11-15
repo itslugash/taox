@@ -1,0 +1,14 @@
+state = {
+	id = 2128
+	name = "Diego Garcia" # Ceylon
+	manpower = 1
+	state_category = city
+	provinces = {
+		2128
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

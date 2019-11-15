@@ -1,0 +1,14 @@
+state = {
+	id = 1252
+	name = "Darjeeling" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1252
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

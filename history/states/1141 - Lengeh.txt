@@ -1,0 +1,15 @@
+state = {
+	id = 1141
+	name = "Lengeh" # Laristan-Sistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1141
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

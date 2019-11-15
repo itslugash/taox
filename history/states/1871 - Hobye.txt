@@ -1,0 +1,14 @@
+state = {
+	id = 1871
+	name = "Hobye" # Somaliland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1871
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

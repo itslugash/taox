@@ -1,0 +1,15 @@
+state = {
+	id = 1477
+	name = "Taiping" # Jiangsu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1477
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

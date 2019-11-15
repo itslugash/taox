@@ -1,0 +1,15 @@
+state = {
+	id = 1178
+	name = "Sana" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1178
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

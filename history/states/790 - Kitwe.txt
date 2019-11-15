@@ -1,0 +1,15 @@
+state = {
+	id = 790
+	name = "Kitwe" # Zambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		790
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
+		buildings = {
+		}
+	}
+}

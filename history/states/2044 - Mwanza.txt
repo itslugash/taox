@@ -1,0 +1,14 @@
+state = {
+	id = 2044
+	name = "Mwanza" # Tanganyika
+	manpower = 1
+	state_category = city
+	provinces = {
+		2044
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

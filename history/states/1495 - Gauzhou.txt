@@ -1,0 +1,15 @@
+state = {
+	id = 1495
+	name = "Gauzhou" # Guangdong
+	manpower = 1
+	state_category = city
+	provinces = {
+		1495
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

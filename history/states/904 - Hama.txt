@@ -1,0 +1,15 @@
+state = {
+	id = 904
+	name = "Hama" # Aleppo
+	manpower = 1
+	state_category = city
+	provinces = {
+		904
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

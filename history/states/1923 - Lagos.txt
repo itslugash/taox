@@ -1,0 +1,14 @@
+state = {
+	id = 1923
+	name = "Lagos" # Yoruba States
+	manpower = 1
+	state_category = city
+	provinces = {
+		1923
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

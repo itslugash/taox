@@ -1,0 +1,15 @@
+state = {
+	id = 855
+	name = "Nicosia" # Cyprus
+	manpower = 1
+	state_category = city
+	provinces = {
+		855
+	}
+	history = {
+		owner = CYP
+		add_core_of = CYP
+		buildings = {
+		}
+	}
+}

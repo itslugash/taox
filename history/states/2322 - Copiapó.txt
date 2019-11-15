@@ -1,0 +1,15 @@
+state = {
+	id = 2322
+	name = "Copiapó" # Santiago
+	manpower = 1
+	state_category = city
+	provinces = {
+		2322
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

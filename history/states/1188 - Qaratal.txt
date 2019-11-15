@@ -1,0 +1,15 @@
+state = {
+	id = 1188
+	name = "Qaratal" # Semireche
+	manpower = 1
+	state_category = city
+	provinces = {
+		1188
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,34 +1,15 @@
-
-state={
-	id=295
-	name="STATE_295" # Leopoldville
-	manpower = 3540948
-	
-	state_category = rural
-	
-	resources={
-		tungsten=2 # was: 2
+state = {
+	id = 295
+	name = "St Albans" # Eastern Counties
+	manpower = 1
+	state_category = city
+	provinces = {
+		295
 	}
-
-	history={
-		owner = BEL
+	history = {
+		owner = GBR
+		add_core_of = GBR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			10968 = {
-				naval_base = 1
-			}
 		}
-		victory_points = {
-			191 1 
-		}
-		victory_points = {
-			5117 3 
-		}
-			add_core_of = COG
-	}
-
-	provinces={
-		191 1516 1731 1817 1929 1968 2024 4128 4515 5117 7716 9986 10025 10858 10968 12795 12896 12907 12925 12945 
 	}
 }

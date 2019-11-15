@@ -1,0 +1,15 @@
+state = {
+	id = 1315
+	name = "Chitaldroog" # Mysore
+	manpower = 1
+	state_category = city
+	provinces = {
+		1315
+	}
+	history = {
+		owner = MYS
+		add_core_of = MYS
+		buildings = {
+		}
+	}
+}

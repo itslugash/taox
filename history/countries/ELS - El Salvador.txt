@@ -1,73 +1,19 @@
-﻿###########
-# General #
-###########
-
-	set_country_flag = monroe_doctrine
-
-#########
-# State #
-#########
-
-	capital = 314
-
-##########
-# Powers #
-##########
-
-	set_war_support = 0.1
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			left-wing = {
-				popularity = 0
-			}
-			centre = { 
-				popularity = 0
-			}
-			right-wing = {
-				popularity = 100
-			}
-			syncretic = {
-				popularity = 0
-			}
-		}
-		ruling_party = right-wing
-		last_election = "1935.1.15"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Maximiliano Hernández Martínez"
-		desc = "ELS_Maxilimiliano_Hernandez_Martinez_desc"
-		picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
-		expire = "1999.12.31"
-		ideology = fascism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-set_technology = {
-	infantry_weapons = 1
-	early_fighter = 1
+﻿capital = 314
+set_popularities = {
+	social_liberalism = 100
 }
-
-########
-# Unit #
-########
-
-oob = "ELS_1936"
-
-########
-# Navy #
-########
-
-	set_convoys = 5
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "1907.12.19"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Manuel Enrique Araujo"
+	desc = "ELS_Manuel_Enrique_Araujo_desc"
+	picture = "Portrait_ELS_Manuel_Enrique_Araujo.tga"
+	expire = "1999.12.31"
+	ideology = social_liberalism_ideology
+	traits = {
+	}
+}

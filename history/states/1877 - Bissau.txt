@@ -1,0 +1,14 @@
+state = {
+	id = 1877
+	name = "Bissau" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1877
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

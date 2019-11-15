@@ -1,0 +1,15 @@
+state = {
+	id = 1385
+	name = "Johor Bahru" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1385
+	}
+	history = {
+		owner = JOH
+		add_core_of = JOH
+		buildings = {
+		}
+	}
+}

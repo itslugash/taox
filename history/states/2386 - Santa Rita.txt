@@ -1,0 +1,15 @@
+state = {
+	id = 2386
+	name = "Santa Rita" # Tucumán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2386
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2224
+	name = "Antigua" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2224
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

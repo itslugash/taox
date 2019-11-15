@@ -1,0 +1,15 @@
+state = {
+	id = 2382
+	name = "Renancó" # La Pampa
+	manpower = 1
+	state_category = city
+	provinces = {
+		2382
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

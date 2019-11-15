@@ -1,0 +1,15 @@
+state = {
+	id = 815
+	name = "Plovdiv" # Rumelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		815
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

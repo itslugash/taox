@@ -1,0 +1,14 @@
+state = {
+	id = 1920
+	name = "Abomey" # Dahomey
+	manpower = 1
+	state_category = city
+	provinces = {
+		1920
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,22 +1,15 @@
-
-state={
-	id=642
-	name="STATE_642"
-	manpower=24
-	
-	state_category = tiny_island
-
-	history={
-		owner = USA
-		buildings = {
-			infrastructure = 3
-			13050 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 642
+	name = "Győr" # Transdanubia
+	manpower = 1
+	state_category = city
+	provinces = {
+		642
 	}
-
-	provinces={
-		13050 
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
 	}
 }

@@ -1,0 +1,14 @@
+state = {
+	id = 1406
+	name = "Medan" # Aceh
+	manpower = 1
+	state_category = city
+	provinces = {
+		1406
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

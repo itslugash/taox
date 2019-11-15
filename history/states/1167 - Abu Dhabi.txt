@@ -1,0 +1,15 @@
+state = {
+	id = 1167
+	name = "Abu Dhabi" # Abu Dhabi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1167
+	}
+	history = {
+		owner = TRU
+		add_core_of = TRU
+		buildings = {
+		}
+	}
+}

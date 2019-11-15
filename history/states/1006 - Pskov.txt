@@ -1,0 +1,15 @@
+state = {
+	id = 1006
+	name = "Pskov" # Ingria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1006
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

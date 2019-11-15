@@ -1,0 +1,15 @@
+state = {
+	id = 2306
+	name = "Sorocaba" # São Paulo
+	manpower = 1
+	state_category = city
+	provinces = {
+		2306
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

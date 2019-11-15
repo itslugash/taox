@@ -1,0 +1,14 @@
+state = {
+	id = 1910
+	name = "Kumasi" # Ghana
+	manpower = 1
+	state_category = city
+	provinces = {
+		1910
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

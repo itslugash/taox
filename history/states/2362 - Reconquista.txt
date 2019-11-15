@@ -1,0 +1,15 @@
+state = {
+	id = 2362
+	name = "Reconquista" # Santa Fe
+	manpower = 1
+	state_category = city
+	provinces = {
+		2362
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

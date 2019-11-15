@@ -1,0 +1,15 @@
+state = {
+	id = 2153
+	name = "Durango" # Durango
+	manpower = 1
+	state_category = city
+	provinces = {
+		2153
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

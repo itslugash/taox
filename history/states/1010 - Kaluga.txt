@@ -1,0 +1,15 @@
+state = {
+	id = 1010
+	name = "Kaluga" # Bryansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1010
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

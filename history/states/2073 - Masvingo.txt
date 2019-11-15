@@ -1,0 +1,14 @@
+state = {
+	id = 2073
+	name = "Masvingo" # Zambezi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2073
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1694
+	name = "Agadir" # West Morocco
+	manpower = 1
+	state_category = city
+	provinces = {
+		1694
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

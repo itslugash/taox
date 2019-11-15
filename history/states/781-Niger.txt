@@ -1,23 +1,15 @@
-
-state={
-	id=781
-	name="STATE_781" # Niger
-	manpower = 543817
-	
-	state_category = pastoral
-
-	history={
-		owner = FRA
-		add_core_of = NGR
-		victory_points = {
-			2056 1
-		}
-		buildings = {
-			infrastructure = 3
-		}
+state = {
+	id = 781
+	name = "Zadar" # Dalmatia
+	manpower = 1
+	state_category = city
+	provinces = {
+		781
 	}
-
-	provinces={
-		1975 2056 12707
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
 	}
 }

@@ -1,0 +1,15 @@
+state = {
+	id = 2356
+	name = "Corrientes" # Corrientes
+	manpower = 1
+	state_category = city
+	provinces = {
+		2356
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

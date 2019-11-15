@@ -1,24 +1,15 @@
-state={
-	id=692
-	name="STATE_692"
-	manpower=76485
-	state_category = small_island
-
-	history={
-		add_core_of = BAS
-		owner = ENG
-		buildings = {
-			infrastructure = 4
-			11350 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			11350 1
-		}
+state = {
+	id = 692
+	name = "Deutsch Krone" # Posen
+	manpower = 1
+	state_category = city
+	provinces = {
+		692
 	}
-	
-	provinces={
-		379 11106 11350 13009 
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
 	}
 }

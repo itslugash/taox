@@ -1,0 +1,15 @@
+state = {
+	id = 2319
+	name = "Santa Ana" # La Paz
+	manpower = 1
+	state_category = city
+	provinces = {
+		2319
+	}
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+		}
+	}
+}

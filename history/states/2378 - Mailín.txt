@@ -1,0 +1,15 @@
+state = {
+	id = 2378
+	name = "Mailín" # Chaco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2378
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

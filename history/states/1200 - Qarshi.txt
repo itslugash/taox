@@ -1,0 +1,15 @@
+state = {
+	id = 1200
+	name = "Qarshi" # Uzbekia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1200
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

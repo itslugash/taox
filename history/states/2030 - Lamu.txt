@@ -1,0 +1,14 @@
+state = {
+	id = 2030
+	name = "Lamu" # Kenya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2030
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

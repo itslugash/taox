@@ -1,0 +1,15 @@
+state = {
+	id = 2397
+	name = "Esquel" # Patagonia Septentrional
+	manpower = 1
+	state_category = city
+	provinces = {
+		2397
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2061
+	name = "Angoche" # Mocambique
+	manpower = 1
+	state_category = city
+	provinces = {
+		2061
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

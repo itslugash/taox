@@ -1,0 +1,15 @@
+state = {
+	id = 2270
+	name = "Maracaibo" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2270
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

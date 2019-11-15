@@ -1,0 +1,15 @@
+state = {
+	id = 981
+	name = "Archangel" # Arkhangelsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		981
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

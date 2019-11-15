@@ -1,0 +1,15 @@
+state = {
+	id = 1865
+	name = "Harer" # Oromia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1865
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

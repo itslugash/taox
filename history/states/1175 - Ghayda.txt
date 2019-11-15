@@ -1,0 +1,15 @@
+state = {
+	id = 1175
+	name = "Ghayda" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1175
+	}
+	history = {
+		owner = ADN
+		add_core_of = ADN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2018
+	name = "Chipata" # Kazembe
+	manpower = 1
+	state_category = city
+	provinces = {
+		2018
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

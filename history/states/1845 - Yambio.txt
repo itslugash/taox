@@ -1,0 +1,15 @@
+state = {
+	id = 1845
+	name = "Yambio" # Equatoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1845
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

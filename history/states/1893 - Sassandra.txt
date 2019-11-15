@@ -1,0 +1,14 @@
+state = {
+	id = 1893
+	name = "Sassandra" # Windward Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1893
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

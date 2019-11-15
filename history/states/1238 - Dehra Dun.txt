@@ -1,0 +1,14 @@
+state = {
+	id = 1238
+	name = "Dehra Dun" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1238
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

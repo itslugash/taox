@@ -1,0 +1,15 @@
+state = {
+	id = 2414
+	name = "Amapá" # Pará
+	manpower = 1
+	state_category = city
+	provinces = {
+		2414
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

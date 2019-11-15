@@ -1,0 +1,15 @@
+state = {
+	id = 1686
+	name = "Tangier" # al-Rif
+	manpower = 1
+	state_category = city
+	provinces = {
+		1686
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

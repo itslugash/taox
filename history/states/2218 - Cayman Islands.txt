@@ -1,0 +1,14 @@
+state = {
+	id = 2218
+	name = "Cayman Islands" # Caribbean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2218
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2271
+	name = "Valera" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2271
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

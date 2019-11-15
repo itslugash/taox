@@ -1,0 +1,15 @@
+state = {
+	id = 814
+	name = "Varna" # Bulgaria
+	manpower = 1
+	state_category = city
+	provinces = {
+		814
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		}
+	}
+}

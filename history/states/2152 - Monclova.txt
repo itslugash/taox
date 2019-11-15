@@ -1,0 +1,15 @@
+state = {
+	id = 2152
+	name = "Monclova" # Chihuahua
+	manpower = 1
+	state_category = city
+	provinces = {
+		2152
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

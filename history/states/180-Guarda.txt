@@ -1,38 +1,15 @@
 state = {
 	id = 180
-	name = "Norte de Portugal"
-	manpower = 2254530
-	state_category = nine
-
+	name = "Sandusky" # Ohio
+	manpower = 1
+	state_category = city
 	provinces = {
-		724 877 889 3892 4080 6921 6941 9817 11673 
+		180
 	}
-
 	history = {
-		owner = POR
-		add_core_of = POR
-
-		victory_points = { # Vila Real
-			724 1
-		}
-		victory_points = { # Bragança
-			3892 1
-		}
-		victory_points = { # Porto
-			9817 5
-		}
-		victory_points = { # Braga
-			11673 5
-		}
-
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 2
-			9817 = {
-				naval_base = 3
-			}
 		}
 	}
 }

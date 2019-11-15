@@ -1,0 +1,14 @@
+state = {
+	id = 2232
+	name = "Dominica" # Lesser Antilles
+	manpower = 1
+	state_category = city
+	provinces = {
+		2232
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

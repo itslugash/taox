@@ -1,0 +1,15 @@
+state = {
+	id = 2387
+	name = "San Juan" # Tucumán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2387
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

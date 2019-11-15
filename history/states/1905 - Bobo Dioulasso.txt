@@ -1,0 +1,14 @@
+state = {
+	id = 1905
+	name = "Bobo Dioulasso" # Volta
+	manpower = 1
+	state_category = city
+	provinces = {
+		1905
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

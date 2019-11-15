@@ -1,0 +1,14 @@
+state = {
+	id = 1702
+	name = "Setif" # Tlemcen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1702
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

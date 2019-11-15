@@ -1,0 +1,14 @@
+state = {
+	id = 2071
+	name = "Bulawayo" # Zambezi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2071
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

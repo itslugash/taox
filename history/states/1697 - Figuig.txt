@@ -1,0 +1,15 @@
+state = {
+	id = 1697
+	name = "Figuig" # Taza
+	manpower = 1
+	state_category = city
+	provinces = {
+		1697
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

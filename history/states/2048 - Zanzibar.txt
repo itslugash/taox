@@ -1,0 +1,14 @@
+state = {
+	id = 2048
+	name = "Zanzibar" # Zanzibar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2048
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,25 +1,15 @@
-state={
-	id=656
-	name="STATE_656"
-	manpower = 80000
-	
-	state_category = rural
-	
-	history={
-		add_core_of = KUW
-		owner = ENG
-		victory_points = {
-			8085 1 
-		}
-		buildings = {
-			infrastructure = 4
-			8085 = {
-				naval_base = 4
-			}
-		}
-
+state = {
+	id = 656
+	name = "Deva" # Western Siebenbürgen
+	manpower = 1
+	state_category = city
+	provinces = {
+		656
 	}
-	provinces={
-		8085
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
 	}
 }

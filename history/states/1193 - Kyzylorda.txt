@@ -1,0 +1,15 @@
+state = {
+	id = 1193
+	name = "Kyzylorda" # Akmolinsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1193
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

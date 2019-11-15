@@ -1,0 +1,14 @@
+state = {
+	id = 2124
+	name = "Mayotte" # Indian Ocean Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2124
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

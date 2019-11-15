@@ -1,0 +1,14 @@
+state = {
+	id = 1775
+	name = "Nouakchott" # Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1775
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

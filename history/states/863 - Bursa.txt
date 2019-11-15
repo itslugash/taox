@@ -1,0 +1,15 @@
+state = {
+	id = 863
+	name = "Bursa" # Hudavendigar
+	manpower = 1
+	state_category = city
+	provinces = {
+		863
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

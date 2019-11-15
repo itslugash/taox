@@ -1,0 +1,15 @@
+state = {
+	id = 2343
+	name = "Concepción" # Bajo Paraguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2343
+	}
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+		}
+	}
+}

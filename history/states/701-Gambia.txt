@@ -1,28 +1,15 @@
-state={
-	id=701
-	name="STATE_701"
-
-	history={
-		owner = ENG
-		add_core_of = GAM
-		victory_points = {
-			4989 1 
-		}
+state = {
+	id = 701
+	name = "Gniezno" # Posen
+	manpower = 1
+	state_category = city
+	provinces = {
+		701
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			infrastructure = 3
-			4989 = {
-				naval_base = 1
-
-			}
-
 		}
-
 	}
-
-	provinces={
-		4989 13213 
-	}
-	manpower=199520
-	buildings_max_level_factor=1.000
-	state_category=enclave
 }

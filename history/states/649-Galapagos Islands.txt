@@ -1,19 +1,15 @@
-state=
-{
-	id=649
-	name="STATE_649"
-	state_category = tiny_island
-	manpower=11532
-	history=
-	{
-		owner = ECU
-		buildings = {
-			infrastructure = 2
-			5023 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = ECU
+state = {
+	id = 649
+	name = "Szeged" # Transdanubia
+	manpower = 1
+	state_category = city
+	provinces = {
+		649
 	}
-	provinces= { 5023 }
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
+	}
 }

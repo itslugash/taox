@@ -1,0 +1,15 @@
+state = {
+	id = 1572
+	name = "Taiyuan" # Shanxi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1572
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

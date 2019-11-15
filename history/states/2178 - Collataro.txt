@@ -1,0 +1,15 @@
+state = {
+	id = 2178
+	name = "Collataro" # Morelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2178
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

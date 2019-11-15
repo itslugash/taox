@@ -1,0 +1,14 @@
+state = {
+	id = 1949
+	name = "Hadejia" # East Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1949
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

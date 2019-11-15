@@ -1,0 +1,14 @@
+state = {
+	id = 1407
+	name = "Tapaktuan" # Aceh
+	manpower = 1
+	state_category = city
+	provinces = {
+		1407
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

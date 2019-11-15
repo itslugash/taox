@@ -1,0 +1,15 @@
+state = {
+	id = 1856
+	name = "Aksum" # Gonder-Tigray
+	manpower = 1
+	state_category = city
+	provinces = {
+		1856
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

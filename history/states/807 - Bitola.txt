@@ -1,0 +1,15 @@
+state = {
+	id = 807
+	name = "Bitola" # North Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		807
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

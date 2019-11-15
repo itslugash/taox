@@ -1,0 +1,14 @@
+state = {
+	id = 1810
+	name = "Dosso" # Outer Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1810
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

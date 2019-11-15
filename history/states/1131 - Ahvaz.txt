@@ -1,0 +1,15 @@
+state = {
+	id = 1131
+	name = "Ahvaz" # Khuzestan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1131
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2032
+	name = "Garissa" # Kenya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2032
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

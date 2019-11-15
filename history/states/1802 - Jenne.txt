@@ -1,0 +1,14 @@
+state = {
+	id = 1802
+	name = "Jenne" # Eastern Mali
+	manpower = 1
+	state_category = city
+	provinces = {
+		1802
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

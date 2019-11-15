@@ -1,0 +1,14 @@
+state = {
+	id = 2040
+	name = "Songea" # Lindi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2040
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

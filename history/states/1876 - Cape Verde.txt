@@ -1,0 +1,14 @@
+state = {
+	id = 1876
+	name = "Cape Verde" # Macaronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1876
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

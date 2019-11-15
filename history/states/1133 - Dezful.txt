@@ -1,0 +1,15 @@
+state = {
+	id = 1133
+	name = "Dezful" # Khuzestan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1133
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

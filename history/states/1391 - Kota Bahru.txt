@@ -1,0 +1,15 @@
+state = {
+	id = 1391
+	name = "Kota Bahru" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		1391
+	}
+	history = {
+		owner = KEL
+		add_core_of = KEL
+		buildings = {
+		}
+	}
+}

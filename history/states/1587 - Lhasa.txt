@@ -1,0 +1,15 @@
+state = {
+	id = 1587
+	name = "Lhasa" # Tibet
+	manpower = 1
+	state_category = city
+	provinces = {
+		1587
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

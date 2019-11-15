@@ -1,0 +1,15 @@
+state = {
+	id = 1179
+	name = "Hodeida" # Yemen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1179
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

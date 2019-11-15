@@ -1,0 +1,14 @@
+state = {
+	id = 1959
+	name = "Yaounde" # South Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1959
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

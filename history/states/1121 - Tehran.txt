@@ -1,0 +1,15 @@
+state = {
+	id = 1121
+	name = "Tehran" # Irakajemi
+	manpower = 1
+	state_category = city
+	provinces = {
+		1121
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 970
+	name = "Nikolaev" # Cherson
+	manpower = 1
+	state_category = city
+	provinces = {
+		970
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

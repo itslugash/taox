@@ -1,0 +1,15 @@
+state = {
+	id = 1554
+	name = "Ninguta" # Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1554
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

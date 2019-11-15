@@ -1,0 +1,14 @@
+state = {
+	id = 848
+	name = "Iraklion" # Aegean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		848
+	}
+	history = {
+		owner = GRE
+		buildings = {
+		}
+	}
+}

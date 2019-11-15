@@ -1,0 +1,14 @@
+state = {
+	id = 1995
+	name = "Gemena" # Equateur
+	manpower = 1
+	state_category = city
+	provinces = {
+		1995
+	}
+	history = {
+		owner = BEL
+		buildings = {
+		}
+	}
+}

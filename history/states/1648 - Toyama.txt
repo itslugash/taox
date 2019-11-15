@@ -1,0 +1,15 @@
+state = {
+	id = 1648
+	name = "Toyama" # Chubu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1648
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

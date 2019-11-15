@@ -1,0 +1,15 @@
+state = {
+	id = 1591
+	name = "Changtang" # Tibet
+	manpower = 1
+	state_category = city
+	provinces = {
+		1591
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

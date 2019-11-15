@@ -1,0 +1,14 @@
+state = {
+	id = 1244
+	name = "Fyzabad" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1244
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

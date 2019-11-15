@@ -1258,7 +1258,7 @@ country_event = {
 			base = 25
 		}
 		add_popularity = {
-			ideology = syncretic
+			ideology = neutrality
 			popularity = 0.1
 		}
 		add_stability = -0.05
@@ -1322,7 +1322,7 @@ country_event = {
 	option = { #
 		name = ss_recruitment_event.14.a
 		start_civil_war = { 
-			ideology = syncretic
+			ideology = neutrality
 			size = 0.5
 		}
 		set_variable = { var = wehrmacht_anger value = 0 }
@@ -1330,7 +1330,7 @@ country_event = {
 			limit = {
 				original_tag = GER
 				has_civil_war = yes
-				has_government = syncretic
+				has_government = neutrality
 			}
 			save_event_target_as = GER_ss_civil_war_wehrmacht
 			delete_unit_template_and_units = { division_template = "SS Waffen-Grenadier-Division" }
@@ -1544,7 +1544,7 @@ country_event = {
 					desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 					picture = "Portrait_Germany_Heinrich_Himmler.dds"
 					expire = "1965.1.1"
-					ideology = fascism
+					ideology = nazism
 					traits = {
 					}
 				}
@@ -1586,7 +1586,7 @@ country_event = {
 		add_stability = -0.2
 		set_country_flag = GER_ss_himmler_purged
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = -0.2
 		}
 		subtract_from_variable = { var = wehrmacht_anger value = 25 }
@@ -1631,7 +1631,7 @@ country_event = {
 				}
 			}
 			start_civil_war = { #now it's a party...a nazi party 
-				ideology = syncretic
+				ideology = neutrality
 				size = 0.4
 			}
 		}
@@ -1656,7 +1656,7 @@ country_event = {
 			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 			picture = "Portrait_Germany_Hermann_Göring.dds"
 			expire = "1965.1.1"
-			ideology = fascism
+			ideology = nazism
 			traits = {
 			}
 		}
@@ -1671,7 +1671,7 @@ country_event = {
 				}
 			}
 			start_civil_war = { #now it's a party...a nazi party 
-				ideology = syncretic
+				ideology = neutrality
 				size = 0.4
 			}
 		}
@@ -1690,14 +1690,14 @@ country_event = {
 			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 			picture = "Portrait_Germany_Gunther_von_Kluge.dds"
 			expire = "1965.1.1"
-			ideology = authoritarianism
+			ideology = despotism
 			traits = {
 			}
 		}
-		set_party_name = { ideology = syncretic long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
+		set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
 		start_civil_war = {
-			ruling_party = syncretic
-			ideology = right-wing
+			ruling_party = neutrality
+			ideology = fascism
 			size = 0.4
 		}
 		hidden_effect = {

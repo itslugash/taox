@@ -1,0 +1,15 @@
+state = {
+	id = 1615
+	name = "Jizhou" # Northern Zhili
+	manpower = 1
+	state_category = city
+	provinces = {
+		1615
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

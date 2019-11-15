@@ -1,0 +1,15 @@
+state = {
+	id = 1839
+	name = "Nuhud" # Kordofan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1839
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1854
+	name = "Matamma" # Gonder-Tigray
+	manpower = 1
+	state_category = city
+	provinces = {
+		1854
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		}
+	}
+}

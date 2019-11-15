@@ -1,0 +1,15 @@
+state = {
+	id = 1508
+	name = "Kaifeng" # Henan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1508
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

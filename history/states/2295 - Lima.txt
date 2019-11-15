@@ -1,0 +1,15 @@
+state = {
+	id = 2295
+	name = "Lima" # Lima
+	manpower = 1
+	state_category = city
+	provinces = {
+		2295
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

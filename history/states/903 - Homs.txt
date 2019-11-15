@@ -1,0 +1,15 @@
+state = {
+	id = 903
+	name = "Homs" # Syria
+	manpower = 1
+	state_category = city
+	provinces = {
+		903
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

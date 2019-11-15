@@ -1,0 +1,15 @@
+state = {
+	id = 1629
+	name = "Wonsan" # Sariwon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1629
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		}
+	}
+}

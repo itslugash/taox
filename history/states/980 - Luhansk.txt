@@ -1,0 +1,15 @@
+state = {
+	id = 980
+	name = "Luhansk" # Luhansk
+	manpower = 1
+	state_category = city
+	provinces = {
+		980
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

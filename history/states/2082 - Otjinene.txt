@@ -1,0 +1,14 @@
+state = {
+	id = 2082
+	name = "Otjinene" # Hereroland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2082
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

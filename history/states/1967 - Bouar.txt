@@ -1,0 +1,14 @@
+state = {
+	id = 1967
+	name = "Bouar" # Ubangi-Shari
+	manpower = 1
+	state_category = city
+	provinces = {
+		1967
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

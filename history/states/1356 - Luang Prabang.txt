@@ -1,0 +1,14 @@
+state = {
+	id = 1356
+	name = "Luang Prabang" # Laos
+	manpower = 1
+	state_category = city
+	provinces = {
+		1356
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2132
+	name = "Tristan da Cunha" # South Atlantic Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2132
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

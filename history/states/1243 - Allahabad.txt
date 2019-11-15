@@ -1,0 +1,14 @@
+state = {
+	id = 1243
+	name = "Allahabad" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1243
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

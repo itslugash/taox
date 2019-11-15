@@ -1,0 +1,15 @@
+state = {
+	id = 1596
+	name = "Tulta" # Xinjiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		1596
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

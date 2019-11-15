@@ -1,0 +1,15 @@
+state = {
+	id = 933
+	name = "Nasiriyya" # Basra
+	manpower = 1
+	state_category = city
+	provinces = {
+		933
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

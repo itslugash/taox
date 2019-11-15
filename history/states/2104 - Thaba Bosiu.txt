@@ -1,0 +1,14 @@
+state = {
+	id = 2104
+	name = "Thaba Bosiu" # Natal-Zululand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2104
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

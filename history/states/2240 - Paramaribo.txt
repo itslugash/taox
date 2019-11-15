@@ -1,0 +1,14 @@
+state = {
+	id = 2240
+	name = "Paramaribo" # Guayana
+	manpower = 1
+	state_category = city
+	provinces = {
+		2240
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2139
+	name = "Rosarito" # Sonora
+	manpower = 1
+	state_category = city
+	provinces = {
+		2139
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

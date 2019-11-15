@@ -1,0 +1,14 @@
+state = {
+	id = 1307
+	name = "Nellore" # Circars
+	manpower = 1
+	state_category = city
+	provinces = {
+		1307
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

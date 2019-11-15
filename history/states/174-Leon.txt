@@ -1,34 +1,15 @@
 state = {
 	id = 174
-	name = "León"
-	manpower = 543281
-	state_category = eight
-
+	name = "Grand Rapids" # Michigan
+	manpower = 1
+	state_category = city
 	provinces = {
-		726 794 874 918 920 3725 3729 3744 3874 6746 6867 6907 9699 9770 11843
+		174
 	}
-
 	history = {
-		owner = SPR
-		add_core_of = SPR
-
-		victory_points = { # León
-			726 5
-		}
-		victory_points = { # Zamora
-			918 3
-		}
-		victory_points = { # Salamanca
-			3874 5
-		}
-		victory_points = { # Ponferrada
-			11843 3
-		}
-		
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 1
 		}
 	}
 }

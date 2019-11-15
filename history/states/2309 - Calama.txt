@@ -1,0 +1,15 @@
+state = {
+	id = 2309
+	name = "Calama" # Atacama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2309
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

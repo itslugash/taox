@@ -1,0 +1,15 @@
+state = {
+	id = 2277
+	name = "El Jobal" # Bolívar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2277
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2268
+	name = "San Felipe" # Zulia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2268
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

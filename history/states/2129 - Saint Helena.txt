@@ -1,0 +1,14 @@
+state = {
+	id = 2129
+	name = "Saint Helena" # South Atlantic Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2129
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

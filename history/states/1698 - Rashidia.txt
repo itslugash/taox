@@ -1,0 +1,15 @@
+state = {
+	id = 1698
+	name = "Rashidia" # Taza
+	manpower = 1
+	state_category = city
+	provinces = {
+		1698
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

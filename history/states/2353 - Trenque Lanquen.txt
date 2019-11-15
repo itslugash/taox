@@ -1,0 +1,15 @@
+state = {
+	id = 2353
+	name = "Trenque Lanquen" # Buenos Aires
+	manpower = 1
+	state_category = city
+	provinces = {
+		2353
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

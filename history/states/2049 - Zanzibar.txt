@@ -1,0 +1,14 @@
+state = {
+	id = 2049
+	name = "Zanzibar" # Lourenço Marques
+	manpower = 1
+	state_category = city
+	provinces = {
+		2049
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

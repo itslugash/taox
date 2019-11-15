@@ -1,0 +1,15 @@
+state = {
+	id = 890
+	name = "Van" # Diyarbakir-Van
+	manpower = 1
+	state_category = city
+	provinces = {
+		890
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

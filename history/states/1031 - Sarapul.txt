@@ -1,0 +1,15 @@
+state = {
+	id = 1031
+	name = "Sarapul" # Perm
+	manpower = 1
+	state_category = city
+	provinces = {
+		1031
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

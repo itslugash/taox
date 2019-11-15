@@ -1,0 +1,15 @@
+state = {
+	id = 1393
+	name = "Brunei" # North Borneo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1393
+	}
+	history = {
+		owner = BRU
+		add_core_of = BRU
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1302
+	name = "Belgaum" # Bombay
+	manpower = 1
+	state_category = city
+	provinces = {
+		1302
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

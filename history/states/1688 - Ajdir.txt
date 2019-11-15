@@ -1,0 +1,15 @@
+state = {
+	id = 1688
+	name = "Ajdir" # al-Rif
+	manpower = 1
+	state_category = city
+	provinces = {
+		1688
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

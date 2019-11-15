@@ -1,0 +1,14 @@
+state = {
+	id = 1301
+	name = "Kolhapur" # Bombay
+	manpower = 1
+	state_category = city
+	provinces = {
+		1301
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

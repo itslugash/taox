@@ -1,0 +1,14 @@
+state = {
+	id = 1368
+	name = "Stongtreng" # Cambodia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1368
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

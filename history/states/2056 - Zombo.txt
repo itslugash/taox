@@ -1,0 +1,14 @@
+state = {
+	id = 2056
+	name = "Zombo" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2056
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

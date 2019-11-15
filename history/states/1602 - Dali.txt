@@ -1,0 +1,15 @@
+state = {
+	id = 1602
+	name = "Dali" # Yunnan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1602
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

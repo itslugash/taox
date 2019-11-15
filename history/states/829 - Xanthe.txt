@@ -1,0 +1,15 @@
+state = {
+	id = 829
+	name = "Xanthe" # East Macedonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		829
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

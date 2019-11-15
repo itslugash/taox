@@ -1,0 +1,15 @@
+state = {
+	id = 808
+	name = "Petrich" # Rumelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		808
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

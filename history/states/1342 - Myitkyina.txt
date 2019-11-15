@@ -1,0 +1,14 @@
+state = {
+	id = 1342
+	name = "Myitkyina" # Kachin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1342
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1509
+	name = "Guide" # Northern Anhui
+	manpower = 1
+	state_category = city
+	provinces = {
+		1509
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

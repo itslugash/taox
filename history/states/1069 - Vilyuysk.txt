@@ -1,0 +1,15 @@
+state = {
+	id = 1069
+	name = "Vilyuysk" # West Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1069
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

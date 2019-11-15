@@ -1,0 +1,14 @@
+state = {
+	id = 1234
+	name = "Firozpur" # Punjab
+	manpower = 1
+	state_category = city
+	provinces = {
+		1234
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

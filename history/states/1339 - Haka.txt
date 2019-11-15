@@ -1,0 +1,14 @@
+state = {
+	id = 1339
+	name = "Haka" # Kachin
+	manpower = 1
+	state_category = city
+	provinces = {
+		1339
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

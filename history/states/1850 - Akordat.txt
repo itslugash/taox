@@ -1,0 +1,14 @@
+state = {
+	id = 1850
+	name = "Akordat" # Eritrea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1850
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

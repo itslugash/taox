@@ -1,0 +1,15 @@
+state = {
+	id = 2278
+	name = "San Fernado de Atabapo" # Bolívar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2278
+	}
+	history = {
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+		}
+	}
+}

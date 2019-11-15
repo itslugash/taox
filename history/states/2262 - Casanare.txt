@@ -1,0 +1,15 @@
+state = {
+	id = 2262
+	name = "Casanare" # Guaviare
+	manpower = 1
+	state_category = city
+	provinces = {
+		2262
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		}
+	}
+}

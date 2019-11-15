@@ -1,0 +1,14 @@
+state = {
+	id = 2101
+	name = "Bloemfontein" # Vrystaat
+	manpower = 1
+	state_category = city
+	provinces = {
+		2101
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

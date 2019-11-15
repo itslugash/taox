@@ -1,0 +1,14 @@
+state = {
+	id = 1288
+	name = "Karachi" # Sind
+	manpower = 1
+	state_category = city
+	provinces = {
+		1288
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

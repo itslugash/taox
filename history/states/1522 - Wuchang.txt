@@ -1,0 +1,15 @@
+state = {
+	id = 1522
+	name = "Wuchang" # Eastern Hubei
+	manpower = 1
+	state_category = city
+	provinces = {
+		1522
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

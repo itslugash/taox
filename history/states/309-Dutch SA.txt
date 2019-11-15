@@ -1,31 +1,15 @@
-
-state={
-	id=309
-	name="STATE_309"
-	manpower = 152000
-
-	resources={
-		aluminium=60 # was: 104
-	}	
-	
-	state_category = rural
-
-	history={
-		add_core_of = SUR
-		owner = HOL
-		victory_points = {
-			10906 1
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			12828 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 309
+	name = "Bergen" # Vestlandet
+	manpower = 1
+	state_category = city
+	provinces = {
+		309
 	}
-
-	provinces={
-		1928 10906 12828 
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+		}
 	}
 }

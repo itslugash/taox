@@ -1,0 +1,15 @@
+state = {
+	id = 935
+	name = "Kuwait" # Basra
+	manpower = 1
+	state_category = city
+	provinces = {
+		935
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

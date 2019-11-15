@@ -1,0 +1,14 @@
+state = {
+	id = 2010
+	name = "Saurimo" # East Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2010
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

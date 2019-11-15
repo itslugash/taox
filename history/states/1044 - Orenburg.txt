@@ -1,0 +1,15 @@
+state = {
+	id = 1044
+	name = "Orenburg" # Samara
+	manpower = 1
+	state_category = city
+	provinces = {
+		1044
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

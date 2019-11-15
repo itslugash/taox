@@ -1,0 +1,14 @@
+state = {
+	id = 2035
+	name = "Usumbura" # Tanganyika
+	manpower = 1
+	state_category = city
+	provinces = {
+		2035
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

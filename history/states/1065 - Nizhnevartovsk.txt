@@ -1,0 +1,15 @@
+state = {
+	id = 1065
+	name = "Nizhnevartovsk" # Ob
+	manpower = 1
+	state_category = city
+	provinces = {
+		1065
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

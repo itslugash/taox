@@ -1,0 +1,15 @@
+state = {
+	id = 1090
+	name = "Tblisi" # Georgia - Russia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1090
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

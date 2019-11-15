@@ -1,0 +1,14 @@
+state = {
+	id = 1938
+	name = "Bussa" # Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1938
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

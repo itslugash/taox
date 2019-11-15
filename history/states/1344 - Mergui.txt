@@ -1,0 +1,14 @@
+state = {
+	id = 1344
+	name = "Mergui" # Tenasserim
+	manpower = 1
+	state_category = city
+	provinces = {
+		1344
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

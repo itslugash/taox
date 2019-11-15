@@ -1,0 +1,15 @@
+state = {
+	id = 2349
+	name = "Junín" # Buenos Aires
+	manpower = 1
+	state_category = city
+	provinces = {
+		2349
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

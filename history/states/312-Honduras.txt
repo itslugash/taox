@@ -1,35 +1,15 @@
-state=
-{
-	id=312
-	name="STATE_312"
-	manpower=859761
-	resources={
-		chromium=1 # was: 1
+state = {
+	id = 312
+	name = "Drammen" # Vestlandet
+	manpower = 1
+	state_category = city
+	provinces = {
+		312
 	}
-	
-	state_category = town
-	history=
-	{
-		owner = HON
+	history = {
+		owner = NOR
+		add_core_of = NOR
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 2 
-			air_base = 1
-			12865 = {
-				naval_base = 1
-			}
-			8017 = {
-				naval_base = 1
-			}
 		}
-		add_core_of = HON
-		victory_points = {
-			12865 3 
-		}
-
-	}
-	provinces={
-		2031 8017 12865
 	}
 }

@@ -1,0 +1,14 @@
+state = {
+	id = 1258
+	name = "Gauhati" # Assam
+	manpower = 1
+	state_category = city
+	provinces = {
+		1258
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

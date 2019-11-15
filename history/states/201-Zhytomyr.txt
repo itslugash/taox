@@ -1,25 +1,15 @@
-
-state={
-	id=201
-	name="STATE_201"
-	manpower = 1417834
-	
-	state_category = town
-
-	history={
-		victory_points = {
-			6593 3
-		}
-		owner = SOV
-		buildings = {
-			infrastructure = 5
-			air_base = 3
-		}
-		add_core_of = SOV
-		add_core_of = UKR
+state = {
+	id = 201
+	name = "Atlanta" # Georgia - US
+	manpower = 1
+	state_category = city
+	provinces = {
+		201
 	}
-
-	provinces={
-		441 550 3470 3570 6593 9466 9493 9533 11464 11477 11490 11514 
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
 	}
 }

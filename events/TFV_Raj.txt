@@ -107,7 +107,7 @@ country_event = {
 	}
 
 	trigger = {
-		#compare_autonomy_state < autonomy_nominal_dependency
+		#compare_autonomy_state < autonomy_dominion
 		has_capitulated = no
 		NOT = { surrender_progress > 0.5 }
 		original_tag = RAJ
@@ -140,7 +140,7 @@ country_event = {
 	}
 			
 	trigger = {
-		#compare_autonomy_state < autonomy_nominal_dependency
+		#compare_autonomy_state < autonomy_dominion
 		has_capitulated = no
 		NOT = { surrender_progress > 0.5 }
 		original_tag = RAJ
@@ -202,7 +202,7 @@ country_event = {
 			}			
 			modifier = {
 				factor = 2		
-				left-wing > 0.5
+				communism > 0.5
 			}
 		}	
 		set_global_flag = RAJ_seek_help_from_soviet_promised
@@ -345,11 +345,11 @@ country_event = {
 		}
 		SOV = { add_to_faction = RAJ }
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.35
 		}
 		set_politics = {
-			ruling_party = left-wing
+			ruling_party = communism
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -405,7 +405,7 @@ country_event = {
 			}			
 			modifier = {
 				factor = 2		
-				right-wing > 0.5
+				fascism > 0.5
 			}
 		}	
 		set_global_flag = RAJ_seek_help_from_germany_promised
@@ -548,11 +548,11 @@ country_event = {
 		}
 		GER = { add_to_faction = RAJ }
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = 0.35
 		}
 		set_politics = {
-			ruling_party = right-wing
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		hidden_effect = {

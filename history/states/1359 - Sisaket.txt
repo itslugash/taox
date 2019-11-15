@@ -1,0 +1,15 @@
+state = {
+	id = 1359
+	name = "Sisaket" # Nakhon Ratchasima
+	manpower = 1
+	state_category = city
+	provinces = {
+		1359
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		}
+	}
+}

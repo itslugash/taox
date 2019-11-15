@@ -1,0 +1,15 @@
+state = {
+	id = 2370
+	name = "Cochinoca" # Jujuy
+	manpower = 1
+	state_category = city
+	provinces = {
+		2370
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

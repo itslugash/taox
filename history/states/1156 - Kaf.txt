@@ -1,0 +1,15 @@
+state = {
+	id = 1156
+	name = "Kaf" # Hail
+	manpower = 1
+	state_category = city
+	provinces = {
+		1156
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		}
+	}
+}

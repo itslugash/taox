@@ -1,0 +1,15 @@
+state = {
+	id = 2282
+	name = "Loja" # Ecuador
+	manpower = 1
+	state_category = city
+	provinces = {
+		2282
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		buildings = {
+		}
+	}
+}

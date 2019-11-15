@@ -1,0 +1,15 @@
+state = {
+	id = 846
+	name = "Dodecanese" # Aegean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		846
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -29,6 +29,8 @@ country_event = {
 				transfer_state = 546
 				transfer_state = 547
 				transfer_state = 548
+				transfer_state = 771
+				transfer_state = 770
 			}
 		}
 		hidden_effect = {
@@ -54,9 +56,13 @@ country_event = {
 	option = {
 		name = tfv_south_africa.1.c # ENG compromises
 		trigger = {
-		KEN = { exists = no }
-		ZIM = { exists = no }
-
+			KEN = { exists = no }
+			ZIM = { exists = no }
+			BOT = { exists = no }
+			ZAM = { exists = no }
+			MLW = { exists = no }
+			TZN = { exists = no }
+			UGA = { exists = no }
 		}
 		
 		ai_chance = {
@@ -66,7 +72,7 @@ country_event = {
 				factor = 0 #don't do this if we are historical!
 			}
 			modifier = {
-				SAF = { NOT = { has_government = centre} }
+				SAF = { NOT = { has_government = democratic} }
 				factor = 4
 			}
 		}
@@ -92,40 +98,114 @@ country_event = {
 	
 	option = {
 		name = tfv_south_africa.2.a
-
 		if = {
 			limit = { 
-				ZIM = { exists = no }	
-					}
+				ZIM = { exists = no }
+			}
 			transfer_state = 545
 		}
-
 		if = {
 			limit = { 
-				ZIM = { exists = yes }	
-					}
+				ZIM = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
 			puppet = ZIM
 		}
-
 		if = {
 			limit = { 
-				KEN = { exists = no } 
-					}
-			transfer_state = 546
-			transfer_state = 547
-			transfer_state = 548
+				BOT = { exists = no }
+			}
+			transfer_state = 542
 		}
-
 		if = {
 			limit = { 
-				KEN = { exists = yes } 
+				BOT = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = BOT
+		}
+		if = {
+			limit = { 
+				ZAM = { exists = no }
+			}
+			transfer_state = 771
+		}
+		if = {
+			limit = { 
+				ZAM = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = ZAM
+		}
+		if = {
+			limit = { 
+				MLW = { exists = no }
+			}
+			transfer_state = 770
+		}
+		if = {
+			limit = { 
+				MLW = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = MLW
+		}
+		if = {
+			limit = { 
+				TZN = { exists = no }
+			}
+			transfer_state = 546
+		}
+		if = {
+			limit = { 
+				TZN = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = TZN
+		}
+		if = {
+			limit = { 
+				KEN = { exists = no }
+			}
+			transfer_state = 547
+		}
+		if = {
+			limit = { 
+				KEN = {
+					exists = yes
+					is_subject_of = ENG
+				}
 			}
 			puppet = KEN
 		}
-		transfer_state = 542
+		if = {
+			limit = { 
+				UGA = { exists = no }
+			}
+			transfer_state = 548
+		}
+		if = {
+			limit = { 
+				UGA = {
+					exists = yes
+					is_subject_of = ENG
+				}
+			}
+			puppet = UGA
+		}
 		hidden_effect = {
 			news_event = { id = news.260 hours = 6 }
-					}
+		}
 	}
 		
 	
@@ -154,34 +234,69 @@ country_event = {
 	
 	option = {
 		name = tfv_south_africa.4.a
-
 		if = {
-		limit = { 
-			ZIM = { exists = no }	
+			limit = { 
+				BOT = { exists = no }	
 			}
-
-			ZIM = { transfer_state = 545 }
-
+			release = BOT
 			ENG = {
-			puppet = ZIM 
-				}
+				puppet = BOT
 			}
-
+		}
 		if = {
-		limit = { 
-			KEN = { exists = no } 
-				}
-			KEN = {
-				transfer_state = 546
-				transfer_state = 547
-				transfer_state = 548
-				}
-			
+			limit = { 
+				ZIM = { exists = no }	
+			}
+			release = ZIM
+			ENG = {
+				puppet = ZIM
+			}
+		}
+		if = {
+			limit = { 
+				ZAM = { exists = no }	
+			}
+			release = ZAM
+			ENG = {
+				puppet = ZAM
+			}
+		}
+		if = {
+			limit = { 
+				MLW = { exists = no }	
+			}
+			release = MLW
+			ENG = {
+				puppet = MLW
+			}
+		}
+		if = {
+			limit = { 
+				TZN = { exists = no }	
+			}
+			release = TZN
+			ENG = {
+				puppet = TZN
+			}
+		}
+		if = {
+			limit = { 
+				KEN = { exists = no } 
+			}
+			release = KEN			
 			ENG = { 
 				puppet = KEN 
-				}
 			}
-
+		}
+		if = {
+			limit = { 
+				UGA = { exists = no }	
+			}
+			release = UGA
+			ENG = {
+				puppet = UGA
+			}
+		}
 		SAF = { transfer_state = 542 }
 		hidden_effect = {
 			news_event = { id = news.261 hours = 6 }
@@ -204,16 +319,16 @@ country_event = {
 
 	trigger = {
 		has_completed_focus = SAF_support_the_german_coup
-		has_government = right-wing
+		has_government = fascism
 		original_tag = SAF
 		has_civil_war = yes
 		OR = {
 			GER = {
 				NOT = { has_war_with = SAF }
-				has_government = right-wing
+				has_government = fascism
 			}		
 			HOL = {
-				has_government = right-wing
+				has_government = fascism
 				NOT = { has_war_with = SAF }
 			}		
 		}
@@ -226,14 +341,14 @@ country_event = {
 		trigger = {
 			GER = {
 				NOT = { has_war_with = SAF }
-				has_government = right-wing
+				has_government = fascism
 			}			
 		}
 		
 		ai_chance = {
 			base = 100
 			modifier = {
-				GER = { NOT = { has_government = right-wing } }
+				GER = { NOT = { has_government = fascism } }
 				factor = 0.1
 			}
 		}
@@ -247,7 +362,7 @@ country_event = {
 		name = tfv_south_africa.10.b # Ask HOL for support
 		trigger = {
 			HOL = {
-				has_government = right-wing
+				has_government = fascism
 				NOT = { has_war_with = SAF }
 			}			
 		}
@@ -256,7 +371,7 @@ country_event = {
 			base = 30
 			modifier = {
 				GER = { 
-					has_government = right-wing 
+					has_government = fascism 
 					has_war = no
 				} 
 				factor = 0
@@ -278,10 +393,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = right-wing
+		has_government = fascism
 		SAF = {
 			has_civil_war = yes
-			has_government = right-wing
+			has_government = fascism
 		}
 		NOT = { has_war_with = SAF }
 	}
@@ -459,10 +574,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = right-wing
+		has_government = fascism
 		SAF = {
 			has_civil_war = yes
-			has_government = right-wing
+			has_government = fascism
 		}
 		NOT = { has_war_with = SAF }
 	}
@@ -651,7 +766,7 @@ country_event = {
 		ai_chance = {
 			base = 100
 			modifier = {
-				NOT = { has_government = right-wing }
+				NOT = { has_government = fascism }
 				factor = 0
 			}
 		}
@@ -661,8 +776,8 @@ country_event = {
 			NOT = { has_country_flag = asked_HOL_for_support }
 			HOL = {
 				OR = {
-					right-wing > 0.25
-					has_government = right-wing
+					fascism > 0.25
+					has_government = fascism
 				}
 			}
 		}
@@ -701,7 +816,7 @@ country_event = {
 			NOT = { has_country_flag = asked_GER_for_support }			
 			GER = {
 				has_war = no
-				has_government = right-wing
+				has_government = fascism
 			}
 		}
 		
@@ -895,7 +1010,7 @@ country_event = {
 		ai_chance = {
 			base = 70
 			modifier = {
-				has_government = right-wing 
+				has_government = fascism 
 				add = -50
 			}
 		}
@@ -1091,7 +1206,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = left-wing
+						has_government = communism
 							}
 					country_event = { id = tfv_south_africa.51 hours = 6 }
 				}
@@ -1192,11 +1307,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-						ideology = left-wing
+						ideology = communism
 						popularity = 0.75
 				}
 			}
@@ -1245,11 +1360,11 @@ country_event = {
 				}
 				hidden_effect = {
 					set_politics = {
-						ruling_party = left-wing
+						ruling_party = communism
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = left-wing
+						ideology = communism
 						popularity = 0.75
 					}
 				}
@@ -1313,11 +1428,11 @@ country_event = {
 					}
 				hidden_effect = {
 					set_politics = {
-						ruling_party = left-wing
+						ruling_party = communism
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = left-wing
+						ideology = communism
 						popularity = 0.75
 					}
 				}	
@@ -1376,11 +1491,11 @@ country_event = {
 					}
 				hidden_effect = {
 					set_politics = {
-						ruling_party = left-wing
+						ruling_party = communism
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = left-wing
+						ideology = communism
 						popularity = 0.75
 					}
 				}
@@ -1437,11 +1552,11 @@ country_event = {
 					}
 				hidden_effect = {
 					set_politics = {
-						ruling_party = left-wing
+						ruling_party = communism
 						elections_allowed = no
 					}
 					add_popularity = {
-						ideology = left-wing
+						ideology = communism
 						popularity = 0.75
 					}
 				}
@@ -1501,11 +1616,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1556,11 +1671,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1611,11 +1726,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1666,11 +1781,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1721,11 +1836,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1776,11 +1891,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1839,11 +1954,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1918,11 +2033,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -1973,11 +2088,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2028,11 +2143,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2083,11 +2198,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2142,11 +2257,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2197,11 +2312,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2252,11 +2367,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2307,11 +2422,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2362,11 +2477,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2417,11 +2532,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2472,11 +2587,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2527,11 +2642,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2586,11 +2701,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2641,11 +2756,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2700,11 +2815,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2755,11 +2870,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2810,11 +2925,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2865,11 +2980,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2920,11 +3035,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -2975,11 +3090,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3034,11 +3149,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3089,11 +3204,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3144,11 +3259,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3199,11 +3314,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3254,11 +3369,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3309,11 +3424,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3364,11 +3479,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3423,11 +3538,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3478,11 +3593,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3545,11 +3660,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3612,11 +3727,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3671,11 +3786,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}
@@ -3754,11 +3869,11 @@ country_event = {
 			}
 			hidden_effect = {
 				set_politics = {
-					ruling_party = left-wing
+					ruling_party = communism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = left-wing
+					ideology = communism
 					popularity = 0.75
 				}
 			}

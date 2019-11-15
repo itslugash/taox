@@ -1,0 +1,15 @@
+state = {
+	id = 2196
+	name = "Puerto Lempira" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2196
+	}
+	history = {
+		owner = HON
+		add_core_of = HON
+		buildings = {
+		}
+	}
+}

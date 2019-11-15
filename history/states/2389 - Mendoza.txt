@@ -1,0 +1,15 @@
+state = {
+	id = 2389
+	name = "Mendoza" # Río Negro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2389
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

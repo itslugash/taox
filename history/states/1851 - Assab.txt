@@ -1,0 +1,14 @@
+state = {
+	id = 1851
+	name = "Assab" # Eritrea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1851
+	}
+	history = {
+		owner = ITA
+		buildings = {
+		}
+	}
+}

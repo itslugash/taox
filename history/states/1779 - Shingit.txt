@@ -1,0 +1,14 @@
+state = {
+	id = 1779
+	name = "Shingit" # Mauritania
+	manpower = 1
+	state_category = city
+	provinces = {
+		1779
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

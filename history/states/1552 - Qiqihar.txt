@@ -1,0 +1,15 @@
+state = {
+	id = 1552
+	name = "Qiqihar" # Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1552
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

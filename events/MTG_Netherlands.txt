@@ -277,7 +277,7 @@ country_event = {
 	# Ok
 	option = {
 		name = mtg_netherlands.10.a
-		set_party_name = { ideology = centre long_name = HOL_CHU_party_long name = HOL_CHU_party }
+		set_party_name = { ideology = democratic long_name = HOL_CHU_party_long name = HOL_CHU_party }
 		create_country_leader = {
 			name = "Dirk Jan de Geer"
 			desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
@@ -473,7 +473,7 @@ country_event = {
 	option = {
 		name = mtg_netherlands.14.a
 		add_popularity = {
-		    ideology = centre
+		    ideology = democratic
 		    popularity = -0.05
 		}
 		retire_country_leader = yes
@@ -682,6 +682,12 @@ country_event = {
 	# Oh, well then...
 	option = {
 		name = mtg_netherlands.21.a
+		effect_tooltip = {
+			add_timed_idea = {
+				idea = HOL_curtail_colonial_autonomy_subject
+				days = 545
+			}
+		}
 	}
 }
 
@@ -945,7 +951,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -956,7 +962,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -964,16 +970,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -981,7 +987,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1026,7 +1032,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -1037,7 +1043,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -1045,16 +1051,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -1062,7 +1068,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1107,7 +1113,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -1118,7 +1124,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -1126,16 +1132,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -1143,7 +1149,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1289,7 +1295,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -1300,7 +1306,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -1308,16 +1314,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -1325,7 +1331,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1386,7 +1392,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = left-wing
+				has_government = communism
 				HOL = { has_completed_focus = HOL_join_the_french }
 			}
 			modifier = {
@@ -1485,7 +1491,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -1496,7 +1502,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -1504,16 +1510,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -1521,7 +1527,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1609,7 +1615,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = left-wing
+				has_government = communism
 				HOL = { has_completed_focus = HOL_join_the_french }
 			}
 			modifier = {
@@ -1713,7 +1719,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = right-wing
+				has_government = fascism
 				OR = {
 					NOT = {
 						HOL = { has_completed_focus = HOL_cave_to_the_germans }
@@ -1724,7 +1730,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
 				}
@@ -1732,16 +1738,16 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				NOT = { has_government = syncretic }
+				NOT = { has_government = neutrality }
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
 				factor = 0
 				original_tag = ENG
-				has_government = syncretic
+				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = right-wing }
+						GER = { has_government = fascism }
 						HOL = { is_in_faction_with = GER }
 					}
 				}
@@ -1749,7 +1755,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = centre
+				has_government = democratic
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 			}
 			modifier = {
@@ -1819,7 +1825,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				original_tag = FRA
-				has_government = left-wing
+				has_government = communism
 				HOL = { has_completed_focus = HOL_join_the_french }
 			}
 			modifier = {
@@ -1893,7 +1899,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_government = left-wing }
+		NOT = { has_government = communism }
 		is_ai = no
 	}
 	
@@ -2584,7 +2590,7 @@ country_event = {
 			has_idea = HOL_shell_shocked_spectator_3
 			has_idea = HOL_shell_shocked_spectator_4
 			has_idea = HOL_shell_shocked_spectator_5
-			has_idea = HOL_aloof_syncretic
+			has_idea = HOL_aloof_neutrality
 		}
 		has_defensive_war = yes
 	}
@@ -2614,10 +2620,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_idea = HOL_aloof_syncretic
+				has_idea = HOL_aloof_neutrality
 			}
 			hidden_effect = {
-				remove_ideas = HOL_aloof_syncretic
+				remove_ideas = HOL_aloof_neutrality
 			}
 		}
 	}
@@ -2835,7 +2841,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = HOL
-		has_government = syncretic
+		has_government = neutrality
 		has_completed_focus = HOL_wilhelminism
 		NOT = {
 			any_country = {
@@ -2875,7 +2881,7 @@ country_event = {
 			random_country = {
 				limit = {
 					original_tag = GER
-					has_government = syncretic
+					has_government = neutrality
 				}
 				save_global_event_target_as = HOL_kaiserreich_germany
 			}
@@ -2887,8 +2893,8 @@ country_event = {
 		name = mtg_netherlands.73.a
 		GER = {
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = syncretic
+				ruling_party = fascism
+				ideology = neutrality
 				size = 0.05
 				states = all
 				states_filter = {
@@ -2900,7 +2906,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 			}
 			hidden_effect = {
 				set_cosmetic_tag = GER_german_empire
@@ -2916,7 +2922,7 @@ country_event = {
 					set_nationality = GER
 				}
 			}
-			set_party_name = { ideology = syncretic long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
+			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
 			ROOT = {
 				puppet = PREV
 				add_to_war = { 
@@ -2934,7 +2940,7 @@ country_event = {
 					desc = "POLITICS_WILHELM_II_DESC"
 					picture = GFX_portrait_ger_wilhelm_ii
 					expire = "1965.1.1"
-					ideology = authoritarianism
+					ideology = despotism
 					traits = {
 						anti_democrat imperial_connections
 					}
@@ -2949,7 +2955,7 @@ country_event = {
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = GFX_portrait_ger_wilhelm_iii
 					expire = "1965.1.1"
-					ideology = authoritarianism
+					ideology = despotism
 					traits = {
 						popular_figurehead2
 					}
@@ -2970,13 +2976,13 @@ country_event = {
 	
 	trigger = {
 		original_tag = HOL
-		has_government = syncretic
+		has_government = neutrality
 		has_completed_focus = HOL_wilhelminism
 		NOT = { has_war_with = GER }
 		is_in_faction = no
 		any_country = {
 			original_tag = GER
-			has_government = syncretic
+			has_government = neutrality
 			is_subject_of = HOL
 		}
 	}
@@ -2991,7 +2997,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = GER
-				has_government = syncretic
+				has_government = neutrality
 			}
 			ROOT = { set_autonomy = { target = PREV autonomy_state = autonomy_free } }
 			create_faction = GER_central_powers_faction
@@ -3040,7 +3046,7 @@ country_event = {
 				random_country = {
 					limit = {
 						original_tag = GER
-						has_government = syncretic
+						has_government = neutrality
 					}
 					load_focus_tree = { tree = german_focus keep_completed = no }
 					unlock_national_focus = GER_oppose_hitler
@@ -3069,5 +3075,100 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+# Event asking BEL/LUX whether they want to unify
+country_event = {
+	id = mtg_netherlands.77
+	title = mtg_netherlands.77.t
+	desc = mtg_netherlands.77.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	# Sounds good
+	option = {
+		name = mtg_netherlands.77.a
+		custom_effect_tooltip = GAME_OVER_TT
+		FROM = {
+			country_event = { id = mtg_netherlands.78 }
+			set_country_flag = HOL_benelux_flag@ROOT
+		}
+	}
+
+	# We think not
+	option = {
+		name = mtg_netherlands.77.b
+		ai_chance = {
+			factor = 0
+		}
+		FROM = { country_event = { id = mtg_netherlands.79 } }
+	}
+}
+
+# Event for Netherlands informing BEL/LUX accepted
+country_event = {
+	id = mtg_netherlands.78
+	title = mtg_netherlands.78.t
+	desc = mtg_netherlands.78.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	# Great
+	option = {
+		name = excellent
+		if = {
+			limit = {
+				has_country_flag = HOL_benelux_flagBEL
+				has_country_flag = HOL_benelux_flagLUX
+			}
+			set_global_flag = HOL_benelux_formed
+			set_cosmetic_tag = HOL_benelux_unified
+			BEL = {
+				every_unit_leader = {
+					set_nationality = ROOT
+				}
+			}
+			LUX = {
+				every_unit_leader = {
+					set_nationality = ROOT
+				}
+			}
+			annex_country = {
+			    target = BEL
+			    transfer_troops = yes
+			}
+			annex_country = {
+			    target = LUX
+			    transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = BEL
+						is_core_of = LUX
+					}
+				}
+				add_core_of = ROOT
+			}
+			hidden_effect = { news_event = { id = mtg_news.64 days = 1 } }
+		}
+	}
+}
+
+# Event for Netherlands informing BEL/LUX rejected
+country_event = {
+	id = mtg_netherlands.79
+	title = mtg_netherlands.79.t
+	desc = mtg_netherlands.79.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	# Unfortunate
+	option = {
+		name = unfortunate
 	}
 }

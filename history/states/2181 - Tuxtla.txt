@@ -1,0 +1,15 @@
+state = {
+	id = 2181
+	name = "Tuxtla" # Yucatán
+	manpower = 1
+	state_category = city
+	provinces = {
+		2181
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

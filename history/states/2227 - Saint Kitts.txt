@@ -1,0 +1,14 @@
+state = {
+	id = 2227
+	name = "Saint Kitts" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2227
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 852
+	name = "Vlore" # Albania
+	manpower = 1
+	state_category = city
+	provinces = {
+		852
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

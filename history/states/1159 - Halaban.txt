@@ -1,0 +1,15 @@
+state = {
+	id = 1159
+	name = "Halaban" # Nejd
+	manpower = 1
+	state_category = city
+	provinces = {
+		1159
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		}
+	}
+}

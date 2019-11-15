@@ -1,0 +1,14 @@
+state = {
+	id = 1945
+	name = "Kano" # East Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1945
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

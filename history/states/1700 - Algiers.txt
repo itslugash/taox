@@ -1,0 +1,14 @@
+state = {
+	id = 1700
+	name = "Algiers" # Algiers
+	manpower = 1
+	state_category = city
+	provinces = {
+		1700
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

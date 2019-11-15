@@ -1,0 +1,14 @@
+state = {
+	id = 1961
+	name = "Bamenda" # North Cameroon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1961
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

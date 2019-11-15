@@ -1,79 +1,22 @@
-﻿#########
-# State #
-#########
-
-	capital = 266
-
-############
-# Politics #
-############
-
-	set_politics = {
-		parties = {
-			centre = { 
-				popularity = 0
-			}
-			right-wing = {
-				popularity = 0
-			}
-			left-wing = {
-				popularity = 0
-			}
-			syncretic = { 
-				popularity = 100
-			}
-		}
-		ruling_party = syncretic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+capital = 266
+set_popularities = {
+	left-wing_radicalism = 5.63
+	social_democracy = 39.44
+	liberalism = 4.23
+	social_conservatism = 50.7
+}
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1909.11.19"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Ahmad Shah Qajar"
+	desc = "PER_Ahmad_Shah_Qajar_desc"
+	picture = "Portrait_PER_Ahmad_Shah_Qajar.tga"
+	expire = "1999.12.31"
+	ideology = social_conservatism_ideology
+	traits = {
 	}
-
-	create_country_leader = {
-		name = "Reza Pahlavi"
-		desc = "PER_Reza_Pahlavi_desc"
-		picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
-		expire = "1999.12.31"
-		ideology = monarchism
-		traits = {
-		}
-	}
-
-##############
-# Technology #
-##############
-
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		gw_artillery = 1
-		early_fighter = 1
-		CAS1 = 1
-	}
-
-########
-# Unit #
-########
-
-	oob = "PER_1936"
-
-########
-# Army #
-########
-
-	create_corps_commander = {
-		name = "Hasan Arfa"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-		traits = {  desert_fox }
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-########
-# Navy #
-########
-
-	set_convoys = 10
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1000
+	name = "Staritsa" # Smolensk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1000
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

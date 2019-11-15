@@ -1,0 +1,15 @@
+state = {
+	id = 1118
+	name = "Sanandaj" # Luristan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1118
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

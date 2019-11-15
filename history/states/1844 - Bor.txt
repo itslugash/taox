@@ -1,0 +1,15 @@
+state = {
+	id = 1844
+	name = "Bor" # Equatoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		1844
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

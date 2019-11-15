@@ -1,0 +1,14 @@
+state = {
+	id = 2064
+	name = "Nampula" # Mocambique
+	manpower = 1
+	state_category = city
+	provinces = {
+		2064
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

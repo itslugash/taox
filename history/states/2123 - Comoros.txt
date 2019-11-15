@@ -1,0 +1,14 @@
+state = {
+	id = 2123
+	name = "Comoros" # South Madagascar
+	manpower = 1
+	state_category = city
+	provinces = {
+		2123
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

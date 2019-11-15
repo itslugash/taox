@@ -1,0 +1,14 @@
+state = {
+	id = 1452
+	name = "Biak" # Western New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1452
+	}
+	history = {
+		owner = HOL
+		buildings = {
+		}
+	}
+}

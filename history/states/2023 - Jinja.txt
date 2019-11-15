@@ -1,0 +1,14 @@
+state = {
+	id = 2023
+	name = "Jinja" # Uganda
+	manpower = 1
+	state_category = city
+	provinces = {
+		2023
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

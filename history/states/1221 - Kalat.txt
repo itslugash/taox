@@ -1,0 +1,14 @@
+state = {
+	id = 1221
+	name = "Kalat" # Baluchistan
+	manpower = 1
+	state_category = city
+	provinces = {
+		1221
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

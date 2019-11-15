@@ -1,0 +1,14 @@
+state = {
+	id = 1793
+	name = "Velingara" # Gambia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1793
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

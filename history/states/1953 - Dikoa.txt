@@ -1,0 +1,14 @@
+state = {
+	id = 1953
+	name = "Dikoa" # Bornu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1953
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

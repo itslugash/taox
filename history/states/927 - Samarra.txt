@@ -1,0 +1,15 @@
+state = {
+	id = 927
+	name = "Samarra" # Baghdad
+	manpower = 1
+	state_category = city
+	provinces = {
+		927
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

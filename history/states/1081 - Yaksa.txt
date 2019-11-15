@@ -1,0 +1,15 @@
+state = {
+	id = 1081
+	name = "Yaksa" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1081
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1461
+	name = "Tacloban" # Visayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1461
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

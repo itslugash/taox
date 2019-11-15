@@ -1,0 +1,14 @@
+state = {
+	id = 2088
+	name = "Springbok" # Cape Colony
+	manpower = 1
+	state_category = city
+	provinces = {
+		2088
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

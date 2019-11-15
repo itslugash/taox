@@ -1,0 +1,14 @@
+state = {
+	id = 1813
+	name = "Arlit" # Niger
+	manpower = 1
+	state_category = city
+	provinces = {
+		1813
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

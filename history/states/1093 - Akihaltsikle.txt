@@ -1,0 +1,15 @@
+state = {
+	id = 1093
+	name = "Akihaltsikle" # Georgia - Russia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1093
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

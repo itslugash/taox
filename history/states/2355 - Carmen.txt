@@ -1,0 +1,15 @@
+state = {
+	id = 2355
+	name = "Carmen" # Buenos Aires
+	manpower = 1
+	state_category = city
+	provinces = {
+		2355
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

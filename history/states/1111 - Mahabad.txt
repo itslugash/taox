@@ -1,0 +1,15 @@
+state = {
+	id = 1111
+	name = "Mahabad" # Tabriz
+	manpower = 1
+	state_category = city
+	provinces = {
+		1111
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

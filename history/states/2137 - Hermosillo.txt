@@ -1,0 +1,15 @@
+state = {
+	id = 2137
+	name = "Hermosillo" # Sonora
+	manpower = 1
+	state_category = city
+	provinces = {
+		2137
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

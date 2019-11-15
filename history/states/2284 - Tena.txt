@@ -1,0 +1,15 @@
+state = {
+	id = 2284
+	name = "Tena" # Ecuador
+	manpower = 1
+	state_category = city
+	provinces = {
+		2284
+	}
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		buildings = {
+		}
+	}
+}

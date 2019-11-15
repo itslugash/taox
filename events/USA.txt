@@ -202,7 +202,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1936.1.1
 		date < 1937.1.1
 	}
@@ -273,7 +273,7 @@ country_event = {
 				}
 			}
 		}		
-		set_party_name = { ideology = centre long_name = USA_republican_party name = USA_republican_party }
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		set_variable = { election_factor = random }
 		add_to_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
@@ -318,7 +318,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1940.1.1
 		date < 1941.1.1
 		has_idea = new_deal
@@ -374,7 +374,7 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}	
-		set_party_name = { ideology = centre long_name = USA_republican_party name = USA_republican_party }
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		remove_ideas = new_deal
 		add_ideas = wilkies_new_deal
 		set_variable = { election_factor = random }
@@ -409,7 +409,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1940.1.1
 		date < 1941.1.1
 		NOT = { has_idea = new_deal }
@@ -456,7 +456,7 @@ country_event = {
 
 	option = { 
 		name = usa.8.b
-		set_party_name = { ideology = centre long_name = USA_democratic_party name = USA_democratic_party }
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
 		add_ideas = new_deal
 		retire_country_leader = yes
 		add_political_power = 120
@@ -496,7 +496,7 @@ country_event = {
 	}
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1944.1.1
 		date < 1945.1.1
 		has_idea = new_deal
@@ -538,7 +538,7 @@ country_event = {
 			}
 		}		
 		remove_ideas = new_deal
-		set_party_name = { ideology = centre long_name = USA_republican_party name = USA_republican_party }
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		set_variable = { election_factor = random }
 		add_to_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
@@ -586,7 +586,7 @@ country_event = {
 	}
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1944.1.1
 		date < 1945.1.1
 		NOT = { has_idea = new_deal }
@@ -617,7 +617,7 @@ country_event = {
 	option = { 
 		name = usa.10.b
 		add_ideas = new_deal
-		set_party_name = { ideology = centre long_name = USA_democratic_party name = USA_democratic_party }
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
 		set_variable = { election_factor = random }
 		add_to_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
@@ -660,7 +660,7 @@ country_event = {
 	}
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1944.1.1
 		date < 1945.1.1
 		has_idea = new_deal
@@ -705,7 +705,7 @@ country_event = {
 			}
 		}
 		remove_ideas = new_deal
-		set_party_name = { ideology = centre long_name = USA_republican_party name = USA_republican_party }
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		set_variable = { election_factor = random }
 		add_to_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
@@ -739,7 +739,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		centre > 0.5
+		democratic > 0.5
 		date > 1944.1.1
 		date < 1945.1.1
 		has_idea = new_deal
@@ -768,7 +768,7 @@ country_event = {
 		tag = USA
 		date > 1945.3.29
 		has_idea = new_deal
-		has_government = centre
+		has_government = democratic
 	}
 
 	fire_only_once = yes
@@ -805,19 +805,19 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		has_government = right-wing
+		has_government = fascism
 		is_puppet = no
 	}
 	
 	option = { 
 		name = usa.14.a
 		set_politics = {
-			ruling_party = centre
-			elections_allowed = no
+			ruling_party = democratic
+			elections_allowed = yes
 		}
 		set_political_party = {
-			ideology = centre
-			popularity = 0.5
+			ideology = democratic
+			popularity = 50
 		}
 		remove_ideas = great_depression
 		add_war_support = 0.2
@@ -1101,19 +1101,19 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		has_government = left-wing 
+		has_government = communism 
 		is_puppet = no
 	}
 	
 	option = { 
 		name = usa.24.a
 		set_politics = {
-			ruling_party = centre
-			elections_allowed = no
+			ruling_party = democratic
+			elections_allowed = yes
 		}
 		set_political_party = {
-			ideology = centre
-			popularity = 0.5
+			ideology = democratic
+			popularity = 50
 		}
 		remove_ideas = great_depression
 		add_war_support = 0.2
@@ -1500,8 +1500,8 @@ country_event = {
 			} 
 			20 = { 
 				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
+					check_variable = { var = senators_support value = quorum_high compare = greater_than_or_equals }
+					factor = 3
 				}
 				modifier = {
 					has_idea_with_trait = fascist_demagogue
@@ -1526,8 +1526,8 @@ country_event = {
 			} 
 			15 = { 
 				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
+					check_variable = { var = senators_support value = quorum_high compare = greater_than_or_equals }
+					factor = 3
 				}
 				modifier = {
 					has_idea_with_trait = fascist_demagogue
@@ -1573,19 +1573,23 @@ country_event = {
 		random_list = {
 			35 = { 
 				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
+					check_variable = { representatives_support < 218 }
+					factor = 1.5
 				}
 				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
+					check_variable = { representatives_support < 180 }
+					factor = 3
 				}
 				country_event = { id = usa.41 days = 15 random = 6 } #small support
 			} 
 			25 = {
 				modifier = {
-					congress_high_support_trigger = yes
+					check_variable = { representatives_support > 260 }
 					factor = 2
+				}
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 0.5
 				}
 				modifier = {
 					has_idea_with_trait = fascist_demagogue
@@ -1599,19 +1603,31 @@ country_event = {
 			} 
 			25 = { 
 				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
+					check_variable = { representatives_support < 180 }
+					factor = 1.5
 				}
 				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
+					check_variable = { representatives_support < 100 }
+					factor = 10
 				}
 				country_event = { id = usa.45 days = 25 random = 10 } #medium support
 			} 
 			15 = { 
 				modifier = {
-					congress_high_support_trigger = yes
+					check_variable = { representatives_support > 260 }
 					factor = 2
+				}
+				modifier = {
+					check_variable = { representatives_support > 400 }
+					factor = 10
+				}
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 0.5
+				}
+				modifier = {
+					check_variable = { representatives_support < 100 }
+					factor = 0
 				}
 				modifier = {
 					has_idea_with_trait = fascist_demagogue
@@ -1643,7 +1659,10 @@ country_event = {
 
 	immediate = {
 		set_country_flag = USA_congress_investment
-		clear_global_event_target = USA_congress_investment_state
+		if = {
+			limit = { has_event_target = USA_congress_investment_state }
+			clear_global_event_target = USA_congress_investment_state
+		}
 		random_list = {
 			25 = {
 				modifier = {

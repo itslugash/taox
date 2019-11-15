@@ -1,0 +1,15 @@
+state = {
+	id = 967
+	name = "Sevastopol" # Crimea
+	manpower = 1
+	state_category = city
+	provinces = {
+		967
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

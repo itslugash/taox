@@ -1,0 +1,14 @@
+state = {
+	id = 2131
+	name = "Falkland Islands" # Patagonia Meridional
+	manpower = 1
+	state_category = city
+	provinces = {
+		2131
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

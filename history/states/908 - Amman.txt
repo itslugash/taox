@@ -1,0 +1,15 @@
+state = {
+	id = 908
+	name = "Amman" # Transjordan
+	manpower = 1
+	state_category = city
+	provinces = {
+		908
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

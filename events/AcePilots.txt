@@ -1,6 +1,6 @@
-﻿###########################
-# Ace pilots Events
-###########################
+﻿############################
+# TAOX - Ace Pilots Events #
+############################
 
 add_namespace = ace_promoted
 add_namespace = ace_died
@@ -8,145 +8,174 @@ add_namespace = ace_killed_by_ace
 add_namespace = ace_killed_other_ace
 add_namespace = aces_killed_each_other
 
-# New ace has been promoted
-country_event = {
+country_event = { # "Ace Pilot Promoted"
 	id = ace_promoted.1
 	title = ace_promoted.1.t
 	desc = {
 		text = ace_promoted.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
-			NOT = { tag = FRA }
-			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = {
+				tag = ENG
+			}
+			NOT = {
+				tag = FRA
+			}
+			NOT = {
+				tag = GER
+			}
+			NOT = {
+				tag = ITA
+			}
+			NOT = {
+				tag = JAP
+			}
+			NOT = {
+				tag = SOV
+			}
+			NOT = {
+				tag = USA
+			}
 		}
 	}
 	desc = {
 		text = ace_promoted.1.d_major
 		trigger = {
 			OR = {
+				tag = ENG
+				tag = FRA
 				tag = GER
 				tag = ITA
-				tag = FRA
 				tag = JAP
-				tag = USA
-				tag = ENG
 				tag = SOV
+				tag = USA
 			}
 		}
 	}
 	picture = GFX_report_event_ace_promoted
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "Who dares wins."
 		name = ace_promoted.1.a
 		add_war_support = 0.02		
 	}
 }
-
-country_event = {
+country_event = { # "A Wild Ace Appears"
 	id = ace_promoted.2
 	title = ace_promoted.2.t
 	desc = {
 		text = ace_promoted.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
-			NOT = { tag = FRA }
-			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = {
+				tag = ENG
+			}
+			NOT = {
+				tag = FRA
+			}
+			NOT = {
+				tag = GER
+			}
+			NOT = {
+				tag = ITA
+			}
+			NOT = {
+				tag = JAP
+			}
+			NOT = {
+				tag = SOV
+			}
+			NOT = {
+				tag = USA
+			}
 		}
 	}
 	desc = {
 		text = ace_promoted.1.d_major
 		trigger = {
 			OR = {
+				tag = ENG
+				tag = FRA
 				tag = GER
 				tag = ITA
-				tag = FRA
 				tag = JAP
-				tag = USA
-				tag = ENG
 				tag = SOV
+				tag = USA
 			}
 		}
 	}
 	picture = GFX_report_event_ace_promoted
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "Who dares wins."
 		name = ace_promoted.1.a
 		add_war_support = 0.02		
 	}
 }
-
-# Ace died
-country_event = {
+country_event = { # "[From.GetCallsign] Killed Over [From.GetMissionRegion]"
 	id = ace_died.1
 	title = ace_died.1.t	
 	desc = {
 		text = ace_died.1.d
 		trigger = {
-			NOT = { tag = GER }
-			NOT = { tag = ITA }
-			NOT = { tag = FRA }
-			NOT = { tag = JAP }
-			NOT = { tag = USA }
-			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = {
+				tag = ENG
+			}
+			NOT = {
+				tag = FRA
+			}
+			NOT = {
+				tag = GER
+			}
+			NOT = {
+				tag = ITA
+			}
+			NOT = {
+				tag = JAP
+			}
+			NOT = {
+				tag = SOV
+			}
+			NOT = {
+				tag = USA
+			}
 		}
 	}
 	desc = {
 		text = ace_died.1.d_major
 		trigger = {
 			OR = {
-				tag = GER 
-				tag = ITA 
-				tag = FRA 
-				tag = JAP 
-				tag = USA 
 				tag = ENG
+				tag = FRA
+				tag = GER
+				tag = ITA
+				tag = JAP
 				tag = SOV
-			} 
+				tag = USA
+			}
 		}
 	}
 	picture = GFX_report_event_ace_died
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "A living legend is still better."
 		name = ace_died.1.a
 		add_war_support = -0.02
 	}
 }
-
-# Ace killed by other Ace
-country_event = {
+country_event = { # "[From.GetFullName] Shot Down By [Prev.GetCallsign]"
 	id = ace_killed_by_ace.1
 	title = ace_killed_by_ace.1.t
 	desc = {
 		text = ace_killed_by_ace.1.d
-		#Don't show equipment name for countried with default names, e.g. Fighter I
 		trigger = {
 			OR = {
 				NOT = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						} 
 					}
@@ -155,13 +184,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						}
 					}
@@ -171,66 +200,60 @@ country_event = {
 	}
 	desc = {
 		text = ace_killed_by_ace.1.d_major
-		#We're only showing wing name for the countries that have nicely named planes
 		trigger = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 		}
 	}
 	picture = GFX_report_event_ace_died
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "A devastating loss for us all."
 		name = ace_killed_by_ace.1.a
 		add_war_support = -0.03
 	}
 }
-
-# Ace killed other nations Ace
-country_event = {
+country_event = { # "[From.GetFullName] Shot Down [Prev.GetCallsign]"
 	id = ace_killed_other_ace.1
 	title = ace_killed_other_ace.1.t
 	desc = {
 		text = ace_killed_other_ace.1.d
-		#Don't show equipment name for countried with default names, e.g. Fighter I
 		trigger = {
 			OR = {
 				NOT = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						} 
 					}
@@ -239,13 +262,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						}
 					}
@@ -255,66 +278,60 @@ country_event = {
 	}
 	desc = {
 		text = ace_killed_other_ace.1.d_major
-		#We're only showing wing name for the countries that have nicely named planes
 		trigger = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 		}
 	}
 	picture = GFX_report_event_ace_died
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "A victory all of [From.Owner.GetName] will remember!"
 		name = ace_killed_other_ace.1.a
 		add_war_support = 0.03
 	}
 }
-
-# Ace killed eachother
-country_event = {
+country_event = { # "[From.GetFullName] Has Gone Down"
 	id = aces_killed_each_other.1
 	title = aces_killed_each_other.1.t
 	desc = {
 		text = aces_killed_each_other.1.d
-		#Don't show equipment name for countried with default names, e.g. Fighter I
 		trigger = {
 			OR = {
 				NOT = {
 					PREV = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						} 
 					}
@@ -323,13 +340,13 @@ country_event = {
 					FROM = { 
 						OWNER = {
 							OR = {
-								tag = GER 
-								tag = ITA 
-								tag = FRA 
-								tag = JAP 
-								tag = USA 
 								tag = ENG
+								tag = FRA
+								tag = GER
+								tag = ITA
+								tag = JAP
 								tag = SOV
+								tag = USA
 							} 
 						}
 					} 
@@ -339,41 +356,38 @@ country_event = {
 	}
 	desc = {
 		text = aces_killed_each_other.1.d_major
-		#We're only showing wing name for the countries that have nicely named planes
 		trigger = {
 			PREV = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 			FROM = { 
 				OWNER = {
 					OR = {
-						tag = GER 
-						tag = ITA 
-						tag = FRA 
-						tag = JAP 
-						tag = USA 
 						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						tag = JAP
 						tag = SOV
+						tag = USA
 					} 
 				}
 			}
 		}
 	}	
 	picture = GFX_report_event_ace_died
-	
 	is_triggered_only = yes
-	
-	option = {
+	option = { # "A great loss for us nonetheless."
 		name = aces_killed_each_other.1.a
 		add_war_support = -0.01
 	}

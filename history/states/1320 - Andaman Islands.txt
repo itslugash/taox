@@ -1,0 +1,14 @@
+state = {
+	id = 1320
+	name = "Andaman Islands" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1320
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1322
+	name = "Jaffna" # Ceylon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1322
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

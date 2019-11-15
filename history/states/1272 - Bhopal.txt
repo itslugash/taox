@@ -1,0 +1,14 @@
+state = {
+	id = 1272
+	name = "Bhopal" # Central India
+	manpower = 1
+	state_category = city
+	provinces = {
+		1272
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

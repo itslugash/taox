@@ -1,0 +1,14 @@
+state = {
+	id = 1947
+	name = "Katsina" # East Hausaland
+	manpower = 1
+	state_category = city
+	provinces = {
+		1947
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

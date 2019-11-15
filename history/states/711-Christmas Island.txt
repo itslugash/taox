@@ -1,21 +1,15 @@
-state={
-	id=711
-	name="STATE_711"
-	manpower=1625	
-	state_category = tiny_island
-	
-	history=
-	{
-		owner = ENG
-		buildings = {
-			infrastructure = 3
-			13005 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 711
+	name = "Siedlice" # Mazowieckie
+	manpower = 1
+	state_category = city
+	provinces = {
+		711
 	}
-	
-	provinces={
-		13005 
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
 	}
 }

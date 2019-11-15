@@ -1,0 +1,15 @@
+state = {
+	id = 1007
+	name = "Velikiye Luki" # Smolensk
+	manpower = 1
+	state_category = city
+	provinces = {
+		1007
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

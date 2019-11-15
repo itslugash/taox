@@ -1,0 +1,14 @@
+state = {
+	id = 1383
+	name = "Vinhlong" # Cochin China
+	manpower = 1
+	state_category = city
+	provinces = {
+		1383
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

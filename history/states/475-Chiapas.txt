@@ -1,25 +1,15 @@
-
-state={
-	id=475
-	name="STATE_475"
-	manpower = 805874
-	
-	state_category = rural
-
-	history={
-		owner = MEX
+state = {
+	id = 475
+	name = "Oviedo" # Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		475
+	}
+	history = {
+		owner = SPA
+		add_core_of = SPA
 		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = MEX
-
-		victory_points = {
-			1900 3
 		}
 	}
-
-	provinces={
-		1900 12753 12867 
-	}
-	
 }

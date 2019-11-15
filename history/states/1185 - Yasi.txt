@@ -1,0 +1,15 @@
+state = {
+	id = 1185
+	name = "Yasi" # Semireche
+	manpower = 1
+	state_category = city
+	provinces = {
+		1185
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

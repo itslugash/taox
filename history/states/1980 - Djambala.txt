@@ -1,0 +1,14 @@
+state = {
+	id = 1980
+	name = "Djambala" # Congo
+	manpower = 1
+	state_category = city
+	provinces = {
+		1980
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

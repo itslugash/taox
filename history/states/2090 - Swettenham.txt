@@ -1,0 +1,14 @@
+state = {
+	id = 2090
+	name = "Swettenham" # Cape Colony
+	manpower = 1
+	state_category = city
+	provinces = {
+		2090
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1460
+	name = "Iloilo" # Visayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		1460
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

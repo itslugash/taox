@@ -1,0 +1,15 @@
+state = {
+	id = 941
+	name = "Slutsk" # Minsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		941
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

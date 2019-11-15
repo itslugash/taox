@@ -1,0 +1,15 @@
+state = {
+	id = 2354
+	name = "Bahía Blanca" # Buenos Aires
+	manpower = 1
+	state_category = city
+	provinces = {
+		2354
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

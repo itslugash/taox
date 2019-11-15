@@ -1,0 +1,14 @@
+state = {
+	id = 1245
+	name = "Benares" # United Provinces
+	manpower = 1
+	state_category = city
+	provinces = {
+		1245
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

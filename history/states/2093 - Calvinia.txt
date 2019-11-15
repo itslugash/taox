@@ -1,0 +1,14 @@
+state = {
+	id = 2093
+	name = "Calvinia" # Northern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2093
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

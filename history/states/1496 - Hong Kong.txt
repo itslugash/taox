@@ -1,0 +1,14 @@
+state = {
+	id = 1496
+	name = "Hong Kong" # Hong Kong & Macao
+	manpower = 1
+	state_category = city
+	provinces = {
+		1496
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

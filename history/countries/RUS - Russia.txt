@@ -1,0 +1,24 @@
+capital = 278
+set_popularities = {
+	left-wing_radicalism = 3.38
+	social_democracy = 2.42
+	social_liberlaism = 14.25
+	market_liberlaism = 35.27
+	social_conservatism = 15.7
+	fascism = 28.98
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1907.10.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Nicholas II"
+	desc = "RUS_Nicholas_II_desc"
+	picture = "Portrait_RUS_Nicholas_II.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
+	}
+}

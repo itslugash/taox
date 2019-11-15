@@ -1,0 +1,15 @@
+state = {
+	id = 1677
+	name = "Nagano" # Chubu
+	manpower = 1
+	state_category = city
+	provinces = {
+		1677
+	}
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+		}
+	}
+}

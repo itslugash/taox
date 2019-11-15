@@ -1,0 +1,15 @@
+state = {
+	id = 2307
+	name = "Iquique" # Atacama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2307
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}

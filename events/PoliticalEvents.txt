@@ -12,9 +12,10 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 
 	trigger = {
-		NOT = { has_government = left-wing }
-		left-wing > 0.6
-		check_has_focus_tree_to_switch_to_left-wing = yes
+		NOT = { has_government = communism }
+		communism > 0.6
+		NOT = { communism > 0.7 }
+		check_has_focus_tree_to_switch_to_communism = yes
 	}
 
 	fire_only_once = yes
@@ -54,7 +55,7 @@ country_event = {
 		name = political.14.c
 		add_political_power = -100
 		set_politics = {
-			ruling_party = left-wing
+			ruling_party = communism
 			elections_allowed = no
 		}
 	}
@@ -78,7 +79,7 @@ country_event = {
 #
 #	trigger = {
 #		has_idea_with_trait = communist_revolutionary
-#		NOT = { has_government = left-wing }
+#		NOT = { has_government = communism }
 #		NOT = { has_country_flag = communism_government_support }
 #	}
 #	
@@ -107,9 +108,9 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = communist_revolutionary
-#		NOT = { has_government = left-wing }
+#		NOT = { has_government = communism }
 #		has_country_flag = communism_government_support
-#		left-wing > 0.4
+#		communism > 0.4
 #		is_major = no
 #		is_puppet = no
 #		OR = {
@@ -125,7 +126,7 @@ country_event = {
 #		days = 100
 #		modifier = {
 #			factor = 0.5
-#			left-wing > 0.5
+#			communism > 0.5
 #		}
 #	}
 #
@@ -136,7 +137,7 @@ country_event = {
 #	option = {
 #		name = political.3.a
 #		set_politics = {
-#			ruling_party = left-wing
+#			ruling_party = communism
 #			elections_allowed = no
 #		}
 #		add_timed_idea = { idea = reign_of_terror days = 730 }
@@ -152,8 +153,9 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = communist_revolutionary
-		NOT = { has_government = left-wing }
-		left-wing > 0.2
+		NOT = { has_government = communism }
+		communism > 0.2
+		NOT = { communism > 0.59 }
 		if = {
 			limit = {
 				has_dlc = "Together for Victory"
@@ -185,7 +187,7 @@ country_event = {
 	option = {
 		name = political.4.a
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.05
 		}
 		add_stability = -0.05
@@ -201,8 +203,9 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = communist_revolutionary
-		NOT = { has_government = left-wing }
-		left-wing > 0.3
+		NOT = { has_government = communism }
+		communism > 0.3
+		NOT = { communism > 0.59 }
 		NOT = { has_idea = communist_partisans_recruiting }
 		if = {
 			limit = {
@@ -235,7 +238,7 @@ country_event = {
 	option = {
 		name = political.5.a
 		add_popularity = {
-			ideology = left-wing
+			ideology = communism
 			popularity = 0.05
 		}
 		add_ideas = communist_partisans_recruiting
@@ -251,8 +254,8 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = communist_revolutionary
-#		NOT = { has_government = left-wing }
-#		left-wing > 0.4
+#		NOT = { has_government = communism }
+#		communism > 0.4
 #		OR = {
 #			NOT = { tag = CHI }
 #			AND = {
@@ -286,31 +289,31 @@ country_event = {
 #		name = political.6.a
 #		if = {
 #			limit = {
-#				has_government = centre
+#				has_government = democratic
 #			}
 #			start_civil_war = {
-#				ruling_party = left-wing
-#				ideology = centre
+#				ruling_party = communism
+#				ideology = democratic
 #				size = 0.6
 #			}
 #		}
 #		if = {
 #			limit = {
-#				has_government = right-wing
+#				has_government = fascism
 #			}
 #			start_civil_war = {
-#				ruling_party = left-wing
-#				ideology = right-wing
+#				ruling_party = communism
+#				ideology = fascism
 #				size = 0.6
 #			}
 #		}
 #		if = {
 #			limit = {
-#				has_government = syncretic
+#				has_government = neutrality
 #			}
 #			start_civil_war = {
-#				ruling_party = left-wing
-#				ideology = syncretic
+#				ruling_party = communism
+#				ideology = neutrality
 #				size = 0.6
 #			}
 #		}
@@ -330,9 +333,10 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 
 	trigger = {
-		NOT = { has_government = right-wing }
-		right-wing > 0.6
-		check_has_focus_tree_to_switch_to_right-wing = yes
+		NOT = { has_government = fascism }
+		fascism > 0.6
+		NOT = { fascism > 0.7 }
+		check_has_focus_tree_to_switch_to_fascism = yes
 	}
 
 	fire_only_once = yes
@@ -363,7 +367,7 @@ country_event = {
 		name = political.14.c
 		add_political_power = -100
 		set_politics = {
-			ruling_party = right-wing
+			ruling_party = fascism
 			elections_allowed = no
 		}
 	}
@@ -387,7 +391,7 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = right-wing }
+#		NOT = { has_government = fascism }
 #		NOT = { has_country_flag = fascism_government_support }
 #	}
 #	
@@ -416,9 +420,9 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = right-wing }
+#		NOT = { has_government = fascism }
 #		has_country_flag = fascism_government_support
-#		right-wing > 0.3
+#		fascism > 0.3
 #		is_major = no
 #		is_puppet = no
 #	}
@@ -427,7 +431,7 @@ country_event = {
 #		days = 100
 #		modifier = {
 #			factor = 0.5
-#			right-wing > 0.4
+#			fascism > 0.4
 #		}
 #	}
 #
@@ -438,7 +442,7 @@ country_event = {
 #	option = {
 #		name = political.9.a
 #		set_politics = {
-#			ruling_party = right-wing
+#			ruling_party = fascism
 #			elections_allowed = no
 #		}
 #		add_timed_idea = { idea = reign_of_terror days = 730 }
@@ -454,8 +458,8 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = right-wing }
-#		right-wing > 0.25
+#		NOT = { has_government = fascism }
+#		fascism > 0.25
 #		if = {
 #			limit = {
 #				has_dlc = "Together for Victory"
@@ -482,63 +486,63 @@ country_event = {
 #		name = political.10.a
 #		if = {
 #			limit = {
-#				has_government = centre
+#				has_government = democratic
 #			}
 #			if = {
-#				limit = { right-wing > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = centre
+#					ruling_party = fascism
+#					ideology = democratic
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { right-wing > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = centre
+#					ruling_party = fascism
+#					ideology = democratic
 #					size = 0.7
 #				}
 #			}
 #		}
 #		if = {
 #			limit = {
-#				has_government = left-wing
+#				has_government = communism
 #			}
 #			if = {
-#				limit = { right-wing > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = left-wing
+#					ruling_party = fascism
+#					ideology = communism
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { right-wing > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = left-wing
+#					ruling_party = fascism
+#					ideology = communism
 #					size = 0.7
 #				}
 #			}
 #		}
 #		if = {
 #			limit = {
-#				has_government = syncretic
+#				has_government = neutrality
 #			}
 #			if = {
-#				limit = { right-wing > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = syncretic
+#					ruling_party = fascism
+#					ideology = neutrality
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { right-wing > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = right-wing
-#					ideology = syncretic
+#					ruling_party = fascism
+#					ideology = neutrality
 #					size = 0.7
 #				}
 #			}
@@ -560,8 +564,9 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = right-wing }
-		right-wing > 0.3
+		NOT = { has_government = fascism }
+		fascism > 0.3
+		NOT = { fascism > 0.59 }
 		NOT = { has_idea = fascist_assault_divisions }
 		if = {
 			limit = {
@@ -594,7 +599,7 @@ country_event = {
 	option = {
 		name = political.11.a
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = 0.05
 		}
 		add_ideas = fascist_assault_divisions
@@ -610,10 +615,11 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = right-wing }
-		right-wing > 0.25
+		NOT = { has_government = fascism }
+		fascism > 0.25
+		NOT = { fascism > 0.59 }
 		any_neighbor_country = {
-			has_government = left-wing
+			has_government = communism
 		}
 	}
 
@@ -628,7 +634,7 @@ country_event = {
 	option = {
 		name = political.12.a
 		add_popularity = {
-			ideology = right-wing
+			ideology = fascism
 			popularity = 0.1
 		}
 	}
@@ -644,7 +650,7 @@ country_event = {
 #	is_triggered_only = yes
 #	
 #	trigger = {
-#		NOT = { has_government = centre }
+#		NOT = { has_government = democratic }
 #	}
 
 	# Seek government support
@@ -674,9 +680,10 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 	
 	trigger = {
-		NOT = { has_government = centre }
-		centre > 0.6
-		check_has_focus_tree_to_switch_to_centre = yes
+		NOT = { has_government = democratic }
+		democratic > 0.6
+		NOT = { democratic > 0.7 }
+		check_has_focus_tree_to_switch_to_democratic = yes
 	}
 
 	fire_only_once = yes
@@ -697,8 +704,8 @@ country_event = {
 		name = political.14.c
 		add_political_power = -100
 		set_politics = {
-			ruling_party = centre
-			elections_allowed = no
+			ruling_party = democratic
+			elections_allowed = yes
 		}
 	}
 
@@ -721,9 +728,10 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = centre }
+		NOT = { has_government = democratic }
 		NOT = { has_country_flag = democracy_opposition_formed }
 		is_puppet = no
+		NOT = { democratic > 0.59 }
 	}
 	
 	mean_time_to_happen = {
@@ -737,7 +745,7 @@ country_event = {
 	option = {
 		name = political.15.a
 		add_popularity = {
-			ideology = centre
+			ideology = democratic
 			popularity = 0.05
 		}
 		add_stability = -0.05
@@ -754,7 +762,7 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = democratic_reformer
-		NOT = { has_government = centre }
+		NOT = { has_government = democratic }
 		has_country_flag = democracy_opposition_formed
 		NOT = { has_idea = democratic_opposition_voicing_protests }
 	}
@@ -782,8 +790,8 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = democratic_reformer
-#		NOT = { has_government = centre }
-#		centre > 0.5
+#		NOT = { has_government = democratic }
+#		democratic > 0.5
 #		has_country_flag = democracy_government_support
 #		is_puppet = no
 #	}
@@ -795,16 +803,16 @@ country_event = {
 #	option = {
 #		name = political.17.a
 #		if = {
-#			limit = { has_government = right-wing }
+#			limit = { has_government = fascism }
 #			add_timed_idea = { idea = fascism_defeated days = 730 }
 #		}
 #		if = {
-#			limit = { has_government = left-wing }
+#			limit = { has_government = communism }
 #			add_timed_idea = { idea = communism_defeated days = 730 }
 #		}
 #		set_politics = {
-#			ruling_party = centre
-#			elections_allowed = no
+#			ruling_party = democratic
+#			elections_allowed = yes
 #		}
 #		hold_election = ROOT
 #		remove_ideas = democratic_revolutionaries
@@ -826,8 +834,8 @@ country_event = {
 	is_triggered_only = yes
 
 	#trigger = {
-	#	right-wing > 0.5
-	#	NOT = { has_government = right-wing }
+	#	fascism > 0.5
+	#	NOT = { has_government = fascism }
 	#	NOT = { has_idea = fascist_revolutionaries }
 	#	NOT = { has_idea = reign_of_terror }
 	#	is_puppet = no
@@ -842,7 +850,7 @@ country_event = {
 	#	name = political.18.a
 	#	add_political_power = -100
 	#	add_popularity = {
-	#		ideology = right-wing
+	#		ideology = fascism
 	#		popularity = -0.10
 	#	}
 	#	add_timed_idea = {
@@ -862,7 +870,7 @@ country_event = {
 	option = {
 		name = political.18.c
 		set_politics = {
-			ruling_party = right-wing
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		add_stability = -0.05
@@ -880,8 +888,8 @@ country_event = {
 	is_triggered_only = yes
 
 	#trigger = {
-	#	left-wing > 0.5
-	#	NOT = { has_government = left-wing }
+	#	communism > 0.5
+	#	NOT = { has_government = communism }
 	#	NOT = { has_idea = communist_revolutionaries }
 	#	NOT = { has_idea = reign_of_terror }
 	#	is_puppet = no
@@ -896,7 +904,7 @@ country_event = {
 	#	name = political.19.a
 	#	add_political_power = -100
 	#	add_popularity = {
-	#		ideology = left-wing
+	#		ideology = communism
 	#		popularity = -0.10
 	#	}
 	#	add_timed_idea = {
@@ -926,7 +934,7 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = left-wing
+			ruling_party = communism
 			elections_allowed = no
 		}
 		add_stability = -0.05
@@ -944,8 +952,8 @@ country_event = {
 	is_triggered_only = yes
 
 	#trigger = {
-	#	centre > 0.5
-	#	NOT = { has_government = centre }
+	#	democratic > 0.5
+	#	NOT = { has_government = democratic }
 	#	NOT = { has_idea = democratic_revolutionaries }
 	#	NOT = { has_idea = reign_of_terror }
 	#	is_puppet = no
@@ -960,7 +968,7 @@ country_event = {
 	#	name = political.20.a
 	#	add_political_power = -100
 	#	add_popularity = {
-	#		ideology = centre
+	#		ideology = democratic
 	#		popularity = -0.10
 	#	}
 	#	add_timed_idea = {
@@ -980,16 +988,16 @@ country_event = {
 	option = {
 		name = political.20.c
 		if = {
-			limit = { has_government = right-wing }
+			limit = { has_government = fascism }
 			add_timed_idea = { idea = fascism_defeated days = 730 }
 		}
 		if = {
-			limit = { has_government = left-wing }
+			limit = { has_government = communism }
 			add_timed_idea = { idea = communism_defeated days = 730 }
 		}
 		set_politics = {
-			ruling_party = centre
-			elections_allowed = no
+			ruling_party = democratic
+			elections_allowed = yes
 		}
 		add_stability = -0.05
 	}
@@ -1005,11 +1013,11 @@ country_event = {
 	picture = GFX_report_event_fascist_militia
 
 	trigger = {
-		right-wing > 0.7
+		fascism > 0.7
 		#has_idea = fascist_revolutionaries
-		NOT = { has_government = right-wing }
+		NOT = { has_government = fascism }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_right-wing = yes
+		check_has_focus_tree_to_switch_to_fascism = yes
 	}
 
 	mean_time_to_happen = {
@@ -1026,42 +1034,58 @@ country_event = {
 			factor = 0
 		}
 		start_civil_war = {
-			ideology = right-wing
+			ideology = fascism
 			size = 0.5
 		}
 	}
 
 	option = {
 		name = political.21.b
+		ai_chance = {
+			factor = 0
+		}
 		if = {
 			limit = {
-				has_government = centre
+				has_government = democratic
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = centre
+				ruling_party = fascism
+				ideology = democratic
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = left-wing
+				has_government = communism
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = left-wing
+				ruling_party = fascism
+				ideology = communism
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = syncretic
+				has_government = neutrality
 			}
 			start_civil_war = {
-				ruling_party = right-wing
-				ideology = syncretic
+				ruling_party = fascism
+				ideology = neutrality
 				size = 0.5
 			}
+		}
+	}
+
+	# We need a referendum
+	option = {
+		name = political.14.c
+		trigger = {
+			is_ai = yes
+		}
+		add_political_power = -100
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
 		}
 	}
 }
@@ -1073,9 +1097,9 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 
 	trigger = {
-		left-wing > 0.7
+		communism > 0.7
 		#has_idea = communist_revolutionaries
-		NOT = { has_government = left-wing }
+		NOT = { has_government = communism }
 		#Special case CHI PRC
 		OR = {
 			NOT = { tag = CHI }
@@ -1089,7 +1113,7 @@ country_event = {
 			has_dlc = "Man the Guns"
 		}
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_left-wing = yes
+		check_has_focus_tree_to_switch_to_communism = yes
 	}
 
 	mean_time_to_happen = {
@@ -1106,42 +1130,58 @@ country_event = {
 			factor = 0
 		}
 		start_civil_war = {
-			ideology = left-wing
+			ideology = communism
 			size = 0.5
 		}
 	}
 
 	option = {
 		name = political.22.b
+		ai_chance = {
+			factor = 0
+		}
 		if = {
 			limit = {
-				has_government = centre
+				has_government = democratic
 			}
 			start_civil_war = {
-				ruling_party = left-wing
-				ideology = centre
+				ruling_party = communism
+				ideology = democratic
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = right-wing
+				has_government = fascism
 			}
 			start_civil_war = {
-				ruling_party = left-wing
-				ideology = right-wing
+				ruling_party = communism
+				ideology = fascism
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = syncretic
+				has_government = neutrality
 			}
 			start_civil_war = {
-				ruling_party = left-wing
-				ideology = syncretic
+				ruling_party = communism
+				ideology = neutrality
 				size = 0.5
 			}
+		}
+	}
+
+	# We need a referendum
+	option = {
+		name = political.14.c
+		trigger = {
+			is_ai = yes
+		}
+		add_political_power = -100
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
 		}
 	}
 }
@@ -1153,10 +1193,10 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 
 	trigger = {
-		centre > 0.7
+		democratic > 0.7
 		#has_idea = democratic_revolutionaries
 		#Special case CHI PRC
-		NOT = { has_government = centre }
+		NOT = { has_government = democratic }
 		OR = {
 			NOT = { tag = CHI }
 			AND = {
@@ -1165,7 +1205,7 @@ country_event = {
 			}			
 		}
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_centre = yes
+		check_has_focus_tree_to_switch_to_democratic = yes
 	}
 
 	mean_time_to_happen = {
@@ -1182,44 +1222,60 @@ country_event = {
 			factor = 0
 		}
 		start_civil_war = {
-			ideology = centre
+			ideology = democratic
 			size = 0.5
 		}
 	}
 
 	option = {
 		name = political.23.b
+		ai_chance = {
+			factor = 0
+		}
 		if = {
 			limit = {
-				has_government = syncretic
+				has_government = neutrality
 			}
 			start_civil_war = {
-				ruling_party = centre
-				ideology = syncretic
+				ruling_party = democratic
+				ideology = neutrality
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = right-wing
+				has_government = fascism
 			}
 			add_timed_idea = { idea = fascism_defeated days = 730 }			
 			start_civil_war = {
-				ruling_party = centre
-				ideology = right-wing
+				ruling_party = democratic
+				ideology = fascism
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = left-wing
+				has_government = communism
 			}
 			add_timed_idea = { idea = communism_defeated days = 730 }
 			start_civil_war = {
-				ruling_party = centre
-				ideology = left-wing
+				ruling_party = democratic
+				ideology = communism
 				size = 0.5
 			}
+		}
+	}
+
+	# We need a referendum
+	option = {
+		name = political.14.c
+		trigger = {
+			is_ai = yes
+		}
+		add_political_power = -100
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
 		}
 	}
 }
@@ -1233,7 +1289,7 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 
 	trigger = {
-		right-wing < 0.3
+		fascism < 0.3
 		has_idea = fascist_revolutionaries
 	}
 
@@ -1254,7 +1310,7 @@ country_event = {
 	picture = GFX_report_event_stalin_propaganda
 
 	trigger = {
-		left-wing < 0.3
+		communism < 0.3
 		has_idea = communist_revolutionaries
 	}
 
@@ -1275,7 +1331,7 @@ country_event = {
 	picture = GFX_report_event_europe_funeral
 
 	trigger = {
-		centre < 0.3
+		democratic < 0.3
 		has_idea = democratic_revolutionaries
 	}
 
@@ -1295,18 +1351,18 @@ country_event = {
 	title = political.27.t
 	desc = { 
 		text = political.27.d_fascism
-	 	trigger = { has_government = right-wing }
+	 	trigger = { has_government = fascism }
 	}
 	desc = { 
 		text = political.27.d_communism
-	 	trigger = { has_government = left-wing }
+	 	trigger = { has_government = communism }
 	}
 	picture = GFX_report_event_journalists_speech
 
 	trigger = {
 		OR = {
-			has_government = right-wing
-			has_government = left-wing
+			has_government = fascism
+			has_government = communism
 		}
 		has_idea = neutrality_idea
 	}
@@ -1330,12 +1386,14 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 
 	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = ENG_communist_civil_war }
 		any_other_country = {
 			NOT = { tag = ROOT }
 			original_tag = ROOT
+			is_subject = no
 			has_government = ROOT
 		}
-		NOT = { has_country_flag = ENG_communist_civil_war }
 	}
 
 	mean_time_to_happen = {

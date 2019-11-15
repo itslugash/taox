@@ -1,0 +1,15 @@
+state = {
+	id = 800
+	name = "Ulcinj" # Montenegro
+	manpower = 1
+	state_category = city
+	provinces = {
+		800
+	}
+	history = {
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+		}
+	}
+}

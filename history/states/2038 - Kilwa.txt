@@ -1,0 +1,14 @@
+state = {
+	id = 2038
+	name = "Kilwa" # Lindi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2038
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1954
+	name = "São Tomé" # North Angola
+	manpower = 1
+	state_category = city
+	provinces = {
+		1954
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

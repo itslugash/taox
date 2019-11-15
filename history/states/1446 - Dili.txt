@@ -1,0 +1,14 @@
+state = {
+	id = 1446
+	name = "Dili" # Sunda Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		1446
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

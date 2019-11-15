@@ -1,0 +1,15 @@
+state = {
+	id = 878
+	name = "Kayseri" # Ankara and Adana
+	manpower = 1
+	state_category = city
+	provinces = {
+		878
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1684
+	name = "Wujda" # Taza
+	manpower = 1
+	state_category = city
+	provinces = {
+		1684
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		}
+	}
+}

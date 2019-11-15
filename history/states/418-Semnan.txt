@@ -1,20 +1,15 @@
-
-state={
-	id=418
-	name="STATE_418"
-	manpower = 332362
-	
-	state_category = wasteland
-
-	history={
-		owner = PER
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = PER
+state = {
+	id = 418
+	name = "Caen" # Normandie
+	manpower = 1
+	state_category = city
+	provinces = {
+		418
 	}
-
-	provinces={
-		8009 8093 10873 11671 12704 12748 12818 
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
 	}
 }

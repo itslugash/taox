@@ -1,0 +1,14 @@
+state = {
+	id = 1966
+	name = "Nola" # Ubangi-Shari
+	manpower = 1
+	state_category = city
+	provinces = {
+		1966
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 891
+	name = "Bitlis" # Diyarbakir-Van
+	manpower = 1
+	state_category = city
+	provinces = {
+		891
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

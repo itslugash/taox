@@ -1,23 +1,15 @@
-
-state={
-	id=280
-	name="STATE_280"
-	
-	state_category = pastoral
-
-	history={
-		owner = BRA
+state = {
+	id = 280
+	name = "Newcastle upon Tyne" # North East England
+	manpower = 1
+	state_category = city
+	provinces = {
+		280
+	}
+	history = {
+		owner = GBR
+		add_core_of = GBR
 		buildings = {
-			infrastructure = 1
-
 		}
-		add_core_of = BRA
-
 	}
-
-	provinces={
-		2142 2147 2204 8175 11010 12939 
-	}
-	manpower=120000
-	buildings_max_level_factor=1.000
 }

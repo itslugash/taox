@@ -1,0 +1,14 @@
+state = {
+	id = 1931
+	name = "Warri" # Niger Delta
+	manpower = 1
+	state_category = city
+	provinces = {
+		1931
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

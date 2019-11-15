@@ -1,0 +1,14 @@
+state = {
+	id = 1310
+	name = "Madurai" # Madras
+	manpower = 1
+	state_category = city
+	provinces = {
+		1310
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

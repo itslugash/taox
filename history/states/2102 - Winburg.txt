@@ -1,0 +1,14 @@
+state = {
+	id = 2102
+	name = "Winburg" # Vrystaat
+	manpower = 1
+	state_category = city
+	provinces = {
+		2102
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1264
+	name = "Ajmer" # Rajputana
+	manpower = 1
+	state_category = city
+	provinces = {
+		1264
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

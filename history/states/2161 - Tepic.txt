@@ -1,0 +1,15 @@
+state = {
+	id = 2161
+	name = "Tepic" # Jalisco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2161
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

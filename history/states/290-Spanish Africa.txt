@@ -1,31 +1,15 @@
 state = {
 	id = 290
-	name = "Tanger-Tetuán-Al Hoceima"
-	manpower = 744000
-	state_category = rural
-
+	name = "Lincoln" # Midlands
+	manpower = 1
+	state_category = city
 	provinces = {
-		4199 7215 9945 10113 12087 12100 
+		290
 	}
-	
-	resources = {
-		steel = 15
-	}
-
 	history = {
-		owner = SPR
-		add_core_of = MOR
-
-		victory_points = {
-			9945 5 
-		}
-
+		owner = GBR
+		add_core_of = GBR
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			12100 = {
-				naval_base = 3
-			}
 		}
 	}
 }

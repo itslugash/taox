@@ -1,0 +1,14 @@
+state = {
+	id = 2039
+	name = "Lindi" # Lindi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2039
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

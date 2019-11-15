@@ -1,0 +1,14 @@
+state = {
+	id = 2222
+	name = "Puerto Rico" # West Indies
+	manpower = 1
+	state_category = city
+	provinces = {
+		2222
+	}
+	history = {
+		owner = USA
+		buildings = {
+		}
+	}
+}

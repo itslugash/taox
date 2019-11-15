@@ -1,0 +1,14 @@
+state = {
+	id = 1875
+	name = "Djibuti" # Eritrea
+	manpower = 1
+	state_category = city
+	provinces = {
+		1875
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

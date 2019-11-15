@@ -1,0 +1,15 @@
+state = {
+	id = 2150
+	name = "Ciudad Victoria" # Nuevo León
+	manpower = 1
+	state_category = city
+	provinces = {
+		2150
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		}
+	}
+}

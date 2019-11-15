@@ -1,0 +1,14 @@
+state = {
+	id = 1707
+	name = "Mascara" # Tlemcen
+	manpower = 1
+	state_category = city
+	provinces = {
+		1707
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2359
+	name = "Colón" # Santa Fe
+	manpower = 1
+	state_category = city
+	provinces = {
+		2359
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 844
+	name = "Myteline" # Aegean Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		844
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2408
+	name = "Oriximina" # Pará
+	manpower = 1
+	state_category = city
+	provinces = {
+		2408
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

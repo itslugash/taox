@@ -1,0 +1,14 @@
+state = {
+	id = 1321
+	name = "Colombo" # Ceylon
+	manpower = 1
+	state_category = city
+	provinces = {
+		1321
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

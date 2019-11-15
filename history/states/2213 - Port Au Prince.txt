@@ -1,0 +1,15 @@
+state = {
+	id = 2213
+	name = "Port Au Prince" # Hispaniola
+	manpower = 1
+	state_category = city
+	provinces = {
+		2213
+	}
+	history = {
+		owner = HAI
+		add_core_of = HAI
+		buildings = {
+		}
+	}
+}

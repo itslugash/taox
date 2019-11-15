@@ -1,0 +1,14 @@
+state = {
+	id = 1895
+	name = "Bouake" # Windward Coast
+	manpower = 1
+	state_category = city
+	provinces = {
+		1895
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

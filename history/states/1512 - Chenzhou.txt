@@ -1,0 +1,15 @@
+state = {
+	id = 1512
+	name = "Chenzhou" # Northern Anhui
+	manpower = 1
+	state_category = city
+	provinces = {
+		1512
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

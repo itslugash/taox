@@ -1,0 +1,15 @@
+state = {
+	id = 2347
+	name = "Melo" # Uruguay
+	manpower = 1
+	state_category = city
+	provinces = {
+		2347
+	}
+	history = {
+		owner = URG
+		add_core_of = URG
+		buildings = {
+		}
+	}
+}

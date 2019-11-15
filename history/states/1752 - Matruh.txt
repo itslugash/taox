@@ -1,0 +1,15 @@
+state = {
+	id = 1752
+	name = "Matruh" # Matruh
+	manpower = 1
+	state_category = city
+	provinces = {
+		1752
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

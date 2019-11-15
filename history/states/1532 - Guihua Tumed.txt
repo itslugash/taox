@@ -1,0 +1,15 @@
+state = {
+	id = 1532
+	name = "Guihua Tumed" # Inner Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		1532
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

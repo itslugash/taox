@@ -1,0 +1,14 @@
+state = {
+	id = 2053
+	name = "Sena" # Zambezia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2053
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

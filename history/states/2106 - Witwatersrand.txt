@@ -1,0 +1,14 @@
+state = {
+	id = 2106
+	name = "Witwatersrand" # Transvaal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2106
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

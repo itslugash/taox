@@ -1,0 +1,15 @@
+state = {
+	id = 860
+	name = "Istanbul" # Thrace
+	manpower = 1
+	state_category = city
+	provinces = {
+		860
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

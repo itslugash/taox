@@ -1,0 +1,15 @@
+state = {
+	id = 1140
+	name = "Kerman" # Fars-Kerman
+	manpower = 1
+	state_category = city
+	provinces = {
+		1140
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		}
+	}
+}

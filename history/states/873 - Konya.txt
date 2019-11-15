@@ -1,0 +1,15 @@
+state = {
+	id = 873
+	name = "Konya" # Konya
+	manpower = 1
+	state_category = city
+	provinces = {
+		873
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		}
+	}
+}

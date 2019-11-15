@@ -1,0 +1,15 @@
+state = {
+	id = 856
+	name = "Limassol" # Cyprus
+	manpower = 1
+	state_category = city
+	provinces = {
+		856
+	}
+	history = {
+		owner = CYP
+		add_core_of = CYP
+		buildings = {
+		}
+	}
+}

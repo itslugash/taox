@@ -1,0 +1,14 @@
+state = {
+	id = 2112
+	name = "Ladysmith" # Natal-Zululand
+	manpower = 1
+	state_category = city
+	provinces = {
+		2112
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 1971
+	name = "Ndele" # Ubangi-Shari
+	manpower = 1
+	state_category = city
+	provinces = {
+		1971
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2103
+	name = "Philippolis" # Vrystaat
+	manpower = 1
+	state_category = city
+	provinces = {
+		2103
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

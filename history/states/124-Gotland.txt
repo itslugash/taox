@@ -1,23 +1,15 @@
-state=
-{
-	id=124
-	name="STATE_124"
-	manpower = 56988
-	
-	state_category = small_island
-	
-	history=
-	{
-		owner = SWE
-		add_core_of = SWE
-		buildings = {
-			infrastructure = 6
-			408 = {
-				naval_base = 1
-			}
-		}
+state = {
+	id = 124
+	name = "Alliance" # Nebraska
+	manpower = 1
+	state_category = city
+	provinces = {
+		124
 	}
-	provinces={
-		408 6258
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
 	}
 }

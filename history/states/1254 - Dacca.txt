@@ -1,0 +1,14 @@
+state = {
+	id = 1254
+	name = "Dacca" # South Bengal
+	manpower = 1
+	state_category = city
+	provinces = {
+		1254
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

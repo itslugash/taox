@@ -1,35 +1,15 @@
-
-state={
-	id=476
-	name="STATE_476"
-	manpower = 1663331
-	
-	state_category = rural
-
-	resources={
-		oil=8
+state = {
+	id = 476
+	name = "Vigo" # Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		476
 	}
-	
-	history={
-		owner = MEX
+	history = {
+		owner = SPA
+		add_core_of = SPA
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			10889 = {
-				naval_base = 2
-			}
-		}
-		add_core_of = MEX
-		victory_points = {
-			10889 1
-		}
-		victory_points = {
-			2021 3
 		}
 	}
-
-	provinces={
-		2021 8236 10773 10889 12712 
-	}
-	
 }

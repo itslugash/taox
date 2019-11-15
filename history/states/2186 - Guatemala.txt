@@ -1,0 +1,15 @@
+state = {
+	id = 2186
+	name = "Guatemala" # Guatemala
+	manpower = 1
+	state_category = city
+	provinces = {
+		2186
+	}
+	history = {
+		owner = GUA
+		add_core_of = GUA
+		buildings = {
+		}
+	}
+}

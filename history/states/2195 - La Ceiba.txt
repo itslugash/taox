@@ -1,0 +1,15 @@
+state = {
+	id = 2195
+	name = "La Ceiba" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2195
+	}
+	history = {
+		owner = HON
+		add_core_of = HON
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2092
+	name = "Beaufort" # Northern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2092
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

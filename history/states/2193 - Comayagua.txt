@@ -1,0 +1,15 @@
+state = {
+	id = 2193
+	name = "Comayagua" # Honduras
+	manpower = 1
+	state_category = city
+	provinces = {
+		2193
+	}
+	history = {
+		owner = HON
+		add_core_of = HON
+		buildings = {
+		}
+	}
+}

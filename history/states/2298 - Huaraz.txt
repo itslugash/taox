@@ -1,0 +1,15 @@
+state = {
+	id = 2298
+	name = "Huaraz" # Lima
+	manpower = 1
+	state_category = city
+	provinces = {
+		2298
+	}
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		buildings = {
+		}
+	}
+}

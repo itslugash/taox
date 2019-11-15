@@ -1,0 +1,15 @@
+state = {
+	id = 2308
+	name = "Arica" # Atacama
+	manpower = 1
+	state_category = city
+	provinces = {
+		2308
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+		}
+	}
+}
