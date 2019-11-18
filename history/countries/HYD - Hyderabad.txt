@@ -1,0 +1,19 @@
+capital = 1209
+set_popularities = {
+	paternal_autocracy = 100
+}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1910.1.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Mahboob Ali Khan"
+	desc = "HYD_Mahboob_Ali_Khan_desc"
+	picture = "Portrait_HYD_Mahboob_Ali_Khan.tga"
+	expire = "1999.12.31"
+	ideology = paternal_autocracy_ideology
+	traits = {
+	}
+}
