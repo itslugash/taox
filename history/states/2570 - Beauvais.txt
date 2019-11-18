@@ -1,0 +1,15 @@
+state = {
+	id = 2570
+	name = "Beauvais" # Picardie
+	manpower = 1
+	state_category = city
+	provinces = {
+		2570
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
+	}
+}

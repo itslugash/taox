@@ -1,0 +1,15 @@
+state = {
+	id = 2467
+	name = "Alegrete" # Rio Grande do Sul
+	manpower = 1
+	state_category = city
+	provinces = {
+		2467
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

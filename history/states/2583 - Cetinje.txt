@@ -1,0 +1,15 @@
+state = {
+	id = 2583
+	name = "Cetinje" # Montenegro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2583
+	}
+	history = {
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+		}
+	}
+}

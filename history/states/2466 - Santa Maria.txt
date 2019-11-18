@@ -1,0 +1,15 @@
+state = {
+	id = 2466
+	name = "Santa Maria" # Rio Grande do Sul
+	manpower = 1
+	state_category = city
+	provinces = {
+		2466
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

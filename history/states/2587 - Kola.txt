@@ -1,0 +1,15 @@
+state = {
+	id = 2587
+	name = "Kola" # Karelia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2587
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

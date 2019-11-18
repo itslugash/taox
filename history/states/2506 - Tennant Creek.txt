@@ -1,0 +1,15 @@
+state = {
+	id = 2506
+	name = "Tennant Creek" # Northern Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2506
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2470
+	name = "Port Macquarie" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2470
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

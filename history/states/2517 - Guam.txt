@@ -1,0 +1,14 @@
+state = {
+	id = 2517
+	name = "Guam" # Micronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2517
+	}
+	history = {
+		owner = USA
+		buildings = {
+		}
+	}
+}

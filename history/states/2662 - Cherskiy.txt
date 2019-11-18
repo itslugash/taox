@@ -1,0 +1,15 @@
+state = {
+	id = 2662
+	name = "Cherskiy" # Inner Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2662
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

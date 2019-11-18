@@ -1,0 +1,15 @@
+state = {
+	id = 2699
+	name = "Izhma" # Nenetsia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2699
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

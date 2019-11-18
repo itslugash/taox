@@ -1,0 +1,15 @@
+state = {
+	id = 2446
+	name = "São João del Rey" # Minas Gerais
+	manpower = 1
+	state_category = city
+	provinces = {
+		2446
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

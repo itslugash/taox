@@ -1,0 +1,14 @@
+state = {
+	id = 2518
+	name = "Palau" # Micronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2518
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

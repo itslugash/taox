@@ -1,0 +1,15 @@
+state = {
+	id = 2450
+	name = "São Paulo" # São Paulo
+	manpower = 1
+	state_category = city
+	provinces = {
+		2450
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

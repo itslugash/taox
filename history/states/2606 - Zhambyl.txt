@@ -1,0 +1,15 @@
+state = {
+	id = 2606
+	name = "Zhambyl" # Semireche
+	manpower = 1
+	state_category = city
+	provinces = {
+		2606
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

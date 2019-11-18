@@ -1,0 +1,15 @@
+state = {
+	id = 2427
+	name = "Oeiras" # Rio Grande do Norte
+	manpower = 1
+	state_category = city
+	provinces = {
+		2427
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

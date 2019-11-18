@@ -1,0 +1,15 @@
+state = {
+	id = 2642
+	name = "Ust Nera" # Okhotsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2642
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

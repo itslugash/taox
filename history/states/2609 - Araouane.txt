@@ -1,0 +1,14 @@
+state = {
+	id = 2609
+	name = "Araouane" # Timbuktu
+	manpower = 1
+	state_category = city
+	provinces = {
+		2609
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

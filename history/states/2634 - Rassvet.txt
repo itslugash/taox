@@ -1,0 +1,15 @@
+state = {
+	id = 2634
+	name = "Rassvet" # Coastal Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2634
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

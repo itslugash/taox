@@ -55,7 +55,7 @@
 46;48;128;64;land;false;plains;2
 47;64;96;0;land;true;forest;2
 48;192;160;192;land;true;forest;2
-49;130;123;117;land;false;forest
+49;130;123;117;land;false;forest;0
 50;64;32;192;land;false;forest;2
 51;48;128;192;land;false;plains;2
 52;176;128;192;land;false;forest;2
@@ -2702,6 +2702,8 @@
 2694;0;96;0;land;false;forest;6
 2701;94;15;21;land;false;forest;6
 3246;49;150;138;land;true;forest;1
+3274;0;0;0;land;true;forest;1
+3275;152;146;92;land;false;plains;1
 2703;1;200;200;sea;false;ocean;0
 2704;2;200;250;sea;false;ocean;0
 2705;3;220;250;sea;false;ocean;0

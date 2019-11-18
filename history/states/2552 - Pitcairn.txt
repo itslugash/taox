@@ -1,0 +1,14 @@
+state = {
+	id = 2552
+	name = "Pitcairn" # Fiji
+	manpower = 1
+	state_category = city
+	provinces = {
+		2552
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

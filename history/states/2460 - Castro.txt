@@ -1,0 +1,15 @@
+state = {
+	id = 2460
+	name = "Castro" # Paraná
+	manpower = 1
+	state_category = city
+	provinces = {
+		2460
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

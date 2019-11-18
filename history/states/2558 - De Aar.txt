@@ -1,0 +1,14 @@
+state = {
+	id = 2558
+	name = "De Aar" # Northern Cape
+	manpower = 1
+	state_category = city
+	provinces = {
+		2558
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

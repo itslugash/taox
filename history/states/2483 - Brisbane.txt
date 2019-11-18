@@ -1,0 +1,15 @@
+state = {
+	id = 2483
+	name = "Brisbane" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2483
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

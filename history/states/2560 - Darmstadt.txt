@@ -1,0 +1,15 @@
+state = {
+	id = 2560
+	name = "Darmstadt" # Hesse-Nassau
+	manpower = 1
+	state_category = city
+	provinces = {
+		2560
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
+	}
+}

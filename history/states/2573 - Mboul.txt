@@ -1,0 +1,14 @@
+state = {
+	id = 2573
+	name = "Mboul" # Senegal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2573
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

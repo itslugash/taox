@@ -1,0 +1,15 @@
+state = {
+	id = 2439
+	name = "Porto Seguro" # Bahia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2439
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

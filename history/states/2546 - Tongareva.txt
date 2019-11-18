@@ -1,0 +1,14 @@
+state = {
+	id = 2546
+	name = "Tongareva" # Tonga
+	manpower = 1
+	state_category = city
+	provinces = {
+		2546
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

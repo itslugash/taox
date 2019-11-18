@@ -1,0 +1,15 @@
+state = {
+	id = 2461
+	name = "Desterro" # Paraná
+	manpower = 1
+	state_category = city
+	provinces = {
+		2461
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

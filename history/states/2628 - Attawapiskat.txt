@@ -1,0 +1,15 @@
+state = {
+	id = 2628
+	name = "Attawapiskat" # Ontario
+	manpower = 1
+	state_category = city
+	provinces = {
+		2628
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

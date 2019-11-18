@@ -1,0 +1,15 @@
+state = {
+	id = 2600
+	name = "Altamira" # Maranhão
+	manpower = 1
+	state_category = city
+	provinces = {
+		2600
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

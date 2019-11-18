@@ -1,0 +1,15 @@
+state = {
+	id = 2683
+	name = "Bakchar" # Tobolsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2683
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

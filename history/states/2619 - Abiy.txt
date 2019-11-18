@@ -1,0 +1,15 @@
+state = {
+	id = 2619
+	name = "Abiy" # North Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2619
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

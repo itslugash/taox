@@ -1,0 +1,14 @@
+state = {
+	id = 2566
+	name = "Agartala" # Assam
+	manpower = 1
+	state_category = city
+	provinces = {
+		2566
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

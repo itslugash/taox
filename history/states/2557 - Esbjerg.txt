@@ -1,0 +1,15 @@
+state = {
+	id = 2557
+	name = "Esbjerg" # Jylland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2557
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+		}
+	}
+}

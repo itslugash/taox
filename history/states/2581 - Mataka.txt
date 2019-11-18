@@ -1,0 +1,14 @@
+state = {
+	id = 2581
+	name = "Mataka" # Mocambique
+	manpower = 1
+	state_category = city
+	provinces = {
+		2581
+	}
+	history = {
+		owner = POR
+		buildings = {
+		}
+	}
+}

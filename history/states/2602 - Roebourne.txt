@@ -1,0 +1,15 @@
+state = {
+	id = 2602
+	name = "Roebourne" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2602
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

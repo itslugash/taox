@@ -1,0 +1,15 @@
+state = {
+	id = 2636
+	name = "Egedesminde" # Iceland & Greenland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2636
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+		}
+	}
+}

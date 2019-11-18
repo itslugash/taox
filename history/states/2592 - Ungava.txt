@@ -1,0 +1,15 @@
+state = {
+	id = 2592
+	name = "Ungava" # Quebec
+	manpower = 1
+	state_category = city
+	provinces = {
+		2592
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

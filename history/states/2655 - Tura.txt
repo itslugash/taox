@@ -1,0 +1,15 @@
+state = {
+	id = 2655
+	name = "Tura" # Middle Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2655
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

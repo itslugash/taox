@@ -1,0 +1,14 @@
+state = {
+	id = 2521
+	name = "Saipan" # Micronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2521
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

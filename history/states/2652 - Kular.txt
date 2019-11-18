@@ -1,0 +1,15 @@
+state = {
+	id = 2652
+	name = "Kular" # Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2652
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

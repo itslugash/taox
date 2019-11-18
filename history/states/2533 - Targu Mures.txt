@@ -1,0 +1,15 @@
+state = {
+	id = 2533
+	name = "Targu Mures" # Eastern Siebenbürgen
+	manpower = 1
+	state_category = city
+	provinces = {
+		2533
+	}
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2532
+	name = "Forte São Joaquim" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2532
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

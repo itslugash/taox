@@ -1,0 +1,15 @@
+state = {
+	id = 2617
+	name = "Saghalian Oula" # Outer Manchuria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2617
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

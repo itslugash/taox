@@ -1,0 +1,14 @@
+state = {
+	id = 2544
+	name = "Pago Pago" # Tonga
+	manpower = 1
+	state_category = city
+	provinces = {
+		2544
+	}
+	history = {
+		owner = USA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2631
+	name = "Unalakeet" # Alaska
+	manpower = 1
+	state_category = city
+	provinces = {
+		2631
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
+	}
+}

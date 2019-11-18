@@ -1,0 +1,15 @@
+state = {
+	id = 2674
+	name = "Essey" # North Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2674
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

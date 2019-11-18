@@ -1,0 +1,15 @@
+state = {
+	id = 2511
+	name = "Napier" # North Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2511
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

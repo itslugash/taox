@@ -1,0 +1,14 @@
+state = {
+	id = 2576
+	name = "Natuna" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2576
+	}
+	history = {
+		owner = NLD
+		buildings = {
+		}
+	}
+}

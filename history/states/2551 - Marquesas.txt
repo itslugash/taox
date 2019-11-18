@@ -1,0 +1,14 @@
+state = {
+	id = 2551
+	name = "Marquesas" # Tahiti
+	manpower = 1
+	state_category = city
+	provinces = {
+		2551
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

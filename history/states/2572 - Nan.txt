@@ -1,0 +1,15 @@
+state = {
+	id = 2572
+	name = "Nan" # Chiang Mai
+	manpower = 1
+	state_category = city
+	provinces = {
+		2572
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		}
+	}
+}

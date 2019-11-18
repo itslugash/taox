@@ -1,0 +1,15 @@
+state = {
+	id = 2603
+	name = "Tanami" # Northern Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2603
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

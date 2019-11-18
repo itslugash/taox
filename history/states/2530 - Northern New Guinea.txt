@@ -1,0 +1,14 @@
+state = {
+	id = 2530
+	name = "Lae" # Northern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2530
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2481
+	name = "Swan Hill" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2481
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

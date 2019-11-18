@@ -1,0 +1,15 @@
+state = {
+	id = 2665
+	name = "Chokurdakh" # North Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2665
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

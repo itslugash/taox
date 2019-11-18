@@ -1,0 +1,14 @@
+state = {
+	id = 2528
+	name = "Port Moresby" # Southern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2528
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

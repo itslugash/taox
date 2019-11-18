@@ -1,0 +1,15 @@
+state = {
+	id = 2687
+	name = "Amderma" # Nenetsia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2687
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

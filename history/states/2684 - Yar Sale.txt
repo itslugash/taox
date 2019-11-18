@@ -1,0 +1,15 @@
+state = {
+	id = 2684
+	name = "Yar Sale" # Ob
+	manpower = 1
+	state_category = city
+	provinces = {
+		2684
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

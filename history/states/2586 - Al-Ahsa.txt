@@ -1,0 +1,15 @@
+state = {
+	id = 2586
+	name = "Al-Ahsa" # Nejd
+	manpower = 1
+	state_category = city
+	provinces = {
+		2586
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2591
+	name = "Holsteinsborg" # Iceland & Greenland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2591
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+		}
+	}
+}

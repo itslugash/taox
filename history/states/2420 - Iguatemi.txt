@@ -1,0 +1,15 @@
+state = {
+	id = 2420
+	name = "Iguatemi" # Mato Grosso
+	manpower = 1
+	state_category = city
+	provinces = {
+		2420
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

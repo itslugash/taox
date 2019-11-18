@@ -1,0 +1,14 @@
+state = {
+	id = 2520
+	name = "Taveuni" # Fiji
+	manpower = 1
+	state_category = city
+	provinces = {
+		2520
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

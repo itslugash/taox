@@ -1,0 +1,15 @@
+state = {
+	id = 2561
+	name = "Siegburg" # Nordrhein
+	manpower = 1
+	state_category = city
+	provinces = {
+		2561
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2618
+	name = "Talaya" # Upper Okhotsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2618
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

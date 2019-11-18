@@ -1,0 +1,15 @@
+state = {
+	id = 2580
+	name = "Stara Ladoga" # Novgorod
+	manpower = 1
+	state_category = city
+	provinces = {
+		2580
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

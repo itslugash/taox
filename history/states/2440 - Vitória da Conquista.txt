@@ -1,0 +1,15 @@
+state = {
+	id = 2440
+	name = "Vitória da Conquista" # Bahia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2440
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

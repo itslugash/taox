@@ -1,0 +1,15 @@
+state = {
+	id = 2475
+	name = "Broken Hill" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2475
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

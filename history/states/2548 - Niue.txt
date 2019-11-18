@@ -1,0 +1,14 @@
+state = {
+	id = 2548
+	name = "Niue" # Fiji
+	manpower = 1
+	state_category = city
+	provinces = {
+		2548
+	}
+	history = {
+		owner = NZL
+		buildings = {
+		}
+	}
+}

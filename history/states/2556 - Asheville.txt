@@ -1,0 +1,15 @@
+state = {
+	id = 2556
+	name = "Asheville" # North Carolina
+	manpower = 1
+	state_category = city
+	provinces = {
+		2556
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
+	}
+}

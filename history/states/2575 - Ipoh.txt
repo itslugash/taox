@@ -1,0 +1,15 @@
+state = {
+	id = 2575
+	name = "Ipoh" # Malaya
+	manpower = 1
+	state_category = city
+	provinces = {
+		2575
+	}
+	history = {
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+		}
+	}
+}

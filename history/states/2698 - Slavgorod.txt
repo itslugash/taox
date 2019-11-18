@@ -1,0 +1,15 @@
+state = {
+	id = 2698
+	name = "Slavgorod" # Tomsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2698
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

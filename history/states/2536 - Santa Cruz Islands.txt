@@ -1,0 +1,14 @@
+state = {
+	id = 2536
+	name = "Santa Cruz Islands" # Southern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2536
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

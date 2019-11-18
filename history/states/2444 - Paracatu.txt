@@ -1,0 +1,15 @@
+state = {
+	id = 2444
+	name = "Paracatu" # Minas Gerais
+	manpower = 1
+	state_category = city
+	provinces = {
+		2444
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

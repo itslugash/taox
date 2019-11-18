@@ -1,0 +1,15 @@
+state = {
+	id = 2515
+	name = "Christchurch" # South Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2515
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

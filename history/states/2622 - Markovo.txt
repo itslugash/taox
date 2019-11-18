@@ -1,0 +1,15 @@
+state = {
+	id = 2622
+	name = "Markovo" # Inner Chuktoka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2622
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2502
+	name = "Dampier" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2502
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

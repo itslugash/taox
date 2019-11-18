@@ -1,0 +1,15 @@
+state = {
+	id = 2445
+	name = "Uberaba" # Minas Gerais
+	manpower = 1
+	state_category = city
+	provinces = {
+		2445
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

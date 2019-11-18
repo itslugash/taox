@@ -1,0 +1,15 @@
+state = {
+	id = 2621
+	name = "Srednekolymsk" # Inner Chuktoka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2621
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

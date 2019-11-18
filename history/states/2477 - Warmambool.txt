@@ -1,0 +1,15 @@
+state = {
+	id = 2477
+	name = "Warmambool" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2477
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

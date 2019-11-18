@@ -1,0 +1,15 @@
+state = {
+	id = 2643
+	name = "Honuu" # North Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2643
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2629
+	name = "Beatton River" # British Columbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2629
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

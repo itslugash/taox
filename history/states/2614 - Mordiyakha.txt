@@ -1,0 +1,15 @@
+state = {
+	id = 2614
+	name = "Mordiyakha" # Ob
+	manpower = 1
+	state_category = city
+	provinces = {
+		2614
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2464
+	name = "Pelotas" # Rio Grande do Sul
+	manpower = 1
+	state_category = city
+	provinces = {
+		2464
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

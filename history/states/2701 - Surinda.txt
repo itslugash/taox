@@ -1,0 +1,15 @@
+state = {
+	id = 2701
+	name = "Surinda" # Middle Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2701
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

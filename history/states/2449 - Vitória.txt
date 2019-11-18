@@ -1,0 +1,15 @@
+state = {
+	id = 2449
+	name = "Vitória" # Rio de Janeiro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2449
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

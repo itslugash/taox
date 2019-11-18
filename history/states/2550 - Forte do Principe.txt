@@ -1,0 +1,15 @@
+state = {
+	id = 2550
+	name = "Forte do Principe" # Mato Grosso
+	manpower = 1
+	state_category = city
+	provinces = {
+		2550
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

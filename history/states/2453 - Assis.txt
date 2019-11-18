@@ -1,0 +1,15 @@
+state = {
+	id = 2453
+	name = "Assis" # São Paulo
+	manpower = 1
+	state_category = city
+	provinces = {
+		2453
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

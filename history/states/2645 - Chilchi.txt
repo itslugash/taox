@@ -1,0 +1,15 @@
+state = {
+	id = 2645
+	name = "Chilchi" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2645
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

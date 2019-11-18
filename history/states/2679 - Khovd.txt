@@ -1,0 +1,15 @@
+state = {
+	id = 2679
+	name = "Khovd" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2679
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

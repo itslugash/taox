@@ -1,0 +1,15 @@
+state = {
+	id = 2659
+	name = "Napalkovo" # Ob
+	manpower = 1
+	state_category = city
+	provinces = {
+		2659
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2513
+	name = "Dunedin" # South Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2513
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

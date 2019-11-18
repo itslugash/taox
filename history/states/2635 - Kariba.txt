@@ -1,0 +1,14 @@
+state = {
+	id = 2635
+	name = "Kariba" # Zambezi
+	manpower = 1
+	state_category = city
+	provinces = {
+		2635
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

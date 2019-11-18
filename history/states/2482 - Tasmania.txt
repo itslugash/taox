@@ -1,0 +1,15 @@
+state = {
+	id = 2482
+	name = "Tasmania" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2482
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

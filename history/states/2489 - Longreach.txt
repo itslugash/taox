@@ -1,0 +1,15 @@
+state = {
+	id = 2489
+	name = "Longreach" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2489
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

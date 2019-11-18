@@ -1,0 +1,15 @@
+state = {
+	id = 2637
+	name = "Novo Mariinsk" # Coastal Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2637
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

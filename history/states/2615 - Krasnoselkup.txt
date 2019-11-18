@@ -1,0 +1,15 @@
+state = {
+	id = 2615
+	name = "Krasnoselkup" # Lower Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2615
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

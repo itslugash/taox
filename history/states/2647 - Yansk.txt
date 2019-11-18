@@ -1,0 +1,15 @@
+state = {
+	id = 2647
+	name = "Yansk" # North Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2647
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

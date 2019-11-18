@@ -1,0 +1,15 @@
+state = {
+	id = 2471
+	name = "Ophir" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2471
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

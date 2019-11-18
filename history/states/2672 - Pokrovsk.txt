@@ -1,0 +1,15 @@
+state = {
+	id = 2672
+	name = "Pokrovsk" # Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2672
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

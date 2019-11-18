@@ -1,0 +1,15 @@
+state = {
+	id = 2700
+	name = "Usogorsk" # Perm
+	manpower = 1
+	state_category = city
+	provinces = {
+		2700
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

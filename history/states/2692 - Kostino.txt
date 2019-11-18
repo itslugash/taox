@@ -1,0 +1,15 @@
+state = {
+	id = 2692
+	name = "Kostino" # Upper Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2692
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

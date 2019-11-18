@@ -1,0 +1,14 @@
+state = {
+	id = 2523
+	name = "Nauru" # Fiji
+	manpower = 1
+	state_category = city
+	provinces = {
+		2523
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

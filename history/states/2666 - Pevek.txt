@@ -1,0 +1,15 @@
+state = {
+	id = 2666
+	name = "Pevek" # Coastal Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2666
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

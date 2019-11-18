@@ -1,0 +1,14 @@
+state = {
+	id = 2579
+	name = "Truk" # Micronesia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2579
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

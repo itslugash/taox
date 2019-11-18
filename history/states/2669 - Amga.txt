@@ -1,0 +1,15 @@
+state = {
+	id = 2669
+	name = "Amga" # Okhotsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2669
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

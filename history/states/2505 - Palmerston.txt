@@ -1,0 +1,15 @@
+state = {
+	id = 2505
+	name = "Palmerston" # Northern Territory
+	manpower = 1
+	state_category = city
+	provinces = {
+		2505
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2549
+	name = "Tarauacá" # Amazonas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2549
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

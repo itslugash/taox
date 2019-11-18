@@ -1,0 +1,15 @@
+state = {
+	id = 2504
+	name = "Esperance" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2504
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

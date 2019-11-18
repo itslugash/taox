@@ -1,0 +1,15 @@
+state = {
+	id = 2594
+	name = "Pickle" # Ontario
+	manpower = 1
+	state_category = city
+	provinces = {
+		2594
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

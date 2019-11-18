@@ -1,0 +1,15 @@
+state = {
+	id = 2497
+	name = "Perth" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2497
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

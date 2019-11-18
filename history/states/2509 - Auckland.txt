@@ -1,0 +1,15 @@
+state = {
+	id = 2509
+	name = "Auckland" # North Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2509
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

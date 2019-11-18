@@ -1,0 +1,15 @@
+state = {
+	id = 2472
+	name = "Eden" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2472
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

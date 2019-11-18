@@ -1,0 +1,15 @@
+state = {
+	id = 2455
+	name = "Iguape" # São Paulo
+	manpower = 1
+	state_category = city
+	provinces = {
+		2455
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

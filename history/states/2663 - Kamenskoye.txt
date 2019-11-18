@@ -1,0 +1,15 @@
+state = {
+	id = 2663
+	name = "Kamenskoye" # Kamchatka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2663
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

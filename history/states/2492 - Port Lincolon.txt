@@ -1,0 +1,15 @@
+state = {
+	id = 2492
+	name = "Port Lincolon" # South Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2492
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

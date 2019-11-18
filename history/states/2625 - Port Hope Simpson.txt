@@ -1,0 +1,15 @@
+state = {
+	id = 2625
+	name = "Port Hope Simpson" # Newfoundland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2625
+	}
+	history = {
+		owner = NEW
+		add_core_of = NEW
+		buildings = {
+		}
+	}
+}

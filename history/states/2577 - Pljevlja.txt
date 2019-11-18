@@ -1,0 +1,15 @@
+state = {
+	id = 2577
+	name = "Pljevlja" # Montenegro
+	manpower = 1
+	state_category = city
+	provinces = {
+		2577
+	}
+	history = {
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+		}
+	}
+}

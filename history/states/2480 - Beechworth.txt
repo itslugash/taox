@@ -1,0 +1,15 @@
+state = {
+	id = 2480
+	name = "Beechworth" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2480
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2605
+	name = "Gibson's Desert" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2605
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

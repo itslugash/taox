@@ -1,0 +1,15 @@
+state = {
+	id = 2459
+	name = "Lajes" # Paraná
+	manpower = 1
+	state_category = city
+	provinces = {
+		2459
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

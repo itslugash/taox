@@ -1,0 +1,14 @@
+state = {
+	id = 2534
+	name = "Solomon Islands" # Southern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2534
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

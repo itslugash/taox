@@ -1,0 +1,14 @@
+state = {
+	id = 2553
+	name = "Tuamotus" # Tahiti
+	manpower = 1
+	state_category = city
+	provinces = {
+		2553
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

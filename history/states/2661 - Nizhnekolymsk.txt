@@ -1,0 +1,15 @@
+state = {
+	id = 2661
+	name = "Nizhnekolymsk" # Coastal Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2661
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

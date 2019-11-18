@@ -1,0 +1,14 @@
+state = {
+	id = 2529
+	name = "Kerema" # Southern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2529
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

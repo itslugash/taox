@@ -1,0 +1,14 @@
+state = {
+	id = 2535
+	name = "New Hebrides" # Southern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2535
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

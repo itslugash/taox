@@ -1,0 +1,15 @@
+state = {
+	id = 2654
+	name = "Khatanga" # North Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2654
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2543
+	name = "Apia" # Tonga
+	manpower = 1
+	state_category = city
+	provinces = {
+		2543
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

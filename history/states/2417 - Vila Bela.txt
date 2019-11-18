@@ -1,0 +1,15 @@
+state = {
+	id = 2417
+	name = "Vila Bela" # Mato Grosso
+	manpower = 1
+	state_category = city
+	provinces = {
+		2417
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2608
+	name = "Khatgal" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2608
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2633
+	name = "Ossora" # Kamchatka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2633
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

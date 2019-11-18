@@ -1,0 +1,15 @@
+state = {
+	id = 2494
+	name = "Port Augusta" # South Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2494
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

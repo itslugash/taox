@@ -1,0 +1,15 @@
+state = {
+	id = 2426
+	name = "Teresina" # Rio Grande do Norte
+	manpower = 1
+	state_category = city
+	provinces = {
+		2426
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

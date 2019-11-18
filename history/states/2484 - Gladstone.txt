@@ -1,0 +1,15 @@
+state = {
+	id = 2484
+	name = "Gladstone" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2484
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

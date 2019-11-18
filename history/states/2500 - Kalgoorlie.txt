@@ -1,0 +1,15 @@
+state = {
+	id = 2500
+	name = "Kalgoorlie" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2500
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

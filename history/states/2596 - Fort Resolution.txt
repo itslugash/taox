@@ -1,0 +1,15 @@
+state = {
+	id = 2596
+	name = "Fort Resolution" # Northwest Territories
+	manpower = 1
+	state_category = city
+	provinces = {
+		2596
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

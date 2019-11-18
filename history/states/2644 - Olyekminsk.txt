@@ -1,0 +1,15 @@
+state = {
+	id = 2644
+	name = "Olyekminsk" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2644
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

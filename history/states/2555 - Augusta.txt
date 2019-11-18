@@ -1,0 +1,15 @@
+state = {
+	id = 2555
+	name = "Augusta" # Georgia - US
+	manpower = 1
+	state_category = city
+	provinces = {
+		2555
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state = {
+	id = 2541
+	name = "Ellice Islands" # Tonga
+	manpower = 1
+	state_category = city
+	provinces = {
+		2541
+	}
+	history = {
+		owner = GBR
+		buildings = {
+		}
+	}
+}

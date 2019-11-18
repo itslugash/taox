@@ -1,0 +1,15 @@
+state = {
+	id = 2495
+	name = "Oodnadatta" # South Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2495
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

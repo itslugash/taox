@@ -1,0 +1,15 @@
+state = {
+	id = 2673
+	name = "Olenyok" # North Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2673
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

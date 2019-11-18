@@ -1,0 +1,15 @@
+state = {
+	id = 2508
+	name = "Norfolk Island" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2508
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

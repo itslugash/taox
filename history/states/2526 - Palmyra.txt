@@ -1,0 +1,14 @@
+state = {
+	id = 2526
+	name = "Palmyra" # Hawaiian Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2526
+	}
+	history = {
+		owner = JAP
+		buildings = {
+		}
+	}
+}

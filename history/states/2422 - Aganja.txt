@@ -1,0 +1,15 @@
+state = {
+	id = 2422
+	name = "Aganja" # Mato Grosso
+	manpower = 1
+	state_category = city
+	provinces = {
+		2422
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

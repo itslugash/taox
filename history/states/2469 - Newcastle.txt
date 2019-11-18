@@ -1,0 +1,15 @@
+state = {
+	id = 2469
+	name = "Newcastle" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2469
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

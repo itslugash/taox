@@ -1,0 +1,15 @@
+state = {
+	id = 2675
+	name = "Yekonda" # Middle Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2675
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

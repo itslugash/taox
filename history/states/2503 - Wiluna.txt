@@ -1,0 +1,15 @@
+state = {
+	id = 2503
+	name = "Wiluna" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2503
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

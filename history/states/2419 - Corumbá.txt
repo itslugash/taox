@@ -1,0 +1,15 @@
+state = {
+	id = 2419
+	name = "Corumbá" # Mato Grosso
+	manpower = 1
+	state_category = city
+	provinces = {
+		2419
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

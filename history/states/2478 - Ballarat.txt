@@ -1,0 +1,15 @@
+state = {
+	id = 2478
+	name = "Ballarat" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2478
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2695
+	name = "Mukhtuya" # West Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2695
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

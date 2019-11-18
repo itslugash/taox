@@ -1,0 +1,15 @@
+state = {
+	id = 2496
+	name = "Tarcoola" # South Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2496
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

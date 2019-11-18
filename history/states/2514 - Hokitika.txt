@@ -1,0 +1,15 @@
+state = {
+	id = 2514
+	name = "Hokitika" # South Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2514
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

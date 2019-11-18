@@ -1,0 +1,14 @@
+state = {
+	id = 2565
+	name = "Cebu" # Visayas
+	manpower = 1
+	state_category = city
+	provinces = {
+		2565
+	}
+	history = {
+		owner = SPA
+		buildings = {
+		}
+	}
+}

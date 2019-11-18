@@ -1,0 +1,15 @@
+state = {
+	id = 2677
+	name = "Dotkon" # Irkutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2677
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

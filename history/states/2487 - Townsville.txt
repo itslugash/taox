@@ -1,0 +1,15 @@
+state = {
+	id = 2487
+	name = "Townsville" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2487
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2593
+	name = "Fort George" # Quebec
+	manpower = 1
+	state_category = city
+	provinces = {
+		2593
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

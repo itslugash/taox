@@ -1,0 +1,15 @@
+state = {
+	id = 2607
+	name = "Lop Nur" # Xinjiang
+	manpower = 1
+	state_category = city
+	provinces = {
+		2607
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2660
+	name = "Bereyezovka" # Inner Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2660
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

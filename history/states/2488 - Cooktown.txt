@@ -1,0 +1,15 @@
+state = {
+	id = 2488
+	name = "Cooktown" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2488
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

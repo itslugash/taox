@@ -1,0 +1,15 @@
+state = {
+	id = 2438
+	name = "Vila do Barra" # Bahia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2438
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

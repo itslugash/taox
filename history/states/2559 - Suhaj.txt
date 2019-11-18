@@ -1,0 +1,15 @@
+state = {
+	id = 2559
+	name = "Suhaj" # Middle Egypt
+	manpower = 1
+	state_category = city
+	provinces = {
+		2559
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2486
+	name = "Toowoomba" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2486
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

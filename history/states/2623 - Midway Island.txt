@@ -1,0 +1,14 @@
+state = {
+	id = 2623
+	name = "Midway Island" # Hawaiian Islands
+	manpower = 1
+	state_category = city
+	provinces = {
+		2623
+	}
+	history = {
+		owner = USA
+		buildings = {
+		}
+	}
+}

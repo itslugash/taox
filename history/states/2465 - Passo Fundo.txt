@@ -1,0 +1,15 @@
+state = {
+	id = 2465
+	name = "Passo Fundo" # Rio Grande do Sul
+	manpower = 1
+	state_category = city
+	provinces = {
+		2465
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2585
+	name = "Matan as Sarah" # Libyan Desert
+	manpower = 1
+	state_category = city
+	provinces = {
+		2585
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		}
+	}
+}

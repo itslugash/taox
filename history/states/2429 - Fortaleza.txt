@@ -1,0 +1,15 @@
+state = {
+	id = 2429
+	name = "Fortaleza" # Rio Grande do Norte
+	manpower = 1
+	state_category = city
+	provinces = {
+		2429
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

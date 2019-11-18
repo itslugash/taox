@@ -1,0 +1,14 @@
+state = {
+	id = 2542
+	name = "Wallis And Futuna" # Tahiti
+	manpower = 1
+	state_category = city
+	provinces = {
+		2542
+	}
+	history = {
+		owner = FRA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2490
+	name = "Charleville" # Queensland
+	manpower = 1
+	state_category = city
+	provinces = {
+		2490
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2501
+	name = "Broome" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2501
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

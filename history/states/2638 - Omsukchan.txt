@@ -1,0 +1,15 @@
+state = {
+	id = 2638
+	name = "Omsukchan" # Upper Okhotsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2638
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

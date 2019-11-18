@@ -1,0 +1,15 @@
+state = {
+	id = 2599
+	name = "Fairbanks" # Alaska
+	manpower = 1
+	state_category = city
+	provinces = {
+		2599
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		}
+	}
+}

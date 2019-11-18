@@ -1,0 +1,15 @@
+state = {
+	id = 2433
+	name = "Cabrobo" # Pernambuco
+	manpower = 1
+	state_category = city
+	provinces = {
+		2433
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

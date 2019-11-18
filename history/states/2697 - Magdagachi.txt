@@ -1,0 +1,15 @@
+state = {
+	id = 2697
+	name = "Magdagachi" # Trans-Baikal
+	manpower = 1
+	state_category = city
+	provinces = {
+		2697
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

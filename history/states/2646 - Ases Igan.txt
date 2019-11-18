@@ -1,0 +1,15 @@
+state = {
+	id = 2646
+	name = "Ases Igan" # Upper Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2646
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

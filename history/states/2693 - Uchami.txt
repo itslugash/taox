@@ -1,0 +1,15 @@
+state = {
+	id = 2693
+	name = "Uchami" # Lower Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2693
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

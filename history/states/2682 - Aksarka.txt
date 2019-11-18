@@ -1,0 +1,15 @@
+state = {
+	id = 2682
+	name = "Kikkiakki" # Upper Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2682
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

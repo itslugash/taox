@@ -1,0 +1,14 @@
+state = {
+	id = 2538
+	name = "Novi Sad" # Slavonia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2538
+	}
+	history = {
+		owner = HUN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2479
+	name = "Sale" # Victoria
+	manpower = 1
+	state_category = city
+	provinces = {
+		2479
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

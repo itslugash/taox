@@ -1,0 +1,15 @@
+state = {
+	id = 2656
+	name = "Tayimba" # Middle Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2656
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

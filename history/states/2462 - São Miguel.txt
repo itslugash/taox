@@ -1,0 +1,15 @@
+state = {
+	id = 2462
+	name = "São Miguel" # Paraná
+	manpower = 1
+	state_category = city
+	provinces = {
+		2462
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

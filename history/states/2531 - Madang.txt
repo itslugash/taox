@@ -1,0 +1,14 @@
+state = {
+	id = 2531
+	name = "Madang" # Northern New Guinea
+	manpower = 1
+	state_category = city
+	provinces = {
+		2531
+	}
+	history = {
+		owner = GER
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2671
+	name = "Zhilinda" # West Yakutsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2671
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

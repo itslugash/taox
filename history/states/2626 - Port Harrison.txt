@@ -1,0 +1,15 @@
+state = {
+	id = 2626
+	name = "Port Harrison" # Quebec
+	manpower = 1
+	state_category = city
+	provinces = {
+		2626
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

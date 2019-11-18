@@ -1,0 +1,15 @@
+state = {
+	id = 2678
+	name = "Bulgan" # Mongolia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2678
+	}
+	history = {
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+		}
+	}
+}

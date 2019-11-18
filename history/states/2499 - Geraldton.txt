@@ -1,0 +1,15 @@
+state = {
+	id = 2499
+	name = "Geraldton" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2499
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2680
+	name = "Dudinka" # Lower Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2680
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

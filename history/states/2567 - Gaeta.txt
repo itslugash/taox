@@ -1,0 +1,15 @@
+state = {
+	id = 2567
+	name = "Gaeta" # Campania
+	manpower = 1
+	state_category = city
+	provinces = {
+		2567
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2670
+	name = "Tiksi" # North Siberia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2670
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

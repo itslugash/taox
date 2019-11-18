@@ -1,0 +1,15 @@
+state = {
+	id = 2473
+	name = "Wagga Wagga" # New South Wales
+	manpower = 1
+	state_category = city
+	provinces = {
+		2473
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

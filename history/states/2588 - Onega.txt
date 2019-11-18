@@ -1,0 +1,15 @@
+state = {
+	id = 2588
+	name = "Onega" # Arkhangelsk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2588
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

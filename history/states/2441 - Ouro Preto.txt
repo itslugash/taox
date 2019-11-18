@@ -1,0 +1,15 @@
+state = {
+	id = 2441
+	name = "Ouro Preto" # Minas Gerais
+	manpower = 1
+	state_category = city
+	provinces = {
+		2441
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

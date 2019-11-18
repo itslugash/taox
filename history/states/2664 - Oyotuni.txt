@@ -1,0 +1,15 @@
+state = {
+	id = 2664
+	name = "Oyotuni" # Inner Chukotka
+	manpower = 1
+	state_category = city
+	provinces = {
+		2664
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

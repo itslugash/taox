@@ -1,0 +1,15 @@
+state = {
+	id = 2431
+	name = "Natal" # Rio Grande do Norte
+	manpower = 1
+	state_category = city
+	provinces = {
+		2431
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+		}
+	}
+}

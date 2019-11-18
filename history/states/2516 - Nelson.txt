@@ -1,0 +1,15 @@
+state = {
+	id = 2516
+	name = "Nelson" # South Island
+	manpower = 1
+	state_category = city
+	provinces = {
+		2516
+	}
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+		}
+	}
+}

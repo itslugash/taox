@@ -1,0 +1,15 @@
+state = {
+	id = 2498
+	name = "Kojonup" # Western Australia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2498
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		}
+	}
+}

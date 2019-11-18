@@ -1,0 +1,15 @@
+state = {
+	id = 2657
+	name = "Svetlogorsk" # Lower Yeniseysk
+	manpower = 1
+	state_category = city
+	provinces = {
+		2657
+	}
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+		}
+	}
+}

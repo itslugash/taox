@@ -1,0 +1,15 @@
+state = {
+	id = 2584
+	name = "Bielsko" # West Galicia
+	manpower = 1
+	state_category = city
+	provinces = {
+		2584
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+		}
+	}
+}
