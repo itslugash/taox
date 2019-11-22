@@ -1,0 +1,8 @@
+supply_area = {
+	id = 14
+	name = "Washington"
+	value = 10
+	states = {
+		78 79 80
+	}
+}

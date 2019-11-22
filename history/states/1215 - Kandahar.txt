@@ -1,7 +1,7 @@
 state = {
 	id = 1215
 	name = "Kandahar" # Western Afghanistan
-	manpower = 1
+	manpower = 415746
 	state_category = city
 	provinces = {
 		1215

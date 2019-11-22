@@ -1,0 +1,8 @@
+supply_area = {
+	id = 11
+	name = "New Brunswick"
+	value = 10
+	states = {
+		68 69 70 71 72 73
+	}
+}

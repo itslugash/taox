@@ -1,0 +1,8 @@
+supply_area = {
+	id = 8
+	name = "Nunavut"
+	value = 10
+	states = {
+		43 44 45 2595
+	}
+}

@@ -1,7 +1,7 @@
 state = {
 	id = 1217
 	name = "Ghazni" # Eastern Afghanistan
-	manpower = 1
+	manpower = 105220
 	state_category = city
 	provinces = {
 		1217

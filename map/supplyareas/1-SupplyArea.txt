@@ -1,0 +1,8 @@
+supply_area = {
+	id = 1
+	name = "Alaska"
+	value = 10
+	states = {
+		1 2 3 4 5 2599 2630 2631
+	}
+}

@@ -1,0 +1,8 @@
+supply_area = {
+	id = 3
+	name = "Northwest Territories"
+	value = 10
+	states = {
+		9 10 11 12 2596 2598
+	}
+}

@@ -1,7 +1,7 @@
 state = {
 	id = 1214
-	name = "Farrah" # Western Afghanistan
-	manpower = 1
+	name = "Farah" # Western Afghanistan
+	manpower = 40297
 	state_category = city
 	provinces = {
 		1214

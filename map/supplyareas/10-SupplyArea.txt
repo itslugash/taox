@@ -1,0 +1,8 @@
+supply_area = {
+	id = 10
+	name = "Quebec"
+	value = 10
+	states = {
+		58 59 60 61 62 63 64 65 66 67 2592 2593 2626 2627
+	}
+}
