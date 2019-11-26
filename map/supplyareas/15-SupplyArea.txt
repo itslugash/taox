@@ -1,8 +1,8 @@
 supply_area = {
 	id = 15
-	name = "SUPPLYAREA_15"
+	name = "Oregon"
 	value = 10
 	states = {
-		36 7 35 
+		81 82 83
 	}
 }

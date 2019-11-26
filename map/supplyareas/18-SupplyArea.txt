@@ -1,8 +1,8 @@
-supply_area={
-	id=18
-	name="SUPPLYAREA_18"
-	value=15
-	states={
-		24 16 27 
+supply_area = {
+	id = 18
+	name = "Nevada-Utah"
+	value = 10
+	states = {
+		94 95 96 97 98 99
 	}
 }
