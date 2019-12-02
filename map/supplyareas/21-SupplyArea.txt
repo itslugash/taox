@@ -1,8 +1,0 @@
-supply_area = {
-	id = 21
-	name = "Colorado"
-	value = 10
-	states = {
-		106 107 108 109
-	}
-}

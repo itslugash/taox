@@ -1,0 +1,480 @@
+supply_area = { # 1 - Alaska
+	id = 1
+	name = "Alaska"
+	value = 10
+	states = {
+		1 2 3 4 5 2599 2630 2631
+	}
+}
+supply_area = { # 2 - Yukon
+	id = 2
+	name = "Yukon"
+	value = 10
+	states = {
+		6 7 8
+	}
+}
+supply_area = { # 3 - Northwest Territories
+	id = 3
+	name = "Northwest Territories"
+	value = 10
+	states = {
+		9 10 11 12 2596 2598
+	}
+}
+supply_area = { # 4 - British Columbia
+	id = 4
+	name = "British Columbia"
+	value = 10
+	states = {
+		13 14 15 16 17 18 19 20 21 2629
+	}
+}
+supply_area = { # 5 - Alberta
+	id = 5
+	name = "Alberta"
+	value = 10
+	states = {
+		22 23 24 25 26 27 28 29 2597
+	}
+}
+supply_area = { # 6 - Saskatchewan
+	id = 6
+	name = "Saskatchewan"
+	value = 10
+	states = {
+		30 31 32 33 34 35
+	}
+}
+supply_area = { # 7 - Manitoba
+	id = 7
+	name = "Manitoba"
+	value = 10
+	states = {
+		36 37 38 39 40 41 42
+	}
+}
+supply_area = { # 8 - Nunavut
+	id = 8
+	name = "Nunavut"
+	value = 10
+	states = {
+		43 44 45 2595
+	}
+}
+supply_area = { # 9 - Ontario
+	id = 9
+	name = "Ontario"
+	value = 10
+	states = {
+		46 47 48 49 50 51 52 53 54 55 56 57 2594 2628
+	}
+}
+supply_area = { # 10 - Quebec
+	id = 10
+	name = "Quebec"
+	value = 10
+	states = {
+		58 59 60 61 62 63 64 65 66 67 2592 2593 2626 2627
+	}
+}
+supply_area = { # 11 - New Brunswick
+	id = 11
+	name = "New Brunswick"
+	value = 10
+	states = {
+		68 69 70 71 72 73
+	}
+}
+supply_area = { # 12 - Newfoundland
+	id = 12
+	name = "Newfoundland"
+	value = 10
+	states = {
+		74 75 76 2625
+	}
+}
+supply_area = { # 13 - Saint Pierre and Miquelon
+	id = 13
+	name = "Saint Pierre and Miquelon"
+	value = 10
+	states = {
+		77
+	}
+}
+supply_area = { # 14 - Washington
+	id = 14
+	name = "Washington"
+	value = 10
+	states = {
+		78 79 80
+	}
+}
+supply_area = { # 15 - Oregon
+	id = 15
+	name = "Oregon"
+	value = 10
+	states = {
+		81 82 83
+	}
+}
+supply_area = { # 16 - California
+	id = 16
+	name = "California"
+	value = 10
+	states = {
+		84 85 86 87 88 89 90
+	}
+}
+supply_area = { # 17 - Idaho
+	id = 17
+	name = "Idaho"
+	value = 10
+	states = {
+		91 92 93
+	}
+}
+supply_area = { # 18 - Nevada-Utah
+	id = 18
+	name = "Nevada-Utah"
+	value = 10
+	states = {
+		94 95 96 97 98 99
+	}
+}
+supply_area = { # 19 - Arizona
+	id = 19
+	name = "Arizona"
+	value = 10
+	states = {
+		100 101 102
+	}
+}
+supply_area = { # 20 - New Mexico
+	id = 20
+	name = "New Mexico"
+	value = 10
+	states = {
+		103 104 105
+	}
+}
+supply_area = { # 21 - Colorado
+	id = 21
+	name = "Colorado"
+	value = 10
+	states = {
+		106 107 108 109
+	}
+}
+supply_area = { # 22 - Wyoming
+	id = 22
+	name = "Wyoming"
+	value = 10
+	states = {
+		110 111 112
+	}
+}
+supply_area = { # 23 - Montana
+	id = 23
+	name = "Montana"
+	value = 10
+	states = {
+		113 114 115 116
+	}
+}
+supply_area = { # 24 - North Dakota
+	id = 24
+	name = "North Dakota"
+	value = 10
+	states = {
+		117 118 119
+	}
+}
+supply_area = { # 25 - South Dakota
+	id = 25
+	name = "South Dakota"
+	value = 10
+	states = {
+		120 121 122
+	}
+}
+supply_area = { # 26 - Nebraska
+	id = 26
+	name = "Nebraska"
+	value = 10
+	states = {
+		123 124 125
+	}
+}
+supply_area = { # 27 - Kansas
+	id = 27
+	name = "Kansas"
+	value = 10
+	states = {
+		126 127 128
+	}
+}
+supply_area = { # 28 - Oklahoma
+	id = 28
+	name = "Oklahoma"
+	value = 10
+	states = {
+		129 130 131
+	}
+}
+supply_area = { # 29 - Texas
+	id = 29
+	name = "Texas"
+	value = 10
+	states = {
+		132 133 134 135 136 137 138
+	}
+}
+supply_area = { # 30 - Louisiana
+	id = 30
+	name = "Louisiana"
+	value = 10
+	states = {
+		139 140 141
+	}
+}
+supply_area = { # 31 - Arkansas
+	id = 31
+	name = "Arkansas"
+	value = 10
+	states = {
+		143 144 145
+	}
+}
+supply_area = { # 32 - Missouri
+	id = 32
+	name = "Missouri"
+	value = 10
+	states = {
+		146 147 148 149 150
+	}
+}
+supply_area = { # 33 - Iowa
+	id = 33
+	name = "Iowa"
+	value = 10
+	states = {
+		151 152 153 154
+	}
+}
+supply_area = { # 34 - Minnesota
+	id = 34
+	name = "Minnesota"
+	value = 10
+	states = {
+		155 156 157 158
+	}
+}
+supply_area = { # 35 - Wisconsin
+	id = 35
+	name = "Wisconsin"
+	value = 10
+	states = {
+		159 160 161 162
+	}
+}
+supply_area = { # 36 - Illinois
+	id = 36
+	name = "Illinois"
+	value = 10
+	states = {
+		163 164 165 166 167 168
+	}
+}
+supply_area = { # 37 - Indiana
+	id = 37
+	name = "Indiana"
+	value = 10
+	states = {
+		169 170 171 172
+	}
+}
+supply_area = { # 38 - Michigan
+	id = 38
+	name = "Michigan"
+	value = 10
+	states = {
+		173 174 175 176 177
+	}
+}
+supply_area = { # 39 - Ohio
+	id = 39
+	name = "Ohio"
+	value = 10
+	states = {
+		178 179 180 181 182
+	}
+}
+supply_area = { # 40 - Kentucky
+	id = 40
+	name = "Kentucky"
+	value = 10
+	states = {
+		184 185 186 187
+	}
+}
+supply_area = { # 41 - Tennessee
+	id = 41
+	name = "Tennessee"
+	value = 10
+	states = {
+		188 189 190 191
+	}
+}
+supply_area = { # 42 - Mississippi
+	id = 42
+	name = "Mississippi"
+	value = 10
+	states = {
+		192 193 194
+	}
+}
+supply_area = { # 43 - Alabama
+	id = 43
+	name = "Alabama"
+	value = 10
+	states = {
+		195 196 197
+	}
+}
+supply_area = { # 44 - Florida
+	id = 44
+	name = "Florida"
+	value = 10
+	states = {
+		198 199 200
+	}
+}
+supply_area = { # 45 - Georgia - US
+	id = 45
+	name = "Georgia - US"
+	value = 10
+	states = {
+		201 202 204 205 206 2555
+	}
+}
+supply_area = { # 46 - Caribbean Islands
+	id = 46
+	name = "Caribbean Islands"
+	value = 10
+	states = {
+		203 2217 2218 2219 2220
+	}
+}
+supply_area = { # 47 - North Carolina
+	id = 47
+	name = "North Carolina"
+	value = 10
+	states = {
+		207 208 209 210 2556
+	}
+}
+supply_area = { # 48 - Virginia
+	id = 48
+	name = "Virginia"
+	value = 10
+	states = {
+		211 212 213 214 215 216
+	}
+}
+supply_area = { # 49 -West Virginia
+	id = 49
+	name = "West Virginia"
+	value = 10
+	states = {
+		217 218
+	}
+}
+supply_area = { # 50 - Maryland
+	id = 50
+	name = "Maryland"
+	value = 10
+	states = {
+		219 221 222
+	}
+}
+supply_area = { # District of Columbia
+	id = 51
+	name = "District of Columbia"
+	value = 10
+	states = {
+		220
+	}
+}
+supply_area = { # 52 - Pennsylvania
+	id = 52
+	name = "Pennsylvania"
+	value = 10
+	states = {
+		223 224 225 226 227 228
+	}
+}
+supply_area = { # 53 - New Jersey
+	id = 53
+	name = "New Jersey"
+	value = 10
+	states = {
+		229 230 231
+	}
+}
+supply_area = { # 54 - New York
+	id = 54
+	name = "New York"
+	value = 10
+	states = {
+		137 196 200 
+	}
+}
+supply_area = { # 55 - Massachussets
+	id = 55
+	name = "Massachussets"
+	value = 10
+	states = {
+		241 242 243 244 245
+	}
+}
+supply_area = { # 56 - New England
+	id = 56
+	name = "New England"
+	value = 10
+	states = {
+		246 247 248 249 250
+	}
+}
+supply_area = { # 57 - Iceland & Greenland
+	id = 57
+	name = "Iceland & Greenland"
+	value = 10
+	states = {
+		251 252 253
+	}
+}
+supply_area = { # 58 -Ulster
+	id = 58
+	name = "Ulster"
+	value = 10
+	states = {
+		254 255 256 257
+	}
+}
+supply_area = { # 59 - Leinster-Connacht
+	id = 59
+	name = "Leinster-Connacht"
+	value = 10
+	states = {
+		258 259 263 264 265
+	}
+}
+supply_area = { # 60 - Munster
+	id = 60
+	name = "Munster"
+	value = 10
+	states = {
+		260 261 262
+	}
+}

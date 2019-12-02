@@ -1,8 +1,0 @@
-supply_area = {
-	id = 6
-	name = "Saskatchewan"
-	value = 10
-	states = {
-		30 31 32 33 34 35
-	}
-}

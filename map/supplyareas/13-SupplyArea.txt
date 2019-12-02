@@ -1,8 +1,0 @@
-supply_area = {
-	id = 13
-	name = "Saint Pierre and Miquelon"
-	value = 10
-	states = {
-		77
-	}
-}
