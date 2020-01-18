@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 280
+	name = "Michigan"
+	provinces = {
+		173 174 175 176 177
+	}
+	weather = {
+	}
+}

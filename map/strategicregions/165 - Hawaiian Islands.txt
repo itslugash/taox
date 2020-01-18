@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 165
+	name = "Hawaiian Islands"
+	provinces = {
+		658 2524 2526 2623
+	}
+	weather = {
+	}
+}

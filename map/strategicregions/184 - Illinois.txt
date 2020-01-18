@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 184
+	name = "Illinois"
+	provinces = {
+		163 164 165 166 167 168
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,22 @@
+﻿capital = 220
+set_popularities = {
+	left-wing_radicalism = 6.18
+	social_liberalism = 27.41
+	market_liberalism = 23.18
+	social_conservatism = 43.23
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1908.11.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "William Howard Taft"
+	desc = "UNS_William_Howard_Taft_desc"
+	picture = "Portrait_UNS_William_Howard_Taft.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
+	}
+}

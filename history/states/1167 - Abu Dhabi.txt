@@ -7,8 +7,7 @@ state = {
 		1167
 	}
 	history = {
-		owner = TRU
-		add_core_of = TRU
+		owner = GRB
 		buildings = {
 		}
 	}

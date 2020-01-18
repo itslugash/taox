@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 1649
 set_popularities = {
 	social_liberalism = 36.98
 	social_conservatism = 63.02

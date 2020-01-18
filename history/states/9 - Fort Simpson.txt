@@ -1,0 +1,15 @@
+state = {
+	id = 9
+	name = "Fort Simpson" # Northwest Territories
+	manpower = 1
+	state_category = city
+	provinces = {
+		9
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

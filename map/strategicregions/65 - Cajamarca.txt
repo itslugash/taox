@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 65
+	name = "Cajamarca"
+	provinces = {
+		2290 2291 2292 2294
+	}
+	weather = {
+	}
+}

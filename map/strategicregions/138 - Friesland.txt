@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 138
+	name = "Friesland"
+	provinces = {
+		383 384 385 386
+	}
+	weather = {
+	}
+}

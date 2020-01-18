@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 254
+	name = "Lima"
+	provinces = {
+		2293 2295 2296 2298 2300
+	}
+	weather = {
+	}
+}

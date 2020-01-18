@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 142
+	name = "Galicia"
+	provinces = {
+		474 475 476 478
+	}
+	weather = {
+	}
+}

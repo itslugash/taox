@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 80
+	name = "Kherson"
+	provinces = {
+		965 968 969 970 971
+	}
+	weather = {
+	}
+}

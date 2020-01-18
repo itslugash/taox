@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 11
+	name = "Aleppo"
+	provinces = {
+		897 900 901 904 905
+	}
+	weather = {
+	}
+}

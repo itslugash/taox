@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 201
+	name = "Jujuy"
+	provinces = {
+		2315 2368 2369 2370 2371 2372
+	}
+	weather = {
+	}
+}

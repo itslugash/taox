@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 182
+	name = "Iceland & Greenland"
+	provinces = {
+		251 252 253 2591 2632 2636
+	}
+	weather = {
+	}
+}

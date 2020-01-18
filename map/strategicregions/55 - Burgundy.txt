@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 55
+	name = "Burgundy"
+	provinces = {
+		428 429 430 431 432 433
+	}
+	weather = {
+	}
+}

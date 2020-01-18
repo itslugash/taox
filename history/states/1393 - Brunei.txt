@@ -7,8 +7,8 @@ state = {
 		1393
 	}
 	history = {
-		owner = BRN
-		add_core_of = BRN
+		owner = BRU
+		add_core_of = BRU
 		buildings = {
 		}
 	}

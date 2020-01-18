@@ -1,22 +1,24 @@
-﻿capital = 16
+﻿capital = 425
 set_popularities = {
-	left-wing_radicalism = 65.99
-	social_liberalism = 14.71
-	social_conservatism = 17.55
-	paternal_autocracy = 1.75
+	leninism = 0.03
+	left-wing_radicalism = 13.27
+	social_democracy = 3.75
+	social_liberalism = 44.36
+	social_conservatism = 19.41
+	facism = 19.18
 }
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = social_democracy
 	last_election = "1906.5.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	name = "Armand Fallières"
+	desc = "FRA_Armand_Fallieres_desc"
+	picture = "Portrait_FRA_Armand_Fallieres.tga"
 	expire = "1999.12.31"
-	ideology = social_conservatism_ideology
+	ideology = social_democracy_ideology
 	traits = {
 	}
 }

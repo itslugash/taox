@@ -1,0 +1,15 @@
+state = {
+	id = 11
+	name = "Yellowknife" # Northwest Territories
+	manpower = 1
+	state_category = city
+	provinces = {
+		11
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

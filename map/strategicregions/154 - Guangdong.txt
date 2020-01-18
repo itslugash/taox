@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 154
+	name = "Guangdong"
+	provinces = {
+		1493 1495 1499 1501
+	}
+	weather = {
+	}
+}

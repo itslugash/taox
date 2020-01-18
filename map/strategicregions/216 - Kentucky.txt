@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 216
+	name = "Kentucky"
+	provinces = {
+		184 185 186 187
+	}
+	weather = {
+	}
+}

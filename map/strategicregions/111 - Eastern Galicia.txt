@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 111
+	name = "Eastern Galicia"
+	provinces = {
+		702 951 952 953
+	}
+	weather = {
+	}
+}

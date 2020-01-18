@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 293
+	name = "Moldavia"
+	provinces = {
+		662 663 670 671 672 673
+	}
+	weather = {
+	}
+}

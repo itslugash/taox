@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 330
+	name = "Normandy"
+	provinces = {
+		415 416 417 418
+	}
+	weather = {
+	}
+}

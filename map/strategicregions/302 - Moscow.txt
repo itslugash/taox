@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 302
+	name = "Moscow"
+	provinces = {
+		1008 1011 1012 1013 1022
+	}
+	weather = {
+	}
+}

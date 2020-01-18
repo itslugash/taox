@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 87
+	name = "Northern Circars"
+	provinces = {
+		1305 1306 1307 1308
+	}
+	weather = {
+	}
+}

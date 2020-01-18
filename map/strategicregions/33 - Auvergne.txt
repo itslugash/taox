@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 33
+	name = "Auvergne"
+	provinces = {
+		448 449 450
+	}
+	weather = {
+	}
+}

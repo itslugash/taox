@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 167
+	name = "Henan"
+	provinces = {
+		1508 1510 1511 1513 1514 1515
+	}
+	weather = {
+	}
+}

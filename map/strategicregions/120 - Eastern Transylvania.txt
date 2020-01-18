@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 120
+	name = "Eastern Transylvania"
+	provinces = {
+		657 659 660 2533
+	}
+	weather = {
+	}
+}

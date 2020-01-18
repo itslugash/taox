@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 60
+	name = "Brest"
+	provinces = {
+		719 936 937 938 939 940
+	}
+	weather = {
+	}
+}

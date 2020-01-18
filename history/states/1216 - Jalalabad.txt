@@ -3,6 +3,7 @@ state = {
 	name = "Jalalabad" # Eastern Afghanistan
 	manpower = 265868
 	state_category = city
+	trade_goods = grain
 	provinces = {
 		1216
 	}

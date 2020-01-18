@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 261
+	name = "Lourenço Marques"
+	provinces = {
+		2049 2050 2051 2052
+	}
+	weather = {
+	}
+}

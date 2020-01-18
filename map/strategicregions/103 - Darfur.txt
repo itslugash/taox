@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 103
+	name = "Darfur"
+	provinces = {
+		1841 1842
+	}
+	weather = {
+	}
+}

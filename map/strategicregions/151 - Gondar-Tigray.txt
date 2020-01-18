@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 151
+	name = "Gondar-Tigray"
+	provinces = {
+		1852 1853 1854 1855 1856 1857 1858
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 172
+	name = "Himalayas"
+	provinces = {
+		1326 1327 1328 1329
+	}
+	weather = {
+	}
+}

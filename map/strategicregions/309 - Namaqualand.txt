@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 309
+	name = "Namaqualand"
+	provinces = {
+		2083 2084 2085 2086
+	}
+	weather = {
+	}
+}

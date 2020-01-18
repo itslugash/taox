@@ -1,0 +1,19 @@
+﻿capital = 2324
+set_popularities = {
+	market_liberalism = 100
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1906.6.25"
+	election_frequency = 72
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Pedro Montt"
+	desc = "CHI_Pedro_Montt_desc"
+	picture = "Portrait_CHI_Pedro_Montt.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
+	}
+}

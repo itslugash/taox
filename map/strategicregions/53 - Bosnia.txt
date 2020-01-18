@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 53
+	name = "Bosnia"
+	provinces = {
+		783 784 785 786 787 788 789
+	}
+	weather = {
+	}
+}

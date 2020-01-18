@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 273
+	name = "Manitoba"
+	provinces = {
+		36 37 38 39 40 41 42
+	}
+	weather = {
+	}
+}

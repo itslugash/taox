@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 132
+	name = "Fars-Kerman"
+	provinces = {
+		1680 1681 1682 1685
+	}
+	weather = {
+	}
+}

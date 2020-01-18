@@ -7,7 +7,7 @@ state = {
 		1458
 	}
 	history = {
-		owner = SPA
+		owner = UNS
 		buildings = {
 		}
 	}

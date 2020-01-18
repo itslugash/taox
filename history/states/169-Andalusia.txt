@@ -7,8 +7,8 @@ state = {
 		169
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = UNS
+		add_core_of = UNS
 		buildings = {
 		}
 	}

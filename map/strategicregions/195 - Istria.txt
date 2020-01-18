@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 195
+	name = "Istria"
+	provinces = {
+		736 737 769 770 778
+	}
+	weather = {
+	}
+}

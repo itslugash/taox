@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 317
+	name = "New England"
+	provinces = {
+		246 247 248 249 250
+	}
+	weather = {
+	}
+}

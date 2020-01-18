@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 150
+	name = "Gilan-Mazandaran"
+	provinces = {
+		1113 1114 1115 1116
+	}
+	weather = {
+	}
+}

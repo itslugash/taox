@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 308
+	name = "Nakhon Ratchasima"
+	provinces = {
+		1350 1351 1358 1359 1365
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 274
+	name = "Maranhão"
+	provinces = {
+		2410 2411 2413 2423 2424 2425 2600
+	}
+	weather = {
+	}
+}

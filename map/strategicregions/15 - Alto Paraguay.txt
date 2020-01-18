@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 15
+	name = "Alto Paraguay"
+	provinces = {
+		2337 2338 2366 2367
+	}
+	weather = {
+	}
+}

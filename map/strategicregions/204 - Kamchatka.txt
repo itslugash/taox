@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 204
+	name = "Kamchatka"
+	provinces = {
+		1073 1074 2616 2633 2663
+	}
+	weather = {
+	}
+}

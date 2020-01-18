@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 181
+	name = "Ica"
+	provinces = {
+		2297 2299 2301 2302
+	}
+	weather = {
+	}
+}

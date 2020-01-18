@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 85
+	name = "Chūbu"
+	provinces = {
+		1645 1646 1647 1648 1675 1676 1677
+	}
+	weather = {
+	}
+}

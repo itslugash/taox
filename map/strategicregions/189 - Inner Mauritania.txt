@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 189
+	name = "Inner Mauritania"
+	provinces = {
+		1780 1781 1782
+	}
+	weather = {
+	}
+}

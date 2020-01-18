@@ -1,0 +1,16 @@
+state = {
+	id = 8
+	name = "Watson Lake" # Yukon Territory
+	manpower = 1
+	state_category = city
+	trade_goods = grain
+	provinces = {
+		8
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

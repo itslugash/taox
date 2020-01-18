@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 299
+	name = "Moravia"
+	provinces = {
+		631 632 688 689
+	}
+	weather = {
+	}
+}

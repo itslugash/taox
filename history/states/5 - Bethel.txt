@@ -1,0 +1,16 @@
+state = {
+	id = 5
+	name = "Bethel" # Alaska
+	manpower = 1
+	state_category = city
+	trade_goods = fish
+	provinces = {
+		5 
+	}
+	history = {
+		owner = UNS
+		add_core_of = UNS
+		buildings = {
+		}
+	}
+}

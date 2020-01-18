@@ -1,0 +1,16 @@
+state = {
+	id = 3
+	name = "Kenai" # Alaska
+	manpower = 1
+	state_category = city
+	trade_goods = fish
+	provinces = {
+		3
+	}
+	history = {
+		owner = UNS
+		add_core_of = UNS
+		buildings = {
+		}
+	}
+}

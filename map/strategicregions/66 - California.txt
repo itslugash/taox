@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 66
+	name = "California"
+	provinces = {
+		84 85 86 87 88 89 90
+	}
+	weather = {
+	}
+}

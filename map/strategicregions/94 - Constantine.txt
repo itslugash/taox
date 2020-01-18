@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 94
+	name = "Constantine"
+	provinces = {
+		1708 1710 1711 1712 1713
+	}
+	weather = {
+	}
+}

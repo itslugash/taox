@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 222
+	name = "Kiribati"
+	provinces = {
+		686 2527
+	}
+	weather = {
+	}
+}

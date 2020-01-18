@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 62
+	name = "Buenos Aires"
+	provinces = {
+		2348 2349 2350 2351 2352 2353 2354 2355
+	}
+	weather = {
+	}
+}

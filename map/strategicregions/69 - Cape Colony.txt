@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 69
+	name = "Cape Colony"
+	provinces = {
+		2087 2088 2089 2090 2091
+	}
+	weather = {
+	}
+}

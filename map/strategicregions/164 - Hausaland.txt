@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 164
+	name = "Hausaland"
+	provinces = {
+		1927 1938 1940 1946 1948
+	}
+	weather = {
+	}
+}

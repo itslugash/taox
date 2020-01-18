@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 126
+	name = "Equatoria"
+	provinces = {
+		1843 1844 1845 1846 1847
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 194
+	name = "Isfahan"
+	provinces = {
+		1127 1128 1129 1130
+	}
+	weather = {
+	}
+}

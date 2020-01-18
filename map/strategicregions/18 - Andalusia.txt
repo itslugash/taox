@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 18
+	name = "Andalusia"
+	provinces = {
+		509 510 511 512
+	}
+	weather = {
+	}
+}

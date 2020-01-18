@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 105
+	name = "Diyarbakır-Van"
+	provinces = {
+		889 890 891 892 893 899
+	}
+	weather = {
+	}
+}

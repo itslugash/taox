@@ -1,8 +1,9 @@
 state = {
 	id = 397
-	name = "Luxembourg" # Wallonie
+	name = "Lëtzebuerg" # Wallonie
 	manpower = 1
 	state_category = city
+	trade_goods = iron
 	provinces = {
 		397
 	}

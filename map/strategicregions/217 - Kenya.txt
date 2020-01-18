@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 217
+	name = "Kenya"
+	provinces = {
+		2024 2025 2030 2031 2032
+	}
+	weather = {
+	}
+}

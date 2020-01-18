@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 14
+	name = "Alsace-Lorraine"
+	provinces = {
+		409 410 412
+	}
+	weather = {
+	}
+}

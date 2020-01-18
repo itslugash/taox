@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 145
+	name = "Gelderland"
+	provinces = {
+		379 380 381 382
+	}
+	weather = {
+	}
+}

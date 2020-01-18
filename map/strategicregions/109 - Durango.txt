@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 109
+	name = "Durango"
+	provinces = {
+		2151 2153 2154 2155 2156 2157
+	}
+	weather = {
+	}
+}

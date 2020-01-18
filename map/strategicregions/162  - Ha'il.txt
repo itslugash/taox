@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 162
+	name = "Ha'il"
+	provinces = {
+		1156 1158 1160 1163
+	}
+	weather = {
+	}
+}

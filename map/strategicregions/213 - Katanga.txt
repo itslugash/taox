@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 213
+	name = "Katanga"
+	provinces = {
+		1987 1988 1989
+	}
+	weather = {
+	}
+}

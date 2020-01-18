@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 46
+	name = "Bihar"
+	provinces = {
+		1247 1248 1249 1250
+	}
+	weather = {
+	}
+}

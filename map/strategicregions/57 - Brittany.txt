@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 57
+	name = "Brittany"
+	provinces = {
+		420 421 422 423 424
+	}
+	weather = {
+	}
+}

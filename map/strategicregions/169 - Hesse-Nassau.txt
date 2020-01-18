@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 169
+	name = "Hesse-Nassau"
+	provinces = {
+		564 565 567 2560
+	}
+	weather = {
+	}
+}

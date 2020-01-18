@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 141
+	name = "Galich"
+	provinces = {
+		987 990 991 1023 1024
+	}
+	weather = {
+	}
+}

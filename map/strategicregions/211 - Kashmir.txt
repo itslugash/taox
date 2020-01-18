@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 211
+	name = "Kashmir"
+	provinces = {
+		1224 1225 1226
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 393
+	name = "Tornai" # Wallonie
+	manpower = 1
+	state_category = city
+	trade_goods = coal
+	provinces = {
+		393
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

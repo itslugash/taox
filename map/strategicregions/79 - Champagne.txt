@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 79
+	name = "Champagne"
+	provinces = {
+		403 404 405 406 408
+	}
+	weather = {
+	}
+}

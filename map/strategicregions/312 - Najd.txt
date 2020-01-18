@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 312
+	name = "Najd"
+	provinces = {
+		1157 1159 1161 1164 2586
+	}
+	weather = {
+	}
+}

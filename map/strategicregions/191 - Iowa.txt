@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 191
+	name = "Iowa"
+	provinces = {
+		151 152 153 154
+	}
+	weather = {
+	}
+}

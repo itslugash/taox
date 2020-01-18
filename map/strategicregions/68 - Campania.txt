@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 68
+	name = "Campania"
+	provinces = {
+		754 755 759 760 761 2567
+	}
+	weather = {
+	}
+}

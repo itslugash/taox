@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 166
+	name = "Hejaz"
+	provinces = {
+		1151 1152 1153 1154 1155
+	}
+	weather = {
+	}
+}

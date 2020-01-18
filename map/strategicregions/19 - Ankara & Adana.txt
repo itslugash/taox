@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 19
+	name = "Ankara & Adana"
+	provinces = {
+		876 877 878 894 896 898
+	}
+	weather = {
+	}
+}

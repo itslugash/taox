@@ -1,4 +1,4 @@
-capital = 266
+capital = 1121
 set_popularities = {
 	left-wing_radicalism = 5.63
 	social_democracy = 39.44

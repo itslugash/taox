@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 300
+	name = "Morelia"
+	provinces = {
+		2170 2171 2174 2178 2179 2180
+	}
+	weather = {
+	}
+}

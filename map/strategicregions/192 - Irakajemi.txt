@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 192
+	name = "Irakajemi"
+	provinces = {
+		1121 1124 1125 1126
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 143
+	name = "Gambia"
+	provinces = {
+		1785 1788 1792 1793 1877 1878
+	}
+	weather = {
+	}
+}

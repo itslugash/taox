@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 106
+	name = "Dobruja"
+	provinces = {
+		674 675 818
+	}
+	weather = {
+	}
+}

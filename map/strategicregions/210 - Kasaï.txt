@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 210
+	name = "Kasaï"
+	provinces = {
+		1984 1986 1994
+	}
+	weather = {
+	}
+}

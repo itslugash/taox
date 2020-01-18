@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 17
+	name = "Amazonas"
+	provinces = {
+		1860 1862 1863 1864
+	}
+	weather = {
+	}
+}

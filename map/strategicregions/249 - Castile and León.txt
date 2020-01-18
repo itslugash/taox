@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 249
+	name = "Castile and León"
+	provinces = {
+		477 479 480 481 482 483 1887 1888 1889 1890
+	}
+	weather = {
+	}
+}

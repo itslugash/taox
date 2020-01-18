@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 250
+	name = "Liberia"
+	provinces = {
+		1887 1888 1889 1890 1891
+	}
+	weather = {
+	}
+}

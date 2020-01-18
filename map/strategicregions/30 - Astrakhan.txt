@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 30
+	name = "Astrakhan"
+	provinces = {
+		1036 1039 1040 1041
+	}
+	weather = {
+	}
+}

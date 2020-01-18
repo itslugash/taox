@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 48
+	name = "Bolívar"
+	provinces = {
+		2269 2275 2276 2277 2278
+	}
+	weather = {
+	}
+}

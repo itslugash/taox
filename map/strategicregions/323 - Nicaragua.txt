@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 323
+	name = "Nicaragua"
+	provinces = {
+		2197 2198 2199 2200
+	}
+	weather = {
+	}
+}

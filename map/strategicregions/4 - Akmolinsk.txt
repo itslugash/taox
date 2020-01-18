@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 4
+	name = "Akmolinsk"
+	provinces = {
+		1181 1184 1193 2612
+	}
+	weather = {
+	}
+}

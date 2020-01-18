@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 225
+	name = "Kursk"
+	provinces = {
+		977 1017 1018 1019
+	}
+	weather = {
+	}
+}

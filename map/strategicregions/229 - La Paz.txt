@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 229
+	name = "La Paz"
+	provinces = {
+		2310 2322 2319 2320 2321
+	}
+	weather = {
+	}
+}

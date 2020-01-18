@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 115
+	name = "Eastern Afghanistan"
+	provinces = {
+		1209 1210 1216 1217
+	}
+	weather = {
+	}
+}

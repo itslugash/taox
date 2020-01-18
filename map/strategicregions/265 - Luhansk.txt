@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 265
+	name = "Luhansk"
+	provinces = {
+		972 973 974 975 976 978 980
+	}
+	weather = {
+	}
+}

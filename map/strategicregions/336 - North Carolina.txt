@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 336
+	name = "North Carolina"
+	provinces = {
+		2556
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 67
+	name = "Cambodia"
+	provinces = {
+		1364 1366 1367 1368
+	}
+	weather = {
+	}
+}

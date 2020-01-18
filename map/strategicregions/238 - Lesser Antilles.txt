@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 238
+	name = "Lesser Antilles"
+	provinces = {
+		2228 2229 2231 2232 2232 2233 2237 2238 2409
+	}
+	weather = {
+	}
+}

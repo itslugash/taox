@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 298
+	name = "Montenegro"
+	provinces = {
+		800 2569 2577 2583
+	}
+	weather = {
+	}
+}

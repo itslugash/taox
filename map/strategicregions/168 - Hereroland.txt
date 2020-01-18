@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 168
+	name = "Hereroland"
+	provinces = {
+		2078 2079 2080 2081 2082
+	}
+	weather = {
+	}
+}

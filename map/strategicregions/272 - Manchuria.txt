@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 272
+	name = "Manchuria"
+	provinces = {
+		1002 1479 1480 1481 1533 1552 1553 1554 1555
+	}
+	weather = {
+	}
+}

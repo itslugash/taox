@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 41
+	name = "Bangkok"
+	provinces = {
+		1346 1347 1352 1353 1354 1392
+	}
+	weather = {
+	}
+}

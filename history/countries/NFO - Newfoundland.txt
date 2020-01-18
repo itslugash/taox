@@ -1,0 +1,20 @@
+capital = 74
+set_popularities = {
+	social_democracy = 72.22
+	social_liberalism = 27.78
+}
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1908.11.17"
+	election_frequency = 36
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Edward VII"
+	desc = "NFO_Edward_VII_desc"
+	picture = "gfx/leaders/GRB/Portrait_GRB_Edward_VII.tga"
+	expire = "1999.12.31"
+	ideology = social_democracy_ideology
+	traits = {
+	}
+}

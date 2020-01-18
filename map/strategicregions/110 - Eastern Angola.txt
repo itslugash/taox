@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 110
+	name = "Eastern Angola"
+	provinces = {
+		2002 2006 2007 2009 2010 2011
+	}
+	weather = {
+	}
+}

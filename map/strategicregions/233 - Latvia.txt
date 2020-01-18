@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 233
+	name = "Latvia"
+	provinces = {
+		354 355 356 357 358 359
+	}
+	weather = {
+	}
+}

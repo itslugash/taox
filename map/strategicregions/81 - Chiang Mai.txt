@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 81
+	name = "Chiang Mai"
+	provinces = {
+		1348 1349 1355 2572
+	}
+	weather = {
+	}
+}

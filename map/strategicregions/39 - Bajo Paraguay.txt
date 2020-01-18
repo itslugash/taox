@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 39
+	name = "Bajo Paraguay"
+	provinces = {
+		2339 2340 2341 2342 2343
+	}
+	weather = {
+	}
+}

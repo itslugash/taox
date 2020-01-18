@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 200
+	name = "Jiangxi"
+	provinces = {
+		1545 1546 1547 1548 1549 1550 1551
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 93
+	name = "Haut-Congo"
+	provinces = {
+		1990 1991 1996 1997 1998
+	}
+	weather = {
+	}
+}

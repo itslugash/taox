@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 56
+	name = "Brandenburg"
+	provinces = {
+		549 550 551 552 681
+	}
+	weather = {
+	}
+}

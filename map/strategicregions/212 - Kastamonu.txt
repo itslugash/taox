@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 212
+	name = "Kastamonu"
+	provinces = {
+		880 881 883
+	}
+	weather = {
+	}
+}

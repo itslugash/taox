@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 116
+	name = "Eastern Cape"
+	provinces = {
+		2096 2097 2098 2099
+	}
+	weather = {
+	}
+}

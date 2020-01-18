@@ -7,7 +7,7 @@ state = {
 		2548
 	}
 	history = {
-		owner = NZL
+		owner = NEW
 		buildings = {
 		}
 	}

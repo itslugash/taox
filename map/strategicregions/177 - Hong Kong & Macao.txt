@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 177
+	name = "Hong Kong & Macao"
+	provinces = {
+		1496 1498
+	}
+	weather = {
+	}
+}

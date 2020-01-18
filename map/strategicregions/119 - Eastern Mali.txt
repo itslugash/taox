@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 119
+	name = "Eastern Mali"
+	provinces = {
+		1798 1799 1800 1802 1804
+	}
+	weather = {
+	}
+}

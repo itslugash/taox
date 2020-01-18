@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 10
+	name = "Alentejo"
+	provinces = {
+		525 526 527
+	}
+	weather = {
+	}
+}

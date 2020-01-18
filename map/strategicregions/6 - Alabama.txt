@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 6
+	name = "Alabama"
+	provinces = {
+		195 196 197
+	}
+	weather = {
+	}
+}

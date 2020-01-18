@@ -1,0 +1,15 @@
+state = {
+	id = 10
+	name = "Inuvik" # Northwest Territories
+	manpower = 1
+	state_category = city
+	provinces = {
+		10
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

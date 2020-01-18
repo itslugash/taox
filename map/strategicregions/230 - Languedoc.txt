@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 230
+	name = "Languedoc"
+	provinces = {
+		461 462 463 464
+	}
+	weather = {
+	}
+}

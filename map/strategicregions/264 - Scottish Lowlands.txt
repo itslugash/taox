@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 264
+	name = "Scottish Lowlands"
+	provinces = {
+		269 270 271 272
+	}
+	weather = {
+	}
+}

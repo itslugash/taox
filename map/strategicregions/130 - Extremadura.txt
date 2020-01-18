@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 130
+	name = "Extremadura"
+	provinces = {
+		521 522 523 524
+	}
+	weather = {
+	}
+}

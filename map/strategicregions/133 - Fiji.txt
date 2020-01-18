@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 133
+	name = "Fiji"
+	provinces = {
+		2454 2520 2523 2548 2552
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 174
+	name = "Hokkaido"
+	provinces = {
+		1088 1089 1642 1643 1644
+	}
+	weather = {
+	}
+}

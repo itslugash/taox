@@ -1,0 +1,15 @@
+state = {
+	id = 18
+	name = "Fort St. John" # British Columbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		18
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

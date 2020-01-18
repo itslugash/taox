@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 1
+	name = "Abu Dhabi"
+	provinces = {
+		1162 1165 1167 1168
+	}
+	weather = {
+	}
+}

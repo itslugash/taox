@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 277
+	name = "Mato Grosso"
+	provinces = {
+		2416 2417 2418 2419 2420 2421 2422 2550
+	}
+	weather = {
+	}
+}

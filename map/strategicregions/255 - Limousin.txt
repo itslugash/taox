@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 255
+	name = "Limousin"
+	provinces = {
+		445 446 447
+	}
+	weather = {
+	}
+}

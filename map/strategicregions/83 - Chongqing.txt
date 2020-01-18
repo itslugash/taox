@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 83
+	name = "Chongqing"
+	provinces = {
+		1577 1579 1581 1583 1584
+	}
+	weather = {
+	}
+}

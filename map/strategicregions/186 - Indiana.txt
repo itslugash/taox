@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 186
+	name = "Indiana"
+	provinces = {
+		169 170 171 172
+	}
+	weather = {
+	}
+}

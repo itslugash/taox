@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 197
+	name = "Jalisco"
+	provinces = {
+		2160 2161 2166 2168 2169
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 42
+	name = "Bas-Congo"
+	provinces = {
+		1982 1983 1985
+	}
+	weather = {
+	}
+}

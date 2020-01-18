@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 268
+	name = "Macaronesia"
+	provinces = {
+		1876 2134 2135
+	}
+	weather = {
+	}
+}

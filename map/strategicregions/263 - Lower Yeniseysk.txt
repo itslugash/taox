@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 263
+	name = "Lower Yeniseysk"
+	provinces = {
+		2615 2657 2658 2680 2693
+	}
+	weather = {
+	}
+}

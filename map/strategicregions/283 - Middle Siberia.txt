@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 283
+	name = "Middle Siberia"
+	provinces = {
+		2655 2656 2675 2694 2701
+	}
+	weather = {
+	}
+}

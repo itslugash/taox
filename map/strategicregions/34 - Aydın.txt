@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 34
+	name = "Aydın"
+	provinces = {
+		864 865 869 870 871 872
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 101
+	name = "Dahomey"
+	provinces = {
+		1919 1920 1921 1922
+	}
+	weather = {
+	}
+}

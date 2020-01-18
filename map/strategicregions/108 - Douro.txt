@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 108
+	name = "Douro"
+	provinces = {
+		518 519 520
+	}
+	weather = {
+	}
+}

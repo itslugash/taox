@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 135
+	name = "Formosa"
+	provinces = {
+		1485 2562
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 311
+	name = "Nebraska"
+	provinces = {
+		123 124 125
+	}
+	weather = {
+	}
+}

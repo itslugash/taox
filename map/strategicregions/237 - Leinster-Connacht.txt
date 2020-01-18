@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 237
+	name = "Leinster-Connacht"
+	provinces = {
+		258 259 263 264 265
+	}
+	weather = {
+	}
+}

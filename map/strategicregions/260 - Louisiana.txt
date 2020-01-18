@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 260
+	name = "Louisiana"
+	provinces = {
+		139 140 141 142
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 1
+	name = "Sitka" # Alaska
+	manpower = 1
+	state_category = city
+	trade_goods = timber
+	provinces = {
+		1
+	}
+	history = {
+		owner = UNS
+		add_core_of = UNS
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 12
+	name = "Fort Reliance" # Northwest Territories
+	manpower = 1
+	state_category = city
+	provinces = {
+		12 
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 319
+	name = "New Mexico"
+	provinces = {
+		103 104 105
+	}
+	weather = {
+	}
+}

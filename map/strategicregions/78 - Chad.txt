@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 78
+	name = "Chad"
+	provinces = {
+		1821 1824 1825 1826
+	}
+	weather = {
+	}
+}

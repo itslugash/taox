@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 334
+	name = "North Borneo"
+	provinces = {
+		1393 1394 1395 1396 1397
+	}
+	weather = {
+	}
+}

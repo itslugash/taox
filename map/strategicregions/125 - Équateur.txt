@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 125
+	name = "Équateur"
+	provinces = {
+		1992 1993 1995
+	}
+	weather = {
+	}
+}

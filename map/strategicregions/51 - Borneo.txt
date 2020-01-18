@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 51
+	name = "Borneo"
+	provinces = {
+		1422 1423 1424 1425 1426 1427 1428 1429
+	}
+	weather = {
+	}
+}

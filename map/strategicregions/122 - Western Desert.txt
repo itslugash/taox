@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 122
+	name = "Western Desert"
+	provinces = {
+		1758 1760 1761 1766
+	}
+	weather = {
+	}
+}

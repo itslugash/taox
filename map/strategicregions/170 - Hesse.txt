@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 170
+	name = "Hesse"
+	provinces = {
+		536 537 566 568
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 327
+	name = "Ningxia"
+	provinces = {
+		1559 1561 1562 2062
+	}
+	weather = {
+	}
+}

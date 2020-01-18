@@ -1,0 +1,16 @@
+state = {
+	id = 387
+	name = "Bruxelles" # Vlaanderen
+	manpower = 1
+	state_category = city
+	trade_goods = sulphur
+	provinces = {
+		387
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 279
+	name = "Mazovia"
+	provinces = {
+		706 707 708 709 711 715
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 318
+	name = "New Jersey"
+	provinces = {
+		229 230 231
+	}
+	weather = {
+	}
+}

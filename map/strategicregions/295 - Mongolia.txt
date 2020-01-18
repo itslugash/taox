@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 295
+	name = "Mongolia"
+	provinces = {
+		1465 1466 1467 1468 2207 2608 2678 2679
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 70
+	name = "Caribbean"
+	provinces = {
+		203 2217 2218 2219 2220
+	}
+	weather = {
+	}
+}

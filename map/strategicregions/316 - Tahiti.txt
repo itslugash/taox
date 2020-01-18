@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 316
+	name = "Tahiti"
+	provinces = {
+		801 1097 2542 2551 2553
+	}
+	weather = {
+	}
+}

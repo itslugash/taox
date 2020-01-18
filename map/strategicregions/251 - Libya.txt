@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 251
+	name = "Libya"
+	provinces = {
+		1733 1734 1735 1736 1737
+	}
+	weather = {
+	}
+}

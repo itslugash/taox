@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 205
+	name = "Kansai"
+	provinces = {
+		1655 1656 1657 1658 1659
+	}
+	weather = {
+	}
+}

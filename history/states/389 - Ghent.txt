@@ -1,0 +1,16 @@
+state = {
+	id = 389
+	name = "Gent" # Vlaanderen
+	manpower = 1
+	state_category = city
+	trade_goods = wool
+	provinces = {
+		389
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

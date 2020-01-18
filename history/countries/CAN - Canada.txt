@@ -1,4 +1,4 @@
-﻿capital = 276
+﻿capital = 57
 set_popularities = {
 	left-wing_radicalism = 0.35
 	social_democracy = 0.96
@@ -14,7 +14,7 @@ set_politics = {
 create_country_leader = {
 	name = "Edward VII"
 	desc = "CAN_Edward_VII_desc"
-	picture = "gfx/leaders/GBR/Portrait_GBR_Edward_VII.tga"
+	picture = "gfx/leaders/GRB/Portrait_GRB_Edward_VII.tga"
 	expire = "1999.12.31"
 	ideology = social_liberalism_ideology
 	traits = {

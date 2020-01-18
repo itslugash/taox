@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 328
+	name = "Northern Norway"
+	provinces = {
+		305 306 307 308 3246
+	}
+	weather = {
+	}
+}

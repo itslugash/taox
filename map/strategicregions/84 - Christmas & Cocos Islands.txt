@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 84
+	name = "Christmas & Cocos Islands"
+	provinces = {
+		2244 2406
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 45
+	name = "Benin"
+	provinces = {
+		1928 1929 1930 1936
+	}
+	weather = {
+	}
+}

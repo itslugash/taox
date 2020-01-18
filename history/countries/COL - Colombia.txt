@@ -1,4 +1,4 @@
-﻿capital = 306
+﻿capital = 2247
 set_popularities = {
 	social_conservatism = 100
 }

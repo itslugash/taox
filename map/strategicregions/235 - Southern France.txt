@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 235
+	name = "Southern France"
+	provinces = {
+		455 456 457
+	}
+	weather = {
+	}
+}

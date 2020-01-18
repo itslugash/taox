@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 23
+	name = "Araucanía"
+	provinces = {
+		2332 2333 2334 2335 2336
+	}
+	weather = {
+	}
+}

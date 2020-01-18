@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 221
+	name = "Kirghizia"
+	provinces = {
+		1189 1190 1202 1203
+	}
+	weather = {
+	}
+}

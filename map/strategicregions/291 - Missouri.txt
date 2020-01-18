@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 291
+	name = "Missouri"
+	provinces = {
+		146 147 148 149 150
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 2704
+	name = "Eupen-Malmedy" # Wallonie
+	manpower = 1
+	state_category = city
+	trade_goods = coal
+	provinces = {
+		3330
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		}
+	}
+}

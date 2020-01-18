@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 214
+	name = "Kazan"
+	provinces = {
+		1020 1027 1028 1030 1032 1033
+	}
+	weather = {
+	}
+}

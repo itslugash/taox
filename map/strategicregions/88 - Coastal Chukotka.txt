@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 88
+	name = "Coastal Chukotka"
+	provinces = {
+		2590 2634 2637 2661 2666
+	}
+	weather = {
+	}
+}

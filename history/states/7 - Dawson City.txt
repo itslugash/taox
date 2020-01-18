@@ -1,0 +1,16 @@
+state = {
+	id = 7
+	name = "Dawson City" # Yukon Territory
+	manpower = 1
+	state_category = city
+	trade_goods = fish
+	provinces = {
+		7
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

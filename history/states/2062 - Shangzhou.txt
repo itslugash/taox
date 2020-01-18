@@ -7,7 +7,7 @@ state = {
 		2062
 	}
 	history = {
-		owner = QNG
+		owner = QIN
 		buildings = {
 		}
 	}

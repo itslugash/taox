@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 75
+	name = "Central India"
+	provinces = {
+		1270 1271 1272 1273 1274 1275 1276
+	}
+	weather = {
+	}
+}

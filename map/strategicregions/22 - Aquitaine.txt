@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 22
+	name = "Aquitaine"
+	provinces = {
+		458 459 460
+	}
+	weather = {
+	}
+}

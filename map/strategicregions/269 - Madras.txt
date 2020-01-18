@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 269
+	name = "Madras"
+	provinces = {
+		1304 1309 1310 1311
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,16 @@
+state = {
+	id = 394
+	name = "Tchålerwè" # Wallonie
+	manpower = 1
+	state_category = city
+	trade_goods = coal
+	provinces = {
+		394
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

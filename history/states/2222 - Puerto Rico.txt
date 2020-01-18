@@ -7,7 +7,7 @@ state = {
 		2222
 	}
 	history = {
-		owner = USA
+		owner = UNS
 		buildings = {
 		}
 	}

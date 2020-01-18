@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 13
+	name = "Algiers"
+	provinces = {
+		1700 1701 1704 1706 1709
+	}
+	weather = {
+	}
+}

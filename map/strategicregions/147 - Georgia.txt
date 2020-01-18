@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 147
+	name = "Georgia"
+	provinces = {
+		201 202 204 205 206 2555
+	}
+	weather = {
+	}
+}

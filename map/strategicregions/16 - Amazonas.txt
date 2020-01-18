@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 16
+	name = "Amazonas"
+	provinces = {
+		2401 2403 2404 2405 2407 2532 2549
+	}
+	weather = {
+	}
+}

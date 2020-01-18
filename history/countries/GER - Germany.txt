@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 549
 set_popularities = {
 	social_democracy = 37.42
 	social_liberalism = 27.85

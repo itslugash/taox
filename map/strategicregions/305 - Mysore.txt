@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 305
+	name = "Mysore"
+	provinces = {
+		1313 1314 1315 1316
+	}
+	weather = {
+	}
+}

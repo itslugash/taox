@@ -1,0 +1,20 @@
+﻿capital = 2295
+set_popularities = {
+	market_liberalism = 80.82
+	social_conservatism = 19.18
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1908.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Augusto Leguía"
+	desc = "PEU_Augusto_Leguia_desc"
+	picture = "Portrait_PEU_Augusto_Leguia.tga"
+	expire = "1999.12.31"
+	ideology = market_liberalism_ideology
+	traits = {
+	}
+}

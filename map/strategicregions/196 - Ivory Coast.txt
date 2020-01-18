@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 196
+	name = "Ivory Coast"
+	provinces = {
+		1892 1894 1897 1898 1899
+	}
+	weather = {
+	}
+}

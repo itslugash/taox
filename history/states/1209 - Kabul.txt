@@ -3,6 +3,7 @@ state = {
 	name = "Kabul" # Eastern Afghanistan
 	manpower = 3070048
 	state_category = city
+	trade_goods = timber
 	provinces = {
 		1209
 	}

@@ -1,0 +1,16 @@
+state = {
+	id = 396
+	name = "Spa" # Wallonie
+	manpower = 1
+	state_category = city
+	trade_goods = coal
+	provinces = {
+		396
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

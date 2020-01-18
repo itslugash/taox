@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 163
+	name = "Hanover"
+	provinces = {
+		534 535 538 540 541 542 543
+	}
+	weather = {
+	}
+}

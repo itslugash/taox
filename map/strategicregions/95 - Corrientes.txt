@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 95
+	name = "Corrientes"
+	provinces = {
+		2356 2357 2358 2554
+	}
+	weather = {
+	}
+}

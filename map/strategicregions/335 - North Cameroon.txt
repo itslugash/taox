@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 335
+	name = "North Cameroon"
+	provinces = {
+		1960 1961 1963 1964
+	}
+	weather = {
+	}
+}

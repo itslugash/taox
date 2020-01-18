@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 199
+	name = "Jiangsu"
+	provinces = {
+		1476 1477 1536 1542 1543 2221
+	}
+	weather = {
+	}
+}

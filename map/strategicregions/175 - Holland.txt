@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 175
+	name = "Holland"
+	provinces = {
+		375 376 377 378
+	}
+	weather = {
+	}
+}

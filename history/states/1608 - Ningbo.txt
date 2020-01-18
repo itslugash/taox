@@ -7,8 +7,8 @@ state = {
 		1608
 	}
 	history = {
-		owner = QNG
-		add_core_of = QNG
+		owner = QIN
+		add_core_of = QIN
 		buildings = {
 		}
 	}

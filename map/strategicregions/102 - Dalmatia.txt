@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 102
+	name = "Dalmatia"
+	provinces = {
+		780 781 782 2582
+	}
+	weather = {
+	}
+}

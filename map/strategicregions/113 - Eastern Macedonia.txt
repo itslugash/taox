@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 113
+	name = "Eastern Macedonia"
+	provinces = {
+		805 822 823 829 830
+	}
+	weather = {
+	}
+}

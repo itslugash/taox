@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 107
+	name = "Dongola"
+	provinces = {
+		1833 1834 1835 1836 1837 2564
+	}
+	weather = {
+	}
+}

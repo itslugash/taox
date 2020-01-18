@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 236
+	name = "Lebanon"
+	provinces = {
+		912 913 914 915
+	}
+	weather = {
+	}
+}

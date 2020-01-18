@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 220
+	name = "Kiev"
+	provinces = {
+		954 958 959 960 961 962 963
+	}
+	weather = {
+	}
+}

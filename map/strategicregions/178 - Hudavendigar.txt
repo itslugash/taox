@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 178
+	name = "Hudavendigar"
+	provinces = {
+		862 863 866 867 868
+	}
+	weather = {
+	}
+}

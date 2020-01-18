@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 38
+	name = "Bahia"
+	provinces = {
+		2436 2437 2438 2439 2440
+	}
+	weather = {
+	}
+}

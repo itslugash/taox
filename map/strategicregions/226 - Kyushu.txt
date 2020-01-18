@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 226
+	name = "Kyushu"
+	provinces = {
+		1660 1661 1662 1663 1664 1678 1679
+	}
+	weather = {
+	}
+}

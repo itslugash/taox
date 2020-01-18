@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 9
+	name = "Alberta"
+	provinces = {
+		22 23 24 25 26 27 28 29
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 2703
+	name = "Jan Mayen" # Nordnorge
+	manpower = 1
+	state_category = city
+	provinces = {
+		3246
+	}
+	history = {
+		owner = NOW
+		add_core_of = NOW
+		buildings = {
+		}
+	}
+}

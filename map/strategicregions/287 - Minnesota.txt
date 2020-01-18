@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 287
+	name = "Minnesota"
+	provinces = {
+		155 156 157 158
+	}
+	weather = {
+	}
+}

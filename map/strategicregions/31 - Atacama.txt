@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 31
+	name = "Atacama"
+	provinces = {
+		2305 2307 2308 2309
+	}
+	weather = {
+	}
+}

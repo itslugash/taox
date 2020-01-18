@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 20
+	name = "Annam"
+	provinces = {
+		1374 1375 1376 1377
+	}
+	weather = {
+	}
+}

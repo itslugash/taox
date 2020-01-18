@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 227
+	name = "Carinthia-Styria"
+	provinces = {
+		616 617 618
+	}
+	weather = {
+	}
+}

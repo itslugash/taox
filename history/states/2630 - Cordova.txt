@@ -3,12 +3,13 @@ state = {
 	name = "Cordova" # Alaska
 	manpower = 1
 	state_category = city
+	trade_goods = fish
 	provinces = {
 		2630
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = UNS
+		add_core_of = UNS
 		buildings = {
 		}
 	}

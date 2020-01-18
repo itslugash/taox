@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 121
+	name = "Ecuador"
+	provinces = {
+		2279 2280 2281 2282 2283 2284 2285
+	}
+	weather = {
+	}
+}

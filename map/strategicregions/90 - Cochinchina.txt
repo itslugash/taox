@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 90
+	name = "Cochinchina"
+	provinces = {
+		1378 1379 1380 1381 1382 1383
+	}
+	weather = {
+	}
+}

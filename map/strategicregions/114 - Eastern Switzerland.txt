@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 114
+	name = "Eastern Switzerland"
+	provinces = {
+		603 606 611 2568
+	}
+	weather = {
+	}
+}

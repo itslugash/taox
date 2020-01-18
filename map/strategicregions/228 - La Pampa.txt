@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 228
+	name = "La Pampa"
+	provinces = {
+		2379 2380 2381 2382 2383 2384
+	}
+	weather = {
+	}
+}

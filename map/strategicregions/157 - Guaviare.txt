@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 157
+	name = "Guaviare"
+	provinces = {
+		2260 2261 2262 2263
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 144
+	name = "Gansu"
+	provinces = {
+		1488 1489 1490 1491 1492
+	}
+	weather = {
+	}
+}

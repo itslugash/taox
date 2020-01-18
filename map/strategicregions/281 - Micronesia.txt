@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 281
+	name = "Micronesia"
+	provinces = {
+		610 2517 2518 2519 2521 2522 2579
+	}
+	weather = {
+	}
+}

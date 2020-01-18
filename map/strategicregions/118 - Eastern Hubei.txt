@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 118
+	name = "Eastern Hubei"
+	provinces = {
+		1516 1517 1518 1522
+	}
+	weather = {
+	}
+}

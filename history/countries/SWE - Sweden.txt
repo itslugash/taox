@@ -1,4 +1,4 @@
-﻿capital = 141
+﻿capital = 322
 set_popularities = {
 	social_democracy = 28.5
 	market_liberalism = 40.2

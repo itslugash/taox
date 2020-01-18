@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 231
+	name = "Laos"
+	provinces = {
+		1356 1357 1360 1361 1362
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 173
+	name = "Hispaniola"
+	provinces = {
+		2213 2214 2215 2216
+	}
+	weather = {
+	}
+}

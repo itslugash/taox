@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 310
+	name = "KwaZulu-Natal"
+	provinces = {
+		2104 2111 2112 2113
+	}
+	weather = {
+	}
+}

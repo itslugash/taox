@@ -1,0 +1,16 @@
+state = {
+	id = 2
+	name = "Yakutat" # Alaska
+	manpower = 1
+	state_category = city
+	trade_goods = fish
+	provinces = {
+		2
+ 	}
+	history = {
+		owner = UNS
+		add_core_of = UNS
+		buildings = {
+		}
+	}
+}

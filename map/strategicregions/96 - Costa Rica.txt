@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 96
+	name = "Costa Rica"
+	provinces = {
+		2201 2202 2203
+	}
+	weather = {
+	}
+}

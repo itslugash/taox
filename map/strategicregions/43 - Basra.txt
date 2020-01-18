@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 43
+	name = "Basra"
+	provinces = {
+		930 932 933 935
+	}
+	weather = {
+	}
+}

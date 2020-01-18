@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 54
+	name = "Botswana"
+	provinces = {
+		2074 2075 2076 2077 2574
+	}
+	weather = {
+	}
+}

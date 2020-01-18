@@ -7,8 +7,8 @@ state = {
 		384
 	}
 	history = {
-		owner = NLD
-		add_core_of = NLD
+		owner = NET
+		add_core_of = NET
 		buildings = {
 		}
 	}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 117
+	name = "East of England"
+	provinces = {
+		291 292 293 295
+	}
+	weather = {
+	}
+}

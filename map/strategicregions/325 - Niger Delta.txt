@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 325
+	name = "Niger Delta"
+	provinces = {
+		1931 1932 1933 1934 1935
+	}
+	weather = {
+	}
+}

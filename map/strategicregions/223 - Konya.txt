@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 223
+	name = "Konya"
+	provinces = {
+		873 874 875 895
+	}
+	weather = {
+	}
+}

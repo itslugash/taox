@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 5
+	name = "Rif"
+	provinces = {
+		1686 1687 1688 1689
+	}
+	weather = {
+	}
+}

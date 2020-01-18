@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 64
+	name = "Busan"
+	provinces = {
+		1632 1633 1634 1635 1637
+	}
+	weather = {
+	}
+}

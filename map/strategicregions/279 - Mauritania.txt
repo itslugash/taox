@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 279
+	name = "Mauritania"
+	provinces = {
+		1775 1776 1777 1778 1779
+	}
+	weather = {
+	}
+}

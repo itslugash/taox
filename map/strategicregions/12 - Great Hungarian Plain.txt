@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 12
+	name = "Great Hungarian Plain"
+	provinces = {
+		647 651 652 653
+	}
+	weather = {
+	}
+}

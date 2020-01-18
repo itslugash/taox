@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 284
+	name = "Midlands"
+	provinces = {
+		284 286 287 288 289 290
+	}
+	weather = {
+	}
+}

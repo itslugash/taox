@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 29
+	name = "Assam"
+	provinces = {
+		1258 1259 1260 2566
+	}
+	weather = {
+	}
+}

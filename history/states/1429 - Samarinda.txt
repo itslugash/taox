@@ -7,7 +7,7 @@ state = {
 		1429
 	}
 	history = {
-		owner = NLD
+		owner = NET
 		buildings = {
 		}
 	}

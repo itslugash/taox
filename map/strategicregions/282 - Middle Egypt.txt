@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 282
+	name = "Middle Egypt"
+	provinces = {
+		1762 1763 1764 1765 1772
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 271
+	name = "Peninsular Malaysia"
+	provinces = {
+		1384 1385 1386 1387 1388 1389 1390 1391 2575 2576
+	}
+	weather = {
+	}
+}

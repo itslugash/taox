@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 203
+	name = "Kachin"
+	provinces = {
+		1339 1341 1342
+	}
+	weather = {
+	}
+}

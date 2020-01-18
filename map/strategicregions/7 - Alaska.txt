@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 7
+	name = "Alaska"
+	provinces = {
+		1 2 3 4 5 2599 2630 2631
+	}
+	weather = {
+	}
+}

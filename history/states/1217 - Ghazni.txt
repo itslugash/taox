@@ -3,6 +3,7 @@ state = {
 	name = "Ghazni" # Eastern Afghanistan
 	manpower = 105220
 	state_category = city
+	trade_goods = wool
 	provinces = {
 		1217
 	}

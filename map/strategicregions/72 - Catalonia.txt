@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 72
+	name = "Catalonia"
+	provinces = {
+		498 499 500 501 502
+	}
+	weather = {
+	}
+}

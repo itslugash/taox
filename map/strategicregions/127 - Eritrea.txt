@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 127
+	name = "Eritrea"
+	provinces = {
+		1848 1849 1850 1851 1875
+	}
+	weather = {
+	}
+}

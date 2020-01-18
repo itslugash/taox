@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 288
+	name = "Minsk"
+	provinces = {
+		718 941 942
+	}
+	weather = {
+	}
+}

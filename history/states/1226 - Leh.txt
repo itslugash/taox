@@ -7,8 +7,8 @@ state = {
 		1226
 	}
 	history = {
-		owner = KAS
-		add_core_of = KAS
+		owner = JAM
+		add_core_of = JAM
 		buildings = {
 		}
 	}

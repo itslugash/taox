@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 134
+	name = "Florida"
+	provinces = {
+		198 199 200
+	}
+	weather = {
+	}
+}

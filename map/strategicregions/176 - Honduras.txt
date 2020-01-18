@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 176
+	name = "Honduras"
+	provinces = {
+		2191 2192 2193 2194 2195 2196
+	}
+	weather = {
+	}
+}

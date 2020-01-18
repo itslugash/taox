@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 153
+	name = "Greater Antilles"
+	provinces = {
+		2209 2210 2211 2212
+	}
+	weather = {
+	}
+}

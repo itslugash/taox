@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 37
+	name = "Baghdad"
+	provinces = {
+		926 927 929 931 934
+	}
+	weather = {
+	}
+}

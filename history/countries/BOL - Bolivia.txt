@@ -1,4 +1,4 @@
-﻿capital = 302
+﻿capital = 2310
 set_popularities = {
 	social_liberalism = 100
 }

@@ -1,4 +1,4 @@
-﻿capital = 43
+﻿capital = 641
 set_research_slots = 4
 set_popularities = {
 	market_liberalism = 95.14
@@ -13,7 +13,7 @@ set_politics = {
 create_country_leader = {
 	name = "Franz Joseph I"
 	desc = "HUN_Franz_Joseph_I_desc"
-	picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_I.tga"
+	picture = "gfx/leaders/AUT/Portrait_AUT_Franz_Joseph_I.tga"
 	expire = "1999.12.31"
 	ideology = market_liberalism_ideology
 	traits = {

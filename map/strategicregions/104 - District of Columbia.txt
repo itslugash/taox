@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 104
+	name = "District of Columbia"
+	provinces = {
+		220
+	}
+	weather = {
+	}
+}

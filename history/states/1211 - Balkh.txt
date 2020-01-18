@@ -3,6 +3,7 @@ state = {
 	name = "Balkh" # Western Afghanistan
 	manpower = 57461
 	state_category = city
+	trade_goods = grain
 	provinces = {
 		1211
 	}

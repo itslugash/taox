@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 331
+	name = "Norrland"
+	provinces = {
+		317 318 319 320 321
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 25
+	name = "Arizona"
+	provinces = {
+		100 101 102
+	}
+	weather = {
+	}
+}

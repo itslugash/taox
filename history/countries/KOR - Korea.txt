@@ -1,4 +1,4 @@
-﻿capital = 525
+﻿capital = 1624
 set_popularities = {
 	paternal_autocracy = 100
 }

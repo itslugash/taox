@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 187
+	name = "Ingria"
+	provinces = {
+		994 996 997 1006
+	}
+	weather = {
+	}
+}

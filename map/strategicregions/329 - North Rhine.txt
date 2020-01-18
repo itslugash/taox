@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 329
+	name = "North Rhine"
+	provinces = {
+		575 576 577 578 579 2561
+	}
+	weather = {
+	}
+}

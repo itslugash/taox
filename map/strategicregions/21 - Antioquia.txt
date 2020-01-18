@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 21
+	name = "Antioquia"
+	provinces = {
+		2251 2252 2253 2254 2255
+	}
+	weather = {
+	}
+}

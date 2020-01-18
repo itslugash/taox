@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 183
+	name = "Île-de-France"
+	provinces = {
+		425 426 427
+	}
+	weather = {
+	}
+}

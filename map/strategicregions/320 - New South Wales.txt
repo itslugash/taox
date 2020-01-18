@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 320
+	name = "New South Wales"
+	provinces = {
+		2468 2469 2470 2471 2472 2473 2474 2475 2508
+	}
+	weather = {
+	}
+}

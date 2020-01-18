@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 306
+	name = "Mexico"
+	provinces = {
+		2162 2164 2172 2175 2176 2177
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 82
+	name = "Chihuahua"
+	provinces = {
+		2142 2143 2144 2145 2147 2152
+	}
+	weather = {
+	}
+}

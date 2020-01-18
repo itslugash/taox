@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 218
+	name = "Khorasan"
+	provinces = {
+		1147 1148 1149 1150
+	}
+	weather = {
+	}
+}

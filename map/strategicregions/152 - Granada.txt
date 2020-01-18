@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 152
+	name = "Granada"
+	provinces = {
+		513 514 515 516
+	}
+	weather = {
+	}
+}

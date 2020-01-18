@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 50
+	name = "Bonin Islands"
+	provinces = {
+		1654 2525
+	}
+	weather = {
+	}
+}

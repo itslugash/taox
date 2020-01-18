@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 202
+	name = "Jutland"
+	provinces = {
+		366 367 368 2557
+	}
+	weather = {
+	}
+}

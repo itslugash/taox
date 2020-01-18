@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 262
+	name = "Lower Egypt"
+	provinces = {
+		1745 1747 1750 1751
+	}
+	weather = {
+	}
+}

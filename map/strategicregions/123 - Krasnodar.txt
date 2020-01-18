@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 123
+	name = "Krasnodar"
+	provinces = {
+		1048 1049 1050 1051 1056
+	}
+	weather = {
+	}
+}

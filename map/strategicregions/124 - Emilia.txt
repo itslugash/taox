@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 124
+	name = "Emilia"
+	provinces = {
+		738 739 740 746
+	}
+	weather = {
+	}
+}

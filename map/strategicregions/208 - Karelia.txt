@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 208
+	name = "Karelia"
+	provinces = {
+		983 984 988 995 2587
+	}
+	weather = {
+	}
+}

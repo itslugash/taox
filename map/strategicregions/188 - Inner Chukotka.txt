@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 188
+	name = "Inner Chukotka"
+	provinces = {
+		2621 2622 2660 2662 2664
+	}
+	weather = {
+	}
+}

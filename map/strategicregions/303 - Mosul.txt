@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 303
+	name = "Mosul"
+	provinces = {
+		923 924 925 928
+	}
+	weather = {
+	}
+}

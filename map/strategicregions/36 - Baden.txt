@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 36
+	name = "Baden"
+	provinces = {
+		569 586 587 588
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 326
+	name = "Nigeria"
+	provinces = {
+		1937 1942 1943 1944 1950
+	}
+	weather = {
+	}
+}

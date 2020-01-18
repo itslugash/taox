@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 27
+	name = "Arkhangelsk"
+	provinces = {
+		981 2588
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 278
+	name = "Mersa Matruh"
+	provinces = {
+		1752 1753 1754 1759
+	}
+	weather = {
+	}
+}

@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 307
+	name = "Nagpur"
+	provinces = {
+		1277 1278 1279 1280 1281 1282
+	}
+	weather = {
+	}
+}

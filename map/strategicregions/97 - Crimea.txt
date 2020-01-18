@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 97
+	name = "Crimea"
+	provinces = {
+		964 966 967
+	}
+	weather = {
+	}
+}

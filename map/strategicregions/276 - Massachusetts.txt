@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 276
+	name = "Massachusetts"
+	provinces = {
+		241 242 243 244 245
+	}
+	weather = {
+	}
+}

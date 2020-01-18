@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 63
+	name = "Bulgaria"
+	provinces = {
+		810 811 812 813 814
+	}
+	weather = {
+	}
+}

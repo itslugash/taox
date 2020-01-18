@@ -1,0 +1,15 @@
+state = {
+	id = 17
+	name = "Atlin" # British Columbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		17
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

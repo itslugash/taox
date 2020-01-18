@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 49
+	name = "Bombay"
+	provinces = {
+		1297 1298 1299 1300 1301 1302 1303
+	}
+	weather = {
+	}
+}

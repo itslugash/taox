@@ -7,8 +7,8 @@ state = {
 		686
 	}
 	history = {
-		owner = GBR
-		add_core_of = GBR
+		owner = GRB
+		add_core_of = GRB
 		buildings = {
 		}
 	}

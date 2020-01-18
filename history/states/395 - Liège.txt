@@ -1,0 +1,16 @@
+state = {
+	id = 395
+	name = "Lidje" # Wallonie
+	manpower = 1
+	state_category = city
+	trade_goods = iron
+	provinces = {
+		395
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+		}
+	}
+}

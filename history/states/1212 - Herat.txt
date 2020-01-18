@@ -3,6 +3,7 @@ state = {
 	name = "Herat" # Western Afghanistan
 	manpower = 325586
 	state_category = city
+	trade_goods = fruit
 	provinces = {
 		1212
 	}

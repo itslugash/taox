@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 24
+	name = "Arequipa"
+	provinces = {
+		2303 2304 2578
+	}
+	weather = {
+	}
+}

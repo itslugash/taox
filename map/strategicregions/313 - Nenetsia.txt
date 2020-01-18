@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 313
+	name = "Nenetsia"
+	provinces = {
+		985 986 2589 2687 2688 2699
+	}
+	weather = {
+	}
+}

@@ -1,10 +1,10 @@
-﻿capital = 107
+﻿capital = 794
 set_popularities = {
 	social_democracy = 7.27
 	social_liberalism = 38.13
 	social_conservatism = 54.6
 }
-set_politics = { 72.9
+set_politics = {
 	ruling_party = social_conservatism
 	last_election = "1908.5.31"
 	election_frequency = 36

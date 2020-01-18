@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 137
+	name = "Franconia"
+	provinces = {
+		595 596 597 598
+	}
+	weather = {
+	}
+}

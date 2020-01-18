@@ -1,0 +1,15 @@
+state = {
+	id = 15
+	name = "Prince Rupert" # British Columbia
+	manpower = 1
+	state_category = city
+	provinces = {
+		15
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		}
+	}
+}

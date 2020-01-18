@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 61
+	name = "Budjak"
+	provinces = {
+		676 677 678
+	}
+	weather = {
+	}
+}

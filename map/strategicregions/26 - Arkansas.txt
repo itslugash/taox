@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 26
+	name = "Arkansas"
+	provinces = {
+		143 144 145
+	}
+	weather = {
+	}
+}

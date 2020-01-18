@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 99
+	name = "Cundinamarca"
+	provinces = {
+		2247 2248 2249
+	}
+	weather = {
+	}
+}

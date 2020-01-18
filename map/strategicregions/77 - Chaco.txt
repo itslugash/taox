@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 77
+	name = "Chaco"
+	provinces = {
+		1321 1322 1323 1324 1325 2128
+	}
+	weather = {
+	}
+}

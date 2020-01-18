@@ -7,7 +7,7 @@ state = {
 		1320
 	}
 	history = {
-		owner = GBR
+		owner = GRB
 		buildings = {
 		}
 	}

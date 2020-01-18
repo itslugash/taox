@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 140
+	name = "Gabon"
+	provinces = {
+		1972 1973 1974 1975 1976
+	}
+	weather = {
+	}
+}

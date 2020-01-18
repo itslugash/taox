@@ -1,0 +1,9 @@
+strategic_region = {
+	id = 8
+	name = "Albania"
+	provinces = {
+		849 850 851 852 853
+	}
+	weather = {
+	}
+}

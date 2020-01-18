@@ -7,8 +7,7 @@ state = {
 		1319
 	}
 	history = {
-		owner = TRA
-		add_core_of = TRA
+		owner = GRB
 		buildings = {
 		}
 	}
